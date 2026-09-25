@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-25T17:02:26.143684+00:00",
+  "source": "https://www.fec.gov/documents/1550/federalelections88.pdf",
+  "format": "OCR text extracted from official PDF",
+  "records": 359,
+  "file": "data/normalized/fec_presidential_general_1988.json",
+  "note": "OCR-distorted historical labels are preserved; stable synthetic IDs and source-page metadata are included."
+}

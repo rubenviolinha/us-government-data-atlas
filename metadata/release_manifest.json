@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T17:00:19.760675+00:00",
+  "generated_at": "2026-09-25T17:02:49.879123+00:00",
   "algorithm": "sha256",
-  "dataset_count": 73,
+  "dataset_count": 74,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -213,6 +213,11 @@
       "file": "data/normalized/fec_federal_elections_2022.json",
       "sha256": "e8cb7ad8e33365464ca22b259797e3c497d645bb84a39e7f3cff457b06499a3e",
       "size_bytes": 1880658
+    },
+    {
+      "file": "data/normalized/fec_presidential_general_1988.json",
+      "sha256": "171ae5e66be264b65282f35a352a0f71797f30215c9d350755b8aeac169ab0f8",
+      "size_bytes": 124049
     },
     {
       "file": "data/normalized/fec_presidential_general_1992.json",
