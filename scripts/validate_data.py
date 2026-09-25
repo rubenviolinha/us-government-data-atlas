@@ -36,6 +36,7 @@ def main():
     county_population = load("county_population_2020_2024.json")
     place_population = load("place_population_2020_2024.json")
     state_population = load("state_population_2020_2024.json")
+    cbsa_population = load("cbsa_population_2020_2024.json")
     legislators = load("congressional_legislators.json")
     governors = load("governors_nga.json")
     presidents = load("presidents.json")
@@ -109,6 +110,9 @@ def main():
     assert_unique(place_population, "GEOID", "place population GEOIDs")
     assert len(state_population) >= 50
     assert_unique(state_population, "state_fips", "state population FIPS codes")
+    assert len(cbsa_population) >= 900
+    assert_unique(cbsa_population, "cbsa", "CBSA population codes")
+    assert all(row.get("area_type") in {"Metropolitan Statistical Area", "Micropolitan Statistical Area"} for row in cbsa_population)
     legislator_ids = [person.get("id", {}).get("bioguide") for person in legislators]
     assert all(legislator_ids)
     assert len(legislator_ids) == len(set(legislator_ids)), "duplicate legislator Bioguide IDs"

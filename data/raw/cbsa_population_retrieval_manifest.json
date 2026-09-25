@@ -1,0 +1,7 @@
+{
+  "retrieved_at": "2026-09-25T16:41:42.792483+00:00",
+  "source": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2024/metro/totals/cbsa-est2024-alldata.csv",
+  "records": 925,
+  "file": "data/normalized/cbsa_population_2020_2024.json",
+  "note": "Metropolitan and micropolitan statistical areas only; county and metropolitan-division rows excluded."
+}

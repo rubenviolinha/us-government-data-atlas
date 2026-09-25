@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:39:35.588893+00:00",
+  "generated_at": "2026-09-25T16:41:59.759957+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -1283,6 +1283,24 @@
         "note",
         "state_name",
         "status"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/cbsa_population_2020_2024.json",
+      "format": "JSON",
+      "records": 925,
+      "size_bytes": 284861,
+      "fields_sample": [
+        "area_type",
+        "cbsa",
+        "name",
+        "population_2020",
+        "population_2021",
+        "population_2022",
+        "population_2023",
+        "population_2024",
+        "source_vintage"
       ],
       "source_urls_sample": []
     },
