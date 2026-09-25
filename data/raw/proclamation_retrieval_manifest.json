@@ -1,0 +1,9 @@
+{
+  "retrieved_at": "2026-09-25T10:26:16.043418+00:00",
+  "source": "https://www.federalregister.gov/api/v1/documents.json",
+  "query": "presidential document type proclamation",
+  "raw_file": "data/raw/presidential-proclamations-federal-register.json",
+  "file": "data/normalized/presidential_proclamations.json",
+  "records": 4436,
+  "pages": 5
+}

@@ -8,6 +8,15 @@
     "notes": "Structured historical index with governor name, jurisdiction, party, years in office, and profile URL. The NGA is an association rather than a federal agency; treat this as a curated reference source and reconcile against state archives for authoritative completeness."
   },
   {
+    "id": "federal-register-proclamations",
+    "name": "Federal Register Presidential Proclamations",
+    "publisher": "Office of the Federal Register",
+    "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Btype%5D%5B%5D=PRESDOCU&conditions%5Bpresidential_document_type%5D=proclamation",
+    "format": "JSON API",
+    "license": "U.S. government public data",
+    "notes": "Presidential proclamation metadata with dates, titles, order numbers where available, abstracts, presidents, and official document links."
+  },
+  {
     "id": "federal-register-executive-orders",
     "name": "Federal Register Executive Orders",
     "publisher": "Office of the Federal Register",
