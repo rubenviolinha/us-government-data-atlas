@@ -30,10 +30,10 @@
     {
       "id": "state-legislators",
       "domain": "state_government",
-      "status": "source_selection_required",
-      "source": "https://openstates.org/",
-      "needed_from_user": "Approval of an Open States or state-by-state source strategy, plus any required API credentials.",
-      "why": "There is no single keyless authoritative national feed equivalent to the congressional and governor sources already used."
+      "status": "source_selected_keyless_bulk",
+      "source": "https://github.com/openstates/people",
+      "needed_from_user": "Nothing for the current Open States bulk snapshot; state-by-state official reconciliation can be added later if required.",
+      "why": "Open States publishes current and retired state-legislator records in a public Git repository; the atlas records the source and excludes its federal duplicate records."
     }
   ]
 }

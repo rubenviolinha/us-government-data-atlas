@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T12:25:03.088880+00:00",
+  "generated_at": "2026-09-25T13:57:49.808846+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -1339,6 +1339,37 @@
         "https://history.state.gov/departmenthistory/people/by-name/v",
         "https://history.state.gov/departmenthistory/people/by-name/w",
         "https://history.state.gov/departmenthistory/people/by-name/z"
+      ]
+    },
+    {
+      "file": "data/normalized/state_legislators_openstates.json",
+      "format": "JSON",
+      "records": 21159,
+      "size_bytes": 36180996,
+      "fields_sample": [
+        "birth_date",
+        "email",
+        "extras",
+        "family_name",
+        "gender",
+        "given_name",
+        "id",
+        "ids",
+        "image",
+        "links",
+        "name",
+        "offices",
+        "other_identifiers",
+        "other_names",
+        "party",
+        "record_type",
+        "roles",
+        "source",
+        "sources",
+        "state"
+      ],
+      "source_urls_sample": [
+        "https://github.com/openstates/people"
       ]
     },
     {

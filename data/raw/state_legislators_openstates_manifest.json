@@ -1,0 +1,11 @@
+{
+  "retrieved_at": "2026-09-25T13:57:21.370539+00:00",
+  "source": "https://github.com/openstates/people",
+  "archive": "https://codeload.github.com/openstates/people/tar.gz/refs/heads/main",
+  "records": 21159,
+  "excluded_federal_records": 727,
+  "current_records": 7420,
+  "retired_records": 13739,
+  "license_note": "Open States states that its bulk data is provided under a public-domain dedication; verify attribution and source terms before redistribution.",
+  "file": "data/normalized/state_legislators_openstates.json"
+}

@@ -44,6 +44,15 @@
     "notes": "Keyless place-level extracts for B19013, B25001, and B02001, preserving estimates and margins of error."
   },
   {
+    "id": "openstates-people",
+    "name": "Open States People Bulk Repository",
+    "publisher": "Open States / Plural",
+    "url": "https://github.com/openstates/people",
+    "format": "YAML in Git repository",
+    "license": "Public-domain dedication stated by Open States; verify attribution and source terms before redistribution",
+    "notes": "Current and retired state-legislature records; federal records in the repository are excluded because congressional history is maintained separately."
+  },
+  {
     "id": "census-acs-profile-variable-metadata",
     "name": "ACS 2023 5-Year Profile Variable Metadata",
     "publisher": "U.S. Census Bureau",
