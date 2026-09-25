@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T18:44:05.820523+00:00",
+  "generated_at": "2026-09-25T18:46:11.331998+00:00",
   "algorithm": "sha256",
-  "dataset_count": 97,
+  "dataset_count": 98,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -33,6 +33,11 @@
       "file": "data/normalized/acs_county_race_2023.json",
       "sha256": "59e7f19f9903805c1be5452b5c425a394df857b260aa591578458e5c3e47b916",
       "size_bytes": 2458963
+    },
+    {
+      "file": "data/normalized/acs_district_age_sex_2023.json",
+      "sha256": "d51290914150704c0bcbfbeb2a14e6eb00b204109e32bf4eb349fee3f10795b3",
+      "size_bytes": 1223320
     },
     {
       "file": "data/normalized/acs_district_education_2023.json",

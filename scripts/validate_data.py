@@ -117,6 +117,7 @@ def main():
     acs_district_race = load("acs_district_race_2023.json")
     acs_district_education = load("acs_district_education_2023.json")
     acs_district_poverty = load("acs_district_poverty_2023.json")
+    acs_district_age_sex = load("acs_district_age_sex_2023.json")
 
     assert len(states) >= 50
     catalog_files = {entry["file"] for entry in catalog.get("entries", [])}
@@ -319,7 +320,7 @@ def main():
     assert all(row.get("fec_id") and row.get("candidate_name") and row.get("office") in {"senate", "house"} and row.get("election_year") == 2004 and row.get("source") for row in fec_federal_elections_2004)
     assert len(fec_federal_elections_2002) >= 900
     assert all(row.get("fec_id") and row.get("candidate_name") and row.get("office") in {"senate", "house"} and row.get("election_year") == 2002 and row.get("source") for row in fec_federal_elections_2002)
-    for label, rows in (("education", acs_district_education), ("poverty", acs_district_poverty), ("income", acs_district_income), ("housing", acs_district_housing), ("race", acs_district_race)):
+    for label, rows in (("age_sex", acs_district_age_sex), ("education", acs_district_education), ("poverty", acs_district_poverty), ("income", acs_district_income), ("housing", acs_district_housing), ("race", acs_district_race)):
         assert len(rows) >= 400, f"too few ACS district {label} rows"
         assert all(row.get("GEO_ID", "").startswith("5001800US") and row.get("district_geoid") and row.get("state_fips") and row.get("source") for row in rows)
         assert len({row["GEO_ID"] for row in rows}) == len(rows), f"duplicate ACS district {label} GEO_IDs"
