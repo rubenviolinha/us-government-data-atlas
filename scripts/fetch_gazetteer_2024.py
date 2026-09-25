@@ -17,6 +17,8 @@ FILES = {
     "counties": ("2024_Gaz_counties_national.zip", "counties_2024.json"),
     "zctas": ("2024_Gaz_zcta_national.zip", "zctas_2024.json"),
     "cbsa": ("2024_Gaz_cbsa_national.zip", "cbsa_geography_2024.json"),
+    "places": ("2024_Gaz_place_national.zip", "places_2024.json"),
+    "tracts": ("2024_Gaz_tracts_national.zip", "tracts_2024.json"),
 }
 
 def main():

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T20:43:01.718047+00:00",
+  "generated_at": "2026-09-25T20:45:30.759177+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -4330,6 +4330,27 @@
       "source_urls_sample": []
     },
     {
+      "file": "data/normalized/places_2024.json",
+      "format": "JSON",
+      "records": 32333,
+      "size_bytes": 9915635,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "ANSICODE",
+        "AWATER",
+        "AWATER_SQMI",
+        "FUNCSTAT",
+        "GEOID",
+        "INTPTLAT",
+        "INTPTLONG",
+        "LSAD",
+        "NAME",
+        "USPS"
+      ],
+      "source_urls_sample": []
+    },
+    {
       "file": "data/normalized/presidential_documents.json",
       "format": "JSON",
       "records": 1667,
@@ -5067,6 +5088,23 @@
       "format": "JSON",
       "records": 85396,
       "size_bytes": 18472046,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "INTPTLAT",
+        "INTPTLONG",
+        "USPS"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/tracts_2024.json",
+      "format": "JSON",
+      "records": 85396,
+      "size_bytes": 18471937,
       "fields_sample": [
         "ALAND",
         "ALAND_SQMI",

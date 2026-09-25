@@ -690,7 +690,7 @@
     "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/",
     "format": "ZIP archives containing tab-delimited Gazetteer files",
     "license": "U.S. government public data",
-    "notes": "Keyless 2024 national snapshots for counties, ZIP Code Tabulation Areas, and core-based statistical areas."
+    "notes": "Keyless 2024 national snapshots for counties, ZIP Code Tabulation Areas, core-based statistical areas, places, and census tracts."
   },
   {
     "id": "national-archives-presidents",

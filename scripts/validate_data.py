@@ -351,12 +351,18 @@ def main():
     counties_2024 = load("counties_2024.json")
     zctas_2024 = load("zctas_2024.json")
     cbsa_2024 = load("cbsa_geography_2024.json")
+    places_2024 = load("places_2024.json")
+    tracts_2024 = load("tracts_2024.json")
     assert len(counties_2024) == 3222
     assert len(zctas_2024) == 33791
     assert len(cbsa_2024) == 935
+    assert len(places_2024) == 32333
+    assert len(tracts_2024) == 85396
     assert_unique(counties_2024, "GEOID", "2024 county GEOIDs")
     assert_unique(zctas_2024, "GEOID", "2024 ZCTA GEOIDs")
     assert_unique(cbsa_2024, "GEOID", "2024 CBSA GEOIDs")
+    assert_unique(places_2024, "GEOID", "2024 place GEOIDs")
+    assert_unique(tracts_2024, "GEOID", "2024 tract GEOIDs")
     assert len({row["GEO_ID"] for row in acs_state_age_sex}) == len(acs_state_age_sex)
     for label, rows in (("education", acs_state_education), ("poverty", acs_state_poverty), ("income", acs_state_income), ("housing", acs_state_housing), ("race", acs_state_race)):
         assert len(rows) >= 50, f"too few ACS {label} rows"
