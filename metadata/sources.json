@@ -738,6 +738,15 @@
     "notes": "Keyless compact B01001, B15003, B17001, B19013, B25001, and B02001 profiles for states, congressional districts, counties, places, and PUMAs. County and place coverage follows the ACS 1-year eligibility universe."
   },
   {
+    "id": "census-acs-2024-5yr-county-place-profiles",
+    "name": "ACS 2024 5-Year County and Place Compact Profiles",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/",
+    "format": "Delimited bulk summary files",
+    "license": "U.S. government public data",
+    "notes": "Keyless compact B01001, B15003, B17001, B19013, B25001, and B02001 profiles with broad county and place coverage."
+  },
+  {
     "id": "fec-presidential-ballots-2024",
     "name": "FEC 2024 Presidential General Ballot Candidates",
     "publisher": "Federal Election Commission",

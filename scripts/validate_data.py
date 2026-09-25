@@ -421,6 +421,13 @@ def main():
                 assert len(rows) >= 2300, (geo_kind, label, len(rows))
             assert len({row[geoid_key] for row in rows}) == len(rows)
             assert all(row.get("source") and row.get("vintage") == "2024 ACS 1-year" for row in rows)
+    for geo_kind, expected in (("county", 3222), ("place", 32330)):
+        geoid_key = {"county": "county_geoid", "place": "place_geoid"}[geo_kind]
+        for label in ("age_sex", "education", "poverty", "income", "housing", "race"):
+            rows = load(f"acs_{geo_kind}_{label}_2024_5yr.json")
+            assert len(rows) == expected, (geo_kind, label, len(rows), expected)
+            assert len({row[geoid_key] for row in rows}) == len(rows)
+            assert all(row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
     assert_unique(counties_2024, "GEOID", "2024 county GEOIDs")
     assert_unique(zctas_2024, "GEOID", "2024 ZCTA GEOIDs")
     assert_unique(cbsa_2024, "GEOID", "2024 CBSA GEOIDs")
