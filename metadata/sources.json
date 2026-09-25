@@ -41,7 +41,7 @@
     "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/",
     "format": "Pipe-delimited summary files",
     "license": "U.S. government public data",
-    "notes": "Keyless place-level extracts for B19013, B25001, and B02001, preserving estimates and margins of error."
+    "notes": "Keyless place-level extracts for B01001, B19013, B25001, and B02001, preserving estimates and margins of error."
   },
   {
     "id": "openstates-people",

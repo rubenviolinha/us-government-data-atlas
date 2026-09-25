@@ -57,6 +57,7 @@ def main():
     acs_place_income = load("acs_place_income_2023.json")
     acs_place_housing = load("acs_place_housing_2023.json")
     acs_place_race = load("acs_place_race_2023.json")
+    acs_place_age_sex = load("acs_place_age_sex_2023.json")
     state_legislators = load("state_legislators_openstates.json")
     fec_candidates = load("fec_candidate_master_2024.json")
     fec_committees = load("fec_committee_master_2024.json")
@@ -142,8 +143,11 @@ def main():
         assert len({row["GEO_ID"] for row in rows}) == len(rows), f"duplicate ACS county {label} GEO_IDs"
     for label, rows in (("income", acs_place_income), ("housing", acs_place_housing), ("race", acs_place_race)):
         assert len(rows) >= 30000, f"too few ACS place {label} rows"
-    assert all(row.get("GEO_ID", "").startswith("1600000US") and row.get("place_fips") and row.get("state_fips") and row.get("source") for row in rows)
-    assert len({row["GEO_ID"] for row in rows}) == len(rows), f"duplicate ACS place {label} GEO_IDs"
+        assert all(row.get("GEO_ID", "").startswith("1600000US") and row.get("place_fips") and row.get("state_fips") and row.get("source") for row in rows)
+        assert len({row["GEO_ID"] for row in rows}) == len(rows), f"duplicate ACS place {label} GEO_IDs"
+    assert len(acs_place_age_sex) >= 30000
+    assert all(row.get("GEO_ID", "").startswith("1600000US") and row.get("place_fips") and row.get("state_fips") and row.get("source") for row in acs_place_age_sex)
+    assert len({row["GEO_ID"] for row in acs_place_age_sex}) == len(acs_place_age_sex), "duplicate ACS place age/sex GEO_IDs"
     assert len(state_legislators) >= 15000
     assert all(row.get("id") and row.get("name") and row.get("state") in {item["abbr"] for item in states} and row.get("record_type") in {"current", "retired"} and row.get("source") for row in state_legislators)
     assert len({row["id"] for row in state_legislators}) == len(state_legislators), "duplicate Open States legislator IDs"
@@ -174,7 +178,7 @@ def main():
     assert all(len(row["GEOID"]) == 5 for row in county_population)
     assert all(len(row["GEOID"]) == 7 for row in place_population)
     assert all(term.get("type") in {"rep", "sen"} for person in legislators for term in person.get("terms", []))
-    print(f"validated states={len(states)} counties={len(counties)} county_population={len(county_population)} places={len(places)} place_population={len(place_population)} legislators={len(legislators)} state_legislators={len(state_legislators)} fec_candidates={len(fec_candidates)} fec_committees={len(fec_committees)} fec_results={len(fec_results)} fec_federal_elections={len(fec_federal_elections)} acs_district_income={len(acs_district_income)} acs_district_housing={len(acs_district_housing)} acs_district_race={len(acs_district_race)} governors={len(governors)} governor_terms={sum(len(row.get('terms', [])) for row in governors)} presidents={len(presidents)} vice_presidents={len(vice_presidents)} justices={len(justices)} federal_judges={len(federal_judges)} secretaries_of_state={len(secretaries_of_state)} state_department_principals={len(state_department_principals)} acs_variables={len(acs_variables)} acs_state_age_sex={len(acs_state_age_sex)} acs_state_income={len(acs_state_income)} acs_state_housing={len(acs_state_housing)} acs_state_race={len(acs_state_race)} acs_county_age_sex={len(acs_county_age_sex)} acs_county_income={len(acs_county_income)} acs_county_housing={len(acs_county_housing)} acs_county_race={len(acs_county_race)} acs_place_income={len(acs_place_income)} acs_place_housing={len(acs_place_housing)} acs_place_race={len(acs_place_race)} agencies={len(agencies)} executive_orders={len(executive_orders)} proclamations={len(proclamations)} presidential_documents={len(presidential_documents)} zctas={len(zctas)} relationships={len(relationships)} districts_2020={len(districts)} districts_2025={len(current_districts)}")
+    print(f"validated states={len(states)} counties={len(counties)} county_population={len(county_population)} places={len(places)} place_population={len(place_population)} legislators={len(legislators)} state_legislators={len(state_legislators)} fec_candidates={len(fec_candidates)} fec_committees={len(fec_committees)} fec_results={len(fec_results)} fec_federal_elections={len(fec_federal_elections)} acs_district_income={len(acs_district_income)} acs_district_housing={len(acs_district_housing)} acs_district_race={len(acs_district_race)} governors={len(governors)} governor_terms={sum(len(row.get('terms', [])) for row in governors)} presidents={len(presidents)} vice_presidents={len(vice_presidents)} justices={len(justices)} federal_judges={len(federal_judges)} secretaries_of_state={len(secretaries_of_state)} state_department_principals={len(state_department_principals)} acs_variables={len(acs_variables)} acs_state_age_sex={len(acs_state_age_sex)} acs_state_income={len(acs_state_income)} acs_state_housing={len(acs_state_housing)} acs_state_race={len(acs_state_race)} acs_county_age_sex={len(acs_county_age_sex)} acs_county_income={len(acs_county_income)} acs_county_housing={len(acs_county_housing)} acs_county_race={len(acs_county_race)} acs_place_age_sex={len(acs_place_age_sex)} acs_place_income={len(acs_place_income)} acs_place_housing={len(acs_place_housing)} acs_place_race={len(acs_place_race)} agencies={len(agencies)} executive_orders={len(executive_orders)} proclamations={len(proclamations)} presidential_documents={len(presidential_documents)} zctas={len(zctas)} relationships={len(relationships)} districts_2020={len(districts)} districts_2025={len(current_districts)}")
 
 
 if __name__ == "__main__":
