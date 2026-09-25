@@ -1,5 +1,14 @@
 [
   {
+    "id": "usgs-gnis-populated-places",
+    "name": "GNIS Populated Places",
+    "publisher": "U.S. Geological Survey / Board on Geographic Names",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/GeographicNames/Topical/PopulatedPlaces_National_Text.zip",
+    "format": "ZIP containing text and metadata",
+    "license": "U.S. government public data",
+    "notes": "Official populated-place names, feature IDs, counties, and coordinates."
+  },
+  {
     "id": "usgs-gnis-domestic-names",
     "name": "GNIS Domestic Names",
     "publisher": "U.S. Geological Survey / Board on Geographic Names",

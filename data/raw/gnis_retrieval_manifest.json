@@ -1,5 +1,5 @@
 {
-  "retrieved_at": "2026-09-25T09:58:40.301572+00:00",
+  "retrieved_at": "2026-09-25T09:59:36.757138+00:00",
   "source": "https://prd-tnm.s3.amazonaws.com/StagedProducts/GeographicNames/Topical/GovernmentUnits_National_Text.zip",
   "records": 3324,
   "unit_types": [
@@ -10,5 +10,10 @@
   "files": [
     "data/raw/gnis_government_units_national.zip",
     "data/normalized/gnis_government_units.json"
-  ]
+  ],
+  "populated_places": {
+    "source": "https://prd-tnm.s3.amazonaws.com/StagedProducts/GeographicNames/Topical/PopulatedPlaces_National_Text.zip",
+    "records": 190923,
+    "file": "data/normalized/gnis_populated_places.json"
+  }
 }
