@@ -729,6 +729,15 @@
     "notes": "Keyless state, county, place, CBSA, and CSA annual population estimates through 2025."
   },
   {
+    "id": "census-acs-2024-1yr-profiles",
+    "name": "ACS 2024 1-Year Compact Profiles",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/",
+    "format": "Delimited bulk summary files",
+    "license": "U.S. government public data",
+    "notes": "Keyless compact B01001, B15003, B17001, B19013, B25001, and B02001 profiles for states, congressional districts, and PUMAs."
+  },
+  {
     "id": "national-archives-presidents",
     "name": "U.S. Presidents in the Census Records",
     "publisher": "National Archives",

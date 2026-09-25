@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T21:03:37.771841+00:00",
+  "generated_at": "2026-09-25T21:09:00.350973+00:00",
   "algorithm": "sha256",
-  "dataset_count": 170,
+  "dataset_count": 188,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -70,9 +70,19 @@
       "size_bytes": 1223320
     },
     {
+      "file": "data/normalized/acs_district_age_sex_2024.json",
+      "sha256": "122225a092ca4687f66276e73f2b6b7411ea8b7a51a2c43f03b6e4e111ed7263",
+      "size_bytes": 207141
+    },
+    {
       "file": "data/normalized/acs_district_education_2023.json",
       "sha256": "b28a8b9b3375050c6f6521dd86a7ee5688f02aa7e181dadfbef27fce59f9124e",
       "size_bytes": 679449
+    },
+    {
+      "file": "data/normalized/acs_district_education_2024.json",
+      "sha256": "fda7513a889ba9b6b84c9ec174f0309151ad3c781ceb8a33b0702e135fa817ee",
+      "size_bytes": 217289
     },
     {
       "file": "data/normalized/acs_district_housing_2023.json",
@@ -80,9 +90,19 @@
       "size_bytes": 158787
     },
     {
+      "file": "data/normalized/acs_district_housing_2024.json",
+      "sha256": "28ec066fa127653acecf357942e7cabe65b2592643560cb194bf130ac8cd0e80",
+      "size_bytes": 183264
+    },
+    {
       "file": "data/normalized/acs_district_income_2023.json",
       "sha256": "0f9e0942ec45a44056d6404d780ef68b10bc12dc98877372dfd984bbed303674",
       "size_bytes": 158443
+    },
+    {
+      "file": "data/normalized/acs_district_income_2024.json",
+      "sha256": "0048e4b878c41b4a524d985f628b28749f249f47d9db828b5530b07c5387630a",
+      "size_bytes": 182935
     },
     {
       "file": "data/normalized/acs_district_poverty_2023.json",
@@ -90,9 +110,19 @@
       "size_bytes": 1431958
     },
     {
+      "file": "data/normalized/acs_district_poverty_2024.json",
+      "sha256": "8eebde5a7807571c5e3e0cb889f0b7defd3c16754d43f0154bfcba275b5fe308",
+      "size_bytes": 206379
+    },
+    {
       "file": "data/normalized/acs_district_race_2023.json",
       "sha256": "d11684807bce5da077640bafe46370da7cbcfc5a06e0d59dab372081b8b7d11e",
       "size_bytes": 359318
+    },
+    {
+      "file": "data/normalized/acs_district_race_2024.json",
+      "sha256": "b365fc6537321ae2979a37021c6281eb133473151aeaf50bc54efb870211d0e0",
+      "size_bytes": 262656
     },
     {
       "file": "data/normalized/acs_place_age_sex_2023.json",
@@ -140,6 +170,11 @@
       "size_bytes": 1179939
     },
     {
+      "file": "data/normalized/acs_puma_age_sex_2024.json",
+      "sha256": "3c0be484e1f6c345e81371b95b4d548097fda0ee4c7ee4c347c6fbbd8cd72a25",
+      "size_bytes": 1179564
+    },
+    {
       "file": "data/normalized/acs_puma_education_2023.json",
       "sha256": "bdd09b8a2c32a0e404e432d2c730490a0391bde9853c9f342d6ea12cf42888fa",
       "size_bytes": 1191046
@@ -148,6 +183,11 @@
       "file": "data/normalized/acs_puma_education_2023_5yr.json",
       "sha256": "8d81afa745329ebc04940cc4345c93141e08d343eb9d0739226278f97a379563",
       "size_bytes": 1231900
+    },
+    {
+      "file": "data/normalized/acs_puma_education_2024.json",
+      "sha256": "d82b1dc20d2c307a695f8186074d262324a6a64f8d05aab41bc33df40a999c07",
+      "size_bytes": 1185812
     },
     {
       "file": "data/normalized/acs_puma_housing_2023.json",
@@ -160,6 +200,11 @@
       "size_bytes": 1043175
     },
     {
+      "file": "data/normalized/acs_puma_housing_2024.json",
+      "sha256": "a544ed7c761eede622d073277485d12efbdcaeae42ffceaedf30528dc8741791",
+      "size_bytes": 1044416
+    },
+    {
       "file": "data/normalized/acs_puma_income_2023.json",
       "sha256": "80ee9cbd5b5d57975ff17c4dbe8c05a57c207cbfe08cec93174456175933b477",
       "size_bytes": 1046073
@@ -168,6 +213,11 @@
       "file": "data/normalized/acs_puma_income_2023_5yr.json",
       "sha256": "135caf54a764ac9d8ea9ed6489540db50b5a158b634575f93baa26d9a4b603f7",
       "size_bytes": 1045723
+    },
+    {
+      "file": "data/normalized/acs_puma_income_2024.json",
+      "sha256": "5265cc958cda49613f875218ba3ac50e2ee19255734742f6cab69c77a04393cb",
+      "size_bytes": 1046260
     },
     {
       "file": "data/normalized/acs_puma_poverty_2023.json",
@@ -180,6 +230,11 @@
       "size_bytes": 1173494
     },
     {
+      "file": "data/normalized/acs_puma_poverty_2024.json",
+      "sha256": "647bf177b7e24278de6667a09ddd0056961c04a11dac71e862e4571a3d02828f",
+      "size_bytes": 1173501
+    },
+    {
       "file": "data/normalized/acs_puma_race_2023.json",
       "sha256": "b134dcf91a52ea050f7a8051938a0008ffda2c704376b50d1fba1f9d127ca67d",
       "size_bytes": 1484143
@@ -188,6 +243,11 @@
       "file": "data/normalized/acs_puma_race_2023_5yr.json",
       "sha256": "2b53627864a6b1733ac4bd4e2fa1ceac299c24f8c64e6a0a42b171bf89d9887e",
       "size_bytes": 1485952
+    },
+    {
+      "file": "data/normalized/acs_puma_race_2024.json",
+      "sha256": "f4f0e490cc282a45e7242011dba64df2f8d5857317378a209e3aab5e3c2d2234",
+      "size_bytes": 1483205
     },
     {
       "file": "data/normalized/acs_school_age_sex_2023.json",
@@ -225,9 +285,19 @@
       "size_bytes": 141933
     },
     {
+      "file": "data/normalized/acs_state_age_sex_2024.json",
+      "sha256": "25c85df9b7499ca1887bf3d13f321a91484a17db97112077c6918a4333273d94",
+      "size_bytes": 24723
+    },
+    {
       "file": "data/normalized/acs_state_education_2023.json",
       "sha256": "a9f78d04b47d4723d4c215d255343d898227b82466dcea8a96538f38dc568148",
       "size_bytes": 78461
+    },
+    {
+      "file": "data/normalized/acs_state_education_2024.json",
+      "sha256": "89f26f3e561f5240daac3989f7fcf225cc8e7d351bf1e563e2dea77b0306a784",
+      "size_bytes": 25653
     },
     {
       "file": "data/normalized/acs_state_housing_2023.json",
@@ -235,9 +305,19 @@
       "size_bytes": 15478
     },
     {
+      "file": "data/normalized/acs_state_housing_2024.json",
+      "sha256": "7c9764f778f82b82d361f0cfaa75d40a83fea837aefd2d851d8efb41639ff1d1",
+      "size_bytes": 21461
+    },
+    {
       "file": "data/normalized/acs_state_income_2023.json",
       "sha256": "8c6d3996990f9c6e76adf4fe95b8825b5a4907656b974cc7b2cf6885c38b9ad6",
       "size_bytes": 15392
+    },
+    {
+      "file": "data/normalized/acs_state_income_2024.json",
+      "sha256": "9fe55a5e526b99ba460ef055baf02d25120370245cb22667d46dfc1deca39da0",
+      "size_bytes": 21393
     },
     {
       "file": "data/normalized/acs_state_poverty_2023.json",
@@ -245,9 +325,19 @@
       "size_bytes": 168938
     },
     {
+      "file": "data/normalized/acs_state_poverty_2024.json",
+      "sha256": "c205f42d56057a577f2f725319dfc158dd51f511282b502f47dab8ca0b554eb4",
+      "size_bytes": 24317
+    },
+    {
       "file": "data/normalized/acs_state_race_2023.json",
       "sha256": "9553273e6320bc04f7e202cbe848f8cf5c84b55dc4f1b9bd0b04c411e97890b7",
       "size_bytes": 39958
+    },
+    {
+      "file": "data/normalized/acs_state_race_2024.json",
+      "sha256": "2f5a606d48a9a552345e16f220c98d5df3bc3f5b6b35811c620816a46ce49d58",
+      "size_bytes": 31512
     },
     {
       "file": "data/normalized/american_indian_alaska_native_areas_2025.json",
