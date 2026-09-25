@@ -1,5 +1,5 @@
 {
-  "retrieved_at": "2026-09-25T22:38:21.376448+00:00",
+  "retrieved_at": "2026-09-25T22:44:36.759638+00:00",
   "tables": {
     "acs_consolidated_city_age_sex_2024_5yr.json": {
       "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
@@ -60,6 +60,66 @@
       "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
       "file": "data/normalized/acs_alaska_native_regional_corporation_race_2024_5yr.json",
       "records": 12
+    },
+    "acs_principal_city_age_sex_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "file": "data/normalized/acs_principal_city_age_sex_2024_5yr.json",
+      "records": 1294
+    },
+    "acs_principal_city_education_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+      "file": "data/normalized/acs_principal_city_education_2024_5yr.json",
+      "records": 1294
+    },
+    "acs_principal_city_poverty_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "file": "data/normalized/acs_principal_city_poverty_2024_5yr.json",
+      "records": 1294
+    },
+    "acs_principal_city_income_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "file": "data/normalized/acs_principal_city_income_2024_5yr.json",
+      "records": 1294
+    },
+    "acs_principal_city_housing_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
+      "file": "data/normalized/acs_principal_city_housing_2024_5yr.json",
+      "records": 1294
+    },
+    "acs_principal_city_race_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
+      "file": "data/normalized/acs_principal_city_race_2024_5yr.json",
+      "records": 1294
+    },
+    "acs_metropolitan_division_age_sex_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "file": "data/normalized/acs_metropolitan_division_age_sex_2024_5yr.json",
+      "records": 37
+    },
+    "acs_metropolitan_division_education_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+      "file": "data/normalized/acs_metropolitan_division_education_2024_5yr.json",
+      "records": 37
+    },
+    "acs_metropolitan_division_poverty_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "file": "data/normalized/acs_metropolitan_division_poverty_2024_5yr.json",
+      "records": 37
+    },
+    "acs_metropolitan_division_income_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "file": "data/normalized/acs_metropolitan_division_income_2024_5yr.json",
+      "records": 37
+    },
+    "acs_metropolitan_division_housing_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
+      "file": "data/normalized/acs_metropolitan_division_housing_2024_5yr.json",
+      "records": 37
+    },
+    "acs_metropolitan_division_race_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
+      "file": "data/normalized/acs_metropolitan_division_race_2024_5yr.json",
+      "records": 37
     }
   },
   "note": "Public table-based ACS 2024 5-year compact profiles for consolidated cities and Alaska Native Regional Corporations; no API key used."

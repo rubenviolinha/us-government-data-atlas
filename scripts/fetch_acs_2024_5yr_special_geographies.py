@@ -22,6 +22,8 @@ TABLES = {
 GEOGRAPHIES = {
     "consolidated_city": ("1700000US", 8),
     "alaska_native_regional_corporation": ("2300000US", 12),
+    "principal_city": ("312M700US", 1294),
+    "metropolitan_division": ("314M700US", 37),
 }
 
 

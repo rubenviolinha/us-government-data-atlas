@@ -94,6 +94,8 @@ def main():
     acs_school_secondary_2024 = {label: load(f"acs_school_secondary_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_consolidated_city_2024 = {label: load(f"acs_consolidated_city_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_anrc_2024 = {label: load(f"acs_alaska_native_regional_corporation_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
+    acs_principal_city_2024 = {label: load(f"acs_principal_city_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
+    acs_metropolitan_division_2024 = {label: load(f"acs_metropolitan_division_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_tract_2024 = {label: load(f"acs_tract_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_urban_2024 = {label: load(f"acs_urban_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_district_2024_5yr = {label: load(f"acs_district_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
@@ -479,6 +481,11 @@ def main():
             assert len({row["district_geoid"] for row in rows}) == len(rows)
             assert all(row.get("GEO_ID", "").startswith(prefix) and len(row.get("district_geoid", "")) == 7 and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
     for geo_type, profiles, prefix, expected in (("consolidated city", acs_consolidated_city_2024, "1700000US", 8), ("Alaska Native Regional Corporation", acs_anrc_2024, "2300000US", 12)):
+        for label, rows in profiles.items():
+            assert len(rows) == expected, f"ACS 2024 {geo_type} {label} coverage mismatch"
+            assert len({row["geography_geoid"] for row in rows}) == len(rows)
+            assert all(row.get("GEO_ID", "").startswith(prefix) and len(row.get("geography_geoid", "")) == 7 and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
+    for geo_type, profiles, prefix, expected in (("principal city", acs_principal_city_2024, "312M700US", 1294), ("metropolitan division", acs_metropolitan_division_2024, "314M700US", 37)):
         for label, rows in profiles.items():
             assert len(rows) == expected, f"ACS 2024 {geo_type} {label} coverage mismatch"
             assert len({row["geography_geoid"] for row in rows}) == len(rows)
