@@ -1,13 +1,18 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T16:11:30.383825+00:00",
+  "generated_at": "2026-09-25T16:13:41.739312+00:00",
   "algorithm": "sha256",
-  "dataset_count": 46,
+  "dataset_count": 50,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
       "sha256": "4ba701262e1b6ff135653480ac59d31a446bf6598c6ccd244ff2abac1dfa5f5b",
       "size_bytes": 8466133
+    },
+    {
+      "file": "data/normalized/acs_county_education_2023.json",
+      "sha256": "6afbf4fb35907e2e72b2fd12bc3a0146de190dc5aa224ee3effcdcb9c4b1513f",
+      "size_bytes": 4696720
     },
     {
       "file": "data/normalized/acs_county_housing_2023.json",
@@ -18,6 +23,11 @@
       "file": "data/normalized/acs_county_income_2023.json",
       "sha256": "9802a4ce1aa7f1601d219a78077e0dfd83907edefeccc6a6480da8df12e2947f",
       "size_bytes": 1054448
+    },
+    {
+      "file": "data/normalized/acs_county_poverty_2023.json",
+      "sha256": "df39ebac4aa17164ced9e9a821e424973db5f50014324e0306758b79066dbc8d",
+      "size_bytes": 9934971
     },
     {
       "file": "data/normalized/acs_county_race_2023.json",
@@ -70,6 +80,11 @@
       "size_bytes": 141933
     },
     {
+      "file": "data/normalized/acs_state_education_2023.json",
+      "sha256": "a9f78d04b47d4723d4c215d255343d898227b82466dcea8a96538f38dc568148",
+      "size_bytes": 78461
+    },
+    {
       "file": "data/normalized/acs_state_housing_2023.json",
       "sha256": "ff5c5bc371fa52937e124d9610362d2761db5b1354eeeff77676a37d1721615e",
       "size_bytes": 15478
@@ -78,6 +93,11 @@
       "file": "data/normalized/acs_state_income_2023.json",
       "sha256": "8c6d3996990f9c6e76adf4fe95b8825b5a4907656b974cc7b2cf6885c38b9ad6",
       "size_bytes": 15392
+    },
+    {
+      "file": "data/normalized/acs_state_poverty_2023.json",
+      "sha256": "a162ca9de5a4e3098216b353cc77626e2735832536d462534b7f53df315e3210",
+      "size_bytes": 168938
     },
     {
       "file": "data/normalized/acs_state_race_2023.json",

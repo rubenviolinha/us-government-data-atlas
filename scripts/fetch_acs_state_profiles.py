@@ -15,6 +15,8 @@ RAW.mkdir(parents=True, exist_ok=True)
 
 BASE = "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/"
 TABLES = {
+    "b15003": ("acs_state_education_2023.json", "B15003"),
+    "b17001": ("acs_state_poverty_2023.json", "B17001"),
     "b19013": ("acs_state_income_2023.json", "B19013"),
     "b25001": ("acs_state_housing_2023.json", "B25001"),
     "b02001": ("acs_state_race_2023.json", "B02001"),
