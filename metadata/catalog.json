@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T18:59:51.403871+00:00",
+  "generated_at": "2026-09-25T19:02:03.921459+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -3772,6 +3772,24 @@
       "source_urls_sample": []
     },
     {
+      "file": "data/normalized/representatives.json",
+      "format": "JSON",
+      "records": 11465,
+      "size_bytes": 15898808,
+      "fields_sample": [
+        "bio",
+        "derived_from",
+        "id",
+        "name",
+        "office_scope",
+        "source",
+        "terms"
+      ],
+      "source_urls_sample": [
+        "https://github.com/unitedstates/congress-legislators"
+      ]
+    },
+    {
       "file": "data/normalized/school_administrative_districts_2023.json",
       "format": "JSON",
       "records": 51,
@@ -3826,6 +3844,24 @@
       ],
       "source_urls_sample": [
         "https://history.state.gov/departmenthistory/people/principalofficers/secretary"
+      ]
+    },
+    {
+      "file": "data/normalized/senators.json",
+      "format": "JSON",
+      "records": 2019,
+      "size_bytes": 2553285,
+      "fields_sample": [
+        "bio",
+        "derived_from",
+        "id",
+        "name",
+        "office_scope",
+        "source",
+        "terms"
+      ],
+      "source_urls_sample": [
+        "https://github.com/unitedstates/congress-legislators"
       ]
     },
     {

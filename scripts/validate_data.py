@@ -57,6 +57,8 @@ def main():
     state_population = load("state_population_2020_2024.json")
     cbsa_population = load("cbsa_population_2020_2024.json")
     legislators = load("congressional_legislators.json")
+    senators = load("senators.json")
+    representatives = load("representatives.json")
     governors = load("governors_nga.json")
     presidents = load("presidents.json")
     agencies = load("federal_register_agencies.json")
@@ -212,6 +214,10 @@ def main():
     legislator_ids = [person.get("id", {}).get("bioguide") for person in legislators]
     assert all(legislator_ids)
     assert len(legislator_ids) == len(set(legislator_ids)), "duplicate legislator Bioguide IDs"
+    for label, rows, office_type in (("senator", senators, "sen"), ("representative", representatives, "rep")):
+        ids = [person.get("id", {}).get("bioguide") for person in rows]
+        assert ids and len(ids) == len(set(ids)), f"duplicate {label} Bioguide IDs"
+        assert all(person.get("office_scope") == label and person.get("source") and any(term.get("type") == office_type for term in person.get("terms", [])) for person in rows)
     assert all(row.get("name") and row.get("state") for row in governors)
     assert all(row.get("source") and row.get("profile_url") for row in governors)
     assert all(1700 <= term["start_year"] <= 2100 and 1700 <= term["end_year"] <= 2100 for row in governors for term in row.get("terms", []))

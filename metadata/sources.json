@@ -1,4 +1,12 @@
 [{
+    "id": "unitedstates-congress-legislator-views",
+    "name": "United States Congress Legislator Senator and Representative Views",
+    "publisher": "unitedstates/congress-legislators",
+    "url": "https://github.com/unitedstates/congress-legislators",
+    "format": "Derived JSON views",
+    "license": "Source repository terms; verify before redistribution",
+    "notes": "Derived senator and representative views from the canonical historical legislator roster; terms are preserved and records may appear in both views when a person served in both chambers."
+  }, {
     "id": "census-acs-school-district-profiles-2023",
     "name": "Census ACS 2023 Unified School District Profiles",
     "publisher": "U.S. Census Bureau",

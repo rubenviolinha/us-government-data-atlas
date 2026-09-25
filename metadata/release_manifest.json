@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T18:59:51.933223+00:00",
+  "generated_at": "2026-09-25T19:02:04.428422+00:00",
   "algorithm": "sha256",
-  "dataset_count": 105,
+  "dataset_count": 107,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -435,6 +435,11 @@
       "size_bytes": 745478
     },
     {
+      "file": "data/normalized/representatives.json",
+      "sha256": "6b6da073d53e5ea11edde7795eae22e433794f61aa5c7281bdc44a29b381b7d1",
+      "size_bytes": 15898808
+    },
+    {
       "file": "data/normalized/school_administrative_districts_2023.json",
       "sha256": "3ac99232bb510879fd9c77cbb7d92a291f335277c98eb0fec96279355dd91d65",
       "size_bytes": 15855
@@ -448,6 +453,11 @@
       "file": "data/normalized/secretaries_of_state.json",
       "sha256": "5245a937e1f7b1c80ffa32d90dc8f8494cfbee0acdfc106e8eaf3dc6e94d97f1",
       "size_bytes": 20166
+    },
+    {
+      "file": "data/normalized/senators.json",
+      "sha256": "68a8aaa8edb98c19bc08997b608f378543bd7c1718f8c19bc0c98fcd7d2a6461",
+      "size_bytes": 2553285
     },
     {
       "file": "data/normalized/state_department_principals.json",
