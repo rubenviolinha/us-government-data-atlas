@@ -1,0 +1,26 @@
+{
+  "retrieved_at": "2026-09-25T11:50:17.089228+00:00",
+  "tables": {
+    "B01001": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b01001.dat",
+      "file": "data/normalized/acs_county_age_sex_2023.json",
+      "records": 3222
+    },
+    "B19013": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b19013.dat",
+      "file": "data/normalized/acs_county_income_2023.json",
+      "records": 3222
+    },
+    "B25001": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+      "file": "data/normalized/acs_county_housing_2023.json",
+      "records": 3222
+    },
+    "B02001": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b02001.dat",
+      "file": "data/normalized/acs_county_race_2023.json",
+      "records": 3222
+    }
+  },
+  "note": "Public table-based ACS summary files; no API key used."
+}

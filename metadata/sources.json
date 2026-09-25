@@ -26,6 +26,15 @@
     "notes": "State-level age-by-sex population estimates and margins of error extracted from the public table-based summary file without an API key."
   },
   {
+    "id": "census-acs-county-profile-tables-2023",
+    "name": "ACS 2023 5-Year County Profile Tables",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/",
+    "format": "Pipe-delimited summary files",
+    "license": "U.S. government public data",
+    "notes": "Keyless county-level extracts for B01001, B19013, B25001, and B02001, preserving estimates and margins of error."
+  },
+  {
     "id": "census-acs-profile-variable-metadata",
     "name": "ACS 2023 5-Year Profile Variable Metadata",
     "publisher": "U.S. Census Bureau",

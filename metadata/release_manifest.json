@@ -1,9 +1,29 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T10:52:32.881094+00:00",
+  "generated_at": "2026-09-25T11:50:33.214883+00:00",
   "algorithm": "sha256",
-  "dataset_count": 30,
+  "dataset_count": 34,
   "datasets": [
+    {
+      "file": "data/normalized/acs_county_age_sex_2023.json",
+      "sha256": "4ba701262e1b6ff135653480ac59d31a446bf6598c6ccd244ff2abac1dfa5f5b",
+      "size_bytes": 8466133
+    },
+    {
+      "file": "data/normalized/acs_county_housing_2023.json",
+      "sha256": "36f70b89db77172c889c66a682625d2bfbbc405c4bc156bd63281abdb3cb183b",
+      "size_bytes": 1047091
+    },
+    {
+      "file": "data/normalized/acs_county_income_2023.json",
+      "sha256": "9802a4ce1aa7f1601d219a78077e0dfd83907edefeccc6a6480da8df12e2947f",
+      "size_bytes": 1054448
+    },
+    {
+      "file": "data/normalized/acs_county_race_2023.json",
+      "sha256": "59e7f19f9903805c1be5452b5c425a394df857b260aa591578458e5c3e47b916",
+      "size_bytes": 2458963
+    },
     {
       "file": "data/normalized/acs_profile_variables_2023.json",
       "sha256": "206238ae6c8d2f1f794ad004d4467b7b6f9c98fe3f03a5a58adae0fd45f23530",
