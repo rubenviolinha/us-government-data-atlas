@@ -8,6 +8,15 @@
     "notes": "Structured historical index with governor name, jurisdiction, party, years in office, and profile URL. The NGA is an association rather than a federal agency; treat this as a curated reference source and reconcile against state archives for authoritative completeness."
   },
   {
+    "id": "census-school-administrative-districts-2023",
+    "name": "Census 2023 School Administrative District Gazetteer",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_sdadm_national.zip",
+    "format": "Gazetteer ZIP/TXT",
+    "license": "U.S. government public data",
+    "notes": "National supervisory/administrative school district geography with GEOIDs, grade ranges, area, and internal points."
+  },
+  {
     "id": "nara-electoral-college-results-1789-2024",
     "name": "National Archives Electoral College Results, 1789-2024",
     "publisher": "National Archives and Records Administration",

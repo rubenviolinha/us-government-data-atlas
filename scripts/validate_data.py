@@ -30,6 +30,7 @@ def main():
     tracts = load("tracts_2023.json")
     urban_areas = load("urban_areas_2023.json")
     school_districts = load("school_districts_2023.json")
+    school_administrative_districts = load("school_administrative_districts_2023.json")
     tribal_areas = load("tribal_areas_2023.json")
     state_legislative_districts = load("state_legislative_districts_2023.json")
     congressional_districts_118 = load("congressional_districts_118th_2023.json")
@@ -133,6 +134,9 @@ def main():
     assert len({(row["district_type"], row["GEOID"]) for row in school_districts}) == len(school_districts), "duplicate school district type/GEOID pairs"
     assert {row.get("district_type") for row in school_districts} == {"elementary", "secondary", "unified"}
     assert all(row.get("USPS") and row.get("NAME") and row.get("LOGRADE") and row.get("HIGRADE") for row in school_districts)
+    assert len(school_administrative_districts) >= 50
+    assert_unique(school_administrative_districts, "GEOID", "school administrative district GEOIDs")
+    assert all(row.get("NAME") and row.get("LOGRADE") and row.get("HIGRADE") and row.get("INTPTLAT") for row in school_administrative_districts)
     assert len(tribal_areas) >= 1800
     assert len({(row["area_type"], row["GEOID"], row["NAME"]) for row in tribal_areas}) == len(tribal_areas)
     assert {row.get("area_type") for row in tribal_areas} == {"reservation_or_tribal_trust", "reservation", "off_reservation_trust"}
