@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T17:24:18.672251+00:00",
+  "generated_at": "2026-09-25T17:44:28.274453+00:00",
   "algorithm": "sha256",
-  "dataset_count": 84,
+  "dataset_count": 85,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -323,6 +323,11 @@
       "file": "data/normalized/places_2020.json",
       "sha256": "c4cc7f8bea7f747408aeacfd2e0bedacccb820553f38ad61e92216d0236ac624",
       "size_bytes": 9786652
+    },
+    {
+      "file": "data/normalized/places_2023.json",
+      "sha256": "c6f0eb6f36c3f7344fd119df8608f92154f1b78d510bebfdb990b4b34f135474",
+      "size_bytes": 9914353
     },
     {
       "file": "data/normalized/presidential_documents.json",

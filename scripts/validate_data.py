@@ -35,6 +35,7 @@ def main():
     congressional_districts_118 = load("congressional_districts_118th_2023.json")
     cbsa_geography = load("cbsa_geography_2023.json")
     places = load("places_2020.json")
+    places_2023 = load("places_2023.json")
     zctas = load("zctas_2020.json")
     zcta_population = load("zcta_population_acs_2023.json")
     zcta_profiles = load("zcta_profiles_acs_2023.json")
@@ -145,6 +146,9 @@ def main():
     assert {row.get("CBSA_TYPE") for row in cbsa_geography} <= {"1", "2"}
     assert all(row.get("NAME") and row.get("GEOID") and row.get("INTPTLAT") and row.get("INTPTLONG") for row in cbsa_geography)
     assert_unique(places, "GEOID", "place GEOIDs")
+    assert len(places_2023) >= 32000
+    assert_unique(places_2023, "GEOID", "2023 place GEOIDs")
+    assert all(row.get("USPS") and row.get("NAME") and row.get("INTPTLAT") and row.get("INTPTLONG") for row in places_2023)
     assert_unique(zctas, "GEOID", "ZCTA GEOIDs")
     assert len(zcta_population) >= 30000
     assert_unique(zcta_population, "zcta", "ACS ZCTA population codes")
