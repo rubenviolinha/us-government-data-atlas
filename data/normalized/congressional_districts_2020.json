@@ -1,0 +1,3554 @@
+[
+  {
+    "STATEFP": "27",
+    "CD116FP": "07",
+    "GEOID": "2707",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "27",
+    "CD116FP": "02",
+    "GEOID": "2702",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "27",
+    "CD116FP": "06",
+    "GEOID": "2706",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "27",
+    "CD116FP": "08",
+    "GEOID": "2708",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "17",
+    "CD116FP": "01",
+    "GEOID": "1701",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "17",
+    "CD116FP": "18",
+    "GEOID": "1718",
+    "NAMELSAD": "Congressional District 18",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "17",
+    "CD116FP": "07",
+    "GEOID": "1707",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "17",
+    "CD116FP": "02",
+    "GEOID": "1702",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "31",
+    "CD116FP": "01",
+    "GEOID": "3101",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "36",
+    "GEOID": "0636",
+    "NAMELSAD": "Congressional District 36",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "16",
+    "GEOID": "0616",
+    "NAMELSAD": "Congressional District 16",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "46",
+    "GEOID": "0646",
+    "NAMELSAD": "Congressional District 46",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "37",
+    "GEOID": "0637",
+    "NAMELSAD": "Congressional District 37",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "33",
+    "GEOID": "0633",
+    "NAMELSAD": "Congressional District 33",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "15",
+    "GEOID": "0615",
+    "NAMELSAD": "Congressional District 15",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "18",
+    "CD116FP": "02",
+    "GEOID": "1802",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "18",
+    "CD116FP": "09",
+    "GEOID": "1809",
+    "NAMELSAD": "Congressional District 9",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "18",
+    "CD116FP": "06",
+    "GEOID": "1806",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "18",
+    "CD116FP": "08",
+    "GEOID": "1808",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "53",
+    "GEOID": "0653",
+    "NAMELSAD": "Congressional District 53",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "47",
+    "GEOID": "0647",
+    "NAMELSAD": "Congressional District 47",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "31",
+    "GEOID": "0631",
+    "NAMELSAD": "Congressional District 31",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "03",
+    "GEOID": "0603",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "21",
+    "GEOID": "0621",
+    "NAMELSAD": "Congressional District 21",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "48",
+    "GEOID": "0648",
+    "NAMELSAD": "Congressional District 48",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "10",
+    "GEOID": "0610",
+    "NAMELSAD": "Congressional District 10",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "05",
+    "CD116FP": "01",
+    "GEOID": "0501",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "05",
+    "CD116FP": "03",
+    "GEOID": "0503",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "05",
+    "CD116FP": "04",
+    "GEOID": "0504",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "05",
+    "CD116FP": "02",
+    "GEOID": "0502",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "18",
+    "CD116FP": "01",
+    "GEOID": "1801",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "34",
+    "GEOID": "0634",
+    "NAMELSAD": "Congressional District 34",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "52",
+    "GEOID": "0652",
+    "NAMELSAD": "Congressional District 52",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "30",
+    "GEOID": "0630",
+    "NAMELSAD": "Congressional District 30",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "18",
+    "GEOID": "0618",
+    "NAMELSAD": "Congressional District 18",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "20",
+    "GEOID": "0620",
+    "NAMELSAD": "Congressional District 20",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "42",
+    "GEOID": "0642",
+    "NAMELSAD": "Congressional District 42",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "25",
+    "GEOID": "0625",
+    "NAMELSAD": "Congressional District 25",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "22",
+    "CD116FP": "04",
+    "GEOID": "2204",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "22",
+    "CD116FP": "02",
+    "GEOID": "2202",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "22",
+    "CD116FP": "06",
+    "GEOID": "2206",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "19",
+    "CD116FP": "01",
+    "GEOID": "1901",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "32",
+    "GEOID": "0632",
+    "NAMELSAD": "Congressional District 32",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "43",
+    "GEOID": "0643",
+    "NAMELSAD": "Congressional District 43",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "35",
+    "GEOID": "0635",
+    "NAMELSAD": "Congressional District 35",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "13",
+    "GEOID": "0613",
+    "NAMELSAD": "Congressional District 13",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "26",
+    "GEOID": "0626",
+    "NAMELSAD": "Congressional District 26",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "44",
+    "GEOID": "0644",
+    "NAMELSAD": "Congressional District 44",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "19",
+    "GEOID": "0619",
+    "NAMELSAD": "Congressional District 19",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "19",
+    "CD116FP": "04",
+    "GEOID": "1904",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "19",
+    "CD116FP": "02",
+    "GEOID": "1902",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "27",
+    "CD116FP": "01",
+    "GEOID": "2701",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "27",
+    "CD116FP": "03",
+    "GEOID": "2703",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "27",
+    "CD116FP": "04",
+    "GEOID": "2704",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "27",
+    "CD116FP": "05",
+    "GEOID": "2705",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "49",
+    "GEOID": "0649",
+    "NAMELSAD": "Congressional District 49",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "05",
+    "GEOID": "0605",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "24",
+    "GEOID": "0624",
+    "NAMELSAD": "Congressional District 24",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "31",
+    "CD116FP": "03",
+    "GEOID": "3103",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "31",
+    "CD116FP": "02",
+    "GEOID": "3102",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "29",
+    "GEOID": "0629",
+    "NAMELSAD": "Congressional District 29",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "07",
+    "GEOID": "0607",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "06",
+    "GEOID": "0606",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "39",
+    "GEOID": "0639",
+    "NAMELSAD": "Congressional District 39",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "17",
+    "CD116FP": "14",
+    "GEOID": "1714",
+    "NAMELSAD": "Congressional District 14",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "47",
+    "CD116FP": "01",
+    "GEOID": "4701",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "47",
+    "CD116FP": "03",
+    "GEOID": "4703",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "47",
+    "CD116FP": "05",
+    "GEOID": "4705",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "47",
+    "CD116FP": "04",
+    "GEOID": "4704",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "11",
+    "GEOID": "0611",
+    "NAMELSAD": "Congressional District 11",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "41",
+    "CD116FP": "01",
+    "GEOID": "4101",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "41",
+    "CD116FP": "03",
+    "GEOID": "4103",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "41",
+    "CD116FP": "05",
+    "GEOID": "4105",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "23",
+    "CD116FP": "01",
+    "GEOID": "2301",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "23",
+    "CD116FP": "02",
+    "GEOID": "2302",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "47",
+    "CD116FP": "07",
+    "GEOID": "4707",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "47",
+    "CD116FP": "02",
+    "GEOID": "4702",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "17",
+    "CD116FP": "05",
+    "GEOID": "1705",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "17",
+    "CD116FP": "16",
+    "GEOID": "1716",
+    "NAMELSAD": "Congressional District 16",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "17",
+    "CD116FP": "13",
+    "GEOID": "1713",
+    "NAMELSAD": "Congressional District 13",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "17",
+    "CD116FP": "ZZ",
+    "GEOID": "17ZZ",
+    "NAMELSAD": "Congressional Districts not defined",
+    "LSAD": "00",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "50",
+    "GEOID": "0650",
+    "NAMELSAD": "Congressional District 50",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "23",
+    "GEOID": "0623",
+    "NAMELSAD": "Congressional District 23",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "08",
+    "GEOID": "0608",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "17",
+    "CD116FP": "17",
+    "GEOID": "1717",
+    "NAMELSAD": "Congressional District 17",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "17",
+    "CD116FP": "06",
+    "GEOID": "1706",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "17",
+    "CD116FP": "03",
+    "GEOID": "1703",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "17",
+    "CD116FP": "10",
+    "GEOID": "1710",
+    "NAMELSAD": "Congressional District 10",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "17",
+    "CD116FP": "04",
+    "GEOID": "1704",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "13",
+    "CD116FP": "03",
+    "GEOID": "1303",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "13",
+    "CD116FP": "10",
+    "GEOID": "1310",
+    "NAMELSAD": "Congressional District 10",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "13",
+    "CD116FP": "04",
+    "GEOID": "1304",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "13",
+    "CD116FP": "05",
+    "GEOID": "1305",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "13",
+    "CD116FP": "13",
+    "GEOID": "1313",
+    "NAMELSAD": "Congressional District 13",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "13",
+    "CD116FP": "09",
+    "GEOID": "1309",
+    "NAMELSAD": "Congressional District 9",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "51",
+    "GEOID": "0651",
+    "NAMELSAD": "Congressional District 51",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "28",
+    "GEOID": "0628",
+    "NAMELSAD": "Congressional District 28",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "01",
+    "GEOID": "0601",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "13",
+    "CD116FP": "07",
+    "GEOID": "1307",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "13",
+    "CD116FP": "02",
+    "GEOID": "1302",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "13",
+    "CD116FP": "06",
+    "GEOID": "1306",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "13",
+    "CD116FP": "14",
+    "GEOID": "1314",
+    "NAMELSAD": "Congressional District 14",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "21",
+    "CD116FP": "02",
+    "GEOID": "2102",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "21",
+    "CD116FP": "06",
+    "GEOID": "2106",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "22",
+    "CD116FP": "01",
+    "GEOID": "2201",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "22",
+    "CD116FP": "03",
+    "GEOID": "2203",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "22",
+    "CD116FP": "05",
+    "GEOID": "2205",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "18",
+    "CD116FP": "03",
+    "GEOID": "1803",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "18",
+    "CD116FP": "05",
+    "GEOID": "1805",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "18",
+    "CD116FP": "04",
+    "GEOID": "1804",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "18",
+    "CD116FP": "07",
+    "GEOID": "1807",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "13",
+    "CD116FP": "01",
+    "GEOID": "1301",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "17",
+    "CD116FP": "11",
+    "GEOID": "1711",
+    "NAMELSAD": "Congressional District 11",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "17",
+    "CD116FP": "09",
+    "GEOID": "1709",
+    "NAMELSAD": "Congressional District 9",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "17",
+    "CD116FP": "15",
+    "GEOID": "1715",
+    "NAMELSAD": "Congressional District 15",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "47",
+    "CD116FP": "08",
+    "GEOID": "4708",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "40",
+    "GEOID": "0640",
+    "NAMELSAD": "Congressional District 40",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "12",
+    "GEOID": "0612",
+    "NAMELSAD": "Congressional District 12",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "45",
+    "GEOID": "0645",
+    "NAMELSAD": "Congressional District 45",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "19",
+    "CD116FP": "03",
+    "GEOID": "1903",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "13",
+    "CD116FP": "11",
+    "GEOID": "1311",
+    "NAMELSAD": "Congressional District 11",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "13",
+    "CD116FP": "12",
+    "GEOID": "1312",
+    "NAMELSAD": "Congressional District 12",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "13",
+    "CD116FP": "08",
+    "GEOID": "1308",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "04",
+    "GEOID": "0604",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "22",
+    "GEOID": "0622",
+    "NAMELSAD": "Congressional District 22",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "09",
+    "GEOID": "0609",
+    "NAMELSAD": "Congressional District 9",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "47",
+    "CD116FP": "09",
+    "GEOID": "4709",
+    "NAMELSAD": "Congressional District 9",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "47",
+    "CD116FP": "06",
+    "GEOID": "4706",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "16",
+    "CD116FP": "01",
+    "GEOID": "1601",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "16",
+    "CD116FP": "02",
+    "GEOID": "1602",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "41",
+    "GEOID": "0641",
+    "NAMELSAD": "Congressional District 41",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "27",
+    "GEOID": "0627",
+    "NAMELSAD": "Congressional District 27",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "17",
+    "GEOID": "0617",
+    "NAMELSAD": "Congressional District 17",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "14",
+    "GEOID": "0614",
+    "NAMELSAD": "Congressional District 14",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "41",
+    "CD116FP": "04",
+    "GEOID": "4104",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "41",
+    "CD116FP": "02",
+    "GEOID": "4102",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "21",
+    "CD116FP": "01",
+    "GEOID": "2101",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "21",
+    "CD116FP": "03",
+    "GEOID": "2103",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "21",
+    "CD116FP": "05",
+    "GEOID": "2105",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "21",
+    "CD116FP": "04",
+    "GEOID": "2104",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "17",
+    "CD116FP": "12",
+    "GEOID": "1712",
+    "NAMELSAD": "Congressional District 12",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "17",
+    "CD116FP": "08",
+    "GEOID": "1708",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "02",
+    "GEOID": "0602",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "06",
+    "CD116FP": "38",
+    "GEOID": "0638",
+    "NAMELSAD": "Congressional District 38",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "01",
+    "CD116FP": "01",
+    "GEOID": "0101",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "01",
+    "CD116FP": "03",
+    "GEOID": "0103",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "01",
+    "CD116FP": "05",
+    "GEOID": "0105",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "01",
+    "CD116FP": "04",
+    "GEOID": "0104",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "01",
+    "CD116FP": "07",
+    "GEOID": "0107",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "01",
+    "CD116FP": "02",
+    "GEOID": "0102",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "01",
+    "CD116FP": "06",
+    "GEOID": "0106",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "13",
+    "GEOID": "1213",
+    "NAMELSAD": "Congressional District 13",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "26",
+    "GEOID": "1226",
+    "NAMELSAD": "Congressional District 26",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "22",
+    "GEOID": "1222",
+    "NAMELSAD": "Congressional District 22",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "09",
+    "GEOID": "1209",
+    "NAMELSAD": "Congressional District 9",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "19",
+    "GEOID": "1219",
+    "NAMELSAD": "Congressional District 19",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "29",
+    "CD116FP": "01",
+    "GEOID": "2901",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "29",
+    "CD116FP": "03",
+    "GEOID": "2903",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "29",
+    "CD116FP": "05",
+    "GEOID": "2905",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "29",
+    "CD116FP": "04",
+    "GEOID": "2904",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "29",
+    "CD116FP": "07",
+    "GEOID": "2907",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "29",
+    "CD116FP": "02",
+    "GEOID": "2902",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "29",
+    "CD116FP": "06",
+    "GEOID": "2906",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "29",
+    "CD116FP": "08",
+    "GEOID": "2908",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "28",
+    "CD116FP": "01",
+    "GEOID": "2801",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "28",
+    "CD116FP": "03",
+    "GEOID": "2803",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "28",
+    "CD116FP": "04",
+    "GEOID": "2804",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "28",
+    "CD116FP": "02",
+    "GEOID": "2802",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "34",
+    "CD116FP": "01",
+    "GEOID": "3401",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "34",
+    "CD116FP": "03",
+    "GEOID": "3403",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "34",
+    "CD116FP": "10",
+    "GEOID": "3410",
+    "NAMELSAD": "Congressional District 10",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "34",
+    "CD116FP": "04",
+    "GEOID": "3404",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "34",
+    "CD116FP": "05",
+    "GEOID": "3405",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "34",
+    "CD116FP": "07",
+    "GEOID": "3407",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "34",
+    "CD116FP": "02",
+    "GEOID": "3402",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "34",
+    "CD116FP": "09",
+    "GEOID": "3409",
+    "NAMELSAD": "Congressional District 9",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "34",
+    "CD116FP": "11",
+    "GEOID": "3411",
+    "NAMELSAD": "Congressional District 11",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "34",
+    "CD116FP": "06",
+    "GEOID": "3406",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "34",
+    "CD116FP": "12",
+    "GEOID": "3412",
+    "NAMELSAD": "Congressional District 12",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "32",
+    "CD116FP": "01",
+    "GEOID": "3201",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "32",
+    "CD116FP": "03",
+    "GEOID": "3203",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "32",
+    "CD116FP": "04",
+    "GEOID": "3204",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "32",
+    "CD116FP": "02",
+    "GEOID": "3202",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "45",
+    "CD116FP": "01",
+    "GEOID": "4501",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "45",
+    "CD116FP": "03",
+    "GEOID": "4503",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "45",
+    "CD116FP": "04",
+    "GEOID": "4504",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "45",
+    "CD116FP": "05",
+    "GEOID": "4505",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "45",
+    "CD116FP": "07",
+    "GEOID": "4507",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "45",
+    "CD116FP": "02",
+    "GEOID": "4502",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "45",
+    "CD116FP": "06",
+    "GEOID": "4506",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "53",
+    "CD116FP": "01",
+    "GEOID": "5301",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "53",
+    "CD116FP": "03",
+    "GEOID": "5303",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "38",
+    "CD116FP": "00",
+    "GEOID": "3800",
+    "NAMELSAD": "Congressional District (at Large)",
+    "LSAD": "C1",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "56",
+    "CD116FP": "00",
+    "GEOID": "5600",
+    "NAMELSAD": "Congressional District (at Large)",
+    "LSAD": "C1",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "69",
+    "CD116FP": "98",
+    "GEOID": "6998",
+    "NAMELSAD": "Delegate District (at Large)",
+    "LSAD": "C4",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "39",
+    "CD116FP": "01",
+    "GEOID": "3901",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "39",
+    "CD116FP": "07",
+    "GEOID": "3907",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "39",
+    "CD116FP": "02",
+    "GEOID": "3902",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "39",
+    "CD116FP": "14",
+    "GEOID": "3914",
+    "NAMELSAD": "Congressional District 14",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "39",
+    "CD116FP": "06",
+    "GEOID": "3906",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "39",
+    "CD116FP": "03",
+    "GEOID": "3903",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "39",
+    "CD116FP": "10",
+    "GEOID": "3910",
+    "NAMELSAD": "Congressional District 10",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "39",
+    "CD116FP": "04",
+    "GEOID": "3904",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "39",
+    "CD116FP": "05",
+    "GEOID": "3905",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "39",
+    "CD116FP": "16",
+    "GEOID": "3916",
+    "NAMELSAD": "Congressional District 16",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "39",
+    "CD116FP": "13",
+    "GEOID": "3913",
+    "NAMELSAD": "Congressional District 13",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "39",
+    "CD116FP": "15",
+    "GEOID": "3915",
+    "NAMELSAD": "Congressional District 15",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "39",
+    "CD116FP": "11",
+    "GEOID": "3911",
+    "NAMELSAD": "Congressional District 11",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "39",
+    "CD116FP": "09",
+    "GEOID": "3909",
+    "NAMELSAD": "Congressional District 9",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "39",
+    "CD116FP": "08",
+    "GEOID": "3908",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "39",
+    "CD116FP": "12",
+    "GEOID": "3912",
+    "NAMELSAD": "Congressional District 12",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "51",
+    "CD116FP": "01",
+    "GEOID": "5101",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "51",
+    "CD116FP": "03",
+    "GEOID": "5103",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "51",
+    "CD116FP": "10",
+    "GEOID": "5110",
+    "NAMELSAD": "Congressional District 10",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "51",
+    "CD116FP": "05",
+    "GEOID": "5105",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "51",
+    "CD116FP": "04",
+    "GEOID": "5104",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "51",
+    "CD116FP": "07",
+    "GEOID": "5107",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "51",
+    "CD116FP": "02",
+    "GEOID": "5102",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "51",
+    "CD116FP": "11",
+    "GEOID": "5111",
+    "NAMELSAD": "Congressional District 11",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "51",
+    "CD116FP": "09",
+    "GEOID": "5109",
+    "NAMELSAD": "Congressional District 9",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "15",
+    "CD116FP": "01",
+    "GEOID": "1501",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "15",
+    "CD116FP": "02",
+    "GEOID": "1502",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "26",
+    "CD116FP": "01",
+    "GEOID": "2601",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "26",
+    "CD116FP": "07",
+    "GEOID": "2607",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "26",
+    "CD116FP": "02",
+    "GEOID": "2602",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "26",
+    "CD116FP": "06",
+    "GEOID": "2606",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "26",
+    "CD116FP": "14",
+    "GEOID": "2614",
+    "NAMELSAD": "Congressional District 14",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "26",
+    "CD116FP": "03",
+    "GEOID": "2603",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "26",
+    "CD116FP": "10",
+    "GEOID": "2610",
+    "NAMELSAD": "Congressional District 10",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "26",
+    "CD116FP": "05",
+    "GEOID": "2605",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "26",
+    "CD116FP": "04",
+    "GEOID": "2604",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "26",
+    "CD116FP": "13",
+    "GEOID": "2613",
+    "NAMELSAD": "Congressional District 13",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "26",
+    "CD116FP": "ZZ",
+    "GEOID": "26ZZ",
+    "NAMELSAD": "Congressional Districts not defined",
+    "LSAD": "00",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "26",
+    "CD116FP": "11",
+    "GEOID": "2611",
+    "NAMELSAD": "Congressional District 11",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "26",
+    "CD116FP": "09",
+    "GEOID": "2609",
+    "NAMELSAD": "Congressional District 9",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "26",
+    "CD116FP": "12",
+    "GEOID": "2612",
+    "NAMELSAD": "Congressional District 12",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "26",
+    "CD116FP": "08",
+    "GEOID": "2608",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "51",
+    "CD116FP": "06",
+    "GEOID": "5106",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "51",
+    "CD116FP": "08",
+    "GEOID": "5108",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "53",
+    "CD116FP": "10",
+    "GEOID": "5310",
+    "NAMELSAD": "Congressional District 10",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "53",
+    "CD116FP": "05",
+    "GEOID": "5305",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "53",
+    "CD116FP": "04",
+    "GEOID": "5304",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "53",
+    "CD116FP": "07",
+    "GEOID": "5307",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "53",
+    "CD116FP": "02",
+    "GEOID": "5302",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "53",
+    "CD116FP": "09",
+    "GEOID": "5309",
+    "NAMELSAD": "Congressional District 9",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "53",
+    "CD116FP": "06",
+    "GEOID": "5306",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "53",
+    "CD116FP": "08",
+    "GEOID": "5308",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "34",
+    "CD116FP": "08",
+    "GEOID": "3408",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "08",
+    "CD116FP": "01",
+    "GEOID": "0801",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "08",
+    "CD116FP": "03",
+    "GEOID": "0803",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "08",
+    "CD116FP": "05",
+    "GEOID": "0805",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "08",
+    "CD116FP": "04",
+    "GEOID": "0804",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "08",
+    "CD116FP": "07",
+    "GEOID": "0807",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "08",
+    "CD116FP": "02",
+    "GEOID": "0802",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "08",
+    "CD116FP": "06",
+    "GEOID": "0806",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "24",
+    "CD116FP": "01",
+    "GEOID": "2401",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "24",
+    "CD116FP": "03",
+    "GEOID": "2403",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "24",
+    "CD116FP": "04",
+    "GEOID": "2404",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "24",
+    "CD116FP": "05",
+    "GEOID": "2405",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "24",
+    "CD116FP": "07",
+    "GEOID": "2407",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "24",
+    "CD116FP": "02",
+    "GEOID": "2402",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "24",
+    "CD116FP": "06",
+    "GEOID": "2406",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "24",
+    "CD116FP": "08",
+    "GEOID": "2408",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "11",
+    "CD116FP": "98",
+    "GEOID": "1198",
+    "NAMELSAD": "Delegate District (at Large)",
+    "LSAD": "C4",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "50",
+    "CD116FP": "00",
+    "GEOID": "5000",
+    "NAMELSAD": "Congressional District (at Large)",
+    "LSAD": "C1",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "20",
+    "CD116FP": "01",
+    "GEOID": "2001",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "20",
+    "CD116FP": "03",
+    "GEOID": "2003",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "20",
+    "CD116FP": "04",
+    "GEOID": "2004",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "20",
+    "CD116FP": "02",
+    "GEOID": "2002",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "46",
+    "CD116FP": "00",
+    "GEOID": "4600",
+    "NAMELSAD": "Congressional District (at Large)",
+    "LSAD": "C1",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "66",
+    "CD116FP": "98",
+    "GEOID": "6698",
+    "NAMELSAD": "Delegate District (at Large)",
+    "LSAD": "C4",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "25",
+    "CD116FP": "01",
+    "GEOID": "2501",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "25",
+    "CD116FP": "03",
+    "GEOID": "2503",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "25",
+    "CD116FP": "05",
+    "GEOID": "2505",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "25",
+    "CD116FP": "04",
+    "GEOID": "2504",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "25",
+    "CD116FP": "07",
+    "GEOID": "2507",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "25",
+    "CD116FP": "02",
+    "GEOID": "2502",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "25",
+    "CD116FP": "09",
+    "GEOID": "2509",
+    "NAMELSAD": "Congressional District 9",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "25",
+    "CD116FP": "06",
+    "GEOID": "2506",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "25",
+    "CD116FP": "08",
+    "GEOID": "2508",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "54",
+    "CD116FP": "01",
+    "GEOID": "5401",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "54",
+    "CD116FP": "03",
+    "GEOID": "5403",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "54",
+    "CD116FP": "02",
+    "GEOID": "5402",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "78",
+    "CD116FP": "98",
+    "GEOID": "7898",
+    "NAMELSAD": "Delegate District (at Large)",
+    "LSAD": "C4",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "02",
+    "CD116FP": "00",
+    "GEOID": "0200",
+    "NAMELSAD": "Congressional District (at Large)",
+    "LSAD": "C1",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "72",
+    "CD116FP": "98",
+    "GEOID": "7298",
+    "NAMELSAD": "Resident Commissioner District (at Large)",
+    "LSAD": "C3",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "55",
+    "CD116FP": "01",
+    "GEOID": "5501",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "55",
+    "CD116FP": "03",
+    "GEOID": "5503",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "55",
+    "CD116FP": "04",
+    "GEOID": "5504",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "55",
+    "CD116FP": "05",
+    "GEOID": "5505",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "55",
+    "CD116FP": "07",
+    "GEOID": "5507",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "55",
+    "CD116FP": "02",
+    "GEOID": "5502",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "55",
+    "CD116FP": "06",
+    "GEOID": "5506",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "55",
+    "CD116FP": "08",
+    "GEOID": "5508",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "37",
+    "CD116FP": "01",
+    "GEOID": "3701",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "37",
+    "CD116FP": "07",
+    "GEOID": "3707",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "37",
+    "CD116FP": "02",
+    "GEOID": "3702",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "37",
+    "CD116FP": "06",
+    "GEOID": "3706",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "37",
+    "CD116FP": "03",
+    "GEOID": "3703",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "37",
+    "CD116FP": "10",
+    "GEOID": "3710",
+    "NAMELSAD": "Congressional District 10",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "37",
+    "CD116FP": "04",
+    "GEOID": "3704",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "37",
+    "CD116FP": "05",
+    "GEOID": "3705",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "37",
+    "CD116FP": "13",
+    "GEOID": "3713",
+    "NAMELSAD": "Congressional District 13",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "37",
+    "CD116FP": "11",
+    "GEOID": "3711",
+    "NAMELSAD": "Congressional District 11",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "37",
+    "CD116FP": "09",
+    "GEOID": "3709",
+    "NAMELSAD": "Congressional District 9",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "37",
+    "CD116FP": "08",
+    "GEOID": "3708",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "37",
+    "CD116FP": "12",
+    "GEOID": "3712",
+    "NAMELSAD": "Congressional District 12",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "33",
+    "CD116FP": "01",
+    "GEOID": "3301",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "33",
+    "CD116FP": "02",
+    "GEOID": "3302",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "60",
+    "CD116FP": "98",
+    "GEOID": "6098",
+    "NAMELSAD": "Delegate District (at Large)",
+    "LSAD": "C4",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "40",
+    "CD116FP": "01",
+    "GEOID": "4001",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "40",
+    "CD116FP": "03",
+    "GEOID": "4003",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "40",
+    "CD116FP": "05",
+    "GEOID": "4005",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "40",
+    "CD116FP": "04",
+    "GEOID": "4004",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "40",
+    "CD116FP": "02",
+    "GEOID": "4002",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "10",
+    "CD116FP": "00",
+    "GEOID": "1000",
+    "NAMELSAD": "Congressional District (at Large)",
+    "LSAD": "C1",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "42",
+    "CD116FP": "01",
+    "GEOID": "4201",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "42",
+    "CD116FP": "18",
+    "GEOID": "4218",
+    "NAMELSAD": "Congressional District 18",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "42",
+    "CD116FP": "07",
+    "GEOID": "4207",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "42",
+    "CD116FP": "02",
+    "GEOID": "4202",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "42",
+    "CD116FP": "17",
+    "GEOID": "4217",
+    "NAMELSAD": "Congressional District 17",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "42",
+    "CD116FP": "14",
+    "GEOID": "4214",
+    "NAMELSAD": "Congressional District 14",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "42",
+    "CD116FP": "06",
+    "GEOID": "4206",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "42",
+    "CD116FP": "03",
+    "GEOID": "4203",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "42",
+    "CD116FP": "10",
+    "GEOID": "4210",
+    "NAMELSAD": "Congressional District 10",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "42",
+    "CD116FP": "04",
+    "GEOID": "4204",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "42",
+    "CD116FP": "05",
+    "GEOID": "4205",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "42",
+    "CD116FP": "16",
+    "GEOID": "4216",
+    "NAMELSAD": "Congressional District 16",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "42",
+    "CD116FP": "13",
+    "GEOID": "4213",
+    "NAMELSAD": "Congressional District 13",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "42",
+    "CD116FP": "11",
+    "GEOID": "4211",
+    "NAMELSAD": "Congressional District 11",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "42",
+    "CD116FP": "09",
+    "GEOID": "4209",
+    "NAMELSAD": "Congressional District 9",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "42",
+    "CD116FP": "15",
+    "GEOID": "4215",
+    "NAMELSAD": "Congressional District 15",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "42",
+    "CD116FP": "12",
+    "GEOID": "4212",
+    "NAMELSAD": "Congressional District 12",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "42",
+    "CD116FP": "08",
+    "GEOID": "4208",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "01",
+    "GEOID": "1201",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "07",
+    "GEOID": "1207",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "27",
+    "GEOID": "1227",
+    "NAMELSAD": "Congressional District 27",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "17",
+    "GEOID": "1217",
+    "NAMELSAD": "Congressional District 17",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "06",
+    "GEOID": "1206",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "14",
+    "GEOID": "1214",
+    "NAMELSAD": "Congressional District 14",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "05",
+    "GEOID": "1205",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "24",
+    "GEOID": "1224",
+    "NAMELSAD": "Congressional District 24",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "16",
+    "GEOID": "1216",
+    "NAMELSAD": "Congressional District 16",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "11",
+    "GEOID": "1211",
+    "NAMELSAD": "Congressional District 11",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "15",
+    "GEOID": "1215",
+    "NAMELSAD": "Congressional District 15",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "23",
+    "GEOID": "1223",
+    "NAMELSAD": "Congressional District 23",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "08",
+    "GEOID": "1208",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "12",
+    "GEOID": "1212",
+    "NAMELSAD": "Congressional District 12",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "18",
+    "GEOID": "1218",
+    "NAMELSAD": "Congressional District 18",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "02",
+    "GEOID": "1202",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "20",
+    "GEOID": "1220",
+    "NAMELSAD": "Congressional District 20",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "25",
+    "GEOID": "1225",
+    "NAMELSAD": "Congressional District 25",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "21",
+    "GEOID": "1221",
+    "NAMELSAD": "Congressional District 21",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "03",
+    "GEOID": "1203",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "10",
+    "GEOID": "1210",
+    "NAMELSAD": "Congressional District 10",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "12",
+    "CD116FP": "04",
+    "GEOID": "1204",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "04",
+    "CD116FP": "01",
+    "GEOID": "0401",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "04",
+    "CD116FP": "03",
+    "GEOID": "0403",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "04",
+    "CD116FP": "05",
+    "GEOID": "0405",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "04",
+    "CD116FP": "04",
+    "GEOID": "0404",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "04",
+    "CD116FP": "07",
+    "GEOID": "0407",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "04",
+    "CD116FP": "02",
+    "GEOID": "0402",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "04",
+    "CD116FP": "09",
+    "GEOID": "0409",
+    "NAMELSAD": "Congressional District 9",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "04",
+    "CD116FP": "06",
+    "GEOID": "0406",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "04",
+    "CD116FP": "08",
+    "GEOID": "0408",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "28",
+    "GEOID": "4828",
+    "NAMELSAD": "Congressional District 28",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "01",
+    "GEOID": "4801",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "29",
+    "GEOID": "4829",
+    "NAMELSAD": "Congressional District 29",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "07",
+    "GEOID": "4807",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "27",
+    "GEOID": "4827",
+    "NAMELSAD": "Congressional District 27",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "06",
+    "GEOID": "4806",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "17",
+    "GEOID": "4817",
+    "NAMELSAD": "Congressional District 17",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "14",
+    "GEOID": "4814",
+    "NAMELSAD": "Congressional District 14",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "36",
+    "GEOID": "4836",
+    "NAMELSAD": "Congressional District 36",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "05",
+    "GEOID": "4805",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "16",
+    "GEOID": "4816",
+    "NAMELSAD": "Congressional District 16",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "24",
+    "GEOID": "4824",
+    "NAMELSAD": "Congressional District 24",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "33",
+    "GEOID": "4833",
+    "NAMELSAD": "Congressional District 33",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "11",
+    "GEOID": "4811",
+    "NAMELSAD": "Congressional District 11",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "15",
+    "GEOID": "4815",
+    "NAMELSAD": "Congressional District 15",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "23",
+    "GEOID": "4823",
+    "NAMELSAD": "Congressional District 23",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "12",
+    "GEOID": "4812",
+    "NAMELSAD": "Congressional District 12",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "08",
+    "GEOID": "4808",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "34",
+    "GEOID": "4834",
+    "NAMELSAD": "Congressional District 34",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "30",
+    "GEOID": "4830",
+    "NAMELSAD": "Congressional District 30",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "18",
+    "GEOID": "4818",
+    "NAMELSAD": "Congressional District 18",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "02",
+    "GEOID": "4802",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "20",
+    "GEOID": "4820",
+    "NAMELSAD": "Congressional District 20",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "31",
+    "GEOID": "4831",
+    "NAMELSAD": "Congressional District 31",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "25",
+    "GEOID": "4825",
+    "NAMELSAD": "Congressional District 25",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "32",
+    "GEOID": "4832",
+    "NAMELSAD": "Congressional District 32",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "21",
+    "GEOID": "4821",
+    "NAMELSAD": "Congressional District 21",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "03",
+    "GEOID": "4803",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "10",
+    "GEOID": "4810",
+    "NAMELSAD": "Congressional District 10",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "04",
+    "GEOID": "4804",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "35",
+    "GEOID": "4835",
+    "NAMELSAD": "Congressional District 35",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "13",
+    "GEOID": "4813",
+    "NAMELSAD": "Congressional District 13",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "26",
+    "GEOID": "4826",
+    "NAMELSAD": "Congressional District 26",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "22",
+    "GEOID": "4822",
+    "NAMELSAD": "Congressional District 22",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "09",
+    "GEOID": "4809",
+    "NAMELSAD": "Congressional District 9",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "48",
+    "CD116FP": "19",
+    "GEOID": "4819",
+    "NAMELSAD": "Congressional District 19",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "44",
+    "CD116FP": "01",
+    "GEOID": "4401",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "44",
+    "CD116FP": "02",
+    "GEOID": "4402",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "35",
+    "CD116FP": "01",
+    "GEOID": "3501",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "35",
+    "CD116FP": "03",
+    "GEOID": "3503",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "35",
+    "CD116FP": "02",
+    "GEOID": "3502",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "49",
+    "CD116FP": "01",
+    "GEOID": "4901",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "49",
+    "CD116FP": "03",
+    "GEOID": "4903",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "49",
+    "CD116FP": "04",
+    "GEOID": "4904",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "49",
+    "CD116FP": "02",
+    "GEOID": "4902",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "09",
+    "CD116FP": "01",
+    "GEOID": "0901",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "09",
+    "CD116FP": "03",
+    "GEOID": "0903",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "09",
+    "CD116FP": "04",
+    "GEOID": "0904",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "09",
+    "CD116FP": "05",
+    "GEOID": "0905",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "09",
+    "CD116FP": "02",
+    "GEOID": "0902",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "09",
+    "CD116FP": "ZZ",
+    "GEOID": "09ZZ",
+    "NAMELSAD": "Congressional Districts not defined",
+    "LSAD": "00",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "30",
+    "CD116FP": "00",
+    "GEOID": "3000",
+    "NAMELSAD": "Congressional District (at Large)",
+    "LSAD": "C1",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "01",
+    "GEOID": "3601",
+    "NAMELSAD": "Congressional District 1",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "07",
+    "GEOID": "3607",
+    "NAMELSAD": "Congressional District 7",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "27",
+    "GEOID": "3627",
+    "NAMELSAD": "Congressional District 27",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "17",
+    "GEOID": "3617",
+    "NAMELSAD": "Congressional District 17",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "14",
+    "GEOID": "3614",
+    "NAMELSAD": "Congressional District 14",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "06",
+    "GEOID": "3606",
+    "NAMELSAD": "Congressional District 6",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "05",
+    "GEOID": "3605",
+    "NAMELSAD": "Congressional District 5",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "24",
+    "GEOID": "3624",
+    "NAMELSAD": "Congressional District 24",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "16",
+    "GEOID": "3616",
+    "NAMELSAD": "Congressional District 16",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "11",
+    "GEOID": "3611",
+    "NAMELSAD": "Congressional District 11",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "15",
+    "GEOID": "3615",
+    "NAMELSAD": "Congressional District 15",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "23",
+    "GEOID": "3623",
+    "NAMELSAD": "Congressional District 23",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "08",
+    "GEOID": "3608",
+    "NAMELSAD": "Congressional District 8",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "12",
+    "GEOID": "3612",
+    "NAMELSAD": "Congressional District 12",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "18",
+    "GEOID": "3618",
+    "NAMELSAD": "Congressional District 18",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "02",
+    "GEOID": "3602",
+    "NAMELSAD": "Congressional District 2",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "20",
+    "GEOID": "3620",
+    "NAMELSAD": "Congressional District 20",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "25",
+    "GEOID": "3625",
+    "NAMELSAD": "Congressional District 25",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "03",
+    "GEOID": "3603",
+    "NAMELSAD": "Congressional District 3",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "21",
+    "GEOID": "3621",
+    "NAMELSAD": "Congressional District 21",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "10",
+    "GEOID": "3610",
+    "NAMELSAD": "Congressional District 10",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "04",
+    "GEOID": "3604",
+    "NAMELSAD": "Congressional District 4",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "13",
+    "GEOID": "3613",
+    "NAMELSAD": "Congressional District 13",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "26",
+    "GEOID": "3626",
+    "NAMELSAD": "Congressional District 26",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "22",
+    "GEOID": "3622",
+    "NAMELSAD": "Congressional District 22",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "09",
+    "GEOID": "3609",
+    "NAMELSAD": "Congressional District 9",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  },
+  {
+    "STATEFP": "36",
+    "CD116FP": "19",
+    "GEOID": "3619",
+    "NAMELSAD": "Congressional District 19",
+    "LSAD": "C2",
+    "CDSESSN": "116"
+  }
+]

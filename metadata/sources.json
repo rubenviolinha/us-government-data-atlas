@@ -1,5 +1,14 @@
 [
   {
+    "id": "census-tiger-congressional-districts-2020-attributes",
+    "name": "2020 TIGER Congressional District Attributes",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/geo/tiger/TIGER2020/CD/tl_2020_us_cd116.zip",
+    "format": "Shapefile ZIP; attributes extracted to JSON",
+    "license": "U.S. government public data",
+    "notes": "116th Congress boundary vintage. Geometry remains available from the source archive."
+  },
+  {
     "id": "census-place-gazetteer-2020",
     "name": "2020 Census Gazetteer Place Files",
     "publisher": "U.S. Census Bureau",
