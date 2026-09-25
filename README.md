@@ -73,4 +73,6 @@ python3 api/server.py
 
 Then use `GET /health`, `GET /catalog`, or `GET /datasets/<filename>.json`, for example `/datasets/states.json`. Dataset endpoints also accept exact-match filters and pagination, such as `/datasets/states.json?abbr=CA`, `/datasets/counties_2023.json?STATEFP=06&limit=25`, or `/datasets/federal_judges.json?limit=20&offset=40`. The server is read-only and only serves files listed in `metadata/catalog.json`.
 
+The API smoke tests run in CI with `python -m unittest tests/test_api.py`.
+
 The legislator script imports current and historical congressional members and terms from the open `unitedstates/congress-legislators` project, retaining Bioguide and other government identifiers.
