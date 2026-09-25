@@ -119,6 +119,9 @@ def main():
     acs_district_poverty = load("acs_district_poverty_2023.json")
     acs_district_age_sex = load("acs_district_age_sex_2023.json")
     noaa_state_climate = load("noaa_state_climate_1895_2024.json")
+    acs_school_age_sex = load("acs_school_age_sex_2023.json")
+    acs_school_education = load("acs_school_education_2023.json")
+    acs_school_poverty = load("acs_school_poverty_2023.json")
 
     assert len(states) >= 50
     catalog_files = {entry["file"] for entry in catalog.get("entries", [])}
@@ -329,6 +332,10 @@ def main():
     assert {row.get("parameter") for row in noaa_state_climate} == {"annual_avg_temperature_f", "annual_precipitation_inches"}
     assert len({row.get("state_abbr") for row in noaa_state_climate}) == 50
     assert all(row.get("year") and row.get("value") is not None and row.get("source") for row in noaa_state_climate)
+    for label, rows in (("age_sex", acs_school_age_sex), ("education", acs_school_education), ("poverty", acs_school_poverty)):
+        assert len(rows) >= 10000, f"ACS school {label} coverage too small"
+        assert all(row.get("GEO_ID", "").startswith("9700000US") and row.get("district_geoid") and row.get("state_fips") and row.get("source") for row in rows)
+        assert len({row["district_geoid"] for row in rows}) == len(rows), f"duplicate ACS school {label} GEOIDs"
 
     zcta_ids = {row["GEOID"] for row in zctas}
     # The relationship file is a 2020 vintage while the county gazetteer is 2023;

@@ -1,4 +1,12 @@
 [{
+    "id": "census-acs-school-district-profiles-2023",
+    "name": "Census ACS 2023 Unified School District Profiles",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/",
+    "format": "Table-based ACS summary files",
+    "license": "U.S. government public data",
+    "notes": "Keyless 5-year ACS age/sex, education, and poverty extracts for unified school districts (970 geography), joinable to the 2023 school district gazetteer."
+  }, {
     "id": "noaa-climate-at-a-glance-statewide",
     "name": "NOAA Climate at a Glance Statewide Annual Series",
     "publisher": "National Centers for Environmental Information",
