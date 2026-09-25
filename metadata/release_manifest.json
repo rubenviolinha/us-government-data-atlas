@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T22:27:05.050182+00:00",
+  "generated_at": "2026-09-25T22:35:07.640264+00:00",
   "algorithm": "sha256",
-  "dataset_count": 283,
+  "dataset_count": 295,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -526,8 +526,8 @@
     },
     {
       "file": "data/normalized/acs_school_age_sex_2024_5yr.json",
-      "sha256": "8c7f0cf00453233850ac2ff88ee6af80a89b82927d7784d2e099477698c372a0",
-      "size_bytes": 4308566
+      "sha256": "9677d20f3851d6ac0c55888597b99c83c179e34d1f9e6dddff8472ce16730f9d",
+      "size_bytes": 4591992
     },
     {
       "file": "data/normalized/acs_school_education_2023.json",
@@ -536,8 +536,38 @@
     },
     {
       "file": "data/normalized/acs_school_education_2024_5yr.json",
-      "sha256": "1bdd4c809bac856f04338e28df245a49f307b7213df83b0b8cd2efea6d5b0c64",
-      "size_bytes": 4462454
+      "sha256": "a6761d69d059746bcf9889ec96d2dc09b70dc94f40efa14dae21c7c9b52392a3",
+      "size_bytes": 4745880
+    },
+    {
+      "file": "data/normalized/acs_school_elementary_age_sex_2024_5yr.json",
+      "sha256": "b703b7b10479440b97db2f01ee1848e96a4bab3bf8956e00f964223ff736b7d9",
+      "size_bytes": 837807
+    },
+    {
+      "file": "data/normalized/acs_school_elementary_education_2024_5yr.json",
+      "sha256": "9dd83172277cefd71cec865b8ed4317a2c8c572918f73c7b0f13aac2868ef78b",
+      "size_bytes": 866337
+    },
+    {
+      "file": "data/normalized/acs_school_elementary_housing_2024_5yr.json",
+      "sha256": "13c55fb9b55280f1243229fbfb58624a1d8d88745cb58cee3112419d2fd49ea4",
+      "size_bytes": 762412
+    },
+    {
+      "file": "data/normalized/acs_school_elementary_income_2024_5yr.json",
+      "sha256": "6ffcc4994b3f6036a322f8062312abfba3d9d5be9833b59645325f464b8b74dc",
+      "size_bytes": 769862
+    },
+    {
+      "file": "data/normalized/acs_school_elementary_poverty_2024_5yr.json",
+      "sha256": "11845fa58e975521ced3876b6bd33b8cfc452d6d621a5b0e97aeae437934ac0c",
+      "size_bytes": 834275
+    },
+    {
+      "file": "data/normalized/acs_school_elementary_race_2024_5yr.json",
+      "sha256": "b94a1677d4968e0bc336653b05dad7c15080d5427e60ee18bd031caab075e73f",
+      "size_bytes": 1004370
     },
     {
       "file": "data/normalized/acs_school_housing_2023.json",
@@ -546,8 +576,8 @@
     },
     {
       "file": "data/normalized/acs_school_housing_2024_5yr.json",
-      "sha256": "9cc3b8c699ea12c5d5fafabac7714a4b060a7ec3f720ee90d42ad0fcd55774f3",
-      "size_bytes": 3879769
+      "sha256": "acb87ec09abc493408ea809d883027bd2e91c2276b96aa01ed2d010b49e78061",
+      "size_bytes": 4163195
     },
     {
       "file": "data/normalized/acs_school_income_2023.json",
@@ -556,8 +586,8 @@
     },
     {
       "file": "data/normalized/acs_school_income_2024_5yr.json",
-      "sha256": "e42d9c70ed307f5a5986b5359088c3d16572200d50c9917834b2142636d03377",
-      "size_bytes": 3908706
+      "sha256": "6846307c98b7b8da46ea4bdcb4b545f741243855e85f4f1d6d842571110389a5",
+      "size_bytes": 4192132
     },
     {
       "file": "data/normalized/acs_school_poverty_2023.json",
@@ -566,8 +596,8 @@
     },
     {
       "file": "data/normalized/acs_school_poverty_2024_5yr.json",
-      "sha256": "eab0d3c6c4b240b53d137462ad298b5c197b6766710894e47add7c516d1bae50",
-      "size_bytes": 4284233
+      "sha256": "8f2226788146046a77bd81e29ca0b7aab20eb58b8de3dd93a26624495d26c4f5",
+      "size_bytes": 4567659
     },
     {
       "file": "data/normalized/acs_school_race_2023.json",
@@ -576,8 +606,38 @@
     },
     {
       "file": "data/normalized/acs_school_race_2024_5yr.json",
-      "sha256": "def9633b78f33d361cfb46988866411688a9d009bab3767dbd485e568e7dbf41",
-      "size_bytes": 5234816
+      "sha256": "1939a402af4257d29ea3b559e215601cf43418573cb4713a5690a0b6860936be",
+      "size_bytes": 5518242
+    },
+    {
+      "file": "data/normalized/acs_school_secondary_age_sex_2024_5yr.json",
+      "sha256": "d241c604fd34d6cf142e23386f4987a122994e26e51a7d905504eb3a29535dc0",
+      "size_bytes": 212683
+    },
+    {
+      "file": "data/normalized/acs_school_secondary_education_2024_5yr.json",
+      "sha256": "56d89827e6192889480bd4942a150dcbcd03bd4938b24c9de120a91b273bba57",
+      "size_bytes": 220268
+    },
+    {
+      "file": "data/normalized/acs_school_secondary_housing_2024_5yr.json",
+      "sha256": "afd1bc1e27ad342e0dcdf1a9030b8a8de6d92c5cf28c41a35ba5efccf4ade1d8",
+      "size_bytes": 192969
+    },
+    {
+      "file": "data/normalized/acs_school_secondary_income_2024_5yr.json",
+      "sha256": "e19bf697512d874ebba85d11344eca51f24912ed8ce85f03849817003068e031",
+      "size_bytes": 194187
+    },
+    {
+      "file": "data/normalized/acs_school_secondary_poverty_2024_5yr.json",
+      "sha256": "7d9df0cf1c1826f1b1533985a52177450de7f07061da0acd86f3fcdffe96de0e",
+      "size_bytes": 211827
+    },
+    {
+      "file": "data/normalized/acs_school_secondary_race_2024_5yr.json",
+      "sha256": "08b180b6851bdcdfa40b324044fe3171430d6b19b399b9eb275c45d20f6cf0e6",
+      "size_bytes": 256396
     },
     {
       "file": "data/normalized/acs_state_age_sex_2023.json",

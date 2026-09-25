@@ -90,6 +90,8 @@ def main():
     zcta_population_acs_2024 = load("zcta_population_acs_2024.json")
     acs_cousub_2024 = {label: load(f"acs_cousub_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_school_2024 = {label: load(f"acs_school_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
+    acs_school_elementary_2024 = {label: load(f"acs_school_elementary_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
+    acs_school_secondary_2024 = {label: load(f"acs_school_secondary_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_tract_2024 = {label: load(f"acs_tract_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_urban_2024 = {label: load(f"acs_urban_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_district_2024_5yr = {label: load(f"acs_district_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
@@ -469,6 +471,11 @@ def main():
         assert len(rows) >= 10000, f"ACS 2024 school district {label} coverage too small"
         assert len({row["district_geoid"] for row in rows}) == len(rows)
         assert all(row.get("GEO_ID", "").startswith("9700000US") and len(row.get("district_geoid", "")) == 7 and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
+    for district_type, profiles, prefix, expected in (("elementary", acs_school_elementary_2024, "9500000US", 1978), ("secondary", acs_school_secondary_2024, "9600000US", 501)):
+        for label, rows in profiles.items():
+            assert len(rows) == expected, f"ACS 2024 {district_type} school district {label} coverage mismatch"
+            assert len({row["district_geoid"] for row in rows}) == len(rows)
+            assert all(row.get("GEO_ID", "").startswith(prefix) and len(row.get("district_geoid", "")) == 7 and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
     for label, rows in acs_tract_2024.items():
         assert len(rows) >= 85000, f"ACS 2024 tract {label} coverage too small"
         assert len({row["tract_geoid"] for row in rows}) == len(rows)

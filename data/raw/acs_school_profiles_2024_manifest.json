@@ -1,6 +1,66 @@
 {
-  "retrieved_at": "2026-09-25T21:58:25.335786+00:00",
+  "retrieved_at": "2026-09-25T22:32:36.497844+00:00",
   "tables": {
+    "acs_school_elementary_age_sex_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "file": "data/normalized/acs_school_elementary_age_sex_2024_5yr.json",
+      "records": 1978
+    },
+    "acs_school_elementary_education_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+      "file": "data/normalized/acs_school_elementary_education_2024_5yr.json",
+      "records": 1978
+    },
+    "acs_school_elementary_poverty_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "file": "data/normalized/acs_school_elementary_poverty_2024_5yr.json",
+      "records": 1978
+    },
+    "acs_school_elementary_income_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "file": "data/normalized/acs_school_elementary_income_2024_5yr.json",
+      "records": 1978
+    },
+    "acs_school_elementary_housing_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
+      "file": "data/normalized/acs_school_elementary_housing_2024_5yr.json",
+      "records": 1978
+    },
+    "acs_school_elementary_race_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
+      "file": "data/normalized/acs_school_elementary_race_2024_5yr.json",
+      "records": 1978
+    },
+    "acs_school_secondary_age_sex_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "file": "data/normalized/acs_school_secondary_age_sex_2024_5yr.json",
+      "records": 501
+    },
+    "acs_school_secondary_education_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+      "file": "data/normalized/acs_school_secondary_education_2024_5yr.json",
+      "records": 501
+    },
+    "acs_school_secondary_poverty_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "file": "data/normalized/acs_school_secondary_poverty_2024_5yr.json",
+      "records": 501
+    },
+    "acs_school_secondary_income_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "file": "data/normalized/acs_school_secondary_income_2024_5yr.json",
+      "records": 501
+    },
+    "acs_school_secondary_housing_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
+      "file": "data/normalized/acs_school_secondary_housing_2024_5yr.json",
+      "records": 501
+    },
+    "acs_school_secondary_race_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
+      "file": "data/normalized/acs_school_secondary_race_2024_5yr.json",
+      "records": 501
+    },
     "acs_school_age_sex_2024_5yr.json": {
       "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
       "file": "data/normalized/acs_school_age_sex_2024_5yr.json",
@@ -32,5 +92,5 @@
       "records": 10901
     }
   },
-  "note": "Public table-based ACS 2024 5-year school-district profile extracts; compact fields; all school-district types; no API key used."
+  "note": "Public table-based ACS 2024 5-year elementary, secondary, and unified school-district profile extracts; compact fields; no API key used."
 }

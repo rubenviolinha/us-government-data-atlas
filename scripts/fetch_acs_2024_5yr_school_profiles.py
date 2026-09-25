@@ -25,13 +25,13 @@ def integer_or_text(value):
     return int(value) if value.lstrip("-").isdigit() else value
 
 
-def fetch(table, label, fields, names, retrieved_at):
+def fetch(district_type, prefix, table, label, fields, names, retrieved_at):
     source = BASE + f"acsdt5y2024-{table}.dat"
     rows = []
     with urlopen(Request(source, headers={"User-Agent": "us-government-data-atlas/0.1"}), timeout=600) as response:
         header = response.readline().decode("utf-8").rstrip("\n").split("|")
         for line in response:
-            if not line.startswith(b"9700000US"):
+            if not line.startswith(prefix.encode("ascii")):
                 continue
             values = next(csv.reader([line.decode("utf-8").rstrip("\n")], delimiter="|"))
             raw = dict(zip(header, values))
@@ -39,6 +39,7 @@ def fetch(table, label, fields, names, retrieved_at):
             row = {key: integer_or_text(value) for key, value in raw.items() if key == "GEO_ID" or key in fields}
             row.update({
                 "district_geoid": geoid,
+                "district_type": district_type,
                 "state_fips": geoid[:2],
                 "state_name": names.get(geoid[:2]),
                 "source": source,
@@ -48,7 +49,8 @@ def fetch(table, label, fields, names, retrieved_at):
             })
             rows.append(row)
     rows.sort(key=lambda row: row["GEO_ID"])
-    filename = f"acs_school_{label.lower().replace('b01001', 'age_sex').replace('b15003', 'education').replace('b17001', 'poverty').replace('b19013', 'income').replace('b25001', 'housing').replace('b02001', 'race')}_2024_5yr.json"
+    suffix = label.lower().replace('b01001', 'age_sex').replace('b15003', 'education').replace('b17001', 'poverty').replace('b19013', 'income').replace('b25001', 'housing').replace('b02001', 'race')
+    filename = f"acs_school_{suffix}_2024_5yr.json" if district_type == "unified" else f"acs_school_{district_type}_{suffix}_2024_5yr.json"
     (NORMALIZED / filename).write_text(json.dumps(rows, separators=(",", ":")) + "\n", encoding="utf-8")
     return source, filename, len(rows)
 
@@ -59,10 +61,16 @@ def main():
     retrieved_at = datetime.now(timezone.utc).isoformat()
     names = {row["state_fips"]: row["name"] for row in json.loads((NORMALIZED / "states.json").read_text(encoding="utf-8"))}
     results = {}
-    for table, (label, table_name, fields) in TABLES.items():
-        source, filename, count = fetch(table, table_name, fields, names, retrieved_at)
-        results[filename] = {"source": source, "file": "data/normalized/" + filename, "records": count}
-    manifest = {"retrieved_at": retrieved_at, "tables": results, "note": "Public table-based ACS 2024 5-year school-district profile extracts; compact fields; all school-district types; no API key used."}
+    district_types = {
+        "elementary": "9500000US",
+        "secondary": "9600000US",
+        "unified": "9700000US",
+    }
+    for district_type, prefix in district_types.items():
+        for table, (label, table_name, fields) in TABLES.items():
+            source, filename, count = fetch(district_type, prefix, table, table_name, fields, names, retrieved_at)
+            results[filename] = {"source": source, "file": "data/normalized/" + filename, "records": count}
+    manifest = {"retrieved_at": retrieved_at, "tables": results, "note": "Public table-based ACS 2024 5-year elementary, secondary, and unified school-district profile extracts; compact fields; no API key used."}
     (RAW / "acs_school_profiles_2024_manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(manifest, indent=2))
 

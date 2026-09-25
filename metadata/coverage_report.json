@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T22:27:05.097780+00:00",
-  "catalog_datasets": 283,
+  "generated_at": "2026-09-25T22:35:07.806768+00:00",
+  "catalog_datasets": 295,
   "domain_counts": {
-    "Census ACS demographics": 151,
+    "Census ACS demographics": 163,
     "Counties": 4,
     "Current officeholders": 8,
     "FEC elections": 27,
