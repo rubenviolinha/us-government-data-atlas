@@ -39,6 +39,17 @@ class ApiSmokeTests(unittest.TestCase):
         self.assertEqual(payload["count"], 1)
         self.assertEqual(payload["data"][0]["name"], "California")
 
+    def test_case_insensitive_and_contains_filters(self):
+        status, payload = self.get("/datasets/states.json?abbr=ca")
+        self.assertEqual(status, 200)
+        self.assertEqual(payload["count"], 1)
+        self.assertEqual(payload["data"][0]["name"], "California")
+
+        status, payload = self.get("/datasets/states.json?name__contains=land")
+        self.assertEqual(status, 200)
+        self.assertGreaterEqual(payload["total"], 1)
+        self.assertTrue(all("land" in row["name"].lower() for row in payload["data"]))
+
     def test_rejects_unlisted_dataset(self):
         status, _payload = self.get("/datasets/../../README.md")
         self.assertEqual(status, 404)

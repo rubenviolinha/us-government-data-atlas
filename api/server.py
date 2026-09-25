@@ -43,7 +43,16 @@ class Handler(BaseHTTPRequestHandler):
             if not isinstance(payload, list) or not all(isinstance(row, dict) for row in payload):
                 return self.send_json({"data": payload, "total": 1, "count": 1, "offset": 0})
             filters = {key: values[0] for key, values in query.items() if key not in {"limit", "offset"} and values}
-            filtered = [row for row in payload if all(str(row.get(key, "")) == value for key, value in filters.items())]
+            def matches(row):
+                for key, value in filters.items():
+                    if key.endswith("__contains"):
+                        field = key.removesuffix("__contains")
+                        if value.lower() not in str(row.get(field, "")).lower():
+                            return False
+                    elif str(row.get(key, "")).lower() != value.lower():
+                        return False
+                return True
+            filtered = [row for row in payload if matches(row)]
             try:
                 offset = max(0, int(query.get("offset", ["0"])[0]))
                 limit = min(1000, max(1, int(query.get("limit", ["100"])[0])))

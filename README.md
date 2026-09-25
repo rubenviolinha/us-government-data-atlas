@@ -12,7 +12,7 @@ An open, versioned catalog of U.S. government, geographic, demographic, and hist
 
 Every dataset should preserve its source URL, retrieval timestamp, source vintage, license, and transformation notes.
 
-The current release contains 91 cataloged datasets, including 57 Census reference jurisdictions, 3,222 counties, 2020 and 2023 ZCTA geography, 85,396 tracts, 36,434 county subdivisions, 32,329 places, 13,333 school districts, 6,844 state legislative districts, dated congressional districts, tribal areas, urban areas, CBSAs, PUMAs, and ZIP/PUMA relationship tables.
+The current release contains 93 cataloged datasets, including 57 Census reference jurisdictions, 3,222 counties, 2020 and 2023 ZCTA geography, 85,396 tracts, 36,434 county subdivisions, 32,329 places, 13,333 school districts, 6,844 state legislative districts, dated congressional districts, tribal areas, urban areas, CBSAs, PUMAs, and ZIP/PUMA relationship and vintage-crosswalk tables.
 
 ## Repository layout
 
@@ -79,7 +79,7 @@ python3 api/server.py
 
 Then use `GET /health`, `GET /catalog`, or `GET /datasets/<filename>.json`, for example `/datasets/states.json`. Dataset endpoints also accept exact-match filters and pagination, such as `/datasets/states.json?abbr=CA`, `/datasets/counties_2023.json?STATEFP=06&limit=25`, or `/datasets/federal_judges.json?limit=20&offset=40`. The server is read-only and only serves files listed in `metadata/catalog.json`.
 
-The API smoke tests run in CI with `python -m unittest tests/test_api.py`.
+Exact-match filters are case-insensitive, and text containment filters use the `field__contains=value` form (for example, `/datasets/states.json?name__contains=land`). The API smoke tests run in CI with `python -m unittest tests/test_api.py`.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for provenance, licensing, and refresh requirements. The repository code is MIT-licensed; dataset terms remain source-specific.
 
