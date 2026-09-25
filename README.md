@@ -37,6 +37,6 @@ The scripts use public Census endpoints and write retrieval manifests alongside 
 
 The GNIS script downloads the compact Government Units and Populated Places extracts (states, counties, cities, and other named places) rather than the much larger all-names archive.
 
-The district script extracts a compact attribute table from the 2020 TIGER congressional-district archive; the source archive remains available for geometry consumers.
+The district script extracts compact attribute tables from the 2020 and current 2025 TIGER congressional-district archives; the source archives remain available for geometry consumers.
 
 The validator checks identifier uniqueness and cross-references between states, counties, places, ZCTAs, relationships, and districts. It also runs in GitHub Actions on pushes and pull requests.

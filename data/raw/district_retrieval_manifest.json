@@ -1,8 +1,16 @@
 {
-  "retrieved_at": "2026-09-25T10:02:12.656980+00:00",
+  "retrieved_at": "2026-09-25T10:05:23.339308+00:00",
   "source": "https://www2.census.gov/geo/tiger/TIGER2020/CD/tl_2020_us_cd116.zip",
   "vintage": "2020",
   "records": 444,
   "geometry": "Available in source archive; not committed to keep the repository compact",
-  "file": "data/normalized/congressional_districts_2020.json"
+  "file": "data/normalized/congressional_districts_2020.json",
+  "current_2025": {
+    "records": 444,
+    "source_count": 56,
+    "unavailable_fips": [
+      "74"
+    ],
+    "file": "data/normalized/congressional_districts_2025.json"
+  }
 }
