@@ -1,5 +1,14 @@
 [
   {
+    "id": "unitedstates-congress-legislators",
+    "name": "Current and Historical Congressional Legislators",
+    "publisher": "unitedstates/congress-legislators",
+    "url": "https://github.com/unitedstates/congress-legislators",
+    "format": "YAML",
+    "license": "Project license; inspect upstream terms before redistribution",
+    "notes": "Open normalized member, identifier, and term records for current and historical U.S. Representatives and Senators."
+  },
+  {
     "id": "census-place-population-estimates-2024",
     "name": "Census Place Population Estimates, 2020-2024",
     "publisher": "U.S. Census Bureau",

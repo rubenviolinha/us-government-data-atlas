@@ -27,6 +27,7 @@ def main():
     current_districts = load("congressional_districts_2025.json")
     county_population = load("county_population_2020_2024.json")
     place_population = load("place_population_2020_2024.json")
+    legislators = load("congressional_legislators.json")
 
     assert len(states) >= 50
     assert_unique(states, "state_fips", "state FIPS codes")
@@ -37,6 +38,9 @@ def main():
     assert_unique(current_districts, "GEOID", "current district GEOIDs")
     assert_unique(county_population, "GEOID", "county population GEOIDs")
     assert_unique(place_population, "GEOID", "place population GEOIDs")
+    legislator_ids = [person.get("id", {}).get("bioguide") for person in legislators]
+    assert all(legislator_ids)
+    assert len(legislator_ids) == len(set(legislator_ids)), "duplicate legislator Bioguide IDs"
 
     zcta_ids = {row["GEOID"] for row in zctas}
     # The relationship file is a 2020 vintage while the county gazetteer is 2023;
@@ -49,7 +53,8 @@ def main():
     assert all(row["STATEFP"] == row["GEOID"][:2] for row in current_districts)
     assert all(len(row["GEOID"]) == 5 for row in county_population)
     assert all(len(row["GEOID"]) == 7 for row in place_population)
-    print(f"validated states={len(states)} counties={len(counties)} county_population={len(county_population)} places={len(places)} place_population={len(place_population)} zctas={len(zctas)} relationships={len(relationships)} districts_2020={len(districts)} districts_2025={len(current_districts)}")
+    assert all(term.get("type") in {"rep", "sen"} for person in legislators for term in person.get("terms", []))
+    print(f"validated states={len(states)} counties={len(counties)} county_population={len(county_population)} places={len(places)} place_population={len(place_population)} legislators={len(legislators)} zctas={len(zctas)} relationships={len(relationships)} districts_2020={len(districts)} districts_2025={len(current_districts)}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,18 @@
+{
+  "retrieved_at": "2026-09-25T10:13:02.970562+00:00",
+  "sources": [
+    {
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "path": "data/raw/legislators-current.yaml",
+      "records": 539
+    },
+    {
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-historical.yaml",
+      "path": "data/raw/legislators-historical.yaml",
+      "records": 12231
+    }
+  ],
+  "people": 12770,
+  "terms": 45535,
+  "file": "data/normalized/congressional_legislators.json"
+}
