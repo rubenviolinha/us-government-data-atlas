@@ -934,5 +934,14 @@
     "format": "ArcGIS Feature Service JSON",
     "license": "U.S. government public data",
     "notes": "Compact county-level SVI estimates, theme percentile ranks, overall percentile rank, flags, and selected population/context fields."
+  },
+  {
+    "id": "cdc-svi-2022-tracts",
+    "name": "CDC/ATSDR Social Vulnerability Index 2022 Tract Layer",
+    "publisher": "CDC / Agency for Toxic Substances and Disease Registry",
+    "url": "https://onemap.cdc.gov/onemapservices/rest/services/SVI/CDC_ATSDR_Social_Vulnerability_Index_2022_USA/FeatureServer/2",
+    "format": "ArcGIS Feature Service JSON",
+    "license": "U.S. government public data",
+    "notes": "Compact tract-level SVI estimates, theme percentile ranks, overall percentile rank, flags, and selected population/context fields."
   }
 ]

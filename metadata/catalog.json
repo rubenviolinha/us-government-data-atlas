@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T21:36:33.367453+00:00",
+  "generated_at": "2026-09-25T21:39:59.776649+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -6603,6 +6603,56 @@
       ],
       "source_urls_sample": [
         "https://onemap.cdc.gov/onemapservices/rest/services/SVI/CDC_ATSDR_Social_Vulnerability_Index_2022_USA/FeatureServer/1/query"
+      ]
+    },
+    {
+      "file": "data/normalized/svi_tracts_2022.json",
+      "format": "JSON",
+      "records": 84120,
+      "size_bytes": 92366514,
+      "fields_sample": [
+        "AREA_SQMI",
+        "EP_AGE17",
+        "EP_AGE65",
+        "EP_CROWD",
+        "EP_DISABL",
+        "EP_GROUPQ",
+        "EP_HBURD",
+        "EP_LIMENG",
+        "EP_MINRTY",
+        "EP_MOBILE",
+        "EP_MUNIT",
+        "EP_NOHSDP",
+        "EP_NOINT",
+        "EP_NOVEH",
+        "EP_POV150",
+        "EP_SNGPNT",
+        "EP_UNEMP",
+        "EP_UNINSUR",
+        "E_DAYPOP",
+        "E_HH",
+        "E_HU",
+        "E_NOINT",
+        "E_TOTPOP",
+        "F_TOTAL",
+        "GEOID",
+        "GRASP_ID",
+        "LOCATION",
+        "RPL_THEME1",
+        "RPL_THEME2",
+        "RPL_THEME3",
+        "RPL_THEME4",
+        "RPL_THEMES",
+        "ST",
+        "STATE",
+        "STCNTY",
+        "ST_ABBR",
+        "retrieved_at",
+        "source",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://onemap.cdc.gov/onemapservices/rest/services/SVI/CDC_ATSDR_Social_Vulnerability_Index_2022_USA/FeatureServer/2/query"
       ]
     },
     {
