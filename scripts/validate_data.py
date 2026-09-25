@@ -74,6 +74,7 @@ def main():
     fec_federal_elections_2012 = load("fec_federal_elections_2012.json")
     fec_federal_elections_2008 = load("fec_federal_elections_2008.json")
     fec_federal_elections_2006 = load("fec_federal_elections_2006.json")
+    fec_federal_elections_2004 = load("fec_federal_elections_2004.json")
     acs_district_income = load("acs_district_income_2023.json")
     acs_district_housing = load("acs_district_housing_2023.json")
     acs_district_race = load("acs_district_race_2023.json")
@@ -185,6 +186,8 @@ def main():
     for year, rows in ((2008, fec_federal_elections_2008), (2006, fec_federal_elections_2006)):
         assert len(rows) >= 2000, f"too few FEC {year} election rows"
         assert all(row.get("fec_id") and row.get("candidate_name") and row.get("office") in {"senate", "house"} and row.get("election_year") == year and row.get("source") for row in rows)
+    assert len(fec_federal_elections_2004) >= 2000
+    assert all(row.get("fec_id") and row.get("candidate_name") and row.get("office") in {"senate", "house"} and row.get("election_year") == 2004 and row.get("source") for row in fec_federal_elections_2004)
     for label, rows in (("education", acs_district_education), ("poverty", acs_district_poverty), ("income", acs_district_income), ("housing", acs_district_housing), ("race", acs_district_race)):
         assert len(rows) >= 400, f"too few ACS district {label} rows"
         assert all(row.get("GEO_ID", "").startswith("5001800US") and row.get("district_geoid") and row.get("state_fips") and row.get("source") for row in rows)

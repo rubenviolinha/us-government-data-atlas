@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:26:44.905878+00:00",
+  "generated_at": "2026-09-25T16:28:56.417190+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -1542,6 +1542,38 @@
       ],
       "source_urls_sample": [
         "https://www.fec.gov/files/bulk-downloads/2024/cm24.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_federal_elections_2004.json",
+      "format": "JSON",
+      "records": 2070,
+      "size_bytes": 1153342,
+      "fields_sample": [
+        "candidate_name",
+        "d",
+        "district",
+        "election_year",
+        "fec_id",
+        "first_name",
+        "general",
+        "general_%",
+        "incumbent_indicator",
+        "last_name",
+        "last_name,_first",
+        "office",
+        "party",
+        "primary",
+        "primary_%",
+        "runoff",
+        "runoff_%",
+        "source",
+        "source_sheet",
+        "state",
+        "state_abbreviation"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/documents/1625/2004congresults.xls"
       ]
     },
     {

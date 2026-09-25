@@ -16,6 +16,7 @@ PUBLICATIONS = {
     2012: ("https://www.fec.gov/documents/1691/federalelections2012.xls", ("2012 US House & Senate Resuts",)),
     2008: ("https://www.fec.gov/documents/1666/federalelections2008.xls", ("2008 House and Senate Results",)),
     2006: ("https://www.fec.gov/documents/1642/federalelections2006.xls", ("2006 US House & Senate Results",)),
+    2004: ("https://www.fec.gov/documents/1625/2004congresults.xls", ("2004 US HOUSE & SENATE RESULTS",)),
 }
 
 

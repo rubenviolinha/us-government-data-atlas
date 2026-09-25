@@ -1,0 +1,11 @@
+{
+  "retrieved_at": "2026-09-25T16:28:54.085910+00:00",
+  "source": "https://www.fec.gov/documents/1625/2004congresults.xls",
+  "format": "legacy Excel workbook",
+  "sheets": {
+    "2004 US HOUSE & SENATE RESULTS": 2070
+  },
+  "records": 2070,
+  "file": "data/normalized/fec_federal_elections_2004.json",
+  "note": "Official certified federal election compilation; no API key used."
+}
