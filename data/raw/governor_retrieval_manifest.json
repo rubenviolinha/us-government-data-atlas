@@ -1,0 +1,9 @@
+{
+  "retrieved_at": "2026-09-25T10:18:39.157223+00:00",
+  "source": "https://www.nga.org/former-governors/search/",
+  "raw_file": "data/raw/governors-nga.html",
+  "file": "data/normalized/governors_nga.json",
+  "governors": 2433,
+  "terms": 2625,
+  "term_year_anomalies": 3
+}

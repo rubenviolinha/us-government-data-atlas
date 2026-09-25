@@ -1,4 +1,12 @@
-[
+[{
+    "id": "nga-former-governors",
+    "name": "National Governors Association Former Governors Search",
+    "publisher": "National Governors Association",
+    "url": "https://www.nga.org/former-governors/search/",
+    "format": "HTML table",
+    "license": "Association website; verify reuse terms before redistribution",
+    "notes": "Structured historical index with governor name, jurisdiction, party, years in office, and profile URL. The NGA is an association rather than a federal agency; treat this as a curated reference source and reconcile against state archives for authoritative completeness."
+  },
   {
     "id": "unitedstates-congress-legislators",
     "name": "Current and Historical Congressional Legislators",

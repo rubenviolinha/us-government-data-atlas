@@ -30,6 +30,7 @@ python3 scripts/fetch_initial_data.py
 python3 scripts/fetch_county_population.py
 python3 scripts/fetch_place_population.py
 python3 scripts/fetch_legislators.py
+python3 scripts/fetch_governors.py
 python3 scripts/fetch_geography.py
 python3 scripts/fetch_gnis.py
 python3 scripts/fetch_districts.py
