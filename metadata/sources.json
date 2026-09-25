@@ -1,5 +1,23 @@
 [
   {
+    "id": "usgs-gnis-domestic-names",
+    "name": "GNIS Domestic Names",
+    "publisher": "U.S. Geological Survey / Board on Geographic Names",
+    "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/GeographicNames/DomesticNames/DomesticNames_National_Text.zip",
+    "format": "ZIP containing text and metadata",
+    "license": "U.S. government public data",
+    "notes": "Official and variant geographic names; national download is large and should be ingested selectively by feature class."
+  },
+  {
+    "id": "census-tiger-congressional-districts-2020",
+    "name": "2020 TIGER/Line Congressional Districts",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/geo/tiger/TIGER2020/CD/tl_2020_us_cd116.zip",
+    "format": "Shapefile ZIP",
+    "license": "U.S. government public data",
+    "notes": "Historical boundary vintage; later vintages should be added as separate releases."
+  },
+  {
     "id": "census-zcta-2020",
     "name": "2020 Census ZCTA Gazetteer",
     "publisher": "U.S. Census Bureau",

@@ -12,6 +12,8 @@ An open, versioned catalog of U.S. government, geographic, demographic, and hist
 
 Every dataset should preserve its source URL, retrieval timestamp, source vintage, license, and transformation notes.
 
+The current geography release includes 57 Census reference jurisdictions, 3,222 counties, 33,144 2020 ZCTAs, and 46,960 usable ZCTA-to-county intersections.
+
 ## Repository layout
 
 ```text
