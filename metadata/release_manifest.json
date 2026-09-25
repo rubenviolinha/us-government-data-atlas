@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T22:35:07.640264+00:00",
+  "generated_at": "2026-09-25T22:40:37.725192+00:00",
   "algorithm": "sha256",
-  "dataset_count": 295,
+  "dataset_count": 307,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -35,6 +35,36 @@
       "size_bytes": 297583
     },
     {
+      "file": "data/normalized/acs_alaska_native_regional_corporation_age_sex_2024_5yr.json",
+      "sha256": "3046ce1358aace0b2e3e75aac74f6a3608f6bf8cc3b8aad24546e62ae70de6d7",
+      "size_bytes": 4913
+    },
+    {
+      "file": "data/normalized/acs_alaska_native_regional_corporation_education_2024_5yr.json",
+      "sha256": "49803e47269389ff68eb018cf4d5676f68783adb70e1420779470a9f98d76a5f",
+      "size_bytes": 5080
+    },
+    {
+      "file": "data/normalized/acs_alaska_native_regional_corporation_housing_2024_5yr.json",
+      "sha256": "25413cb6e04b813233d9325dbe2bd60938989438dc57eafaa389cfd6abb6e3af",
+      "size_bytes": 4430
+    },
+    {
+      "file": "data/normalized/acs_alaska_native_regional_corporation_income_2024_5yr.json",
+      "sha256": "56bf031ffe0969736bb7a03ff655ba1c7c0a265ee9dd283d7f53b0aff3376727",
+      "size_bytes": 4457
+    },
+    {
+      "file": "data/normalized/acs_alaska_native_regional_corporation_poverty_2024_5yr.json",
+      "sha256": "f04ec9ecabb007bb207627dd3a087012620da398ce53556666ec9b128708745d",
+      "size_bytes": 4885
+    },
+    {
+      "file": "data/normalized/acs_alaska_native_regional_corporation_race_2024_5yr.json",
+      "sha256": "a35ebbc0f88efa7a04ffec1935d5e0e04acaf62eb9821c4738cbb114570908d1",
+      "size_bytes": 5990
+    },
+    {
       "file": "data/normalized/acs_cbsa_age_sex_2024_5yr.json",
       "sha256": "28fef9b4078337452578c9066d58e1655c2fca6aa2ffc015c7e6e08a985a3b72",
       "size_bytes": 331863
@@ -63,6 +93,36 @@
       "file": "data/normalized/acs_cbsa_race_2024_5yr.json",
       "sha256": "b8beed01e5b7ddce147fa0938c62bd4a6fbf9f8b798cb913377b9dd0e3aa3ad5",
       "size_bytes": 417121
+    },
+    {
+      "file": "data/normalized/acs_consolidated_city_age_sex_2024_5yr.json",
+      "sha256": "7d8aa3e3291e47bb3ed975bd6b1c56c7d4b30604bef2d0b7baa81b1914c6f471",
+      "size_bytes": 3187
+    },
+    {
+      "file": "data/normalized/acs_consolidated_city_education_2024_5yr.json",
+      "sha256": "3796c215a790bf36208f435465c5dbd1cbc47f76cd076d1dbf1ed2ed7084a1b2",
+      "size_bytes": 3288
+    },
+    {
+      "file": "data/normalized/acs_consolidated_city_housing_2024_5yr.json",
+      "sha256": "fb36739afe32c3838b8f569264038e8ede2eb883a32de0f5d8c54535ef49990e",
+      "size_bytes": 2826
+    },
+    {
+      "file": "data/normalized/acs_consolidated_city_income_2024_5yr.json",
+      "sha256": "0b9cc4c174926dbe2bf991950af73552754a83cae55e3993130184644c332df2",
+      "size_bytes": 2834
+    },
+    {
+      "file": "data/normalized/acs_consolidated_city_poverty_2024_5yr.json",
+      "sha256": "d4855c52d814e15e15048829a1736df1717f424a49a3413b1770e2ca8256f9fd",
+      "size_bytes": 3142
+    },
+    {
+      "file": "data/normalized/acs_consolidated_city_race_2024_5yr.json",
+      "sha256": "f5816fb286bfce2e89e3697cac17621e74ab2da29b45e9e359878c21307a057c",
+      "size_bytes": 3922
     },
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",

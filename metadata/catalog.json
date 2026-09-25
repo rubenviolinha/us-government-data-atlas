@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T22:35:04.369281+00:00",
+  "generated_at": "2026-09-25T22:40:36.370165+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -131,6 +131,140 @@
       ]
     },
     {
+      "file": "data/normalized/acs_alaska_native_regional_corporation_age_sex_2024_5yr.json",
+      "format": "JSON",
+      "records": 12,
+      "size_bytes": 4913,
+      "fields_sample": [
+        "B01001_E001",
+        "B01001_E002",
+        "B01001_E026",
+        "B01001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_alaska_native_regional_corporation_education_2024_5yr.json",
+      "format": "JSON",
+      "records": 12,
+      "size_bytes": 5080,
+      "fields_sample": [
+        "B15003_E001",
+        "B15003_E002",
+        "B15003_E017",
+        "B15003_E025",
+        "B15003_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_alaska_native_regional_corporation_housing_2024_5yr.json",
+      "format": "JSON",
+      "records": 12,
+      "size_bytes": 4430,
+      "fields_sample": [
+        "B25001_E001",
+        "B25001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_alaska_native_regional_corporation_income_2024_5yr.json",
+      "format": "JSON",
+      "records": 12,
+      "size_bytes": 4457,
+      "fields_sample": [
+        "B19013_E001",
+        "B19013_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_alaska_native_regional_corporation_poverty_2024_5yr.json",
+      "format": "JSON",
+      "records": 12,
+      "size_bytes": 4885,
+      "fields_sample": [
+        "B17001_E001",
+        "B17001_E002",
+        "B17001_E017",
+        "B17001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_alaska_native_regional_corporation_race_2024_5yr.json",
+      "format": "JSON",
+      "records": 12,
+      "size_bytes": 5990,
+      "fields_sample": [
+        "B02001_E001",
+        "B02001_E002",
+        "B02001_E003",
+        "B02001_E004",
+        "B02001_E005",
+        "B02001_E006",
+        "B02001_E007",
+        "B02001_E008",
+        "B02001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_cbsa_age_sex_2024_5yr.json",
       "format": "JSON",
       "records": 935,
@@ -249,6 +383,140 @@
         "B02001_M001",
         "GEO_ID",
         "cbsa_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_consolidated_city_age_sex_2024_5yr.json",
+      "format": "JSON",
+      "records": 8,
+      "size_bytes": 3187,
+      "fields_sample": [
+        "B01001_E001",
+        "B01001_E002",
+        "B01001_E026",
+        "B01001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_consolidated_city_education_2024_5yr.json",
+      "format": "JSON",
+      "records": 8,
+      "size_bytes": 3288,
+      "fields_sample": [
+        "B15003_E001",
+        "B15003_E002",
+        "B15003_E017",
+        "B15003_E025",
+        "B15003_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_consolidated_city_housing_2024_5yr.json",
+      "format": "JSON",
+      "records": 8,
+      "size_bytes": 2826,
+      "fields_sample": [
+        "B25001_E001",
+        "B25001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_consolidated_city_income_2024_5yr.json",
+      "format": "JSON",
+      "records": 8,
+      "size_bytes": 2834,
+      "fields_sample": [
+        "B19013_E001",
+        "B19013_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_consolidated_city_poverty_2024_5yr.json",
+      "format": "JSON",
+      "records": 8,
+      "size_bytes": 3142,
+      "fields_sample": [
+        "B17001_E001",
+        "B17001_E002",
+        "B17001_E017",
+        "B17001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_consolidated_city_race_2024_5yr.json",
+      "format": "JSON",
+      "records": 8,
+      "size_bytes": 3922,
+      "fields_sample": [
+        "B02001_E001",
+        "B02001_E002",
+        "B02001_E003",
+        "B02001_E004",
+        "B02001_E005",
+        "B02001_E006",
+        "B02001_E007",
+        "B02001_E008",
+        "B02001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
         "retrieved_at",
         "source",
         "table",
