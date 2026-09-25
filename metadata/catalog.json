@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T18:37:22.554044+00:00",
+  "generated_at": "2026-09-25T18:40:09.100615+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2589,6 +2589,33 @@
         "source_vintage",
         "state_fips",
         "state_name"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/place_vintage_relationships_2020_2010.json",
+      "format": "JSON",
+      "records": 38923,
+      "size_bytes": 24151450,
+      "fields_sample": [
+        "AREALAND_PART",
+        "AREALAND_PLACE_10",
+        "AREALAND_PLACE_20",
+        "AREAWATER_PART",
+        "AREAWATER_PLACE_10",
+        "AREAWATER_PLACE_20",
+        "CLASSFP_PLACE_10",
+        "CLASSFP_PLACE_20",
+        "FUNCSTAT_PLACE_10",
+        "FUNCSTAT_PLACE_20",
+        "GEOID_PLACE_10",
+        "GEOID_PLACE_20",
+        "MTFCC_PLACE_10",
+        "MTFCC_PLACE_20",
+        "NAMELSAD_PLACE_10",
+        "NAMELSAD_PLACE_20",
+        "OID_PLACE_10",
+        "OID_PLACE_20"
       ],
       "source_urls_sample": []
     },

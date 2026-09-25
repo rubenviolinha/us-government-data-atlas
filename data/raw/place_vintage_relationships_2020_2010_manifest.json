@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-25T18:39:55.614240+00:00",
+  "source": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/place/tab20_place20_place10_natl.txt",
+  "format": "Census relationship TXT",
+  "records": 38923,
+  "file": "data/normalized/place_vintage_relationships_2020_2010.json",
+  "note": "2020-to-2010 Census place relationships with area overlap fields; no API key used."
+}

@@ -1,4 +1,12 @@
 [{
+    "id": "census-place-vintage-relationship-2020-2010",
+    "name": "Census Place Vintage Relationship, 2020 to 2010",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/place/tab20_place20_place10_natl.txt",
+    "format": "Relationship TXT",
+    "license": "U.S. government public data",
+    "notes": "Crosswalk between 2020 and 2010 Census places with area overlap fields for longitudinal place analysis."
+  }, {
     "id": "nga-former-governors",
     "name": "National Governors Association Former Governors Search",
     "publisher": "National Governors Association",

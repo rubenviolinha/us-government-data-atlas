@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T18:37:22.923287+00:00",
+  "generated_at": "2026-09-25T18:40:09.477087+00:00",
   "algorithm": "sha256",
-  "dataset_count": 93,
+  "dataset_count": 94,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -328,6 +328,11 @@
       "file": "data/normalized/place_population_2020_2024.json",
       "sha256": "90f40dbfaaceb207c312850b25c551a08da2fc3b61220d2f00fb22a9d03ce956",
       "size_bytes": 6576781
+    },
+    {
+      "file": "data/normalized/place_vintage_relationships_2020_2010.json",
+      "sha256": "a8e8d879317bec76870ac87a2b1c5a970510b498194167e9521015f0d617c1cb",
+      "size_bytes": 24151450
     },
     {
       "file": "data/normalized/places_2020.json",
