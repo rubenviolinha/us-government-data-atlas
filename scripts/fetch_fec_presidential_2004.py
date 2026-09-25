@@ -11,7 +11,10 @@ import xlrd
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw"
 NORMALIZED = ROOT / "data" / "normalized"
-URL = "https://www.fec.gov/documents/1628/2004pres.xls"
+PUBLICATIONS = {
+    2004: "https://www.fec.gov/documents/1628/2004pres.xls",
+    2008: "https://www.fec.gov/documents/1661/2008pres.xls",
+}
 
 
 def clean(value):
@@ -29,12 +32,12 @@ def votes(value):
     return value if isinstance(value, (int, float)) else None
 
 
-def main():
+def fetch(year, url):
     RAW.mkdir(parents=True, exist_ok=True)
     NORMALIZED.mkdir(parents=True, exist_ok=True)
-    payload = urlopen(Request(URL, headers={"User-Agent": "us-government-data-atlas/0.1"}), timeout=120).read()
+    payload = urlopen(Request(url, headers={"User-Agent": "us-government-data-atlas/0.1"}), timeout=120).read()
     workbook = xlrd.open_workbook(file_contents=payload)
-    sheet = workbook.sheet_by_name("2004 PRES GENERAL RESULTS")
+    sheet = workbook.sheet_by_name(next(name for name in workbook.sheet_names() if "PRES GENERAL RESULTS" in name))
     headers = [str(v).strip().lower().replace(" ", "_").replace("#", "") if v is not None else "" for v in sheet.row_values(0)]
     rows = []
     for values in (sheet.row_values(i) for i in range(1, sheet.nrows)):
@@ -47,14 +50,19 @@ def main():
             "first_name": row.get("first_name"), "last_name": row.get("last_name"),
             "state": row.get("state_abbreviation"), "party": row.get("party"),
             "votes": general_votes, "vote_share": row.get("general_%"),
-            "election_year": 2004, "source": URL, "source_sheet": sheet.name,
+            "election_year": year, "source": url, "source_sheet": sheet.name,
         })
     rows.sort(key=lambda row: (row["state"], -row["votes"], row["candidate_name"]))
-    filename = "fec_presidential_general_2004.json"
+    filename = f"fec_presidential_general_{year}.json"
     (NORMALIZED / filename).write_text(json.dumps(rows, indent=2) + "\n", encoding="utf-8")
-    manifest = {"retrieved_at": datetime.now(timezone.utc).isoformat(), "source": URL, "format": "legacy Excel workbook", "records": len(rows), "file": "data/normalized/" + filename}
-    (RAW / "fec_presidential_general_2004_manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    manifest = {"retrieved_at": datetime.now(timezone.utc).isoformat(), "source": url, "format": "legacy Excel workbook", "records": len(rows), "file": "data/normalized/" + filename}
+    (RAW / f"fec_presidential_general_{year}_manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(manifest, indent=2))
+
+
+def main():
+    for year, url in PUBLICATIONS.items():
+        fetch(year, url)
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:44:47.494644+00:00",
+  "generated_at": "2026-09-25T16:46:25.708271+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -1903,6 +1903,28 @@
       ],
       "source_urls_sample": [
         "https://www.fec.gov/documents/1628/2004pres.xls"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_presidential_general_2008.json",
+      "format": "JSON",
+      "records": 485,
+      "size_bytes": 177485,
+      "fields_sample": [
+        "candidate_name",
+        "election_year",
+        "fec_id",
+        "first_name",
+        "last_name",
+        "party",
+        "source",
+        "source_sheet",
+        "state",
+        "vote_share",
+        "votes"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/documents/1661/2008pres.xls"
       ]
     },
     {

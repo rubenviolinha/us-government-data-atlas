@@ -1,0 +1,7 @@
+{
+  "retrieved_at": "2026-09-25T16:46:07.691484+00:00",
+  "source": "https://www.fec.gov/documents/1661/2008pres.xls",
+  "format": "legacy Excel workbook",
+  "records": 485,
+  "file": "data/normalized/fec_presidential_general_2008.json"
+}
