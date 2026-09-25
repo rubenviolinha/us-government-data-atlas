@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T22:23:31.407809+00:00",
+  "generated_at": "2026-09-25T22:27:05.050182+00:00",
   "algorithm": "sha256",
-  "dataset_count": 277,
+  "dataset_count": 283,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -213,6 +213,36 @@
       "file": "data/normalized/acs_cousub_race_2024_5yr.json",
       "sha256": "5877676317678f145cc46577ab0c8e5768a45f70b525abf887375237779957b8",
       "size_bytes": 17858691
+    },
+    {
+      "file": "data/normalized/acs_csa_age_sex_2024_5yr.json",
+      "sha256": "21ffbe1284effd05450182edbe490d73ee4012c264df9c65123abdb531070a7f",
+      "size_bytes": 64801
+    },
+    {
+      "file": "data/normalized/acs_csa_education_2024_5yr.json",
+      "sha256": "ce59cbf262b7ec32d58f21123a90589c78d36f4140c37cf4f55437abdea72a82",
+      "size_bytes": 66648
+    },
+    {
+      "file": "data/normalized/acs_csa_housing_2024_5yr.json",
+      "sha256": "a521a012638aa0ea3099a419df77a60ce2ac102ba14c3e25797c50ebf982587f",
+      "size_bytes": 55726
+    },
+    {
+      "file": "data/normalized/acs_csa_income_2024_5yr.json",
+      "sha256": "680464d72b23637dd9a8716107107b9748cac69477fb6a88ca4d499d53507101",
+      "size_bytes": 55697
+    },
+    {
+      "file": "data/normalized/acs_csa_poverty_2024_5yr.json",
+      "sha256": "388bd392294c8219316933d50e5852338434bc09132db071e9f41ad503363b1f",
+      "size_bytes": 63317
+    },
+    {
+      "file": "data/normalized/acs_csa_race_2024_5yr.json",
+      "sha256": "b7c3a0360a8509cb991d62561748edccdc5cb873d0434f998f1e74a1a8bbd305",
+      "size_bytes": 82387
     },
     {
       "file": "data/normalized/acs_district_age_sex_2023.json",
