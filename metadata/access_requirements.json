@@ -22,10 +22,11 @@
     {
       "id": "fec-election-data",
       "domain": "elections",
-      "status": "api_key_required_for_api_ingestion",
+      "status": "bulk_candidate_snapshot_available",
       "source": "https://api.open.fec.gov/developers/",
-      "needed_from_user": "A FEC API key for reliable candidate, committee, and election-result ingestion.",
-      "why": "The official FEC API requires an API key for sustained use."
+      "needed_from_user": "An FEC API key only if transaction-level, committee, or broader election-result ingestion is required.",
+      "why": "The official FEC API requires an API key for sustained use, but the Commission publishes candidate master bulk files without one.",
+      "keyless_fallback": "https://www.fec.gov/files/bulk-downloads/2024/cn24.zip"
     },
     {
       "id": "state-legislators",

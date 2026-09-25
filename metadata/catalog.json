@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T13:57:49.808846+00:00",
+  "generated_at": "2026-09-25T14:53:42.265961+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -687,6 +687,34 @@
         "https://www.federalregister.gov/api/v1/documents/X95-110125?publication_date=1995-01-25",
         "https://www.federalregister.gov/api/v1/documents/Z9-26408?publication_date=2009-11-05",
         "https://www.federalregister.gov/api/v1/documents/Z9-30020?publication_date=2009-12-18"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_candidate_master_2024.json",
+      "format": "JSON",
+      "records": 9798,
+      "size_bytes": 5214872,
+      "fields_sample": [
+        "candidate_id",
+        "candidate_name",
+        "candidate_status",
+        "city",
+        "cycle",
+        "district",
+        "election_year",
+        "incumbent_challenger",
+        "office",
+        "office_state",
+        "party_affiliation",
+        "principal_committee_id",
+        "source",
+        "state",
+        "street_1",
+        "street_2",
+        "zip_code"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/files/bulk-downloads/2024/cn24.zip"
       ]
     },
     {

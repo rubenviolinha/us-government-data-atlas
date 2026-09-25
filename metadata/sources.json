@@ -53,6 +53,15 @@
     "notes": "Current and retired state-legislature records; federal records in the repository are excluded because congressional history is maintained separately."
   },
   {
+    "id": "fec-candidate-master-2024",
+    "name": "FEC 2024 Candidate Master File",
+    "publisher": "Federal Election Commission",
+    "url": "https://www.fec.gov/files/bulk-downloads/2024/cn24.zip",
+    "format": "ZIP containing pipe-delimited text",
+    "license": "U.S. government public data; follow FEC data-use restrictions",
+    "notes": "Candidate IDs, names, party, election year, office, district, status, and principal committee linkage."
+  },
+  {
     "id": "census-acs-profile-variable-metadata",
     "name": "ACS 2023 5-Year Profile Variable Metadata",
     "publisher": "U.S. Census Bureau",

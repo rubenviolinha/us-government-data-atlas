@@ -61,7 +61,7 @@ The capital validator reconciles the initial capital list to Census places and e
 
 ## Access handoff
 
-`metadata/access_requirements.json` records the remaining external requirements: Census ACS credentials or bulk-file approval, USPS licensing for exact ZIP delivery geography, and a FEC API key for election data. State-legislator history now uses the public Open States people repository as a keyless bulk snapshot; everything else in the current release is fetched from public, keyless sources.
+`metadata/access_requirements.json` records the remaining external requirements: Census ACS credentials or bulk-file approval and USPS licensing for exact ZIP delivery geography. State-legislator history uses the public Open States people repository, and a 2024 FEC candidate master snapshot is available as keyless bulk data; FEC API access is only needed for transaction-level or broader election-result ingestion.
 
 The ACS profile variable catalog is available at `data/normalized/acs_profile_variables_2023.json`; it includes labels and concepts for DP02, DP03, DP04, and DP05 even though value queries remain credential-gated in this environment.
 

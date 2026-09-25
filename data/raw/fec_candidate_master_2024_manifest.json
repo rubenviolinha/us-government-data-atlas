@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-25T14:53:40.627513+00:00",
+  "source": "https://www.fec.gov/files/bulk-downloads/2024/cn24.zip",
+  "format": "FEC candidate master pipe-delimited text inside ZIP",
+  "records": 9798,
+  "file": "data/normalized/fec_candidate_master_2024.json",
+  "note": "Official bulk file; no FEC API key used."
+}

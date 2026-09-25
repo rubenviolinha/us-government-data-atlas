@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T13:57:50.007713+00:00",
+  "generated_at": "2026-09-25T14:53:42.476034+00:00",
   "algorithm": "sha256",
-  "dataset_count": 38,
+  "dataset_count": 39,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -98,6 +98,11 @@
       "file": "data/normalized/executive_orders.json",
       "sha256": "b6af23f6bdbfabf70b14045f242ff909945802c56b948dd0c2591535594eef4f",
       "size_bytes": 1135959
+    },
+    {
+      "file": "data/normalized/fec_candidate_master_2024.json",
+      "sha256": "1c11834eac445b495be2208250d4d16d493947d039bf9d09ef0a0ffd4dfc7bb1",
+      "size_bytes": 5214872
     },
     {
       "file": "data/normalized/federal_judges.json",
