@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T19:13:54.371198+00:00",
+  "generated_at": "2026-09-25T19:20:27.988541+00:00",
   "algorithm": "sha256",
-  "dataset_count": 109,
+  "dataset_count": 115,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -33,6 +33,36 @@
       "file": "data/normalized/acs_county_race_2023.json",
       "sha256": "59e7f19f9903805c1be5452b5c425a394df857b260aa591578458e5c3e47b916",
       "size_bytes": 2458963
+    },
+    {
+      "file": "data/normalized/acs_cousub_age_sex_2023.json",
+      "sha256": "a123d116e9cd76c3e4d2d2a8446af381fb33c9b3d082a271bfd854efefc8d3f3",
+      "size_bytes": 15685909
+    },
+    {
+      "file": "data/normalized/acs_cousub_education_2023.json",
+      "sha256": "42ab5f93b68a904df77fcdd6888d68079d9e0e7a094a3bcd3c671810361225c7",
+      "size_bytes": 16424618
+    },
+    {
+      "file": "data/normalized/acs_cousub_housing_2023.json",
+      "sha256": "99e58a7b0d336c7113e0aa13ef4cdec07c65456c933c27a0b2eb5b91761d0ba2",
+      "size_bytes": 13898541
+    },
+    {
+      "file": "data/normalized/acs_cousub_income_2023.json",
+      "sha256": "252207a10bf4b86c4c140d5f64579afcdc1de25058163041204c55e7dd0eb0a1",
+      "size_bytes": 14076611
+    },
+    {
+      "file": "data/normalized/acs_cousub_poverty_2023.json",
+      "sha256": "6471b650512144a2a4e4dec72244de98b95be53c331075f2747a850c30411010",
+      "size_bytes": 15624189
+    },
+    {
+      "file": "data/normalized/acs_cousub_race_2023.json",
+      "sha256": "47dd454d75f134bf4bb2ab218ee2a15c5d2ed501122b363bce99ac3d273cdf8e",
+      "size_bytes": 19755953
     },
     {
       "file": "data/normalized/acs_district_age_sex_2023.json",

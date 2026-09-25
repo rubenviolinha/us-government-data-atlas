@@ -129,6 +129,12 @@ def main():
     acs_school_income = load("acs_school_income_2023.json")
     acs_school_housing = load("acs_school_housing_2023.json")
     acs_school_race = load("acs_school_race_2023.json")
+    acs_cousub_age_sex = load("acs_cousub_age_sex_2023.json")
+    acs_cousub_income = load("acs_cousub_income_2023.json")
+    acs_cousub_poverty = load("acs_cousub_poverty_2023.json")
+    acs_cousub_education = load("acs_cousub_education_2023.json")
+    acs_cousub_housing = load("acs_cousub_housing_2023.json")
+    acs_cousub_race = load("acs_cousub_race_2023.json")
 
     assert len(states) >= 50
     catalog_files = {entry["file"] for entry in catalog.get("entries", [])}
@@ -351,6 +357,10 @@ def main():
         assert len(rows) >= 10000, f"ACS school {label} coverage too small"
         assert all(row.get("GEO_ID", "").startswith("9700000US") and row.get("district_geoid") and row.get("state_fips") and row.get("source") for row in rows)
         assert len({row["district_geoid"] for row in rows}) == len(rows), f"duplicate ACS school {label} GEOIDs"
+    for label, rows in (("age_sex", acs_cousub_age_sex), ("income", acs_cousub_income), ("poverty", acs_cousub_poverty), ("education", acs_cousub_education), ("housing", acs_cousub_housing), ("race", acs_cousub_race)):
+        assert len(rows) >= 35000, f"ACS county subdivision {label} coverage too small"
+        assert all(row.get("GEO_ID", "").startswith("0600000US") and row.get("county_subdivision_geoid") and len(row["county_subdivision_geoid"]) == 10 and row.get("source") for row in rows)
+        assert len({row["county_subdivision_geoid"] for row in rows}) == len(rows), f"duplicate ACS county subdivision {label} GEOIDs"
 
     zcta_ids = {row["GEOID"] for row in zctas}
     # The relationship file is a 2020 vintage while the county gazetteer is 2023;
