@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T21:30:29.446955+00:00",
+  "generated_at": "2026-09-25T21:36:34.177279+00:00",
   "algorithm": "sha256",
-  "dataset_count": 215,
+  "dataset_count": 216,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -993,6 +993,11 @@
       "file": "data/normalized/supreme_court_justices.json",
       "sha256": "76ea8804f5354ff06c887c2f529c36b8a480abe66460af595e299170ae730ee5",
       "size_bytes": 35679
+    },
+    {
+      "file": "data/normalized/svi_counties_2022.json",
+      "sha256": "4990225b4eb5b635582a7683b3c5d5277f5be5f9e5660ddabf68ebf1e7827afa",
+      "size_bytes": 3413024
     },
     {
       "file": "data/normalized/tracts_2023.json",

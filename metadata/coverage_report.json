@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25T21:33:53.393642+00:00",
-  "catalog_datasets": 215,
+  "generated_at": "2026-09-25T21:36:34.219774+00:00",
+  "catalog_datasets": 216,
   "domain_counts": {
     "Census ACS demographics": 91,
     "Counties": 4,
@@ -8,7 +8,7 @@
     "FEC elections": 27,
     "Federal government": 4,
     "Metropolitan areas": 6,
-    "Other government reference data": 43,
+    "Other government reference data": 44,
     "PUMAs": 4,
     "Places": 7,
     "Schools": 3,
@@ -20,10 +20,5 @@
     "Authenticated Census API access for arbitrary custom queries",
     "Additional state archival office histories where no stable bulk source is available"
   ],
-  "reviewed_but_not_ingested": [
-    {
-      "name": "CDC/ATSDR Social Vulnerability Index",
-      "reason": "Public download page verified, but no stable direct bulk data URL was exposed for reproducible ingestion."
-    }
-  ]
+  "reviewed_but_not_ingested": []
 }

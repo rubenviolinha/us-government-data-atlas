@@ -81,6 +81,7 @@ def main():
     current_federal_judges = load("current_federal_judges.json")
     federal_court_index = load("federal_court_index.json")
     state_summary = load("state_summary.json")
+    svi_counties = load("svi_counties_2022.json")
     current_cabinet = load("current_cabinet_white_house.json")
     secretaries_of_state = load("secretaries_of_state.json")
     state_department_principals = load("state_department_principals.json")
@@ -324,6 +325,9 @@ def main():
     assert len({row.get("state_fips") for row in state_summary}) == 57
     assert all(row.get("state_name") and row.get("source") for row in state_summary)
     assert sum(bool(row.get("population_2025")) for row in state_summary) >= 52
+    assert len(svi_counties) >= 3000
+    assert len({row.get("GEOID") for row in svi_counties}) == len(svi_counties)
+    assert all(len(row.get("GEOID", "")) == 5 and row.get("RPL_THEMES") is not None and row.get("source") for row in svi_counties)
     assert len(current_cabinet) >= 15
     assert len({row.get("title") for row in current_cabinet}) == len(current_cabinet)
     assert all(row.get("name") and row.get("title") and row.get("source") and row.get("retrieved_at") for row in current_cabinet)

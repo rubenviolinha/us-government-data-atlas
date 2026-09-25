@@ -26,7 +26,7 @@ def main():
         "catalog_datasets": len(entries),
         "domain_counts": dict(sorted(groups.items())),
         "remaining_gated_inputs": ["USPS licensed exact address and ZIP reference data", "Authenticated Census API access for arbitrary custom queries", "Additional state archival office histories where no stable bulk source is available"],
-        "reviewed_but_not_ingested": [{"name": "CDC/ATSDR Social Vulnerability Index", "reason": "Public download page verified, but no stable direct bulk data URL was exposed for reproducible ingestion."}],
+        "reviewed_but_not_ingested": [],
     }
     output = ROOT / "metadata" / "coverage_report.json"
     output.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")

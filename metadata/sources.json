@@ -925,5 +925,14 @@
     "format": "JSON",
     "license": "Derived from U.S. government public data",
     "notes": "Joins validated state, capital, population, NGA governor, congressional office, county, place, and ZCTA releases."
+  },
+  {
+    "id": "cdc-svi-2022-counties",
+    "name": "CDC/ATSDR Social Vulnerability Index 2022 County Layer",
+    "publisher": "CDC / Agency for Toxic Substances and Disease Registry",
+    "url": "https://onemap.cdc.gov/onemapservices/rest/services/SVI/CDC_ATSDR_Social_Vulnerability_Index_2022_USA/FeatureServer/1",
+    "format": "ArcGIS Feature Service JSON",
+    "license": "U.S. government public data",
+    "notes": "Compact county-level SVI estimates, theme percentile ranks, overall percentile rank, flags, and selected population/context fields."
   }
 ]
