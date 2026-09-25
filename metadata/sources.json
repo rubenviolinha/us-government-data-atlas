@@ -898,5 +898,14 @@
     "format": "Shapefile / relationship files",
     "license": "U.S. government public data",
     "notes": "ZCTAs are statistical approximations of USPS ZIP service areas, not postal delivery boundaries."
+  },
+  {
+    "id": "federal-court-index",
+    "name": "Federal Court Index (derived from FJC judge roster)",
+    "publisher": "US Government Data Atlas",
+    "url": "https://www.fjc.gov/history/judges",
+    "format": "JSON",
+    "license": "Derived from U.S. government public data",
+    "notes": "One row per federal court represented in the Federal Judicial Center historical/current judge releases."
   }
 ]

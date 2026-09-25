@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T21:15:43.473756+00:00",
+  "generated_at": "2026-09-25T21:19:34.717825+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -4586,6 +4586,24 @@
       ],
       "source_urls_sample": [
         "https://www.federalregister.gov/api/v1/agencies.json"
+      ]
+    },
+    {
+      "file": "data/normalized/federal_court_index.json",
+      "format": "JSON",
+      "records": 159,
+      "size_bytes": 48602,
+      "fields_sample": [
+        "active_appointments",
+        "court_name",
+        "court_type",
+        "current_judge_records",
+        "historical_judge_records",
+        "source",
+        "view_as_of"
+      ],
+      "source_urls_sample": [
+        "https://www.fjc.gov/history/judges"
       ]
     },
     {

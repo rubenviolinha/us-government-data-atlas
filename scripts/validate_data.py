@@ -79,6 +79,7 @@ def main():
     current_justices = load("current_supreme_court_justices.json")
     federal_judges = load("federal_judges.json")
     current_federal_judges = load("current_federal_judges.json")
+    federal_court_index = load("federal_court_index.json")
     current_cabinet = load("current_cabinet_white_house.json")
     secretaries_of_state = load("secretaries_of_state.json")
     state_department_principals = load("state_department_principals.json")
@@ -315,6 +316,9 @@ def main():
     assert len(current_federal_judges) >= 500
     assert all(row.get("jid") and row.get("view_as_of") and row.get("view_type") == "currently_serving" and row.get("active_appointments") for row in current_federal_judges)
     assert all(all(appointment.get("commission_date") and (not appointment.get("termination_date") or appointment["termination_date"] >= row["view_as_of"]) for appointment in row["active_appointments"]) for row in current_federal_judges)
+    assert len(federal_court_index) >= 150
+    assert len({row.get("court_name") for row in federal_court_index}) == len(federal_court_index)
+    assert all(row.get("court_name") and row.get("court_type") and row.get("historical_judge_records", 0) > 0 and row.get("source") for row in federal_court_index)
     assert len(current_cabinet) >= 15
     assert len({row.get("title") for row in current_cabinet}) == len(current_cabinet)
     assert all(row.get("name") and row.get("title") and row.get("source") and row.get("retrieved_at") for row in current_cabinet)

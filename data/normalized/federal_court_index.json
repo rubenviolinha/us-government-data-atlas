@@ -1,0 +1,1433 @@
+[
+  {
+    "court_name": "Circuit Court of the District of Columbia",
+    "court_type": "U.S. Circuit Court (other)",
+    "historical_judge_records": 9,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "Court of Claims",
+    "court_type": "Other",
+    "historical_judge_records": 49,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "Supreme Court of the United States",
+    "court_type": "Supreme Court",
+    "historical_judge_records": 116,
+    "current_judge_records": 11,
+    "active_appointments": 11,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Circuit Court for the Districts of California",
+    "court_type": "U.S. Circuit Court (other)",
+    "historical_judge_records": 1,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Circuit Court for the Fifth Circuit",
+    "court_type": "U.S. Circuit Court (1801-1802)",
+    "historical_judge_records": 3,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Circuit Court for the First Circuit",
+    "court_type": "U.S. Circuit Court (1801-1802)",
+    "historical_judge_records": 3,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Circuit Court for the Fourth Circuit",
+    "court_type": "U.S. Circuit Court (1801-1802)",
+    "historical_judge_records": 3,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Circuit Court for the Second Circuit",
+    "court_type": "U.S. Circuit Court (1801-1802)",
+    "historical_judge_records": 3,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Circuit Court for the Sixth Circuit",
+    "court_type": "U.S. Circuit Court (1801-1802)",
+    "historical_judge_records": 1,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Circuit Court for the Third Circuit",
+    "court_type": "U.S. Circuit Court (1801-1802)",
+    "historical_judge_records": 3,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Circuit Courts for the Eighth Circuit",
+    "court_type": "U.S. Circuit Court (1869-1911)",
+    "historical_judge_records": 11,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Circuit Courts for the Fifth Circuit",
+    "court_type": "U.S. Circuit Court (1869-1911)",
+    "historical_judge_records": 4,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Circuit Courts for the First Circuit",
+    "court_type": "U.S. Circuit Court (1869-1911)",
+    "historical_judge_records": 6,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Circuit Courts for the Fourth Circuit",
+    "court_type": "U.S. Circuit Court (1869-1911)",
+    "historical_judge_records": 4,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Circuit Courts for the Ninth Circuit",
+    "court_type": "U.S. Circuit Court (1869-1911)",
+    "historical_judge_records": 6,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Circuit Courts for the Second Circuit",
+    "court_type": "U.S. Circuit Court (1869-1911)",
+    "historical_judge_records": 11,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Circuit Courts for the Seventh Circuit",
+    "court_type": "U.S. Circuit Court (1869-1911)",
+    "historical_judge_records": 10,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Circuit Courts for the Sixth Circuit",
+    "court_type": "U.S. Circuit Court (1869-1911)",
+    "historical_judge_records": 11,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Circuit Courts for the Third Circuit",
+    "court_type": "U.S. Circuit Court (1869-1911)",
+    "historical_judge_records": 7,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Court of Appeals for the District of Columbia Circuit",
+    "court_type": "U.S. Court of Appeals",
+    "historical_judge_records": 68,
+    "current_judge_records": 16,
+    "active_appointments": 16,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Court of Appeals for the Eighth Circuit",
+    "court_type": "U.S. Court of Appeals",
+    "historical_judge_records": 65,
+    "current_judge_records": 18,
+    "active_appointments": 18,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Court of Appeals for the Eleventh Circuit",
+    "court_type": "U.S. Court of Appeals",
+    "historical_judge_records": 42,
+    "current_judge_records": 22,
+    "active_appointments": 22,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Court of Appeals for the Federal Circuit",
+    "court_type": "U.S. Court of Appeals",
+    "historical_judge_records": 40,
+    "current_judge_records": 19,
+    "active_appointments": 19,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Court of Appeals for the Fifth Circuit",
+    "court_type": "U.S. Court of Appeals",
+    "historical_judge_records": 91,
+    "current_judge_records": 24,
+    "active_appointments": 24,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Court of Appeals for the First Circuit",
+    "court_type": "U.S. Court of Appeals",
+    "historical_judge_records": 37,
+    "current_judge_records": 12,
+    "active_appointments": 12,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Court of Appeals for the Fourth Circuit",
+    "court_type": "U.S. Court of Appeals",
+    "historical_judge_records": 57,
+    "current_judge_records": 19,
+    "active_appointments": 19,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Court of Appeals for the Ninth Circuit",
+    "court_type": "U.S. Court of Appeals",
+    "historical_judge_records": 119,
+    "current_judge_records": 51,
+    "active_appointments": 51,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Court of Appeals for the Second Circuit",
+    "court_type": "U.S. Court of Appeals",
+    "historical_judge_records": 83,
+    "current_judge_records": 28,
+    "active_appointments": 28,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Court of Appeals for the Seventh Circuit",
+    "court_type": "U.S. Court of Appeals",
+    "historical_judge_records": 66,
+    "current_judge_records": 15,
+    "active_appointments": 15,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Court of Appeals for the Sixth Circuit",
+    "court_type": "U.S. Court of Appeals",
+    "historical_judge_records": 82,
+    "current_judge_records": 31,
+    "active_appointments": 31,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Court of Appeals for the Tenth Circuit",
+    "court_type": "U.S. Court of Appeals",
+    "historical_judge_records": 47,
+    "current_judge_records": 23,
+    "active_appointments": 23,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Court of Appeals for the Third Circuit",
+    "court_type": "U.S. Court of Appeals",
+    "historical_judge_records": 77,
+    "current_judge_records": 24,
+    "active_appointments": 24,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Court of Customs Appeals (later U.S. Court of Customs and Patent Appeals)",
+    "court_type": "Other",
+    "historical_judge_records": 10,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Court of Customs and Patent Appeals",
+    "court_type": "Other",
+    "historical_judge_records": 16,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Court of International Trade",
+    "court_type": "Other",
+    "historical_judge_records": 34,
+    "current_judge_records": 16,
+    "active_appointments": 16,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. Customs Court",
+    "court_type": "Other",
+    "historical_judge_records": 36,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Albemarle, Cape Fear & Pamptico Districts of North Carolina",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 4,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Central District of California",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 101,
+    "current_judge_records": 38,
+    "active_appointments": 38,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Central District of Illinois",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 15,
+    "current_judge_records": 7,
+    "active_appointments": 7,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Alabama",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 1,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Alaska",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 13,
+    "current_judge_records": 7,
+    "active_appointments": 7,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Arizona",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 51,
+    "current_judge_records": 26,
+    "active_appointments": 26,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Arkansas",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 2,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of California",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 1,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Colorado",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 34,
+    "current_judge_records": 15,
+    "active_appointments": 15,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Columbia",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 79,
+    "current_judge_records": 27,
+    "active_appointments": 27,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Columbia (Supreme Court of the District of Columbia)",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 36,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Connecticut",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 44,
+    "current_judge_records": 13,
+    "active_appointments": 13,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Delaware",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 29,
+    "current_judge_records": 6,
+    "active_appointments": 6,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Florida",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 1,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Georgia",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 6,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Hawaii",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 16,
+    "current_judge_records": 9,
+    "active_appointments": 9,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Idaho",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 13,
+    "current_judge_records": 4,
+    "active_appointments": 4,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Illinois",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 2,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Indiana",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 12,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Iowa",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 2,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Kansas",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 34,
+    "current_judge_records": 12,
+    "active_appointments": 12,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Kentucky",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 8,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Louisiana",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 5,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Maine",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 20,
+    "current_judge_records": 7,
+    "active_appointments": 7,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Maryland",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 56,
+    "current_judge_records": 15,
+    "active_appointments": 15,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Massachusetts",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 53,
+    "current_judge_records": 18,
+    "active_appointments": 18,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Michigan",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 1,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Minnesota",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 41,
+    "current_judge_records": 16,
+    "active_appointments": 16,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Mississippi",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 4,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Missouri",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 2,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Montana",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 22,
+    "current_judge_records": 6,
+    "active_appointments": 6,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Nebraska",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 24,
+    "current_judge_records": 5,
+    "active_appointments": 5,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Nevada",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 30,
+    "current_judge_records": 12,
+    "active_appointments": 12,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of New Hampshire",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 18,
+    "current_judge_records": 5,
+    "active_appointments": 5,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of New Jersey",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 97,
+    "current_judge_records": 25,
+    "active_appointments": 25,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of New Mexico",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 27,
+    "current_judge_records": 11,
+    "active_appointments": 11,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of New York",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 6,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of North Carolina",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 2,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of North Dakota",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 14,
+    "current_judge_records": 3,
+    "active_appointments": 3,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Ohio",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 5,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Oregon",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 33,
+    "current_judge_records": 11,
+    "active_appointments": 11,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Orleans",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 1,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Pennsylvania",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 3,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Puerto Rico",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 24,
+    "current_judge_records": 9,
+    "active_appointments": 9,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Rhode Island",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 25,
+    "current_judge_records": 4,
+    "active_appointments": 4,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of South Carolina",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 46,
+    "current_judge_records": 15,
+    "active_appointments": 15,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of South Dakota",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 18,
+    "current_judge_records": 6,
+    "active_appointments": 6,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Tennessee",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 1,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Texas",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 1,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Utah",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 21,
+    "current_judge_records": 11,
+    "active_appointments": 11,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Vermont",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 21,
+    "current_judge_records": 5,
+    "active_appointments": 5,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Virginia",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 4,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Washington",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 1,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of West Virginia",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 1,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Wisconsin",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 1,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the District of Wyoming",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 9,
+    "current_judge_records": 4,
+    "active_appointments": 4,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Eastern District of Arkansas",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 27,
+    "current_judge_records": 6,
+    "active_appointments": 6,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Eastern District of California",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 27,
+    "current_judge_records": 11,
+    "active_appointments": 11,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Eastern District of Illinois",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 9,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Eastern District of Kentucky",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 21,
+    "current_judge_records": 8,
+    "active_appointments": 8,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Eastern District of Louisiana",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 62,
+    "current_judge_records": 17,
+    "active_appointments": 17,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Eastern District of Michigan",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 74,
+    "current_judge_records": 23,
+    "active_appointments": 23,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Eastern District of Missouri",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 47,
+    "current_judge_records": 18,
+    "active_appointments": 18,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Eastern District of New Jersey",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 1,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Eastern District of New York",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 73,
+    "current_judge_records": 31,
+    "active_appointments": 31,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Eastern District of North Carolina",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 16,
+    "current_judge_records": 5,
+    "active_appointments": 5,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Eastern District of Oklahoma",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 18,
+    "current_judge_records": 3,
+    "active_appointments": 3,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Eastern District of Pennsylvania",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 113,
+    "current_judge_records": 35,
+    "active_appointments": 35,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Eastern District of South Carolina",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 11,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Eastern District of Tennessee",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 28,
+    "current_judge_records": 9,
+    "active_appointments": 9,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Eastern District of Texas",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 33,
+    "current_judge_records": 10,
+    "active_appointments": 10,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Eastern District of Virginia",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 51,
+    "current_judge_records": 18,
+    "active_appointments": 18,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Eastern District of Washington",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 25,
+    "current_judge_records": 9,
+    "active_appointments": 9,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Eastern District of Wisconsin",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 23,
+    "current_judge_records": 6,
+    "active_appointments": 6,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Edenton, New Bern & Wilmington Districts of North Carolina",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 1,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Middle District of Alabama",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 23,
+    "current_judge_records": 6,
+    "active_appointments": 6,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Middle District of Florida",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 48,
+    "current_judge_records": 31,
+    "active_appointments": 31,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Middle District of Georgia",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 15,
+    "current_judge_records": 6,
+    "active_appointments": 6,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Middle District of Louisiana",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 8,
+    "current_judge_records": 3,
+    "active_appointments": 3,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Middle District of North Carolina",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 16,
+    "current_judge_records": 7,
+    "active_appointments": 7,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Middle District of Pennsylvania",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 29,
+    "current_judge_records": 9,
+    "active_appointments": 9,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Middle District of Tennessee",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 24,
+    "current_judge_records": 4,
+    "active_appointments": 4,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Northern District of Alabama",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 43,
+    "current_judge_records": 12,
+    "active_appointments": 12,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Northern District of California",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 76,
+    "current_judge_records": 26,
+    "active_appointments": 26,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Northern District of Florida",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 26,
+    "current_judge_records": 6,
+    "active_appointments": 6,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Northern District of Georgia",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 49,
+    "current_judge_records": 18,
+    "active_appointments": 18,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Northern District of Illinois",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 107,
+    "current_judge_records": 38,
+    "active_appointments": 38,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Northern District of Indiana",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 21,
+    "current_judge_records": 10,
+    "active_appointments": 10,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Northern District of Iowa",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 13,
+    "current_judge_records": 3,
+    "active_appointments": 3,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Northern District of Mississippi",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 18,
+    "current_judge_records": 6,
+    "active_appointments": 6,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Northern District of New York",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 30,
+    "current_judge_records": 10,
+    "active_appointments": 10,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Northern District of Ohio",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 61,
+    "current_judge_records": 20,
+    "active_appointments": 20,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Northern District of Oklahoma",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 22,
+    "current_judge_records": 7,
+    "active_appointments": 7,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Northern District of Texas",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 41,
+    "current_judge_records": 16,
+    "active_appointments": 16,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Northern District of West Virginia",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 16,
+    "current_judge_records": 5,
+    "active_appointments": 5,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Southern District of Alabama",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 22,
+    "current_judge_records": 6,
+    "active_appointments": 6,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Southern District of California",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 75,
+    "current_judge_records": 22,
+    "active_appointments": 22,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Southern District of Florida",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 77,
+    "current_judge_records": 31,
+    "active_appointments": 31,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Southern District of Georgia",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 16,
+    "current_judge_records": 4,
+    "active_appointments": 4,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Southern District of Illinois",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 25,
+    "current_judge_records": 5,
+    "active_appointments": 5,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Southern District of Indiana",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 18,
+    "current_judge_records": 9,
+    "active_appointments": 9,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Southern District of Iowa",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 21,
+    "current_judge_records": 5,
+    "active_appointments": 5,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Southern District of Mississippi",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 22,
+    "current_judge_records": 10,
+    "active_appointments": 10,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Southern District of New York",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 160,
+    "current_judge_records": 46,
+    "active_appointments": 46,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Southern District of Ohio",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 42,
+    "current_judge_records": 16,
+    "active_appointments": 16,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Southern District of Texas",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 60,
+    "current_judge_records": 32,
+    "active_appointments": 32,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Southern District of West Virginia",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 19,
+    "current_judge_records": 6,
+    "active_appointments": 6,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Western District of Arkansas",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 27,
+    "current_judge_records": 7,
+    "active_appointments": 7,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Western District of Kentucky",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 26,
+    "current_judge_records": 7,
+    "active_appointments": 7,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Western District of Louisiana",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 37,
+    "current_judge_records": 13,
+    "active_appointments": 13,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Western District of Michigan",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 23,
+    "current_judge_records": 6,
+    "active_appointments": 6,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Western District of Missouri",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 41,
+    "current_judge_records": 15,
+    "active_appointments": 15,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Western District of New Jersey",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 1,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Western District of New York",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 19,
+    "current_judge_records": 9,
+    "active_appointments": 9,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Western District of North Carolina",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 22,
+    "current_judge_records": 8,
+    "active_appointments": 8,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Western District of Oklahoma",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 30,
+    "current_judge_records": 13,
+    "active_appointments": 13,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Western District of Pennsylvania",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 66,
+    "current_judge_records": 15,
+    "active_appointments": 15,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Western District of South Carolina",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 9,
+    "current_judge_records": 0,
+    "active_appointments": 0,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Western District of Tennessee",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 27,
+    "current_judge_records": 9,
+    "active_appointments": 9,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Western District of Texas",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 46,
+    "current_judge_records": 16,
+    "active_appointments": 16,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Western District of Virginia",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 30,
+    "current_judge_records": 7,
+    "active_appointments": 7,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Western District of Washington",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 37,
+    "current_judge_records": 17,
+    "active_appointments": 17,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  },
+  {
+    "court_name": "U.S. District Court for the Western District of Wisconsin",
+    "court_type": "U.S. District Court",
+    "historical_judge_records": 11,
+    "current_judge_records": 3,
+    "active_appointments": 3,
+    "view_as_of": "2026-09-25",
+    "source": "https://www.fjc.gov/history/judges"
+  }
+]
