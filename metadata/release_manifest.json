@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T18:03:24.989879+00:00",
+  "generated_at": "2026-09-25T18:21:32.705235+00:00",
   "algorithm": "sha256",
-  "dataset_count": 87,
+  "dataset_count": 88,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -163,6 +163,11 @@
       "file": "data/normalized/county_subdivisions_2023.json",
       "sha256": "274bdca19124d643e04f13077adad8fda4a9bbdbeba582d0d3fd5808235d9adf",
       "size_bytes": 10845727
+    },
+    {
+      "file": "data/normalized/electoral_college_results_1789_2024.json",
+      "sha256": "5c092b439adf674cc6711bbd47ac91dac25b324c89f28f2d5c5a23d84bc42d45",
+      "size_bytes": 758621
     },
     {
       "file": "data/normalized/executive_orders.json",

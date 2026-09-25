@@ -39,6 +39,7 @@ def main():
     zctas = load("zctas_2020.json")
     zctas_2023 = load("zctas_2023.json")
     hawaiian_home_lands = load("hawaiian_home_lands_2023.json")
+    electoral_college = load("electoral_college_results_1789_2024.json")
     zcta_population = load("zcta_population_acs_2023.json")
     zcta_profiles = load("zcta_profiles_acs_2023.json")
     relationships = load("zcta_county_relationships_2020.json")
@@ -158,6 +159,9 @@ def main():
     assert len(hawaiian_home_lands) >= 70
     assert_unique(hawaiian_home_lands, "GEOID", "Hawaiian Home Land GEOIDs")
     assert all(row.get("NAME") and row.get("INTPTLAT") and row.get("INTPTLONG") for row in hawaiian_home_lands)
+    assert len(electoral_college) >= 2900
+    assert len({row.get("election_year") for row in electoral_college}) == 60
+    assert all(row.get("election_year") and row.get("source") and isinstance(row.get("cells"), list) for row in electoral_college)
     assert len(zcta_population) >= 30000
     assert_unique(zcta_population, "zcta", "ACS ZCTA population codes")
     assert len(zcta_profiles) >= 30000

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T18:03:24.665490+00:00",
+  "generated_at": "2026-09-25T18:21:32.384409+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -1442,6 +1442,26 @@
         "USPS"
       ],
       "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/electoral_college_results_1789_2024.json",
+      "format": "JSON",
+      "records": 2977,
+      "size_bytes": 758621,
+      "fields_sample": [
+        "cells",
+        "election_year",
+        "row_index",
+        "source",
+        "table_index"
+      ],
+      "source_urls_sample": [
+        "https://www.archives.gov/electoral-college/1789",
+        "https://www.archives.gov/electoral-college/1792",
+        "https://www.archives.gov/electoral-college/1796",
+        "https://www.archives.gov/electoral-college/1800",
+        "https://www.archives.gov/electoral-college/1804"
+      ]
     },
     {
       "file": "data/normalized/executive_orders.json",
