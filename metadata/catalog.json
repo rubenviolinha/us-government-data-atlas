@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:09:18.509023+00:00",
+  "generated_at": "2026-09-25T17:11:31.273482+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -1383,6 +1383,26 @@
         "source_vintage",
         "state_fips",
         "state_name"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/county_subdivisions_2023.json",
+      "format": "JSON",
+      "records": 36434,
+      "size_bytes": 10845727,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "ANSICODE",
+        "AWATER",
+        "AWATER_SQMI",
+        "FUNCSTAT",
+        "GEOID",
+        "INTPTLAT",
+        "INTPTLONG",
+        "NAME",
+        "USPS"
       ],
       "source_urls_sample": []
     },

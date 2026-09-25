@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-25T17:11:05.202013+00:00",
+  "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_cousubs_national.zip",
+  "format": "Census Gazetteer ZIP/TXT",
+  "records": 36434,
+  "file": "data/normalized/county_subdivisions_2023.json",
+  "note": "National county subdivision geography, including census county divisions and township-like units; no API key used."
+}

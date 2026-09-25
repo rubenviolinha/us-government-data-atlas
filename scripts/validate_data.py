@@ -26,6 +26,7 @@ def main():
     access = json.loads(ACCESS.read_text(encoding="utf-8"))
     release = json.loads(RELEASE.read_text(encoding="utf-8"))
     counties = load("counties_2023.json")
+    county_subdivisions = load("county_subdivisions_2023.json")
     places = load("places_2020.json")
     zctas = load("zctas_2020.json")
     zcta_population = load("zcta_population_acs_2023.json")
@@ -108,6 +109,9 @@ def main():
     assert all(len(item.get("sha256", "")) == 64 and item.get("size_bytes", 0) > 0 for item in release["datasets"])
     assert_unique(states, "state_fips", "state FIPS codes")
     assert_unique(counties, "GEOID", "county GEOIDs")
+    assert len(county_subdivisions) >= 35000
+    assert_unique(county_subdivisions, "GEOID", "county subdivision GEOIDs")
+    assert all(row.get("USPS") and row.get("NAME") and len(row.get("GEOID", "")) == 10 for row in county_subdivisions)
     assert_unique(places, "GEOID", "place GEOIDs")
     assert_unique(zctas, "GEOID", "ZCTA GEOIDs")
     assert len(zcta_population) >= 30000
