@@ -42,6 +42,7 @@ def main():
     zbp_totals_2023 = load("zbp_totals_2023.json")
     cbp_county_totals = load("cbp_county_totals_2023.json")
     cbp_cbsa_totals = load("cbp_cbsa_totals_2023.json")
+    cbp_csa_totals = load("cbp_csa_totals_2023.json")
     zctas_2023 = load("zctas_2023.json")
     hawaiian_home_lands = load("hawaiian_home_lands_2023.json")
     electoral_college = load("electoral_college_results_1789_2024.json")
@@ -208,6 +209,9 @@ def main():
     assert len(cbp_cbsa_totals) >= 900
     assert_unique(cbp_cbsa_totals, "cbsa", "CBP CBSA total codes")
     assert all(len(row.get("cbsa", "")) == 5 and row.get("naics") == "00" and row.get("source") for row in cbp_cbsa_totals)
+    assert len(cbp_csa_totals) >= 100
+    assert_unique(cbp_csa_totals, "csa", "CBP CSA total codes")
+    assert all(row.get("csa") and row.get("naics") == "00" and row.get("source") for row in cbp_csa_totals)
     assert len(zctas_2023) >= 33000
     assert_unique(zctas_2023, "GEOID", "2023 ZCTA GEOIDs")
     assert all(len(row.get("GEOID", "")) == 5 and row.get("INTPTLAT") and row.get("INTPTLONG") for row in zctas_2023)

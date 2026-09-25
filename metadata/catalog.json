@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T20:06:22.931149+00:00",
+  "generated_at": "2026-09-25T20:09:34.536508+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2179,6 +2179,26 @@
       ],
       "source_urls_sample": [
         "https://www2.census.gov/programs-surveys/cbp/datasets/2023/cbp23co.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/cbp_csa_totals_2023.json",
+      "format": "JSON",
+      "records": 181,
+      "size_bytes": 67334,
+      "fields_sample": [
+        "annual_payroll_thousands",
+        "csa",
+        "employment",
+        "establishments",
+        "first_quarter_payroll_thousands",
+        "naics",
+        "retrieved_at",
+        "source",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/cbp/datasets/2023/cbp23csa.zip"
       ]
     },
     {

@@ -657,6 +657,15 @@
     "notes": "Keyless all-sector metropolitan and micropolitan statistical-area totals for establishments, employment, first-quarter payroll, and annual payroll, joined to CBSA codes."
   },
   {
+    "id": "census-cbp-2023-csa-totals",
+    "name": "County Business Patterns 2023 CSA Totals",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2023/cbp23csa.zip",
+    "format": "ZIP archive containing CSV text",
+    "license": "U.S. government public data",
+    "notes": "Keyless all-sector combined statistical-area totals for establishments, employment, first-quarter payroll, and annual payroll."
+  },
+  {
     "id": "national-archives-presidents",
     "name": "U.S. Presidents in the Census Records",
     "publisher": "National Archives",

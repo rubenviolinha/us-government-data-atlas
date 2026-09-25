@@ -1,0 +1,7 @@
+{
+  "retrieved_at": "2026-09-25T20:08:58.145599+00:00",
+  "source": "https://www2.census.gov/programs-surveys/cbp/datasets/2023/cbp23csa.zip",
+  "raw_file": "data/raw/cbp23csa.zip",
+  "file": "data/normalized/cbp_csa_totals_2023.json",
+  "records": 181
+}
