@@ -693,6 +693,15 @@
     "notes": "Keyless 2024 national snapshots for counties, ZIP Code Tabulation Areas, core-based statistical areas, places, and census tracts."
   },
   {
+    "id": "fec-congressional-ballots-2024",
+    "name": "FEC 2024 Congressional General Ballot Candidates",
+    "publisher": "Federal Election Commission",
+    "url": "https://www.fec.gov/documents/5548/2024congressgecands.xlsx",
+    "format": "Excel workbook",
+    "license": "U.S. government public data",
+    "notes": "Official state-election-office compilation of candidates appearing on 2024 general-election ballots for the U.S. House and Senate; no API key used."
+  },
+  {
     "id": "national-archives-presidents",
     "name": "U.S. Presidents in the Census Records",
     "publisher": "National Archives",

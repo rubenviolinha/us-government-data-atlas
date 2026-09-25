@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T20:45:30.759177+00:00",
+  "generated_at": "2026-09-25T20:49:43.933286+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -3267,6 +3267,31 @@
       ],
       "source_urls_sample": [
         "https://www.fec.gov/files/bulk-downloads/2024/cm24.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_congressional_ballot_candidates_2024.json",
+      "format": "JSON",
+      "records": 1168,
+      "size_bytes": 556914,
+      "fields_sample": [
+        "(i)",
+        "candidate_name",
+        "candidate_name_(first)",
+        "candidate_name_(last)",
+        "district",
+        "election_year",
+        "fec_id_number",
+        "fec_idnumber",
+        "office",
+        "party",
+        "source",
+        "source_sheet",
+        "state",
+        "state_abbreviation"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/documents/5548/2024congressgecands.xlsx"
       ]
     },
     {

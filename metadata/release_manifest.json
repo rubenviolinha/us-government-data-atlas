@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T20:45:31.432265+00:00",
+  "generated_at": "2026-09-25T20:49:44.679132+00:00",
   "algorithm": "sha256",
-  "dataset_count": 146,
+  "dataset_count": 147,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -388,6 +388,11 @@
       "file": "data/normalized/fec_committee_master_2024.json",
       "sha256": "d3c764f8d6a2d632268693fb1cf22db6ddd5f8b7fab0b4fb5fa5b99c06aadf25",
       "size_bytes": 11943853
+    },
+    {
+      "file": "data/normalized/fec_congressional_ballot_candidates_2024.json",
+      "sha256": "712dd27e425eef4b7ea6e8bbda014e328f55b469552d066287a601830bb9c363",
+      "size_bytes": 556914
     },
     {
       "file": "data/normalized/fec_federal_elections_2002.json",
