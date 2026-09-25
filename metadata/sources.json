@@ -1,5 +1,23 @@
 [
   {
+    "id": "census-zcta-2020",
+    "name": "2020 Census ZCTA Gazetteer",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_zcta_national.zip",
+    "format": "ZIP containing tab-delimited text",
+    "license": "U.S. government public data",
+    "notes": "2020 five-digit ZCTA identifiers, area, and representative coordinates."
+  },
+  {
+    "id": "census-zcta-county-relationship-2020",
+    "name": "2020 ZCTA-to-County Relationship File",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_county20_natl.txt",
+    "format": "Pipe-delimited text",
+    "license": "U.S. government public data",
+    "notes": "Geographic intersections only; not an allocation or postal delivery equivalence."
+  },
+  {
     "id": "census-state-reference",
     "name": "Census State Reference File",
     "publisher": "U.S. Census Bureau",

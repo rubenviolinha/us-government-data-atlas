@@ -1,5 +1,5 @@
 {
-  "retrieved_at": "2026-09-25T09:53:06.726372+00:00",
+  "retrieved_at": "2026-09-25T09:56:44.990502+00:00",
   "files": [
     {
       "path": "data/raw/census_state_reference.txt",
@@ -20,6 +20,26 @@
       "path": "data/normalized/counties_2023.json",
       "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_counties_national.zip",
       "records": 3222
+    },
+    {
+      "path": "data/raw/census_zcta_2020.zip",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_zcta_national.zip",
+      "records": 33144
+    },
+    {
+      "path": "data/normalized/zctas_2020.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_zcta_national.zip",
+      "records": 33144
+    },
+    {
+      "path": "data/raw/zcta_county_relationship_2020.txt",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_county20_natl.txt",
+      "records": 46960
+    },
+    {
+      "path": "data/normalized/zcta_county_relationships_2020.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_county20_natl.txt",
+      "records": 46960
     }
   ]
 }
