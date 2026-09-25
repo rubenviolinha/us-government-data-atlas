@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T16:37:51.639182+00:00",
+  "generated_at": "2026-09-25T16:39:35.864788+00:00",
   "algorithm": "sha256",
-  "dataset_count": 63,
+  "dataset_count": 64,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -313,6 +313,11 @@
       "file": "data/normalized/zcta_population_acs_2023.json",
       "sha256": "073b7d1bdbab3285f2cd641ad117dcce5fc60ca710ba8370484d7bb09eb3306c",
       "size_bytes": 8981132
+    },
+    {
+      "file": "data/normalized/zcta_profiles_acs_2023.json",
+      "sha256": "ab3e71aed9add2d79d115adb5c943439ccad9038cd978cff1e30db2efb09d157",
+      "size_bytes": 7452735
     },
     {
       "file": "data/normalized/zctas_2020.json",

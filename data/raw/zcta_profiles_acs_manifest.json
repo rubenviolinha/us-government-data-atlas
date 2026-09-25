@@ -1,0 +1,13 @@
+{
+  "retrieved_at": "2026-09-25T16:39:19.546457+00:00",
+  "sources": {
+    "median_household_income": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b19013.dat",
+    "housing_units": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "race_total": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b02001.dat",
+    "poverty_universe": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b17001.dat",
+    "education_universe": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b15003.dat"
+  },
+  "records": 33772,
+  "file": "data/normalized/zcta_profiles_acs_2023.json",
+  "note": "Compact headline-field extraction; raw bulk files are streamed and not copied into the repository."
+}
