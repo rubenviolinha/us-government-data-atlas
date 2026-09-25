@@ -8,6 +8,15 @@
     "notes": "Structured historical index with governor name, jurisdiction, party, years in office, and profile URL. The NGA is an association rather than a federal agency; treat this as a curated reference source and reconcile against state archives for authoritative completeness."
   },
   {
+    "id": "fec-presidential-general-1996",
+    "name": "FEC 1996 Presidential General Results",
+    "publisher": "Federal Election Commission",
+    "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/federal-elections-1996/",
+    "format": "XLSX workbook",
+    "license": "U.S. government public data",
+    "notes": "Official state-level presidential general results. The historical workbook has no modern FEC candidate IDs; stable synthetic IDs are included."
+  },
+  {
     "id": "fec-presidential-general-2000",
     "name": "FEC 2000 Presidential General Results",
     "publisher": "Federal Election Commission",

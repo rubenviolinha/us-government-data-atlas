@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-25T16:57:01.225437+00:00",
+  "source": "https://www.fec.gov/documents/1721/FederalElections96_PresidentialGeneralElectionResults.xlsx",
+  "format": "XLSX workbook",
+  "records": 223,
+  "file": "data/normalized/fec_presidential_general_1996.json",
+  "note": "The historical workbook has no modern FEC candidate IDs; stable synthetic IDs are included."
+}
