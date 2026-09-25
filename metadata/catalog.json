@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:44:27.957067+00:00",
+  "generated_at": "2026-09-25T17:46:02.431914+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -3233,6 +3233,22 @@
       "format": "JSON",
       "records": 33144,
       "size_bytes": 6440001,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "INTPTLAT",
+        "INTPTLONG"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/zctas_2023.json",
+      "format": "JSON",
+      "records": 33791,
+      "size_bytes": 6559547,
       "fields_sample": [
         "ALAND",
         "ALAND_SQMI",
