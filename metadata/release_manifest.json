@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T17:16:45.659855+00:00",
+  "generated_at": "2026-09-25T17:18:36.549719+00:00",
   "algorithm": "sha256",
-  "dataset_count": 80,
+  "dataset_count": 81,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -373,6 +373,11 @@
       "file": "data/normalized/tracts_2023.json",
       "sha256": "de5ef798105230c533f74edb6597cf47ab1add401f1f0e6d3ef572787b2d0d2a",
       "size_bytes": 18472046
+    },
+    {
+      "file": "data/normalized/tribal_areas_2023.json",
+      "sha256": "5b1ab21f720df8525eae800ee9a43e08bdaee828d18ba5644f14a0bf511924fc",
+      "size_bytes": 544015
     },
     {
       "file": "data/normalized/urban_areas_2023.json",

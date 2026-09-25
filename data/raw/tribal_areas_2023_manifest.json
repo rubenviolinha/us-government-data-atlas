@@ -1,0 +1,12 @@
+{
+  "retrieved_at": "2026-09-25T17:18:14.359181+00:00",
+  "sources": {
+    "aiannh": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_aiannh_national.zip",
+    "aiannhr": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_aiannhr_national.zip",
+    "aiannhrt": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_aiannhrt_national.zip"
+  },
+  "format": "Census Gazetteer ZIP/TXT",
+  "records": 1813,
+  "file": "data/normalized/tribal_areas_2023.json",
+  "note": "National tribal-area geography; no API key used."
+}
