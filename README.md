@@ -12,7 +12,7 @@ An open, versioned catalog of U.S. government, geographic, demographic, and hist
 
 Every dataset should preserve its source URL, retrieval timestamp, source vintage, license, and transformation notes.
 
-The current geography release includes 57 Census reference jurisdictions, 3,222 counties, 33,144 2020 ZCTAs, and 46,960 usable ZCTA-to-county intersections.
+The current release contains 91 cataloged datasets, including 57 Census reference jurisdictions, 3,222 counties, 2020 and 2023 ZCTA geography, 85,396 tracts, 36,434 county subdivisions, 32,329 places, 13,333 school districts, 6,844 state legislative districts, dated congressional districts, tribal areas, urban areas, CBSAs, PUMAs, and ZIP/PUMA relationship tables.
 
 ## Repository layout
 
@@ -88,3 +88,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for provenance, licensing, and refresh re
 To create a tabular export without adding duplicate files to Git, run `python3 scripts/export_csv.py states.json outputs/states.csv`. The exporter accepts only catalog-listed normalized datasets and serializes nested JSON values safely.
 
 The legislator script imports current and historical congressional members and terms from the open `unitedstates/congress-legislators` project, retaining Bioguide and other government identifiers.
+
+Historical election coverage includes FEC presidential results from 1984–2024, congressional result compilations from 2002–2022 plus 2010, and National Archives Electoral College tables for every election from 1789 through 2024. Legacy records retain source-page metadata and synthetic IDs where the original publication predates modern identifiers.
