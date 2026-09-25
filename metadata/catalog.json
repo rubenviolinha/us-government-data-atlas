@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:11:31.273482+00:00",
+  "generated_at": "2026-09-25T17:13:05.195923+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -3013,6 +3013,23 @@
       "source_urls_sample": [
         "https://www.supremecourt.gov/about/members_text.aspx"
       ]
+    },
+    {
+      "file": "data/normalized/tracts_2023.json",
+      "format": "JSON",
+      "records": 85396,
+      "size_bytes": 18472046,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "INTPTLAT",
+        "INTPTLONG",
+        "USPS"
+      ],
+      "source_urls_sample": []
     },
     {
       "file": "data/normalized/vice_presidents.json",

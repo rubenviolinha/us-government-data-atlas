@@ -27,6 +27,7 @@ def main():
     release = json.loads(RELEASE.read_text(encoding="utf-8"))
     counties = load("counties_2023.json")
     county_subdivisions = load("county_subdivisions_2023.json")
+    tracts = load("tracts_2023.json")
     places = load("places_2020.json")
     zctas = load("zctas_2020.json")
     zcta_population = load("zcta_population_acs_2023.json")
@@ -112,6 +113,9 @@ def main():
     assert len(county_subdivisions) >= 35000
     assert_unique(county_subdivisions, "GEOID", "county subdivision GEOIDs")
     assert all(row.get("USPS") and row.get("NAME") and len(row.get("GEOID", "")) == 10 for row in county_subdivisions)
+    assert len(tracts) >= 80000
+    assert_unique(tracts, "GEOID", "census tract GEOIDs")
+    assert all(row.get("USPS") and len(row.get("GEOID", "")) == 11 and row.get("INTPTLAT") and row.get("INTPTLONG") for row in tracts)
     assert_unique(places, "GEOID", "place GEOIDs")
     assert_unique(zctas, "GEOID", "ZCTA GEOIDs")
     assert len(zcta_population) >= 30000

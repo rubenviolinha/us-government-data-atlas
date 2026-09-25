@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T17:11:31.565320+00:00",
+  "generated_at": "2026-09-25T17:13:05.532073+00:00",
   "algorithm": "sha256",
-  "dataset_count": 77,
+  "dataset_count": 78,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -363,6 +363,11 @@
       "file": "data/normalized/supreme_court_justices.json",
       "sha256": "76ea8804f5354ff06c887c2f529c36b8a480abe66460af595e299170ae730ee5",
       "size_bytes": 35679
+    },
+    {
+      "file": "data/normalized/tracts_2023.json",
+      "sha256": "de5ef798105230c533f74edb6597cf47ab1add401f1f0e6d3ef572787b2d0d2a",
+      "size_bytes": 18472046
     },
     {
       "file": "data/normalized/vice_presidents.json",
