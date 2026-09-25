@@ -1,0 +1,36 @@
+{
+  "retrieved_at": "2026-09-25T22:11:41.050535+00:00",
+  "tables": {
+    "acs_district_age_sex_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "file": "data/normalized/acs_district_age_sex_2024_5yr.json",
+      "records": 440
+    },
+    "acs_district_education_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+      "file": "data/normalized/acs_district_education_2024_5yr.json",
+      "records": 440
+    },
+    "acs_district_poverty_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "file": "data/normalized/acs_district_poverty_2024_5yr.json",
+      "records": 440
+    },
+    "acs_district_income_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "file": "data/normalized/acs_district_income_2024_5yr.json",
+      "records": 440
+    },
+    "acs_district_housing_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
+      "file": "data/normalized/acs_district_housing_2024_5yr.json",
+      "records": 440
+    },
+    "acs_district_race_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
+      "file": "data/normalized/acs_district_race_2024_5yr.json",
+      "records": 440
+    }
+  },
+  "note": "Public table-based ACS 2024 5-year congressional-district profile extracts; compact fields; no API key used."
+}

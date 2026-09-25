@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T22:08:50.463028+00:00",
+  "generated_at": "2026-09-25T22:12:47.341197+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -1095,6 +1095,29 @@
       ]
     },
     {
+      "file": "data/normalized/acs_district_age_sex_2024_5yr.json",
+      "format": "JSON",
+      "records": 440,
+      "size_bytes": 173944,
+      "fields_sample": [
+        "B01001_E001",
+        "B01001_E002",
+        "B01001_E026",
+        "B01001_M001",
+        "GEO_ID",
+        "district_geoid",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "state_name",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_district_education_2023.json",
       "format": "JSON",
       "records": 437,
@@ -1188,6 +1211,30 @@
       ]
     },
     {
+      "file": "data/normalized/acs_district_education_2024_5yr.json",
+      "format": "JSON",
+      "records": 440,
+      "size_bytes": 181511,
+      "fields_sample": [
+        "B15003_E001",
+        "B15003_E002",
+        "B15003_E017",
+        "B15003_E025",
+        "B15003_M001",
+        "GEO_ID",
+        "district_geoid",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "state_name",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_district_housing_2023.json",
       "format": "JSON",
       "records": 437,
@@ -1230,6 +1277,27 @@
       ]
     },
     {
+      "file": "data/normalized/acs_district_housing_2024_5yr.json",
+      "format": "JSON",
+      "records": 440,
+      "size_bytes": 155357,
+      "fields_sample": [
+        "B25001_E001",
+        "B25001_M001",
+        "GEO_ID",
+        "district_geoid",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "state_name",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_district_income_2023.json",
       "format": "JSON",
       "records": 437,
@@ -1269,6 +1337,27 @@
       ],
       "source_urls_sample": [
         "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b19013.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_district_income_2024_5yr.json",
+      "format": "JSON",
+      "records": 440,
+      "size_bytes": 155110,
+      "fields_sample": [
+        "B19013_E001",
+        "B19013_M001",
+        "GEO_ID",
+        "district_geoid",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "state_name",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat"
       ]
     },
     {
@@ -1432,6 +1521,29 @@
       ]
     },
     {
+      "file": "data/normalized/acs_district_poverty_2024_5yr.json",
+      "format": "JSON",
+      "records": 440,
+      "size_bytes": 173158,
+      "fields_sample": [
+        "B17001_E001",
+        "B17001_E002",
+        "B17001_E017",
+        "B17001_M001",
+        "GEO_ID",
+        "district_geoid",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "state_name",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_district_race_2023.json",
       "format": "JSON",
       "records": 437,
@@ -1496,6 +1608,34 @@
       ],
       "source_urls_sample": [
         "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b02001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_district_race_2024_5yr.json",
+      "format": "JSON",
+      "records": 440,
+      "size_bytes": 216593,
+      "fields_sample": [
+        "B02001_E001",
+        "B02001_E002",
+        "B02001_E003",
+        "B02001_E004",
+        "B02001_E005",
+        "B02001_E006",
+        "B02001_E007",
+        "B02001_E008",
+        "B02001_M001",
+        "GEO_ID",
+        "district_geoid",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "state_name",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat"
       ]
     },
     {

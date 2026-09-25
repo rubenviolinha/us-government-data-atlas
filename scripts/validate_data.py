@@ -92,6 +92,7 @@ def main():
     acs_school_2024 = {label: load(f"acs_school_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_tract_2024 = {label: load(f"acs_tract_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_urban_2024 = {label: load(f"acs_urban_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
+    acs_district_2024_5yr = {label: load(f"acs_district_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     current_cabinet = load("current_cabinet_white_house.json")
     secretaries_of_state = load("secretaries_of_state.json")
     state_department_principals = load("state_department_principals.json")
@@ -472,6 +473,10 @@ def main():
         assert len(rows) >= 2600, f"ACS 2024 urban area {label} coverage too small"
         assert len({row["urban_area_geoid"] for row in rows}) == len(rows)
         assert all(row.get("GEO_ID", "").startswith("2690000US") and len(row.get("urban_area_geoid", "")) == 11 and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
+    for label, rows in acs_district_2024_5yr.items():
+        assert len(rows) == 440, f"ACS 2024 five-year district {label} coverage mismatch"
+        assert len({row["district_geoid"] for row in rows}) == len(rows)
+        assert all(row.get("GEO_ID", "").startswith("5001900US") and len(row.get("district_geoid", "")) == 4 and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
     assert_unique(counties_2024, "GEOID", "2024 county GEOIDs")
     assert_unique(zctas_2024, "GEOID", "2024 ZCTA GEOIDs")
     assert_unique(cbsa_2024, "GEOID", "2024 CBSA GEOIDs")
