@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T18:32:24.668089+00:00",
+  "generated_at": "2026-09-25T18:34:44.539430+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2913,6 +2913,31 @@
         "NAMELSAD_COUSUB_20",
         "NAMELSAD_PUMA5_20",
         "OID_COUSUB_20",
+        "OID_PUMA5_20"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/puma_vintage_relationships_2020_2010.json",
+      "format": "JSON",
+      "records": 6971,
+      "size_bytes": 4579708,
+      "fields_sample": [
+        "AREALAND_PART",
+        "AREALAND_PUMA5_10",
+        "AREALAND_PUMA5_20",
+        "AREAWATER_PART",
+        "AREAWATER_PUMA5_10",
+        "AREAWATER_PUMA5_20",
+        "FUNCSTAT_PUMA5_10",
+        "FUNCSTAT_PUMA5_20",
+        "GEOID_PUMA5_10",
+        "GEOID_PUMA5_20",
+        "MTFCC_PUMA5_10",
+        "MTFCC_PUMA5_20",
+        "NAMELSAD_PUMA5_10",
+        "NAMELSAD_PUMA5_20",
+        "OID_PUMA5_10",
         "OID_PUMA5_20"
       ],
       "source_urls_sample": []

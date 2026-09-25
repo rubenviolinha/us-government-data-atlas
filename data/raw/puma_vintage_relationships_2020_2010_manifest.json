@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-25T18:34:22.063942+00:00",
+  "source": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/puma520/tab20_puma520_puma510_natl.txt",
+  "format": "Census relationship TXT",
+  "records": 6971,
+  "file": "data/normalized/puma_vintage_relationships_2020_2010.json",
+  "note": "2020-to-2010 PUMA relationships with area overlap fields; no API key used."
+}

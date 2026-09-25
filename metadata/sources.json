@@ -8,6 +8,15 @@
     "notes": "Structured historical index with governor name, jurisdiction, party, years in office, and profile URL. The NGA is an association rather than a federal agency; treat this as a curated reference source and reconcile against state archives for authoritative completeness."
   },
   {
+    "id": "census-puma-vintage-relationship-2020-2010",
+    "name": "Census PUMA Vintage Relationship, 2020 to 2010",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/puma520/tab20_puma520_puma510_natl.txt",
+    "format": "Relationship TXT",
+    "license": "U.S. government public data",
+    "notes": "Crosswalk between 2020 and 2010 Public Use Microdata Areas with area overlap fields for longitudinal demographic analysis."
+  },
+  {
     "id": "census-puma-cousub-relationship-2020",
     "name": "Census 2020 PUMA-to-County Subdivision Relationship",
     "publisher": "U.S. Census Bureau",

@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T18:32:25.032209+00:00",
+  "generated_at": "2026-09-25T18:34:44.907026+00:00",
   "algorithm": "sha256",
-  "dataset_count": 92,
+  "dataset_count": 93,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -358,6 +358,11 @@
       "file": "data/normalized/puma_cousub_relationships_2020.json",
       "sha256": "ba3e9707098f1c110bcb6172a01a6a8b78666de0e78ee55364857d66d2235ca8",
       "size_bytes": 25237991
+    },
+    {
+      "file": "data/normalized/puma_vintage_relationships_2020_2010.json",
+      "sha256": "962d34c31273e8b3a31fe67eed33796eed89fb3de94b368ce582a24688620862",
+      "size_bytes": 4579708
     },
     {
       "file": "data/normalized/puma_zcta_relationships_2020.json",
