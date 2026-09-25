@@ -87,6 +87,7 @@ def main():
     fec_federal_elections_2014 = load("fec_federal_elections_2014.json")
     fec_federal_elections_2012 = load("fec_federal_elections_2012.json")
     fec_federal_elections_2008 = load("fec_federal_elections_2008.json")
+    fec_federal_elections_2010 = load("fec_federal_elections_2010.json")
     fec_federal_elections_2006 = load("fec_federal_elections_2006.json")
     fec_federal_elections_2004 = load("fec_federal_elections_2004.json")
     fec_federal_elections_2002 = load("fec_federal_elections_2002.json")
@@ -231,6 +232,8 @@ def main():
     for year, rows in ((2008, fec_federal_elections_2008), (2006, fec_federal_elections_2006)):
         assert len(rows) >= 2000, f"too few FEC {year} election rows"
         assert all(row.get("fec_id") and row.get("candidate_name") and row.get("office") in {"senate", "house"} and row.get("election_year") == year and row.get("source") for row in rows)
+    assert len(fec_federal_elections_2010) >= 2900
+    assert all(row.get("fec_id") and row.get("candidate_name") and row.get("office") in {"senate", "house"} and row.get("election_year") == 2010 and row.get("source") for row in fec_federal_elections_2010)
     assert len(fec_federal_elections_2004) >= 2000
     assert all(row.get("fec_id") and row.get("candidate_name") and row.get("office") in {"senate", "house"} and row.get("election_year") == 2004 and row.get("source") for row in fec_federal_elections_2004)
     assert len(fec_federal_elections_2002) >= 900

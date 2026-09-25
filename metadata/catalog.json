@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:06:47.347295+00:00",
+  "generated_at": "2026-09-25T17:09:18.509023+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -1678,6 +1678,41 @@
       ],
       "source_urls_sample": [
         "https://www.fec.gov/documents/1666/federalelections2008.xls"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_federal_elections_2010.json",
+      "format": "JSON",
+      "records": 3005,
+      "size_bytes": 2130207,
+      "fields_sample": [
+        "1.0",
+        "candidate_name",
+        "candidate_name_(first)",
+        "candidate_name_(last)",
+        "candidate_name_(last,_first)",
+        "d",
+        "district",
+        "election_year",
+        "fec_id",
+        "general",
+        "general_%",
+        "general_vote_share",
+        "general_votes",
+        "incumbent_indicator_(i)",
+        "office",
+        "party",
+        "primary",
+        "primary_%",
+        "runoff",
+        "runoff_%",
+        "source",
+        "source_sheet",
+        "state",
+        "state_abbreviation"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/documents/1677/results10.xls"
       ]
     },
     {

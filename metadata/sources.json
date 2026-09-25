@@ -8,6 +8,15 @@
     "notes": "Structured historical index with governor name, jurisdiction, party, years in office, and profile URL. The NGA is an association rather than a federal agency; treat this as a curated reference source and reconcile against state archives for authoritative completeness."
   },
   {
+    "id": "fec-federal-elections-2010",
+    "name": "FEC Federal Elections 2010",
+    "publisher": "Federal Election Commission",
+    "url": "https://www.fec.gov/documents/1677/results10.xls",
+    "format": "Legacy Excel workbook",
+    "license": "U.S. government public data",
+    "notes": "Official House and Senate candidate results with primary and general vote fields; no API key required."
+  },
+  {
     "id": "fec-presidential-general-1984",
     "name": "FEC 1984 Presidential General Results",
     "publisher": "Federal Election Commission",
