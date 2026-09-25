@@ -1,0 +1,17 @@
+{
+  "retrieved_at": "2026-09-25T16:32:47.878417+00:00",
+  "sources": {
+    "senate": {
+      "source": "https://www.fec.gov/documents/1740/FederalElections2002_Senate.xlsx",
+      "records": 176
+    },
+    "house": {
+      "source": "https://www.fec.gov/documents/1741/FederalElections2002_House.xlsx",
+      "records": 798
+    }
+  },
+  "format": "legacy XLSX workbooks",
+  "records": 974,
+  "file": "data/normalized/fec_federal_elections_2002.json",
+  "note": "Official FEC compilation; candidate IDs were not present in the 2002 workbooks, so stable synthetic IDs are provided."
+}

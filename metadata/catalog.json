@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:28:56.417190+00:00",
+  "generated_at": "2026-09-25T16:33:06.672334+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -1542,6 +1542,28 @@
       ],
       "source_urls_sample": [
         "https://www.fec.gov/files/bulk-downloads/2024/cm24.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_federal_elections_2002.json",
+      "format": "JSON",
+      "records": 974,
+      "size_bytes": 383564,
+      "fields_sample": [
+        "candidate_name",
+        "d",
+        "election_year",
+        "fec_id",
+        "general_votes",
+        "id_type",
+        "office",
+        "party",
+        "source",
+        "source_sheet",
+        "state_abbreviation"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/documents/1741/FederalElections2002_House.xlsx"
       ]
     },
     {

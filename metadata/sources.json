@@ -107,6 +107,15 @@
     "notes": "Official certified Senate and House primary/general results by state, candidate, party, and district for 2018 and 2016."
   },
   {
+    "id": "fec-federal-elections-2002",
+    "name": "FEC Federal Elections 2002",
+    "publisher": "Federal Election Commission",
+    "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/federal-elections-2002/",
+    "format": "XLSX workbooks",
+    "license": "U.S. government public data",
+    "notes": "Official Senate and House results. The legacy workbooks do not include modern FEC candidate IDs; stable synthetic IDs are included and the source fields are preserved."
+  },
+  {
     "id": "fec-federal-elections-2014-2012",
     "name": "FEC Federal Elections 2014 and 2012",
     "publisher": "Federal Election Commission",
