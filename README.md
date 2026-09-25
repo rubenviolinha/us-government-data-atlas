@@ -58,6 +58,7 @@ python3 scripts/build_current_federal_judges.py
 python3 scripts/build_federal_court_index.py
 python3 scripts/fetch_acs_2024_5yr_county_place_profiles.py
 python3 scripts/build_state_summary.py
+python3 scripts/build_coverage_report.py
 python3 scripts/fetch_current_cabinet.py
 python3 scripts/fetch_secretaries_of_state.py
 python3 scripts/fetch_state_department_principals.py

@@ -17,5 +17,6 @@ jobs:
       - run: python scripts/export_csv.py states.json /tmp/states.csv
       - run: python -m unittest tests/test_api.py
       - run: python scripts/build_release_manifest.py
+      - run: python scripts/build_coverage_report.py
       - run: python scripts/validate_data.py
       - run: python scripts/validate_capitals.py
