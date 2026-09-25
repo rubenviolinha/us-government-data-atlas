@@ -29,6 +29,7 @@ def main():
     place_population = load("place_population_2020_2024.json")
     legislators = load("congressional_legislators.json")
     governors = load("governors_nga.json")
+    presidents = load("presidents.json")
 
     assert len(states) >= 50
     assert_unique(states, "state_fips", "state FIPS codes")
@@ -45,6 +46,9 @@ def main():
     assert all(row.get("name") and row.get("state") for row in governors)
     assert all(row.get("source") and row.get("profile_url") for row in governors)
     assert all(1700 <= term["start_year"] <= 2100 and 1700 <= term["end_year"] <= 2100 for row in governors for term in row.get("terms", []))
+    assert len(presidents) >= 40
+    assert all(row.get("name") and row.get("start_date") and row.get("source") for row in presidents)
+    assert all(row["start_date"] <= row["end_date"] if row.get("end_date") else True for row in presidents)
 
     zcta_ids = {row["GEOID"] for row in zctas}
     # The relationship file is a 2020 vintage while the county gazetteer is 2023;
@@ -58,7 +62,7 @@ def main():
     assert all(len(row["GEOID"]) == 5 for row in county_population)
     assert all(len(row["GEOID"]) == 7 for row in place_population)
     assert all(term.get("type") in {"rep", "sen"} for person in legislators for term in person.get("terms", []))
-    print(f"validated states={len(states)} counties={len(counties)} county_population={len(county_population)} places={len(places)} place_population={len(place_population)} legislators={len(legislators)} governors={len(governors)} governor_terms={sum(len(row.get('terms', [])) for row in governors)} zctas={len(zctas)} relationships={len(relationships)} districts_2020={len(districts)} districts_2025={len(current_districts)}")
+    print(f"validated states={len(states)} counties={len(counties)} county_population={len(county_population)} places={len(places)} place_population={len(place_population)} legislators={len(legislators)} governors={len(governors)} governor_terms={sum(len(row.get('terms', [])) for row in governors)} presidents={len(presidents)} zctas={len(zctas)} relationships={len(relationships)} districts_2020={len(districts)} districts_2025={len(current_districts)}")
 
 
 if __name__ == "__main__":

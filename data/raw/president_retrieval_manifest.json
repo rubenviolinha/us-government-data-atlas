@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-25T10:20:33.287235+00:00",
+  "source": "https://www.archives.gov/research/census/presidents",
+  "raw_file": "data/raw/presidents-national-archives.html",
+  "file": "data/normalized/presidents.json",
+  "presidential_service_records": 47,
+  "distinct_names": 45
+}
