@@ -90,6 +90,8 @@ def main():
     acs_place_education = load("acs_place_education_2023.json")
     acs_place_poverty = load("acs_place_poverty_2023.json")
     state_legislators = load("state_legislators_openstates.json")
+    state_legislators_upper = load("state_legislators_upper.json")
+    state_legislators_lower = load("state_legislators_lower.json")
     fec_candidates = load("fec_candidate_master_2024.json")
     fec_committees = load("fec_committee_master_2024.json")
     fec_results = load("fec_presidential_general_results_2024.json")
@@ -219,6 +221,10 @@ def main():
         assert ids and len(ids) == len(set(ids)), f"duplicate {label} Bioguide IDs"
         assert all(person.get("office_scope") == label and person.get("source") and any(term.get("type") == office_type for term in person.get("terms", [])) for person in rows)
     assert all(row.get("name") and row.get("state") for row in governors)
+    for chamber, rows in (("upper", state_legislators_upper), ("lower", state_legislators_lower)):
+        ids = [row.get("id") for row in rows]
+        assert ids and len(ids) == len(set(ids)), f"duplicate state {chamber} legislator IDs"
+        assert all(row.get("chamber_scope") == chamber and any(role.get("type") == chamber for role in row.get("roles", [])) for row in rows)
     assert all(row.get("source") and row.get("profile_url") for row in governors)
     assert all(1700 <= term["start_year"] <= 2100 and 1700 <= term["end_year"] <= 2100 for row in governors for term in row.get("terms", []))
     assert len(presidents) >= 40

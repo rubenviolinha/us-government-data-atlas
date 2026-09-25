@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T19:02:03.921459+00:00",
+  "generated_at": "2026-09-25T19:13:53.828393+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -3922,6 +3922,39 @@
       "source_urls_sample": []
     },
     {
+      "file": "data/normalized/state_legislators_lower.json",
+      "format": "JSON",
+      "records": 15547,
+      "size_bytes": 28122668,
+      "fields_sample": [
+        "birth_date",
+        "chamber_scope",
+        "email",
+        "extras",
+        "family_name",
+        "gender",
+        "given_name",
+        "id",
+        "ids",
+        "image",
+        "links",
+        "middle_name",
+        "name",
+        "offices",
+        "other_identifiers",
+        "other_names",
+        "party",
+        "record_type",
+        "roles",
+        "source",
+        "sources",
+        "state"
+      ],
+      "source_urls_sample": [
+        "https://github.com/openstates/people"
+      ]
+    },
+    {
       "file": "data/normalized/state_legislators_openstates.json",
       "format": "JSON",
       "records": 21159,
@@ -3937,6 +3970,39 @@
         "ids",
         "image",
         "links",
+        "name",
+        "offices",
+        "other_identifiers",
+        "other_names",
+        "party",
+        "record_type",
+        "roles",
+        "source",
+        "sources",
+        "state"
+      ],
+      "source_urls_sample": [
+        "https://github.com/openstates/people"
+      ]
+    },
+    {
+      "file": "data/normalized/state_legislators_upper.json",
+      "format": "JSON",
+      "records": 5232,
+      "size_bytes": 10016604,
+      "fields_sample": [
+        "birth_date",
+        "chamber_scope",
+        "email",
+        "extras",
+        "family_name",
+        "gender",
+        "given_name",
+        "id",
+        "ids",
+        "image",
+        "links",
+        "middle_name",
         "name",
         "offices",
         "other_identifiers",

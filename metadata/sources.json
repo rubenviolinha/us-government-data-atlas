@@ -1,4 +1,12 @@
 [{
+    "id": "openstates-state-legislator-views",
+    "name": "Open States State Legislator Chamber Views",
+    "publisher": "Open States",
+    "url": "https://github.com/openstates/people",
+    "format": "Derived JSON views",
+    "license": "Source repository terms; verify before redistribution",
+    "notes": "Derived upper- and lower-chamber views from the canonical Open States people snapshot; retired and current roles are preserved."
+  }, {
     "id": "unitedstates-congress-legislator-views",
     "name": "United States Congress Legislator Senator and Representative Views",
     "publisher": "unitedstates/congress-legislators",
