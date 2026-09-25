@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:17:48.896142+00:00",
+  "generated_at": "2026-09-25T16:20:23.484736+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -1542,6 +1542,70 @@
       ],
       "source_urls_sample": [
         "https://www.fec.gov/files/bulk-downloads/2024/cm24.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_federal_elections_2016.json",
+      "format": "JSON",
+      "records": 2488,
+      "size_bytes": 1453531,
+      "fields_sample": [
+        "(i)",
+        "1",
+        "candidate_name",
+        "candidate_name_(first)",
+        "candidate_name_(last)",
+        "d",
+        "election_year",
+        "fec_id",
+        "ge_winner_indicator",
+        "general_%",
+        "general_votes",
+        "office",
+        "party",
+        "primary_%",
+        "primary_votes",
+        "source",
+        "source_sheet",
+        "state",
+        "state_abbreviation"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/documents/1890/federalelections2016.xlsx"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_federal_elections_2018.json",
+      "format": "JSON",
+      "records": 3033,
+      "size_bytes": 1792956,
+      "fields_sample": [
+        "(i)",
+        "1",
+        "candidate_name",
+        "candidate_name_(first)",
+        "candidate_name_(last)",
+        "combined_%_(ct,_ny)",
+        "district",
+        "election_year",
+        "fec_id",
+        "footnotes",
+        "ge_winner_indicator",
+        "general_%",
+        "general_votes",
+        "office",
+        "party",
+        "primary_%",
+        "primary_votes",
+        "runoff_%",
+        "runoff_votes",
+        "source",
+        "source_sheet",
+        "state",
+        "state_abbreviation"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/documents/2706/federalelections2018.xlsx"
       ]
     },
     {

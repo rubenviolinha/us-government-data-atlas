@@ -98,6 +98,15 @@
     "notes": "Official certified Senate and House primary/general results by state, candidate, party, and district."
   },
   {
+    "id": "fec-federal-elections-2018-2016",
+    "name": "FEC Federal Elections 2018 and 2016",
+    "publisher": "Federal Election Commission",
+    "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+    "format": "Excel workbooks",
+    "license": "U.S. government public data",
+    "notes": "Official certified Senate and House primary/general results by state, candidate, party, and district for 2018 and 2016."
+  },
+  {
     "id": "census-acs-district-profile-tables-2023",
     "name": "ACS 2023 1-Year Congressional District Profile Tables",
     "publisher": "U.S. Census Bureau",

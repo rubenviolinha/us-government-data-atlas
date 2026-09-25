@@ -1,0 +1,12 @@
+{
+  "retrieved_at": "2026-09-25T16:20:05.872148+00:00",
+  "source": "https://www.fec.gov/documents/1890/federalelections2016.xlsx",
+  "format": "Excel workbook",
+  "sheets": {
+    "US Senate Results by State": 377,
+    "US House Results by State": 2111
+  },
+  "records": 2488,
+  "file": "data/normalized/fec_federal_elections_2016.json",
+  "note": "Official certified federal election compilation; no API key used."
+}
