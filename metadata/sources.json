@@ -1,5 +1,14 @@
 [
   {
+    "id": "census-place-gazetteer-2020",
+    "name": "2020 Census Gazetteer Place Files",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+    "format": "ZIP containing tab-delimited text",
+    "license": "U.S. government public data",
+    "notes": "Census place identifiers, names, area, and representative coordinates."
+  },
+  {
     "id": "usgs-gnis-populated-places",
     "name": "GNIS Populated Places",
     "publisher": "U.S. Geological Survey / Board on Geographic Names",

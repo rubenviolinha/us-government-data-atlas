@@ -18,6 +18,7 @@ NORMALIZED.mkdir(parents=True, exist_ok=True)
 STATE_URL = "https://www2.census.gov/geo/docs/reference/state.txt"
 COUNTY_URL = "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_counties_national.zip"
 ZCTA_URL = "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_zcta_national.zip"
+PLACE_URL = "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip"
 ZCTA_COUNTY_REL_URL = "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_county20_natl.txt"
 
 CAPITALS = {
@@ -75,6 +76,13 @@ def main() -> None:
     zctas = [{key.strip(): value.strip() for key, value in row.items()} for row in csv.DictReader(io.StringIO(zcta_text), delimiter="\t")]
     (NORMALIZED / "zctas_2020.json").write_text(json.dumps(zctas, indent=2) + "\n", encoding="utf-8")
 
+    place_zip = fetch(PLACE_URL)
+    (RAW / "census_places_2020.zip").write_bytes(place_zip)
+    with ZipFile(io.BytesIO(place_zip)) as archive:
+        place_text = archive.read(archive.namelist()[0]).decode("utf-8-sig")
+    places = [{key.strip(): value.strip() for key, value in row.items()} for row in csv.DictReader(io.StringIO(place_text), delimiter="\t")]
+    (NORMALIZED / "places_2020.json").write_text(json.dumps(places, indent=2) + "\n", encoding="utf-8")
+
     rel_raw = fetch(ZCTA_COUNTY_REL_URL)
     (RAW / "zcta_county_relationship_2020.txt").write_bytes(rel_raw)
     relationships = [{key.strip(): value.strip() for key, value in row.items()} for row in csv.DictReader(io.StringIO(rel_raw.decode("utf-8-sig")), delimiter="|")]
@@ -94,6 +102,8 @@ def main() -> None:
             {"path": "data/normalized/counties_2023.json", "source": COUNTY_URL, "records": len(counties)},
             {"path": "data/raw/census_zcta_2020.zip", "source": ZCTA_URL, "records": len(zctas)},
             {"path": "data/normalized/zctas_2020.json", "source": ZCTA_URL, "records": len(zctas)},
+            {"path": "data/raw/census_places_2020.zip", "source": PLACE_URL, "records": len(places)},
+            {"path": "data/normalized/places_2020.json", "source": PLACE_URL, "records": len(places)},
             {"path": "data/raw/zcta_county_relationship_2020.txt", "source": ZCTA_COUNTY_REL_URL, "records": len(relationships)},
             {"path": "data/normalized/zcta_county_relationships_2020.json", "source": ZCTA_COUNTY_REL_URL, "records": len(relationships)}
         ]
