@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-25T17:23:56.343911+00:00",
+  "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_cbsa_national.zip",
+  "format": "Census Gazetteer ZIP/TXT",
+  "records": 935,
+  "file": "data/normalized/cbsa_geography_2023.json",
+  "note": "National metropolitan and micropolitan statistical-area geography; no API key used."
+}

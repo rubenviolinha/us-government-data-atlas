@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:22:32.429996+00:00",
+  "generated_at": "2026-09-25T17:24:18.369337+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -1283,6 +1283,25 @@
         "note",
         "state_name",
         "status"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/cbsa_geography_2023.json",
+      "format": "JSON",
+      "records": 935,
+      "size_bytes": 266328,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "CBSA_TYPE",
+        "CSAFP",
+        "GEOID",
+        "INTPTLAT",
+        "INTPTLONG",
+        "NAME"
       ],
       "source_urls_sample": []
     },
