@@ -1,0 +1,7 @@
+{
+  "retrieved_at": "2026-09-25T19:53:04.193584+00:00",
+  "source": "https://www2.census.gov/programs-surveys/cbp/datasets/2023/cbp23co.zip",
+  "raw_file": "data/raw/cbp23co.zip",
+  "file": "data/normalized/cbp_county_totals_2023.json",
+  "records": 3192
+}

@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T19:50:32.194284+00:00",
+  "generated_at": "2026-09-25T19:53:37.736843+00:00",
   "algorithm": "sha256",
-  "dataset_count": 126,
+  "dataset_count": 127,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -193,6 +193,11 @@
       "file": "data/normalized/capital_validation.json",
       "sha256": "17cfaf2d01b2583e9694eb08a7ddb5e72d7ced3c7559a2155c361abbf6a0714b",
       "size_bytes": 15094
+    },
+    {
+      "file": "data/normalized/cbp_county_totals_2023.json",
+      "sha256": "c4f5cb68b48f1175975826603c3610f38c3efb4c86d92d08dcea4adc4a364d44",
+      "size_bytes": 1561218
     },
     {
       "file": "data/normalized/cbsa_geography_2023.json",

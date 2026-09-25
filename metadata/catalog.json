@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T19:50:31.553596+00:00",
+  "generated_at": "2026-09-25T19:53:37.104316+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2135,6 +2135,30 @@
         "status"
       ],
       "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/cbp_county_totals_2023.json",
+      "format": "JSON",
+      "records": 3192,
+      "size_bytes": 1561218,
+      "fields_sample": [
+        "GEOID",
+        "annual_payroll_thousands",
+        "county_fips",
+        "county_name",
+        "employment",
+        "establishments",
+        "first_quarter_payroll_thousands",
+        "naics",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "state_name",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/cbp/datasets/2023/cbp23co.zip"
+      ]
     },
     {
       "file": "data/normalized/cbsa_geography_2023.json",
