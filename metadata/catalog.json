@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:15:39.227695+00:00",
+  "generated_at": "2026-09-25T16:17:48.896142+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -1542,6 +1542,40 @@
       ],
       "source_urls_sample": [
         "https://www.fec.gov/files/bulk-downloads/2024/cm24.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_federal_elections_2020.json",
+      "format": "JSON",
+      "records": 2879,
+      "size_bytes": 1699787,
+      "fields_sample": [
+        "(i)_incumbent_indicator",
+        "1",
+        "candidate_name",
+        "candidate_name_(first)",
+        "candidate_name_(last)",
+        "district",
+        "election_year",
+        "fec_id",
+        "footnotes",
+        "ge_winner_indicator",
+        "general_%",
+        "general_votes",
+        "office",
+        "party",
+        "pe_winner_indicator",
+        "primary_%",
+        "primary_votes",
+        "runoff_%",
+        "runoff_votes",
+        "source",
+        "source_sheet",
+        "state",
+        "state_abbreviation"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/documents/4228/federalelections2020.xlsx"
       ]
     },
     {
