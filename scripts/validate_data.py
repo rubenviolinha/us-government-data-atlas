@@ -33,6 +33,7 @@ def main():
     current_districts = load("congressional_districts_2025.json")
     county_population = load("county_population_2020_2024.json")
     place_population = load("place_population_2020_2024.json")
+    state_population = load("state_population_2020_2024.json")
     legislators = load("congressional_legislators.json")
     governors = load("governors_nga.json")
     presidents = load("presidents.json")
@@ -99,6 +100,8 @@ def main():
     assert_unique(current_districts, "GEOID", "current district GEOIDs")
     assert_unique(county_population, "GEOID", "county population GEOIDs")
     assert_unique(place_population, "GEOID", "place population GEOIDs")
+    assert len(state_population) >= 50
+    assert_unique(state_population, "state_fips", "state population FIPS codes")
     legislator_ids = [person.get("id", {}).get("bioguide") for person in legislators]
     assert all(legislator_ids)
     assert len(legislator_ids) == len(set(legislator_ids)), "duplicate legislator Bioguide IDs"

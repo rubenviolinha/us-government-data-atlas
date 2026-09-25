@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:33:06.672334+00:00",
+  "generated_at": "2026-09-25T16:34:55.284709+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2592,6 +2592,23 @@
       "source_urls_sample": [
         "https://github.com/openstates/people"
       ]
+    },
+    {
+      "file": "data/normalized/state_population_2020_2024.json",
+      "format": "JSON",
+      "records": 52,
+      "size_bytes": 13943,
+      "fields_sample": [
+        "population_2020",
+        "population_2021",
+        "population_2022",
+        "population_2023",
+        "population_2024",
+        "source_vintage",
+        "state_fips",
+        "state_name"
+      ],
+      "source_urls_sample": []
     },
     {
       "file": "data/normalized/state_population_2024.json",

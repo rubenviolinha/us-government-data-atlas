@@ -1,0 +1,522 @@
+[
+  {
+    "state_fips": "01",
+    "state_name": "Alabama",
+    "population_2020": "5033094",
+    "population_2021": "5049196",
+    "population_2022": "5076181",
+    "population_2023": "5117673",
+    "population_2024": "5157699",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "02",
+    "state_name": "Alaska",
+    "population_2020": "733017",
+    "population_2021": "734420",
+    "population_2022": "734442",
+    "population_2023": "736510",
+    "population_2024": "740133",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "04",
+    "state_name": "Arizona",
+    "population_2020": "7187135",
+    "population_2021": "7274078",
+    "population_2022": "7377566",
+    "population_2023": "7473027",
+    "population_2024": "7582384",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "05",
+    "state_name": "Arkansas",
+    "population_2020": "3014546",
+    "population_2021": "3026870",
+    "population_2022": "3047704",
+    "population_2023": "3069463",
+    "population_2024": "3088354",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "06",
+    "state_name": "California",
+    "population_2020": "39521958",
+    "population_2021": "39142565",
+    "population_2022": "39142414",
+    "population_2023": "39198693",
+    "population_2024": "39431263",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "08",
+    "state_name": "Colorado",
+    "population_2020": "5787129",
+    "population_2021": "5814036",
+    "population_2022": "5850935",
+    "population_2023": "5901339",
+    "population_2024": "5957493",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "09",
+    "state_name": "Connecticut",
+    "population_2020": "3579918",
+    "population_2021": "3606607",
+    "population_2022": "3617925",
+    "population_2023": "3643023",
+    "population_2024": "3675069",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "10",
+    "state_name": "Delaware",
+    "population_2020": "991928",
+    "population_2021": "1005062",
+    "population_2022": "1020625",
+    "population_2023": "1036423",
+    "population_2024": "1051917",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "11",
+    "state_name": "District of Columbia",
+    "population_2020": "670917",
+    "population_2021": "669256",
+    "population_2022": "676725",
+    "population_2023": "687324",
+    "population_2024": "702250",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "12",
+    "state_name": "Florida",
+    "population_2020": "21592035",
+    "population_2021": "21831949",
+    "population_2022": "22379312",
+    "population_2023": "22904868",
+    "population_2024": "23372215",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "13",
+    "state_name": "Georgia",
+    "population_2020": "10732888",
+    "population_2021": "10792060",
+    "population_2022": "10931805",
+    "population_2023": "11064432",
+    "population_2024": "11180878",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "15",
+    "state_name": "Hawaii",
+    "population_2020": "1451252",
+    "population_2021": "1447029",
+    "population_2022": "1440359",
+    "population_2023": "1441387",
+    "population_2024": "1446146",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "16",
+    "state_name": "Idaho",
+    "population_2020": "1849415",
+    "population_2021": "1904848",
+    "population_2022": "1944299",
+    "population_2023": "1971122",
+    "population_2024": "2001619",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "17",
+    "state_name": "Illinois",
+    "population_2020": "12799088",
+    "population_2021": "12700641",
+    "population_2022": "12621821",
+    "population_2023": "12642259",
+    "population_2024": "12710158",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "18",
+    "state_name": "Indiana",
+    "population_2020": "6790497",
+    "population_2021": "6815907",
+    "population_2022": "6844545",
+    "population_2023": "6880131",
+    "population_2024": "6924275",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "19",
+    "state_name": "Iowa",
+    "population_2020": "3191141",
+    "population_2021": "3198613",
+    "population_2022": "3202820",
+    "population_2023": "3218414",
+    "population_2024": "3241488",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "20",
+    "state_name": "Kansas",
+    "population_2020": "2938172",
+    "population_2021": "2938338",
+    "population_2022": "2937324",
+    "population_2023": "2951500",
+    "population_2024": "2970606",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "21",
+    "state_name": "Kentucky",
+    "population_2020": "4508318",
+    "population_2021": "4507583",
+    "population_2022": "4519233",
+    "population_2023": "4550595",
+    "population_2024": "4588372",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "22",
+    "state_name": "Louisiana",
+    "population_2020": "4652301",
+    "population_2021": "4627971",
+    "population_2022": "4593687",
+    "population_2023": "4588071",
+    "population_2024": "4597740",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "23",
+    "state_name": "Maine",
+    "population_2020": "1364571",
+    "population_2021": "1378931",
+    "population_2022": "1390922",
+    "population_2023": "1399646",
+    "population_2024": "1405012",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "24",
+    "state_name": "Maryland",
+    "population_2020": "6177935",
+    "population_2021": "6179403",
+    "population_2022": "6192440",
+    "population_2023": "6217062",
+    "population_2024": "6263220",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "25",
+    "state_name": "Massachusetts",
+    "population_2020": "6994598",
+    "population_2021": "7000474",
+    "population_2022": "7022468",
+    "population_2023": "7066568",
+    "population_2024": "7136171",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "26",
+    "state_name": "Michigan",
+    "population_2020": "10072703",
+    "population_2021": "10041351",
+    "population_2022": "10050877",
+    "population_2023": "10083356",
+    "population_2024": "10140459",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "27",
+    "state_name": "Minnesota",
+    "population_2020": "5710735",
+    "population_2021": "5718660",
+    "population_2022": "5721621",
+    "population_2023": "5753048",
+    "population_2024": "5793151",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "28",
+    "state_name": "Mississippi",
+    "population_2020": "2958536",
+    "population_2021": "2947209",
+    "population_2022": "2941939",
+    "population_2023": "2943172",
+    "population_2024": "2943045",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "29",
+    "state_name": "Missouri",
+    "population_2020": "6154744",
+    "population_2021": "6171374",
+    "population_2022": "6179414",
+    "population_2023": "6208038",
+    "population_2024": "6245466",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "30",
+    "state_name": "Montana",
+    "population_2020": "1087230",
+    "population_2021": "1106522",
+    "population_2022": "1122095",
+    "population_2023": "1131302",
+    "population_2024": "1137233",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "31",
+    "state_name": "Nebraska",
+    "population_2020": "1963387",
+    "population_2021": "1964537",
+    "population_2022": "1972246",
+    "population_2023": "1987864",
+    "population_2024": "2005465",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "32",
+    "state_name": "Nevada",
+    "population_2020": "3116967",
+    "population_2021": "3148141",
+    "population_2022": "3176116",
+    "population_2023": "3214363",
+    "population_2024": "3267467",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "33",
+    "state_name": "New Hampshire",
+    "population_2020": "1378756",
+    "population_2021": "1387677",
+    "population_2022": "1396678",
+    "population_2023": "1402199",
+    "population_2024": "1409032",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "34",
+    "state_name": "New Jersey",
+    "population_2020": "9272794",
+    "population_2021": "9270541",
+    "population_2022": "9295227",
+    "population_2023": "9379642",
+    "population_2024": "9500851",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "35",
+    "state_name": "New Mexico",
+    "population_2020": "2118606",
+    "population_2021": "2117333",
+    "population_2022": "2113868",
+    "population_2023": "2121164",
+    "population_2024": "2130256",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "36",
+    "state_name": "New York",
+    "population_2020": "20105171",
+    "population_2021": "19848276",
+    "population_2022": "19703747",
+    "population_2023": "19737367",
+    "population_2024": "19867248",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "37",
+    "state_name": "North Carolina",
+    "population_2020": "10449652",
+    "population_2021": "10564320",
+    "population_2022": "10710793",
+    "population_2023": "10881189",
+    "population_2024": "11046024",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "38",
+    "state_name": "North Dakota",
+    "population_2020": "779563",
+    "population_2021": "777966",
+    "population_2022": "781057",
+    "population_2023": "789047",
+    "population_2024": "796568",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "39",
+    "state_name": "Ohio",
+    "population_2020": "11798905",
+    "population_2021": "11767344",
+    "population_2022": "11777874",
+    "population_2023": "11824034",
+    "population_2024": "11883304",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "40",
+    "state_name": "Oklahoma",
+    "population_2020": "3965415",
+    "population_2021": "3992238",
+    "population_2022": "4026229",
+    "population_2023": "4063882",
+    "population_2024": "4095393",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "41",
+    "state_name": "Oregon",
+    "population_2020": "4243779",
+    "population_2021": "4254280",
+    "population_2022": "4247372",
+    "population_2023": "4253653",
+    "population_2024": "4272371",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "42",
+    "state_name": "Pennsylvania",
+    "population_2020": "12996143",
+    "population_2021": "13015571",
+    "population_2022": "12984990",
+    "population_2023": "13017721",
+    "population_2024": "13078751",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "44",
+    "state_name": "Rhode Island",
+    "population_2020": "1096530",
+    "population_2021": "1097246",
+    "population_2022": "1099498",
+    "population_2023": "1103429",
+    "population_2024": "1112308",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "45",
+    "state_name": "South Carolina",
+    "population_2020": "5132249",
+    "population_2021": "5194274",
+    "population_2022": "5287935",
+    "population_2023": "5387830",
+    "population_2024": "5478831",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "46",
+    "state_name": "South Dakota",
+    "population_2020": "887948",
+    "population_2021": "896492",
+    "population_2022": "909723",
+    "population_2023": "918305",
+    "population_2024": "924669",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "47",
+    "state_name": "Tennessee",
+    "population_2020": "6927904",
+    "population_2021": "6965740",
+    "population_2022": "7062217",
+    "population_2023": "7148304",
+    "population_2024": "7227750",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "48",
+    "state_name": "Texas",
+    "population_2020": "29239570",
+    "population_2021": "29570351",
+    "population_2022": "30113488",
+    "population_2023": "30727890",
+    "population_2024": "31290831",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "49",
+    "state_name": "Utah",
+    "population_2020": "3284077",
+    "population_2021": "3339738",
+    "population_2022": "3391011",
+    "population_2023": "3443222",
+    "population_2024": "3503613",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "50",
+    "state_name": "Vermont",
+    "population_2020": "642977",
+    "population_2021": "647210",
+    "population_2022": "648142",
+    "population_2023": "648708",
+    "population_2024": "648493",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "51",
+    "state_name": "Virginia",
+    "population_2020": "8637615",
+    "population_2021": "8658910",
+    "population_2022": "8683414",
+    "population_2023": "8734685",
+    "population_2024": "8811195",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "53",
+    "state_name": "Washington",
+    "population_2020": "7727209",
+    "population_2021": "7743760",
+    "population_2022": "7794123",
+    "population_2023": "7857320",
+    "population_2024": "7958180",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "54",
+    "state_name": "West Virginia",
+    "population_2020": "1791646",
+    "population_2021": "1785618",
+    "population_2022": "1774122",
+    "population_2023": "1770495",
+    "population_2024": "1769979",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "55",
+    "state_name": "Wisconsin",
+    "population_2020": "5897375",
+    "population_2021": "5881608",
+    "population_2022": "5903975",
+    "population_2023": "5930405",
+    "population_2024": "5960975",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "56",
+    "state_name": "Wyoming",
+    "population_2020": "577681",
+    "population_2021": "579636",
+    "population_2022": "581978",
+    "population_2023": "585067",
+    "population_2024": "587618",
+    "source_vintage": "2020-2024"
+  },
+  {
+    "state_fips": "72",
+    "state_name": "Puerto Rico",
+    "population_2020": "3281590",
+    "population_2021": "3262711",
+    "population_2022": "3220137",
+    "population_2023": "3203792",
+    "population_2024": "3203295",
+    "source_vintage": "2020-2024"
+  }
+]

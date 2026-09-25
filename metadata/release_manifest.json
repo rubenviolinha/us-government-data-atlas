@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T16:33:06.950011+00:00",
+  "generated_at": "2026-09-25T16:34:55.574074+00:00",
   "algorithm": "sha256",
-  "dataset_count": 61,
+  "dataset_count": 62,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -278,6 +278,11 @@
       "file": "data/normalized/state_legislators_openstates.json",
       "sha256": "1d62a5309f3287313b9dd84f56308867b13ec46e73719df33442ce6caae9099e",
       "size_bytes": 36180996
+    },
+    {
+      "file": "data/normalized/state_population_2020_2024.json",
+      "sha256": "3634a2cbd824bd9a9deaa270418040009cb2926eb87a6b06c5299f768979265f",
+      "size_bytes": 13943
     },
     {
       "file": "data/normalized/state_population_2024.json",
