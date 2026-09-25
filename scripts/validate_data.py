@@ -96,6 +96,10 @@ def main():
     acs_anrc_2024 = {label: load(f"acs_alaska_native_regional_corporation_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_principal_city_2024 = {label: load(f"acs_principal_city_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_metropolitan_division_2024 = {label: load(f"acs_metropolitan_division_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
+    acs_other_special_2024 = {
+        geo_type: {label: load(f"acs_{geo_type}_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
+        for geo_type in ("subminor_civil_division", "tribal_subdivision_or_remainder", "american_indian_area_reservation_statistical", "off_reservation_trust_land_hawaiian_homeland", "tribal_census_tract", "tribal_block_group")
+    }
     acs_tract_2024 = {label: load(f"acs_tract_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_urban_2024 = {label: load(f"acs_urban_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_district_2024_5yr = {label: load(f"acs_district_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
@@ -485,11 +489,26 @@ def main():
             assert len(rows) == expected, f"ACS 2024 {geo_type} {label} coverage mismatch"
             assert len({row["geography_geoid"] for row in rows}) == len(rows)
             assert all(row.get("GEO_ID", "").startswith(prefix) and len(row.get("geography_geoid", "")) == 7 and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
-    for geo_type, profiles, prefix, expected in (("principal city", acs_principal_city_2024, "312M700US", 1294), ("metropolitan division", acs_metropolitan_division_2024, "314M700US", 37)):
+    for geo_type, profiles, prefix, expected, geoid_length in (("principal city", acs_principal_city_2024, "312M700US", 1294, 12), ("metropolitan division", acs_metropolitan_division_2024, "314M700US", 37, 10)):
         for label, rows in profiles.items():
             assert len(rows) == expected, f"ACS 2024 {geo_type} {label} coverage mismatch"
             assert len({row["geography_geoid"] for row in rows}) == len(rows)
-            assert all(row.get("GEO_ID", "").startswith(prefix) and len(row.get("geography_geoid", "")) == 7 and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
+            assert all(row.get("GEO_ID", "").startswith(prefix) and len(row.get("geography_geoid", "")) == geoid_length and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
+    special_specs = {
+        "subminor_civil_division": ("0670000US", 145, 15),
+        "tribal_subdivision_or_remainder": ("2510000US", 493, 7),
+        "american_indian_area_reservation_statistical": ("2520000US", 617, 5),
+        "off_reservation_trust_land_hawaiian_homeland": ("2540000US", 247, 5),
+        "tribal_census_tract": ("2560000US", 493, 10),
+        "tribal_block_group": ("2580000US", 935, 11),
+    }
+    for geo_type, profiles in acs_other_special_2024.items():
+        prefix, expected, geoid_length = special_specs[geo_type]
+        for label, rows in profiles.items():
+            profile_expected = 0 if geo_type == "tribal_block_group" and label == "poverty" else expected
+            assert len(rows) == profile_expected, f"ACS 2024 {geo_type} {label} coverage mismatch"
+            assert len({row["geography_geoid"] for row in rows}) == len(rows)
+            assert all(row.get("GEO_ID", "").startswith(prefix) and len(row.get("geography_geoid", "")) == geoid_length and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
     for label, rows in acs_tract_2024.items():
         assert len(rows) >= 85000, f"ACS 2024 tract {label} coverage too small"
         assert len({row["tract_geoid"] for row in rows}) == len(rows)
