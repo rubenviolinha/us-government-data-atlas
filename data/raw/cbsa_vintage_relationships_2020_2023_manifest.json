@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-25T18:41:51.426092+00:00",
+  "source": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/cbsa/acs23_cbsa20_cbsa23_natl.txt",
+  "format": "Census relationship TXT",
+  "records": 1039,
+  "file": "data/normalized/cbsa_vintage_relationships_2020_2023.json",
+  "note": "2020-to-2023 CBSA relationships with area overlap fields; no API key used."
+}

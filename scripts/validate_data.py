@@ -46,6 +46,7 @@ def main():
     puma_cousub_relationships = load("puma_cousub_relationships_2020.json")
     puma_vintage_relationships = load("puma_vintage_relationships_2020_2010.json")
     place_vintage_relationships = load("place_vintage_relationships_2020_2010.json")
+    cbsa_vintage_relationships = load("cbsa_vintage_relationships_2020_2023.json")
     zcta_population = load("zcta_population_acs_2023.json")
     zcta_profiles = load("zcta_profiles_acs_2023.json")
     relationships = load("zcta_county_relationships_2020.json")
@@ -182,6 +183,8 @@ def main():
     assert all(row.get("GEOID_PUMA5_20") and len(row["GEOID_PUMA5_20"]) == 7 and row.get("GEOID_PUMA5_10") and len(row["GEOID_PUMA5_10"]) == 7 for row in puma_vintage_relationships)
     assert len(place_vintage_relationships) >= 38000
     assert all(row.get("GEOID_PLACE_20") and len(row["GEOID_PLACE_20"]) == 7 and row.get("GEOID_PLACE_10") and len(row["GEOID_PLACE_10"]) == 7 for row in place_vintage_relationships)
+    assert len(cbsa_vintage_relationships) >= 900
+    assert all(row.get("GEOID_CBSA_20") and len(row["GEOID_CBSA_20"]) == 5 and row.get("GEOID_CBSA_23") and len(row["GEOID_CBSA_23"]) == 5 for row in cbsa_vintage_relationships)
     assert len(zcta_population) >= 30000
     assert_unique(zcta_population, "zcta", "ACS ZCTA population codes")
     assert len(zcta_profiles) >= 30000

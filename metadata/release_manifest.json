@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T18:40:09.477087+00:00",
+  "generated_at": "2026-09-25T18:41:54.801635+00:00",
   "algorithm": "sha256",
-  "dataset_count": 94,
+  "dataset_count": 95,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -128,6 +128,11 @@
       "file": "data/normalized/cbsa_population_2020_2024.json",
       "sha256": "5665db24a81e0e0b4947214b3132cfa0673624c1e5c76b82d5ac4c09f44c9116",
       "size_bytes": 284861
+    },
+    {
+      "file": "data/normalized/cbsa_vintage_relationships_2020_2023.json",
+      "sha256": "b92ce35957f9028f1e00788dad8c8bc23fb4a7ef2fdbae1301a6da2f64d1784a",
+      "size_bytes": 615855
     },
     {
       "file": "data/normalized/congressional_districts_118th_2023.json",

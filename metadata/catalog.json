@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T18:40:09.100615+00:00",
+  "generated_at": "2026-09-25T18:41:54.429095+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -1320,6 +1320,31 @@
         "population_2023",
         "population_2024",
         "source_vintage"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/cbsa_vintage_relationships_2020_2023.json",
+      "format": "JSON",
+      "records": 1039,
+      "size_bytes": 615855,
+      "fields_sample": [
+        "AREALAND_CBSA_20",
+        "AREALAND_CBSA_23",
+        "AREALAND_PART",
+        "AREAWATER_CBSA_20",
+        "AREAWATER_CBSA_23",
+        "AREAWATER_PART",
+        "FUNCSTAT_CBSA_20",
+        "FUNCSTAT_CBSA_23",
+        "GEOID_CBSA_20",
+        "GEOID_CBSA_23",
+        "MTFCC_CBSA_20",
+        "MTFCC_CBSA_23",
+        "NAMELSAD_CBSA_20",
+        "NAMELSAD_CBSA_23",
+        "OID_CBSA_20",
+        "OID_CBSA_23"
       ],
       "source_urls_sample": []
     },

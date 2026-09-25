@@ -1,4 +1,12 @@
 [{
+    "id": "census-cbsa-vintage-relationship-2020-2023",
+    "name": "Census CBSA Vintage Relationship, 2020 to 2023",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/cbsa/acs23_cbsa20_cbsa23_natl.txt",
+    "format": "Relationship TXT",
+    "license": "U.S. government public data",
+    "notes": "Crosswalk between 2020 and 2023 metropolitan and micropolitan statistical areas with area overlap fields."
+  }, {
     "id": "census-place-vintage-relationship-2020-2010",
     "name": "Census Place Vintage Relationship, 2020 to 2010",
     "publisher": "U.S. Census Bureau",
