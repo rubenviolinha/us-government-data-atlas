@@ -43,6 +43,7 @@ def main():
     electoral_college = load("electoral_college_results_1789_2024.json")
     puma_zcta_relationships = load("puma_zcta_relationships_2020.json")
     pumas = load("pumas_2020.json")
+    puma_cousub_relationships = load("puma_cousub_relationships_2020.json")
     zcta_population = load("zcta_population_acs_2023.json")
     zcta_profiles = load("zcta_profiles_acs_2023.json")
     relationships = load("zcta_county_relationships_2020.json")
@@ -173,6 +174,8 @@ def main():
     assert len(pumas) >= 2400
     assert_unique(pumas, "GEOID_PUMA5_20", "PUMA GEOIDs")
     assert all(row.get("NAMELSAD_PUMA5_20") and row.get("MTFCC_PUMA5_20") == "G6120" for row in pumas)
+    assert len(puma_cousub_relationships) >= 38000
+    assert all(row.get("GEOID_PUMA5_20") and len(row["GEOID_PUMA5_20"]) == 7 and row.get("GEOID_COUSUB_20") and len(row["GEOID_COUSUB_20"]) == 10 for row in puma_cousub_relationships)
     assert len(zcta_population) >= 30000
     assert_unique(zcta_population, "zcta", "ACS ZCTA population codes")
     assert len(zcta_profiles) >= 30000

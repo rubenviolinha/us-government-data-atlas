@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-25T18:32:04.370674+00:00",
+  "source": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/puma520/tab20_puma520_cousub20_natl.txt",
+  "format": "Census relationship TXT",
+  "records": 38832,
+  "file": "data/normalized/puma_cousub_relationships_2020.json",
+  "note": "PUMA-to-county-subdivision relationships with area overlap fields; no API key used."
+}

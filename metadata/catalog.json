@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T18:29:03.336328+00:00",
+  "generated_at": "2026-09-25T18:32:24.668089+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2890,6 +2890,32 @@
       "source_urls_sample": [
         "https://www.archives.gov/research/census/presidents"
       ]
+    },
+    {
+      "file": "data/normalized/puma_cousub_relationships_2020.json",
+      "format": "JSON",
+      "records": 38832,
+      "size_bytes": 25237991,
+      "fields_sample": [
+        "AREALAND_COUSUB_20",
+        "AREALAND_PART",
+        "AREALAND_PUMA5_20",
+        "AREAWATER_COUSUB_20",
+        "AREAWATER_PART",
+        "AREAWATER_PUMA5_20",
+        "CLASSFP_COUSUB_20",
+        "FUNCSTAT_COUSUB_20",
+        "FUNCSTAT_PUMA5_20",
+        "GEOID_COUSUB_20",
+        "GEOID_PUMA5_20",
+        "MTFCC_COUSUB_20",
+        "MTFCC_PUMA5_20",
+        "NAMELSAD_COUSUB_20",
+        "NAMELSAD_PUMA5_20",
+        "OID_COUSUB_20",
+        "OID_PUMA5_20"
+      ],
+      "source_urls_sample": []
     },
     {
       "file": "data/normalized/puma_zcta_relationships_2020.json",
