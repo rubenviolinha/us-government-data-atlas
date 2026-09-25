@@ -1,0 +1,9 @@
+{
+  "retrieved_at": "2026-09-25T10:24:35.344172+00:00",
+  "source": "https://www.federalregister.gov/api/v1/documents.json",
+  "query": "presidential document type executive_order",
+  "raw_file": "data/raw/executive-orders-federal-register.json",
+  "file": "data/normalized/executive_orders.json",
+  "records": 1567,
+  "pages": 2
+}
