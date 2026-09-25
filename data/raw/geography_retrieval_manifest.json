@@ -1,0 +1,25 @@
+{
+  "retrieved_at": "2026-09-25T09:53:06.726372+00:00",
+  "files": [
+    {
+      "path": "data/raw/census_state_reference.txt",
+      "source": "https://www2.census.gov/geo/docs/reference/state.txt",
+      "records": 57
+    },
+    {
+      "path": "data/normalized/states.json",
+      "source": "https://www2.census.gov/geo/docs/reference/state.txt",
+      "records": 57
+    },
+    {
+      "path": "data/raw/census_counties_2023.zip",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_counties_national.zip",
+      "records": 3222
+    },
+    {
+      "path": "data/normalized/counties_2023.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_counties_national.zip",
+      "records": 3222
+    }
+  ]
+}

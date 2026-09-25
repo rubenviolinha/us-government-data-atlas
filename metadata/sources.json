@@ -1,5 +1,23 @@
 [
   {
+    "id": "census-state-reference",
+    "name": "Census State Reference File",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/geo/docs/reference/state.txt",
+    "format": "Pipe-delimited text",
+    "license": "U.S. government public data",
+    "notes": "State and territory abbreviations, FIPS codes, and ANSI state codes."
+  },
+  {
+    "id": "census-counties-2023",
+    "name": "2023 Census Gazetteer County Files",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_counties_national.zip",
+    "format": "ZIP containing tab-delimited text",
+    "license": "U.S. government public data",
+    "notes": "County GEOIDs, names, land/water area, and representative coordinates."
+  },
+  {
     "id": "census-pep-state",
     "name": "Census Population Estimates by State",
     "publisher": "U.S. Census Bureau",

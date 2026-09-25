@@ -1,0 +1,458 @@
+[
+  {
+    "state_fips": "01",
+    "abbr": "AL",
+    "name": "Alabama",
+    "statens": "01779775",
+    "capital": "Montgomery",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "02",
+    "abbr": "AK",
+    "name": "Alaska",
+    "statens": "01785533",
+    "capital": "Juneau",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "04",
+    "abbr": "AZ",
+    "name": "Arizona",
+    "statens": "01779777",
+    "capital": "Phoenix",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "05",
+    "abbr": "AR",
+    "name": "Arkansas",
+    "statens": "00068085",
+    "capital": "Little Rock",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "06",
+    "abbr": "CA",
+    "name": "California",
+    "statens": "01779778",
+    "capital": "Sacramento",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "08",
+    "abbr": "CO",
+    "name": "Colorado",
+    "statens": "01779779",
+    "capital": "Denver",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "09",
+    "abbr": "CT",
+    "name": "Connecticut",
+    "statens": "01779780",
+    "capital": "Hartford",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "10",
+    "abbr": "DE",
+    "name": "Delaware",
+    "statens": "01779781",
+    "capital": "Dover",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "11",
+    "abbr": "DC",
+    "name": "District of Columbia",
+    "statens": "01702382",
+    "capital": "Washington",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "12",
+    "abbr": "FL",
+    "name": "Florida",
+    "statens": "00294478",
+    "capital": "Tallahassee",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "13",
+    "abbr": "GA",
+    "name": "Georgia",
+    "statens": "01705317",
+    "capital": "Atlanta",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "15",
+    "abbr": "HI",
+    "name": "Hawaii",
+    "statens": "01779782",
+    "capital": "Honolulu",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "16",
+    "abbr": "ID",
+    "name": "Idaho",
+    "statens": "01779783",
+    "capital": "Boise",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "17",
+    "abbr": "IL",
+    "name": "Illinois",
+    "statens": "01779784",
+    "capital": "Springfield",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "18",
+    "abbr": "IN",
+    "name": "Indiana",
+    "statens": "00448508",
+    "capital": "Indianapolis",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "19",
+    "abbr": "IA",
+    "name": "Iowa",
+    "statens": "01779785",
+    "capital": "Des Moines",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "20",
+    "abbr": "KS",
+    "name": "Kansas",
+    "statens": "00481813",
+    "capital": "Topeka",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "21",
+    "abbr": "KY",
+    "name": "Kentucky",
+    "statens": "01779786",
+    "capital": "Frankfort",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "22",
+    "abbr": "LA",
+    "name": "Louisiana",
+    "statens": "01629543",
+    "capital": "Baton Rouge",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "23",
+    "abbr": "ME",
+    "name": "Maine",
+    "statens": "01779787",
+    "capital": "Augusta",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "24",
+    "abbr": "MD",
+    "name": "Maryland",
+    "statens": "01714934",
+    "capital": "Annapolis",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "25",
+    "abbr": "MA",
+    "name": "Massachusetts",
+    "statens": "00606926",
+    "capital": "Boston",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "26",
+    "abbr": "MI",
+    "name": "Michigan",
+    "statens": "01779789",
+    "capital": "Lansing",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "27",
+    "abbr": "MN",
+    "name": "Minnesota",
+    "statens": "00662849",
+    "capital": "Saint Paul",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "28",
+    "abbr": "MS",
+    "name": "Mississippi",
+    "statens": "01779790",
+    "capital": "Jackson",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "29",
+    "abbr": "MO",
+    "name": "Missouri",
+    "statens": "01779791",
+    "capital": "Jefferson City",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "30",
+    "abbr": "MT",
+    "name": "Montana",
+    "statens": "00767982",
+    "capital": "Helena",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "31",
+    "abbr": "NE",
+    "name": "Nebraska",
+    "statens": "01779792",
+    "capital": "Lincoln",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "32",
+    "abbr": "NV",
+    "name": "Nevada",
+    "statens": "01779793",
+    "capital": "Carson City",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "33",
+    "abbr": "NH",
+    "name": "New Hampshire",
+    "statens": "01779794",
+    "capital": "Concord",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "34",
+    "abbr": "NJ",
+    "name": "New Jersey",
+    "statens": "01779795",
+    "capital": "Trenton",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "35",
+    "abbr": "NM",
+    "name": "New Mexico",
+    "statens": "00897535",
+    "capital": "Santa Fe",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "36",
+    "abbr": "NY",
+    "name": "New York",
+    "statens": "01779796",
+    "capital": "Albany",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "37",
+    "abbr": "NC",
+    "name": "North Carolina",
+    "statens": "01027616",
+    "capital": "Raleigh",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "38",
+    "abbr": "ND",
+    "name": "North Dakota",
+    "statens": "01779797",
+    "capital": "Bismarck",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "39",
+    "abbr": "OH",
+    "name": "Ohio",
+    "statens": "01085497",
+    "capital": "Columbus",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "40",
+    "abbr": "OK",
+    "name": "Oklahoma",
+    "statens": "01102857",
+    "capital": "Oklahoma City",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "41",
+    "abbr": "OR",
+    "name": "Oregon",
+    "statens": "01155107",
+    "capital": "Salem",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "42",
+    "abbr": "PA",
+    "name": "Pennsylvania",
+    "statens": "01779798",
+    "capital": "Harrisburg",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "44",
+    "abbr": "RI",
+    "name": "Rhode Island",
+    "statens": "01219835",
+    "capital": "Providence",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "45",
+    "abbr": "SC",
+    "name": "South Carolina",
+    "statens": "01779799",
+    "capital": "Columbia",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "46",
+    "abbr": "SD",
+    "name": "South Dakota",
+    "statens": "01785534",
+    "capital": "Pierre",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "47",
+    "abbr": "TN",
+    "name": "Tennessee",
+    "statens": "01325873",
+    "capital": "Nashville",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "48",
+    "abbr": "TX",
+    "name": "Texas",
+    "statens": "01779801",
+    "capital": "Austin",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "49",
+    "abbr": "UT",
+    "name": "Utah",
+    "statens": "01455989",
+    "capital": "Salt Lake City",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "50",
+    "abbr": "VT",
+    "name": "Vermont",
+    "statens": "01779802",
+    "capital": "Montpelier",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "51",
+    "abbr": "VA",
+    "name": "Virginia",
+    "statens": "01779803",
+    "capital": "Richmond",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "53",
+    "abbr": "WA",
+    "name": "Washington",
+    "statens": "01779804",
+    "capital": "Olympia",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "54",
+    "abbr": "WV",
+    "name": "West Virginia",
+    "statens": "01779805",
+    "capital": "Charleston",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "55",
+    "abbr": "WI",
+    "name": "Wisconsin",
+    "statens": "01779806",
+    "capital": "Madison",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "56",
+    "abbr": "WY",
+    "name": "Wyoming",
+    "statens": "01779807",
+    "capital": "Cheyenne",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "60",
+    "abbr": "AS",
+    "name": "American Samoa",
+    "statens": "01802701",
+    "capital": "Pago Pago",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "66",
+    "abbr": "GU",
+    "name": "Guam",
+    "statens": "01802705",
+    "capital": "Hagåtña",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "69",
+    "abbr": "MP",
+    "name": "Northern Mariana Islands",
+    "statens": "01779809",
+    "capital": "Saipan",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "72",
+    "abbr": "PR",
+    "name": "Puerto Rico",
+    "statens": "01779808",
+    "capital": "San Juan",
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "74",
+    "abbr": "UM",
+    "name": "U.S. Minor Outlying Islands",
+    "statens": "01878752",
+    "capital": null,
+    "capital_source": "curated initial reference; validate against state government source"
+  },
+  {
+    "state_fips": "78",
+    "abbr": "VI",
+    "name": "U.S. Virgin Islands",
+    "statens": "01802710",
+    "capital": "Charlotte Amalie",
+    "capital_source": "curated initial reference; validate against state government source"
+  }
+]
