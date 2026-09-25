@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-25T18:03:05.828073+00:00",
+  "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_aiannh_hhl_national.zip",
+  "format": "Census Gazetteer ZIP/TXT",
+  "records": 74,
+  "file": "data/normalized/hawaiian_home_lands_2023.json",
+  "note": "2023 Hawaiian Home Lands geography; no API key used."
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:46:02.431914+00:00",
+  "generated_at": "2026-09-25T18:03:24.665490+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2533,6 +2533,24 @@
       "source_urls_sample": [
         "https://www.nga.org/former-governors/search/"
       ]
+    },
+    {
+      "file": "data/normalized/hawaiian_home_lands_2023.json",
+      "format": "JSON",
+      "records": 74,
+      "size_bytes": 19111,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "ANSICODE",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "INTPTLAT",
+        "INTPTLONG",
+        "NAME"
+      ],
+      "source_urls_sample": []
     },
     {
       "file": "data/normalized/place_population_2020_2024.json",

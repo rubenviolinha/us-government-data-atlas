@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T17:46:02.742426+00:00",
+  "generated_at": "2026-09-25T18:03:24.989879+00:00",
   "algorithm": "sha256",
-  "dataset_count": 86,
+  "dataset_count": 87,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -313,6 +313,11 @@
       "file": "data/normalized/governors_nga.json",
       "sha256": "0c670dd2cf848d30b361a2f90386b2f76b850d44536225719a04aa1322950775",
       "size_bytes": 790066
+    },
+    {
+      "file": "data/normalized/hawaiian_home_lands_2023.json",
+      "sha256": "6fbe7f5e5a7fcb9f573f442025d7acfa30e16e3beebe5b3b3b6022c9b5670a13",
+      "size_bytes": 19111
     },
     {
       "file": "data/normalized/place_population_2020_2024.json",
