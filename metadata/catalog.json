@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T14:53:42.265961+00:00",
+  "generated_at": "2026-09-25T14:55:27.819839+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -715,6 +715,34 @@
       ],
       "source_urls_sample": [
         "https://www.fec.gov/files/bulk-downloads/2024/cn24.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_committee_master_2024.json",
+      "format": "JSON",
+      "records": 20938,
+      "size_bytes": 11943853,
+      "fields_sample": [
+        "candidate_id",
+        "city",
+        "committee_id",
+        "committee_name",
+        "committee_type",
+        "connected_organization_name",
+        "cycle",
+        "designation",
+        "filing_frequency",
+        "organization_type",
+        "party_affiliation",
+        "source",
+        "state",
+        "street_1",
+        "street_2",
+        "treasurer_name",
+        "zip_code"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/files/bulk-downloads/2024/cm24.zip"
       ]
     },
     {

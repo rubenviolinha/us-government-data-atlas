@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-25T14:55:26.151705+00:00",
+  "source": "https://www.fec.gov/files/bulk-downloads/2024/cm24.zip",
+  "format": "FEC committee master pipe-delimited text inside ZIP",
+  "records": 20938,
+  "file": "data/normalized/fec_committee_master_2024.json",
+  "note": "Official bulk file; no FEC API key used."
+}

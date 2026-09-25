@@ -62,6 +62,15 @@
     "notes": "Candidate IDs, names, party, election year, office, district, status, and principal committee linkage."
   },
   {
+    "id": "fec-committee-master-2024",
+    "name": "FEC 2024 Committee Master File",
+    "publisher": "Federal Election Commission",
+    "url": "https://www.fec.gov/files/bulk-downloads/2024/cm24.zip",
+    "format": "ZIP containing pipe-delimited text",
+    "license": "U.S. government public data; follow FEC data-use restrictions",
+    "notes": "Federal committee identities, types, designations, party affiliations, filing frequency, connected organizations, and candidate linkage."
+  },
+  {
     "id": "census-acs-profile-variable-metadata",
     "name": "ACS 2023 5-Year Profile Variable Metadata",
     "publisher": "U.S. Census Bureau",
