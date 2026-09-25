@@ -1,0 +1,19 @@
+{
+  "retrieved_at": "2026-09-25T10:48:20.192012+00:00",
+  "sources": [
+    "https://api.census.gov/data/2023/acs/acs5/profile/groups/DP02.json",
+    "https://api.census.gov/data/2023/acs/acs5/profile/groups/DP03.json",
+    "https://api.census.gov/data/2023/acs/acs5/profile/groups/DP04.json",
+    "https://api.census.gov/data/2023/acs/acs5/profile/groups/DP05.json"
+  ],
+  "raw_directory": "data/raw/acs-profile-groups",
+  "file": "data/normalized/acs_profile_variables_2023.json",
+  "groups": [
+    "DP02",
+    "DP03",
+    "DP04",
+    "DP05"
+  ],
+  "variables": 4232,
+  "note": "Variable metadata is keyless; ACS value queries may require an API key in this environment."
+}

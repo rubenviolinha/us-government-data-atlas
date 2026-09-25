@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-09-25T10:39:47.710677+00:00",
+  "generated_at": "2026-09-25T10:48:26.719246+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
+    {
+      "file": "data/normalized/acs_profile_variables_2023.json",
+      "format": "JSON",
+      "records": 4232,
+      "size_bytes": 1776023,
+      "fields_sample": [
+        "attributes",
+        "concept",
+        "group",
+        "label",
+        "limit",
+        "name",
+        "predicate_only",
+        "predicate_type",
+        "source"
+      ],
+      "source_urls_sample": [
+        "https://api.census.gov/data/2023/acs/acs5/profile/groups/DP02.json"
+      ]
+    },
     {
       "file": "data/normalized/capital_validation.json",
       "format": "JSON",

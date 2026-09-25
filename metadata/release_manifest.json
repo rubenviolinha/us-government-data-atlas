@@ -1,9 +1,14 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T10:46:00.092540+00:00",
+  "generated_at": "2026-09-25T10:48:26.865999+00:00",
   "algorithm": "sha256",
-  "dataset_count": 25,
+  "dataset_count": 26,
   "datasets": [
+    {
+      "file": "data/normalized/acs_profile_variables_2023.json",
+      "sha256": "206238ae6c8d2f1f794ad004d4467b7b6f9c98fe3f03a5a58adae0fd45f23530",
+      "size_bytes": 1776023
+    },
     {
       "file": "data/normalized/capital_validation.json",
       "sha256": "17cfaf2d01b2583e9694eb08a7ddb5e72d7ced3c7559a2155c361abbf6a0714b",
