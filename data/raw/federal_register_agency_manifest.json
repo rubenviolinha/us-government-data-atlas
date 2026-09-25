@@ -1,0 +1,7 @@
+{
+  "retrieved_at": "2026-09-25T10:22:29.926738+00:00",
+  "source": "https://www.federalregister.gov/api/v1/agencies.json",
+  "raw_file": "data/raw/federal-register-agencies.json",
+  "file": "data/normalized/federal_register_agencies.json",
+  "agencies": 473
+}
