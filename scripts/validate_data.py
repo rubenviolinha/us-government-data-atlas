@@ -389,6 +389,17 @@ def main():
         rows = load(filename)
         assert len(rows) == expected, (filename, len(rows), expected)
         assert len({row.get("GEOID") for row in rows}) == len(rows), filename
+    population_2025 = {
+        "state_population_2020_2025.json": 52,
+        "county_population_2020_2025.json": 3144,
+        "place_population_2020_2025.json": 19483,
+        "cbsa_population_2020_2025.json": 925,
+        "csa_population_2020_2025.json": 181,
+    }
+    for filename, expected in population_2025.items():
+        rows = load(filename)
+        assert len(rows) == expected, (filename, len(rows), expected)
+        assert all(row.get("source_vintage") == "2020-2025" and row.get("population_2025") for row in rows), filename
     assert_unique(counties_2024, "GEOID", "2024 county GEOIDs")
     assert_unique(zctas_2024, "GEOID", "2024 ZCTA GEOIDs")
     assert_unique(cbsa_2024, "GEOID", "2024 CBSA GEOIDs")

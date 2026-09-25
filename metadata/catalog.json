@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T20:58:18.778968+00:00",
+  "generated_at": "2026-09-25T21:03:36.760032+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2596,6 +2596,25 @@
       "source_urls_sample": []
     },
     {
+      "file": "data/normalized/cbsa_population_2020_2025.json",
+      "format": "JSON",
+      "records": 925,
+      "size_bytes": 314916,
+      "fields_sample": [
+        "area_type",
+        "cbsa",
+        "name",
+        "population_2020",
+        "population_2021",
+        "population_2022",
+        "population_2023",
+        "population_2024",
+        "population_2025",
+        "source_vintage"
+      ],
+      "source_urls_sample": []
+    },
+    {
       "file": "data/normalized/cbsa_vintage_relationships_2020_2023.json",
       "format": "JSON",
       "records": 1039,
@@ -2778,6 +2797,27 @@
       "source_urls_sample": []
     },
     {
+      "file": "data/normalized/county_population_2020_2025.json",
+      "format": "JSON",
+      "records": 3144,
+      "size_bytes": 1175708,
+      "fields_sample": [
+        "GEOID",
+        "county_fips",
+        "county_name",
+        "population_2020",
+        "population_2021",
+        "population_2022",
+        "population_2023",
+        "population_2024",
+        "population_2025",
+        "source_vintage",
+        "state_fips",
+        "state_name"
+      ],
+      "source_urls_sample": []
+    },
+    {
       "file": "data/normalized/county_subdivisions_2023.json",
       "format": "JSON",
       "records": 36434,
@@ -2815,6 +2855,25 @@
         "INTPTLONG",
         "NAME",
         "USPS"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/csa_population_2020_2025.json",
+      "format": "JSON",
+      "records": 181,
+      "size_bytes": 63654,
+      "fields_sample": [
+        "area_type",
+        "csa",
+        "name",
+        "population_2020",
+        "population_2021",
+        "population_2022",
+        "population_2023",
+        "population_2024",
+        "population_2025",
+        "source_vintage"
       ],
       "source_urls_sample": []
     },
@@ -4447,6 +4506,27 @@
       "source_urls_sample": []
     },
     {
+      "file": "data/normalized/place_population_2020_2025.json",
+      "format": "JSON",
+      "records": 19483,
+      "size_bytes": 7175136,
+      "fields_sample": [
+        "GEOID",
+        "place_fips",
+        "place_name",
+        "population_2020",
+        "population_2021",
+        "population_2022",
+        "population_2023",
+        "population_2024",
+        "population_2025",
+        "source_vintage",
+        "state_fips",
+        "state_name"
+      ],
+      "source_urls_sample": []
+    },
+    {
       "file": "data/normalized/place_vintage_relationships_2020_2010.json",
       "format": "JSON",
       "records": 38923,
@@ -5248,6 +5328,24 @@
         "population_2022",
         "population_2023",
         "population_2024",
+        "source_vintage",
+        "state_fips",
+        "state_name"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/state_population_2020_2025.json",
+      "format": "JSON",
+      "records": 52,
+      "size_bytes": 15715,
+      "fields_sample": [
+        "population_2020",
+        "population_2021",
+        "population_2022",
+        "population_2023",
+        "population_2024",
+        "population_2025",
         "source_vintage",
         "state_fips",
         "state_name"

@@ -720,6 +720,15 @@
     "notes": "Complete keyless 2025 national snapshots for congressional, state, county, place, tract, ZCTA, CBSA, school district, tribal, urban, county-subdivision, and state legislative geographies."
   },
   {
+    "id": "census-population-estimates-2025",
+    "name": "Census Population Estimates 2020-2025",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/",
+    "format": "CSV bulk estimates",
+    "license": "U.S. government public data",
+    "notes": "Keyless state, county, place, CBSA, and CSA annual population estimates through 2025."
+  },
+  {
     "id": "national-archives-presidents",
     "name": "U.S. Presidents in the Census Records",
     "publisher": "National Archives",

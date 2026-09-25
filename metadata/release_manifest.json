@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T20:58:19.494433+00:00",
+  "generated_at": "2026-09-25T21:03:37.771841+00:00",
   "algorithm": "sha256",
-  "dataset_count": 165,
+  "dataset_count": 170,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -300,6 +300,11 @@
       "size_bytes": 284861
     },
     {
+      "file": "data/normalized/cbsa_population_2020_2025.json",
+      "sha256": "817aa59ba7a2bd29ab2a176896e78854803b3cf71158ffdde07fd0d4a4a5a4a7",
+      "size_bytes": 314916
+    },
+    {
       "file": "data/normalized/cbsa_vintage_relationships_2020_2023.json",
       "sha256": "b92ce35957f9028f1e00788dad8c8bc23fb4a7ef2fdbae1301a6da2f64d1784a",
       "size_bytes": 615855
@@ -350,6 +355,11 @@
       "size_bytes": 1075206
     },
     {
+      "file": "data/normalized/county_population_2020_2025.json",
+      "sha256": "8044dd0b2e2b78e875d3bb6276eb56badd7d91cb5ddcfebec9b7dd85119c3214",
+      "size_bytes": 1175708
+    },
+    {
       "file": "data/normalized/county_subdivisions_2023.json",
       "sha256": "274bdca19124d643e04f13077adad8fda4a9bbdbeba582d0d3fd5808235d9adf",
       "size_bytes": 10845727
@@ -358,6 +368,11 @@
       "file": "data/normalized/county_subdivisions_2025.json",
       "sha256": "73de2706d88e92bd5ee964df56718a36ff7f0c1d2a5aaa4f3c45b01307050c96",
       "size_bytes": 12227581
+    },
+    {
+      "file": "data/normalized/csa_population_2020_2025.json",
+      "sha256": "1271aad365049ebe72ddb77f955ce9eed73786f4581448a95666cf4443451280",
+      "size_bytes": 63654
     },
     {
       "file": "data/normalized/current_cabinet_white_house.json",
@@ -590,6 +605,11 @@
       "size_bytes": 6576781
     },
     {
+      "file": "data/normalized/place_population_2020_2025.json",
+      "sha256": "b37523846755bc08673a2833b7dcdfb8fa47c94ff8e3bbb7229f1c765350c158",
+      "size_bytes": 7175136
+    },
+    {
       "file": "data/normalized/place_vintage_relationships_2020_2010.json",
       "sha256": "a8e8d879317bec76870ac87a2b1c5a970510b498194167e9521015f0d617c1cb",
       "size_bytes": 24151450
@@ -723,6 +743,11 @@
       "file": "data/normalized/state_population_2020_2024.json",
       "sha256": "3634a2cbd824bd9a9deaa270418040009cb2926eb87a6b06c5299f768979265f",
       "size_bytes": 13943
+    },
+    {
+      "file": "data/normalized/state_population_2020_2025.json",
+      "sha256": "d570541b978e11ec33bad9a6ef2f8c96bd6fca597889805f8f75e9a9584ecffe",
+      "size_bytes": 15715
     },
     {
       "file": "data/normalized/state_population_2024.json",

@@ -1,0 +1,31 @@
+{
+  "retrieved_at": "2026-09-25T21:03:22.204646+00:00",
+  "vintage": "2020-2025",
+  "files": [
+    {
+      "file": "data/normalized/state_population_2020_2025.json",
+      "source": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv",
+      "records": 52
+    },
+    {
+      "file": "data/normalized/county_population_2020_2025.json",
+      "source": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv",
+      "records": 3144
+    },
+    {
+      "file": "data/normalized/place_population_2020_2025.json",
+      "source": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/cities/totals/sub-est2025.csv",
+      "records": 19483
+    },
+    {
+      "file": "data/normalized/cbsa_population_2020_2025.json",
+      "source": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/metro/totals/cbsa-est2025-alldata.csv",
+      "records": 925
+    },
+    {
+      "file": "data/normalized/csa_population_2020_2025.json",
+      "source": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/metro/totals/csa-est2025-alldata.csv",
+      "records": 181
+    }
+  ]
+}
