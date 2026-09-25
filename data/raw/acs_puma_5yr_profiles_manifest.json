@@ -1,0 +1,36 @@
+{
+  "retrieved_at": "2026-09-25T20:38:59.093140+00:00",
+  "tables": {
+    "B01001": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b01001.dat",
+      "file": "data/normalized/acs_puma_age_sex_2023_5yr.json",
+      "records": 2486
+    },
+    "B15003": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b15003.dat",
+      "file": "data/normalized/acs_puma_education_2023_5yr.json",
+      "records": 2486
+    },
+    "B17001": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b17001.dat",
+      "file": "data/normalized/acs_puma_poverty_2023_5yr.json",
+      "records": 2486
+    },
+    "B19013": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b19013.dat",
+      "file": "data/normalized/acs_puma_income_2023_5yr.json",
+      "records": 2486
+    },
+    "B25001": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+      "file": "data/normalized/acs_puma_housing_2023_5yr.json",
+      "records": 2486
+    },
+    "B02001": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b02001.dat",
+      "file": "data/normalized/acs_puma_race_2023_5yr.json",
+      "records": 2486
+    }
+  },
+  "note": "Public table-based ACS 5-year summary files; compact PUMA fields; no API key used."
+}

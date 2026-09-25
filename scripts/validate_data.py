@@ -334,6 +334,19 @@ def main():
         assert len(puma_rows) >= 2400
         assert len({row.get("puma_geoid") for row in puma_rows}) == len(puma_rows)
         assert all(row.get("puma_geoid") and len(row["puma_geoid"]) == 7 and row.get("source") and row.get("vintage") == "2023 ACS 1-year" for row in puma_rows)
+
+    acs_puma_5yr = [load(name) for name in (
+        "acs_puma_age_sex_2023_5yr.json",
+        "acs_puma_education_2023_5yr.json",
+        "acs_puma_poverty_2023_5yr.json",
+        "acs_puma_income_2023_5yr.json",
+        "acs_puma_housing_2023_5yr.json",
+        "acs_puma_race_2023_5yr.json",
+    )]
+    for puma_rows in acs_puma_5yr:
+        assert len(puma_rows) >= 2400
+        assert len({row.get("puma_geoid") for row in puma_rows}) == len(puma_rows)
+        assert all(row.get("puma_geoid") and len(row["puma_geoid"]) == 7 and row.get("source") and row.get("vintage") == "2023 ACS 5-year" for row in puma_rows)
     assert len({row["GEO_ID"] for row in acs_state_age_sex}) == len(acs_state_age_sex)
     for label, rows in (("education", acs_state_education), ("poverty", acs_state_poverty), ("income", acs_state_income), ("housing", acs_state_housing), ("race", acs_state_race)):
         assert len(rows) >= 50, f"too few ACS {label} rows"
