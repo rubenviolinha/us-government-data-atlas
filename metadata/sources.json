@@ -8,6 +8,15 @@
     "notes": "Structured historical index with governor name, jurisdiction, party, years in office, and profile URL. The NGA is an association rather than a federal agency; treat this as a curated reference source and reconcile against state archives for authoritative completeness."
   },
   {
+    "id": "census-acs-state-age-sex-2023",
+    "name": "ACS 2023 5-Year Table B01001 State Estimates",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b01001.dat",
+    "format": "Pipe-delimited summary file",
+    "license": "U.S. government public data",
+    "notes": "State-level age-by-sex population estimates and margins of error extracted from the public table-based summary file without an API key."
+  },
+  {
     "id": "census-acs-profile-variable-metadata",
     "name": "ACS 2023 5-Year Profile Variable Metadata",
     "publisher": "U.S. Census Bureau",

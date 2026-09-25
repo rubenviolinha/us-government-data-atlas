@@ -65,6 +65,8 @@ The capital validator reconciles the initial capital list to Census places and e
 
 The ACS profile variable catalog is available at `data/normalized/acs_profile_variables_2023.json`; it includes labels and concepts for DP02, DP03, DP04, and DP05 even though value queries remain credential-gated in this environment.
 
+The keyless summary-file fallback `data/normalized/acs_state_age_sex_2023.json` contains state-level 2023 ACS 5-year B01001 age/sex estimates; the larger county/place demographic expansion remains a later step.
+
 ## Local API
 
 The checked-in releases can be queried locally without an API key:

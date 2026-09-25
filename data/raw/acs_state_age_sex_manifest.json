@@ -1,0 +1,9 @@
+{
+  "retrieved_at": "2026-09-25T10:50:02.227923+00:00",
+  "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b01001.dat",
+  "file": "data/normalized/acs_state_age_sex_2023.json",
+  "records": 52,
+  "table": "B01001",
+  "geography": "state-level 0400000US records",
+  "note": "Downloaded from the public table-based ACS summary file; this fallback does not use the ACS API key."
+}
