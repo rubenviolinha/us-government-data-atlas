@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T21:55:49.562691+00:00",
+  "generated_at": "2026-09-25T21:59:41.843466+00:00",
   "algorithm": "sha256",
-  "dataset_count": 229,
+  "dataset_count": 235,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -405,9 +405,19 @@
       "size_bytes": 28652250
     },
     {
+      "file": "data/normalized/acs_school_age_sex_2024_5yr.json",
+      "sha256": "8c7f0cf00453233850ac2ff88ee6af80a89b82927d7784d2e099477698c372a0",
+      "size_bytes": 4308566
+    },
+    {
       "file": "data/normalized/acs_school_education_2023.json",
       "sha256": "b6f5f23742da8a5146a76ed83973938b3c265e19097fa5c54b29045ec42c5578",
       "size_bytes": 16147777
+    },
+    {
+      "file": "data/normalized/acs_school_education_2024_5yr.json",
+      "sha256": "1bdd4c809bac856f04338e28df245a49f307b7213df83b0b8cd2efea6d5b0c64",
+      "size_bytes": 4462454
     },
     {
       "file": "data/normalized/acs_school_housing_2023.json",
@@ -415,9 +425,19 @@
       "size_bytes": 3989794
     },
     {
+      "file": "data/normalized/acs_school_housing_2024_5yr.json",
+      "sha256": "9cc3b8c699ea12c5d5fafabac7714a4b060a7ec3f720ee90d42ad0fcd55774f3",
+      "size_bytes": 3879769
+    },
+    {
       "file": "data/normalized/acs_school_income_2023.json",
       "sha256": "d5912aa0416c4aee7bada4f119694afa7eef0b2268d78f67c27d21a4087fbbc8",
       "size_bytes": 4018380
+    },
+    {
+      "file": "data/normalized/acs_school_income_2024_5yr.json",
+      "sha256": "e42d9c70ed307f5a5986b5359088c3d16572200d50c9917834b2142636d03377",
+      "size_bytes": 3908706
     },
     {
       "file": "data/normalized/acs_school_poverty_2023.json",
@@ -425,9 +445,19 @@
       "size_bytes": 33577235
     },
     {
+      "file": "data/normalized/acs_school_poverty_2024_5yr.json",
+      "sha256": "eab0d3c6c4b240b53d137462ad298b5c197b6766710894e47add7c516d1bae50",
+      "size_bytes": 4284233
+    },
+    {
       "file": "data/normalized/acs_school_race_2023.json",
       "sha256": "0b8fbfc0b6b0cd108526dfa352c9769d8559c1e2942afed1aa21c3f4c772454b",
       "size_bytes": 8624074
+    },
+    {
+      "file": "data/normalized/acs_school_race_2024_5yr.json",
+      "sha256": "def9633b78f33d361cfb46988866411688a9d009bab3767dbd485e568e7dbf41",
+      "size_bytes": 5234816
     },
     {
       "file": "data/normalized/acs_state_age_sex_2023.json",

@@ -89,6 +89,7 @@ def main():
     zcta_acs_2024 = load("zcta_profiles_acs_2024.json")
     zcta_population_acs_2024 = load("zcta_population_acs_2024.json")
     acs_cousub_2024 = {label: load(f"acs_cousub_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
+    acs_school_2024 = {label: load(f"acs_school_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     current_cabinet = load("current_cabinet_white_house.json")
     secretaries_of_state = load("secretaries_of_state.json")
     state_department_principals = load("state_department_principals.json")
@@ -457,6 +458,10 @@ def main():
         assert len(rows) >= 36000, f"ACS 2024 county subdivision {label} coverage too small"
         assert len({row["county_subdivision_geoid"] for row in rows}) == len(rows)
         assert all(row.get("GEO_ID", "").startswith("0600000US") and len(row.get("county_subdivision_geoid", "")) == 10 and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
+    for label, rows in acs_school_2024.items():
+        assert len(rows) >= 10000, f"ACS 2024 school district {label} coverage too small"
+        assert len({row["district_geoid"] for row in rows}) == len(rows)
+        assert all(row.get("GEO_ID", "").startswith("9700000US") and len(row.get("district_geoid", "")) == 7 and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
     assert_unique(counties_2024, "GEOID", "2024 county GEOIDs")
     assert_unique(zctas_2024, "GEOID", "2024 ZCTA GEOIDs")
     assert_unique(cbsa_2024, "GEOID", "2024 CBSA GEOIDs")
