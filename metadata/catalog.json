@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:02:49.593605+00:00",
+  "generated_at": "2026-09-25T17:06:47.347295+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -1881,6 +1881,26 @@
       ],
       "source_urls_sample": [
         "https://www.fec.gov/documents/5676/federalelections2022.xlsx"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_presidential_general_1984.json",
+      "format": "JSON",
+      "records": 304,
+      "size_bytes": 104825,
+      "fields_sample": [
+        "candidate_label",
+        "election_year",
+        "fec_id",
+        "id_type",
+        "source",
+        "source_page_range",
+        "state",
+        "vote_share",
+        "votes"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/documents/1548/federalelections84.pdf"
       ]
     },
     {
