@@ -621,6 +621,15 @@
     "notes": "Explicit parent-child edges derived from the Federal Register agency registry, preserving agency IDs, names, slugs, and source URLs."
   },
   {
+    "id": "census-zbp-2022-totals",
+    "name": "ZIP Code Business Patterns 2022 Totals",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2022/zbp22totals.zip",
+    "format": "ZIP archive containing CSV text",
+    "license": "U.S. government public data",
+    "notes": "Keyless ZIP-level totals for establishments, employment, first-quarter payroll, and annual payroll; suppression flags are retained."
+  },
+  {
     "id": "national-archives-presidents",
     "name": "U.S. Presidents in the Census Records",
     "publisher": "National Archives",

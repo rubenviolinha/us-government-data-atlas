@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T19:44:25.764329+00:00",
+  "generated_at": "2026-09-25T19:47:55.735540+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -4747,6 +4747,32 @@
       ],
       "source_urls_sample": [
         "https://guides.loc.gov/vice-presidents-portraits/alphabetical"
+      ]
+    },
+    {
+      "file": "data/normalized/zbp_totals_2022.json",
+      "format": "JSON",
+      "records": 35002,
+      "size_bytes": 20176767,
+      "fields_sample": [
+        "annual_payroll_suppression",
+        "annual_payroll_thousands",
+        "city",
+        "county_name",
+        "employment",
+        "employment_suppression",
+        "establishments",
+        "first_quarter_payroll_suppression",
+        "first_quarter_payroll_thousands",
+        "name",
+        "retrieved_at",
+        "source",
+        "state_abbr",
+        "vintage",
+        "zip_code"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/cbp/datasets/2022/zbp22totals.zip"
       ]
     },
     {

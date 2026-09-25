@@ -38,6 +38,7 @@ def main():
     places = load("places_2020.json")
     places_2023 = load("places_2023.json")
     zctas = load("zctas_2020.json")
+    zbp_totals = load("zbp_totals_2022.json")
     zctas_2023 = load("zctas_2023.json")
     hawaiian_home_lands = load("hawaiian_home_lands_2023.json")
     electoral_college = load("electoral_college_results_1789_2024.json")
@@ -192,6 +193,9 @@ def main():
     assert_unique(places_2023, "GEOID", "2023 place GEOIDs")
     assert all(row.get("USPS") and row.get("NAME") and row.get("INTPTLAT") and row.get("INTPTLONG") for row in places_2023)
     assert_unique(zctas, "GEOID", "ZCTA GEOIDs")
+    assert len(zbp_totals) >= 30000
+    assert len({row.get("zip_code") for row in zbp_totals}) == len(zbp_totals)
+    assert all(len(row.get("zip_code", "")) == 5 and row.get("source") and row.get("vintage") == "2022 ZBP totals" for row in zbp_totals)
     assert len(zctas_2023) >= 33000
     assert_unique(zctas_2023, "GEOID", "2023 ZCTA GEOIDs")
     assert all(len(row.get("GEOID", "")) == 5 and row.get("INTPTLAT") and row.get("INTPTLONG") for row in zctas_2023)

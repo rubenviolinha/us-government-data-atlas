@@ -12,7 +12,7 @@ An open, versioned catalog of U.S. government, geographic, demographic, and hist
 
 Every dataset should preserve its source URL, retrieval timestamp, source vintage, license, and transformation notes.
 
-The current release contains 124 cataloged datasets, including 57 Census reference jurisdictions, 3,222 counties, 2020 and 2023 ZCTA geography, 85,396 tracts, complete six-table ACS demographic profiles for 36,434 county subdivisions, 32,329 places, 13,333 school districts, complete six-table demographic profiles for 10,904 unified school districts, current and historical governor rosters, the current White House Cabinet roster, historical and current senator/representative views, historical and current state legislative chamber views, historical and current Supreme Court justice views, historical and current Article III federal judge views, explicit Federal Register agency hierarchy relationships, 6,844 state legislative districts, dated congressional districts, tribal areas, urban areas, CBSAs, PUMAs, district and place-level ACS demographic profiles, NOAA statewide climate history, and ZIP/PUMA/place/CBSA relationship and vintage-crosswalk tables.
+The current release contains 125 cataloged datasets, including 57 Census reference jurisdictions, 3,222 counties, 2020 and 2023 ZCTA geography, 85,396 tracts, 35,002 ZIP Code Business Patterns totals, complete six-table ACS demographic profiles for 36,434 county subdivisions, 32,329 places, 13,333 school districts, complete six-table demographic profiles for 10,904 unified school districts, current and historical governor rosters, the current White House Cabinet roster, historical and current senator/representative views, historical and current state legislative chamber views, historical and current Supreme Court justice views, historical and current Article III federal judge views, explicit Federal Register agency hierarchy relationships, 6,844 state legislative districts, dated congressional districts, tribal areas, urban areas, CBSAs, PUMAs, district and place-level ACS demographic profiles, NOAA statewide climate history, and ZIP/PUMA/place/CBSA relationship and vintage-crosswalk tables.
 
 ## Repository layout
 
@@ -34,6 +34,7 @@ python3 scripts/fetch_governors.py
 python3 scripts/fetch_presidents.py
 python3 scripts/fetch_federal_register_agencies.py
 python3 scripts/build_federal_agency_relationships.py
+python3 scripts/fetch_zbp_totals.py
 python3 scripts/fetch_executive_orders.py
 python3 scripts/fetch_proclamations.py
 python3 scripts/fetch_presidential_documents.py

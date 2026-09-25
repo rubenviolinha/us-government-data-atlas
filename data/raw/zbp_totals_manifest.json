@@ -1,0 +1,7 @@
+{
+  "retrieved_at": "2026-09-25T19:47:24.597054+00:00",
+  "source": "https://www2.census.gov/programs-surveys/cbp/datasets/2022/zbp22totals.zip",
+  "raw_file": "data/raw/zbp22totals.zip",
+  "file": "data/normalized/zbp_totals_2022.json",
+  "records": 35002
+}
