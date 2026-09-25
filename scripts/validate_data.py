@@ -28,6 +28,7 @@ def main():
     counties = load("counties_2023.json")
     places = load("places_2020.json")
     zctas = load("zctas_2020.json")
+    zcta_population = load("zcta_population_acs_2023.json")
     relationships = load("zcta_county_relationships_2020.json")
     districts = load("congressional_districts_2020.json")
     current_districts = load("congressional_districts_2025.json")
@@ -96,6 +97,8 @@ def main():
     assert_unique(counties, "GEOID", "county GEOIDs")
     assert_unique(places, "GEOID", "place GEOIDs")
     assert_unique(zctas, "GEOID", "ZCTA GEOIDs")
+    assert len(zcta_population) >= 30000
+    assert_unique(zcta_population, "zcta", "ACS ZCTA population codes")
     assert_unique(districts, "GEOID", "district GEOIDs")
     assert_unique(current_districts, "GEOID", "current district GEOIDs")
     assert_unique(county_population, "GEOID", "county population GEOIDs")

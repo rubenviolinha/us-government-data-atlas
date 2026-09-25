@@ -8,6 +8,15 @@
     "notes": "Structured historical index with governor name, jurisdiction, party, years in office, and profile URL. The NGA is an association rather than a federal agency; treat this as a curated reference source and reconcile against state archives for authoritative completeness."
   },
   {
+    "id": "census-acs-zcta-population-2023",
+    "name": "ACS 2023 5-Year ZCTA Population",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b01001.dat",
+    "format": "Pipe-delimited summary file extract",
+    "license": "U.S. government public data",
+    "notes": "Compact extraction of total population and margin of error for 33,772 ZIP Code Tabulation Areas; the source bulk file is streamed and not copied wholesale."
+  },
+  {
     "id": "census-state-population-estimates-2020-2024",
     "name": "Census State Population Estimates 2020-2024",
     "publisher": "U.S. Census Bureau",
