@@ -916,5 +916,14 @@
     "format": "JSON",
     "license": "Derived from U.S. government public data",
     "notes": "One row per federal court represented in the Federal Judicial Center historical/current judge releases."
+  },
+  {
+    "id": "state-summary-derived",
+    "name": "State and Territory Summary (derived)",
+    "publisher": "US Government Data Atlas",
+    "url": "https://github.com/rubenviolinha/us-government-data-atlas",
+    "format": "JSON",
+    "license": "Derived from U.S. government public data",
+    "notes": "Joins validated state, capital, population, NGA governor, congressional office, county, place, and ZCTA releases."
   }
 ]

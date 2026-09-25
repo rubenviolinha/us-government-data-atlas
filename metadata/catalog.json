@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T21:27:04.712497+00:00",
+  "generated_at": "2026-09-25T21:30:28.667279+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -6477,6 +6477,31 @@
         "SUMLEV"
       ],
       "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/state_summary.json",
+      "format": "JSON",
+      "records": 57,
+      "size_bytes": 29915,
+      "fields_sample": [
+        "abbr",
+        "capital",
+        "county_count",
+        "governor",
+        "governor_profile_url",
+        "place_count",
+        "population_2025",
+        "population_source",
+        "representative_count",
+        "senators",
+        "source",
+        "state_fips",
+        "state_name",
+        "zcta_count"
+      ],
+      "source_urls_sample": [
+        "https://github.com/rubenviolinha/us-government-data-atlas"
+      ]
     },
     {
       "file": "data/normalized/states.json",

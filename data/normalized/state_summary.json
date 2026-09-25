@@ -1,0 +1,1064 @@
+[
+  {
+    "state_fips": "01",
+    "abbr": "AL",
+    "state_name": "Alabama",
+    "capital": "Montgomery",
+    "population_2025": "5193088",
+    "population_source": "2020-2025",
+    "governor": "Kay Ivey",
+    "governor_profile_url": "https://www.nga.org/governors/alabama/",
+    "senators": [
+      "Katie Boyd Britt",
+      "Tommy Tuberville"
+    ],
+    "representative_count": 7,
+    "county_count": 67,
+    "place_count": 594,
+    "zcta_count": 305,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "02",
+    "abbr": "AK",
+    "state_name": "Alaska",
+    "capital": "Juneau",
+    "population_2025": "737270",
+    "population_source": "2020-2025",
+    "governor": "Mike Dunleavy",
+    "governor_profile_url": "https://www.nga.org/governors/alaska/",
+    "senators": [
+      "Dan Sullivan",
+      "Lisa Murkowski"
+    ],
+    "representative_count": 1,
+    "county_count": 30,
+    "place_count": 355,
+    "zcta_count": 315,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "04",
+    "abbr": "AZ",
+    "state_name": "Arizona",
+    "capital": "Phoenix",
+    "population_2025": "7623818",
+    "population_source": "2020-2025",
+    "governor": "Katie Hobbs",
+    "governor_profile_url": "https://www.nga.org/governors/arizona/",
+    "senators": [
+      "Mark Kelly",
+      "Ruben Gallego"
+    ],
+    "representative_count": 9,
+    "county_count": 15,
+    "place_count": 467,
+    "zcta_count": 415,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "05",
+    "abbr": "AR",
+    "state_name": "Arkansas",
+    "capital": "Little Rock",
+    "population_2025": "3114791",
+    "population_source": "2020-2025",
+    "governor": "Sarah Huckabee Sanders",
+    "governor_profile_url": "https://www.nga.org/governors/arkansas/",
+    "senators": [
+      "John Boozman",
+      "Tom Cotton"
+    ],
+    "representative_count": 4,
+    "county_count": 75,
+    "place_count": 626,
+    "zcta_count": 265,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "06",
+    "abbr": "CA",
+    "state_name": "California",
+    "capital": "Sacramento",
+    "population_2025": "39355309",
+    "population_source": "2020-2025",
+    "governor": "Gavin Newsom",
+    "governor_profile_url": "https://www.nga.org/governors/california/",
+    "senators": [
+      "Adam B. Schiff",
+      "Alex Padilla"
+    ],
+    "representative_count": 52,
+    "county_count": 58,
+    "place_count": 1619,
+    "zcta_count": 289,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "08",
+    "abbr": "CO",
+    "state_name": "Colorado",
+    "capital": "Denver",
+    "population_2025": "6012561",
+    "population_source": "2020-2025",
+    "governor": "Jared Polis",
+    "governor_profile_url": "https://www.nga.org/governors/colorado/",
+    "senators": [
+      "John W. Hickenlooper",
+      "Michael F. Bennet"
+    ],
+    "representative_count": 8,
+    "county_count": 64,
+    "place_count": 482,
+    "zcta_count": 290,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "09",
+    "abbr": "CT",
+    "state_name": "Connecticut",
+    "capital": "Hartford",
+    "population_2025": "3688496",
+    "population_source": "2020-2025",
+    "governor": "Ned Lamont",
+    "governor_profile_url": "https://www.nga.org/governors/connecticut/",
+    "senators": [
+      "Christopher Murphy",
+      "Richard Blumenthal"
+    ],
+    "representative_count": 5,
+    "county_count": 9,
+    "place_count": 215,
+    "zcta_count": 0,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "10",
+    "abbr": "DE",
+    "state_name": "Delaware",
+    "capital": "Dover",
+    "population_2025": "1059952",
+    "population_source": "2020-2025",
+    "governor": "Matt Meyer",
+    "governor_profile_url": "https://www.nga.org/governors/delaware/",
+    "senators": [
+      "Christopher A. Coons",
+      "Lisa Blunt Rochester"
+    ],
+    "representative_count": 1,
+    "county_count": 3,
+    "place_count": 79,
+    "zcta_count": 248,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "11",
+    "abbr": "DC",
+    "state_name": "District of Columbia",
+    "capital": "Washington",
+    "population_2025": "693645",
+    "population_source": "2020-2025",
+    "governor": null,
+    "governor_profile_url": null,
+    "senators": [],
+    "representative_count": 1,
+    "county_count": 1,
+    "place_count": 1,
+    "zcta_count": 280,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "12",
+    "abbr": "FL",
+    "state_name": "Florida",
+    "capital": "Tallahassee",
+    "population_2025": "23462518",
+    "population_source": "2020-2025",
+    "governor": "Ron DeSantis",
+    "governor_profile_url": "https://www.nga.org/governors/florida/",
+    "senators": [
+      "Ashley Moody",
+      "Rick Scott"
+    ],
+    "representative_count": 27,
+    "county_count": 67,
+    "place_count": 958,
+    "zcta_count": 498,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "13",
+    "abbr": "GA",
+    "state_name": "Georgia",
+    "capital": "Atlanta",
+    "population_2025": "11302748",
+    "population_source": "2020-2025",
+    "governor": "Brian Kemp",
+    "governor_profile_url": "https://www.nga.org/governors/georgia/",
+    "senators": [
+      "Jon Ossoff",
+      "Raphael G. Warnock"
+    ],
+    "representative_count": 14,
+    "county_count": 159,
+    "place_count": 676,
+    "zcta_count": 403,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "15",
+    "abbr": "HI",
+    "state_name": "Hawaii",
+    "capital": "Honolulu",
+    "population_2025": "1432820",
+    "population_source": "2020-2025",
+    "governor": "Josh Green",
+    "governor_profile_url": "https://www.nga.org/governors/hawaii/",
+    "senators": [
+      "Brian Schatz",
+      "Mazie K. Hirono"
+    ],
+    "representative_count": 2,
+    "county_count": 5,
+    "place_count": 163,
+    "zcta_count": 512,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "16",
+    "abbr": "ID",
+    "state_name": "Idaho",
+    "capital": "Boise",
+    "population_2025": "2029733",
+    "population_source": "2020-2025",
+    "governor": "Brad Little",
+    "governor_profile_url": "https://www.nga.org/governors/idaho/",
+    "senators": [
+      "James E. Risch",
+      "Mike Crapo"
+    ],
+    "representative_count": 2,
+    "county_count": 44,
+    "place_count": 236,
+    "zcta_count": 382,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "17",
+    "abbr": "IL",
+    "state_name": "Illinois",
+    "capital": "Springfield",
+    "population_2025": "12719141",
+    "population_source": "2020-2025",
+    "governor": "JB Pritzker",
+    "governor_profile_url": "https://www.nga.org/governors/illinois/",
+    "senators": [
+      "Richard J. Durbin",
+      "Tammy Duckworth"
+    ],
+    "representative_count": 17,
+    "county_count": 102,
+    "place_count": 1461,
+    "zcta_count": 390,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "18",
+    "abbr": "IN",
+    "state_name": "Indiana",
+    "capital": "Indianapolis",
+    "population_2025": "6973333",
+    "population_source": "2020-2025",
+    "governor": "Mike Braun",
+    "governor_profile_url": "https://www.nga.org/governors/indiana/",
+    "senators": [
+      "Jim Banks",
+      "Todd Young"
+    ],
+    "representative_count": 9,
+    "county_count": 92,
+    "place_count": 974,
+    "zcta_count": 313,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "19",
+    "abbr": "IA",
+    "state_name": "Iowa",
+    "capital": "Des Moines",
+    "population_2025": "3238387",
+    "population_source": "2020-2025",
+    "governor": "Kim Reynolds",
+    "governor_profile_url": "https://www.nga.org/governors/iowa/",
+    "senators": [
+      "Chuck Grassley",
+      "Joni Ernst"
+    ],
+    "representative_count": 4,
+    "county_count": 99,
+    "place_count": 1026,
+    "zcta_count": 304,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "20",
+    "abbr": "KS",
+    "state_name": "Kansas",
+    "capital": "Topeka",
+    "population_2025": "2977220",
+    "population_source": "2020-2025",
+    "governor": "Laura Kelly",
+    "governor_profile_url": "https://www.nga.org/governors/kansas/",
+    "senators": [
+      "Jerry Moran",
+      "Roger Marshall"
+    ],
+    "representative_count": 4,
+    "county_count": 105,
+    "place_count": 740,
+    "zcta_count": 264,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "21",
+    "abbr": "KY",
+    "state_name": "Kentucky",
+    "capital": "Frankfort",
+    "population_2025": "4606864",
+    "population_source": "2020-2025",
+    "governor": "Andy Beshear",
+    "governor_profile_url": "https://www.nga.org/governors/kentucky/",
+    "senators": [
+      "Mitch McConnell",
+      "Rand Paul"
+    ],
+    "representative_count": 6,
+    "county_count": 120,
+    "place_count": 555,
+    "zcta_count": 315,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "22",
+    "abbr": "LA",
+    "state_name": "Louisiana",
+    "capital": "Baton Rouge",
+    "population_2025": "4618189",
+    "population_source": "2020-2025",
+    "governor": "Jeff Landry",
+    "governor_profile_url": "https://www.nga.org/governors/louisiana/",
+    "senators": [
+      "Bill Cassidy",
+      "John Kennedy"
+    ],
+    "representative_count": 6,
+    "county_count": 64,
+    "place_count": 484,
+    "zcta_count": 241,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "23",
+    "abbr": "ME",
+    "state_name": "Maine",
+    "capital": "Augusta",
+    "population_2025": "1414874",
+    "population_source": "2020-2025",
+    "governor": "Janet Mills",
+    "governor_profile_url": "https://www.nga.org/governors/maine/",
+    "senators": [
+      "Angus S. King, Jr.",
+      "Susan M. Collins"
+    ],
+    "representative_count": 2,
+    "county_count": 16,
+    "place_count": 155,
+    "zcta_count": 326,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "24",
+    "abbr": "MD",
+    "state_name": "Maryland",
+    "capital": "Annapolis",
+    "population_2025": "6265347",
+    "population_source": "2020-2025",
+    "governor": "Wes Moore",
+    "governor_profile_url": "https://www.nga.org/governors/maryland/",
+    "senators": [
+      "Angela D. Alsobrooks",
+      "Chris Van Hollen"
+    ],
+    "representative_count": 8,
+    "county_count": 24,
+    "place_count": 536,
+    "zcta_count": 398,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "25",
+    "abbr": "MA",
+    "state_name": "Massachusetts",
+    "capital": "Boston",
+    "population_2025": "7154084",
+    "population_source": "2020-2025",
+    "governor": "Maura Healey",
+    "governor_profile_url": "https://www.nga.org/governors/massachusetts/",
+    "senators": [
+      "Edward J. Markey",
+      "Elizabeth Warren"
+    ],
+    "representative_count": 9,
+    "county_count": 14,
+    "place_count": 248,
+    "zcta_count": 350,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "26",
+    "abbr": "MI",
+    "state_name": "Michigan",
+    "capital": "Lansing",
+    "population_2025": "10127884",
+    "population_source": "2020-2025",
+    "governor": "Gretchen Whitmer",
+    "governor_profile_url": "https://www.nga.org/governors/michigan/",
+    "senators": [
+      "Elissa Slotkin",
+      "Gary C. Peters"
+    ],
+    "representative_count": 13,
+    "county_count": 83,
+    "place_count": 745,
+    "zcta_count": 281,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "27",
+    "abbr": "MN",
+    "state_name": "Minnesota",
+    "capital": "Saint Paul",
+    "population_2025": "5830405",
+    "population_source": "2020-2025",
+    "governor": "Tim Walz",
+    "governor_profile_url": "https://www.nga.org/governors/minnesota/",
+    "senators": [
+      "Amy Klobuchar",
+      "Tina Smith"
+    ],
+    "representative_count": 8,
+    "county_count": 87,
+    "place_count": 916,
+    "zcta_count": 373,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "28",
+    "abbr": "MS",
+    "state_name": "Mississippi",
+    "capital": "Jackson",
+    "population_2025": "2954160",
+    "population_source": "2020-2025",
+    "governor": "Tate Reeves",
+    "governor_profile_url": "https://www.nga.org/governors/mississippi/",
+    "senators": [
+      "Cindy Hyde-Smith",
+      "Roger F. Wicker"
+    ],
+    "representative_count": 4,
+    "county_count": 82,
+    "place_count": 427,
+    "zcta_count": 480,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "29",
+    "abbr": "MO",
+    "state_name": "Missouri",
+    "capital": "Jefferson City",
+    "population_2025": "6270541",
+    "population_source": "2020-2025",
+    "governor": "Mike Kehoe",
+    "governor_profile_url": "https://www.nga.org/governors/missouri/",
+    "senators": [
+      "Eric Schmitt",
+      "Josh Hawley"
+    ],
+    "representative_count": 8,
+    "county_count": 115,
+    "place_count": 1081,
+    "zcta_count": 424,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "30",
+    "abbr": "MT",
+    "state_name": "Montana",
+    "capital": "Helena",
+    "population_2025": "1144694",
+    "population_source": "2020-2025",
+    "governor": "Greg Gianforte",
+    "governor_profile_url": "https://www.nga.org/governors/montana/",
+    "senators": [
+      "Steve Daines",
+      "Tim Sheehy"
+    ],
+    "representative_count": 2,
+    "county_count": 56,
+    "place_count": 497,
+    "zcta_count": 426,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "31",
+    "abbr": "NE",
+    "state_name": "Nebraska",
+    "capital": "Lincoln",
+    "population_2025": "2018006",
+    "population_source": "2020-2025",
+    "governor": "Jim Pillen",
+    "governor_profile_url": "https://www.nga.org/governors/nebraska/",
+    "senators": [
+      "Deb Fischer",
+      "Pete Ricketts"
+    ],
+    "representative_count": 3,
+    "county_count": 93,
+    "place_count": 593,
+    "zcta_count": 294,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "32",
+    "abbr": "NV",
+    "state_name": "Nevada",
+    "capital": "Carson City",
+    "population_2025": "3282188",
+    "population_source": "2020-2025",
+    "governor": "Joe Lombardo",
+    "governor_profile_url": "https://www.nga.org/governors/nevada/",
+    "senators": [
+      "Catherine Cortez Masto",
+      "Jacky Rosen"
+    ],
+    "representative_count": 4,
+    "county_count": 17,
+    "place_count": 138,
+    "zcta_count": 410,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "33",
+    "abbr": "NH",
+    "state_name": "New Hampshire",
+    "capital": "Concord",
+    "population_2025": "1415342",
+    "population_source": "2020-2025",
+    "governor": "Kelly Ayotte",
+    "governor_profile_url": "https://www.nga.org/governors/new-hampshire/",
+    "senators": [
+      "Jeanne Shaheen",
+      "Margaret Wood Hassan"
+    ],
+    "representative_count": 2,
+    "county_count": 10,
+    "place_count": 100,
+    "zcta_count": 410,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "34",
+    "abbr": "NJ",
+    "state_name": "New Jersey",
+    "capital": "Trenton",
+    "population_2025": "9548215",
+    "population_source": "2020-2025",
+    "governor": "Mikie Sherrill",
+    "governor_profile_url": "https://www.nga.org/governors/new-jersey/",
+    "senators": [
+      "Andy Kim",
+      "Cory A. Booker"
+    ],
+    "representative_count": 12,
+    "county_count": 21,
+    "place_count": 700,
+    "zcta_count": 193,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "35",
+    "abbr": "NM",
+    "state_name": "New Mexico",
+    "capital": "Santa Fe",
+    "population_2025": "2125498",
+    "population_source": "2020-2025",
+    "governor": "Michelle Lujan Grisham",
+    "governor_profile_url": "https://www.nga.org/governors/new-mexico/",
+    "senators": [
+      "Ben Ray Luj\u00e1n",
+      "Martin Heinrich"
+    ],
+    "representative_count": 3,
+    "county_count": 33,
+    "place_count": 528,
+    "zcta_count": 324,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "36",
+    "abbr": "NY",
+    "state_name": "New York",
+    "capital": "Albany",
+    "population_2025": "20002427",
+    "population_source": "2020-2025",
+    "governor": "Kathy Hochul",
+    "governor_profile_url": "https://www.nga.org/governors/new-york/",
+    "senators": [
+      "Charles E. Schumer",
+      "Kirsten E. Gillibrand"
+    ],
+    "representative_count": 26,
+    "county_count": 62,
+    "place_count": 1293,
+    "zcta_count": 332,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "37",
+    "abbr": "NC",
+    "state_name": "North Carolina",
+    "capital": "Raleigh",
+    "population_2025": "11197968",
+    "population_source": "2020-2025",
+    "governor": "Josh Stein",
+    "governor_profile_url": "https://www.nga.org/governors/north-carolina/",
+    "senators": [
+      "Ted Budd",
+      "Thom Tillis"
+    ],
+    "representative_count": 14,
+    "county_count": 100,
+    "place_count": 776,
+    "zcta_count": 385,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "38",
+    "abbr": "ND",
+    "state_name": "North Dakota",
+    "capital": "Bismarck",
+    "population_2025": "799358",
+    "population_source": "2020-2025",
+    "governor": "Kelly Armstrong",
+    "governor_profile_url": "https://www.nga.org/governors/north-dakota/",
+    "senators": [
+      "John Hoeven",
+      "Kevin Cramer"
+    ],
+    "representative_count": 1,
+    "county_count": 53,
+    "place_count": 406,
+    "zcta_count": 422,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "39",
+    "abbr": "OH",
+    "state_name": "Ohio",
+    "capital": "Columbus",
+    "population_2025": "11900510",
+    "population_source": "2020-2025",
+    "governor": "Mike DeWine",
+    "governor_profile_url": "https://www.nga.org/governors/ohio/",
+    "senators": [
+      "Bernie Moreno",
+      "Jon Husted"
+    ],
+    "representative_count": 15,
+    "county_count": 88,
+    "place_count": 1265,
+    "zcta_count": 287,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "40",
+    "abbr": "OK",
+    "state_name": "Oklahoma",
+    "capital": "Oklahoma City",
+    "population_2025": "4123288",
+    "population_source": "2020-2025",
+    "governor": "Kevin Stitt",
+    "governor_profile_url": "https://www.nga.org/governors/oklahoma/",
+    "senators": [
+      "Alan Armstrong",
+      "James Lankford"
+    ],
+    "representative_count": 5,
+    "county_count": 77,
+    "place_count": 846,
+    "zcta_count": 274,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "41",
+    "abbr": "OR",
+    "state_name": "Oregon",
+    "capital": "Salem",
+    "population_2025": "4273586",
+    "population_source": "2020-2025",
+    "governor": "Tina Kotek",
+    "governor_profile_url": "https://www.nga.org/governors/oregon/",
+    "senators": [
+      "Jeff Merkley",
+      "Ron Wyden"
+    ],
+    "representative_count": 6,
+    "county_count": 36,
+    "place_count": 426,
+    "zcta_count": 272,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "42",
+    "abbr": "PA",
+    "state_name": "Pennsylvania",
+    "capital": "Harrisburg",
+    "population_2025": "13059432",
+    "population_source": "2020-2025",
+    "governor": "Josh Shapiro",
+    "governor_profile_url": "https://www.nga.org/governors/pennsylvania/",
+    "senators": [
+      "David McCormick",
+      "John Fetterman"
+    ],
+    "representative_count": 17,
+    "county_count": 67,
+    "place_count": 2003,
+    "zcta_count": 234,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "44",
+    "abbr": "RI",
+    "state_name": "Rhode Island",
+    "capital": "Providence",
+    "population_2025": "1114521",
+    "population_source": "2020-2025",
+    "governor": "Dan McKee",
+    "governor_profile_url": "https://www.nga.org/governors/rhode-island/",
+    "senators": [
+      "Jack Reed",
+      "Sheldon Whitehouse"
+    ],
+    "representative_count": 2,
+    "county_count": 5,
+    "place_count": 36,
+    "zcta_count": 381,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "45",
+    "abbr": "SC",
+    "state_name": "South Carolina",
+    "capital": "Columbia",
+    "population_2025": "5570274",
+    "population_source": "2020-2025",
+    "governor": "-2025a-full-size_square-scaled.jpg\" alt=\"Henry McMaster\" />",
+    "governor_profile_url": "https://www.nga.org/governors/south-carolina/",
+    "senators": [
+      "Darline Graham",
+      "Tim Scott"
+    ],
+    "representative_count": 7,
+    "county_count": 46,
+    "place_count": 475,
+    "zcta_count": 433,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "46",
+    "abbr": "SD",
+    "state_name": "South Dakota",
+    "capital": "Pierre",
+    "population_2025": "935094",
+    "population_source": "2020-2025",
+    "governor": "Larry Rhoden",
+    "governor_profile_url": "https://www.nga.org/governors/south-dakota/",
+    "senators": [
+      "John Thune",
+      "Mike Rounds"
+    ],
+    "representative_count": 1,
+    "county_count": 66,
+    "place_count": 485,
+    "zcta_count": 397,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "47",
+    "abbr": "TN",
+    "state_name": "Tennessee",
+    "capital": "Nashville",
+    "population_2025": "7315076",
+    "population_source": "2020-2025",
+    "governor": "Bill Lee",
+    "governor_profile_url": "https://www.nga.org/governors/tennessee/",
+    "senators": [
+      "Bill Hagerty",
+      "Marsha Blackburn"
+    ],
+    "representative_count": 9,
+    "county_count": 95,
+    "place_count": 504,
+    "zcta_count": 410,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "48",
+    "abbr": "TX",
+    "state_name": "Texas",
+    "capital": "Austin",
+    "population_2025": "31709821",
+    "population_source": "2020-2025",
+    "governor": "Greg Abbott",
+    "governor_profile_url": "https://www.nga.org/governors/texas/",
+    "senators": [
+      "John Cornyn",
+      "Ted Cruz"
+    ],
+    "representative_count": 37,
+    "county_count": 254,
+    "place_count": 1863,
+    "zcta_count": 485,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "49",
+    "abbr": "UT",
+    "state_name": "Utah",
+    "capital": "Salt Lake City",
+    "population_2025": "3538904",
+    "population_source": "2020-2025",
+    "governor": "Spencer Cox",
+    "governor_profile_url": "https://www.nga.org/governors/utah/",
+    "senators": [
+      "John R. Curtis",
+      "Mike Lee"
+    ],
+    "representative_count": 4,
+    "county_count": 29,
+    "place_count": 334,
+    "zcta_count": 507,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "50",
+    "abbr": "VT",
+    "state_name": "Vermont",
+    "capital": "Montpelier",
+    "population_2025": "644663",
+    "population_source": "2020-2025",
+    "governor": "Phil Scott",
+    "governor_profile_url": "https://www.nga.org/governors/vermont/",
+    "senators": [
+      "Bernard Sanders",
+      "Peter Welch"
+    ],
+    "representative_count": 1,
+    "county_count": 14,
+    "place_count": 180,
+    "zcta_count": 442,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "51",
+    "abbr": "VA",
+    "state_name": "Virginia",
+    "capital": "Richmond",
+    "population_2025": "8880107",
+    "population_source": "2020-2025",
+    "governor": "Abigail Spanberger",
+    "governor_profile_url": "https://www.nga.org/governors/virginia/",
+    "senators": [
+      "Mark R. Warner",
+      "Tim Kaine"
+    ],
+    "representative_count": 11,
+    "county_count": 133,
+    "place_count": 700,
+    "zcta_count": 212,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "53",
+    "abbr": "WA",
+    "state_name": "Washington",
+    "capital": "Olympia",
+    "population_2025": "8001020",
+    "population_source": "2020-2025",
+    "governor": "Bob Ferguson",
+    "governor_profile_url": "https://www.nga.org/governors/washington/",
+    "senators": [
+      "Maria Cantwell",
+      "Patty Murray"
+    ],
+    "representative_count": 10,
+    "county_count": 39,
+    "place_count": 639,
+    "zcta_count": 329,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "54",
+    "abbr": "WV",
+    "state_name": "West Virginia",
+    "capital": "Charleston",
+    "population_2025": "1766147",
+    "population_source": "2020-2025",
+    "governor": "Patrick Morrisey",
+    "governor_profile_url": "https://www.nga.org/governors/west-virginia/",
+    "senators": [
+      "James C. Justice",
+      "Shelley Moore Capito"
+    ],
+    "representative_count": 2,
+    "county_count": 55,
+    "place_count": 439,
+    "zcta_count": 454,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "55",
+    "abbr": "WI",
+    "state_name": "Wisconsin",
+    "capital": "Madison",
+    "population_2025": "5972787",
+    "population_source": "2020-2025",
+    "governor": "Tony Evers",
+    "governor_profile_url": "https://www.nga.org/governors/wisconsin/",
+    "senators": [
+      "Ron Johnson",
+      "Tammy Baldwin"
+    ],
+    "representative_count": 8,
+    "county_count": 72,
+    "place_count": 808,
+    "zcta_count": 402,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "56",
+    "abbr": "WY",
+    "state_name": "Wyoming",
+    "capital": "Cheyenne",
+    "population_2025": "588753",
+    "population_source": "2020-2025",
+    "governor": "Mark Gordon",
+    "governor_profile_url": "https://www.nga.org/governors/wyoming/",
+    "senators": [
+      "Cynthia M. Lummis",
+      "John Barrasso"
+    ],
+    "representative_count": 1,
+    "county_count": 23,
+    "place_count": 205,
+    "zcta_count": 479,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "60",
+    "abbr": "AS",
+    "state_name": "American Samoa",
+    "capital": "Pago Pago",
+    "population_2025": null,
+    "population_source": null,
+    "governor": "Pula\u2019ali\u2019i Nikolao Pula",
+    "governor_profile_url": "https://www.nga.org/governors/american-samoa/",
+    "senators": [],
+    "representative_count": 1,
+    "county_count": 0,
+    "place_count": 0,
+    "zcta_count": 400,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "66",
+    "abbr": "GU",
+    "state_name": "Guam",
+    "capital": "Hag\u00e5t\u00f1a",
+    "population_2025": null,
+    "population_source": null,
+    "governor": "Lou Leon Guerrero",
+    "governor_profile_url": "https://www.nga.org/governors/guam/",
+    "senators": [],
+    "representative_count": 1,
+    "county_count": 0,
+    "place_count": 0,
+    "zcta_count": 321,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "69",
+    "abbr": "MP",
+    "state_name": "Northern Mariana Islands",
+    "capital": "Saipan",
+    "population_2025": null,
+    "population_source": null,
+    "governor": "David M. Apatang",
+    "governor_profile_url": "https://www.nga.org/governors/northern-mariana-islands/",
+    "senators": [],
+    "representative_count": 1,
+    "county_count": 0,
+    "place_count": 0,
+    "zcta_count": 110,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "72",
+    "abbr": "PR",
+    "state_name": "Puerto Rico",
+    "capital": "San Juan",
+    "population_2025": "3184835",
+    "population_source": "2020-2025",
+    "governor": "Jenniffer Gonz\u00e1lez-Col\u00f3n",
+    "governor_profile_url": "https://www.nga.org/governors/puerto-rico/",
+    "senators": [],
+    "representative_count": 1,
+    "county_count": 78,
+    "place_count": 292,
+    "zcta_count": 479,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "74",
+    "abbr": "UM",
+    "state_name": "U.S. Minor Outlying Islands",
+    "capital": null,
+    "population_2025": null,
+    "population_source": null,
+    "governor": null,
+    "governor_profile_url": null,
+    "senators": [],
+    "representative_count": 0,
+    "county_count": 0,
+    "place_count": 0,
+    "zcta_count": 339,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  },
+  {
+    "state_fips": "78",
+    "abbr": "VI",
+    "state_name": "U.S. Virgin Islands",
+    "capital": "Charlotte Amalie",
+    "population_2025": null,
+    "population_source": null,
+    "governor": null,
+    "governor_profile_url": null,
+    "senators": [],
+    "representative_count": 1,
+    "county_count": 0,
+    "place_count": 0,
+    "zcta_count": 449,
+    "source": "https://github.com/rubenviolinha/us-government-data-atlas"
+  }
+]
