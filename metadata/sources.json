@@ -8,6 +8,15 @@
     "notes": "Structured historical index with governor name, jurisdiction, party, years in office, and profile URL. The NGA is an association rather than a federal agency; treat this as a curated reference source and reconcile against state archives for authoritative completeness."
   },
   {
+    "id": "library-of-congress-vice-presidents",
+    "name": "Alphabetical List of Vice Presidents and Their Terms",
+    "publisher": "Library of Congress",
+    "url": "https://guides.loc.gov/vice-presidents-portraits/alphabetical",
+    "format": "HTML list",
+    "license": "U.S. government public data",
+    "notes": "Vice-presidential names, term years, and Library of Congress portrait-guide links."
+  },
+  {
     "id": "federal-register-presidential-documents",
     "name": "Federal Register Presidential Memoranda and Determinations",
     "publisher": "Office of the Federal Register",

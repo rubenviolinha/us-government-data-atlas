@@ -34,6 +34,7 @@ def main():
     executive_orders = load("executive_orders.json")
     proclamations = load("presidential_proclamations.json")
     presidential_documents = load("presidential_documents.json")
+    vice_presidents = load("vice_presidents.json")
 
     assert len(states) >= 50
     assert_unique(states, "state_fips", "state FIPS codes")
@@ -70,6 +71,9 @@ def main():
     assert all(row.get("presidential_document_type") in {"memorandum", "determination", "other"} for row in presidential_documents)
     presidential_document_keys = [(row["document_number"], row["presidential_document_type"], row.get("title")) for row in presidential_documents]
     assert len(presidential_document_keys) == len(set(presidential_document_keys)), "duplicate presidential document records"
+    assert len(vice_presidents) >= 45
+    assert all(row.get("name") and row.get("profile_url") and row.get("source") for row in vice_presidents)
+    assert all(row.get("end_year") is None or row["start_year"] <= row["end_year"] for row in vice_presidents)
 
     zcta_ids = {row["GEOID"] for row in zctas}
     # The relationship file is a 2020 vintage while the county gazetteer is 2023;
@@ -83,7 +87,7 @@ def main():
     assert all(len(row["GEOID"]) == 5 for row in county_population)
     assert all(len(row["GEOID"]) == 7 for row in place_population)
     assert all(term.get("type") in {"rep", "sen"} for person in legislators for term in person.get("terms", []))
-    print(f"validated states={len(states)} counties={len(counties)} county_population={len(county_population)} places={len(places)} place_population={len(place_population)} legislators={len(legislators)} governors={len(governors)} governor_terms={sum(len(row.get('terms', [])) for row in governors)} presidents={len(presidents)} agencies={len(agencies)} executive_orders={len(executive_orders)} proclamations={len(proclamations)} presidential_documents={len(presidential_documents)} zctas={len(zctas)} relationships={len(relationships)} districts_2020={len(districts)} districts_2025={len(current_districts)}")
+    print(f"validated states={len(states)} counties={len(counties)} county_population={len(county_population)} places={len(places)} place_population={len(place_population)} legislators={len(legislators)} governors={len(governors)} governor_terms={sum(len(row.get('terms', [])) for row in governors)} presidents={len(presidents)} vice_presidents={len(vice_presidents)} agencies={len(agencies)} executive_orders={len(executive_orders)} proclamations={len(proclamations)} presidential_documents={len(presidential_documents)} zctas={len(zctas)} relationships={len(relationships)} districts_2020={len(districts)} districts_2025={len(current_districts)}")
 
 
 if __name__ == "__main__":

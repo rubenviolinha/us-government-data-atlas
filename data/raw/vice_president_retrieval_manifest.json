@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-25T10:29:34.464992+00:00",
+  "source": "https://guides.loc.gov/vice-presidents-portraits/alphabetical",
+  "raw_file": "data/raw/vice-presidents-library-of-congress.html",
+  "file": "data/normalized/vice_presidents.json",
+  "records": 50,
+  "distinct_names": 50
+}
