@@ -59,6 +59,8 @@ def main():
     legislators = load("congressional_legislators.json")
     senators = load("senators.json")
     representatives = load("representatives.json")
+    current_senators = load("current_senators.json")
+    current_representatives = load("current_representatives.json")
     governors = load("governors_nga.json")
     presidents = load("presidents.json")
     agencies = load("federal_register_agencies.json")
@@ -226,6 +228,8 @@ def main():
         ids = [person.get("id", {}).get("bioguide") for person in rows]
         assert ids and len(ids) == len(set(ids)), f"duplicate {label} Bioguide IDs"
         assert all(person.get("office_scope") == label and person.get("source") and any(term.get("type") == office_type for term in person.get("terms", [])) for person in rows)
+    assert len(current_senators) >= 90 and len(current_representatives) >= 400
+    assert all(person.get("view_as_of") and person.get("office_scope") in {"senator", "representative"} for person in current_senators + current_representatives)
     assert all(row.get("name") and row.get("state") for row in governors)
     for chamber, rows in (("upper", state_legislators_upper), ("lower", state_legislators_lower)):
         ids = [row.get("id") for row in rows]

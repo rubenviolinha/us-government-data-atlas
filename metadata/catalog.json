@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T19:20:27.376157+00:00",
+  "generated_at": "2026-09-25T19:23:37.057419+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2319,6 +2319,44 @@
       "source_urls_sample": []
     },
     {
+      "file": "data/normalized/current_representatives.json",
+      "format": "JSON",
+      "records": 439,
+      "size_bytes": 1281038,
+      "fields_sample": [
+        "bio",
+        "derived_from",
+        "id",
+        "name",
+        "office_scope",
+        "source",
+        "terms",
+        "view_as_of"
+      ],
+      "source_urls_sample": [
+        "https://github.com/unitedstates/congress-legislators"
+      ]
+    },
+    {
+      "file": "data/normalized/current_senators.json",
+      "format": "JSON",
+      "records": 100,
+      "size_bytes": 279358,
+      "fields_sample": [
+        "bio",
+        "derived_from",
+        "id",
+        "name",
+        "office_scope",
+        "source",
+        "terms",
+        "view_as_of"
+      ],
+      "source_urls_sample": [
+        "https://github.com/unitedstates/congress-legislators"
+      ]
+    },
+    {
       "file": "data/normalized/electoral_college_results_1789_2024.json",
       "format": "JSON",
       "records": 2977,
@@ -3909,7 +3947,7 @@
       "file": "data/normalized/representatives.json",
       "format": "JSON",
       "records": 11465,
-      "size_bytes": 15898808,
+      "size_bytes": 16173968,
       "fields_sample": [
         "bio",
         "derived_from",
@@ -3917,7 +3955,8 @@
         "name",
         "office_scope",
         "source",
-        "terms"
+        "terms",
+        "view_as_of"
       ],
       "source_urls_sample": [
         "https://github.com/unitedstates/congress-legislators"
@@ -3984,7 +4023,7 @@
       "file": "data/normalized/senators.json",
       "format": "JSON",
       "records": 2019,
-      "size_bytes": 2553285,
+      "size_bytes": 2601741,
       "fields_sample": [
         "bio",
         "derived_from",
@@ -3992,7 +4031,8 @@
         "name",
         "office_scope",
         "source",
-        "terms"
+        "terms",
+        "view_as_of"
       ],
       "source_urls_sample": [
         "https://github.com/unitedstates/congress-legislators"
