@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T20:55:05.538121+00:00",
+  "generated_at": "2026-09-25T20:58:18.778968+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2402,6 +2402,44 @@
       ]
     },
     {
+      "file": "data/normalized/american_indian_alaska_native_areas_2025.json",
+      "format": "JSON",
+      "records": 704,
+      "size_bytes": 208319,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "ANSICODE",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "GEOIDFQ",
+        "INTPTLAT",
+        "INTPTLONG",
+        "NAME"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/american_indian_alaska_native_reservations_2025.json",
+      "format": "JSON",
+      "records": 867,
+      "size_bytes": 254041,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "ANSICODE",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "GEOIDFQ",
+        "INTPTLAT",
+        "INTPTLONG",
+        "NAME"
+      ],
+      "source_urls_sample": []
+    },
+    {
       "file": "data/normalized/capital_validation.json",
       "format": "JSON",
       "records": 57,
@@ -2520,6 +2558,26 @@
       "source_urls_sample": []
     },
     {
+      "file": "data/normalized/cbsa_geography_2025.json",
+      "format": "JSON",
+      "records": 935,
+      "size_bytes": 297182,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "CBSA_TYPE",
+        "CSAFP",
+        "GEOID",
+        "GEOIDFQ",
+        "INTPTLAT",
+        "INTPTLONG",
+        "NAME"
+      ],
+      "source_urls_sample": []
+    },
+    {
       "file": "data/normalized/cbsa_population_2020_2024.json",
       "format": "JSON",
       "records": 925,
@@ -2577,6 +2635,24 @@
         "INTPTLONG",
         "USPS",
         "congress"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/congressional_districts_119th_2025.json",
+      "format": "JSON",
+      "records": 440,
+      "size_bytes": 110748,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "GEOIDFQ",
+        "INTPTLAT",
+        "INTPTLONG",
+        "USPS"
       ],
       "source_urls_sample": []
     },
@@ -2662,6 +2738,26 @@
       "source_urls_sample": []
     },
     {
+      "file": "data/normalized/counties_2025.json",
+      "format": "JSON",
+      "records": 3222,
+      "size_bytes": 996545,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "ANSICODE",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "GEOIDFQ",
+        "INTPTLAT",
+        "INTPTLONG",
+        "NAME",
+        "USPS"
+      ],
+      "source_urls_sample": []
+    },
+    {
       "file": "data/normalized/county_population_2020_2024.json",
       "format": "JSON",
       "records": 3144,
@@ -2694,6 +2790,27 @@
         "AWATER_SQMI",
         "FUNCSTAT",
         "GEOID",
+        "INTPTLAT",
+        "INTPTLONG",
+        "NAME",
+        "USPS"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/county_subdivisions_2025.json",
+      "format": "JSON",
+      "records": 36427,
+      "size_bytes": 12227581,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "ANSICODE",
+        "AWATER",
+        "AWATER_SQMI",
+        "FUNCSTAT",
+        "GEOID",
+        "GEOIDFQ",
         "INTPTLAT",
         "INTPTLONG",
         "NAME",
@@ -3092,6 +3209,27 @@
         "https://www.archives.gov/electoral-college/1800",
         "https://www.archives.gov/electoral-college/1804"
       ]
+    },
+    {
+      "file": "data/normalized/elementary_school_districts_2025.json",
+      "format": "JSON",
+      "records": 1971,
+      "size_bytes": 673683,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "GEOIDFQ",
+        "HIGRADE",
+        "INTPTLAT",
+        "INTPTLONG",
+        "LOGRADE",
+        "NAME",
+        "USPS"
+      ],
+      "source_urls_sample": []
     },
     {
       "file": "data/normalized/executive_orders.json",
@@ -4399,6 +4537,28 @@
       "source_urls_sample": []
     },
     {
+      "file": "data/normalized/places_2025.json",
+      "format": "JSON",
+      "records": 32350,
+      "size_bytes": 11053233,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "ANSICODE",
+        "AWATER",
+        "AWATER_SQMI",
+        "FUNCSTAT",
+        "GEOID",
+        "GEOIDFQ",
+        "INTPTLAT",
+        "INTPTLONG",
+        "LSAD",
+        "NAME",
+        "USPS"
+      ],
+      "source_urls_sample": []
+    },
+    {
       "file": "data/normalized/presidential_documents.json",
       "format": "JSON",
       "records": 1667,
@@ -4788,6 +4948,27 @@
       "source_urls_sample": []
     },
     {
+      "file": "data/normalized/school_administrative_districts_2025.json",
+      "format": "JSON",
+      "records": 52,
+      "size_bytes": 17983,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "GEOIDFQ",
+        "HIGRADE",
+        "INTPTLAT",
+        "INTPTLONG",
+        "LOGRADE",
+        "NAME",
+        "USPS"
+      ],
+      "source_urls_sample": []
+    },
+    {
       "file": "data/normalized/school_districts_2023.json",
       "format": "JSON",
       "records": 13333,
@@ -4805,6 +4986,27 @@
         "NAME",
         "USPS",
         "district_type"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/secondary_school_districts_2025.json",
+      "format": "JSON",
+      "records": 478,
+      "size_bytes": 166070,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "GEOIDFQ",
+        "HIGRADE",
+        "INTPTLAT",
+        "INTPTLONG",
+        "LOGRADE",
+        "NAME",
+        "USPS"
       ],
       "source_urls_sample": []
     },
@@ -4897,6 +5099,44 @@
         "NAME",
         "USPS",
         "chamber"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/state_legislative_districts_lower_2025.json",
+      "format": "JSON",
+      "records": 4879,
+      "size_bytes": 1404141,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "GEOIDFQ",
+        "INTPTLAT",
+        "INTPTLONG",
+        "NAME",
+        "USPS"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/state_legislative_districts_upper_2025.json",
+      "format": "JSON",
+      "records": 1964,
+      "size_bytes": 570410,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "GEOIDFQ",
+        "INTPTLAT",
+        "INTPTLONG",
+        "NAME",
+        "USPS"
       ],
       "source_urls_sample": []
     },
@@ -5114,6 +5354,25 @@
       "source_urls_sample": []
     },
     {
+      "file": "data/normalized/states_2025.json",
+      "format": "JSON",
+      "records": 52,
+      "size_bytes": 14462,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "GEOIDFQ",
+        "INTPTLAT",
+        "INTPTLONG",
+        "NAME",
+        "USPS"
+      ],
+      "source_urls_sample": []
+    },
+    {
       "file": "data/normalized/supreme_court_justices.json",
       "format": "JSON",
       "records": 121,
@@ -5166,6 +5425,24 @@
       "source_urls_sample": []
     },
     {
+      "file": "data/normalized/tracts_2025.json",
+      "format": "JSON",
+      "records": 85396,
+      "size_bytes": 21802208,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "GEOIDFQ",
+        "INTPTLAT",
+        "INTPTLONG",
+        "USPS"
+      ],
+      "source_urls_sample": []
+    },
+    {
       "file": "data/normalized/tribal_areas_2023.json",
       "format": "JSON",
       "records": 1813,
@@ -5185,6 +5462,27 @@
       "source_urls_sample": []
     },
     {
+      "file": "data/normalized/unified_school_districts_2025.json",
+      "format": "JSON",
+      "records": 10863,
+      "size_bytes": 3705736,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "GEOIDFQ",
+        "HIGRADE",
+        "INTPTLAT",
+        "INTPTLONG",
+        "LOGRADE",
+        "NAME",
+        "USPS"
+      ],
+      "source_urls_sample": []
+    },
+    {
       "file": "data/normalized/urban_areas_2023.json",
       "format": "JSON",
       "records": 2644,
@@ -5199,6 +5497,24 @@
         "INTPTLONG",
         "NAME",
         "UATYPE"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/urban_areas_2025.json",
+      "format": "JSON",
+      "records": 2644,
+      "size_bytes": 705669,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "GEOIDFQ",
+        "INTPTLAT",
+        "INTPTLONG",
+        "NAME"
       ],
       "source_urls_sample": []
     },
@@ -5359,6 +5675,23 @@
         "AWATER",
         "AWATER_SQMI",
         "GEOID",
+        "INTPTLAT",
+        "INTPTLONG"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/zctas_2025.json",
+      "format": "JSON",
+      "records": 33791,
+      "size_bytes": 7674806,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "GEOIDFQ",
         "INTPTLAT",
         "INTPTLONG"
       ],

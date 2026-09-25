@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T20:55:06.230032+00:00",
+  "generated_at": "2026-09-25T20:58:19.494433+00:00",
   "algorithm": "sha256",
-  "dataset_count": 148,
+  "dataset_count": 165,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -250,6 +250,16 @@
       "size_bytes": 39958
     },
     {
+      "file": "data/normalized/american_indian_alaska_native_areas_2025.json",
+      "sha256": "0ac1382028fb378e47b4d4b590c5df5c0d4a89688e6080989663bfb1159aa4a8",
+      "size_bytes": 208319
+    },
+    {
+      "file": "data/normalized/american_indian_alaska_native_reservations_2025.json",
+      "sha256": "c53bb6b42bca3cf9ad09887469ba28ad2ee637eadd398bb2c4aea8800c862ef1",
+      "size_bytes": 254041
+    },
+    {
       "file": "data/normalized/capital_validation.json",
       "sha256": "17cfaf2d01b2583e9694eb08a7ddb5e72d7ced3c7559a2155c361abbf6a0714b",
       "size_bytes": 15094
@@ -280,6 +290,11 @@
       "size_bytes": 266336
     },
     {
+      "file": "data/normalized/cbsa_geography_2025.json",
+      "sha256": "f08d1248ab9c1deb0acdd6f50be4f2b1d1f5eca91e9eeac921d0d38af7aaf1f2",
+      "size_bytes": 297182
+    },
+    {
       "file": "data/normalized/cbsa_population_2020_2024.json",
       "sha256": "5665db24a81e0e0b4947214b3132cfa0673624c1e5c76b82d5ac4c09f44c9116",
       "size_bytes": 284861
@@ -293,6 +308,11 @@
       "file": "data/normalized/congressional_districts_118th_2023.json",
       "sha256": "13f0a4d35dec34a5b830f079c21c6d3ed6f209dd3f74eda21fbfe334c14400a4",
       "size_bytes": 106760
+    },
+    {
+      "file": "data/normalized/congressional_districts_119th_2025.json",
+      "sha256": "0647de43f0d8f99214a5ee7906cb5c040da5f2ec69b44e70997c467e09b0e1f9",
+      "size_bytes": 110748
     },
     {
       "file": "data/normalized/congressional_districts_2020.json",
@@ -320,6 +340,11 @@
       "size_bytes": 890240
     },
     {
+      "file": "data/normalized/counties_2025.json",
+      "sha256": "24b52541de4a92dd3169cf83bee41bd43b2c78c44f5efef53fe9c6f6a9544889",
+      "size_bytes": 996545
+    },
+    {
       "file": "data/normalized/county_population_2020_2024.json",
       "sha256": "1a1b416121037f86253a66b87349f1228b98ac5d7e87c2ae25d93940f4daa70f",
       "size_bytes": 1075206
@@ -328,6 +353,11 @@
       "file": "data/normalized/county_subdivisions_2023.json",
       "sha256": "274bdca19124d643e04f13077adad8fda4a9bbdbeba582d0d3fd5808235d9adf",
       "size_bytes": 10845727
+    },
+    {
+      "file": "data/normalized/county_subdivisions_2025.json",
+      "sha256": "73de2706d88e92bd5ee964df56718a36ff7f0c1d2a5aaa4f3c45b01307050c96",
+      "size_bytes": 12227581
     },
     {
       "file": "data/normalized/current_cabinet_white_house.json",
@@ -373,6 +403,11 @@
       "file": "data/normalized/electoral_college_results_1789_2024.json",
       "sha256": "5c092b439adf674cc6711bbd47ac91dac25b324c89f28f2d5c5a23d84bc42d45",
       "size_bytes": 758621
+    },
+    {
+      "file": "data/normalized/elementary_school_districts_2025.json",
+      "sha256": "febbabe29a4aef6e373974cf7975742b9aaf739b30134dfad41df45667b06087",
+      "size_bytes": 673683
     },
     {
       "file": "data/normalized/executive_orders.json",
@@ -575,6 +610,11 @@
       "size_bytes": 9915635
     },
     {
+      "file": "data/normalized/places_2025.json",
+      "sha256": "c8ce38859547f8d621612ddd650f27e8696423be35318518bd287767c1751cd9",
+      "size_bytes": 11053233
+    },
+    {
       "file": "data/normalized/presidential_documents.json",
       "sha256": "8d8d14a09a23a0f5afd4e4fbfa26c3fcab0d42539d447ab2d0a4e7eacb6a2531",
       "size_bytes": 1916293
@@ -620,9 +660,19 @@
       "size_bytes": 15855
     },
     {
+      "file": "data/normalized/school_administrative_districts_2025.json",
+      "sha256": "6120b13c5e8c7b82a152b8a24053033e37eae9044de46f6805ab18c0fea5cf9f",
+      "size_bytes": 17983
+    },
+    {
       "file": "data/normalized/school_districts_2023.json",
       "sha256": "fd50d33eb19c0951442a2ebfe33b7c3c2e1f00684f82558362647f21dc60abdf",
       "size_bytes": 4519757
+    },
+    {
+      "file": "data/normalized/secondary_school_districts_2025.json",
+      "sha256": "58943a7113c32527570742af345e42a684826b6bdfdb5d4f68e03bb84b4abc78",
+      "size_bytes": 166070
     },
     {
       "file": "data/normalized/secretaries_of_state.json",
@@ -643,6 +693,16 @@
       "file": "data/normalized/state_legislative_districts_2023.json",
       "sha256": "62f3a922d358365d732959f978c863106ac60dbdc7d34e9f6e762be9d33c4591",
       "size_bytes": 1912973
+    },
+    {
+      "file": "data/normalized/state_legislative_districts_lower_2025.json",
+      "sha256": "3b8ea12fad534699777d8c4434ec91218bbb1d6cf233b5d19eb07a3607a3e365",
+      "size_bytes": 1404141
+    },
+    {
+      "file": "data/normalized/state_legislative_districts_upper_2025.json",
+      "sha256": "9fe205328b4207fc90c560e5d347eebddbc4be3b9956c64649df9a22d9ce874e",
+      "size_bytes": 570410
     },
     {
       "file": "data/normalized/state_legislators_lower.json",
@@ -675,6 +735,11 @@
       "size_bytes": 12708
     },
     {
+      "file": "data/normalized/states_2025.json",
+      "sha256": "816f930a44a731d7e5c86811380ebf68ee9feb02ea6a5b17462518f0a4828374",
+      "size_bytes": 14462
+    },
+    {
       "file": "data/normalized/supreme_court_justices.json",
       "sha256": "76ea8804f5354ff06c887c2f529c36b8a480abe66460af595e299170ae730ee5",
       "size_bytes": 35679
@@ -690,14 +755,29 @@
       "size_bytes": 18471937
     },
     {
+      "file": "data/normalized/tracts_2025.json",
+      "sha256": "4939585e3271251df31e1c892821f07f351c6bc091ef977fec82a83baabd522a",
+      "size_bytes": 21802208
+    },
+    {
       "file": "data/normalized/tribal_areas_2023.json",
       "sha256": "5b1ab21f720df8525eae800ee9a43e08bdaee828d18ba5644f14a0bf511924fc",
       "size_bytes": 544015
     },
     {
+      "file": "data/normalized/unified_school_districts_2025.json",
+      "sha256": "60848296fa08e116dbb4930c66479defe95b4c3d5e2523bcacfbda81cda85832",
+      "size_bytes": 3705736
+    },
+    {
       "file": "data/normalized/urban_areas_2023.json",
       "sha256": "b15a6d6cde296185a3c428a21aa5168fb0a72b8f9be285f87ff654f2468acaa2",
       "size_bytes": 666015
+    },
+    {
+      "file": "data/normalized/urban_areas_2025.json",
+      "sha256": "e20db81b197a3324e76ac0b565653ca2d0592d3ca95165b3a9fc84689c5e864b",
+      "size_bytes": 705669
     },
     {
       "file": "data/normalized/vice_presidents.json",
@@ -743,6 +823,11 @@
       "file": "data/normalized/zctas_2024.json",
       "sha256": "137f2639917b46120e10c3f9ed52256b5ce138f6e91192f55a6674d3fd949491",
       "size_bytes": 6559646
+    },
+    {
+      "file": "data/normalized/zctas_2025.json",
+      "sha256": "4c4613c866de45d8b863912fb99b0f22df5c836abf3573bf876eaa0cba9e95cf",
+      "size_bytes": 7674806
     }
   ]
 }

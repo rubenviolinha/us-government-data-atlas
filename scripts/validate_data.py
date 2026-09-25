@@ -355,6 +355,25 @@ def main():
     tracts_2024 = load("tracts_2024.json")
     ballot_candidates_2024 = load("fec_congressional_ballot_candidates_2024.json")
     election_directory_2025 = load("fec_state_election_directory_2025.json")
+    gazetteer_2025 = {
+        "congressional_districts_119th_2025.json": 440,
+        "american_indian_alaska_native_areas_2025.json": 704,
+        "american_indian_alaska_native_reservations_2025.json": 867,
+        "cbsa_geography_2025.json": 935,
+        "counties_2025.json": 3222,
+        "county_subdivisions_2025.json": 36427,
+        "elementary_school_districts_2025.json": 1971,
+        "places_2025.json": 32350,
+        "secondary_school_districts_2025.json": 478,
+        "school_administrative_districts_2025.json": 52,
+        "state_legislative_districts_lower_2025.json": 4879,
+        "state_legislative_districts_upper_2025.json": 1964,
+        "states_2025.json": 52,
+        "tracts_2025.json": 85396,
+        "urban_areas_2025.json": 2644,
+        "unified_school_districts_2025.json": 10863,
+        "zctas_2025.json": 33791,
+    }
     assert len(counties_2024) == 3222
     assert len(zctas_2024) == 33791
     assert len(cbsa_2024) == 935
@@ -366,6 +385,10 @@ def main():
     assert len({row["state_fips"] for row in election_directory_2025}) == len(election_directory_2025)
     assert all(row.get("state_name") and row.get("source") for row in election_directory_2025)
     assert sum(bool(row.get("section_available")) for row in election_directory_2025) >= 55
+    for filename, expected in gazetteer_2025.items():
+        rows = load(filename)
+        assert len(rows) == expected, (filename, len(rows), expected)
+        assert len({row.get("GEOID") for row in rows}) == len(rows), filename
     assert_unique(counties_2024, "GEOID", "2024 county GEOIDs")
     assert_unique(zctas_2024, "GEOID", "2024 ZCTA GEOIDs")
     assert_unique(cbsa_2024, "GEOID", "2024 CBSA GEOIDs")

@@ -1,0 +1,108 @@
+{
+  "retrieved_at": "2026-09-25T20:57:59.897476+00:00",
+  "source_directory": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/",
+  "files": [
+    {
+      "path": "data/normalized/congressional_districts_119th_2025.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_119CDs_national.zip",
+      "records": 440,
+      "raw": "data/raw/census_2025_Gaz_119CDs_national.zip"
+    },
+    {
+      "path": "data/normalized/american_indian_alaska_native_areas_2025.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_aiannh_national.zip",
+      "records": 704,
+      "raw": "data/raw/census_2025_Gaz_aiannh_national.zip"
+    },
+    {
+      "path": "data/normalized/american_indian_alaska_native_reservations_2025.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_aiannhrt_national.zip",
+      "records": 867,
+      "raw": "data/raw/census_2025_Gaz_aiannhrt_national.zip"
+    },
+    {
+      "path": "data/normalized/cbsa_geography_2025.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_cbsa_national.zip",
+      "records": 935,
+      "raw": "data/raw/census_2025_Gaz_cbsa_national.zip"
+    },
+    {
+      "path": "data/normalized/counties_2025.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+      "records": 3222,
+      "raw": "data/raw/census_2025_Gaz_counties_national.zip"
+    },
+    {
+      "path": "data/normalized/county_subdivisions_2025.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_cousubs_national.zip",
+      "records": 36427,
+      "raw": "data/raw/census_2025_Gaz_cousubs_national.zip"
+    },
+    {
+      "path": "data/normalized/elementary_school_districts_2025.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_elsd_national.zip",
+      "records": 1971,
+      "raw": "data/raw/census_2025_Gaz_elsd_national.zip"
+    },
+    {
+      "path": "data/normalized/places_2025.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_place_national.zip",
+      "records": 32350,
+      "raw": "data/raw/census_2025_Gaz_place_national.zip"
+    },
+    {
+      "path": "data/normalized/secondary_school_districts_2025.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_scsd_national.zip",
+      "records": 478,
+      "raw": "data/raw/census_2025_Gaz_scsd_national.zip"
+    },
+    {
+      "path": "data/normalized/school_administrative_districts_2025.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_sdadm_national.zip",
+      "records": 52,
+      "raw": "data/raw/census_2025_Gaz_sdadm_national.zip"
+    },
+    {
+      "path": "data/normalized/state_legislative_districts_lower_2025.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_sldl_national.zip",
+      "records": 4879,
+      "raw": "data/raw/census_2025_Gaz_sldl_national.zip"
+    },
+    {
+      "path": "data/normalized/state_legislative_districts_upper_2025.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_sldu_national.zip",
+      "records": 1964,
+      "raw": "data/raw/census_2025_Gaz_sldu_national.zip"
+    },
+    {
+      "path": "data/normalized/states_2025.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_state_national.zip",
+      "records": 52,
+      "raw": "data/raw/census_2025_Gaz_state_national.zip"
+    },
+    {
+      "path": "data/normalized/tracts_2025.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_tracts_national.zip",
+      "records": 85396,
+      "raw": "data/raw/census_2025_Gaz_tracts_national.zip"
+    },
+    {
+      "path": "data/normalized/urban_areas_2025.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_ua_national.zip",
+      "records": 2644,
+      "raw": "data/raw/census_2025_Gaz_ua_national.zip"
+    },
+    {
+      "path": "data/normalized/unified_school_districts_2025.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_unsd_national.zip",
+      "records": 10863,
+      "raw": "data/raw/census_2025_Gaz_unsd_national.zip"
+    },
+    {
+      "path": "data/normalized/zctas_2025.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_zcta_national.zip",
+      "records": 33791,
+      "raw": "data/raw/census_2025_Gaz_zcta_national.zip"
+    }
+  ]
+}

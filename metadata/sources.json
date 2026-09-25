@@ -711,6 +711,15 @@
     "notes": "State and territory election/disclosure office contacts, URLs, phones, emails, page provenance, and preserved source sections."
   },
   {
+    "id": "census-gazetteer-2025",
+    "name": "Census 2025 National Gazetteer Geography",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/",
+    "format": "ZIP archives containing pipe-delimited Gazetteer files",
+    "license": "U.S. government public data",
+    "notes": "Complete keyless 2025 national snapshots for congressional, state, county, place, tract, ZCTA, CBSA, school district, tribal, urban, county-subdivision, and state legislative geographies."
+  },
+  {
     "id": "national-archives-presidents",
     "name": "U.S. Presidents in the Census Records",
     "publisher": "National Archives",
