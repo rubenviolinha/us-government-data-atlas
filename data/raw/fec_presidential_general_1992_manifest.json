@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-25T17:00:00.113857+00:00",
+  "source": "https://www.fec.gov/documents/1552/federalelections92.pdf",
+  "format": "OCR text extracted from official PDF",
+  "records": 558,
+  "file": "data/normalized/fec_presidential_general_1992.json",
+  "note": "Synthetic IDs and preserved source-page metadata are used because the 1992 PDF predates modern FEC candidate IDs."
+}
