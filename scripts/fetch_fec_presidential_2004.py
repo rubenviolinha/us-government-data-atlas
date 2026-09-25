@@ -14,6 +14,7 @@ NORMALIZED = ROOT / "data" / "normalized"
 PUBLICATIONS = {
     2004: "https://www.fec.gov/documents/1628/2004pres.xls",
     2008: "https://www.fec.gov/documents/1661/2008pres.xls",
+    2012: "https://www.fec.gov/documents/1684/2012pres.xls",
 }
 
 
@@ -37,7 +38,7 @@ def fetch(year, url):
     NORMALIZED.mkdir(parents=True, exist_ok=True)
     payload = urlopen(Request(url, headers={"User-Agent": "us-government-data-atlas/0.1"}), timeout=120).read()
     workbook = xlrd.open_workbook(file_contents=payload)
-    sheet = workbook.sheet_by_name(next(name for name in workbook.sheet_names() if "PRES GENERAL RESULTS" in name))
+    sheet = workbook.sheet_by_name(next(name for name in workbook.sheet_names() if "PRES GENERAL" in name.upper() and "RESULT" in name.upper()))
     headers = [str(v).strip().lower().replace(" ", "_").replace("#", "") if v is not None else "" for v in sheet.row_values(0)]
     rows = []
     for values in (sheet.row_values(i) for i in range(1, sheet.nrows)):

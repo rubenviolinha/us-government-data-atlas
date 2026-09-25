@@ -1,0 +1,7 @@
+{
+  "retrieved_at": "2026-09-25T16:47:39.295076+00:00",
+  "source": "https://www.fec.gov/documents/1684/2012pres.xls",
+  "format": "legacy Excel workbook",
+  "records": 484,
+  "file": "data/normalized/fec_presidential_general_2012.json"
+}

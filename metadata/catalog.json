@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:46:25.708271+00:00",
+  "generated_at": "2026-09-25T16:47:58.446254+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -1925,6 +1925,28 @@
       ],
       "source_urls_sample": [
         "https://www.fec.gov/documents/1661/2008pres.xls"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_presidential_general_2012.json",
+      "format": "JSON",
+      "records": 484,
+      "size_bytes": 178031,
+      "fields_sample": [
+        "candidate_name",
+        "election_year",
+        "fec_id",
+        "first_name",
+        "last_name",
+        "party",
+        "source",
+        "source_sheet",
+        "state",
+        "vote_share",
+        "votes"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/documents/1684/2012pres.xls"
       ]
     },
     {
