@@ -85,6 +85,8 @@ def main():
     acs_place_housing = load("acs_place_housing_2023.json")
     acs_place_race = load("acs_place_race_2023.json")
     acs_place_age_sex = load("acs_place_age_sex_2023.json")
+    acs_place_education = load("acs_place_education_2023.json")
+    acs_place_poverty = load("acs_place_poverty_2023.json")
     state_legislators = load("state_legislators_openstates.json")
     fec_candidates = load("fec_candidate_master_2024.json")
     fec_committees = load("fec_committee_master_2024.json")
@@ -263,6 +265,10 @@ def main():
     assert len(acs_place_age_sex) >= 30000
     assert all(row.get("GEO_ID", "").startswith("1600000US") and row.get("place_fips") and row.get("state_fips") and row.get("source") for row in acs_place_age_sex)
     assert len({row["GEO_ID"] for row in acs_place_age_sex}) == len(acs_place_age_sex), "duplicate ACS place age/sex GEO_IDs"
+    for label, rows in (("education", acs_place_education), ("poverty", acs_place_poverty)):
+        assert len(rows) >= 30000, f"ACS place {label} coverage too small"
+        assert all(row.get("GEO_ID", "").startswith("1600000US") and row.get("place_fips") and row.get("state_fips") and row.get("source") for row in rows)
+        assert len({row["GEO_ID"] for row in rows}) == len(rows), f"duplicate ACS place {label} GEO_IDs"
     assert len(state_legislators) >= 15000
     assert all(row.get("id") and row.get("name") and row.get("state") in {item["abbr"] for item in states} and row.get("record_type") in {"current", "retired"} and row.get("source") for row in state_legislators)
     assert len({row["id"] for row in state_legislators}) == len(state_legislators), "duplicate Open States legislator IDs"

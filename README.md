@@ -12,7 +12,7 @@ An open, versioned catalog of U.S. government, geographic, demographic, and hist
 
 Every dataset should preserve its source URL, retrieval timestamp, source vintage, license, and transformation notes.
 
-The current release contains 95 cataloged datasets, including 57 Census reference jurisdictions, 3,222 counties, 2020 and 2023 ZCTA geography, 85,396 tracts, 36,434 county subdivisions, 32,329 places, 13,333 school districts, 6,844 state legislative districts, dated congressional districts, tribal areas, urban areas, CBSAs, PUMAs, and ZIP/PUMA/place/CBSA relationship and vintage-crosswalk tables.
+The current release contains 97 cataloged datasets, including 57 Census reference jurisdictions, 3,222 counties, 2020 and 2023 ZCTA geography, 85,396 tracts, 36,434 county subdivisions, 32,329 places, 13,333 school districts, 6,844 state legislative districts, dated congressional districts, tribal areas, urban areas, CBSAs, PUMAs, place-level ACS education and poverty profiles, and ZIP/PUMA/place/CBSA relationship and vintage-crosswalk tables.
 
 ## Repository layout
 
