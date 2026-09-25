@@ -1,0 +1,387 @@
+[
+  {
+    "state": "Alabama",
+    "name": "Kay Ivey",
+    "profile_url": "https://www.nga.org/governors/alabama/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Alaska",
+    "name": "Mike Dunleavy",
+    "profile_url": "https://www.nga.org/governors/alaska/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "American Samoa",
+    "name": "Pula\u2019ali\u2019i Nikolao Pula",
+    "profile_url": "https://www.nga.org/governors/american-samoa/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Arizona",
+    "name": "Katie Hobbs",
+    "profile_url": "https://www.nga.org/governors/arizona/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Arkansas",
+    "name": "Sarah Huckabee Sanders",
+    "profile_url": "https://www.nga.org/governors/arkansas/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "California",
+    "name": "Gavin Newsom",
+    "profile_url": "https://www.nga.org/governors/california/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Colorado",
+    "name": "Jared Polis",
+    "profile_url": "https://www.nga.org/governors/colorado/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Connecticut",
+    "name": "Ned Lamont",
+    "profile_url": "https://www.nga.org/governors/connecticut/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Delaware",
+    "name": "Matt Meyer",
+    "profile_url": "https://www.nga.org/governors/delaware/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Florida",
+    "name": "Ron DeSantis",
+    "profile_url": "https://www.nga.org/governors/florida/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Georgia",
+    "name": "Brian Kemp",
+    "profile_url": "https://www.nga.org/governors/georgia/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Guam",
+    "name": "Lou Leon Guerrero",
+    "profile_url": "https://www.nga.org/governors/guam/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Hawaii",
+    "name": "Josh Green",
+    "profile_url": "https://www.nga.org/governors/hawaii/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Idaho",
+    "name": "Brad Little",
+    "profile_url": "https://www.nga.org/governors/idaho/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Illinois",
+    "name": "JB Pritzker",
+    "profile_url": "https://www.nga.org/governors/illinois/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Indiana",
+    "name": "Mike Braun",
+    "profile_url": "https://www.nga.org/governors/indiana/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Iowa",
+    "name": "Kim Reynolds",
+    "profile_url": "https://www.nga.org/governors/iowa/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Kansas",
+    "name": "Laura Kelly",
+    "profile_url": "https://www.nga.org/governors/kansas/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Kentucky",
+    "name": "Andy Beshear",
+    "profile_url": "https://www.nga.org/governors/kentucky/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Louisiana",
+    "name": "Jeff Landry",
+    "profile_url": "https://www.nga.org/governors/louisiana/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Maine",
+    "name": "Janet Mills",
+    "profile_url": "https://www.nga.org/governors/maine/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Maryland",
+    "name": "Wes Moore",
+    "profile_url": "https://www.nga.org/governors/maryland/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Massachusetts",
+    "name": "Maura Healey",
+    "profile_url": "https://www.nga.org/governors/massachusetts/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Michigan",
+    "name": "Gretchen Whitmer",
+    "profile_url": "https://www.nga.org/governors/michigan/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Minnesota",
+    "name": "Tim Walz",
+    "profile_url": "https://www.nga.org/governors/minnesota/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Mississippi",
+    "name": "Tate Reeves",
+    "profile_url": "https://www.nga.org/governors/mississippi/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Missouri",
+    "name": "Mike Kehoe",
+    "profile_url": "https://www.nga.org/governors/missouri/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Montana",
+    "name": "Greg Gianforte",
+    "profile_url": "https://www.nga.org/governors/montana/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Nebraska",
+    "name": "Jim Pillen",
+    "profile_url": "https://www.nga.org/governors/nebraska/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Nevada",
+    "name": "Joe Lombardo",
+    "profile_url": "https://www.nga.org/governors/nevada/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "New Hampshire",
+    "name": "Kelly Ayotte",
+    "profile_url": "https://www.nga.org/governors/new-hampshire/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "New Jersey",
+    "name": "Mikie Sherrill",
+    "profile_url": "https://www.nga.org/governors/new-jersey/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "New Mexico",
+    "name": "Michelle Lujan Grisham",
+    "profile_url": "https://www.nga.org/governors/new-mexico/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "New York",
+    "name": "Kathy Hochul",
+    "profile_url": "https://www.nga.org/governors/new-york/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "North Carolina",
+    "name": "Josh Stein",
+    "profile_url": "https://www.nga.org/governors/north-carolina/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "North Dakota",
+    "name": "Kelly Armstrong",
+    "profile_url": "https://www.nga.org/governors/north-dakota/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Northern Mariana Islands",
+    "name": "David M. Apatang",
+    "profile_url": "https://www.nga.org/governors/northern-mariana-islands/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Ohio",
+    "name": "Mike DeWine",
+    "profile_url": "https://www.nga.org/governors/ohio/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Oklahoma",
+    "name": "Kevin Stitt",
+    "profile_url": "https://www.nga.org/governors/oklahoma/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Oregon",
+    "name": "Tina Kotek",
+    "profile_url": "https://www.nga.org/governors/oregon/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Pennsylvania",
+    "name": "Josh Shapiro",
+    "profile_url": "https://www.nga.org/governors/pennsylvania/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Puerto Rico",
+    "name": "Jenniffer Gonz\u00e1lez-Col\u00f3n",
+    "profile_url": "https://www.nga.org/governors/puerto-rico/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Rhode Island",
+    "name": "Dan McKee",
+    "profile_url": "https://www.nga.org/governors/rhode-island/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "South Carolina",
+    "name": "-2025a-full-size_square-scaled.jpg\" alt=\"Henry McMaster\" />",
+    "profile_url": "https://www.nga.org/governors/south-carolina/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "South Dakota",
+    "name": "Larry Rhoden",
+    "profile_url": "https://www.nga.org/governors/south-dakota/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Tennessee",
+    "name": "Bill Lee",
+    "profile_url": "https://www.nga.org/governors/tennessee/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Texas",
+    "name": "Greg Abbott",
+    "profile_url": "https://www.nga.org/governors/texas/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Utah",
+    "name": "Spencer Cox",
+    "profile_url": "https://www.nga.org/governors/utah/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Vermont",
+    "name": "Phil Scott",
+    "profile_url": "https://www.nga.org/governors/vermont/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Virgin Islands",
+    "name": "Albert Bryan",
+    "profile_url": "https://www.nga.org/governors/virgin-islands/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Virginia",
+    "name": "Abigail Spanberger",
+    "profile_url": "https://www.nga.org/governors/virginia/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Washington",
+    "name": "Bob Ferguson",
+    "profile_url": "https://www.nga.org/governors/washington/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "West Virginia",
+    "name": "Patrick Morrisey",
+    "profile_url": "https://www.nga.org/governors/west-virginia/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Wisconsin",
+    "name": "Tony Evers",
+    "profile_url": "https://www.nga.org/governors/wisconsin/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  },
+  {
+    "state": "Wyoming",
+    "name": "Mark Gordon",
+    "profile_url": "https://www.nga.org/governors/wyoming/",
+    "source": "https://www.nga.org/governors/",
+    "retrieved_at": "2026-09-25T19:28:50.990480+00:00"
+  }
+]

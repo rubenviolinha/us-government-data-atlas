@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T19:25:32.699715+00:00",
+  "generated_at": "2026-09-25T19:28:56.508255+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2317,6 +2317,22 @@
         "USPS"
       ],
       "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/current_governors_nga.json",
+      "format": "JSON",
+      "records": 55,
+      "size_bytes": 12677,
+      "fields_sample": [
+        "name",
+        "profile_url",
+        "retrieved_at",
+        "source",
+        "state"
+      ],
+      "source_urls_sample": [
+        "https://www.nga.org/governors/"
+      ]
     },
     {
       "file": "data/normalized/current_representatives.json",

@@ -1,4 +1,12 @@
 [{
+    "id": "nga-current-governors",
+    "name": "National Governors Association Current Governors",
+    "publisher": "National Governors Association",
+    "url": "https://www.nga.org/governors/",
+    "format": "HTML roster",
+    "license": "Association website; verify reuse terms before redistribution",
+    "notes": "Current state and territory governor roster with profile URLs and retrieval dates; historical terms remain in the NGA former-governor dataset."
+  }, {
     "id": "census-acs-county-subdivision-profiles-2023",
     "name": "Census ACS 2023 County Subdivision Profiles",
     "publisher": "U.S. Census Bureau",

@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-25T19:28:50.990480+00:00",
+  "source": "https://www.nga.org/governors/",
+  "format": "NGA HTML roster",
+  "records": 55,
+  "file": "data/normalized/current_governors_nga.json",
+  "note": "Current state and territory governors from the NGA roster; no API key used."
+}

@@ -62,6 +62,7 @@ def main():
     current_senators = load("current_senators.json")
     current_representatives = load("current_representatives.json")
     governors = load("governors_nga.json")
+    current_governors = load("current_governors_nga.json")
     presidents = load("presidents.json")
     agencies = load("federal_register_agencies.json")
     executive_orders = load("executive_orders.json")
@@ -240,6 +241,9 @@ def main():
         assert ids and len(ids) == len(set(ids)), f"duplicate state {chamber} legislator IDs"
         assert all(row.get("chamber_scope") == chamber and any(role.get("type") == chamber for role in row.get("roles", [])) for row in rows)
     assert all(row.get("source") and row.get("profile_url") for row in governors)
+    assert len(current_governors) >= 50
+    assert len({row.get("state") for row in current_governors}) == len(current_governors)
+    assert all(row.get("name") and row.get("profile_url") and row.get("source") and row.get("retrieved_at") for row in current_governors)
     assert all(1700 <= term["start_year"] <= 2100 and 1700 <= term["end_year"] <= 2100 for row in governors for term in row.get("terms", []))
     assert len(presidents) >= 40
     assert all(row.get("name") and row.get("start_date") and row.get("source") for row in presidents)
