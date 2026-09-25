@@ -1,5 +1,14 @@
 [
   {
+    "id": "census-county-population-estimates-2024",
+    "name": "Census County Population Estimates, 2020-2024",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2024/counties/totals/co-est2024-alldata.csv",
+    "format": "CSV",
+    "license": "U.S. government public data",
+    "notes": "Annual county population estimates with demographic components and group-quarters estimates."
+  },
+  {
     "id": "census-tiger-congressional-districts-2020-attributes",
     "name": "2020 TIGER Congressional District Attributes",
     "publisher": "U.S. Census Bureau",
