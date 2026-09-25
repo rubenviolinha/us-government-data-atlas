@@ -1,0 +1,11 @@
+{
+  "retrieved_at": "2026-09-25T14:57:14.767037+00:00",
+  "source": "https://www.fec.gov/documents/5645/2024presgeresults.xlsx",
+  "format": "Excel workbook",
+  "sheets": [
+    "OFFICIAL 2024 PRES GE RESULTS"
+  ],
+  "records": 69,
+  "file": "data/normalized/fec_presidential_general_results_2024.json",
+  "note": "Official results compiled from state and territory election offices; no API key used."
+}

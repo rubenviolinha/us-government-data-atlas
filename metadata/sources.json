@@ -71,6 +71,15 @@
     "notes": "Federal committee identities, types, designations, party affiliations, filing frequency, connected organizations, and candidate linkage."
   },
   {
+    "id": "fec-presidential-results-2024",
+    "name": "Official 2024 Presidential General Election Results",
+    "publisher": "Federal Election Commission",
+    "url": "https://www.fec.gov/documents/5645/2024presgeresults.xlsx",
+    "format": "Excel workbook",
+    "license": "U.S. government public data",
+    "notes": "Results compiled from official state and territory election offices; preserve the workbook's sheet and field structure."
+  },
+  {
     "id": "census-acs-profile-variable-metadata",
     "name": "ACS 2023 5-Year Profile Variable Metadata",
     "publisher": "U.S. Census Bureau",

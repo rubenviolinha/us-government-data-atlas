@@ -60,6 +60,7 @@ def main():
     state_legislators = load("state_legislators_openstates.json")
     fec_candidates = load("fec_candidate_master_2024.json")
     fec_committees = load("fec_committee_master_2024.json")
+    fec_results = load("fec_presidential_general_results_2024.json")
 
     assert len(states) >= 50
     catalog_files = {entry["file"] for entry in catalog.get("entries", [])}
@@ -148,6 +149,8 @@ def main():
     assert len(fec_committees) >= 5000
     assert all(row.get("committee_id") and row.get("committee_name") and row.get("cycle") == 2024 and row.get("source") for row in fec_committees)
     assert len({row["committee_id"] for row in fec_committees}) == len(fec_committees), "duplicate FEC committee IDs"
+    assert len(fec_results) >= 50
+    assert all(row.get("election_year") == 2024 and row.get("source") for row in fec_results)
 
     zcta_ids = {row["GEOID"] for row in zctas}
     # The relationship file is a 2020 vintage while the county gazetteer is 2023;
@@ -161,7 +164,7 @@ def main():
     assert all(len(row["GEOID"]) == 5 for row in county_population)
     assert all(len(row["GEOID"]) == 7 for row in place_population)
     assert all(term.get("type") in {"rep", "sen"} for person in legislators for term in person.get("terms", []))
-    print(f"validated states={len(states)} counties={len(counties)} county_population={len(county_population)} places={len(places)} place_population={len(place_population)} legislators={len(legislators)} state_legislators={len(state_legislators)} fec_candidates={len(fec_candidates)} fec_committees={len(fec_committees)} governors={len(governors)} governor_terms={sum(len(row.get('terms', [])) for row in governors)} presidents={len(presidents)} vice_presidents={len(vice_presidents)} justices={len(justices)} federal_judges={len(federal_judges)} secretaries_of_state={len(secretaries_of_state)} state_department_principals={len(state_department_principals)} acs_variables={len(acs_variables)} acs_state_age_sex={len(acs_state_age_sex)} acs_state_income={len(acs_state_income)} acs_state_housing={len(acs_state_housing)} acs_state_race={len(acs_state_race)} acs_county_age_sex={len(acs_county_age_sex)} acs_county_income={len(acs_county_income)} acs_county_housing={len(acs_county_housing)} acs_county_race={len(acs_county_race)} acs_place_income={len(acs_place_income)} acs_place_housing={len(acs_place_housing)} acs_place_race={len(acs_place_race)} agencies={len(agencies)} executive_orders={len(executive_orders)} proclamations={len(proclamations)} presidential_documents={len(presidential_documents)} zctas={len(zctas)} relationships={len(relationships)} districts_2020={len(districts)} districts_2025={len(current_districts)}")
+    print(f"validated states={len(states)} counties={len(counties)} county_population={len(county_population)} places={len(places)} place_population={len(place_population)} legislators={len(legislators)} state_legislators={len(state_legislators)} fec_candidates={len(fec_candidates)} fec_committees={len(fec_committees)} fec_results={len(fec_results)} governors={len(governors)} governor_terms={sum(len(row.get('terms', [])) for row in governors)} presidents={len(presidents)} vice_presidents={len(vice_presidents)} justices={len(justices)} federal_judges={len(federal_judges)} secretaries_of_state={len(secretaries_of_state)} state_department_principals={len(state_department_principals)} acs_variables={len(acs_variables)} acs_state_age_sex={len(acs_state_age_sex)} acs_state_income={len(acs_state_income)} acs_state_housing={len(acs_state_housing)} acs_state_race={len(acs_state_race)} acs_county_age_sex={len(acs_county_age_sex)} acs_county_income={len(acs_county_income)} acs_county_housing={len(acs_county_housing)} acs_county_race={len(acs_county_race)} acs_place_income={len(acs_place_income)} acs_place_housing={len(acs_place_housing)} acs_place_race={len(acs_place_race)} agencies={len(agencies)} executive_orders={len(executive_orders)} proclamations={len(proclamations)} presidential_documents={len(presidential_documents)} zctas={len(zctas)} relationships={len(relationships)} districts_2020={len(districts)} districts_2025={len(current_districts)}")
 
 
 if __name__ == "__main__":

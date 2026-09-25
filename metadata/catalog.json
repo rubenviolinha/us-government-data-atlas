@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T14:55:27.819839+00:00",
+  "generated_at": "2026-09-25T14:57:16.415718+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -743,6 +743,51 @@
       ],
       "source_urls_sample": [
         "https://www.fec.gov/files/bulk-downloads/2024/cm24.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_presidential_general_results_2024.json",
+      "format": "JSON",
+      "records": 69,
+      "size_bytes": 61451,
+      "fields_sample": [
+        "ayyadurai",
+        "bowman",
+        "de_la_cruz",
+        "duncan",
+        "ebke",
+        "election_year",
+        "electoral_vote:_harris_(d)",
+        "electoral_vote:_trump_(r)",
+        "electoral_votes",
+        "everylove",
+        "fruit",
+        "garrity",
+        "harris",
+        "huber",
+        "kennedy",
+        "kishore",
+        "none_of_these_candidates",
+        "oliver",
+        "preston",
+        "skousen",
+        "sonski",
+        "source",
+        "source_sheet",
+        "state",
+        "stein",
+        "stodden",
+        "supreme",
+        "terry",
+        "total_votes",
+        "trump",
+        "wells",
+        "west",
+        "wood",
+        "write-ins_(scattered)"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/documents/5645/2024presgeresults.xlsx"
       ]
     },
     {
