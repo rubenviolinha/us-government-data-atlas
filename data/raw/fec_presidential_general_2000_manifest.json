@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-25T16:54:35.088524+00:00",
+  "source": "https://www.fec.gov/documents/1612/2000presge.xls",
+  "format": "legacy Excel workbook",
+  "records": 430,
+  "file": "data/normalized/fec_presidential_general_2000.json",
+  "note": "The legacy 2000 workbook has no modern FEC candidate IDs; stable synthetic IDs are included."
+}

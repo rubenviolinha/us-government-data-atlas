@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:52:56.855050+00:00",
+  "generated_at": "2026-09-25T16:55:02.680424+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -1881,6 +1881,26 @@
       ],
       "source_urls_sample": [
         "https://www.fec.gov/documents/5676/federalelections2022.xlsx"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_presidential_general_2000.json",
+      "format": "JSON",
+      "records": 430,
+      "size_bytes": 139322,
+      "fields_sample": [
+        "candidate_name",
+        "election_year",
+        "fec_id",
+        "id_type",
+        "party",
+        "source",
+        "source_sheet",
+        "state",
+        "votes"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/documents/1612/2000presge.xls"
       ]
     },
     {
