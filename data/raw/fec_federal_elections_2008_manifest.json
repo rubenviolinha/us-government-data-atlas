@@ -1,0 +1,11 @@
+{
+  "retrieved_at": "2026-09-25T16:26:42.329043+00:00",
+  "source": "https://www.fec.gov/documents/1666/federalelections2008.xls",
+  "format": "legacy Excel workbook",
+  "sheets": {
+    "2008 House and Senate Results": 2081
+  },
+  "records": 2081,
+  "file": "data/normalized/fec_federal_elections_2008.json",
+  "note": "Official certified federal election compilation; no API key used."
+}

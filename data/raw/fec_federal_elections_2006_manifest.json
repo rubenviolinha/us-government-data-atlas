@@ -1,0 +1,11 @@
+{
+  "retrieved_at": "2026-09-25T16:26:42.665209+00:00",
+  "source": "https://www.fec.gov/documents/1642/federalelections2006.xls",
+  "format": "legacy Excel workbook",
+  "sheets": {
+    "2006 US House & Senate Results": 2090
+  },
+  "records": 2090,
+  "file": "data/normalized/fec_federal_elections_2006.json",
+  "note": "Official certified federal election compilation; no API key used."
+}

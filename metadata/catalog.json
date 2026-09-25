@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:23:04.208883+00:00",
+  "generated_at": "2026-09-25T16:26:44.905878+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -1542,6 +1542,70 @@
       ],
       "source_urls_sample": [
         "https://www.fec.gov/files/bulk-downloads/2024/cm24.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_federal_elections_2006.json",
+      "format": "JSON",
+      "records": 2090,
+      "size_bytes": 1198724,
+      "fields_sample": [
+        "candidate_name",
+        "d",
+        "district",
+        "election_year",
+        "fec_id",
+        "first_name",
+        "general",
+        "general_%",
+        "incumbent_indicator",
+        "last_name",
+        "last_name,_first",
+        "notes_(see_endnotes_tab)",
+        "office",
+        "party",
+        "primary",
+        "primary_%",
+        "source",
+        "source_sheet",
+        "state",
+        "state_abbreviation"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/documents/1642/federalelections2006.xls"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_federal_elections_2008.json",
+      "format": "JSON",
+      "records": 2081,
+      "size_bytes": 1248626,
+      "fields_sample": [
+        "1.0",
+        "candidate_name",
+        "candidate_name_(first)",
+        "candidate_name_(last)",
+        "d",
+        "district",
+        "election_year",
+        "fec_id",
+        "footnotes",
+        "general",
+        "general_%",
+        "incumbent_indicator_(i)",
+        "office",
+        "party",
+        "primary",
+        "primary_%",
+        "runoff",
+        "runoff_%",
+        "source",
+        "source_sheet",
+        "state",
+        "state_abbreviation"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/documents/1666/federalelections2008.xls"
       ]
     },
     {

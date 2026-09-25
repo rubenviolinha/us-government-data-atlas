@@ -14,6 +14,8 @@ RAW = ROOT / "data" / "raw"
 PUBLICATIONS = {
     2014: ("https://www.fec.gov/documents/1700/federalelections2014.xls", ("2014 US Senate Results by State", "2014 US House Results by State")),
     2012: ("https://www.fec.gov/documents/1691/federalelections2012.xls", ("2012 US House & Senate Resuts",)),
+    2008: ("https://www.fec.gov/documents/1666/federalelections2008.xls", ("2008 House and Senate Results",)),
+    2006: ("https://www.fec.gov/documents/1642/federalelections2006.xls", ("2006 US House & Senate Results",)),
 }
 
 
@@ -31,10 +33,18 @@ def parse_sheet(sheet, year, url, office_hint=None):
     for index in range(1, sheet.nrows):
         values = sheet.row_values(index)
         row = {header: clean(value) for header, value in zip(headers, values) if header and clean(value) is not None}
-        if not row.get("fec_id") or row.get("fec_id") == "n/a" or not row.get("candidate_name"):
+        # The 2006 workbook uses separate first/last-name columns and calls
+        # the district column DISTRICT; newer publications already expose the
+        # normalized candidate_name/d fields.  Normalize both layouts here.
+        if not row.get("candidate_name"):
+            row["candidate_name"] = row.get("last_name,_first") or " ".join(
+                str(part).strip() for part in (row.get("first_name"), row.get("last_name")) if part
+            )
+        if not row.get("fec_id") or str(row.get("fec_id")).lower() == "n/a" or not row.get("candidate_name"):
             continue
-        district = str(row.get("d", ""))
-        office = office_hint or ("senate" if district == "S" else "house")
+        district = str(row.get("d") or row.get("district") or "")
+        office = "senate" if district.upper() == "S" else (office_hint or "house")
+        row.setdefault("d", district)
         row.update({"election_year": year, "office": office, "source": url, "source_sheet": sheet.name})
         rows.append(row)
     return rows
