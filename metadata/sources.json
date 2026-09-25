@@ -95,7 +95,7 @@
     "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/1YRData/",
     "format": "Pipe-delimited summary files",
     "license": "U.S. government public data",
-    "notes": "Keyless district-level extracts for B19013, B25001, and B02001 using the 5001800US geography code, preserving estimates and margins of error."
+    "notes": "Keyless district-level extracts for B15003, B17001, B19013, B25001, and B02001 using the 5001800US geography code, preserving estimates and margins of error."
   },
   {
     "id": "census-acs-profile-variable-metadata",

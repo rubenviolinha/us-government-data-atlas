@@ -1,6 +1,16 @@
 {
-  "retrieved_at": "2026-09-25T16:08:31.795400+00:00",
+  "retrieved_at": "2026-09-25T16:15:33.511038+00:00",
   "tables": {
+    "B15003": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/1YRData/acsdt1y2023-b15003.dat",
+      "file": "data/normalized/acs_district_education_2023.json",
+      "records": 437
+    },
+    "B17001": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/1YRData/acsdt1y2023-b17001.dat",
+      "file": "data/normalized/acs_district_poverty_2023.json",
+      "records": 437
+    },
     "B19013": {
       "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/1YRData/acsdt1y2023-b19013.dat",
       "file": "data/normalized/acs_district_income_2023.json",

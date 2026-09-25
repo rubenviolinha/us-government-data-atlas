@@ -12,6 +12,8 @@ NORMALIZED = ROOT / "data" / "normalized"
 RAW = ROOT / "data" / "raw"
 BASE = "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/1YRData/"
 TABLES = {
+    "b15003": ("acs_district_education_2023.json", "B15003"),
+    "b17001": ("acs_district_poverty_2023.json", "B17001"),
     "b19013": ("acs_district_income_2023.json", "B19013"),
     "b25001": ("acs_district_housing_2023.json", "B25001"),
     "b02001": ("acs_district_race_2023.json", "B02001"),
