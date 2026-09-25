@@ -4,7 +4,7 @@
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import json
 from pathlib import Path
-from urllib.parse import unquote, urlparse
+from urllib.parse import parse_qs, unquote, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "normalized"
@@ -36,7 +36,20 @@ class Handler(BaseHTTPRequestHandler):
             allowed = {entry["file"].removeprefix("data/normalized/") for entry in read_json(CATALOG)["entries"]}
             if filename not in allowed or "/" in filename or not filename.endswith(".json"):
                 return self.send_json({"error": "dataset not found"}, 404)
-            return self.send_json(read_json(DATA / filename))
+            payload = read_json(DATA / filename)
+            query = parse_qs(urlparse(self.path).query)
+            if not query:
+                return self.send_json(payload)
+            if not isinstance(payload, list) or not all(isinstance(row, dict) for row in payload):
+                return self.send_json({"data": payload, "total": 1, "count": 1, "offset": 0})
+            filters = {key: values[0] for key, values in query.items() if key not in {"limit", "offset"} and values}
+            filtered = [row for row in payload if all(str(row.get(key, "")) == value for key, value in filters.items())]
+            try:
+                offset = max(0, int(query.get("offset", ["0"])[0]))
+                limit = min(1000, max(1, int(query.get("limit", ["100"])[0])))
+            except ValueError:
+                return self.send_json({"error": "limit and offset must be integers"}, 400)
+            return self.send_json({"data": filtered[offset:offset + limit], "total": len(filtered), "count": len(filtered[offset:offset + limit]), "offset": offset})
         return self.send_json({"error": "not found"}, 404)
 
     def log_message(self, *_args):
