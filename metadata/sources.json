@@ -612,6 +612,15 @@
     "notes": "Agency names, slugs, descriptions, parent/child relationships, and Federal Register publication metadata. Includes historical and component agencies represented in the Federal Register."
   },
   {
+    "id": "federal-register-agency-relationships",
+    "name": "Federal Register Agency Parent/Child Relationships (Derived)",
+    "publisher": "US Government Data Atlas",
+    "url": "https://www.federalregister.gov/api/v1/agencies.json",
+    "format": "JSON derived view",
+    "license": "Derived from U.S. government public data",
+    "notes": "Explicit parent-child edges derived from the Federal Register agency registry, preserving agency IDs, names, slugs, and source URLs."
+  },
+  {
     "id": "national-archives-presidents",
     "name": "U.S. Presidents in the Census Records",
     "publisher": "National Archives",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T19:41:35.302961+00:00",
+  "generated_at": "2026-09-25T19:44:25.764329+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -3499,6 +3499,25 @@
       ],
       "source_urls_sample": [
         "https://www.fec.gov/documents/5645/2024presgeresults.xlsx"
+      ]
+    },
+    {
+      "file": "data/normalized/federal_agency_relationships.json",
+      "format": "JSON",
+      "records": 226,
+      "size_bytes": 81355,
+      "fields_sample": [
+        "child_id",
+        "child_name",
+        "child_slug",
+        "parent_id",
+        "parent_name",
+        "parent_slug",
+        "relationship",
+        "source"
+      ],
+      "source_urls_sample": [
+        "https://www.federalregister.gov/api/v1/agencies.json"
       ]
     },
     {

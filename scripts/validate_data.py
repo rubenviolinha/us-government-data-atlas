@@ -65,6 +65,7 @@ def main():
     current_governors = load("current_governors_nga.json")
     presidents = load("presidents.json")
     agencies = load("federal_register_agencies.json")
+    agency_relationships = load("federal_agency_relationships.json")
     executive_orders = load("executive_orders.json")
     proclamations = load("presidential_proclamations.json")
     presidential_documents = load("presidential_documents.json")
@@ -255,6 +256,10 @@ def main():
     assert all(row.get("name") and row.get("source") for row in agencies)
     agency_slugs = [row.get("slug") for row in agencies if row.get("slug")]
     assert len(agency_slugs) == len(set(agency_slugs)), "duplicate Federal Register agency slugs"
+    agency_ids = {row["id"] for row in agencies}
+    assert agency_relationships
+    assert all(row.get("parent_id") in agency_ids and row.get("child_id") in agency_ids and row.get("relationship") == "parent_child" and row.get("source") for row in agency_relationships)
+    assert len({(row["parent_id"], row["child_id"]) for row in agency_relationships}) == len(agency_relationships)
     assert len(executive_orders) >= 1000
     assert all(row.get("title") and row.get("document_number") and row.get("source") for row in executive_orders)
     document_numbers = [row.get("document_number") for row in executive_orders]
