@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T21:59:41.843466+00:00",
+  "generated_at": "2026-09-25T22:03:38.693232+00:00",
   "algorithm": "sha256",
-  "dataset_count": 235,
+  "dataset_count": 241,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -518,6 +518,36 @@
       "file": "data/normalized/acs_state_race_2024.json",
       "sha256": "d1ba00cf763f08662d991870b651013593e60203869d2f977b622093ca0c20a0",
       "size_bytes": 31512
+    },
+    {
+      "file": "data/normalized/acs_tract_age_sex_2024_5yr.json",
+      "sha256": "2e9b65927f94c6ef0f21964dc98ea4366470abe40ee16a496fc698522d855c8a",
+      "size_bytes": 34078792
+    },
+    {
+      "file": "data/normalized/acs_tract_education_2024_5yr.json",
+      "sha256": "fcbe3ac5fb8d4b17699e47442ea2772544be0ba43410504b09f52a05790ff604",
+      "size_bytes": 35267112
+    },
+    {
+      "file": "data/normalized/acs_tract_housing_2024_5yr.json",
+      "sha256": "53707733b5997eb76379c00b83ba70daf94987bd33c21fc15928376190a799ba",
+      "size_bytes": 30833482
+    },
+    {
+      "file": "data/normalized/acs_tract_income_2024_5yr.json",
+      "sha256": "1ffddd133c9516e5c093ef270a978ffa4a3fe1760bab656f5f0d00962864ace5",
+      "size_bytes": 31137209
+    },
+    {
+      "file": "data/normalized/acs_tract_poverty_2024_5yr.json",
+      "sha256": "496c483759817cd885c23a148816f2b163ef011c4f2467d7b91e5caa8b8f4972",
+      "size_bytes": 33909478
+    },
+    {
+      "file": "data/normalized/acs_tract_race_2024_5yr.json",
+      "sha256": "25e48265a2c7c65595170af0043d1aac9e106fb35ef86575c2fb5d56db8463a2",
+      "size_bytes": 41225540
     },
     {
       "file": "data/normalized/american_indian_alaska_native_areas_2025.json",
