@@ -73,6 +73,7 @@ def main():
     fec_presidential_2004 = load("fec_presidential_general_2004.json")
     fec_presidential_2008 = load("fec_presidential_general_2008.json")
     fec_presidential_2012 = load("fec_presidential_general_2012.json")
+    fec_presidential_2020 = load("fec_presidential_general_2020.json")
     fec_federal_elections = load("fec_federal_elections_2022.json")
     fec_federal_elections_2020 = load("fec_federal_elections_2020.json")
     fec_federal_elections_2018 = load("fec_federal_elections_2018.json")
@@ -197,6 +198,8 @@ def main():
     assert all(row.get("fec_id") and row.get("candidate_name") and row.get("state") and row.get("votes") is not None and row.get("election_year") == 2008 and row.get("source") for row in fec_presidential_2008)
     assert len(fec_presidential_2012) >= 450
     assert all(row.get("fec_id") and row.get("candidate_name") and row.get("state") and row.get("votes") is not None and row.get("election_year") == 2012 and row.get("source") for row in fec_presidential_2012)
+    assert len(fec_presidential_2020) >= 550
+    assert all(row.get("fec_id") and row.get("candidate_name") and row.get("state") and row.get("votes") is not None and row.get("election_year") == 2020 and row.get("source") for row in fec_presidential_2020)
     assert len(fec_federal_elections) >= 3000
     assert all(row.get("fec_id") and row.get("candidate_name") and row.get("office") in {"senate", "house"} and row.get("election_year") == 2022 and row.get("source") for row in fec_federal_elections)
     assert len(fec_federal_elections_2020) >= 2800
