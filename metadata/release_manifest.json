@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T22:03:38.693232+00:00",
+  "generated_at": "2026-09-25T22:08:51.579769+00:00",
   "algorithm": "sha256",
-  "dataset_count": 241,
+  "dataset_count": 247,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -548,6 +548,36 @@
       "file": "data/normalized/acs_tract_race_2024_5yr.json",
       "sha256": "25e48265a2c7c65595170af0043d1aac9e106fb35ef86575c2fb5d56db8463a2",
       "size_bytes": 41225540
+    },
+    {
+      "file": "data/normalized/acs_urban_age_sex_2024_5yr.json",
+      "sha256": "21a3a2b79a6bbc33ecd73f4fcd42a606bbe0bb17220162f48b7826e4e4f01f16",
+      "size_bytes": 953443
+    },
+    {
+      "file": "data/normalized/acs_urban_education_2024_5yr.json",
+      "sha256": "45ae6e793aba099ca704049d31c17e4b34509e0d561c0dd9b17ab95c2cf7866d",
+      "size_bytes": 991463
+    },
+    {
+      "file": "data/normalized/acs_urban_housing_2024_5yr.json",
+      "sha256": "54d4a32270e14822e76aff4bf195bb363e502905f73cd8e4002bb175e619a27f",
+      "size_bytes": 858352
+    },
+    {
+      "file": "data/normalized/acs_urban_income_2024_5yr.json",
+      "sha256": "7b23df524717b1e3ca83d0278d724e05172658e3cd753fda3bf80ad59a21fe92",
+      "size_bytes": 880413
+    },
+    {
+      "file": "data/normalized/acs_urban_poverty_2024_5yr.json",
+      "sha256": "b4d3fcb7dbcf25257802242bf3e4626dc252dbee55824ba7b9baa04954017c58",
+      "size_bytes": 950833
+    },
+    {
+      "file": "data/normalized/acs_urban_race_2024_5yr.json",
+      "sha256": "a61ca0e2007c4a0ee90f808a30936f68ac374ec824afe70159f0bb1ca9dac684",
+      "size_bytes": 1170205
     },
     {
       "file": "data/normalized/american_indian_alaska_native_areas_2025.json",
