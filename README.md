@@ -75,4 +75,6 @@ Then use `GET /health`, `GET /catalog`, or `GET /datasets/<filename>.json`, for 
 
 The API smoke tests run in CI with `python -m unittest tests/test_api.py`.
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for provenance, licensing, and refresh requirements. The repository code is MIT-licensed; dataset terms remain source-specific.
+
 The legislator script imports current and historical congressional members and terms from the open `unitedstates/congress-legislators` project, retaining Bioguide and other government identifiers.
