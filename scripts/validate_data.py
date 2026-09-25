@@ -95,6 +95,7 @@ def main():
     acs_district_2024_5yr = {label: load(f"acs_district_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_aiannh_2024 = {label: load(f"acs_aiannh_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_state_legislative_2024 = {(chamber, label): load(f"acs_state_legislative_{chamber}_{label}_2024_5yr.json") for chamber in ("upper", "lower") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
+    acs_cbsa_2024_5yr = {label: load(f"acs_cbsa_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     current_cabinet = load("current_cabinet_white_house.json")
     secretaries_of_state = load("secretaries_of_state.json")
     state_department_principals = load("state_department_principals.json")
@@ -489,6 +490,10 @@ def main():
         assert len(rows) == expected, (chamber, label, len(rows), expected)
         assert len({row["district_geoid"] for row in rows}) == len(rows)
         assert all(row.get("GEO_ID", "").startswith(prefix) and len(row.get("district_geoid", "")) == 5 and row.get("chamber") == chamber and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
+    for label, rows in acs_cbsa_2024_5yr.items():
+        assert len(rows) == 935, (label, len(rows))
+        assert len({row["cbsa_geoid"] for row in rows}) == len(rows)
+        assert all(row.get("GEO_ID", "").startswith("310M700US") and len(row.get("cbsa_geoid", "")) == 5 and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
     assert_unique(counties_2024, "GEOID", "2024 county GEOIDs")
     assert_unique(zctas_2024, "GEOID", "2024 ZCTA GEOIDs")
     assert_unique(cbsa_2024, "GEOID", "2024 CBSA GEOIDs")
