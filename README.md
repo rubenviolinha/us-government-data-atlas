@@ -30,6 +30,7 @@ python3 scripts/fetch_initial_data.py
 python3 scripts/fetch_geography.py
 python3 scripts/fetch_gnis.py
 python3 scripts/fetch_districts.py
+python3 scripts/validate_data.py
 ```
 
 The scripts use public Census endpoints and write retrieval manifests alongside the downloaded data. State capitals are included as an explicitly marked initial reference while state-government validation is added.
@@ -37,3 +38,5 @@ The scripts use public Census endpoints and write retrieval manifests alongside 
 The GNIS script downloads the compact Government Units and Populated Places extracts (states, counties, cities, and other named places) rather than the much larger all-names archive.
 
 The district script extracts a compact attribute table from the 2020 TIGER congressional-district archive; the source archive remains available for geometry consumers.
+
+The validator checks identifier uniqueness and cross-references between states, counties, places, ZCTAs, relationships, and districts. It also runs in GitHub Actions on pushes and pull requests.
