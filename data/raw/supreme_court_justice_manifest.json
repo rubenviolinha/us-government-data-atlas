@@ -1,0 +1,9 @@
+{
+  "retrieved_at": "2026-09-25T10:31:48.495645+00:00",
+  "source": "https://www.supremecourt.gov/about/members_text.aspx",
+  "raw_file": "data/raw/supreme-court-justices.html",
+  "file": "data/normalized/supreme_court_justices.json",
+  "records": 121,
+  "chief_records": 17,
+  "associate_records": 104
+}

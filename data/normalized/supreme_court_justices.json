@@ -1,0 +1,1091 @@
+[
+  {
+    "name": "Wilson, James",
+    "role": "associate",
+    "state_appointed_from": "Pennsylvania",
+    "appointed_by_president": "Washington",
+    "oath_date": "1789-10-05",
+    "service_terminated_date": "1798-08-21",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Jay, John",
+    "role": "chief",
+    "state_appointed_from": "New York",
+    "appointed_by_president": "Washington",
+    "oath_date": "1789-10-19",
+    "service_terminated_date": "1795-06-29",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Blair, John",
+    "role": "associate",
+    "state_appointed_from": "Virginia",
+    "appointed_by_president": "Washington",
+    "oath_date": "1790-02-02",
+    "service_terminated_date": "1795-10-25",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Cushing, William",
+    "role": "associate",
+    "state_appointed_from": "Massachusetts",
+    "appointed_by_president": "Washington",
+    "oath_date": "1790-02-02",
+    "service_terminated_date": "1810-09-13",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Rutledge, John",
+    "role": "associate",
+    "state_appointed_from": "South Carolina",
+    "appointed_by_president": "Washington",
+    "oath_date": "1790-02-15",
+    "service_terminated_date": "1791-03-05",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Iredell, James",
+    "role": "associate",
+    "state_appointed_from": "North Carolina",
+    "appointed_by_president": "Washington",
+    "oath_date": "1790-05-12",
+    "service_terminated_date": "1799-10-20",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Johnson, Thomas",
+    "role": "associate",
+    "state_appointed_from": "Maryland",
+    "appointed_by_president": "Washington",
+    "oath_date": "1791-09-19",
+    "service_terminated_date": "1793-01-16",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Paterson, William",
+    "role": "associate",
+    "state_appointed_from": "New Jersey",
+    "appointed_by_president": "Washington",
+    "oath_date": "1793-03-11",
+    "service_terminated_date": "1806-09-09",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Rutledge, John",
+    "role": "chief",
+    "state_appointed_from": "South Carolina",
+    "appointed_by_president": "Washington",
+    "oath_date": "1795-08-12",
+    "service_terminated_date": "1795-12-15",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Chase, Samuel",
+    "role": "associate",
+    "state_appointed_from": "Maryland",
+    "appointed_by_president": "Washington",
+    "oath_date": "1796-02-04",
+    "service_terminated_date": "1811-06-19",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Ellsworth, Oliver",
+    "role": "chief",
+    "state_appointed_from": "Connecticut",
+    "appointed_by_president": "Washington",
+    "oath_date": "1796-03-08",
+    "service_terminated_date": "1800-12-15",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Washington, Bushrod",
+    "role": "associate",
+    "state_appointed_from": "Virginia",
+    "appointed_by_president": "Adams, John",
+    "oath_date": "1798-11-09",
+    "service_terminated_date": "1829-11-26",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Moore, Alfred",
+    "role": "associate",
+    "state_appointed_from": "North Carolina",
+    "appointed_by_president": "Adams, John",
+    "oath_date": "1800-04-21",
+    "service_terminated_date": "1804-01-26",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Marshall, John",
+    "role": "chief",
+    "state_appointed_from": "Virginia",
+    "appointed_by_president": "Adams, John",
+    "oath_date": "1801-02-04",
+    "service_terminated_date": "1835-07-06",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Johnson, William",
+    "role": "associate",
+    "state_appointed_from": "South Carolina",
+    "appointed_by_president": "Jefferson",
+    "oath_date": "1804-05-07",
+    "service_terminated_date": "1834-08-04",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Livingston, Brockholst",
+    "role": "associate",
+    "state_appointed_from": "New York",
+    "appointed_by_president": "Jefferson",
+    "oath_date": "1807-01-20",
+    "service_terminated_date": "1823-03-18",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Todd, Thomas",
+    "role": "associate",
+    "state_appointed_from": "Kentucky",
+    "appointed_by_president": "Jefferson",
+    "oath_date": "1807-05-04",
+    "service_terminated_date": "1826-02-07",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Duvall, Gabriel",
+    "role": "associate",
+    "state_appointed_from": "Maryland",
+    "appointed_by_president": "Madison",
+    "oath_date": "1811-11-23",
+    "service_terminated_date": "1835-01-14",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Story, Joseph",
+    "role": "associate",
+    "state_appointed_from": "Massachusetts",
+    "appointed_by_president": "Madison",
+    "oath_date": "1812-02-03",
+    "service_terminated_date": "1845-09-10",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Thompson, Smith",
+    "role": "associate",
+    "state_appointed_from": "New York",
+    "appointed_by_president": "Monroe",
+    "oath_date": "1823-09-01",
+    "service_terminated_date": "1843-12-18",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Trimble, Robert",
+    "role": "associate",
+    "state_appointed_from": "Kentucky",
+    "appointed_by_president": "Adams, J. Q.",
+    "oath_date": "1826-06-16",
+    "service_terminated_date": "1828-08-25",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "McLean, John",
+    "role": "associate",
+    "state_appointed_from": "Ohio",
+    "appointed_by_president": "Jackson",
+    "oath_date": "1829-03-12",
+    "service_terminated_date": "1861-04-04",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Baldwin, Henry",
+    "role": "associate",
+    "state_appointed_from": "Pennsylvania",
+    "appointed_by_president": "Jackson",
+    "oath_date": "1830-01-18",
+    "service_terminated_date": "1844-04-21",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Wayne, James Moore",
+    "role": "associate",
+    "state_appointed_from": "Georgia",
+    "appointed_by_president": "Jackson",
+    "oath_date": "1835-01-14",
+    "service_terminated_date": "1867-07-05",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Taney, Roger Brooke",
+    "role": "chief",
+    "state_appointed_from": "Maryland",
+    "appointed_by_president": "Jackson",
+    "oath_date": "1836-03-28",
+    "service_terminated_date": "1864-10-12",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Barbour, Philip Pendleton",
+    "role": "associate",
+    "state_appointed_from": "Virginia",
+    "appointed_by_president": "Jackson",
+    "oath_date": "1836-05-12",
+    "service_terminated_date": "1841-02-25",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Catron, John",
+    "role": "associate",
+    "state_appointed_from": "Tennessee",
+    "appointed_by_president": "Jackson",
+    "oath_date": "1837-05-01",
+    "service_terminated_date": "1865-05-30",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "McKinley, John",
+    "role": "associate",
+    "state_appointed_from": "Alabama",
+    "appointed_by_president": "Van Buren",
+    "oath_date": "1838-01-09",
+    "service_terminated_date": "1852-07-19",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Daniel, Peter Vivian",
+    "role": "associate",
+    "state_appointed_from": "Virginia",
+    "appointed_by_president": "Van Buren",
+    "oath_date": "1842-01-10",
+    "service_terminated_date": "1860-05-31",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Nelson, Samuel",
+    "role": "associate",
+    "state_appointed_from": "New York",
+    "appointed_by_president": "Tyler",
+    "oath_date": "1845-02-27",
+    "service_terminated_date": "1872-11-28",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Woodbury, Levi",
+    "role": "associate",
+    "state_appointed_from": "New Hampshire",
+    "appointed_by_president": "Polk",
+    "oath_date": "1845-09-23",
+    "service_terminated_date": "1851-09-04",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Grier, Robert Cooper",
+    "role": "associate",
+    "state_appointed_from": "Pennsylvania",
+    "appointed_by_president": "Polk",
+    "oath_date": "1846-08-10",
+    "service_terminated_date": "1870-01-31",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Curtis, Benjamin Robbins",
+    "role": "associate",
+    "state_appointed_from": "Massachusetts",
+    "appointed_by_president": "Fillmore",
+    "oath_date": "1851-10-10",
+    "service_terminated_date": "1857-09-30",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Campbell, John Archibald",
+    "role": "associate",
+    "state_appointed_from": "Alabama",
+    "appointed_by_president": "Pierce",
+    "oath_date": "1853-04-11",
+    "service_terminated_date": "1861-04-30",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Clifford, Nathan",
+    "role": "associate",
+    "state_appointed_from": "Maine",
+    "appointed_by_president": "Buchanan",
+    "oath_date": "1858-01-21",
+    "service_terminated_date": "1881-07-25",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Swayne, Noah Haynes",
+    "role": "associate",
+    "state_appointed_from": "Ohio",
+    "appointed_by_president": "Lincoln",
+    "oath_date": "1862-01-27",
+    "service_terminated_date": "1881-01-24",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Miller, Samuel Freeman",
+    "role": "associate",
+    "state_appointed_from": "Iowa",
+    "appointed_by_president": "Lincoln",
+    "oath_date": "1862-07-21",
+    "service_terminated_date": "1890-10-13",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Davis, David",
+    "role": "associate",
+    "state_appointed_from": "Illinois",
+    "appointed_by_president": "Lincoln",
+    "oath_date": "1862-12-10",
+    "service_terminated_date": "1877-03-04",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Field, Stephen Johnson",
+    "role": "associate",
+    "state_appointed_from": "California",
+    "appointed_by_president": "Lincoln",
+    "oath_date": "1863-05-20",
+    "service_terminated_date": "1897-12-01",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Chase, Salmon Portland",
+    "role": "chief",
+    "state_appointed_from": "Ohio",
+    "appointed_by_president": "Lincoln",
+    "oath_date": "1864-12-15",
+    "service_terminated_date": "1873-05-07",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Strong, William",
+    "role": "associate",
+    "state_appointed_from": "Pennsylvania",
+    "appointed_by_president": "Grant",
+    "oath_date": "1870-03-14",
+    "service_terminated_date": "1880-12-14",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Bradley, Joseph P.",
+    "role": "associate",
+    "state_appointed_from": "New Jersey",
+    "appointed_by_president": "Grant",
+    "oath_date": "1870-03-23",
+    "service_terminated_date": "1892-01-22",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Hunt, Ward",
+    "role": "associate",
+    "state_appointed_from": "New York",
+    "appointed_by_president": "Grant",
+    "oath_date": "1873-01-09",
+    "service_terminated_date": "1882-01-27",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Waite, Morrison Remick",
+    "role": "chief",
+    "state_appointed_from": "Ohio",
+    "appointed_by_president": "Grant",
+    "oath_date": "1874-03-04",
+    "service_terminated_date": "1888-03-23",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Harlan, John Marshall",
+    "role": "associate",
+    "state_appointed_from": "Kentucky",
+    "appointed_by_president": "Hayes",
+    "oath_date": "1877-12-10",
+    "service_terminated_date": "1911-10-14",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Woods, William Burnham",
+    "role": "associate",
+    "state_appointed_from": "Georgia",
+    "appointed_by_president": "Hayes",
+    "oath_date": "1881-01-05",
+    "service_terminated_date": "1887-05-14",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Matthews, Stanley",
+    "role": "associate",
+    "state_appointed_from": "Ohio",
+    "appointed_by_president": "Garfield",
+    "oath_date": "1881-05-17",
+    "service_terminated_date": "1889-03-22",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Gray, Horace",
+    "role": "associate",
+    "state_appointed_from": "Massachusetts",
+    "appointed_by_president": "Arthur",
+    "oath_date": "1882-01-09",
+    "service_terminated_date": "1902-09-15",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Blatchford, Samuel",
+    "role": "associate",
+    "state_appointed_from": "New York",
+    "appointed_by_president": "Arthur",
+    "oath_date": "1882-04-03",
+    "service_terminated_date": "1893-07-07",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Lamar, Lucius Quintus C.",
+    "role": "associate",
+    "state_appointed_from": "Mississippi",
+    "appointed_by_president": "Cleveland",
+    "oath_date": "1888-01-18",
+    "service_terminated_date": "1893-01-23",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Fuller, Melville Weston",
+    "role": "chief",
+    "state_appointed_from": "Illinois",
+    "appointed_by_president": "Cleveland",
+    "oath_date": "1888-10-08",
+    "service_terminated_date": "1910-07-04",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Brewer, David Josiah",
+    "role": "associate",
+    "state_appointed_from": "Kansas",
+    "appointed_by_president": "Harrison",
+    "oath_date": "1890-01-06",
+    "service_terminated_date": "1910-03-28",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Brown, Henry Billings",
+    "role": "associate",
+    "state_appointed_from": "Michigan",
+    "appointed_by_president": "Harrison",
+    "oath_date": "1891-01-05",
+    "service_terminated_date": "1906-05-28",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Shiras, George, Jr.",
+    "role": "associate",
+    "state_appointed_from": "Pennsylvania",
+    "appointed_by_president": "Harrison",
+    "oath_date": "1892-10-10",
+    "service_terminated_date": "1903-02-23",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Jackson, Howell Edmunds",
+    "role": "associate",
+    "state_appointed_from": "Tennessee",
+    "appointed_by_president": "Harrison",
+    "oath_date": "1893-03-04",
+    "service_terminated_date": "1895-08-08",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "White, Edward Douglass",
+    "role": "associate",
+    "state_appointed_from": "Louisiana",
+    "appointed_by_president": "Cleveland",
+    "oath_date": "1894-03-12",
+    "service_terminated_date": "1910-12-18",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Peckham, Rufus Wheeler",
+    "role": "associate",
+    "state_appointed_from": "New York",
+    "appointed_by_president": "Cleveland",
+    "oath_date": "1896-01-06",
+    "service_terminated_date": "1909-10-24",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "McKenna, Joseph",
+    "role": "associate",
+    "state_appointed_from": "California",
+    "appointed_by_president": "McKinley",
+    "oath_date": "1898-01-26",
+    "service_terminated_date": "1925-01-05",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Holmes, Oliver Wendell",
+    "role": "associate",
+    "state_appointed_from": "Massachusetts",
+    "appointed_by_president": "Roosevelt, T.",
+    "oath_date": "1902-12-08",
+    "service_terminated_date": "1932-01-12",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Day, William Rufus",
+    "role": "associate",
+    "state_appointed_from": "Ohio",
+    "appointed_by_president": "Roosevelt, T.",
+    "oath_date": "1903-03-02",
+    "service_terminated_date": "1922-11-13",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Moody, William Henry",
+    "role": "associate",
+    "state_appointed_from": "Massachusetts",
+    "appointed_by_president": "Roosevelt, T.",
+    "oath_date": "1906-12-17",
+    "service_terminated_date": "1910-11-20",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Lurton, Horace Harmon",
+    "role": "associate",
+    "state_appointed_from": "Tennessee",
+    "appointed_by_president": "Taft",
+    "oath_date": "1910-01-03",
+    "service_terminated_date": "1914-07-12",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Hughes, Charles Evans",
+    "role": "associate",
+    "state_appointed_from": "New York",
+    "appointed_by_president": "Taft",
+    "oath_date": "1910-10-10",
+    "service_terminated_date": "1916-06-10",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "White, Edward Douglass",
+    "role": "chief",
+    "state_appointed_from": "Louisiana",
+    "appointed_by_president": "Taft",
+    "oath_date": "1910-12-19",
+    "service_terminated_date": "1921-05-19",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Lamar, Joseph Rucker",
+    "role": "associate",
+    "state_appointed_from": "Georgia",
+    "appointed_by_president": "Taft",
+    "oath_date": "1911-01-03",
+    "service_terminated_date": "1916-01-02",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Van Devanter, Willis",
+    "role": "associate",
+    "state_appointed_from": "Wyoming",
+    "appointed_by_president": "Taft",
+    "oath_date": "1911-01-03",
+    "service_terminated_date": "1937-06-02",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Pitney, Mahlon",
+    "role": "associate",
+    "state_appointed_from": "New Jersey",
+    "appointed_by_president": "Taft",
+    "oath_date": "1912-03-18",
+    "service_terminated_date": "1922-12-31",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "McReynolds, James Clark",
+    "role": "associate",
+    "state_appointed_from": "Tennessee",
+    "appointed_by_president": "Wilson",
+    "oath_date": "1914-10-12",
+    "service_terminated_date": "1941-01-31",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Brandeis, Louis Dembitz",
+    "role": "associate",
+    "state_appointed_from": "Massachusetts",
+    "appointed_by_president": "Wilson",
+    "oath_date": "1916-06-05",
+    "service_terminated_date": "1939-02-13",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Clarke, John Hessin",
+    "role": "associate",
+    "state_appointed_from": "Ohio",
+    "appointed_by_president": "Wilson",
+    "oath_date": "1916-10-09",
+    "service_terminated_date": "1922-09-18",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Taft, William Howard",
+    "role": "chief",
+    "state_appointed_from": "Connecticut",
+    "appointed_by_president": "Harding",
+    "oath_date": "1921-07-11",
+    "service_terminated_date": "1930-02-03",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Sutherland, George",
+    "role": "associate",
+    "state_appointed_from": "Utah",
+    "appointed_by_president": "Harding",
+    "oath_date": "1922-10-02",
+    "service_terminated_date": "1938-01-17",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Butler, Pierce",
+    "role": "associate",
+    "state_appointed_from": "Minnesota",
+    "appointed_by_president": "Harding",
+    "oath_date": "1923-01-02",
+    "service_terminated_date": "1939-11-16",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Sanford, Edward Terry",
+    "role": "associate",
+    "state_appointed_from": "Tennessee",
+    "appointed_by_president": "Harding",
+    "oath_date": "1923-02-19",
+    "service_terminated_date": "1930-03-08",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Stone, Harlan Fiske",
+    "role": "associate",
+    "state_appointed_from": "New York",
+    "appointed_by_president": "Coolidge",
+    "oath_date": "1925-03-02",
+    "service_terminated_date": "1941-07-02",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Hughes, Charles Evans",
+    "role": "chief",
+    "state_appointed_from": "New York",
+    "appointed_by_president": "Hoover",
+    "oath_date": "1930-02-24",
+    "service_terminated_date": "1941-06-30",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Roberts, Owen Josephus",
+    "role": "associate",
+    "state_appointed_from": "Pennsylvania",
+    "appointed_by_president": "Hoover",
+    "oath_date": "1930-06-02",
+    "service_terminated_date": "1945-07-31",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Cardozo, Benjamin Nathan",
+    "role": "associate",
+    "state_appointed_from": "New York",
+    "appointed_by_president": "Hoover",
+    "oath_date": "1932-03-14",
+    "service_terminated_date": "1938-07-09",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Black, Hugo Lafayette",
+    "role": "associate",
+    "state_appointed_from": "Alabama",
+    "appointed_by_president": "Roosevelt, F.",
+    "oath_date": "1937-08-19",
+    "service_terminated_date": "1971-09-17",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Reed, Stanley Forman",
+    "role": "associate",
+    "state_appointed_from": "Kentucky",
+    "appointed_by_president": "Roosevelt, F.",
+    "oath_date": "1938-01-31",
+    "service_terminated_date": "1957-02-25",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Frankfurter, Felix",
+    "role": "associate",
+    "state_appointed_from": "Massachusetts",
+    "appointed_by_president": "Roosevelt, F.",
+    "oath_date": "1939-01-30",
+    "service_terminated_date": "1962-08-28",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Douglas, William Orville",
+    "role": "associate",
+    "state_appointed_from": "Connecticut",
+    "appointed_by_president": "Roosevelt, F.",
+    "oath_date": "1939-04-17",
+    "service_terminated_date": "1975-11-12",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Murphy, Frank",
+    "role": "associate",
+    "state_appointed_from": "Michigan",
+    "appointed_by_president": "Roosevelt, F.",
+    "oath_date": "1940-02-05",
+    "service_terminated_date": "1949-07-19",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Stone, Harlan Fiske",
+    "role": "chief",
+    "state_appointed_from": "New York",
+    "appointed_by_president": "Roosevelt, F.",
+    "oath_date": "1941-07-03",
+    "service_terminated_date": "1946-04-22",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Byrnes, James Francis",
+    "role": "associate",
+    "state_appointed_from": "South Carolina",
+    "appointed_by_president": "Roosevelt, F.",
+    "oath_date": "1941-07-08",
+    "service_terminated_date": "1942-10-03",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Jackson, Robert Houghwout",
+    "role": "associate",
+    "state_appointed_from": "New York",
+    "appointed_by_president": "Roosevelt, F.",
+    "oath_date": "1941-07-11",
+    "service_terminated_date": "1954-10-09",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Rutledge, Wiley Blount",
+    "role": "associate",
+    "state_appointed_from": "Iowa",
+    "appointed_by_president": "Roosevelt, F.",
+    "oath_date": "1943-02-15",
+    "service_terminated_date": "1949-09-10",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Burton, Harold Hitz",
+    "role": "associate",
+    "state_appointed_from": "Ohio",
+    "appointed_by_president": "Truman",
+    "oath_date": "1945-10-01",
+    "service_terminated_date": "1958-10-13",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Vinson, Fred Moore",
+    "role": "chief",
+    "state_appointed_from": "Kentucky",
+    "appointed_by_president": "Truman",
+    "oath_date": "1946-06-24",
+    "service_terminated_date": "1953-09-08",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Clark, Tom Campbell",
+    "role": "associate",
+    "state_appointed_from": "Texas",
+    "appointed_by_president": "Truman",
+    "oath_date": "1949-08-24",
+    "service_terminated_date": "1967-06-12",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Minton, Sherman",
+    "role": "associate",
+    "state_appointed_from": "Indiana",
+    "appointed_by_president": "Truman",
+    "oath_date": "1949-10-12",
+    "service_terminated_date": "1956-10-15",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Warren, Earl",
+    "role": "chief",
+    "state_appointed_from": "California",
+    "appointed_by_president": "Eisenhower",
+    "oath_date": "1953-10-05",
+    "service_terminated_date": "1969-06-23",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Harlan, John Marshall",
+    "role": "associate",
+    "state_appointed_from": "New York",
+    "appointed_by_president": "Eisenhower",
+    "oath_date": "1955-03-28",
+    "service_terminated_date": "1971-09-23",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Brennan, William J., Jr.",
+    "role": "associate",
+    "state_appointed_from": "New Jersey",
+    "appointed_by_president": "Eisenhower",
+    "oath_date": "1956-10-16",
+    "service_terminated_date": "1990-07-20",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Whittaker, Charles Evans",
+    "role": "associate",
+    "state_appointed_from": "Missouri",
+    "appointed_by_president": "Eisenhower",
+    "oath_date": "1957-03-25",
+    "service_terminated_date": "1962-03-31",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Stewart, Potter",
+    "role": "associate",
+    "state_appointed_from": "Ohio",
+    "appointed_by_president": "Eisenhower",
+    "oath_date": "1958-10-14",
+    "service_terminated_date": "1981-07-03",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "White, Byron Raymond",
+    "role": "associate",
+    "state_appointed_from": "Colorado",
+    "appointed_by_president": "Kennedy",
+    "oath_date": "1962-04-16",
+    "service_terminated_date": "1993-06-28",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Goldberg, Arthur Joseph",
+    "role": "associate",
+    "state_appointed_from": "Illinois",
+    "appointed_by_president": "Kennedy",
+    "oath_date": "1962-10-01",
+    "service_terminated_date": "1965-07-25",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Fortas, Abe",
+    "role": "associate",
+    "state_appointed_from": "Tennessee",
+    "appointed_by_president": "Johnson, L.",
+    "oath_date": "1965-10-04",
+    "service_terminated_date": "1969-05-14",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Marshall, Thurgood",
+    "role": "associate",
+    "state_appointed_from": "New York",
+    "appointed_by_president": "Johnson, L.",
+    "oath_date": "1967-10-02",
+    "service_terminated_date": "1991-10-01",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Burger, Warren Earl",
+    "role": "chief",
+    "state_appointed_from": "Virginia",
+    "appointed_by_president": "Nixon",
+    "oath_date": "1969-06-23",
+    "service_terminated_date": "1986-09-26",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Blackmun, Harry A.",
+    "role": "associate",
+    "state_appointed_from": "Minnesota",
+    "appointed_by_president": "Nixon",
+    "oath_date": "1970-06-09",
+    "service_terminated_date": "1994-08-03",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Powell, Lewis F., Jr.",
+    "role": "associate",
+    "state_appointed_from": "Virginia",
+    "appointed_by_president": "Nixon",
+    "oath_date": "1972-01-07",
+    "service_terminated_date": "1987-06-26",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Rehnquist, William H.",
+    "role": "associate",
+    "state_appointed_from": "Arizona",
+    "appointed_by_president": "Nixon",
+    "oath_date": "1972-01-07",
+    "service_terminated_date": "1986-09-26",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Stevens, John Paul",
+    "role": "associate",
+    "state_appointed_from": "Illinois",
+    "appointed_by_president": "Ford",
+    "oath_date": "1975-12-19",
+    "service_terminated_date": "2010-06-29",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "O'Connor, Sandra Day",
+    "role": "associate",
+    "state_appointed_from": "Arizona",
+    "appointed_by_president": "Reagan",
+    "oath_date": "1981-09-25",
+    "service_terminated_date": "2006-01-31",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Rehnquist, William H.",
+    "role": "chief",
+    "state_appointed_from": "Virginia",
+    "appointed_by_president": "Reagan",
+    "oath_date": "1986-09-26",
+    "service_terminated_date": "2005-09-03",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Scalia, Antonin",
+    "role": "associate",
+    "state_appointed_from": "Virginia",
+    "appointed_by_president": "Reagan",
+    "oath_date": "1986-09-26",
+    "service_terminated_date": "2016-02-13",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Kennedy, Anthony M.",
+    "role": "associate",
+    "state_appointed_from": "California",
+    "appointed_by_president": "Reagan",
+    "oath_date": "1988-02-18",
+    "service_terminated_date": "2018-07-31",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Souter, David H.",
+    "role": "associate",
+    "state_appointed_from": "New Hampshire",
+    "appointed_by_president": "Bush, G. H. W.",
+    "oath_date": "1990-10-09",
+    "service_terminated_date": "2009-06-29",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Thomas, Clarence",
+    "role": "associate",
+    "state_appointed_from": "Georgia",
+    "appointed_by_president": "Bush, G. H. W.",
+    "oath_date": "1991-10-23",
+    "service_terminated_date": null,
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Ginsburg, Ruth Bader",
+    "role": "associate",
+    "state_appointed_from": "New York",
+    "appointed_by_president": "Clinton",
+    "oath_date": "1993-08-10",
+    "service_terminated_date": "2020-09-18",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Breyer, Stephen G.",
+    "role": "associate",
+    "state_appointed_from": "Massachusetts",
+    "appointed_by_president": "Clinton",
+    "oath_date": "1994-08-03",
+    "service_terminated_date": "2022-06-30",
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Roberts, John G., Jr.",
+    "role": "chief",
+    "state_appointed_from": "Maryland",
+    "appointed_by_president": "Bush, G. W.",
+    "oath_date": "2005-09-29",
+    "service_terminated_date": null,
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Alito, Samuel A., Jr.",
+    "role": "associate",
+    "state_appointed_from": "New Jersey",
+    "appointed_by_president": "Bush, G. W.",
+    "oath_date": "2006-01-31",
+    "service_terminated_date": null,
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Sotomayor, Sonia",
+    "role": "associate",
+    "state_appointed_from": "New York",
+    "appointed_by_president": "Obama",
+    "oath_date": "2009-08-08",
+    "service_terminated_date": null,
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Kagan, Elena",
+    "role": "associate",
+    "state_appointed_from": "Massachusetts",
+    "appointed_by_president": "Obama",
+    "oath_date": "2010-08-07",
+    "service_terminated_date": null,
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Gorsuch, Neil M.",
+    "role": "associate",
+    "state_appointed_from": "Colorado",
+    "appointed_by_president": "Trump",
+    "oath_date": "2017-04-10",
+    "service_terminated_date": null,
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Kavanaugh, Brett M.",
+    "role": "associate",
+    "state_appointed_from": "Maryland",
+    "appointed_by_president": "Trump",
+    "oath_date": "2018-10-06",
+    "service_terminated_date": null,
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Barrett, Amy Coney",
+    "role": "associate",
+    "state_appointed_from": "Indiana",
+    "appointed_by_president": "Trump",
+    "oath_date": "2020-10-27",
+    "service_terminated_date": null,
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  },
+  {
+    "name": "Jackson, Ketanji Brown",
+    "role": "associate",
+    "state_appointed_from": "Washington, D.C.",
+    "appointed_by_president": "Biden",
+    "oath_date": "2022-06-30",
+    "service_terminated_date": null,
+    "source": "https://www.supremecourt.gov/about/members_text.aspx"
+  }
+]
