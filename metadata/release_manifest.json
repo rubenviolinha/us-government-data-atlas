@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T21:40:00.919461+00:00",
+  "generated_at": "2026-09-25T21:43:13.042801+00:00",
   "algorithm": "sha256",
-  "dataset_count": 217,
+  "dataset_count": 220,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -1000,9 +1000,24 @@
       "size_bytes": 3413024
     },
     {
-      "file": "data/normalized/svi_tracts_2022.json",
-      "sha256": "916e5a10b6b2d57a3417ec9e7f5be18e2663f24fa4ffbbb209ce961db198355c",
-      "size_bytes": 92366514
+      "file": "data/normalized/svi_tracts_2022_part1.json",
+      "sha256": "ef3c998319855b70acc4872f0fa167e9f2523f96a0e2cf5c233876596612be15",
+      "size_bytes": 18918461
+    },
+    {
+      "file": "data/normalized/svi_tracts_2022_part2.json",
+      "sha256": "a8dc3ebcd7fa49d2c894f292a86a86f89bb321b96816db1db271849790124a7c",
+      "size_bytes": 18845278
+    },
+    {
+      "file": "data/normalized/svi_tracts_2022_part3.json",
+      "sha256": "e24804efe48c5796e0df8a8ca0458049ed45cbae3c3b37836fa8db3b431840be",
+      "size_bytes": 18886180
+    },
+    {
+      "file": "data/normalized/svi_tracts_2022_part4.json",
+      "sha256": "f23c9ab2a1422638bc42dcd1a8f7ad5e1d1b007be3f9e95b869f96179f890b28",
+      "size_bytes": 15527800
     },
     {
       "file": "data/normalized/tracts_2023.json",

@@ -30,9 +30,14 @@ def main():
         row["vintage"] = "CDC/ATSDR SVI 2022"
         row["retrieved_at"] = retrieved_at
     rows.sort(key=lambda row: row["GEOID"])
-    output = DATA / "svi_tracts_2022.json"
-    output.write_text(json.dumps(rows, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({"file": str(output.relative_to(ROOT)), "records": len(rows), "source": ENDPOINT}, indent=2))
+    # Keep each release file comfortably below GitHub's recommended file size.
+    parts = [rows[index:index + 22000] for index in range(0, len(rows), 22000)]
+    outputs = []
+    for index, part in enumerate(parts, start=1):
+        output = DATA / f"svi_tracts_2022_part{index}.json"
+        output.write_text(json.dumps(part, separators=(",", ":")) + "\n", encoding="utf-8")
+        outputs.append(str(output.relative_to(ROOT)))
+    print(json.dumps({"files": outputs, "records": len(rows), "source": ENDPOINT}, indent=2))
 
 
 if __name__ == "__main__":

@@ -82,7 +82,9 @@ def main():
     federal_court_index = load("federal_court_index.json")
     state_summary = load("state_summary.json")
     svi_counties = load("svi_counties_2022.json")
-    svi_tracts = load("svi_tracts_2022.json")
+    svi_tracts = []
+    for path in sorted((ROOT / "data" / "normalized").glob("svi_tracts_2022_part*.json")):
+        svi_tracts.extend(json.loads(path.read_text(encoding="utf-8")))
     current_cabinet = load("current_cabinet_white_house.json")
     secretaries_of_state = load("secretaries_of_state.json")
     state_department_principals = load("state_department_principals.json")
