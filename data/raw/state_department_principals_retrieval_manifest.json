@@ -1,0 +1,9 @@
+{
+  "retrieved_at": "2026-09-25T10:39:16.756357+00:00",
+  "source": "https://history.state.gov/departmenthistory/people/by-name/",
+  "raw_directory": "data/raw/state-department-principals",
+  "file": "data/normalized/state_department_principals.json",
+  "records": 4289,
+  "pages": 25,
+  "scope_note": "The source is a retrospective State Department database; updates are suspended and its inclusion/exclusion rules should be read before treating it as complete diplomatic service history."
+}

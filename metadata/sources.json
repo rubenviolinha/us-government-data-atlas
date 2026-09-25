@@ -8,6 +8,15 @@
     "notes": "Structured historical index with governor name, jurisdiction, party, years in office, and profile URL. The NGA is an association rather than a federal agency; treat this as a curated reference source and reconcile against state archives for authoritative completeness."
   },
   {
+    "id": "state-department-principal-officers",
+    "name": "State Department Principal Officers and Chiefs of Mission",
+    "publisher": "U.S. Department of State, Office of the Historian",
+    "url": "https://history.state.gov/departmenthistory/people/principals-chiefs",
+    "format": "HTML alphabetical index",
+    "license": "U.S. government public data",
+    "notes": "Retrospective biographies, roles, and service-year snippets across principal officers and chiefs of mission. The source documents explicit inclusion/exclusion rules and notes that database updates are suspended."
+  },
+  {
     "id": "state-department-secretaries",
     "name": "Secretaries of State - Principal Officers",
     "publisher": "U.S. Department of State, Office of the Historian",
