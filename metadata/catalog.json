@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T14:57:16.415718+00:00",
+  "generated_at": "2026-09-25T15:15:51.799135+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -743,6 +743,46 @@
       ],
       "source_urls_sample": [
         "https://www.fec.gov/files/bulk-downloads/2024/cm24.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_federal_elections_2022.json",
+      "format": "JSON",
+      "records": 3048,
+      "size_bytes": 1880658,
+      "fields_sample": [
+        "(i)_incumbent_indicator",
+        "1",
+        "1st_round_rcv_%",
+        "1st_round_rcv_votes",
+        "2nd_round_rcv_%",
+        "2nd_round_rcv_votes",
+        "3rd_round_rcv_%",
+        "3rd_round_rcv_votes",
+        "candidate_name",
+        "candidate_name_(first)",
+        "candidate_name_(last)",
+        "district",
+        "election_year",
+        "fec_id",
+        "footnotes",
+        "ge_winner_indicator",
+        "general_%",
+        "general_votes",
+        "office",
+        "party",
+        "pe_winner_indicator",
+        "primary_%",
+        "primary_votes",
+        "runoff_%",
+        "runoff_votes",
+        "source",
+        "source_sheet",
+        "state",
+        "state_abbreviation"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/documents/5676/federalelections2022.xlsx"
       ]
     },
     {

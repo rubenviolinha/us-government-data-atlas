@@ -1,0 +1,12 @@
+{
+  "retrieved_at": "2026-09-25T15:15:36.994285+00:00",
+  "source": "https://www.fec.gov/documents/5676/federalelections2022.xlsx",
+  "format": "Excel workbook",
+  "sheets": {
+    "US Senate Results by State": 481,
+    "US House Results by State": 2567
+  },
+  "records": 3048,
+  "file": "data/normalized/fec_federal_elections_2022.json",
+  "note": "Official certified federal election compilation; no API key used."
+}

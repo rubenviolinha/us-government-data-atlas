@@ -80,6 +80,15 @@
     "notes": "Results compiled from official state and territory election offices; preserve the workbook's sheet and field structure."
   },
   {
+    "id": "fec-federal-elections-2022",
+    "name": "Federal Elections 2022",
+    "publisher": "Federal Election Commission",
+    "url": "https://www.fec.gov/documents/5676/federalelections2022.xlsx",
+    "format": "Excel workbook",
+    "license": "U.S. government public data",
+    "notes": "Official certified Senate and House primary/general results by state, candidate, party, and district."
+  },
+  {
     "id": "census-acs-profile-variable-metadata",
     "name": "ACS 2023 5-Year Profile Variable Metadata",
     "publisher": "U.S. Census Bureau",
