@@ -1,0 +1,12 @@
+{
+  "retrieved_at": "2026-09-25T17:16:21.554766+00:00",
+  "sources": {
+    "elsd": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_elsd_national.zip",
+    "scsd": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_scsd_national.zip",
+    "unsd": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_unsd_national.zip"
+  },
+  "format": "Census Gazetteer ZIP/TXT",
+  "records": 13333,
+  "file": "data/normalized/school_districts_2023.json",
+  "note": "National elementary, secondary, and unified school district geography; no API key used."
+}

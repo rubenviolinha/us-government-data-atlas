@@ -29,6 +29,7 @@ def main():
     county_subdivisions = load("county_subdivisions_2023.json")
     tracts = load("tracts_2023.json")
     urban_areas = load("urban_areas_2023.json")
+    school_districts = load("school_districts_2023.json")
     places = load("places_2020.json")
     zctas = load("zctas_2020.json")
     zcta_population = load("zcta_population_acs_2023.json")
@@ -120,6 +121,10 @@ def main():
     assert len(urban_areas) >= 2500
     assert_unique(urban_areas, "GEOID", "urban area GEOIDs")
     assert all(row.get("NAME") and len(row.get("GEOID", "")) == 5 and row.get("INTPTLAT") and row.get("INTPTLONG") for row in urban_areas)
+    assert len(school_districts) >= 13000
+    assert len({(row["district_type"], row["GEOID"]) for row in school_districts}) == len(school_districts), "duplicate school district type/GEOID pairs"
+    assert {row.get("district_type") for row in school_districts} == {"elementary", "secondary", "unified"}
+    assert all(row.get("USPS") and row.get("NAME") and row.get("LOGRADE") and row.get("HIGRADE") for row in school_districts)
     assert_unique(places, "GEOID", "place GEOIDs")
     assert_unique(zctas, "GEOID", "ZCTA GEOIDs")
     assert len(zcta_population) >= 30000

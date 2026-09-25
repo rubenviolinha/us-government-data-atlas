@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:14:54.755109+00:00",
+  "generated_at": "2026-09-25T17:16:45.357625+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2794,6 +2794,27 @@
       "source_urls_sample": [
         "https://www.archives.gov/research/census/presidents"
       ]
+    },
+    {
+      "file": "data/normalized/school_districts_2023.json",
+      "format": "JSON",
+      "records": 13333,
+      "size_bytes": 4519757,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "HIGRADE",
+        "INTPTLAT",
+        "INTPTLONG",
+        "LOGRADE",
+        "NAME",
+        "USPS",
+        "district_type"
+      ],
+      "source_urls_sample": []
     },
     {
       "file": "data/normalized/secretaries_of_state.json",
