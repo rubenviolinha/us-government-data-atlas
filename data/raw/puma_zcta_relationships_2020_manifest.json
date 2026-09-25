@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-25T18:26:50.924315+00:00",
+  "source": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/puma520/tab20_puma520_zcta520_natl.txt",
+  "format": "Census relationship TXT",
+  "records": 47187,
+  "file": "data/normalized/puma_zcta_relationships_2020.json",
+  "note": "PUMA-to-ZCTA relationship with area overlap fields; no API key used."
+}
