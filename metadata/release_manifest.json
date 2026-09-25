@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T20:09:35.175591+00:00",
+  "generated_at": "2026-09-25T20:14:03.546328+00:00",
   "algorithm": "sha256",
-  "dataset_count": 129,
+  "dataset_count": 135,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -128,6 +128,36 @@
       "file": "data/normalized/acs_profile_variables_2023.json",
       "sha256": "206238ae6c8d2f1f794ad004d4467b7b6f9c98fe3f03a5a58adae0fd45f23530",
       "size_bytes": 1776023
+    },
+    {
+      "file": "data/normalized/acs_puma_age_sex_2023.json",
+      "sha256": "2c1b4aa4c723491c61d00a5b7a32b2e6033431d7f269643f581945caead507f7",
+      "size_bytes": 1179447
+    },
+    {
+      "file": "data/normalized/acs_puma_education_2023.json",
+      "sha256": "bdd09b8a2c32a0e404e432d2c730490a0391bde9853c9f342d6ea12cf42888fa",
+      "size_bytes": 1191046
+    },
+    {
+      "file": "data/normalized/acs_puma_housing_2023.json",
+      "sha256": "4ad8a8b57c033e132360230a51aa2449b9585fe1949f0a59ea6f123834c2d1b6",
+      "size_bytes": 1044417
+    },
+    {
+      "file": "data/normalized/acs_puma_income_2023.json",
+      "sha256": "80ee9cbd5b5d57975ff17c4dbe8c05a57c207cbfe08cec93174456175933b477",
+      "size_bytes": 1046073
+    },
+    {
+      "file": "data/normalized/acs_puma_poverty_2023.json",
+      "sha256": "5f0b69ca4fe59027ea9368c9a40519efd282c4ef11e4a5cb3401bd50c57652b7",
+      "size_bytes": 1174414
+    },
+    {
+      "file": "data/normalized/acs_puma_race_2023.json",
+      "sha256": "b134dcf91a52ea050f7a8051938a0008ffda2c704376b50d1fba1f9d127ca67d",
+      "size_bytes": 1484143
     },
     {
       "file": "data/normalized/acs_school_age_sex_2023.json",

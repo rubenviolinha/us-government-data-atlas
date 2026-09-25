@@ -666,6 +666,15 @@
     "notes": "Keyless all-sector combined statistical-area totals for establishments, employment, first-quarter payroll, and annual payroll."
   },
   {
+    "id": "census-acs-puma-profiles-2023",
+    "name": "ACS 2023 1-Year PUMA Compact Profiles",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/1YRData/",
+    "format": "Delimited bulk summary files",
+    "license": "U.S. government public data",
+    "notes": "Keyless compact B01001, B15003, B17001, B19013, B25001, and B02001 profiles for 2023 PUMAs, preserving PUMA GEOIDs, estimates, margins of error, and source table labels."
+  },
+  {
     "id": "national-archives-presidents",
     "name": "U.S. Presidents in the Census Records",
     "publisher": "National Archives",

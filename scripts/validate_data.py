@@ -136,6 +136,12 @@ def main():
     acs_district_education = load("acs_district_education_2023.json")
     acs_district_poverty = load("acs_district_poverty_2023.json")
     acs_district_age_sex = load("acs_district_age_sex_2023.json")
+    acs_puma_age_sex = load("acs_puma_age_sex_2023.json")
+    acs_puma_education = load("acs_puma_education_2023.json")
+    acs_puma_poverty = load("acs_puma_poverty_2023.json")
+    acs_puma_income = load("acs_puma_income_2023.json")
+    acs_puma_housing = load("acs_puma_housing_2023.json")
+    acs_puma_race = load("acs_puma_race_2023.json")
     noaa_state_climate = load("noaa_state_climate_1895_2024.json")
     acs_school_age_sex = load("acs_school_age_sex_2023.json")
     acs_school_education = load("acs_school_education_2023.json")
@@ -324,6 +330,10 @@ def main():
     assert {row["group"] for row in acs_variables} == {"DP02", "DP03", "DP04", "DP05"}
     assert len(acs_state_age_sex) >= 50
     assert all(row.get("GEO_ID", "").startswith("0400000US") and row.get("state_fips") and row.get("source") for row in acs_state_age_sex)
+    for puma_rows in (acs_puma_age_sex, acs_puma_education, acs_puma_poverty, acs_puma_income, acs_puma_housing, acs_puma_race):
+        assert len(puma_rows) >= 2400
+        assert len({row.get("puma_geoid") for row in puma_rows}) == len(puma_rows)
+        assert all(row.get("puma_geoid") and len(row["puma_geoid"]) == 7 and row.get("source") and row.get("vintage") == "2023 ACS 1-year" for row in puma_rows)
     assert len({row["GEO_ID"] for row in acs_state_age_sex}) == len(acs_state_age_sex)
     for label, rows in (("education", acs_state_education), ("poverty", acs_state_poverty), ("income", acs_state_income), ("housing", acs_state_housing), ("race", acs_state_race)):
         assert len(rows) >= 50, f"too few ACS {label} rows"

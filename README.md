@@ -12,7 +12,7 @@ An open, versioned catalog of U.S. government, geographic, demographic, and hist
 
 Every dataset should preserve its source URL, retrieval timestamp, source vintage, license, and transformation notes.
 
-The current release contains 129 cataloged datasets, including 57 Census reference jurisdictions, 3,222 counties, 2020 and 2023 ZCTA geography, 85,396 tracts, 3,192 2023 county business-pattern totals, 925 2023 CBSA and 181 2023 CSA business-pattern totals, 35,002 2022 and 34,954 2023 ZIP Code Business Patterns totals, complete six-table ACS demographic profiles for 36,434 county subdivisions, 32,329 places, 13,333 school districts, complete six-table demographic profiles for 10,904 unified school districts, current and historical governor rosters, the current White House Cabinet roster, historical and current senator/representative views, historical and current state legislative chamber views, historical and current Supreme Court justice views, historical and current Article III federal judge views, explicit Federal Register agency hierarchy relationships, 6,844 state legislative districts, dated congressional districts, tribal areas, urban areas, CBSAs, PUMAs, district and place-level ACS demographic profiles, NOAA statewide climate history, and ZIP/PUMA/place/CBSA relationship and vintage-crosswalk tables.
+The current release contains 135 cataloged datasets, including 57 Census reference jurisdictions, 3,222 counties, 2020 and 2023 ZCTA geography, 85,396 tracts, six compact 2023 ACS PUMA demographic profiles, 3,192 2023 county business-pattern totals, 925 2023 CBSA and 181 2023 CSA business-pattern totals, 35,002 2022 and 34,954 2023 ZIP Code Business Patterns totals, complete six-table ACS demographic profiles for 36,434 county subdivisions, 32,329 places, 13,333 school districts, complete six-table demographic profiles for 10,904 unified school districts, current and historical governor rosters, the current White House Cabinet roster, historical and current senator/representative views, historical and current state legislative chamber views, historical and current Supreme Court justice views, historical and current Article III federal judge views, explicit Federal Register agency hierarchy relationships, 6,844 state legislative districts, dated congressional districts, tribal areas, urban areas, CBSAs, PUMAs, district and place-level ACS demographic profiles, NOAA statewide climate history, and ZIP/PUMA/place/CBSA relationship and vintage-crosswalk tables.
 
 ## Repository layout
 
@@ -39,6 +39,7 @@ python3 scripts/fetch_zbp_2023_totals.py
 python3 scripts/fetch_cbp_2023_county_totals.py
 python3 scripts/fetch_cbp_2023_cbsa_totals.py
 python3 scripts/fetch_cbp_2023_csa_totals.py
+python3 scripts/fetch_acs_puma_profiles.py
 python3 scripts/fetch_executive_orders.py
 python3 scripts/fetch_proclamations.py
 python3 scripts/fetch_presidential_documents.py
