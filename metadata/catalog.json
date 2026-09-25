@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T19:53:37.104316+00:00",
+  "generated_at": "2026-09-25T20:06:22.931149+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2135,6 +2135,27 @@
         "status"
       ],
       "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/cbp_cbsa_totals_2023.json",
+      "format": "JSON",
+      "records": 925,
+      "size_bytes": 374032,
+      "fields_sample": [
+        "annual_payroll_thousands",
+        "cbsa",
+        "employment",
+        "establishments",
+        "first_quarter_payroll_thousands",
+        "naics",
+        "name",
+        "retrieved_at",
+        "source",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/cbp/datasets/2023/cbp23msa.zip"
+      ]
     },
     {
       "file": "data/normalized/cbp_county_totals_2023.json",
