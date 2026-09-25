@@ -79,6 +79,14 @@
     "license": "U.S. government public data",
     "notes": "Keyless 5-year ACS compact age/sex, education, poverty, income, housing, and race extracts for 440 congressional districts, keyed by Census GEOID."
   }, {
+    "id": "census-acs-aiannh-profiles-2024",
+    "name": "Census ACS 2024 American Indian and Alaska Native Area Profiles",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/",
+    "format": "Table-based ACS summary files",
+    "license": "U.S. government public data",
+    "notes": "Keyless 5-year ACS compact age/sex, education, poverty, income, housing, and race extracts for 704 AIANNH areas, keyed by Census GEOID."
+  }, {
     "id": "noaa-climate-at-a-glance-statewide",
     "name": "NOAA Climate at a Glance Statewide Annual Series",
     "publisher": "National Centers for Environmental Information",

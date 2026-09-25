@@ -1,9 +1,39 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T22:12:48.565762+00:00",
+  "generated_at": "2026-09-25T22:16:13.277411+00:00",
   "algorithm": "sha256",
-  "dataset_count": 253,
+  "dataset_count": 259,
   "datasets": [
+    {
+      "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
+      "sha256": "cd76e66d3fcba041d1a42389352f8872ac1fac7aeb102d0cb7bb4a388b1ff3c2",
+      "size_bytes": 239889
+    },
+    {
+      "file": "data/normalized/acs_aiannh_education_2024_5yr.json",
+      "sha256": "41dd8495320cc54288f2d86d1305883f0209ecb07d83e9e7d6b86ed0964a8252",
+      "size_bytes": 249902
+    },
+    {
+      "file": "data/normalized/acs_aiannh_housing_2024_5yr.json",
+      "sha256": "af511a223af221298e1c795305f9567e7d1ee056f4e328f2d7346f7a29b0f765",
+      "size_bytes": 214555
+    },
+    {
+      "file": "data/normalized/acs_aiannh_income_2024_5yr.json",
+      "sha256": "a729691aefa8f74fd74f1115d85c0170bf6ee2620b0a0f94df4759921c4e7523",
+      "size_bytes": 219962
+    },
+    {
+      "file": "data/normalized/acs_aiannh_poverty_2024_5yr.json",
+      "sha256": "9e2b4d3bff65bd2eba55e04581f9ee2fc8ee9b2b13baad56ec094c58b88af924",
+      "size_bytes": 239203
+    },
+    {
+      "file": "data/normalized/acs_aiannh_race_2024_5yr.json",
+      "sha256": "3789ccd9a7f165317ce07c2e5248ea16df6f330464079513184cf756ae8d89f1",
+      "size_bytes": 297583
+    },
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
       "sha256": "4ba701262e1b6ff135653480ac59d31a446bf6598c6ccd244ff2abac1dfa5f5b",

@@ -1,0 +1,36 @@
+{
+  "retrieved_at": "2026-09-25T22:15:03.978259+00:00",
+  "tables": {
+    "acs_aiannh_age_sex_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
+      "records": 704
+    },
+    "acs_aiannh_education_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+      "file": "data/normalized/acs_aiannh_education_2024_5yr.json",
+      "records": 704
+    },
+    "acs_aiannh_poverty_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "file": "data/normalized/acs_aiannh_poverty_2024_5yr.json",
+      "records": 704
+    },
+    "acs_aiannh_income_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "file": "data/normalized/acs_aiannh_income_2024_5yr.json",
+      "records": 704
+    },
+    "acs_aiannh_housing_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
+      "file": "data/normalized/acs_aiannh_housing_2024_5yr.json",
+      "records": 704
+    },
+    "acs_aiannh_race_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
+      "file": "data/normalized/acs_aiannh_race_2024_5yr.json",
+      "records": 704
+    }
+  },
+  "note": "Public table-based ACS 2024 5-year AIANNH profile extracts; compact fields; no API key used."
+}
