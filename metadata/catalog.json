@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:20:34.463954+00:00",
+  "generated_at": "2026-09-25T17:22:32.429996+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -1301,6 +1301,24 @@
         "population_2023",
         "population_2024",
         "source_vintage"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/congressional_districts_118th_2023.json",
+      "format": "JSON",
+      "records": 440,
+      "size_bytes": 106760,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "INTPTLAT",
+        "INTPTLONG",
+        "USPS",
+        "congress"
       ],
       "source_urls_sample": []
     },

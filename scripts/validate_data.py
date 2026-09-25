@@ -32,6 +32,7 @@ def main():
     school_districts = load("school_districts_2023.json")
     tribal_areas = load("tribal_areas_2023.json")
     state_legislative_districts = load("state_legislative_districts_2023.json")
+    congressional_districts_118 = load("congressional_districts_118th_2023.json")
     places = load("places_2020.json")
     zctas = load("zctas_2020.json")
     zcta_population = load("zcta_population_acs_2023.json")
@@ -135,6 +136,9 @@ def main():
     assert len({(row["chamber"], row["GEOID"]) for row in state_legislative_districts}) == len(state_legislative_districts)
     assert {row.get("chamber") for row in state_legislative_districts} == {"lower", "upper"}
     assert all(row.get("USPS") and row.get("NAME") and row.get("INTPTLAT") and row.get("INTPTLONG") for row in state_legislative_districts)
+    assert len(congressional_districts_118) >= 435
+    assert_unique(congressional_districts_118, "GEOID", "118th Congress district GEOIDs")
+    assert all(row.get("congress") == "118" and row.get("USPS") and len(row.get("GEOID", "")) == 4 and row.get("INTPTLAT") and row.get("INTPTLONG") for row in congressional_districts_118)
     assert_unique(places, "GEOID", "place GEOIDs")
     assert_unique(zctas, "GEOID", "ZCTA GEOIDs")
     assert len(zcta_population) >= 30000
