@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-25T18:28:38.570732+00:00",
+  "source": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/puma520/tab20_puma520_zcta520_natl.txt",
+  "format": "Derived Census relationship reference",
+  "records": 2487,
+  "file": "data/normalized/pumas_2020.json",
+  "note": "Deduplicated PUMA reference records derived from the official Census PUMA-ZCTA relationship file; no API key used."
+}

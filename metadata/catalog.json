@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T18:26:13.573578+00:00",
+  "generated_at": "2026-09-25T18:29:03.336328+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2894,8 +2894,8 @@
     {
       "file": "data/normalized/puma_zcta_relationships_2020.json",
       "format": "JSON",
-      "records": 47838,
-      "size_bytes": 30260211,
+      "records": 47187,
+      "size_bytes": 30022183,
       "fields_sample": [
         "AREALAND_PART",
         "AREALAND_PUMA5_20",
@@ -2914,6 +2914,22 @@
         "NAMELSAD_ZCTA5_20",
         "OID_PUMA5_20",
         "OID_ZCTA5_20"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/pumas_2020.json",
+      "format": "JSON",
+      "records": 2487,
+      "size_bytes": 745478,
+      "fields_sample": [
+        "AREALAND_PUMA5_20",
+        "AREAWATER_PUMA5_20",
+        "FUNCSTAT_PUMA5_20",
+        "GEOID_PUMA5_20",
+        "MTFCC_PUMA5_20",
+        "NAMELSAD_PUMA5_20",
+        "OID_PUMA5_20"
       ],
       "source_urls_sample": []
     },

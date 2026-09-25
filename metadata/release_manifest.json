@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T18:26:13.917138+00:00",
+  "generated_at": "2026-09-25T18:29:03.687963+00:00",
   "algorithm": "sha256",
-  "dataset_count": 90,
+  "dataset_count": 91,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -356,8 +356,13 @@
     },
     {
       "file": "data/normalized/puma_zcta_relationships_2020.json",
-      "sha256": "65f6a560e142bae27321183f266f0ad41a13060800e103f9505e04769170717a",
-      "size_bytes": 30260211
+      "sha256": "79fbf235fb7bce9e96f068a7d3947ace73d7b34e405963488f3585371130f04c",
+      "size_bytes": 30022183
+    },
+    {
+      "file": "data/normalized/pumas_2020.json",
+      "sha256": "18ccf99b3a98233c02a3d99f42eee61b6c10bb3f44d419d7982efcfaf4093264",
+      "size_bytes": 745478
     },
     {
       "file": "data/normalized/school_administrative_districts_2023.json",
