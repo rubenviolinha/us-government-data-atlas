@@ -1,0 +1,20 @@
+{
+  "retrieved_at": "2026-09-25T09:49:13.360232+00:00",
+  "files": [
+    {
+      "path": "data/raw/census_state_population_2024.csv",
+      "source": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2024/state/totals/NST-EST2024-ALLDATA.csv",
+      "records": 52
+    },
+    {
+      "path": "data/normalized/state_population_2024.json",
+      "source": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2024/state/totals/NST-EST2024-ALLDATA.csv",
+      "records": 52
+    },
+    {
+      "source": "https://www.senate.gov/senators/Senators1789toPresent.htm",
+      "status": "deferred",
+      "reason": "HTTP Error 403: Forbidden"
+    }
+  ]
+}

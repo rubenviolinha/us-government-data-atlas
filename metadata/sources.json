@@ -1,0 +1,38 @@
+[
+  {
+    "id": "census-pep-state",
+    "name": "Census Population Estimates by State",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://api.census.gov/data/2024/pep/population?get=NAME,POP_2024&for=state:*",
+    "format": "JSON",
+    "license": "U.S. government public data",
+    "notes": "Annual state population estimates; preserve vintage and retrieval date."
+  },
+  {
+    "id": "census-gazetteer-state",
+    "name": "Census Gazetteer State Files",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www.census.gov/geographies/reference-files/2023/geo/gazetter-file.html",
+    "format": "Tab-delimited text",
+    "license": "U.S. government public data",
+    "notes": "Geographic reference files; population counts are not included."
+  },
+  {
+    "id": "senate-1789-present",
+    "name": "Senators of the United States, 1789-Present",
+    "publisher": "U.S. Senate Historical Office",
+    "url": "https://www.senate.gov/senators/Senators1789toPresent.htm",
+    "format": "HTML",
+    "license": "U.S. government public data",
+    "notes": "Historical chronology; use for validation against member-level records."
+  },
+  {
+    "id": "census-zcta",
+    "name": "ZIP Code Tabulation Areas",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www.census.gov/programs-surveys/geography/guidance/geo-areas/zctas.html",
+    "format": "Shapefile / relationship files",
+    "license": "U.S. government public data",
+    "notes": "ZCTAs are statistical approximations of USPS ZIP service areas, not postal delivery boundaries."
+  }
+]
