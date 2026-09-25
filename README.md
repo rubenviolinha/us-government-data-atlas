@@ -59,4 +59,8 @@ The validator checks identifier uniqueness and cross-references between states, 
 
 The capital validator reconciles the initial capital list to Census places and explicitly flags island jurisdictions and naming exceptions for official state-government review.
 
+## Access handoff
+
+`metadata/access_requirements.json` records the remaining external requirements: Census ACS credentials or bulk-file approval, USPS licensing for exact ZIP delivery geography, a FEC API key for election data, and a source decision for state legislators. Everything else in the current release is fetched from public, keyless sources.
+
 The legislator script imports current and historical congressional members and terms from the open `unitedstates/congress-legislators` project, retaining Bioguide and other government identifiers.

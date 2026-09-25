@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-09-25",
+  "purpose": "Track external access or licensing needed for remaining atlas domains.",
+  "requirements": [
+    {
+      "id": "census-acs-profile-data",
+      "domain": "demographics",
+      "status": "key_or_bulk_file_required",
+      "source": "https://api.census.gov/data/2023/acs/acs5/profile",
+      "needed_from_user": "A Census API key, or approval to use and store the large downloadable ACS summary files.",
+      "why": "The Census API currently returns a missing-key response for data queries in this environment.",
+      "keyless_fallback": "ACS table-based summary files from www2.census.gov"
+    },
+    {
+      "id": "usps-zip-reference",
+      "domain": "postal_geography",
+      "status": "license_or_authorized_feed_required",
+      "source": "https://postalpro.usps.com/",
+      "needed_from_user": "A USPS-authorized data agreement/feed if exact postal ZIP delivery data is required.",
+      "why": "Census ZCTAs are available and already ingested, but USPS ZIP delivery geography is separately governed and is not a freely redistributable bulk dataset."
+    },
+    {
+      "id": "fec-election-data",
+      "domain": "elections",
+      "status": "api_key_required_for_api_ingestion",
+      "source": "https://api.open.fec.gov/developers/",
+      "needed_from_user": "A FEC API key for reliable candidate, committee, and election-result ingestion.",
+      "why": "The official FEC API requires an API key for sustained use."
+    },
+    {
+      "id": "state-legislators",
+      "domain": "state_government",
+      "status": "source_selection_required",
+      "source": "https://openstates.org/",
+      "needed_from_user": "Approval of an Open States or state-by-state source strategy, plus any required API credentials.",
+      "why": "There is no single keyless authoritative national feed equivalent to the congressional and governor sources already used."
+    }
+  ]
+}
