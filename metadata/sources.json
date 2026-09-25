@@ -1,5 +1,14 @@
 [
   {
+    "id": "census-place-population-estimates-2024",
+    "name": "Census Place Population Estimates, 2020-2024",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2024/cities/totals/sub-est2024.csv",
+    "format": "CSV",
+    "license": "U.S. government public data",
+    "notes": "Annual estimates for Census places, including incorporated places and census-designated places."
+  },
+  {
     "id": "census-county-population-estimates-2024",
     "name": "Census County Population Estimates, 2020-2024",
     "publisher": "U.S. Census Bureau",
