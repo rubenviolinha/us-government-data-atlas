@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T10:37:00.469518+00:00",
+  "generated_at": "2026-09-25T10:39:47.710677+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -831,6 +831,44 @@
       ],
       "source_urls_sample": [
         "https://history.state.gov/departmenthistory/people/principalofficers/secretary"
+      ]
+    },
+    {
+      "file": "data/normalized/state_department_principals.json",
+      "format": "JSON",
+      "records": 4289,
+      "size_bytes": 1218623,
+      "fields_sample": [
+        "birth_year",
+        "death_year",
+        "name",
+        "profile_url",
+        "roles",
+        "source"
+      ],
+      "source_urls_sample": [
+        "https://history.state.gov/departmenthistory/people/by-name/a",
+        "https://history.state.gov/departmenthistory/people/by-name/b",
+        "https://history.state.gov/departmenthistory/people/by-name/c",
+        "https://history.state.gov/departmenthistory/people/by-name/d",
+        "https://history.state.gov/departmenthistory/people/by-name/e",
+        "https://history.state.gov/departmenthistory/people/by-name/f",
+        "https://history.state.gov/departmenthistory/people/by-name/g",
+        "https://history.state.gov/departmenthistory/people/by-name/h",
+        "https://history.state.gov/departmenthistory/people/by-name/j",
+        "https://history.state.gov/departmenthistory/people/by-name/k",
+        "https://history.state.gov/departmenthistory/people/by-name/l",
+        "https://history.state.gov/departmenthistory/people/by-name/m",
+        "https://history.state.gov/departmenthistory/people/by-name/n",
+        "https://history.state.gov/departmenthistory/people/by-name/o",
+        "https://history.state.gov/departmenthistory/people/by-name/p",
+        "https://history.state.gov/departmenthistory/people/by-name/r",
+        "https://history.state.gov/departmenthistory/people/by-name/s",
+        "https://history.state.gov/departmenthistory/people/by-name/t",
+        "https://history.state.gov/departmenthistory/people/by-name/u",
+        "https://history.state.gov/departmenthistory/people/by-name/v",
+        "https://history.state.gov/departmenthistory/people/by-name/w",
+        "https://history.state.gov/departmenthistory/people/by-name/z"
       ]
     },
     {
