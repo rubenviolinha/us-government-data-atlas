@@ -408,12 +408,15 @@ def main():
         rows = load(filename)
         assert len(rows) == expected, (filename, len(rows), expected)
         assert all(row.get("source_vintage") == "2020-2025" and row.get("population_2025") for row in rows), filename
-    for geo_kind, expected in (("state", 52), ("district", 437), ("puma", None)):
-        geoid_key = {"state": "state_geoid", "district": "district_geoid", "puma": "puma_geoid"}[geo_kind]
+    minimum = {"county": 800, "place": 500}
+    for geo_kind, expected in (("state", 52), ("district", 437), ("county", None), ("place", None), ("puma", None)):
+        geoid_key = {"state": "state_geoid", "district": "district_geoid", "county": "county_geoid", "place": "place_geoid", "puma": "puma_geoid"}[geo_kind]
         for label in ("age_sex", "education", "poverty", "income", "housing", "race"):
             rows = load(f"acs_{geo_kind}_{label}_2024.json")
             if expected is not None:
                 assert len(rows) == expected, (geo_kind, label, len(rows), expected)
+            elif geo_kind in minimum:
+                assert len(rows) >= minimum[geo_kind], (geo_kind, label, len(rows))
             else:
                 assert len(rows) >= 2300, (geo_kind, label, len(rows))
             assert len({row[geoid_key] for row in rows}) == len(rows)

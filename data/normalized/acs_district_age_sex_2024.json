@@ -11,7 +11,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0102",
@@ -25,7 +26,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0103",
@@ -39,7 +41,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0104",
@@ -53,7 +56,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0105",
@@ -67,7 +71,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0106",
@@ -81,7 +86,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0107",
@@ -95,7 +101,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0200",
@@ -109,7 +116,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0401",
@@ -123,7 +131,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0402",
@@ -137,7 +146,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0403",
@@ -151,7 +161,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0404",
@@ -165,7 +176,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0405",
@@ -179,7 +191,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0406",
@@ -193,7 +206,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0407",
@@ -207,7 +221,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0408",
@@ -221,7 +236,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0409",
@@ -235,7 +251,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0501",
@@ -249,7 +266,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0502",
@@ -263,7 +281,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0503",
@@ -277,7 +296,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0504",
@@ -291,7 +311,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0601",
@@ -305,7 +326,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0602",
@@ -319,7 +341,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0603",
@@ -333,7 +356,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0604",
@@ -347,7 +371,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0605",
@@ -361,7 +386,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0606",
@@ -375,7 +401,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0607",
@@ -389,7 +416,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0608",
@@ -403,7 +431,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0609",
@@ -417,7 +446,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0610",
@@ -431,7 +461,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0611",
@@ -445,7 +476,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0612",
@@ -459,7 +491,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0613",
@@ -473,7 +506,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0614",
@@ -487,7 +521,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0615",
@@ -501,7 +536,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0616",
@@ -515,7 +551,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0617",
@@ -529,7 +566,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0618",
@@ -543,7 +581,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0619",
@@ -557,7 +596,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0620",
@@ -571,7 +611,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0621",
@@ -585,7 +626,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0622",
@@ -599,7 +641,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0623",
@@ -613,7 +656,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0624",
@@ -627,7 +671,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0625",
@@ -641,7 +686,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0626",
@@ -655,7 +701,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0627",
@@ -669,7 +716,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0628",
@@ -683,7 +731,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0629",
@@ -697,7 +746,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0630",
@@ -711,7 +761,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0631",
@@ -725,7 +776,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0632",
@@ -739,7 +791,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0633",
@@ -753,7 +806,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0634",
@@ -767,7 +821,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0635",
@@ -781,7 +836,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0636",
@@ -795,7 +851,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0637",
@@ -809,7 +866,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0638",
@@ -823,7 +881,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0639",
@@ -837,7 +896,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0640",
@@ -851,7 +911,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0641",
@@ -865,7 +926,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0642",
@@ -879,7 +941,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0643",
@@ -893,7 +956,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0644",
@@ -907,7 +971,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0645",
@@ -921,7 +986,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0646",
@@ -935,7 +1001,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0647",
@@ -949,7 +1016,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0648",
@@ -963,7 +1031,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0649",
@@ -977,7 +1046,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0650",
@@ -991,7 +1061,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0651",
@@ -1005,7 +1076,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0652",
@@ -1019,7 +1091,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0801",
@@ -1033,7 +1106,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0802",
@@ -1047,7 +1121,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0803",
@@ -1061,7 +1136,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0804",
@@ -1075,7 +1151,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0805",
@@ -1089,7 +1166,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0806",
@@ -1103,7 +1181,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0807",
@@ -1117,7 +1196,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0808",
@@ -1131,7 +1211,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0901",
@@ -1145,7 +1226,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0902",
@@ -1159,7 +1241,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0903",
@@ -1173,7 +1256,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0904",
@@ -1187,7 +1271,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US0905",
@@ -1201,7 +1286,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1000",
@@ -1215,7 +1301,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1198",
@@ -1229,7 +1316,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1201",
@@ -1243,7 +1331,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1202",
@@ -1257,7 +1346,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1203",
@@ -1271,7 +1361,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1204",
@@ -1285,7 +1376,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1205",
@@ -1299,7 +1391,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1206",
@@ -1313,7 +1406,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1207",
@@ -1327,7 +1421,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1208",
@@ -1341,7 +1436,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1209",
@@ -1355,7 +1451,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1210",
@@ -1369,7 +1466,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1211",
@@ -1383,7 +1481,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1212",
@@ -1397,7 +1496,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1213",
@@ -1411,7 +1511,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1214",
@@ -1425,7 +1526,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1215",
@@ -1439,7 +1541,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1216",
@@ -1453,7 +1556,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1217",
@@ -1467,7 +1571,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1218",
@@ -1481,7 +1586,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1219",
@@ -1495,7 +1601,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1220",
@@ -1509,7 +1616,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1221",
@@ -1523,7 +1631,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1222",
@@ -1537,7 +1646,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1223",
@@ -1551,7 +1661,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1224",
@@ -1565,7 +1676,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1225",
@@ -1579,7 +1691,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1226",
@@ -1593,7 +1706,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1227",
@@ -1607,7 +1721,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1228",
@@ -1621,7 +1736,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1301",
@@ -1635,7 +1751,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1302",
@@ -1649,7 +1766,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1303",
@@ -1663,7 +1781,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1304",
@@ -1677,7 +1796,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1305",
@@ -1691,7 +1811,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1306",
@@ -1705,7 +1826,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1307",
@@ -1719,7 +1841,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1308",
@@ -1733,7 +1856,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1309",
@@ -1747,7 +1871,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1310",
@@ -1761,7 +1886,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1311",
@@ -1775,7 +1901,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1312",
@@ -1789,7 +1916,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1313",
@@ -1803,7 +1931,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1314",
@@ -1817,7 +1946,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1501",
@@ -1831,7 +1961,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1502",
@@ -1845,7 +1976,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1601",
@@ -1859,7 +1991,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1602",
@@ -1873,7 +2006,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1701",
@@ -1887,7 +2021,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1702",
@@ -1901,7 +2036,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1703",
@@ -1915,7 +2051,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1704",
@@ -1929,7 +2066,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1705",
@@ -1943,7 +2081,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1706",
@@ -1957,7 +2096,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1707",
@@ -1971,7 +2111,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1708",
@@ -1985,7 +2126,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1709",
@@ -1999,7 +2141,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1710",
@@ -2013,7 +2156,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1711",
@@ -2027,7 +2171,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1712",
@@ -2041,7 +2186,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1713",
@@ -2055,7 +2201,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1714",
@@ -2069,7 +2216,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1715",
@@ -2083,7 +2231,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1716",
@@ -2097,7 +2246,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1717",
@@ -2111,7 +2261,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1801",
@@ -2125,7 +2276,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1802",
@@ -2139,7 +2291,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1803",
@@ -2153,7 +2306,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1804",
@@ -2167,7 +2321,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1805",
@@ -2181,7 +2336,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1806",
@@ -2195,7 +2351,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1807",
@@ -2209,7 +2366,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1808",
@@ -2223,7 +2381,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1809",
@@ -2237,7 +2396,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1901",
@@ -2251,7 +2411,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1902",
@@ -2265,7 +2426,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1903",
@@ -2279,7 +2441,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US1904",
@@ -2293,7 +2456,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2001",
@@ -2307,7 +2471,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2002",
@@ -2321,7 +2486,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2003",
@@ -2335,7 +2501,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2004",
@@ -2349,7 +2516,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2101",
@@ -2363,7 +2531,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2102",
@@ -2377,7 +2546,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2103",
@@ -2391,7 +2561,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2104",
@@ -2405,7 +2576,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2105",
@@ -2419,7 +2591,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2106",
@@ -2433,7 +2606,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2201",
@@ -2447,7 +2621,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2202",
@@ -2461,7 +2636,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2203",
@@ -2475,7 +2651,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2204",
@@ -2489,7 +2666,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2205",
@@ -2503,7 +2681,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2206",
@@ -2517,7 +2696,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2301",
@@ -2531,7 +2711,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2302",
@@ -2545,7 +2726,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2401",
@@ -2559,7 +2741,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2402",
@@ -2573,7 +2756,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2403",
@@ -2587,7 +2771,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2404",
@@ -2601,7 +2786,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2405",
@@ -2615,7 +2801,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2406",
@@ -2629,7 +2816,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2407",
@@ -2643,7 +2831,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2408",
@@ -2657,7 +2846,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2501",
@@ -2671,7 +2861,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2502",
@@ -2685,7 +2876,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2503",
@@ -2699,7 +2891,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2504",
@@ -2713,7 +2906,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2505",
@@ -2727,7 +2921,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2506",
@@ -2741,7 +2936,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2507",
@@ -2755,7 +2951,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2508",
@@ -2769,7 +2966,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2509",
@@ -2783,7 +2981,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2601",
@@ -2797,7 +2996,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2602",
@@ -2811,7 +3011,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2603",
@@ -2825,7 +3026,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2604",
@@ -2839,7 +3041,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2605",
@@ -2853,7 +3056,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2606",
@@ -2867,7 +3071,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2607",
@@ -2881,7 +3086,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2608",
@@ -2895,7 +3101,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2609",
@@ -2909,7 +3116,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2610",
@@ -2923,7 +3131,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2611",
@@ -2937,7 +3146,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2612",
@@ -2951,7 +3161,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2613",
@@ -2965,7 +3176,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2701",
@@ -2979,7 +3191,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2702",
@@ -2993,7 +3206,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2703",
@@ -3007,7 +3221,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2704",
@@ -3021,7 +3236,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2705",
@@ -3035,7 +3251,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2706",
@@ -3049,7 +3266,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2707",
@@ -3063,7 +3281,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2708",
@@ -3077,7 +3296,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2801",
@@ -3091,7 +3311,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2802",
@@ -3105,7 +3326,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2803",
@@ -3119,7 +3341,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2804",
@@ -3133,7 +3356,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2901",
@@ -3147,7 +3371,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2902",
@@ -3161,7 +3386,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2903",
@@ -3175,7 +3401,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2904",
@@ -3189,7 +3416,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2905",
@@ -3203,7 +3431,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2906",
@@ -3217,7 +3446,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2907",
@@ -3231,7 +3461,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US2908",
@@ -3245,7 +3476,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3001",
@@ -3259,7 +3491,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3002",
@@ -3273,7 +3506,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3101",
@@ -3287,7 +3521,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3102",
@@ -3301,7 +3536,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3103",
@@ -3315,7 +3551,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3201",
@@ -3329,7 +3566,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3202",
@@ -3343,7 +3581,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3203",
@@ -3357,7 +3596,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3204",
@@ -3371,7 +3611,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3301",
@@ -3385,7 +3626,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3302",
@@ -3399,7 +3641,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3401",
@@ -3413,7 +3656,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3402",
@@ -3427,7 +3671,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3403",
@@ -3441,7 +3686,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3404",
@@ -3455,7 +3701,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3405",
@@ -3469,7 +3716,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3406",
@@ -3483,7 +3731,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3407",
@@ -3497,7 +3746,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3408",
@@ -3511,7 +3761,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3409",
@@ -3525,7 +3776,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3410",
@@ -3539,7 +3791,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3411",
@@ -3553,7 +3806,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3412",
@@ -3567,7 +3821,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3501",
@@ -3581,7 +3836,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3502",
@@ -3595,7 +3851,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3503",
@@ -3609,7 +3866,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3601",
@@ -3623,7 +3881,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3602",
@@ -3637,7 +3896,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3603",
@@ -3651,7 +3911,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3604",
@@ -3665,7 +3926,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3605",
@@ -3679,7 +3941,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3606",
@@ -3693,7 +3956,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3607",
@@ -3707,7 +3971,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3608",
@@ -3721,7 +3986,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3609",
@@ -3735,7 +4001,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3610",
@@ -3749,7 +4016,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3611",
@@ -3763,7 +4031,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3612",
@@ -3777,7 +4046,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3613",
@@ -3791,7 +4061,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3614",
@@ -3805,7 +4076,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3615",
@@ -3819,7 +4091,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3616",
@@ -3833,7 +4106,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3617",
@@ -3847,7 +4121,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3618",
@@ -3861,7 +4136,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3619",
@@ -3875,7 +4151,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3620",
@@ -3889,7 +4166,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3621",
@@ -3903,7 +4181,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3622",
@@ -3917,7 +4196,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3623",
@@ -3931,7 +4211,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3624",
@@ -3945,7 +4226,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3625",
@@ -3959,7 +4241,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3626",
@@ -3973,7 +4256,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3701",
@@ -3987,7 +4271,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3702",
@@ -4001,7 +4286,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3703",
@@ -4015,7 +4301,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3704",
@@ -4029,7 +4316,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3705",
@@ -4043,7 +4331,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3706",
@@ -4057,7 +4346,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3707",
@@ -4071,7 +4361,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3708",
@@ -4085,7 +4376,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3709",
@@ -4099,7 +4391,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3710",
@@ -4113,7 +4406,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3711",
@@ -4127,7 +4421,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3712",
@@ -4141,7 +4436,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3713",
@@ -4155,7 +4451,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3714",
@@ -4169,7 +4466,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3800",
@@ -4183,7 +4481,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3901",
@@ -4197,7 +4496,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3902",
@@ -4211,7 +4511,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3903",
@@ -4225,7 +4526,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3904",
@@ -4239,7 +4541,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3905",
@@ -4253,7 +4556,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3906",
@@ -4267,7 +4571,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3907",
@@ -4281,7 +4586,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3908",
@@ -4295,7 +4601,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3909",
@@ -4309,7 +4616,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3910",
@@ -4323,7 +4631,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3911",
@@ -4337,7 +4646,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3912",
@@ -4351,7 +4661,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3913",
@@ -4365,7 +4676,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3914",
@@ -4379,7 +4691,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US3915",
@@ -4393,7 +4706,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4001",
@@ -4407,7 +4721,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4002",
@@ -4421,7 +4736,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4003",
@@ -4435,7 +4751,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4004",
@@ -4449,7 +4766,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4005",
@@ -4463,7 +4781,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4101",
@@ -4477,7 +4796,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4102",
@@ -4491,7 +4811,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4103",
@@ -4505,7 +4826,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4104",
@@ -4519,7 +4841,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4105",
@@ -4533,7 +4856,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4106",
@@ -4547,7 +4871,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4201",
@@ -4561,7 +4886,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4202",
@@ -4575,7 +4901,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4203",
@@ -4589,7 +4916,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4204",
@@ -4603,7 +4931,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4205",
@@ -4617,7 +4946,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4206",
@@ -4631,7 +4961,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4207",
@@ -4645,7 +4976,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4208",
@@ -4659,7 +4991,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4209",
@@ -4673,7 +5006,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4210",
@@ -4687,7 +5021,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4211",
@@ -4701,7 +5036,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4212",
@@ -4715,7 +5051,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4213",
@@ -4729,7 +5066,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4214",
@@ -4743,7 +5081,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4215",
@@ -4757,7 +5096,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4216",
@@ -4771,7 +5111,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4217",
@@ -4785,7 +5126,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4401",
@@ -4799,7 +5141,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4402",
@@ -4813,7 +5156,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4501",
@@ -4827,7 +5171,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4502",
@@ -4841,7 +5186,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4503",
@@ -4855,7 +5201,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4504",
@@ -4869,7 +5216,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4505",
@@ -4883,7 +5231,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4506",
@@ -4897,7 +5246,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4507",
@@ -4911,7 +5261,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4600",
@@ -4925,7 +5276,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4701",
@@ -4939,7 +5291,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4702",
@@ -4953,7 +5306,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4703",
@@ -4967,7 +5321,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4704",
@@ -4981,7 +5336,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4705",
@@ -4995,7 +5351,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4706",
@@ -5009,7 +5366,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4707",
@@ -5023,7 +5381,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4708",
@@ -5037,7 +5396,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4709",
@@ -5051,7 +5411,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4801",
@@ -5065,7 +5426,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4802",
@@ -5079,7 +5441,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4803",
@@ -5093,7 +5456,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4804",
@@ -5107,7 +5471,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4805",
@@ -5121,7 +5486,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4806",
@@ -5135,7 +5501,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4807",
@@ -5149,7 +5516,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4808",
@@ -5163,7 +5531,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4809",
@@ -5177,7 +5546,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4810",
@@ -5191,7 +5561,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4811",
@@ -5205,7 +5576,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4812",
@@ -5219,7 +5591,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4813",
@@ -5233,7 +5606,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4814",
@@ -5247,7 +5621,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4815",
@@ -5261,7 +5636,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4816",
@@ -5275,7 +5651,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4817",
@@ -5289,7 +5666,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4818",
@@ -5303,7 +5681,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4819",
@@ -5317,7 +5696,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4820",
@@ -5331,7 +5711,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4821",
@@ -5345,7 +5726,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4822",
@@ -5359,7 +5741,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4823",
@@ -5373,7 +5756,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4824",
@@ -5387,7 +5771,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4825",
@@ -5401,7 +5786,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4826",
@@ -5415,7 +5801,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4827",
@@ -5429,7 +5816,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4828",
@@ -5443,7 +5831,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4829",
@@ -5457,7 +5846,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4830",
@@ -5471,7 +5861,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4831",
@@ -5485,7 +5876,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4832",
@@ -5499,7 +5891,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4833",
@@ -5513,7 +5906,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4834",
@@ -5527,7 +5921,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4835",
@@ -5541,7 +5936,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4836",
@@ -5555,7 +5951,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4837",
@@ -5569,7 +5966,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4838",
@@ -5583,7 +5981,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4901",
@@ -5597,7 +5996,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4902",
@@ -5611,7 +6011,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4903",
@@ -5625,7 +6026,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US4904",
@@ -5639,7 +6041,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5000",
@@ -5653,7 +6056,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5101",
@@ -5667,7 +6071,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5102",
@@ -5681,7 +6086,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5103",
@@ -5695,7 +6101,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5104",
@@ -5709,7 +6116,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5105",
@@ -5723,7 +6131,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5106",
@@ -5737,7 +6146,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5107",
@@ -5751,7 +6161,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5108",
@@ -5765,7 +6176,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5109",
@@ -5779,7 +6191,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5110",
@@ -5793,7 +6206,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5111",
@@ -5807,7 +6221,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5301",
@@ -5821,7 +6236,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5302",
@@ -5835,7 +6251,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5303",
@@ -5849,7 +6266,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5304",
@@ -5863,7 +6281,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5305",
@@ -5877,7 +6296,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5306",
@@ -5891,7 +6311,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5307",
@@ -5905,7 +6326,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5308",
@@ -5919,7 +6341,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5309",
@@ -5933,7 +6356,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5310",
@@ -5947,7 +6371,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5401",
@@ -5961,7 +6386,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5402",
@@ -5975,7 +6401,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5501",
@@ -5989,7 +6416,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5502",
@@ -6003,7 +6431,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5503",
@@ -6017,7 +6446,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5504",
@@ -6031,7 +6461,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5505",
@@ -6045,7 +6476,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5506",
@@ -6059,7 +6491,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5507",
@@ -6073,7 +6506,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5508",
@@ -6087,7 +6521,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US5600",
@@ -6101,7 +6536,8 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   },
   {
     "GEO_ID": "5001900US7298",
@@ -6115,6 +6551,7 @@
     "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01001.dat",
     "table": "B01001",
     "vintage": "2024 ACS 1-year",
-    "retrieved_at": "2026-09-25T21:08:35.134388+00:00"
+    "retrieved_at": "2026-09-25T21:21:53.739872+00:00",
+    "district_name": null
   }
 ]
