@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T18:46:11.331998+00:00",
+  "generated_at": "2026-09-25T18:54:41.816147+00:00",
   "algorithm": "sha256",
-  "dataset_count": 98,
+  "dataset_count": 99,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -343,6 +343,11 @@
       "file": "data/normalized/hawaiian_home_lands_2023.json",
       "sha256": "6fbe7f5e5a7fcb9f573f442025d7acfa30e16e3beebe5b3b3b6022c9b5670a13",
       "size_bytes": 19111
+    },
+    {
+      "file": "data/normalized/noaa_state_climate_1895_2024.json",
+      "sha256": "61927dd2b7f55614587e5d03a0b32a3e17920c7eddc2e8448a8ee7e13299dc3c",
+      "size_bytes": 3925854
     },
     {
       "file": "data/normalized/place_population_2020_2024.json",

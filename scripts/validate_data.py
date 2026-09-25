@@ -118,6 +118,7 @@ def main():
     acs_district_education = load("acs_district_education_2023.json")
     acs_district_poverty = load("acs_district_poverty_2023.json")
     acs_district_age_sex = load("acs_district_age_sex_2023.json")
+    noaa_state_climate = load("noaa_state_climate_1895_2024.json")
 
     assert len(states) >= 50
     catalog_files = {entry["file"] for entry in catalog.get("entries", [])}
@@ -324,6 +325,10 @@ def main():
         assert len(rows) >= 400, f"too few ACS district {label} rows"
         assert all(row.get("GEO_ID", "").startswith("5001800US") and row.get("district_geoid") and row.get("state_fips") and row.get("source") for row in rows)
         assert len({row["GEO_ID"] for row in rows}) == len(rows), f"duplicate ACS district {label} GEO_IDs"
+    assert len(noaa_state_climate) >= 12000
+    assert {row.get("parameter") for row in noaa_state_climate} == {"annual_avg_temperature_f", "annual_precipitation_inches"}
+    assert len({row.get("state_abbr") for row in noaa_state_climate}) == 50
+    assert all(row.get("year") and row.get("value") is not None and row.get("source") for row in noaa_state_climate)
 
     zcta_ids = {row["GEOID"] for row in zctas}
     # The relationship file is a 2020 vintage while the county gazetteer is 2023;

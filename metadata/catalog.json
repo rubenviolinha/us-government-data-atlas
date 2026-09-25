@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T18:46:10.888838+00:00",
+  "generated_at": "2026-09-25T18:54:41.353325+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2914,6 +2914,25 @@
         "NAME"
       ],
       "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/noaa_state_climate_1895_2024.json",
+      "format": "JSON",
+      "records": 12748,
+      "size_bytes": 3925854,
+      "fields_sample": [
+        "parameter",
+        "source",
+        "state_abbr",
+        "state_climate_code",
+        "units",
+        "value",
+        "year"
+      ],
+      "source_urls_sample": [
+        "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/50/pcp/12/12/1895-2024.json",
+        "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/50/tavg/12/12/1895-2024.json"
+      ]
     },
     {
       "file": "data/normalized/place_population_2020_2024.json",
