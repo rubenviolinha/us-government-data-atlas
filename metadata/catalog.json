@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T19:47:55.735540+00:00",
+  "generated_at": "2026-09-25T19:50:31.553596+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -4773,6 +4773,32 @@
       ],
       "source_urls_sample": [
         "https://www2.census.gov/programs-surveys/cbp/datasets/2022/zbp22totals.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/zbp_totals_2023.json",
+      "format": "JSON",
+      "records": 34954,
+      "size_bytes": 20152415,
+      "fields_sample": [
+        "annual_payroll_suppression",
+        "annual_payroll_thousands",
+        "city",
+        "county_name",
+        "employment",
+        "employment_suppression",
+        "establishments",
+        "first_quarter_payroll_suppression",
+        "first_quarter_payroll_thousands",
+        "name",
+        "retrieved_at",
+        "source",
+        "state_abbr",
+        "vintage",
+        "zip_code"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/cbp/datasets/2023/zbp23totals.zip"
       ]
     },
     {

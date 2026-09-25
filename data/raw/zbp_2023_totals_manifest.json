@@ -1,0 +1,7 @@
+{
+  "retrieved_at": "2026-09-25T19:50:04.362059+00:00",
+  "source": "https://www2.census.gov/programs-surveys/cbp/datasets/2023/zbp23totals.zip",
+  "raw_file": "data/raw/zbp23totals.zip",
+  "file": "data/normalized/zbp_totals_2023.json",
+  "records": 34954
+}
