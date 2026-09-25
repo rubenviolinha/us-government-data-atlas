@@ -1,0 +1,12 @@
+{
+  "retrieved_at": "2026-09-25T16:22:46.573045+00:00",
+  "source": "https://www.fec.gov/documents/1700/federalelections2014.xls",
+  "format": "legacy Excel workbook",
+  "sheets": {
+    "2014 US Senate Results by State": 338,
+    "2014 US House Results by State": 1987
+  },
+  "records": 2325,
+  "file": "data/normalized/fec_federal_elections_2014.json",
+  "note": "Official certified federal election compilation; no API key used."
+}

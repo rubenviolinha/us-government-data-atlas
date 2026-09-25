@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:20:23.484736+00:00",
+  "generated_at": "2026-09-25T16:23:04.208883+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -1542,6 +1542,71 @@
       ],
       "source_urls_sample": [
         "https://www.fec.gov/files/bulk-downloads/2024/cm24.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_federal_elections_2012.json",
+      "format": "JSON",
+      "records": 2707,
+      "size_bytes": 1586774,
+      "fields_sample": [
+        "(i)",
+        "1.0",
+        "candidate_name",
+        "candidate_name_(first)",
+        "candidate_name_(last)",
+        "d",
+        "election_year",
+        "fec_id",
+        "ge_winner_indicator",
+        "general_%",
+        "general_votes",
+        "office",
+        "party",
+        "primary_%",
+        "primary_votes",
+        "runoff_%",
+        "runoff_votes",
+        "source",
+        "source_sheet",
+        "state",
+        "state_abbreviation"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/documents/1691/federalelections2012.xls"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_federal_elections_2014.json",
+      "format": "JSON",
+      "records": 2325,
+      "size_bytes": 1370556,
+      "fields_sample": [
+        "(i)",
+        "1.0",
+        "candidate_name",
+        "candidate_name_(first)",
+        "candidate_name_(last)",
+        "d",
+        "election_year",
+        "fec_id",
+        "footnotes",
+        "ge_winner_indicator",
+        "general_%",
+        "general_votes",
+        "office",
+        "party",
+        "primary_%",
+        "primary_votes",
+        "runoff_%",
+        "runoff_votes",
+        "source",
+        "source_sheet",
+        "state",
+        "state_abbreviation"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/documents/1700/federalelections2014.xls"
       ]
     },
     {
