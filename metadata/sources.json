@@ -89,6 +89,15 @@
     "notes": "Official certified Senate and House primary/general results by state, candidate, party, and district."
   },
   {
+    "id": "census-acs-district-profile-tables-2023",
+    "name": "ACS 2023 1-Year Congressional District Profile Tables",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/1YRData/",
+    "format": "Pipe-delimited summary files",
+    "license": "U.S. government public data",
+    "notes": "Keyless district-level extracts for B19013, B25001, and B02001 using the 5001800US geography code, preserving estimates and margins of error."
+  },
+  {
     "id": "census-acs-profile-variable-metadata",
     "name": "ACS 2023 5-Year Profile Variable Metadata",
     "publisher": "U.S. Census Bureau",

@@ -5,10 +5,10 @@
     {
       "id": "census-acs-profile-data",
       "domain": "demographics",
-      "status": "key_or_bulk_file_required",
+      "status": "keyless_bulk_snapshot_available",
       "source": "https://api.census.gov/data/2023/acs/acs5/profile",
-      "needed_from_user": "A Census API key, or approval to use and store the large downloadable ACS summary files.",
-      "why": "The Census API currently returns a missing-key response for data queries in this environment.",
+      "needed_from_user": "A Census API key only if broader variable/geography coverage beyond the checked-in bulk snapshots is required.",
+      "why": "The Census API currently returns a missing-key response for data queries in this environment, but public table-based summary files support the checked-in state, county, place, and congressional-district extracts.",
       "keyless_fallback": "ACS table-based summary files from www2.census.gov"
     },
     {

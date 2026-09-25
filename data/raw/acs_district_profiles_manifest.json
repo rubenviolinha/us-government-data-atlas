@@ -1,0 +1,21 @@
+{
+  "retrieved_at": "2026-09-25T16:08:31.795400+00:00",
+  "tables": {
+    "B19013": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/1YRData/acsdt1y2023-b19013.dat",
+      "file": "data/normalized/acs_district_income_2023.json",
+      "records": 437
+    },
+    "B25001": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/1YRData/acsdt1y2023-b25001.dat",
+      "file": "data/normalized/acs_district_housing_2023.json",
+      "records": 437
+    },
+    "B02001": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/1YRData/acsdt1y2023-b02001.dat",
+      "file": "data/normalized/acs_district_race_2023.json",
+      "records": 437
+    }
+  },
+  "note": "Public table-based ACS 1-year summary files; no API key used."
+}
