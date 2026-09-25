@@ -9,6 +9,8 @@ from urllib.parse import parse_qs, unquote, urlparse
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "normalized"
 CATALOG = ROOT / "metadata" / "catalog.json"
+SOURCES = ROOT / "metadata" / "sources.json"
+ACCESS_REQUIREMENTS = ROOT / "metadata" / "access_requirements.json"
 
 
 def read_json(path):
@@ -31,6 +33,10 @@ class Handler(BaseHTTPRequestHandler):
             return self.send_json({"status": "ok"})
         if path in {"/", "/catalog", "/datasets"}:
             return self.send_json(read_json(CATALOG))
+        if path == "/sources":
+            return self.send_json(read_json(SOURCES))
+        if path in {"/access-requirements", "/access_requirements"}:
+            return self.send_json(read_json(ACCESS_REQUIREMENTS))
         if path.startswith("/datasets/"):
             filename = unquote(path.removeprefix("/datasets/"))
             allowed = {entry["file"].removeprefix("data/normalized/") for entry in read_json(CATALOG)["entries"]}

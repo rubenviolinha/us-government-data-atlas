@@ -39,6 +39,16 @@ class ApiSmokeTests(unittest.TestCase):
         self.assertEqual(payload["count"], 1)
         self.assertEqual(payload["data"][0]["name"], "California")
 
+    def test_provenance_endpoints(self):
+        status, payload = self.get("/sources")
+        self.assertEqual(status, 200)
+        self.assertGreaterEqual(len(payload), 100)
+        self.assertTrue(all(item.get("url") for item in payload))
+
+        status, payload = self.get("/access-requirements")
+        self.assertEqual(status, 200)
+        self.assertIn("requirements", payload)
+
     def test_case_insensitive_and_contains_filters(self):
         status, payload = self.get("/datasets/states.json?abbr=ca")
         self.assertEqual(status, 200)
