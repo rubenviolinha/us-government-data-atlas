@@ -94,6 +94,8 @@ def main():
     state_legislators = load("state_legislators_openstates.json")
     state_legislators_upper = load("state_legislators_upper.json")
     state_legislators_lower = load("state_legislators_lower.json")
+    current_state_legislators_upper = load("current_state_legislators_upper.json")
+    current_state_legislators_lower = load("current_state_legislators_lower.json")
     fec_candidates = load("fec_candidate_master_2024.json")
     fec_committees = load("fec_committee_master_2024.json")
     fec_results = load("fec_presidential_general_results_2024.json")
@@ -230,6 +232,8 @@ def main():
         assert all(person.get("office_scope") == label and person.get("source") and any(term.get("type") == office_type for term in person.get("terms", [])) for person in rows)
     assert len(current_senators) >= 90 and len(current_representatives) >= 400
     assert all(person.get("view_as_of") and person.get("office_scope") in {"senator", "representative"} for person in current_senators + current_representatives)
+    assert len(current_state_legislators_upper) >= 1500 and len(current_state_legislators_lower) >= 4000
+    assert all(row.get("view_as_of") and row.get("chamber_scope") in {"upper", "lower"} for row in current_state_legislators_upper + current_state_legislators_lower)
     assert all(row.get("name") and row.get("state") for row in governors)
     for chamber, rows in (("upper", state_legislators_upper), ("lower", state_legislators_lower)):
         ids = [row.get("id") for row in rows]

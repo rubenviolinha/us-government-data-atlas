@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T19:23:37.057419+00:00",
+  "generated_at": "2026-09-25T19:25:32.699715+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2354,6 +2354,72 @@
       ],
       "source_urls_sample": [
         "https://github.com/unitedstates/congress-legislators"
+      ]
+    },
+    {
+      "file": "data/normalized/current_state_legislators_lower.json",
+      "format": "JSON",
+      "records": 5419,
+      "size_bytes": 13222645,
+      "fields_sample": [
+        "birth_date",
+        "chamber_scope",
+        "email",
+        "extras",
+        "family_name",
+        "gender",
+        "given_name",
+        "id",
+        "ids",
+        "image",
+        "links",
+        "name",
+        "offices",
+        "other_identifiers",
+        "other_names",
+        "party",
+        "record_type",
+        "roles",
+        "source",
+        "sources",
+        "state",
+        "view_as_of"
+      ],
+      "source_urls_sample": [
+        "https://github.com/openstates/people"
+      ]
+    },
+    {
+      "file": "data/normalized/current_state_legislators_upper.json",
+      "format": "JSON",
+      "records": 1939,
+      "size_bytes": 5262163,
+      "fields_sample": [
+        "birth_date",
+        "chamber_scope",
+        "email",
+        "extras",
+        "family_name",
+        "gender",
+        "given_name",
+        "id",
+        "ids",
+        "image",
+        "links",
+        "name",
+        "offices",
+        "other_identifiers",
+        "other_names",
+        "party",
+        "record_type",
+        "roles",
+        "source",
+        "sources",
+        "state",
+        "view_as_of"
+      ],
+      "source_urls_sample": [
+        "https://github.com/openstates/people"
       ]
     },
     {

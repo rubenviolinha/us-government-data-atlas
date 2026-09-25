@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T19:23:37.692050+00:00",
+  "generated_at": "2026-09-25T19:25:33.333011+00:00",
   "algorithm": "sha256",
-  "dataset_count": 117,
+  "dataset_count": 119,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -253,6 +253,16 @@
       "file": "data/normalized/current_senators.json",
       "sha256": "202d6b010bf8c21f6b9a0c6e8fda2681c6e2a00e119252e2a6c8026ed0e5358f",
       "size_bytes": 279358
+    },
+    {
+      "file": "data/normalized/current_state_legislators_lower.json",
+      "sha256": "5bdef7b959c6731e298a450a93119517f706de0b1e13dcdf7c737e0d43afb333",
+      "size_bytes": 13222645
+    },
+    {
+      "file": "data/normalized/current_state_legislators_upper.json",
+      "sha256": "b8b3cc9f1418d45cdd85c17cbf48d66de98dd6b33cd1835e1e36aae7dab12bf5",
+      "size_bytes": 5262163
     },
     {
       "file": "data/normalized/electoral_college_results_1789_2024.json",
