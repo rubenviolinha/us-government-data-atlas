@@ -1,0 +1,133 @@
+{
+  "release_id": "20260925",
+  "generated_at": "2026-09-25T10:46:00.092540+00:00",
+  "algorithm": "sha256",
+  "dataset_count": 25,
+  "datasets": [
+    {
+      "file": "data/normalized/capital_validation.json",
+      "sha256": "17cfaf2d01b2583e9694eb08a7ddb5e72d7ced3c7559a2155c361abbf6a0714b",
+      "size_bytes": 15094
+    },
+    {
+      "file": "data/normalized/congressional_districts_2020.json",
+      "sha256": "d159ab992a9e380d9f9e95f64d6e8b2b2ece66e0fef75e07de9832122eb2ccb6",
+      "size_bytes": 69108
+    },
+    {
+      "file": "data/normalized/congressional_districts_2025.json",
+      "sha256": "b1789c6b32df3ec949ff963aba387eb3befb6c28d67a2f417eedc9543a319e35",
+      "size_bytes": 69097
+    },
+    {
+      "file": "data/normalized/congressional_legislators.json",
+      "sha256": "873a8ff9716389ae2d18b1803145458c15294969ead5fd6ee967c4ef9bca5ecb",
+      "size_bytes": 14921283
+    },
+    {
+      "file": "data/normalized/counties_2023.json",
+      "sha256": "9835d201ca5b31b92e5916984a1995fffd4d7962fec50a3f5bc4e4c880ce4fe8",
+      "size_bytes": 890228
+    },
+    {
+      "file": "data/normalized/county_population_2020_2024.json",
+      "sha256": "1a1b416121037f86253a66b87349f1228b98ac5d7e87c2ae25d93940f4daa70f",
+      "size_bytes": 1075206
+    },
+    {
+      "file": "data/normalized/executive_orders.json",
+      "sha256": "b6af23f6bdbfabf70b14045f242ff909945802c56b948dd0c2591535594eef4f",
+      "size_bytes": 1135959
+    },
+    {
+      "file": "data/normalized/federal_judges.json",
+      "sha256": "118eba5970e530960570e06b8d4e67af9aeb6139399a4241a621992366165118",
+      "size_bytes": 30854822
+    },
+    {
+      "file": "data/normalized/federal_register_agencies.json",
+      "sha256": "0b6f1f47f8c55500e3d31b0354a51e7eb94b8bdc122d31de08c1f53fc2e5a3bb",
+      "size_bytes": 777702
+    },
+    {
+      "file": "data/normalized/gnis_government_units.json",
+      "sha256": "28e8239a70414844925f73cd09a754f13d8404d7b3ab0b7ece9c68c1ef873870",
+      "size_bytes": 1020436
+    },
+    {
+      "file": "data/normalized/gnis_populated_places.json",
+      "sha256": "0096963da5929df437f2ab2a99f6b3c31d877d833569a11ce9e617ecaba92ea2",
+      "size_bytes": 100042623
+    },
+    {
+      "file": "data/normalized/governors_nga.json",
+      "sha256": "0c670dd2cf848d30b361a2f90386b2f76b850d44536225719a04aa1322950775",
+      "size_bytes": 790066
+    },
+    {
+      "file": "data/normalized/place_population_2020_2024.json",
+      "sha256": "90f40dbfaaceb207c312850b25c551a08da2fc3b61220d2f00fb22a9d03ce956",
+      "size_bytes": 6576781
+    },
+    {
+      "file": "data/normalized/places_2020.json",
+      "sha256": "c4cc7f8bea7f747408aeacfd2e0bedacccb820553f38ad61e92216d0236ac624",
+      "size_bytes": 9786652
+    },
+    {
+      "file": "data/normalized/presidential_documents.json",
+      "sha256": "8d8d14a09a23a0f5afd4e4fbfa26c3fcab0d42539d447ab2d0a4e7eacb6a2531",
+      "size_bytes": 1916293
+    },
+    {
+      "file": "data/normalized/presidential_proclamations.json",
+      "sha256": "744814d836992ba54c49b6d74757635cc76c48c4f3bbf4e201861b3351a81d74",
+      "size_bytes": 2928745
+    },
+    {
+      "file": "data/normalized/presidents.json",
+      "sha256": "9d7eb0968b6fd8d7e0db5907c1d24c38a82f682fefdfcb036c498b0b852e2625",
+      "size_bytes": 14324
+    },
+    {
+      "file": "data/normalized/secretaries_of_state.json",
+      "sha256": "5245a937e1f7b1c80ffa32d90dc8f8494cfbee0acdfc106e8eaf3dc6e94d97f1",
+      "size_bytes": 20166
+    },
+    {
+      "file": "data/normalized/state_department_principals.json",
+      "sha256": "2b317c793304566efadcc47e88d0214426ecd0923be6b1b974c9b54ceada4788",
+      "size_bytes": 1218623
+    },
+    {
+      "file": "data/normalized/state_population_2024.json",
+      "sha256": "377f109eea1cead17c0202cba76196dfbeee3d6d89ca91cc13d966fe543b128a",
+      "size_bytes": 124898
+    },
+    {
+      "file": "data/normalized/states.json",
+      "sha256": "1335d0aec79a0fd7aa49049b06278dcadc2afaaa3dde148c353ecea3500e8bf2",
+      "size_bytes": 12708
+    },
+    {
+      "file": "data/normalized/supreme_court_justices.json",
+      "sha256": "76ea8804f5354ff06c887c2f529c36b8a480abe66460af595e299170ae730ee5",
+      "size_bytes": 35679
+    },
+    {
+      "file": "data/normalized/vice_presidents.json",
+      "sha256": "4ccfae2268279909b51b17c60c38d5c5a67fc9d08bdbe6ed9940512e115bed0a",
+      "size_bytes": 13949
+    },
+    {
+      "file": "data/normalized/zcta_county_relationships_2020.json",
+      "sha256": "b83f039f706523e4173c8510a0a159713cefad28f2751f438f56cd020f70e6b3",
+      "size_bytes": 6348500
+    },
+    {
+      "file": "data/normalized/zctas_2020.json",
+      "sha256": "b1828a6ba6f18f1cf678cd5170b44769c4f9d6bc75bd202832d54435bf2164e6",
+      "size_bytes": 6440001
+    }
+  ]
+}

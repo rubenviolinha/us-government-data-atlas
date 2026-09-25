@@ -14,5 +14,6 @@ jobs:
           python-version: "3.11"
       - run: python -m compileall -q api scripts
       - run: python -m unittest tests/test_api.py
+      - run: python scripts/build_release_manifest.py
       - run: python scripts/validate_data.py
       - run: python scripts/validate_capitals.py

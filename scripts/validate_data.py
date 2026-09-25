@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "normalized"
 CATALOG = ROOT / "metadata" / "catalog.json"
 ACCESS = ROOT / "metadata" / "access_requirements.json"
+RELEASE = ROOT / "metadata" / "release_manifest.json"
 
 
 def load(name):
@@ -23,6 +24,7 @@ def main():
     states = load("states.json")
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
     access = json.loads(ACCESS.read_text(encoding="utf-8"))
+    release = json.loads(RELEASE.read_text(encoding="utf-8"))
     counties = load("counties_2023.json")
     places = load("places_2020.json")
     zctas = load("zctas_2020.json")
@@ -50,6 +52,9 @@ def main():
     assert all(entry.get("records", 0) >= 0 and entry.get("size_bytes", 0) > 0 for entry in catalog.get("entries", []))
     assert len(access.get("requirements", [])) >= 3
     assert all(item.get("id") and item.get("status") and item.get("source") for item in access["requirements"])
+    assert release.get("algorithm") == "sha256"
+    assert release.get("dataset_count") == len(release.get("datasets", []))
+    assert all(len(item.get("sha256", "")) == 64 and item.get("size_bytes", 0) > 0 for item in release["datasets"])
     assert_unique(states, "state_fips", "state FIPS codes")
     assert_unique(counties, "GEOID", "county GEOIDs")
     assert_unique(places, "GEOID", "place GEOIDs")
