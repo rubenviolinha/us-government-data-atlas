@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T11:50:33.046258+00:00",
+  "generated_at": "2026-09-25T12:25:03.088880+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -183,6 +183,81 @@
         "B02001_M010",
         "GEO_ID",
         "county_fips",
+        "source",
+        "state_fips",
+        "state_name",
+        "table"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b02001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_place_housing_2023.json",
+      "format": "JSON",
+      "records": 32325,
+      "size_bytes": 10570646,
+      "fields_sample": [
+        "B25001_E001",
+        "B25001_M001",
+        "GEO_ID",
+        "place_fips",
+        "source",
+        "state_fips",
+        "state_name",
+        "table"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_place_income_2023.json",
+      "format": "JSON",
+      "records": 32325,
+      "size_bytes": 10744573,
+      "fields_sample": [
+        "B19013_E001",
+        "B19013_M001",
+        "GEO_ID",
+        "place_fips",
+        "source",
+        "state_fips",
+        "state_name",
+        "table"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b19013.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_place_race_2023.json",
+      "format": "JSON",
+      "records": 32325,
+      "size_bytes": 24001116,
+      "fields_sample": [
+        "B02001_E001",
+        "B02001_E002",
+        "B02001_E003",
+        "B02001_E004",
+        "B02001_E005",
+        "B02001_E006",
+        "B02001_E007",
+        "B02001_E008",
+        "B02001_E009",
+        "B02001_E010",
+        "B02001_M001",
+        "B02001_M002",
+        "B02001_M003",
+        "B02001_M004",
+        "B02001_M005",
+        "B02001_M006",
+        "B02001_M007",
+        "B02001_M008",
+        "B02001_M009",
+        "B02001_M010",
+        "GEO_ID",
+        "place_fips",
         "source",
         "state_fips",
         "state_name",

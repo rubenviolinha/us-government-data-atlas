@@ -54,6 +54,9 @@ def main():
     acs_county_income = load("acs_county_income_2023.json")
     acs_county_housing = load("acs_county_housing_2023.json")
     acs_county_race = load("acs_county_race_2023.json")
+    acs_place_income = load("acs_place_income_2023.json")
+    acs_place_housing = load("acs_place_housing_2023.json")
+    acs_place_race = load("acs_place_race_2023.json")
 
     assert len(states) >= 50
     catalog_files = {entry["file"] for entry in catalog.get("entries", [])}
@@ -129,6 +132,10 @@ def main():
         assert len(rows) >= 3000, f"too few ACS county {label} rows"
         assert all(row.get("GEO_ID", "").startswith("0500000US") and row.get("county_fips") and row.get("state_fips") and row.get("source") for row in rows)
         assert len({row["GEO_ID"] for row in rows}) == len(rows), f"duplicate ACS county {label} GEO_IDs"
+    for label, rows in (("income", acs_place_income), ("housing", acs_place_housing), ("race", acs_place_race)):
+        assert len(rows) >= 30000, f"too few ACS place {label} rows"
+        assert all(row.get("GEO_ID", "").startswith("1600000US") and row.get("place_fips") and row.get("state_fips") and row.get("source") for row in rows)
+        assert len({row["GEO_ID"] for row in rows}) == len(rows), f"duplicate ACS place {label} GEO_IDs"
 
     zcta_ids = {row["GEOID"] for row in zctas}
     # The relationship file is a 2020 vintage while the county gazetteer is 2023;
@@ -142,7 +149,7 @@ def main():
     assert all(len(row["GEOID"]) == 5 for row in county_population)
     assert all(len(row["GEOID"]) == 7 for row in place_population)
     assert all(term.get("type") in {"rep", "sen"} for person in legislators for term in person.get("terms", []))
-    print(f"validated states={len(states)} counties={len(counties)} county_population={len(county_population)} places={len(places)} place_population={len(place_population)} legislators={len(legislators)} governors={len(governors)} governor_terms={sum(len(row.get('terms', [])) for row in governors)} presidents={len(presidents)} vice_presidents={len(vice_presidents)} justices={len(justices)} federal_judges={len(federal_judges)} secretaries_of_state={len(secretaries_of_state)} state_department_principals={len(state_department_principals)} acs_variables={len(acs_variables)} acs_state_age_sex={len(acs_state_age_sex)} acs_state_income={len(acs_state_income)} acs_state_housing={len(acs_state_housing)} acs_state_race={len(acs_state_race)} acs_county_age_sex={len(acs_county_age_sex)} acs_county_income={len(acs_county_income)} acs_county_housing={len(acs_county_housing)} acs_county_race={len(acs_county_race)} agencies={len(agencies)} executive_orders={len(executive_orders)} proclamations={len(proclamations)} presidential_documents={len(presidential_documents)} zctas={len(zctas)} relationships={len(relationships)} districts_2020={len(districts)} districts_2025={len(current_districts)}")
+    print(f"validated states={len(states)} counties={len(counties)} county_population={len(county_population)} places={len(places)} place_population={len(place_population)} legislators={len(legislators)} governors={len(governors)} governor_terms={sum(len(row.get('terms', [])) for row in governors)} presidents={len(presidents)} vice_presidents={len(vice_presidents)} justices={len(justices)} federal_judges={len(federal_judges)} secretaries_of_state={len(secretaries_of_state)} state_department_principals={len(state_department_principals)} acs_variables={len(acs_variables)} acs_state_age_sex={len(acs_state_age_sex)} acs_state_income={len(acs_state_income)} acs_state_housing={len(acs_state_housing)} acs_state_race={len(acs_state_race)} acs_county_age_sex={len(acs_county_age_sex)} acs_county_income={len(acs_county_income)} acs_county_housing={len(acs_county_housing)} acs_county_race={len(acs_county_race)} acs_place_income={len(acs_place_income)} acs_place_housing={len(acs_place_housing)} acs_place_race={len(acs_place_race)} agencies={len(agencies)} executive_orders={len(executive_orders)} proclamations={len(proclamations)} presidential_documents={len(presidential_documents)} zctas={len(zctas)} relationships={len(relationships)} districts_2020={len(districts)} districts_2025={len(current_districts)}")
 
 
 if __name__ == "__main__":
