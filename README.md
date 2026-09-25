@@ -28,6 +28,9 @@ scripts/            Reproducible ingestion scripts
 ```bash
 python3 scripts/fetch_initial_data.py
 python3 scripts/fetch_geography.py
+python3 scripts/fetch_gnis.py
 ```
 
 The scripts use public Census endpoints and write retrieval manifests alongside the downloaded data. State capitals are included as an explicitly marked initial reference while state-government validation is added.
+
+The GNIS script downloads the compact Government Units extract (states, counties, and other government units) rather than the much larger all-names archive.
