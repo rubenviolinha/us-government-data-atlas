@@ -952,5 +952,14 @@
     "format": "ArcGIS Feature Service JSON",
     "license": "U.S. government public data",
     "notes": "Compact nationwide ZCTA-level SVI 2022 records using national comparison ranks, selected population/context fields, and provenance."
+  },
+  {
+    "id": "census-acs-2024-zcta-profiles",
+    "name": "ACS 2024 5-Year ZCTA Population and Headline Profiles",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/",
+    "format": "Delimited bulk summary files",
+    "license": "U.S. government public data",
+    "notes": "Keyless compact ZCTA population, income, housing, race, poverty, and education-universe fields."
   }
 ]

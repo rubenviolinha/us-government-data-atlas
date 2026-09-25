@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25T21:47:21.161819+00:00",
-  "catalog_datasets": 221,
+  "generated_at": "2026-09-25T21:50:51.615598+00:00",
+  "catalog_datasets": 223,
   "domain_counts": {
     "Census ACS demographics": 91,
     "Counties": 4,
@@ -13,7 +13,7 @@
     "Places": 7,
     "Schools": 3,
     "States and population": 11,
-    "ZIP/ZCTA": 7
+    "ZIP/ZCTA": 9
   },
   "remaining_gated_inputs": [
     "USPS licensed exact address and ZIP reference data",

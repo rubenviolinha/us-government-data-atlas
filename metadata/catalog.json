@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T21:47:20.199617+00:00",
+  "generated_at": "2026-09-25T21:50:50.708937+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -7081,10 +7081,43 @@
       ]
     },
     {
+      "file": "data/normalized/zcta_population_acs_2024.json",
+      "format": "JSON",
+      "records": 33772,
+      "size_bytes": 7562714,
+      "fields_sample": [
+        "GEO_ID",
+        "population",
+        "population_moe",
+        "source",
+        "table",
+        "zcta"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat"
+      ]
+    },
+    {
       "file": "data/normalized/zcta_profiles_acs_2023.json",
       "format": "JSON",
       "records": 33772,
       "size_bytes": 7452735,
+      "fields_sample": [
+        "education_universe",
+        "housing_units",
+        "median_household_income",
+        "poverty_universe",
+        "race_total",
+        "source_vintage",
+        "zcta"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/zcta_profiles_acs_2024.json",
+      "format": "JSON",
+      "records": 33772,
+      "size_bytes": 5832517,
       "fields_sample": [
         "education_universe",
         "housing_units",

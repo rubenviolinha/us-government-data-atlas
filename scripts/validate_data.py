@@ -86,6 +86,8 @@ def main():
     for path in sorted((ROOT / "data" / "normalized").glob("svi_tracts_2022_part*.json")):
         svi_tracts.extend(json.loads(path.read_text(encoding="utf-8")))
     svi_zctas = load("svi_zctas_2022.json")
+    zcta_acs_2024 = load("zcta_profiles_acs_2024.json")
+    zcta_population_acs_2024 = load("zcta_population_acs_2024.json")
     current_cabinet = load("current_cabinet_white_house.json")
     secretaries_of_state = load("secretaries_of_state.json")
     state_department_principals = load("state_department_principals.json")
@@ -338,6 +340,9 @@ def main():
     assert len(svi_zctas) >= 33000
     assert len({row.get("GEOID") for row in svi_zctas}) == len(svi_zctas)
     assert all(len(row.get("GEOID", "")) == 5 and row.get("Overall_SVI_Percentile") is not None and row.get("comparison") == "national" and row.get("source") for row in svi_zctas)
+    assert len(zcta_acs_2024) >= 33000 and len({row.get("zcta") for row in zcta_acs_2024}) == len(zcta_acs_2024)
+    assert all(row.get("source_vintage") == "ACS 2024 5-year" for row in zcta_acs_2024)
+    assert len(zcta_population_acs_2024) == len(zcta_acs_2024) and all(row.get("population") is not None and row.get("source") for row in zcta_population_acs_2024)
     assert len(current_cabinet) >= 15
     assert len({row.get("title") for row in current_cabinet}) == len(current_cabinet)
     assert all(row.get("name") and row.get("title") and row.get("source") and row.get("retrieved_at") for row in current_cabinet)
