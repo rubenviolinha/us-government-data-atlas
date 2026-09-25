@@ -738,6 +738,15 @@
     "notes": "Keyless compact B01001, B15003, B17001, B19013, B25001, and B02001 profiles for states, congressional districts, and PUMAs."
   },
   {
+    "id": "fec-presidential-ballots-2024",
+    "name": "FEC 2024 Presidential General Ballot Candidates",
+    "publisher": "Federal Election Commission",
+    "url": "https://www.fec.gov/resources/cms-content/documents/2024presgecands.pdf",
+    "format": "PDF matrix",
+    "license": "U.S. government public data",
+    "notes": "Official state-election-office compilation of presidential candidates appearing on 2024 general-election ballots, with state and party markers."
+  },
+  {
     "id": "national-archives-presidents",
     "name": "U.S. Presidents in the Census Records",
     "publisher": "National Archives",

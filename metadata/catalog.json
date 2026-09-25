@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T21:08:59.523671+00:00",
+  "generated_at": "2026-09-25T21:15:43.473756+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -4265,6 +4265,26 @@
       ],
       "source_urls_sample": [
         "https://www.fec.gov/documents/5676/federalelections2022.xlsx"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_presidential_ballot_candidates_2024.json",
+      "format": "JSON",
+      "records": 302,
+      "size_bytes": 107261,
+      "fields_sample": [
+        "ballot_marker",
+        "candidate_label",
+        "election_year",
+        "party_marker",
+        "retrieved_at",
+        "source",
+        "source_page",
+        "state_abbreviation",
+        "state_name"
+      ],
+      "source_urls_sample": [
+        "https://www.fec.gov/resources/cms-content/documents/2024presgecands.pdf"
       ]
     },
     {

@@ -355,6 +355,7 @@ def main():
     tracts_2024 = load("tracts_2024.json")
     ballot_candidates_2024 = load("fec_congressional_ballot_candidates_2024.json")
     election_directory_2025 = load("fec_state_election_directory_2025.json")
+    presidential_ballots_2024 = load("fec_presidential_ballot_candidates_2024.json")
     gazetteer_2025 = {
         "congressional_districts_119th_2025.json": 440,
         "american_indian_alaska_native_areas_2025.json": 704,
@@ -385,6 +386,9 @@ def main():
     assert len({row["state_fips"] for row in election_directory_2025}) == len(election_directory_2025)
     assert all(row.get("state_name") and row.get("source") for row in election_directory_2025)
     assert sum(bool(row.get("section_available")) for row in election_directory_2025) >= 55
+    assert len(presidential_ballots_2024) >= 300
+    assert len({(row["state_abbreviation"], row["candidate_label"]) for row in presidential_ballots_2024}) == len(presidential_ballots_2024)
+    assert all(row.get("source") and row.get("candidate_label") for row in presidential_ballots_2024)
     for filename, expected in gazetteer_2025.items():
         rows = load(filename)
         assert len(rows) == expected, (filename, len(rows), expected)
