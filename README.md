@@ -79,4 +79,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for provenance, licensing, and refresh re
 
 `metadata/release_manifest.json` fingerprints each normalized dataset with SHA-256 hashes for reproducible comparisons between releases.
 
+To create a tabular export without adding duplicate files to Git, run `python3 scripts/export_csv.py states.json outputs/states.csv`. The exporter accepts only catalog-listed normalized datasets and serializes nested JSON values safely.
+
 The legislator script imports current and historical congressional members and terms from the open `unitedstates/congress-legislators` project, retaining Bioguide and other government identifiers.
