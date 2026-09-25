@@ -1,0 +1,568 @@
+[
+  {
+    "abbr": "AL",
+    "state_name": "Alabama",
+    "capital": "Montgomery",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "0151000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "AK",
+    "state_name": "Alaska",
+    "capital": "Juneau",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "0236400"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "AZ",
+    "state_name": "Arizona",
+    "capital": "Phoenix",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "0455000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "AR",
+    "state_name": "Arkansas",
+    "capital": "Little Rock",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "0541000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "CA",
+    "state_name": "California",
+    "capital": "Sacramento",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "0664000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "CO",
+    "state_name": "Colorado",
+    "capital": "Denver",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "0820000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "CT",
+    "state_name": "Connecticut",
+    "capital": "Hartford",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "0937000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "DE",
+    "state_name": "Delaware",
+    "capital": "Dover",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "1021200",
+      "1021387"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "DC",
+    "state_name": "District of Columbia",
+    "capital": "Washington",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "1150000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "FL",
+    "state_name": "Florida",
+    "capital": "Tallahassee",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "1270600"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "GA",
+    "state_name": "Georgia",
+    "capital": "Atlanta",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "1304000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "HI",
+    "state_name": "Hawaii",
+    "capital": "Honolulu",
+    "status": "alias_match",
+    "candidate_place_geoids": [
+      "1571550"
+    ],
+    "note": "Census place reconciliation only; official state-government validation remains required."
+  },
+  {
+    "abbr": "ID",
+    "state_name": "Idaho",
+    "capital": "Boise",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "1608830"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "IL",
+    "state_name": "Illinois",
+    "capital": "Springfield",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "1772000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "IN",
+    "state_name": "Indiana",
+    "capital": "Indianapolis",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "1836003"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "IA",
+    "state_name": "Iowa",
+    "capital": "Des Moines",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "1921000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "KS",
+    "state_name": "Kansas",
+    "capital": "Topeka",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "2071000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "KY",
+    "state_name": "Kentucky",
+    "capital": "Frankfort",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "2128900"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "LA",
+    "state_name": "Louisiana",
+    "capital": "Baton Rouge",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "2205000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "ME",
+    "state_name": "Maine",
+    "capital": "Augusta",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "2302100"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "MD",
+    "state_name": "Maryland",
+    "capital": "Annapolis",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "2401600",
+      "2401635"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "MA",
+    "state_name": "Massachusetts",
+    "capital": "Boston",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "2507000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "MI",
+    "state_name": "Michigan",
+    "capital": "Lansing",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "2646000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "MN",
+    "state_name": "Minnesota",
+    "capital": "Saint Paul",
+    "status": "alias_match",
+    "candidate_place_geoids": [
+      "2758000"
+    ],
+    "note": "Census place reconciliation only; official state-government validation remains required."
+  },
+  {
+    "abbr": "MS",
+    "state_name": "Mississippi",
+    "capital": "Jackson",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "2836000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "MO",
+    "state_name": "Missouri",
+    "capital": "Jefferson City",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "2937000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "MT",
+    "state_name": "Montana",
+    "capital": "Helena",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "3035600",
+      "3035622",
+      "3035628",
+      "3035631",
+      "3035634"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "NE",
+    "state_name": "Nebraska",
+    "capital": "Lincoln",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "3128000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "NV",
+    "state_name": "Nevada",
+    "capital": "Carson City",
+    "status": "needs_review",
+    "candidate_place_geoids": [],
+    "note": "Census place reconciliation only; official state-government validation remains required."
+  },
+  {
+    "abbr": "NH",
+    "state_name": "New Hampshire",
+    "capital": "Concord",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "3314200"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "NJ",
+    "state_name": "New Jersey",
+    "capital": "Trenton",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "3474000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "NM",
+    "state_name": "New Mexico",
+    "capital": "Santa Fe",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "3570500",
+      "3570505"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "NY",
+    "state_name": "New York",
+    "capital": "Albany",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "3601000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "NC",
+    "state_name": "North Carolina",
+    "capital": "Raleigh",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "3755000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "ND",
+    "state_name": "North Dakota",
+    "capital": "Bismarck",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "3807200"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "OH",
+    "state_name": "Ohio",
+    "capital": "Columbus",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "3918000",
+      "3918014"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "OK",
+    "state_name": "Oklahoma",
+    "capital": "Oklahoma City",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "4055000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "OR",
+    "state_name": "Oregon",
+    "capital": "Salem",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "4164900"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "PA",
+    "state_name": "Pennsylvania",
+    "capital": "Harrisburg",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "4232800"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "RI",
+    "state_name": "Rhode Island",
+    "capital": "Providence",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "4459000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "SC",
+    "state_name": "South Carolina",
+    "capital": "Columbia",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "4516000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "SD",
+    "state_name": "South Dakota",
+    "capital": "Pierre",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "4649600"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "TN",
+    "state_name": "Tennessee",
+    "capital": "Nashville",
+    "status": "alias_match",
+    "candidate_place_geoids": [
+      "4752006"
+    ],
+    "note": "Census place reconciliation only; official state-government validation remains required."
+  },
+  {
+    "abbr": "TX",
+    "state_name": "Texas",
+    "capital": "Austin",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "4805000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "UT",
+    "state_name": "Utah",
+    "capital": "Salt Lake City",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "4967000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "VT",
+    "state_name": "Vermont",
+    "capital": "Montpelier",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "5046000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "VA",
+    "state_name": "Virginia",
+    "capital": "Richmond",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "5167000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "WA",
+    "state_name": "Washington",
+    "capital": "Olympia",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "5351300"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "WV",
+    "state_name": "West Virginia",
+    "capital": "Charleston",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "5414600"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "WI",
+    "state_name": "Wisconsin",
+    "capital": "Madison",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "5548000"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "WY",
+    "state_name": "Wyoming",
+    "capital": "Cheyenne",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "5613900"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "AS",
+    "state_name": "American Samoa",
+    "capital": "Pago Pago",
+    "status": "needs_review",
+    "candidate_place_geoids": [],
+    "note": "Census place reconciliation only; official state-government validation remains required."
+  },
+  {
+    "abbr": "GU",
+    "state_name": "Guam",
+    "capital": "Hagåtña",
+    "status": "needs_review",
+    "candidate_place_geoids": [],
+    "note": "Census place reconciliation only; official state-government validation remains required."
+  },
+  {
+    "abbr": "MP",
+    "state_name": "Northern Mariana Islands",
+    "capital": "Saipan",
+    "status": "needs_review",
+    "candidate_place_geoids": [],
+    "note": "Census place reconciliation only; official state-government validation remains required."
+  },
+  {
+    "abbr": "PR",
+    "state_name": "Puerto Rico",
+    "capital": "San Juan",
+    "status": "matched",
+    "candidate_place_geoids": [
+      "7276770"
+    ],
+    "note": "Census place name match; official state-government validation remains recommended."
+  },
+  {
+    "abbr": "UM",
+    "state_name": "U.S. Minor Outlying Islands",
+    "capital": null,
+    "status": "needs_review",
+    "candidate_place_geoids": [],
+    "note": "Census place reconciliation only; official state-government validation remains required."
+  },
+  {
+    "abbr": "VI",
+    "state_name": "U.S. Virgin Islands",
+    "capital": "Charlotte Amalie",
+    "status": "needs_review",
+    "candidate_place_geoids": [],
+    "note": "Census place reconciliation only; official state-government validation remains required."
+  }
+]
