@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T19:32:44.343470+00:00",
+  "generated_at": "2026-09-25T19:37:33.688811+00:00",
   "algorithm": "sha256",
-  "dataset_count": 121,
+  "dataset_count": 122,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -243,6 +243,11 @@
       "file": "data/normalized/county_subdivisions_2023.json",
       "sha256": "274bdca19124d643e04f13077adad8fda4a9bbdbeba582d0d3fd5808235d9adf",
       "size_bytes": 10845727
+    },
+    {
+      "file": "data/normalized/current_federal_judges.json",
+      "sha256": "2c81d70ce61b8643f7267b5a5d848f9fc041204f877f3bb3245505dec404aac7",
+      "size_bytes": 11727016
     },
     {
       "file": "data/normalized/current_governors_nga.json",

@@ -522,6 +522,15 @@
     "notes": "Flat export of federal judge biographies, appointments, confirmations, court service, education, and professional careers. The source is updated nightly; retrieval manifests preserve the snapshot date."
   },
   {
+    "id": "fjc-current-article-iii-judges-view",
+    "name": "Currently Serving Article III Federal Judges (Derived View)",
+    "publisher": "US Government Data Atlas",
+    "url": "https://www.fjc.gov/sites/default/files/history/judges.csv",
+    "format": "JSON derived view",
+    "license": "Derived from U.S. government public data",
+    "notes": "As-of-today filter over the Federal Judicial Center roster, retaining judges with a commissioned appointment and no recorded termination before the view date."
+  },
+  {
     "id": "supreme-court-justices",
     "name": "Justices 1789 to Present",
     "publisher": "Supreme Court of the United States",
