@@ -684,6 +684,15 @@
     "notes": "Keyless compact B01001, B15003, B17001, B19013, B25001, and B02001 profiles for 2023 PUMAs, preserving PUMA GEOIDs, estimates, margins of error, and source table labels."
   },
   {
+    "id": "census-gazetteer-2024",
+    "name": "Census 2024 National Gazetteer Geography",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/",
+    "format": "ZIP archives containing tab-delimited Gazetteer files",
+    "license": "U.S. government public data",
+    "notes": "Keyless 2024 national snapshots for counties, ZIP Code Tabulation Areas, and core-based statistical areas."
+  },
+  {
     "id": "national-archives-presidents",
     "name": "U.S. Presidents in the Census Records",
     "publisher": "National Archives",

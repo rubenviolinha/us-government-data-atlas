@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T20:39:28.593198+00:00",
+  "generated_at": "2026-09-25T20:43:02.398640+00:00",
   "algorithm": "sha256",
-  "dataset_count": 141,
+  "dataset_count": 144,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -275,6 +275,11 @@
       "size_bytes": 266328
     },
     {
+      "file": "data/normalized/cbsa_geography_2024.json",
+      "sha256": "08c628ad803c1fe7c7d3f293eb246db9ef47ec0066c782f094487210f1f36c2f",
+      "size_bytes": 266336
+    },
+    {
       "file": "data/normalized/cbsa_population_2020_2024.json",
       "sha256": "5665db24a81e0e0b4947214b3132cfa0673624c1e5c76b82d5ac4c09f44c9116",
       "size_bytes": 284861
@@ -308,6 +313,11 @@
       "file": "data/normalized/counties_2023.json",
       "sha256": "9835d201ca5b31b92e5916984a1995fffd4d7962fec50a3f5bc4e4c880ce4fe8",
       "size_bytes": 890228
+    },
+    {
+      "file": "data/normalized/counties_2024.json",
+      "sha256": "a7b133f1e52b54feb58adcbd61c614a06b68e3d0280a4a90f4e528285f87f538",
+      "size_bytes": 890240
     },
     {
       "file": "data/normalized/county_population_2020_2024.json",
@@ -708,6 +718,11 @@
       "file": "data/normalized/zctas_2023.json",
       "sha256": "ce58f26b6d5cea95a7f62ba6421dd0c2a5fc4f2ed3952879c47ecdb9ec278bdc",
       "size_bytes": 6559547
+    },
+    {
+      "file": "data/normalized/zctas_2024.json",
+      "sha256": "137f2639917b46120e10c3f9ed52256b5ce138f6e91192f55a6674d3fd949491",
+      "size_bytes": 6559646
     }
   ]
 }

@@ -347,6 +347,16 @@ def main():
         assert len(puma_rows) >= 2400
         assert len({row.get("puma_geoid") for row in puma_rows}) == len(puma_rows)
         assert all(row.get("puma_geoid") and len(row["puma_geoid"]) == 7 and row.get("source") and row.get("vintage") == "2023 ACS 5-year" for row in puma_rows)
+
+    counties_2024 = load("counties_2024.json")
+    zctas_2024 = load("zctas_2024.json")
+    cbsa_2024 = load("cbsa_geography_2024.json")
+    assert len(counties_2024) == 3222
+    assert len(zctas_2024) == 33791
+    assert len(cbsa_2024) == 935
+    assert_unique(counties_2024, "GEOID", "2024 county GEOIDs")
+    assert_unique(zctas_2024, "GEOID", "2024 ZCTA GEOIDs")
+    assert_unique(cbsa_2024, "GEOID", "2024 CBSA GEOIDs")
     assert len({row["GEO_ID"] for row in acs_state_age_sex}) == len(acs_state_age_sex)
     for label, rows in (("education", acs_state_education), ("poverty", acs_state_poverty), ("income", acs_state_income), ("housing", acs_state_housing), ("race", acs_state_race)):
         assert len(rows) >= 50, f"too few ACS {label} rows"

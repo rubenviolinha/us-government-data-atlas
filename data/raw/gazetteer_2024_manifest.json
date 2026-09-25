@@ -1,0 +1,23 @@
+{
+  "retrieved_at": "2026-09-25T20:42:53.557355+00:00",
+  "files": [
+    {
+      "path": "data/normalized/counties_2024.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_counties_national.zip",
+      "records": 3222,
+      "raw": "data/raw/census_2024_Gaz_counties_national.zip"
+    },
+    {
+      "path": "data/normalized/zctas_2024.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_zcta_national.zip",
+      "records": 33791,
+      "raw": "data/raw/census_2024_Gaz_zcta_national.zip"
+    },
+    {
+      "path": "data/normalized/cbsa_geography_2024.json",
+      "source": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_cbsa_national.zip",
+      "records": 935,
+      "raw": "data/raw/census_2024_Gaz_cbsa_national.zip"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T20:39:27.902723+00:00",
+  "generated_at": "2026-09-25T20:43:01.718047+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2501,6 +2501,25 @@
       "source_urls_sample": []
     },
     {
+      "file": "data/normalized/cbsa_geography_2024.json",
+      "format": "JSON",
+      "records": 935,
+      "size_bytes": 266336,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "CBSA_TYPE",
+        "CSAFP",
+        "GEOID",
+        "INTPTLAT",
+        "INTPTLONG",
+        "NAME"
+      ],
+      "source_urls_sample": []
+    },
+    {
       "file": "data/normalized/cbsa_population_2020_2024.json",
       "format": "JSON",
       "records": 925,
@@ -2609,6 +2628,25 @@
       "format": "JSON",
       "records": 3222,
       "size_bytes": 890228,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "ANSICODE",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "INTPTLAT",
+        "INTPTLONG",
+        "NAME",
+        "USPS"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/counties_2024.json",
+      "format": "JSON",
+      "records": 3222,
+      "size_bytes": 890240,
       "fields_sample": [
         "ALAND",
         "ALAND_SQMI",
@@ -5213,6 +5251,22 @@
       "format": "JSON",
       "records": 33791,
       "size_bytes": 6559547,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "INTPTLAT",
+        "INTPTLONG"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/zctas_2024.json",
+      "format": "JSON",
+      "records": 33791,
+      "size_bytes": 6559646,
       "fields_sample": [
         "ALAND",
         "ALAND_SQMI",
