@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T10:50:11.295749+00:00",
+  "generated_at": "2026-09-25T10:52:32.881094+00:00",
   "algorithm": "sha256",
-  "dataset_count": 27,
+  "dataset_count": 30,
   "datasets": [
     {
       "file": "data/normalized/acs_profile_variables_2023.json",
@@ -13,6 +13,21 @@
       "file": "data/normalized/acs_state_age_sex_2023.json",
       "sha256": "d4c15d7ab116126046b692ee2572089e0b7f3a9f5802ade8087c315ffb2d7d62",
       "size_bytes": 141933
+    },
+    {
+      "file": "data/normalized/acs_state_housing_2023.json",
+      "sha256": "ff5c5bc371fa52937e124d9610362d2761db5b1354eeeff77676a37d1721615e",
+      "size_bytes": 15478
+    },
+    {
+      "file": "data/normalized/acs_state_income_2023.json",
+      "sha256": "8c6d3996990f9c6e76adf4fe95b8825b5a4907656b974cc7b2cf6885c38b9ad6",
+      "size_bytes": 15392
+    },
+    {
+      "file": "data/normalized/acs_state_race_2023.json",
+      "sha256": "9553273e6320bc04f7e202cbe848f8cf5c84b55dc4f1b9bd0b04c411e97890b7",
+      "size_bytes": 39958
     },
     {
       "file": "data/normalized/capital_validation.json",

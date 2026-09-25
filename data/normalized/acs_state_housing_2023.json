@@ -1,0 +1,470 @@
+[
+  {
+    "GEO_ID": "0400000US01",
+    "B25001_E001": 2316192,
+    "B25001_M001": 430,
+    "state_fips": "01",
+    "state_name": "Alabama",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US02",
+    "B25001_E001": 327610,
+    "B25001_M001": 431,
+    "state_fips": "02",
+    "state_name": "Alaska",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US04",
+    "B25001_E001": 3142443,
+    "B25001_M001": 466,
+    "state_fips": "04",
+    "state_name": "Arizona",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US05",
+    "B25001_E001": 1382664,
+    "B25001_M001": 336,
+    "state_fips": "05",
+    "state_name": "Arkansas",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US06",
+    "B25001_E001": 14532683,
+    "B25001_M001": 1118,
+    "state_fips": "06",
+    "state_name": "California",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US08",
+    "B25001_E001": 2545124,
+    "B25001_M001": 462,
+    "state_fips": "08",
+    "state_name": "Colorado",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US09",
+    "B25001_E001": 1536049,
+    "B25001_M001": 285,
+    "state_fips": "09",
+    "state_name": "Connecticut",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US10",
+    "B25001_E001": 457958,
+    "B25001_M001": 241,
+    "state_fips": "10",
+    "state_name": "Delaware",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US11",
+    "B25001_E001": 356101,
+    "B25001_M001": 179,
+    "state_fips": "11",
+    "state_name": "District of Columbia",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US12",
+    "B25001_E001": 10082356,
+    "B25001_M001": 678,
+    "state_fips": "12",
+    "state_name": "Florida",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US13",
+    "B25001_E001": 4483873,
+    "B25001_M001": 944,
+    "state_fips": "13",
+    "state_name": "Georgia",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US15",
+    "B25001_E001": 564905,
+    "B25001_M001": 196,
+    "state_fips": "15",
+    "state_name": "Hawaii",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US16",
+    "B25001_E001": 776683,
+    "B25001_M001": 221,
+    "state_fips": "16",
+    "state_name": "Idaho",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US17",
+    "B25001_E001": 5443501,
+    "B25001_M001": 767,
+    "state_fips": "17",
+    "state_name": "Illinois",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US18",
+    "B25001_E001": 2953344,
+    "B25001_M001": 390,
+    "state_fips": "18",
+    "state_name": "Indiana",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US19",
+    "B25001_E001": 1427175,
+    "B25001_M001": 397,
+    "state_fips": "19",
+    "state_name": "Iowa",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US20",
+    "B25001_E001": 1285221,
+    "B25001_M001": 690,
+    "state_fips": "20",
+    "state_name": "Kansas",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US21",
+    "B25001_E001": 2010655,
+    "B25001_M001": 372,
+    "state_fips": "21",
+    "state_name": "Kentucky",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US22",
+    "B25001_E001": 2094002,
+    "B25001_M001": 454,
+    "state_fips": "22",
+    "state_name": "Louisiana",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US23",
+    "B25001_E001": 746552,
+    "B25001_M001": 254,
+    "state_fips": "23",
+    "state_name": "Maine",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US24",
+    "B25001_E001": 2545532,
+    "B25001_M001": 484,
+    "state_fips": "24",
+    "state_name": "Maryland",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US25",
+    "B25001_E001": 3014657,
+    "B25001_M001": 502,
+    "state_fips": "25",
+    "state_name": "Massachusetts",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US26",
+    "B25001_E001": 4599683,
+    "B25001_M001": 956,
+    "state_fips": "26",
+    "state_name": "Michigan",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US27",
+    "B25001_E001": 2519538,
+    "B25001_M001": 958,
+    "state_fips": "27",
+    "state_name": "Minnesota",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US28",
+    "B25001_E001": 1332811,
+    "B25001_M001": 2317,
+    "state_fips": "28",
+    "state_name": "Mississippi",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US29",
+    "B25001_E001": 2809501,
+    "B25001_M001": 603,
+    "state_fips": "29",
+    "state_name": "Missouri",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US30",
+    "B25001_E001": 522939,
+    "B25001_M001": 206,
+    "state_fips": "30",
+    "state_name": "Montana",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US31",
+    "B25001_E001": 855631,
+    "B25001_M001": 245,
+    "state_fips": "31",
+    "state_name": "Nebraska",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US32",
+    "B25001_E001": 1307338,
+    "B25001_M001": 360,
+    "state_fips": "32",
+    "state_name": "Nevada",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US33",
+    "B25001_E001": 644253,
+    "B25001_M001": 255,
+    "state_fips": "33",
+    "state_name": "New Hampshire",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US34",
+    "B25001_E001": 3775842,
+    "B25001_M001": 525,
+    "state_fips": "34",
+    "state_name": "New Jersey",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US35",
+    "B25001_E001": 949524,
+    "B25001_M001": 264,
+    "state_fips": "35",
+    "state_name": "New Mexico",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US36",
+    "B25001_E001": 8539536,
+    "B25001_M001": 1410,
+    "state_fips": "36",
+    "state_name": "New York",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US37",
+    "B25001_E001": 4815195,
+    "B25001_M001": 554,
+    "state_fips": "37",
+    "state_name": "North Carolina",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US38",
+    "B25001_E001": 374866,
+    "B25001_M001": 238,
+    "state_fips": "38",
+    "state_name": "North Dakota",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US39",
+    "B25001_E001": 5271573,
+    "B25001_M001": 770,
+    "state_fips": "39",
+    "state_name": "Ohio",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US40",
+    "B25001_E001": 1763036,
+    "B25001_M001": 1066,
+    "state_fips": "40",
+    "state_name": "Oklahoma",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US41",
+    "B25001_E001": 1838631,
+    "B25001_M001": 399,
+    "state_fips": "41",
+    "state_name": "Oregon",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US42",
+    "B25001_E001": 5779663,
+    "B25001_M001": 1198,
+    "state_fips": "42",
+    "state_name": "Pennsylvania",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US44",
+    "B25001_E001": 484615,
+    "B25001_M001": 142,
+    "state_fips": "44",
+    "state_name": "Rhode Island",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US45",
+    "B25001_E001": 2401638,
+    "B25001_M001": 448,
+    "state_fips": "45",
+    "state_name": "South Carolina",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US46",
+    "B25001_E001": 402364,
+    "B25001_M001": 200,
+    "state_fips": "46",
+    "state_name": "South Dakota",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US47",
+    "B25001_E001": 3095472,
+    "B25001_M001": 769,
+    "state_fips": "47",
+    "state_name": "Tennessee",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US48",
+    "B25001_E001": 11890808,
+    "B25001_M001": 698,
+    "state_fips": "48",
+    "state_name": "Texas",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US49",
+    "B25001_E001": 1193082,
+    "B25001_M001": 271,
+    "state_fips": "49",
+    "state_name": "Utah",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US50",
+    "B25001_E001": 337072,
+    "B25001_M001": 133,
+    "state_fips": "50",
+    "state_name": "Vermont",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US51",
+    "B25001_E001": 3654784,
+    "B25001_M001": 946,
+    "state_fips": "51",
+    "state_name": "Virginia",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US53",
+    "B25001_E001": 3262667,
+    "B25001_M001": 447,
+    "state_fips": "53",
+    "state_name": "Washington",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US54",
+    "B25001_E001": 859653,
+    "B25001_M001": 241,
+    "state_fips": "54",
+    "state_name": "West Virginia",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US55",
+    "B25001_E001": 2750750,
+    "B25001_M001": 1389,
+    "state_fips": "55",
+    "state_name": "Wisconsin",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US56",
+    "B25001_E001": 275131,
+    "B25001_M001": 170,
+    "state_fips": "56",
+    "state_name": "Wyoming",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  },
+  {
+    "GEO_ID": "0400000US72",
+    "B25001_E001": 1575105,
+    "B25001_M001": 4606,
+    "state_fips": "72",
+    "state_name": "Puerto Rico",
+    "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+    "table": "B25001"
+  }
+]

@@ -67,6 +67,8 @@ The ACS profile variable catalog is available at `data/normalized/acs_profile_va
 
 The keyless summary-file fallback `data/normalized/acs_state_age_sex_2023.json` contains state-level 2023 ACS 5-year B01001 age/sex estimates; the larger county/place demographic expansion remains a later step.
 
+Additional keyless ACS state profiles are available for B19013 income, B25001 housing units, and B02001 race in `data/normalized/`.
+
 ## Local API
 
 The checked-in releases can be queried locally without an API key:

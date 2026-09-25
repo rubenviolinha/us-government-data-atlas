@@ -1,0 +1,21 @@
+{
+  "retrieved_at": "2026-09-25T10:52:27.323186+00:00",
+  "tables": {
+    "B19013": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b19013.dat",
+      "file": "data/normalized/acs_state_income_2023.json",
+      "records": 52
+    },
+    "B25001": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25001.dat",
+      "file": "data/normalized/acs_state_housing_2023.json",
+      "records": 52
+    },
+    "B02001": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b02001.dat",
+      "file": "data/normalized/acs_state_race_2023.json",
+      "records": 52
+    }
+  },
+  "note": "Public table-based ACS summary files; no API key used."
+}
