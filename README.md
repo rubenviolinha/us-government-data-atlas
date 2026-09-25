@@ -63,4 +63,14 @@ The capital validator reconciles the initial capital list to Census places and e
 
 `metadata/access_requirements.json` records the remaining external requirements: Census ACS credentials or bulk-file approval, USPS licensing for exact ZIP delivery geography, a FEC API key for election data, and a source decision for state legislators. Everything else in the current release is fetched from public, keyless sources.
 
+## Local API
+
+The checked-in releases can be queried locally without an API key:
+
+```bash
+python3 api/server.py
+```
+
+Then use `GET /health`, `GET /catalog`, or `GET /datasets/<filename>.json`, for example `/datasets/states.json`. The server is read-only and only serves files listed in `metadata/catalog.json`.
+
 The legislator script imports current and historical congressional members and terms from the open `unitedstates/congress-legislators` project, retaining Bioguide and other government identifiers.
