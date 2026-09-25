@@ -540,6 +540,15 @@
     "notes": "Historical chief and associate justice roster with state appointed from, appointing president, judicial oath date, and service termination date."
   },
   {
+    "id": "white-house-current-cabinet",
+    "name": "The Cabinet - Current White House Roster",
+    "publisher": "The White House",
+    "url": "https://www.whitehouse.gov/administration/cabinet/",
+    "format": "HTML",
+    "license": "U.S. government public data",
+    "notes": "Current Cabinet and Cabinet-level official names, titles, profile images, and retrieval timestamps from the official White House administration page."
+  },
+  {
     "id": "supreme-court-current-view",
     "name": "Currently Serving Supreme Court Justices (Derived View)",
     "publisher": "US Government Data Atlas",

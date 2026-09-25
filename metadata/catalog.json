@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T19:37:33.053960+00:00",
+  "generated_at": "2026-09-25T19:41:35.302961+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2317,6 +2317,22 @@
         "USPS"
       ],
       "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/current_cabinet_white_house.json",
+      "format": "JSON",
+      "records": 21,
+      "size_bytes": 6551,
+      "fields_sample": [
+        "name",
+        "profile_image_url",
+        "retrieved_at",
+        "source",
+        "title"
+      ],
+      "source_urls_sample": [
+        "https://www.whitehouse.gov/administration/cabinet/"
+      ]
     },
     {
       "file": "data/normalized/current_federal_judges.json",

@@ -73,6 +73,7 @@ def main():
     current_justices = load("current_supreme_court_justices.json")
     federal_judges = load("federal_judges.json")
     current_federal_judges = load("current_federal_judges.json")
+    current_cabinet = load("current_cabinet_white_house.json")
     secretaries_of_state = load("secretaries_of_state.json")
     state_department_principals = load("state_department_principals.json")
     acs_variables = load("acs_profile_variables_2023.json")
@@ -283,6 +284,9 @@ def main():
     assert len(current_federal_judges) >= 500
     assert all(row.get("jid") and row.get("view_as_of") and row.get("view_type") == "currently_serving" and row.get("active_appointments") for row in current_federal_judges)
     assert all(all(appointment.get("commission_date") and (not appointment.get("termination_date") or appointment["termination_date"] >= row["view_as_of"]) for appointment in row["active_appointments"]) for row in current_federal_judges)
+    assert len(current_cabinet) >= 15
+    assert len({row.get("title") for row in current_cabinet}) == len(current_cabinet)
+    assert all(row.get("name") and row.get("title") and row.get("source") and row.get("retrieved_at") for row in current_cabinet)
     assert len(secretaries_of_state) >= 60
     assert all(row.get("name") and row.get("profile_url") and row.get("source") for row in secretaries_of_state)
     assert all(row.get("end_year") is None or row["start_year"] <= row["end_year"] for row in secretaries_of_state)
