@@ -943,5 +943,14 @@
     "format": "ArcGIS Feature Service JSON",
     "license": "U.S. government public data",
     "notes": "Compact tract-level SVI estimates, theme percentile ranks, overall percentile rank, flags, and selected population/context fields."
+  },
+  {
+    "id": "cdc-svi-2022-zctas",
+    "name": "CDC/ATSDR Social Vulnerability Index 2022 ZCTA Layer",
+    "publisher": "CDC / Agency for Toxic Substances and Disease Registry",
+    "url": "https://onemap.cdc.gov/OneMapServices/rest/services/SVI/SVI_consolidated_data/FeatureServer/0",
+    "format": "ArcGIS Feature Service JSON",
+    "license": "U.S. government public data",
+    "notes": "Compact nationwide ZCTA-level SVI 2022 records using national comparison ranks, selected population/context fields, and provenance."
   }
 ]

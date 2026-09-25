@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T21:43:11.865140+00:00",
+  "generated_at": "2026-09-25T21:47:20.199617+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -6803,6 +6803,55 @@
       ],
       "source_urls_sample": [
         "https://onemap.cdc.gov/onemapservices/rest/services/SVI/CDC_ATSDR_Social_Vulnerability_Index_2022_USA/FeatureServer/2/query"
+      ]
+    },
+    {
+      "file": "data/normalized/svi_zctas_2022.json",
+      "format": "JSON",
+      "records": 33642,
+      "size_bytes": 31638735,
+      "fields_sample": [
+        "EP_HISP",
+        "EP_NOINT",
+        "E_HH",
+        "E_HISP",
+        "E_HU",
+        "E_NOINT",
+        "E_TOTPOP",
+        "F_HBURD",
+        "F_POV150",
+        "F_UNINSUR",
+        "GEOID",
+        "GRASPID",
+        "Overall_SVI_Percentile",
+        "ST",
+        "Theme1_EPL_HBURD",
+        "Theme1_EPL_NOHSDP",
+        "Theme1_EPL_POV",
+        "Theme1_EPL_UNEMP",
+        "Theme1_EPL_UNINSUR",
+        "Theme1_Percentile",
+        "Theme2_EPL_AGE17",
+        "Theme2_EPL_AGE65",
+        "Theme2_EPL_DISABL",
+        "Theme2_EPL_LIMENG",
+        "Theme2_EPL_SNGPNT",
+        "Theme2_Percentile",
+        "Theme3_EPL_MINRTY",
+        "Theme3_Percentile",
+        "Theme4_EPL_CROWD",
+        "Theme4_EPL_GROUPQ",
+        "Theme4_EPL_MOBILE",
+        "Theme4_EPL_MUNIT",
+        "Theme4_EPL_NOVEH",
+        "Theme4_Percentile",
+        "comparison",
+        "retrieved_at",
+        "source",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://onemap.cdc.gov/OneMapServices/rest/services/SVI/SVI_consolidated_data/FeatureServer/0/query"
       ]
     },
     {
