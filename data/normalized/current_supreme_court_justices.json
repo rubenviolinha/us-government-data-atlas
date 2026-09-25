@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Roberts, John G., Jr.",
+    "role": "chief",
+    "state_appointed_from": "Maryland",
+    "appointed_by_president": "Bush, G. W.",
+    "oath_date": "2005-09-29",
+    "service_terminated_date": null,
+    "source": "https://www.supremecourt.gov/about/members_text.aspx",
+    "view_as_of": "2026-09-25",
+    "view_type": "currently_serving"
+  },
+  {
+    "name": "Thomas, Clarence",
+    "role": "associate",
+    "state_appointed_from": "Georgia",
+    "appointed_by_president": "Bush, G. H. W.",
+    "oath_date": "1991-10-23",
+    "service_terminated_date": null,
+    "source": "https://www.supremecourt.gov/about/members_text.aspx",
+    "view_as_of": "2026-09-25",
+    "view_type": "currently_serving"
+  },
+  {
+    "name": "Alito, Samuel A., Jr.",
+    "role": "associate",
+    "state_appointed_from": "New Jersey",
+    "appointed_by_president": "Bush, G. W.",
+    "oath_date": "2006-01-31",
+    "service_terminated_date": null,
+    "source": "https://www.supremecourt.gov/about/members_text.aspx",
+    "view_as_of": "2026-09-25",
+    "view_type": "currently_serving"
+  },
+  {
+    "name": "Sotomayor, Sonia",
+    "role": "associate",
+    "state_appointed_from": "New York",
+    "appointed_by_president": "Obama",
+    "oath_date": "2009-08-08",
+    "service_terminated_date": null,
+    "source": "https://www.supremecourt.gov/about/members_text.aspx",
+    "view_as_of": "2026-09-25",
+    "view_type": "currently_serving"
+  },
+  {
+    "name": "Kagan, Elena",
+    "role": "associate",
+    "state_appointed_from": "Massachusetts",
+    "appointed_by_president": "Obama",
+    "oath_date": "2010-08-07",
+    "service_terminated_date": null,
+    "source": "https://www.supremecourt.gov/about/members_text.aspx",
+    "view_as_of": "2026-09-25",
+    "view_type": "currently_serving"
+  },
+  {
+    "name": "Gorsuch, Neil M.",
+    "role": "associate",
+    "state_appointed_from": "Colorado",
+    "appointed_by_president": "Trump",
+    "oath_date": "2017-04-10",
+    "service_terminated_date": null,
+    "source": "https://www.supremecourt.gov/about/members_text.aspx",
+    "view_as_of": "2026-09-25",
+    "view_type": "currently_serving"
+  },
+  {
+    "name": "Kavanaugh, Brett M.",
+    "role": "associate",
+    "state_appointed_from": "Maryland",
+    "appointed_by_president": "Trump",
+    "oath_date": "2018-10-06",
+    "service_terminated_date": null,
+    "source": "https://www.supremecourt.gov/about/members_text.aspx",
+    "view_as_of": "2026-09-25",
+    "view_type": "currently_serving"
+  },
+  {
+    "name": "Barrett, Amy Coney",
+    "role": "associate",
+    "state_appointed_from": "Indiana",
+    "appointed_by_president": "Trump",
+    "oath_date": "2020-10-27",
+    "service_terminated_date": null,
+    "source": "https://www.supremecourt.gov/about/members_text.aspx",
+    "view_as_of": "2026-09-25",
+    "view_type": "currently_serving"
+  },
+  {
+    "name": "Jackson, Ketanji Brown",
+    "role": "associate",
+    "state_appointed_from": "Washington, D.C.",
+    "appointed_by_president": "Biden",
+    "oath_date": "2022-06-30",
+    "service_terminated_date": null,
+    "source": "https://www.supremecourt.gov/about/members_text.aspx",
+    "view_as_of": "2026-09-25",
+    "view_type": "currently_serving"
+  }
+]

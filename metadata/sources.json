@@ -531,6 +531,15 @@
     "notes": "Historical chief and associate justice roster with state appointed from, appointing president, judicial oath date, and service termination date."
   },
   {
+    "id": "supreme-court-current-view",
+    "name": "Currently Serving Supreme Court Justices (Derived View)",
+    "publisher": "US Government Data Atlas",
+    "url": "https://www.supremecourt.gov/about/members_text.aspx",
+    "format": "JSON derived view",
+    "license": "Derived from U.S. government public data",
+    "notes": "As-of-today filter over the official historical roster; includes justices whose oath date has occurred and whose service has not terminated."
+  },
+  {
     "id": "library-of-congress-vice-presidents",
     "name": "Alphabetical List of Vice Presidents and Their Terms",
     "publisher": "Library of Congress",

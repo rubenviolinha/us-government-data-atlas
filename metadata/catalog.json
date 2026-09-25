@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T19:28:56.508255+00:00",
+  "generated_at": "2026-09-25T19:32:43.707286+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2436,6 +2436,26 @@
       ],
       "source_urls_sample": [
         "https://github.com/openstates/people"
+      ]
+    },
+    {
+      "file": "data/normalized/current_supreme_court_justices.json",
+      "format": "JSON",
+      "records": 9,
+      "size_bytes": 3218,
+      "fields_sample": [
+        "appointed_by_president",
+        "name",
+        "oath_date",
+        "role",
+        "service_terminated_date",
+        "source",
+        "state_appointed_from",
+        "view_as_of",
+        "view_type"
+      ],
+      "source_urls_sample": [
+        "https://www.supremecourt.gov/about/members_text.aspx"
       ]
     },
     {
