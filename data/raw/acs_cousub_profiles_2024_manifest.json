@@ -1,0 +1,36 @@
+{
+  "retrieved_at": "2026-09-25T21:54:05.573307+00:00",
+  "tables": {
+    "acs_cousub_B01001_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "file": "data/normalized/acs_cousub_B01001_2024_5yr.json",
+      "records": 36421
+    },
+    "acs_cousub_B15003_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+      "file": "data/normalized/acs_cousub_B15003_2024_5yr.json",
+      "records": 36421
+    },
+    "acs_cousub_B17001_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "file": "data/normalized/acs_cousub_B17001_2024_5yr.json",
+      "records": 36421
+    },
+    "acs_cousub_B19013_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "file": "data/normalized/acs_cousub_B19013_2024_5yr.json",
+      "records": 36421
+    },
+    "acs_cousub_B25001_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
+      "file": "data/normalized/acs_cousub_B25001_2024_5yr.json",
+      "records": 36421
+    },
+    "acs_cousub_B02001_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
+      "file": "data/normalized/acs_cousub_B02001_2024_5yr.json",
+      "records": 36421
+    }
+  },
+  "note": "Public table-based ACS 2024 5-year county-subdivision profile extracts; compact fields; no API key used."
+}

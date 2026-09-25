@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T21:50:51.574998+00:00",
+  "generated_at": "2026-09-25T21:55:49.562691+00:00",
   "algorithm": "sha256",
-  "dataset_count": 223,
+  "dataset_count": 229,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -100,9 +100,19 @@
       "size_bytes": 15685909
     },
     {
+      "file": "data/normalized/acs_cousub_age_sex_2024_5yr.json",
+      "sha256": "1df9c07babdae0b696cc91590ab80bf682a73e30ce7da16c2483ab7895229a84",
+      "size_bytes": 14879183
+    },
+    {
       "file": "data/normalized/acs_cousub_education_2023.json",
       "sha256": "42ab5f93b68a904df77fcdd6888d68079d9e0e7a094a3bcd3c671810361225c7",
       "size_bytes": 16424618
+    },
+    {
+      "file": "data/normalized/acs_cousub_education_2024_5yr.json",
+      "sha256": "9bd0986f504743414ccbabd965ce08f5f17481350faa33874b72733f8a93aeaf",
+      "size_bytes": 15399871
     },
     {
       "file": "data/normalized/acs_cousub_housing_2023.json",
@@ -110,9 +120,19 @@
       "size_bytes": 13898541
     },
     {
+      "file": "data/normalized/acs_cousub_housing_2024_5yr.json",
+      "sha256": "4b17a8728f61b621228604f90b7686753c2602a4223f18c329e08a164e88bb32",
+      "size_bytes": 13529634
+    },
+    {
       "file": "data/normalized/acs_cousub_income_2023.json",
       "sha256": "252207a10bf4b86c4c140d5f64579afcdc1de25058163041204c55e7dd0eb0a1",
       "size_bytes": 14076611
+    },
+    {
+      "file": "data/normalized/acs_cousub_income_2024_5yr.json",
+      "sha256": "a0fe4c197446b1f419c392165e6251ed8b659f5c29a88a93e425ae95912c451c",
+      "size_bytes": 13710138
     },
     {
       "file": "data/normalized/acs_cousub_poverty_2023.json",
@@ -120,9 +140,19 @@
       "size_bytes": 15624189
     },
     {
+      "file": "data/normalized/acs_cousub_poverty_2024_5yr.json",
+      "sha256": "406eb80af5da36ebbdd96a95f085a6af39df514d7d2ce3c1a7ec02f239703eb8",
+      "size_bytes": 14817370
+    },
+    {
       "file": "data/normalized/acs_cousub_race_2023.json",
       "sha256": "47dd454d75f134bf4bb2ab218ee2a15c5d2ed501122b363bce99ac3d273cdf8e",
       "size_bytes": 19755953
+    },
+    {
+      "file": "data/normalized/acs_cousub_race_2024_5yr.json",
+      "sha256": "5877676317678f145cc46577ab0c8e5768a45f70b525abf887375237779957b8",
+      "size_bytes": 17858691
     },
     {
       "file": "data/normalized/acs_district_age_sex_2023.json",
