@@ -35,6 +35,7 @@ python3 scripts/fetch_presidents.py
 python3 scripts/fetch_federal_register_agencies.py
 python3 scripts/fetch_executive_orders.py
 python3 scripts/fetch_proclamations.py
+python3 scripts/fetch_presidential_documents.py
 python3 scripts/fetch_geography.py
 python3 scripts/fetch_gnis.py
 python3 scripts/fetch_districts.py

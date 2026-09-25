@@ -1,0 +1,18 @@
+{
+  "retrieved_at": "2026-09-25T10:27:58.308110+00:00",
+  "source": "https://www.federalregister.gov/api/v1/documents.json",
+  "queries": [
+    "memorandum",
+    "determination",
+    "other"
+  ],
+  "raw_file": "data/raw/presidential-documents-federal-register.json",
+  "file": "data/normalized/presidential_documents.json",
+  "records": 1667,
+  "pages": 3,
+  "counts_by_type": {
+    "memorandum": 807,
+    "determination": 800,
+    "other": 60
+  }
+}
