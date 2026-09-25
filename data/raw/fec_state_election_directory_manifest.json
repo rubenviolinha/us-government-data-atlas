@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-25T20:54:54.454130+00:00",
+  "source": "https://www.fec.gov/resources/cms-content/documents/cfsded.pdf",
+  "format": "PDF",
+  "records": 57,
+  "file": "data/normalized/fec_state_election_directory_2025.json",
+  "note": "State and territory election/disclosure office sections preserved with extracted contact fields and source text; no API key used."
+}

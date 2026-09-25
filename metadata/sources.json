@@ -702,6 +702,15 @@
     "notes": "Official state-election-office compilation of candidates appearing on 2024 general-election ballots for the U.S. House and Senate; no API key used."
   },
   {
+    "id": "fec-state-election-directory-2025",
+    "name": "FEC Combined Federal/State Election Directory (July 2025)",
+    "publisher": "Federal Election Commission",
+    "url": "https://www.fec.gov/resources/cms-content/documents/cfsded.pdf",
+    "format": "PDF with extracted state/territory sections",
+    "license": "U.S. government public data",
+    "notes": "State and territory election/disclosure office contacts, URLs, phones, emails, page provenance, and preserved source sections."
+  },
+  {
     "id": "national-archives-presidents",
     "name": "U.S. Presidents in the Census Records",
     "publisher": "National Archives",

@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T20:49:44.679132+00:00",
+  "generated_at": "2026-09-25T20:55:06.230032+00:00",
   "algorithm": "sha256",
-  "dataset_count": 147,
+  "dataset_count": 148,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -503,6 +503,11 @@
       "file": "data/normalized/fec_presidential_general_results_2024.json",
       "sha256": "ace57f2cb4e6cdc47eb1360d8a3220d5dec77caaaa4b09b7e59311f78f348d48",
       "size_bytes": 61451
+    },
+    {
+      "file": "data/normalized/fec_state_election_directory_2025.json",
+      "sha256": "825c1ecc2e478ae346ab951a46991c075f9db5ce3dbc9e4febc5626ead57fc6c",
+      "size_bytes": 284688
     },
     {
       "file": "data/normalized/federal_agency_relationships.json",

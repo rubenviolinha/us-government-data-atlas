@@ -354,6 +354,7 @@ def main():
     places_2024 = load("places_2024.json")
     tracts_2024 = load("tracts_2024.json")
     ballot_candidates_2024 = load("fec_congressional_ballot_candidates_2024.json")
+    election_directory_2025 = load("fec_state_election_directory_2025.json")
     assert len(counties_2024) == 3222
     assert len(zctas_2024) == 33791
     assert len(cbsa_2024) == 935
@@ -361,6 +362,10 @@ def main():
     assert len(tracts_2024) == 85396
     assert len(ballot_candidates_2024) >= 1100
     assert all(row.get("fec_id_number") and row.get("candidate_name") and row.get("office") in {"house", "senate"} for row in ballot_candidates_2024)
+    assert len(election_directory_2025) >= 55
+    assert len({row["state_fips"] for row in election_directory_2025}) == len(election_directory_2025)
+    assert all(row.get("state_name") and row.get("source") for row in election_directory_2025)
+    assert sum(bool(row.get("section_available")) for row in election_directory_2025) >= 55
     assert_unique(counties_2024, "GEOID", "2024 county GEOIDs")
     assert_unique(zctas_2024, "GEOID", "2024 ZCTA GEOIDs")
     assert_unique(cbsa_2024, "GEOID", "2024 CBSA GEOIDs")
