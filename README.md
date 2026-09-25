@@ -39,6 +39,7 @@ python3 scripts/fetch_presidential_documents.py
 python3 scripts/fetch_vice_presidents.py
 python3 scripts/fetch_supreme_court_justices.py
 python3 scripts/fetch_federal_judges.py
+python3 scripts/fetch_secretaries_of_state.py
 python3 scripts/fetch_geography.py
 python3 scripts/fetch_gnis.py
 python3 scripts/fetch_districts.py

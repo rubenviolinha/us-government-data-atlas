@@ -37,6 +37,7 @@ def main():
     vice_presidents = load("vice_presidents.json")
     justices = load("supreme_court_justices.json")
     federal_judges = load("federal_judges.json")
+    secretaries_of_state = load("secretaries_of_state.json")
 
     assert len(states) >= 50
     assert_unique(states, "state_fips", "state FIPS codes")
@@ -83,6 +84,9 @@ def main():
     assert all(row.get("jid") and row.get("Last Name") and row.get("source") for row in federal_judges)
     judge_ids = [row["jid"] for row in federal_judges]
     assert len(judge_ids) == len(set(judge_ids)), "duplicate Federal Judicial Center judge IDs"
+    assert len(secretaries_of_state) >= 60
+    assert all(row.get("name") and row.get("profile_url") and row.get("source") for row in secretaries_of_state)
+    assert all(row.get("end_year") is None or row["start_year"] <= row["end_year"] for row in secretaries_of_state)
 
     zcta_ids = {row["GEOID"] for row in zctas}
     # The relationship file is a 2020 vintage while the county gazetteer is 2023;
@@ -96,7 +100,7 @@ def main():
     assert all(len(row["GEOID"]) == 5 for row in county_population)
     assert all(len(row["GEOID"]) == 7 for row in place_population)
     assert all(term.get("type") in {"rep", "sen"} for person in legislators for term in person.get("terms", []))
-    print(f"validated states={len(states)} counties={len(counties)} county_population={len(county_population)} places={len(places)} place_population={len(place_population)} legislators={len(legislators)} governors={len(governors)} governor_terms={sum(len(row.get('terms', [])) for row in governors)} presidents={len(presidents)} vice_presidents={len(vice_presidents)} justices={len(justices)} federal_judges={len(federal_judges)} agencies={len(agencies)} executive_orders={len(executive_orders)} proclamations={len(proclamations)} presidential_documents={len(presidential_documents)} zctas={len(zctas)} relationships={len(relationships)} districts_2020={len(districts)} districts_2025={len(current_districts)}")
+    print(f"validated states={len(states)} counties={len(counties)} county_population={len(county_population)} places={len(places)} place_population={len(place_population)} legislators={len(legislators)} governors={len(governors)} governor_terms={sum(len(row.get('terms', [])) for row in governors)} presidents={len(presidents)} vice_presidents={len(vice_presidents)} justices={len(justices)} federal_judges={len(federal_judges)} secretaries_of_state={len(secretaries_of_state)} agencies={len(agencies)} executive_orders={len(executive_orders)} proclamations={len(proclamations)} presidential_documents={len(presidential_documents)} zctas={len(zctas)} relationships={len(relationships)} districts_2020={len(districts)} districts_2025={len(current_districts)}")
 
 
 if __name__ == "__main__":
