@@ -1,0 +1,66 @@
+{
+  "retrieved_at": "2026-09-25T22:18:38.341598+00:00",
+  "tables": {
+    "acs_state_legislative_upper_age_sex_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "file": "data/normalized/acs_state_legislative_upper_age_sex_2024_5yr.json",
+      "records": 1964
+    },
+    "acs_state_legislative_upper_education_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+      "file": "data/normalized/acs_state_legislative_upper_education_2024_5yr.json",
+      "records": 1964
+    },
+    "acs_state_legislative_upper_poverty_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "file": "data/normalized/acs_state_legislative_upper_poverty_2024_5yr.json",
+      "records": 1964
+    },
+    "acs_state_legislative_upper_income_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "file": "data/normalized/acs_state_legislative_upper_income_2024_5yr.json",
+      "records": 1964
+    },
+    "acs_state_legislative_upper_housing_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
+      "file": "data/normalized/acs_state_legislative_upper_housing_2024_5yr.json",
+      "records": 1964
+    },
+    "acs_state_legislative_upper_race_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
+      "file": "data/normalized/acs_state_legislative_upper_race_2024_5yr.json",
+      "records": 1964
+    },
+    "acs_state_legislative_lower_age_sex_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "file": "data/normalized/acs_state_legislative_lower_age_sex_2024_5yr.json",
+      "records": 4879
+    },
+    "acs_state_legislative_lower_education_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+      "file": "data/normalized/acs_state_legislative_lower_education_2024_5yr.json",
+      "records": 4879
+    },
+    "acs_state_legislative_lower_poverty_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "file": "data/normalized/acs_state_legislative_lower_poverty_2024_5yr.json",
+      "records": 4879
+    },
+    "acs_state_legislative_lower_income_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "file": "data/normalized/acs_state_legislative_lower_income_2024_5yr.json",
+      "records": 4879
+    },
+    "acs_state_legislative_lower_housing_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
+      "file": "data/normalized/acs_state_legislative_lower_housing_2024_5yr.json",
+      "records": 4879
+    },
+    "acs_state_legislative_lower_race_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
+      "file": "data/normalized/acs_state_legislative_lower_race_2024_5yr.json",
+      "records": 4879
+    }
+  },
+  "note": "Public table-based ACS 2024 5-year state-legislative-district profile extracts; compact fields; separate upper/lower chambers; no API key used."
+}

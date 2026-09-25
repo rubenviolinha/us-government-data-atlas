@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T22:16:11.916456+00:00",
+  "generated_at": "2026-09-25T22:20:02.703127+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -3730,6 +3730,298 @@
       ],
       "source_urls_sample": [
         "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b19013.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_lower_age_sex_2024_5yr.json",
+      "format": "JSON",
+      "records": 4879,
+      "size_bytes": 2016200,
+      "fields_sample": [
+        "B01001_E001",
+        "B01001_E002",
+        "B01001_E026",
+        "B01001_M001",
+        "GEO_ID",
+        "chamber",
+        "district_geoid",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "state_name",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_lower_education_2024_5yr.json",
+      "format": "JSON",
+      "records": 4879,
+      "size_bytes": 2100735,
+      "fields_sample": [
+        "B15003_E001",
+        "B15003_E002",
+        "B15003_E017",
+        "B15003_E025",
+        "B15003_M001",
+        "GEO_ID",
+        "chamber",
+        "district_geoid",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "state_name",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_lower_housing_2024_5yr.json",
+      "format": "JSON",
+      "records": 4879,
+      "size_bytes": 1818127,
+      "fields_sample": [
+        "B25001_E001",
+        "B25001_M001",
+        "GEO_ID",
+        "chamber",
+        "district_geoid",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "state_name",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_lower_income_2024_5yr.json",
+      "format": "JSON",
+      "records": 4879,
+      "size_bytes": 1820004,
+      "fields_sample": [
+        "B19013_E001",
+        "B19013_M001",
+        "GEO_ID",
+        "chamber",
+        "district_geoid",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "state_name",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_lower_poverty_2024_5yr.json",
+      "format": "JSON",
+      "records": 4879,
+      "size_bytes": 2007372,
+      "fields_sample": [
+        "B17001_E001",
+        "B17001_E002",
+        "B17001_E017",
+        "B17001_M001",
+        "GEO_ID",
+        "chamber",
+        "district_geoid",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "state_name",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_lower_race_2024_5yr.json",
+      "format": "JSON",
+      "records": 4879,
+      "size_bytes": 2437160,
+      "fields_sample": [
+        "B02001_E001",
+        "B02001_E002",
+        "B02001_E003",
+        "B02001_E004",
+        "B02001_E005",
+        "B02001_E006",
+        "B02001_E007",
+        "B02001_E008",
+        "B02001_M001",
+        "GEO_ID",
+        "chamber",
+        "district_geoid",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "state_name",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_upper_age_sex_2024_5yr.json",
+      "format": "JSON",
+      "records": 1964,
+      "size_bytes": 814390,
+      "fields_sample": [
+        "B01001_E001",
+        "B01001_E002",
+        "B01001_E026",
+        "B01001_M001",
+        "GEO_ID",
+        "chamber",
+        "district_geoid",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "state_name",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_upper_education_2024_5yr.json",
+      "format": "JSON",
+      "records": 1964,
+      "size_bytes": 849344,
+      "fields_sample": [
+        "B15003_E001",
+        "B15003_E002",
+        "B15003_E017",
+        "B15003_E025",
+        "B15003_M001",
+        "GEO_ID",
+        "chamber",
+        "district_geoid",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "state_name",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_upper_housing_2024_5yr.json",
+      "format": "JSON",
+      "records": 1964,
+      "size_bytes": 732712,
+      "fields_sample": [
+        "B25001_E001",
+        "B25001_M001",
+        "GEO_ID",
+        "chamber",
+        "district_geoid",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "state_name",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_upper_income_2024_5yr.json",
+      "format": "JSON",
+      "records": 1964,
+      "size_bytes": 732327,
+      "fields_sample": [
+        "B19013_E001",
+        "B19013_M001",
+        "GEO_ID",
+        "chamber",
+        "district_geoid",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "state_name",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_upper_poverty_2024_5yr.json",
+      "format": "JSON",
+      "records": 1964,
+      "size_bytes": 810810,
+      "fields_sample": [
+        "B17001_E001",
+        "B17001_E002",
+        "B17001_E017",
+        "B17001_M001",
+        "GEO_ID",
+        "chamber",
+        "district_geoid",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "state_name",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_upper_race_2024_5yr.json",
+      "format": "JSON",
+      "records": 1964,
+      "size_bytes": 989189,
+      "fields_sample": [
+        "B02001_E001",
+        "B02001_E002",
+        "B02001_E003",
+        "B02001_E004",
+        "B02001_E005",
+        "B02001_E006",
+        "B02001_E007",
+        "B02001_E008",
+        "B02001_M001",
+        "GEO_ID",
+        "chamber",
+        "district_geoid",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "state_name",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat"
       ]
     },
     {

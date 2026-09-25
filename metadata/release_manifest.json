@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T22:16:13.277411+00:00",
+  "generated_at": "2026-09-25T22:20:03.824404+00:00",
   "algorithm": "sha256",
-  "dataset_count": 259,
+  "dataset_count": 271,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -558,6 +558,66 @@
       "file": "data/normalized/acs_state_income_2024.json",
       "sha256": "406da7aef695e81549a34086b8316a4a3c18ae4e15a2fa537468e7dd9d65a513",
       "size_bytes": 21393
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_lower_age_sex_2024_5yr.json",
+      "sha256": "91bfec30b93c95729a48b88925e90067d92f608f2491d76efc9168f564511a24",
+      "size_bytes": 2016200
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_lower_education_2024_5yr.json",
+      "sha256": "38aa8e111b1c0e00ff69047b570349860823d3348d617cd6ce00bf1d29dd1b0b",
+      "size_bytes": 2100735
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_lower_housing_2024_5yr.json",
+      "sha256": "a7d7b9adde2a6ab5f520145573db68607e0eaf3f66a97184b88084f698b6e63d",
+      "size_bytes": 1818127
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_lower_income_2024_5yr.json",
+      "sha256": "a3e5c8dad7eabec0565fb1af65f804fe112a64784e37bfb759b05679f10aaa77",
+      "size_bytes": 1820004
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_lower_poverty_2024_5yr.json",
+      "sha256": "558228ffbf65d0563806cd9c2a7f6841eb807b66778609afb5680d3120358344",
+      "size_bytes": 2007372
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_lower_race_2024_5yr.json",
+      "sha256": "7c47f2ec5ce42fdd2442d9c3e80ce06de2c7e95291a4cf0e61921314b2883c82",
+      "size_bytes": 2437160
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_upper_age_sex_2024_5yr.json",
+      "sha256": "6f988ee657a2f393d6dbdf8ad9befed844446fa09607dfa67f38706931c186fb",
+      "size_bytes": 814390
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_upper_education_2024_5yr.json",
+      "sha256": "5b79c58748370a9c99aabbdb2f588af4784c3b5a3636d1df47c9e2a1eaf9cdb6",
+      "size_bytes": 849344
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_upper_housing_2024_5yr.json",
+      "sha256": "c7d7d841c45fc9065d0bff209a196580ad13f07c6e07e4b8dd8ebc18d809cf0f",
+      "size_bytes": 732712
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_upper_income_2024_5yr.json",
+      "sha256": "1895bb9cddf87b79a15c94c7120e76ea3dcd775c960c7922eaa466c4de8ad6d4",
+      "size_bytes": 732327
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_upper_poverty_2024_5yr.json",
+      "sha256": "69b5889427771635820dbe8295b1b5f78e333af1d88123aeca4ee406857e3bb9",
+      "size_bytes": 810810
+    },
+    {
+      "file": "data/normalized/acs_state_legislative_upper_race_2024_5yr.json",
+      "sha256": "09141e4ff720e62c0cc5112b8d7abefcff1a07c20ac031c920cccfd34b563a06",
+      "size_bytes": 989189
     },
     {
       "file": "data/normalized/acs_state_poverty_2023.json",
