@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:13:05.195923+00:00",
+  "generated_at": "2026-09-25T17:14:54.755109+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -3028,6 +3028,24 @@
         "INTPTLAT",
         "INTPTLONG",
         "USPS"
+      ],
+      "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/urban_areas_2023.json",
+      "format": "JSON",
+      "records": 2644,
+      "size_bytes": 666015,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "INTPTLAT",
+        "INTPTLONG",
+        "NAME",
+        "UATYPE"
       ],
       "source_urls_sample": []
     },

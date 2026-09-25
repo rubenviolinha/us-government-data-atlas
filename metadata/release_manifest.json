@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T17:13:05.532073+00:00",
+  "generated_at": "2026-09-25T17:14:55.050629+00:00",
   "algorithm": "sha256",
-  "dataset_count": 78,
+  "dataset_count": 79,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -368,6 +368,11 @@
       "file": "data/normalized/tracts_2023.json",
       "sha256": "de5ef798105230c533f74edb6597cf47ab1add401f1f0e6d3ef572787b2d0d2a",
       "size_bytes": 18472046
+    },
+    {
+      "file": "data/normalized/urban_areas_2023.json",
+      "sha256": "b15a6d6cde296185a3c428a21aa5168fb0a72b8f9be285f87ff654f2468acaa2",
+      "size_bytes": 666015
     },
     {
       "file": "data/normalized/vice_presidents.json",
