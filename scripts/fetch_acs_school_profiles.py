@@ -14,6 +14,9 @@ TABLES = {
     "b01001": ("acs_school_age_sex_2023.json", "B01001"),
     "b15003": ("acs_school_education_2023.json", "B15003"),
     "b17001": ("acs_school_poverty_2023.json", "B17001"),
+    "b19013": ("acs_school_income_2023.json", "B19013"),
+    "b25001": ("acs_school_housing_2023.json", "B25001"),
+    "b02001": ("acs_school_race_2023.json", "B02001"),
 }
 
 

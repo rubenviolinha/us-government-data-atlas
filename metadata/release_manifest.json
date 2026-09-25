@@ -1,8 +1,8 @@
 {
   "release_id": "20260925",
-  "generated_at": "2026-09-25T18:57:48.559699+00:00",
+  "generated_at": "2026-09-25T18:59:51.933223+00:00",
   "algorithm": "sha256",
-  "dataset_count": 102,
+  "dataset_count": 105,
   "datasets": [
     {
       "file": "data/normalized/acs_county_age_sex_2023.json",
@@ -110,9 +110,24 @@
       "size_bytes": 16147777
     },
     {
+      "file": "data/normalized/acs_school_housing_2023.json",
+      "sha256": "58948ead095799c28450c6e016767130943eb51c1642f687a44a214642e686a7",
+      "size_bytes": 3989794
+    },
+    {
+      "file": "data/normalized/acs_school_income_2023.json",
+      "sha256": "d5912aa0416c4aee7bada4f119694afa7eef0b2268d78f67c27d21a4087fbbc8",
+      "size_bytes": 4018380
+    },
+    {
       "file": "data/normalized/acs_school_poverty_2023.json",
       "sha256": "bc77f6afd0767ca13ca180444177adda5fe9cf8e0a9e31eaea3173bbf68ef111",
       "size_bytes": 33577235
+    },
+    {
+      "file": "data/normalized/acs_school_race_2023.json",
+      "sha256": "0b8fbfc0b6b0cd108526dfa352c9769d8559c1e2942afed1aa21c3f4c772454b",
+      "size_bytes": 8624074
     },
     {
       "file": "data/normalized/acs_state_age_sex_2023.json",
