@@ -1,0 +1,11 @@
+{
+  "retrieved_at": "2026-09-25T17:19:53.227621+00:00",
+  "sources": {
+    "sldl": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_sldl_national.zip",
+    "sldu": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_sldu_national.zip"
+  },
+  "format": "Census Gazetteer ZIP/TXT",
+  "records": 6844,
+  "file": "data/normalized/state_legislative_districts_2023.json",
+  "note": "National lower- and upper-chamber state legislative district geography; no API key used."
+}

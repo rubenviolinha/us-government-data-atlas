@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:18:36.248595+00:00",
+  "generated_at": "2026-09-25T17:20:34.463954+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2869,6 +2869,25 @@
         "https://history.state.gov/departmenthistory/people/by-name/w",
         "https://history.state.gov/departmenthistory/people/by-name/z"
       ]
+    },
+    {
+      "file": "data/normalized/state_legislative_districts_2023.json",
+      "format": "JSON",
+      "records": 6844,
+      "size_bytes": 1912973,
+      "fields_sample": [
+        "ALAND",
+        "ALAND_SQMI",
+        "AWATER",
+        "AWATER_SQMI",
+        "GEOID",
+        "INTPTLAT",
+        "INTPTLONG",
+        "NAME",
+        "USPS",
+        "chamber"
+      ],
+      "source_urls_sample": []
     },
     {
       "file": "data/normalized/state_legislators_openstates.json",

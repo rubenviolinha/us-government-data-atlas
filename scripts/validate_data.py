@@ -31,6 +31,7 @@ def main():
     urban_areas = load("urban_areas_2023.json")
     school_districts = load("school_districts_2023.json")
     tribal_areas = load("tribal_areas_2023.json")
+    state_legislative_districts = load("state_legislative_districts_2023.json")
     places = load("places_2020.json")
     zctas = load("zctas_2020.json")
     zcta_population = load("zcta_population_acs_2023.json")
@@ -130,6 +131,10 @@ def main():
     assert len({(row["area_type"], row["GEOID"], row["NAME"]) for row in tribal_areas}) == len(tribal_areas)
     assert {row.get("area_type") for row in tribal_areas} == {"reservation_or_tribal_trust", "reservation", "off_reservation_trust"}
     assert all(row.get("NAME") and row.get("GEOID") and row.get("INTPTLAT") and row.get("INTPTLONG") for row in tribal_areas)
+    assert len(state_legislative_districts) >= 6800
+    assert len({(row["chamber"], row["GEOID"]) for row in state_legislative_districts}) == len(state_legislative_districts)
+    assert {row.get("chamber") for row in state_legislative_districts} == {"lower", "upper"}
+    assert all(row.get("USPS") and row.get("NAME") and row.get("INTPTLAT") and row.get("INTPTLONG") for row in state_legislative_districts)
     assert_unique(places, "GEOID", "place GEOIDs")
     assert_unique(zctas, "GEOID", "ZCTA GEOIDs")
     assert len(zcta_population) >= 30000
