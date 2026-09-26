@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T12:45:31.672186+00:00",
+  "generated_at": "2026-09-26T12:50:50.503614+00:00",
   "algorithm": "sha256",
-  "dataset_count": 446,
+  "dataset_count": 450,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -153,6 +153,26 @@
       "file": "data/normalized/acs_american_indian_area_reservation_statistical_race_2024_5yr.json",
       "sha256": "427805113c0aea1b551964b90aab9d731d9caeef27be868a39c44852beee897b",
       "size_bytes": 302921
+    },
+    {
+      "file": "data/normalized/acs_block_group_population_housing_2024_5yr_part1.json",
+      "sha256": "4f309136d9f8fd8189db3bb9fe53a594bdab8a1663ba0807776f7cb957081ef9",
+      "size_bytes": 31867135
+    },
+    {
+      "file": "data/normalized/acs_block_group_population_housing_2024_5yr_part2.json",
+      "sha256": "963a6e340a58701df329a81fff3ff76720c8e75f0073b8fcff99f1675b257b75",
+      "size_bytes": 31837164
+    },
+    {
+      "file": "data/normalized/acs_block_group_population_housing_2024_5yr_part3.json",
+      "sha256": "195bb1384f19d02a2cd4e6fd146d2e6d7955d2510b5fd9bcc2ec22ea082464aa",
+      "size_bytes": 31840157
+    },
+    {
+      "file": "data/normalized/acs_block_group_population_housing_2024_5yr_part4.json",
+      "sha256": "bfb4c06ef8e66ea27e76c8705ae7b6b5daa3286429a3ff6d264445204fda7d18",
+      "size_bytes": 31858504
     },
     {
       "file": "data/normalized/acs_cbsa_age_sex_2024_5yr.json",

@@ -106,6 +106,9 @@ def main():
         for geo_type in ("subminor_civil_division", "tribal_subdivision_or_remainder", "american_indian_area_reservation_statistical", "off_reservation_trust_land_hawaiian_homeland", "tribal_census_tract", "tribal_block_group", "state_part", "county_part", "aiannh_part", "aiannh_reservation_part", "off_reservation_trust_land_part", "state_part_metro", "tribal_census_tract_part", "tribal_census_tract_part_alt", "tribal_block_group_part", "tribal_block_group_part_alt")
     }
     acs_tract_2024 = {label: load(f"acs_tract_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
+    acs_block_group_2024 = []
+    for path in sorted((ROOT / "data" / "normalized").glob("acs_block_group_population_housing_2024_5yr_part*.json")):
+        acs_block_group_2024.extend(json.loads(path.read_text(encoding="utf-8")))
     acs_urban_2024 = {label: load(f"acs_urban_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_district_2024_5yr = {label: load(f"acs_district_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_aiannh_2024 = {label: load(f"acs_aiannh_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
@@ -540,6 +543,9 @@ def main():
         assert len(rows) >= 85000, f"ACS 2024 tract {label} coverage too small"
         assert len({row["tract_geoid"] for row in rows}) == len(rows)
         assert all(row.get("GEO_ID", "").startswith("1400000US") and len(row.get("tract_geoid", "")) == 11 and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
+    assert len(acs_block_group_2024) == 242297
+    assert len({row["block_group_geoid"] for row in acs_block_group_2024}) == len(acs_block_group_2024)
+    assert all(row.get("GEO_ID", "").startswith("1500000US") and len(row.get("block_group_geoid", "")) == 12 and row.get("source_population") and row.get("source_housing") and row.get("vintage") == "2024 ACS 5-year" for row in acs_block_group_2024)
     for label, rows in acs_urban_2024.items():
         assert len(rows) >= 2600, f"ACS 2024 urban area {label} coverage too small"
         assert len({row["urban_area_geoid"] for row in rows}) == len(rows)
