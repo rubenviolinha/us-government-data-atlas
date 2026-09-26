@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T12:39:45.406599+00:00",
+  "generated_at": "2026-09-26T12:45:31.672186+00:00",
   "algorithm": "sha256",
-  "dataset_count": 445,
+  "dataset_count": 446,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -758,6 +758,11 @@
       "file": "data/normalized/acs_profile_variables_2023.json",
       "sha256": "206238ae6c8d2f1f794ad004d4467b7b6f9c98fe3f03a5a58adae0fd45f23530",
       "size_bytes": 1776023
+    },
+    {
+      "file": "data/normalized/acs_profile_variables_2024.json",
+      "sha256": "1e1e27a02ac924921eca01ad3f04f0ff84a44844dfc01a80a6aeefd5fdca5b10",
+      "size_bytes": 230188
     },
     {
       "file": "data/normalized/acs_puma_age_sex_2023.json",

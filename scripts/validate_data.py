@@ -116,6 +116,7 @@ def main():
     secretaries_of_state = load("secretaries_of_state.json")
     state_department_principals = load("state_department_principals.json")
     acs_variables = load("acs_profile_variables_2023.json")
+    acs_variables_2024 = load("acs_profile_variables_2024.json")
     acs_state_age_sex = load("acs_state_age_sex_2023.json")
     acs_state_income = load("acs_state_income_2023.json")
     acs_state_housing = load("acs_state_housing_2023.json")
@@ -648,6 +649,9 @@ def main():
     assert {row.get("parameter") for row in noaa_state_climate} == {"annual_avg_temperature_f", "annual_precipitation_inches"}
     assert len({row.get("state_abbr") for row in noaa_state_climate}) == 50
     assert all(row.get("year") and row.get("value") is not None and row.get("source") for row in noaa_state_climate)
+    assert len(acs_variables_2024) == 580
+    assert {row.get("table") for row in acs_variables_2024} == {"B01001", "B15003", "B17001", "B19013", "B25001", "B02001"}
+    assert all(row.get("variable") and row.get("label") and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in acs_variables_2024)
     for label, rows in (("age_sex", acs_school_age_sex), ("education", acs_school_education), ("poverty", acs_school_poverty), ("income", acs_school_income), ("housing", acs_school_housing), ("race", acs_school_race)):
         assert len(rows) >= 10000, f"ACS school {label} coverage too small"
         assert all(row.get("GEO_ID", "").startswith("9700000US") and row.get("district_geoid") and row.get("state_fips") and row.get("source") for row in rows)
