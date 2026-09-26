@@ -30,6 +30,16 @@ GEOGRAPHIES = {
     "off_reservation_trust_land_hawaiian_homeland": ("2540000US", 247),
     "tribal_census_tract": ("2560000US", 493),
     "tribal_block_group": ("2580000US", 935),
+    "state_part": ("2600000US", 736),
+    "county_part": ("2700000US", 1128),
+    "aiannh_part": ("2800000US", 736),
+    "aiannh_reservation_part": ("2830000US", 637),
+    "off_reservation_trust_land_part": ("2860000US", 262),
+    "state_part_metro": ("2900000US", 514),
+    "tribal_census_tract_part": ("2910000US", 480),
+    "tribal_census_tract_part_alt": ("2920000US", 206),
+    "tribal_block_group_part": ("2930000US", 921),
+    "tribal_block_group_part_alt": ("2940000US", 245),
 }
 
 
@@ -67,7 +77,7 @@ def main():
         suffix = label.lower().replace('b01001', 'age_sex').replace('b15003', 'education').replace('b17001', 'poverty').replace('b19013', 'income').replace('b25001', 'housing').replace('b02001', 'race')
         for geo_type, (_prefix, expected) in GEOGRAPHIES.items():
             rows = sorted(rows_by_type[geo_type], key=lambda row: row["GEO_ID"])
-            if geo_type == "tribal_block_group" and table == "b17001":
+            if geo_type in ("tribal_block_group", "tribal_block_group_part", "tribal_block_group_part_alt") and table == "b17001":
                 expected = 0
             if len(rows) != expected:
                 raise RuntimeError(f"{geo_type} {label}: expected {expected}, got {len(rows)}")

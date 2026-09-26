@@ -1,5 +1,5 @@
 {
-  "retrieved_at": "2026-09-25T22:55:34.192221+00:00",
+  "retrieved_at": "2026-09-26T00:00:14.906151+00:00",
   "tables": {
     "acs_consolidated_city_age_sex_2024_5yr.json": {
       "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
@@ -51,6 +51,56 @@
       "file": "data/normalized/acs_tribal_block_group_age_sex_2024_5yr.json",
       "records": 935
     },
+    "acs_state_part_age_sex_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "file": "data/normalized/acs_state_part_age_sex_2024_5yr.json",
+      "records": 736
+    },
+    "acs_county_part_age_sex_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "file": "data/normalized/acs_county_part_age_sex_2024_5yr.json",
+      "records": 1128
+    },
+    "acs_aiannh_part_age_sex_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "file": "data/normalized/acs_aiannh_part_age_sex_2024_5yr.json",
+      "records": 736
+    },
+    "acs_aiannh_reservation_part_age_sex_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "file": "data/normalized/acs_aiannh_reservation_part_age_sex_2024_5yr.json",
+      "records": 637
+    },
+    "acs_off_reservation_trust_land_part_age_sex_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "file": "data/normalized/acs_off_reservation_trust_land_part_age_sex_2024_5yr.json",
+      "records": 262
+    },
+    "acs_state_part_metro_age_sex_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "file": "data/normalized/acs_state_part_metro_age_sex_2024_5yr.json",
+      "records": 514
+    },
+    "acs_tribal_census_tract_part_age_sex_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "file": "data/normalized/acs_tribal_census_tract_part_age_sex_2024_5yr.json",
+      "records": 480
+    },
+    "acs_tribal_census_tract_part_alt_age_sex_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "file": "data/normalized/acs_tribal_census_tract_part_alt_age_sex_2024_5yr.json",
+      "records": 206
+    },
+    "acs_tribal_block_group_part_age_sex_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "file": "data/normalized/acs_tribal_block_group_part_age_sex_2024_5yr.json",
+      "records": 921
+    },
+    "acs_tribal_block_group_part_alt_age_sex_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "file": "data/normalized/acs_tribal_block_group_part_alt_age_sex_2024_5yr.json",
+      "records": 245
+    },
     "acs_consolidated_city_education_2024_5yr.json": {
       "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
       "file": "data/normalized/acs_consolidated_city_education_2024_5yr.json",
@@ -101,6 +151,56 @@
       "file": "data/normalized/acs_tribal_block_group_education_2024_5yr.json",
       "records": 935
     },
+    "acs_state_part_education_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+      "file": "data/normalized/acs_state_part_education_2024_5yr.json",
+      "records": 736
+    },
+    "acs_county_part_education_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+      "file": "data/normalized/acs_county_part_education_2024_5yr.json",
+      "records": 1128
+    },
+    "acs_aiannh_part_education_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+      "file": "data/normalized/acs_aiannh_part_education_2024_5yr.json",
+      "records": 736
+    },
+    "acs_aiannh_reservation_part_education_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+      "file": "data/normalized/acs_aiannh_reservation_part_education_2024_5yr.json",
+      "records": 637
+    },
+    "acs_off_reservation_trust_land_part_education_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+      "file": "data/normalized/acs_off_reservation_trust_land_part_education_2024_5yr.json",
+      "records": 262
+    },
+    "acs_state_part_metro_education_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+      "file": "data/normalized/acs_state_part_metro_education_2024_5yr.json",
+      "records": 514
+    },
+    "acs_tribal_census_tract_part_education_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+      "file": "data/normalized/acs_tribal_census_tract_part_education_2024_5yr.json",
+      "records": 480
+    },
+    "acs_tribal_census_tract_part_alt_education_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+      "file": "data/normalized/acs_tribal_census_tract_part_alt_education_2024_5yr.json",
+      "records": 206
+    },
+    "acs_tribal_block_group_part_education_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+      "file": "data/normalized/acs_tribal_block_group_part_education_2024_5yr.json",
+      "records": 921
+    },
+    "acs_tribal_block_group_part_alt_education_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+      "file": "data/normalized/acs_tribal_block_group_part_alt_education_2024_5yr.json",
+      "records": 245
+    },
     "acs_consolidated_city_poverty_2024_5yr.json": {
       "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
       "file": "data/normalized/acs_consolidated_city_poverty_2024_5yr.json",
@@ -149,6 +249,56 @@
     "acs_tribal_block_group_poverty_2024_5yr.json": {
       "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
       "file": "data/normalized/acs_tribal_block_group_poverty_2024_5yr.json",
+      "records": 0
+    },
+    "acs_state_part_poverty_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "file": "data/normalized/acs_state_part_poverty_2024_5yr.json",
+      "records": 736
+    },
+    "acs_county_part_poverty_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "file": "data/normalized/acs_county_part_poverty_2024_5yr.json",
+      "records": 1128
+    },
+    "acs_aiannh_part_poverty_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "file": "data/normalized/acs_aiannh_part_poverty_2024_5yr.json",
+      "records": 736
+    },
+    "acs_aiannh_reservation_part_poverty_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "file": "data/normalized/acs_aiannh_reservation_part_poverty_2024_5yr.json",
+      "records": 637
+    },
+    "acs_off_reservation_trust_land_part_poverty_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "file": "data/normalized/acs_off_reservation_trust_land_part_poverty_2024_5yr.json",
+      "records": 262
+    },
+    "acs_state_part_metro_poverty_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "file": "data/normalized/acs_state_part_metro_poverty_2024_5yr.json",
+      "records": 514
+    },
+    "acs_tribal_census_tract_part_poverty_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "file": "data/normalized/acs_tribal_census_tract_part_poverty_2024_5yr.json",
+      "records": 480
+    },
+    "acs_tribal_census_tract_part_alt_poverty_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "file": "data/normalized/acs_tribal_census_tract_part_alt_poverty_2024_5yr.json",
+      "records": 206
+    },
+    "acs_tribal_block_group_part_poverty_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "file": "data/normalized/acs_tribal_block_group_part_poverty_2024_5yr.json",
+      "records": 0
+    },
+    "acs_tribal_block_group_part_alt_poverty_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat",
+      "file": "data/normalized/acs_tribal_block_group_part_alt_poverty_2024_5yr.json",
       "records": 0
     },
     "acs_consolidated_city_income_2024_5yr.json": {
@@ -201,6 +351,56 @@
       "file": "data/normalized/acs_tribal_block_group_income_2024_5yr.json",
       "records": 935
     },
+    "acs_state_part_income_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "file": "data/normalized/acs_state_part_income_2024_5yr.json",
+      "records": 736
+    },
+    "acs_county_part_income_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "file": "data/normalized/acs_county_part_income_2024_5yr.json",
+      "records": 1128
+    },
+    "acs_aiannh_part_income_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "file": "data/normalized/acs_aiannh_part_income_2024_5yr.json",
+      "records": 736
+    },
+    "acs_aiannh_reservation_part_income_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "file": "data/normalized/acs_aiannh_reservation_part_income_2024_5yr.json",
+      "records": 637
+    },
+    "acs_off_reservation_trust_land_part_income_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "file": "data/normalized/acs_off_reservation_trust_land_part_income_2024_5yr.json",
+      "records": 262
+    },
+    "acs_state_part_metro_income_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "file": "data/normalized/acs_state_part_metro_income_2024_5yr.json",
+      "records": 514
+    },
+    "acs_tribal_census_tract_part_income_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "file": "data/normalized/acs_tribal_census_tract_part_income_2024_5yr.json",
+      "records": 480
+    },
+    "acs_tribal_census_tract_part_alt_income_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "file": "data/normalized/acs_tribal_census_tract_part_alt_income_2024_5yr.json",
+      "records": 206
+    },
+    "acs_tribal_block_group_part_income_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "file": "data/normalized/acs_tribal_block_group_part_income_2024_5yr.json",
+      "records": 921
+    },
+    "acs_tribal_block_group_part_alt_income_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "file": "data/normalized/acs_tribal_block_group_part_alt_income_2024_5yr.json",
+      "records": 245
+    },
     "acs_consolidated_city_housing_2024_5yr.json": {
       "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
       "file": "data/normalized/acs_consolidated_city_housing_2024_5yr.json",
@@ -251,6 +451,56 @@
       "file": "data/normalized/acs_tribal_block_group_housing_2024_5yr.json",
       "records": 935
     },
+    "acs_state_part_housing_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
+      "file": "data/normalized/acs_state_part_housing_2024_5yr.json",
+      "records": 736
+    },
+    "acs_county_part_housing_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
+      "file": "data/normalized/acs_county_part_housing_2024_5yr.json",
+      "records": 1128
+    },
+    "acs_aiannh_part_housing_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
+      "file": "data/normalized/acs_aiannh_part_housing_2024_5yr.json",
+      "records": 736
+    },
+    "acs_aiannh_reservation_part_housing_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
+      "file": "data/normalized/acs_aiannh_reservation_part_housing_2024_5yr.json",
+      "records": 637
+    },
+    "acs_off_reservation_trust_land_part_housing_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
+      "file": "data/normalized/acs_off_reservation_trust_land_part_housing_2024_5yr.json",
+      "records": 262
+    },
+    "acs_state_part_metro_housing_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
+      "file": "data/normalized/acs_state_part_metro_housing_2024_5yr.json",
+      "records": 514
+    },
+    "acs_tribal_census_tract_part_housing_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
+      "file": "data/normalized/acs_tribal_census_tract_part_housing_2024_5yr.json",
+      "records": 480
+    },
+    "acs_tribal_census_tract_part_alt_housing_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
+      "file": "data/normalized/acs_tribal_census_tract_part_alt_housing_2024_5yr.json",
+      "records": 206
+    },
+    "acs_tribal_block_group_part_housing_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
+      "file": "data/normalized/acs_tribal_block_group_part_housing_2024_5yr.json",
+      "records": 921
+    },
+    "acs_tribal_block_group_part_alt_housing_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat",
+      "file": "data/normalized/acs_tribal_block_group_part_alt_housing_2024_5yr.json",
+      "records": 245
+    },
     "acs_consolidated_city_race_2024_5yr.json": {
       "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
       "file": "data/normalized/acs_consolidated_city_race_2024_5yr.json",
@@ -300,6 +550,56 @@
       "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
       "file": "data/normalized/acs_tribal_block_group_race_2024_5yr.json",
       "records": 935
+    },
+    "acs_state_part_race_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
+      "file": "data/normalized/acs_state_part_race_2024_5yr.json",
+      "records": 736
+    },
+    "acs_county_part_race_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
+      "file": "data/normalized/acs_county_part_race_2024_5yr.json",
+      "records": 1128
+    },
+    "acs_aiannh_part_race_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
+      "file": "data/normalized/acs_aiannh_part_race_2024_5yr.json",
+      "records": 736
+    },
+    "acs_aiannh_reservation_part_race_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
+      "file": "data/normalized/acs_aiannh_reservation_part_race_2024_5yr.json",
+      "records": 637
+    },
+    "acs_off_reservation_trust_land_part_race_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
+      "file": "data/normalized/acs_off_reservation_trust_land_part_race_2024_5yr.json",
+      "records": 262
+    },
+    "acs_state_part_metro_race_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
+      "file": "data/normalized/acs_state_part_metro_race_2024_5yr.json",
+      "records": 514
+    },
+    "acs_tribal_census_tract_part_race_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
+      "file": "data/normalized/acs_tribal_census_tract_part_race_2024_5yr.json",
+      "records": 480
+    },
+    "acs_tribal_census_tract_part_alt_race_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
+      "file": "data/normalized/acs_tribal_census_tract_part_alt_race_2024_5yr.json",
+      "records": 206
+    },
+    "acs_tribal_block_group_part_race_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
+      "file": "data/normalized/acs_tribal_block_group_part_race_2024_5yr.json",
+      "records": 921
+    },
+    "acs_tribal_block_group_part_alt_race_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
+      "file": "data/normalized/acs_tribal_block_group_part_alt_race_2024_5yr.json",
+      "records": 245
     }
   },
   "note": "Public table-based ACS 2024 5-year compact profiles for consolidated cities and Alaska Native Regional Corporations; no API key used."

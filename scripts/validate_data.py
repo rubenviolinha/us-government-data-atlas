@@ -98,7 +98,7 @@ def main():
     acs_metropolitan_division_2024 = {label: load(f"acs_metropolitan_division_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_other_special_2024 = {
         geo_type: {label: load(f"acs_{geo_type}_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
-        for geo_type in ("subminor_civil_division", "tribal_subdivision_or_remainder", "american_indian_area_reservation_statistical", "off_reservation_trust_land_hawaiian_homeland", "tribal_census_tract", "tribal_block_group")
+        for geo_type in ("subminor_civil_division", "tribal_subdivision_or_remainder", "american_indian_area_reservation_statistical", "off_reservation_trust_land_hawaiian_homeland", "tribal_census_tract", "tribal_block_group", "state_part", "county_part", "aiannh_part", "aiannh_reservation_part", "off_reservation_trust_land_part", "state_part_metro", "tribal_census_tract_part", "tribal_census_tract_part_alt", "tribal_block_group_part", "tribal_block_group_part_alt")
     }
     acs_tract_2024 = {label: load(f"acs_tract_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_urban_2024 = {label: load(f"acs_urban_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
@@ -501,11 +501,21 @@ def main():
         "off_reservation_trust_land_hawaiian_homeland": ("2540000US", 247, 5),
         "tribal_census_tract": ("2560000US", 493, 10),
         "tribal_block_group": ("2580000US", 935, 11),
+        "state_part": ("2600000US", 736, 6),
+        "county_part": ("2700000US", 1128, 9),
+        "aiannh_part": ("2800000US", 736, 6),
+        "aiannh_reservation_part": ("2830000US", 637, 7),
+        "off_reservation_trust_land_part": ("2860000US", 262, 7),
+        "state_part_metro": ("2900000US", 514, 9),
+        "tribal_census_tract_part": ("2910000US", 480, 11),
+        "tribal_census_tract_part_alt": ("2920000US", 206, 11),
+        "tribal_block_group_part": ("2930000US", 921, 12),
+        "tribal_block_group_part_alt": ("2940000US", 245, 12),
     }
     for geo_type, profiles in acs_other_special_2024.items():
         prefix, expected, geoid_length = special_specs[geo_type]
         for label, rows in profiles.items():
-            profile_expected = 0 if geo_type == "tribal_block_group" and label == "poverty" else expected
+            profile_expected = 0 if geo_type in ("tribal_block_group", "tribal_block_group_part", "tribal_block_group_part_alt") and label == "poverty" else expected
             assert len(rows) == profile_expected, f"ACS 2024 {geo_type} {label} coverage mismatch"
             assert len({row["geography_geoid"] for row in rows}) == len(rows)
             assert all(row.get("GEO_ID", "").startswith(prefix) and len(row.get("geography_geoid", "")) == geoid_length and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
