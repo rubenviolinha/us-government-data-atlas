@@ -1,6 +1,6 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T17:10:16.954848+00:00",
+  "generated_at": "2026-09-26T17:27:14.419325+00:00",
   "algorithm": "sha256",
   "dataset_count": 720,
   "datasets": [
@@ -3481,32 +3481,32 @@
     },
     {
       "file": "data/normalized/svi_counties_2022.json",
-      "sha256": "4990225b4eb5b635582a7683b3c5d5277f5be5f9e5660ddabf68ebf1e7827afa",
+      "sha256": "b94f9efc9279ec371a7f00ec08b4328c2ab942b89bbf7b82002d14e0236ea13d",
       "size_bytes": 3413024
     },
     {
       "file": "data/normalized/svi_tracts_2022_part1.json",
-      "sha256": "ef3c998319855b70acc4872f0fa167e9f2523f96a0e2cf5c233876596612be15",
+      "sha256": "37dcebe28572d7bb62b0e1607dbf3ef2de30726146d12593b91c026cb165b8af",
       "size_bytes": 18918461
     },
     {
       "file": "data/normalized/svi_tracts_2022_part2.json",
-      "sha256": "a8dc3ebcd7fa49d2c894f292a86a86f89bb321b96816db1db271849790124a7c",
+      "sha256": "dfa016d79fff3daaba29ee6e18fb653f7465cfca538bd0c813301653a0723126",
       "size_bytes": 18845278
     },
     {
       "file": "data/normalized/svi_tracts_2022_part3.json",
-      "sha256": "e24804efe48c5796e0df8a8ca0458049ed45cbae3c3b37836fa8db3b431840be",
+      "sha256": "fd849a0a5a31a90bac370918cc34297387c5b9c69b77dc89e55f2b22cfb98a19",
       "size_bytes": 18886180
     },
     {
       "file": "data/normalized/svi_tracts_2022_part4.json",
-      "sha256": "f23c9ab2a1422638bc42dcd1a8f7ad5e1d1b007be3f9e95b869f96179f890b28",
+      "sha256": "7bdc3343793cb358ecd97c9a4d89d99289c4b13dd75822fac709ecfe1bb46fc9",
       "size_bytes": 15527800
     },
     {
       "file": "data/normalized/svi_zctas_2022.json",
-      "sha256": "64ee8b868f75efb16866b19b4a5abbeed4dd1f8acfd8f495f2422b9dd0bc283e",
+      "sha256": "e72b16a1e869767d8d7b1d3b9fcd164bee37874dc9a11d65c75221071cb245c1",
       "size_bytes": 31638735
     },
     {

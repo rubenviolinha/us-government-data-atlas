@@ -108,7 +108,21 @@ def main():
     assert all(row.get("ref_number") and row.get("property_name") and row.get("state") for row in register)
     assert all(row.get("source") and row.get("vintage") == "NPS National Register listed properties through 2026-05-22" for row in register)
 
-    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)}")
+    svi_counties = read_json(ROOT / "data/normalized/svi_counties_2022.json")
+    assert len(svi_counties) >= 3100
+    assert len({row["GEOID"] for row in svi_counties}) == len(svi_counties)
+    assert all(row.get("GEOID") and row.get("source") and row.get("vintage") == "CDC/ATSDR SVI 2022" for row in svi_counties)
+    svi_tracts = []
+    for path in sorted((ROOT / "data" / "normalized").glob("svi_tracts_2022_part*.json")):
+        svi_tracts.extend(read_json(path))
+    assert len(svi_tracts) >= 84000
+    assert len({row["GEOID"] for row in svi_tracts}) == len(svi_tracts)
+    svi_zctas = read_json(ROOT / "data/normalized/svi_zctas_2022.json")
+    assert len(svi_zctas) >= 33000
+    assert len({row["GEOID"] for row in svi_zctas}) == len(svi_zctas)
+    assert all(row.get("source") and row.get("comparison") == "national" for row in svi_zctas)
+
+    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)} SVI counties={len(svi_counties)} tracts={len(svi_tracts)} ZCTAs={len(svi_zctas)}")
 
 
 if __name__ == "__main__":

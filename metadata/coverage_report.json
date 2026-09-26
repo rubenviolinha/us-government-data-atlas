@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T17:10:20.759880+00:00",
+  "generated_at": "2026-09-26T17:27:17.890062+00:00",
   "catalog_datasets": 720,
   "domain_counts": {
     "Census ACS demographics": 494,
@@ -8,10 +8,10 @@
     "FEC elections": 28,
     "Federal government": 4,
     "Metropolitan areas": 6,
-    "Other government reference data": 76,
+    "Other government reference data": 70,
     "PUMAs": 4,
     "Places": 7,
-    "Public health": 64,
+    "Public health": 70,
     "Schools": 5,
     "States and population": 11,
     "ZIP/ZCTA": 9

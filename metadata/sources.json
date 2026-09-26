@@ -1277,5 +1277,14 @@
     "format": "Official CSV",
     "license": "U.S. government public data; preserve NPS source notes",
     "notes": "100,866 listed-property records through 2026-05-22, including reference numbers, names, jurisdictions, addresses, dates, status, categories, significance, acreage, and archival links. Split into four JSON parts."
+  },
+  {
+    "id": "cdc-atsdr-svi-2022",
+    "name": "CDC/ATSDR Social Vulnerability Index 2022",
+    "publisher": "Centers for Disease Control and Prevention / Agency for Toxic Substances and Disease Registry",
+    "url": "https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html",
+    "format": "ArcGIS FeatureServer JSON",
+    "license": "U.S. government public data",
+    "notes": "Keyless 2022 SVI releases for 3,144 counties, 84,120 census tracts, and 33,642 ZCTAs with population, housing, socioeconomic, household, minority-language, themes, and percentile fields."
   }
 ]
