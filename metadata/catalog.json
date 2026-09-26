@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T17:37:37.110891+00:00",
+  "generated_at": "2026-09-26T17:49:36.218425+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -19165,6 +19165,46 @@
         "NAME"
       ],
       "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/usgs_earthquakes_past_week.json",
+      "format": "JSON",
+      "records": 2044,
+      "size_bytes": 2113929,
+      "fields_sample": [
+        "alert",
+        "cdi",
+        "depth_km",
+        "detail_url",
+        "distance_to_station",
+        "event_time",
+        "event_type",
+        "event_url",
+        "feed_generated_at",
+        "felt_reports",
+        "gap",
+        "id",
+        "latitude",
+        "longitude",
+        "magnitude",
+        "magnitude_type",
+        "mmi",
+        "network",
+        "network_code",
+        "place",
+        "retrieved_at",
+        "rms",
+        "significance",
+        "source",
+        "station_count",
+        "status",
+        "tsunami",
+        "updated_time",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
+      ]
     },
     {
       "file": "data/normalized/vice_presidents.json",

@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T17:37:46.947465+00:00",
+  "generated_at": "2026-09-26T17:49:41.684832+00:00",
   "algorithm": "sha256",
-  "dataset_count": 721,
+  "dataset_count": 722,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -3548,6 +3548,11 @@
       "file": "data/normalized/urban_areas_2025.json",
       "sha256": "e20db81b197a3324e76ac0b565653ca2d0592d3ca95165b3a9fc84689c5e864b",
       "size_bytes": 705669
+    },
+    {
+      "file": "data/normalized/usgs_earthquakes_past_week.json",
+      "sha256": "272844f78318dfa450a88cafb2e78884b7b1329222ecf5151758245566ba4686",
+      "size_bytes": 2113929
     },
     {
       "file": "data/normalized/vice_presidents.json",

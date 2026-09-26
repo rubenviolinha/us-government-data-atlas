@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26T17:37:50.814971+00:00",
-  "catalog_datasets": 721,
+  "generated_at": "2026-09-26T17:49:41.761418+00:00",
+  "catalog_datasets": 722,
   "domain_counts": {
     "Census ACS demographics": 494,
     "Counties": 4,
@@ -12,6 +12,7 @@
     "PUMAs": 4,
     "Places": 7,
     "Public health": 70,
+    "Public safety": 1,
     "Schools": 5,
     "States and population": 11,
     "Transportation": 1,

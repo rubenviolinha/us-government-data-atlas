@@ -1295,5 +1295,14 @@
     "format": "ArcGIS FeatureServer JSON",
     "license": "U.S. government public data",
     "notes": "19,411 FAA-updated aviation facilities with airport identifiers, jurisdictions, ownership/use, coordinates, elevation, status, runway/airspace reference fields, and contact data. No API key used."
+  },
+  {
+    "id": "usgs-earthquakes-past-week",
+    "name": "USGS Earthquakes Past Week",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson",
+    "format": "GeoJSON",
+    "license": "U.S. government public data",
+    "notes": "Rolling public feed of all earthquakes in the past seven days, with magnitudes, timestamps, tsunami flags, significance, coordinates, depth, and event links. No API key used."
   }
 ]
