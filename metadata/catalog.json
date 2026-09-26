@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T20:06:22.607225+00:00",
+  "generated_at": "2026-09-26T20:18:29.161891+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -22934,6 +22934,29 @@
       "source_urls_sample": [
         "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/SC-089/pcp/12/12/1895-2025.json",
         "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/SC-091/pcp/12/12/1895-2025.json"
+      ]
+    },
+    {
+      "file": "data/normalized/noaa_ghcn_us_stations.json",
+      "format": "JSON",
+      "records": 78569,
+      "size_bytes": 29427141,
+      "fields_sample": [
+        "elevation_m",
+        "gsn_flag",
+        "hcn_crn_flag",
+        "latitude",
+        "longitude",
+        "name",
+        "retrieved_at",
+        "source",
+        "state",
+        "station_id",
+        "vintage",
+        "wmo_id"
+      ],
+      "source_urls_sample": [
+        "https://www.ncei.noaa.gov/pub/data/ghcn/daily/ghcnd-stations.txt"
       ]
     },
     {

@@ -215,7 +215,15 @@ def main():
     assert all(-90 <= row["latitude"] <= 90 for row in epa_facilities if row.get("latitude") is not None)
     assert all(-180 <= row["longitude"] <= 180 for row in epa_facilities if row.get("longitude") is not None)
 
-    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)} SVI counties={len(svi_counties)} tracts={len(svi_tracts)} ZCTAs={len(svi_zctas)} aviation={len(aviation)} earthquakes={len(earthquakes)} tide_stations={len(tide_stations)} nws_stations={nws_entry['records']} zcta_place={len(zcta_place_relationships)} zcta_tract={len(zcta_tract_relationships)} tract_puma={len(tract_puma_relationships)} usgs_stream_sites={len(water_sites)} storm_events={len(storm_events)} qcew={len(qcew)} qcew_industry={len(qcew_industry)} epa_frs={len(epa_facilities)}")
+    ghcn = read_json(ROOT / "data/normalized/noaa_ghcn_us_stations.json")
+    assert len(ghcn) >= 75000
+    assert len({row["station_id"] for row in ghcn}) == len(ghcn)
+    assert len({row["state"] for row in ghcn if row.get("state")}) >= 50
+    assert all(row.get("station_id") and row.get("name") and row.get("source") for row in ghcn)
+    assert all(row.get("vintage") == "NOAA/NCEI GHCN-Daily station inventory retrieved 2026-09-26" for row in ghcn)
+    assert all(-90 <= row["latitude"] <= 90 and -180 <= row["longitude"] <= 180 for row in ghcn)
+
+    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)} SVI counties={len(svi_counties)} tracts={len(svi_tracts)} ZCTAs={len(svi_zctas)} aviation={len(aviation)} earthquakes={len(earthquakes)} tide_stations={len(tide_stations)} nws_stations={nws_entry['records']} zcta_place={len(zcta_place_relationships)} zcta_tract={len(zcta_tract_relationships)} tract_puma={len(tract_puma_relationships)} usgs_stream_sites={len(water_sites)} storm_events={len(storm_events)} qcew={len(qcew)} qcew_industry={len(qcew_industry)} epa_frs={len(epa_facilities)} ghcn_stations={len(ghcn)}")
 
 
 if __name__ == "__main__":

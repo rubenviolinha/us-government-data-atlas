@@ -1394,5 +1394,14 @@
     "format": "Official national CSV inside ZIP normalized to JSON shards",
     "license": "U.S. government public data",
     "notes": "National EPA facility registry records with stable registry identifiers, names, addresses, state/county geography, EPA region, and coordinates. The source archive is current as of 2026-09-01; only core identity/location fields are normalized for repository use. No API key used."
+  },
+  {
+    "id": "noaa-ghcn-us-stations",
+    "name": "NOAA/NCEI GHCN-Daily United States Station Inventory",
+    "publisher": "National Oceanic and Atmospheric Administration / National Centers for Environmental Information",
+    "url": "https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily",
+    "format": "Official fixed-width station inventory normalized to JSON",
+    "license": "U.S. government public data",
+    "notes": "78,569 United States GHCN-Daily station metadata records with station IDs, coordinates, elevation, state, names, network flags, and WMO IDs. Daily observations are not mirrored. No API key used."
   }
 ]
