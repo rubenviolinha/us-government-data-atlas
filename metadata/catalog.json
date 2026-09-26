@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T12:50:49.264230+00:00",
+  "generated_at": "2026-09-26T12:55:43.102255+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -667,6 +667,170 @@
       ]
     },
     {
+      "file": "data/normalized/acs_block_group_education_2024_5yr_part1.json",
+      "format": "JSON",
+      "records": 60574,
+      "size_bytes": 22845425,
+      "fields_sample": [
+        "B15003_E001",
+        "B15003_E002",
+        "B15003_E017",
+        "B15003_E025",
+        "B15003_M001",
+        "GEO_ID",
+        "block_group_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_block_group_education_2024_5yr_part2.json",
+      "format": "JSON",
+      "records": 60574,
+      "size_bytes": 22818908,
+      "fields_sample": [
+        "B15003_E001",
+        "B15003_E002",
+        "B15003_E017",
+        "B15003_E025",
+        "B15003_M001",
+        "GEO_ID",
+        "block_group_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_block_group_education_2024_5yr_part3.json",
+      "format": "JSON",
+      "records": 60574,
+      "size_bytes": 22822991,
+      "fields_sample": [
+        "B15003_E001",
+        "B15003_E002",
+        "B15003_E017",
+        "B15003_E025",
+        "B15003_M001",
+        "GEO_ID",
+        "block_group_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_block_group_education_2024_5yr_part4.json",
+      "format": "JSON",
+      "records": 60575,
+      "size_bytes": 22832274,
+      "fields_sample": [
+        "B15003_E001",
+        "B15003_E002",
+        "B15003_E017",
+        "B15003_E025",
+        "B15003_M001",
+        "GEO_ID",
+        "block_group_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_block_group_income_2024_5yr_part1.json",
+      "format": "JSON",
+      "records": 60574,
+      "size_bytes": 20057207,
+      "fields_sample": [
+        "B19013_E001",
+        "B19013_M001",
+        "GEO_ID",
+        "block_group_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_block_group_income_2024_5yr_part2.json",
+      "format": "JSON",
+      "records": 60574,
+      "size_bytes": 20052336,
+      "fields_sample": [
+        "B19013_E001",
+        "B19013_M001",
+        "GEO_ID",
+        "block_group_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_block_group_income_2024_5yr_part3.json",
+      "format": "JSON",
+      "records": 60574,
+      "size_bytes": 20056467,
+      "fields_sample": [
+        "B19013_E001",
+        "B19013_M001",
+        "GEO_ID",
+        "block_group_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_block_group_income_2024_5yr_part4.json",
+      "format": "JSON",
+      "records": 60575,
+      "size_bytes": 20047275,
+      "fields_sample": [
+        "B19013_E001",
+        "B19013_M001",
+        "GEO_ID",
+        "block_group_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_block_group_population_housing_2024_5yr_part1.json",
       "format": "JSON",
       "records": 60574,
@@ -749,6 +913,110 @@
         "vintage"
       ],
       "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/acs_block_group_race_2024_5yr_part1.json",
+      "format": "JSON",
+      "records": 60574,
+      "size_bytes": 27016160,
+      "fields_sample": [
+        "B02001_E001",
+        "B02001_E002",
+        "B02001_E003",
+        "B02001_E004",
+        "B02001_E005",
+        "B02001_E006",
+        "B02001_E007",
+        "B02001_E008",
+        "B02001_M001",
+        "GEO_ID",
+        "block_group_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_block_group_race_2024_5yr_part2.json",
+      "format": "JSON",
+      "records": 60574,
+      "size_bytes": 26916949,
+      "fields_sample": [
+        "B02001_E001",
+        "B02001_E002",
+        "B02001_E003",
+        "B02001_E004",
+        "B02001_E005",
+        "B02001_E006",
+        "B02001_E007",
+        "B02001_E008",
+        "B02001_M001",
+        "GEO_ID",
+        "block_group_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_block_group_race_2024_5yr_part3.json",
+      "format": "JSON",
+      "records": 60574,
+      "size_bytes": 26941173,
+      "fields_sample": [
+        "B02001_E001",
+        "B02001_E002",
+        "B02001_E003",
+        "B02001_E004",
+        "B02001_E005",
+        "B02001_E006",
+        "B02001_E007",
+        "B02001_E008",
+        "B02001_M001",
+        "GEO_ID",
+        "block_group_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_block_group_race_2024_5yr_part4.json",
+      "format": "JSON",
+      "records": 60575,
+      "size_bytes": 26962813,
+      "fields_sample": [
+        "B02001_E001",
+        "B02001_E002",
+        "B02001_E003",
+        "B02001_E004",
+        "B02001_E005",
+        "B02001_E006",
+        "B02001_E007",
+        "B02001_E008",
+        "B02001_M001",
+        "GEO_ID",
+        "block_group_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat"
+      ]
     },
     {
       "file": "data/normalized/acs_cbsa_age_sex_2024_5yr.json",

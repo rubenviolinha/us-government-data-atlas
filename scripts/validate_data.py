@@ -109,6 +109,12 @@ def main():
     acs_block_group_2024 = []
     for path in sorted((ROOT / "data" / "normalized").glob("acs_block_group_population_housing_2024_5yr_part*.json")):
         acs_block_group_2024.extend(json.loads(path.read_text(encoding="utf-8")))
+    acs_block_group_demographics_2024 = {}
+    for label in ("education", "income", "race"):
+        rows = []
+        for path in sorted((ROOT / "data" / "normalized").glob(f"acs_block_group_{label}_2024_5yr_part*.json")):
+            rows.extend(json.loads(path.read_text(encoding="utf-8")))
+        acs_block_group_demographics_2024[label] = rows
     acs_urban_2024 = {label: load(f"acs_urban_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_district_2024_5yr = {label: load(f"acs_district_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_aiannh_2024 = {label: load(f"acs_aiannh_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
@@ -546,6 +552,10 @@ def main():
     assert len(acs_block_group_2024) == 242297
     assert len({row["block_group_geoid"] for row in acs_block_group_2024}) == len(acs_block_group_2024)
     assert all(row.get("GEO_ID", "").startswith("1500000US") and len(row.get("block_group_geoid", "")) == 12 and row.get("source_population") and row.get("source_housing") and row.get("vintage") == "2024 ACS 5-year" for row in acs_block_group_2024)
+    for label, rows in acs_block_group_demographics_2024.items():
+        assert len(rows) == 242297, f"ACS 2024 block group {label} coverage mismatch"
+        assert len({row["block_group_geoid"] for row in rows}) == len(rows)
+        assert all(row.get("GEO_ID", "").startswith("1500000US") and len(row.get("block_group_geoid", "")) == 12 and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
     for label, rows in acs_urban_2024.items():
         assert len(rows) >= 2600, f"ACS 2024 urban area {label} coverage too small"
         assert len({row["urban_area_geoid"] for row in rows}) == len(rows)
