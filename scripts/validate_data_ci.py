@@ -153,7 +153,9 @@ def main():
     assert len({row["place"] for row in zcta_place_relationships}) >= 20000
     assert all(row.get("source") and row.get("vintage") == "2020 Census ZCTA-to-place relationship file" for row in zcta_place_relationships)
 
-    zcta_tract_relationships = read_json(ROOT / "data/normalized/zcta_tract_relationships_2020.json")
+    zcta_tract_relationships = []
+    for path in sorted((ROOT / "data/normalized").glob("zcta_tract_relationships_2020_part*.json")):
+        zcta_tract_relationships.extend(read_json(path))
     assert len(zcta_tract_relationships) >= 160000
     assert len({(row["zcta"], row["tract"]) for row in zcta_tract_relationships}) == len(zcta_tract_relationships)
     assert len({row["zcta"] for row in zcta_tract_relationships}) >= 30000

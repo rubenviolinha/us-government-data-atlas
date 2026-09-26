@@ -37,14 +37,18 @@ def main():
             "retrieved_at": retrieved_at,
         })
     rows.sort(key=lambda row: (row["zcta"], row["tract"]))
-    out = ROOT / "data" / "normalized" / "zcta_tract_relationships_2020.json"
-    out.write_text(json.dumps(rows, indent=2) + "\n", encoding="utf-8")
+    part_size = 45000
+    for index in range(0, len(rows), part_size):
+        part = index // part_size + 1
+        out = ROOT / "data" / "normalized" / f"zcta_tract_relationships_2020_part{part}.json"
+        out.write_text(json.dumps(rows[index:index + part_size], indent=2) + "\n", encoding="utf-8")
     manifest = {
         "source": URL,
         "source_catalog": "https://www.census.gov/geographies/reference-files/2020/geo/relationship-files.html",
         "vintage": "2020 Census ZCTA-to-tract relationship file",
         "retrieved_at": retrieved_at,
         "records": len(rows),
+        "parts": (len(rows) + part_size - 1) // part_size,
         "raw_rows": len(text.splitlines()) - 1,
     }
     manifest_path = ROOT / "data" / "raw" / "zcta_tract_relationships_2020_manifest.json"
