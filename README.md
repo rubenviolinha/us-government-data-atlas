@@ -190,6 +190,8 @@ The USDA ERS 2025 SNAP-authorized Retailer Access Map release is included with 8
 
 The USDA ERS Food Environment Atlas 2025 release is included with 3,157 county and county-equivalent records across 304 indicators covering food access, stores, restaurants, local food, nutrition assistance, socioeconomic conditions, and community characteristics, plus a variable lookup file. It is a public USDA bulk ZIP and does not require an API key.
 
+The NOAA/NCEI IBTrACS North Atlantic release is included as JSON shards of historical tropical-cyclone track points, with position, wind, pressure, storm status, distance-to-land, and storm-motion fields. It is fetched from NOAA's public bulk CSV and does not require an API key.
+
 ## Local API
 
 The checked-in releases can be queried locally without an API key:

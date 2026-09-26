@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T22:21:40.969026+00:00",
+  "generated_at": "2026-09-26T22:31:36.125704+00:00",
   "algorithm": "sha256",
-  "dataset_count": 1009,
+  "dataset_count": 1022,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -4583,6 +4583,71 @@
       "file": "data/normalized/noaa_ghcn_us_stations.json",
       "sha256": "f3704f27a4f5cbd54bd98bd70317d04d70823e937312639b10bf7a314ef18155",
       "size_bytes": 29427141
+    },
+    {
+      "file": "data/normalized/noaa_ibtracs_north_atlantic_part1.json",
+      "sha256": "bcca782ea49cd39cfecce8519cf93ac17946aea6eab31c06cb548490e337c552",
+      "size_bytes": 6466274
+    },
+    {
+      "file": "data/normalized/noaa_ibtracs_north_atlantic_part10.json",
+      "sha256": "8ede7ac1fb283fd590a1252c8e2bdf7c6a80c2a4974ec9ce319559ff61922a60",
+      "size_bytes": 6480875
+    },
+    {
+      "file": "data/normalized/noaa_ibtracs_north_atlantic_part11.json",
+      "sha256": "2e6e6b023169686556a7e2aef072a028da9a0e79e12c107b5908f3530ba9db13",
+      "size_bytes": 6475085
+    },
+    {
+      "file": "data/normalized/noaa_ibtracs_north_atlantic_part12.json",
+      "sha256": "176c87d65be7bfa2c7cbce1dcd24e0e28c5416afd4448181a500d6e9286326c8",
+      "size_bytes": 6477694
+    },
+    {
+      "file": "data/normalized/noaa_ibtracs_north_atlantic_part13.json",
+      "sha256": "1e0211dcd9132f38819667f27bc5dcaf97a110510d690556284bb47c72c33cb3",
+      "size_bytes": 4726635
+    },
+    {
+      "file": "data/normalized/noaa_ibtracs_north_atlantic_part2.json",
+      "sha256": "f003eb3e2cc4cecc1a1db637a6f8d3bb64f8be714108ed6dd9593db391566430",
+      "size_bytes": 6476130
+    },
+    {
+      "file": "data/normalized/noaa_ibtracs_north_atlantic_part3.json",
+      "sha256": "4f2c5890bdc055c948c6d29ceb7476995a6358ee48639cb32e42739496b844d7",
+      "size_bytes": 6479628
+    },
+    {
+      "file": "data/normalized/noaa_ibtracs_north_atlantic_part4.json",
+      "sha256": "883a76a3469936e5c4ad833d92f738e41bf624d7d0d7f4ff8f3a7ab5c502028c",
+      "size_bytes": 6485537
+    },
+    {
+      "file": "data/normalized/noaa_ibtracs_north_atlantic_part5.json",
+      "sha256": "2a36afab716d6cb73e513855fa9ba94f5d9a4a64fd27e1c061c013154f870b86",
+      "size_bytes": 6489652
+    },
+    {
+      "file": "data/normalized/noaa_ibtracs_north_atlantic_part6.json",
+      "sha256": "69c7563df485d8d6bbf210b7f3cee39aa18d12b143423339ae3b516ff464cdcd",
+      "size_bytes": 6488942
+    },
+    {
+      "file": "data/normalized/noaa_ibtracs_north_atlantic_part7.json",
+      "sha256": "8c95ac755d6a306f0447cea99de4de50dd194da03908e65eb2a02c629562792d",
+      "size_bytes": 6477534
+    },
+    {
+      "file": "data/normalized/noaa_ibtracs_north_atlantic_part8.json",
+      "sha256": "283d013e94d3089a9b34b0771472a261c97e96f71d412fd833feacc38ff40812",
+      "size_bytes": 6482860
+    },
+    {
+      "file": "data/normalized/noaa_ibtracs_north_atlantic_part9.json",
+      "sha256": "d0cd990e98fa5051817877e894fa7c263e3daa3a63d750601bffce5be4154457",
+      "size_bytes": 6487711
     },
     {
       "file": "data/normalized/noaa_state_climate_1895_2024.json",

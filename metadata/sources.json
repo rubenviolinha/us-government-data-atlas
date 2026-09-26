@@ -1493,5 +1493,14 @@
     "format": "Official USDA ERS CSV tables inside ZIP normalized to JSON",
     "license": "U.S. government public data",
     "notes": "3,157 county and county-equivalent records with 304 food access, stores, restaurants, local food, nutrition assistance, socioeconomic, and community indicators, plus a machine-readable variable list. No API key used."
+  },
+  {
+    "id": "noaa-ibtracs-north-atlantic",
+    "name": "NOAA/NCEI IBTrACS North Atlantic Track Archive",
+    "publisher": "NOAA National Centers for Environmental Information",
+    "url": "https://www.ncei.noaa.gov/products/international-best-track-archive",
+    "format": "Official NOAA/NCEI CSV normalized to JSON shards",
+    "license": "U.S. government public data",
+    "notes": "Historical North Atlantic tropical-cyclone track points with storm position, wind, pressure, status, distance-to-land, and motion fields. No API key used."
   }
 ]
