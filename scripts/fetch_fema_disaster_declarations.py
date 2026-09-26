@@ -38,9 +38,15 @@ def main():
     for row in rows:
         row["source"] = source
         row["retrieved_at"] = retrieved_at
-    filename = "fema_disaster_declarations.json"
-    (NORMALIZED / filename).write_text(json.dumps(rows, separators=(",", ":")) + "\n", encoding="utf-8")
-    manifest = {"retrieved_at": retrieved_at, "source": source, "records": len(rows), "file": "data/normalized/" + filename, "note": "Nationwide FEMA disaster-declaration summary feed; public endpoint, no API key used."}
+    parts = []
+    for index in range(4):
+        start = (len(rows) * index) // 4
+        end = (len(rows) * (index + 1)) // 4
+        filename = f"fema_disaster_declarations_part{index + 1}.json"
+        output = rows[start:end]
+        (NORMALIZED / filename).write_text(json.dumps(output, separators=(",", ":")) + "\n", encoding="utf-8")
+        parts.append({"file": "data/normalized/" + filename, "records": len(output)})
+    manifest = {"retrieved_at": retrieved_at, "source": source, "records": len(rows), "parts": parts, "note": "Nationwide FEMA disaster-declaration summary feed; public endpoint, no API key used. Split into four repository-safe release parts."}
     (RAW / "fema_disaster_declarations_manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(manifest, indent=2))
 

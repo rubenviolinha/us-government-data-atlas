@@ -71,7 +71,9 @@ def main():
     presidents = load("presidents.json")
     agencies = load("federal_register_agencies.json")
     agency_relationships = load("federal_agency_relationships.json")
-    fema_disasters = load("fema_disaster_declarations.json")
+    fema_disasters = []
+    for path in sorted((ROOT / "data" / "normalized").glob("fema_disaster_declarations_part*.json")):
+        fema_disasters.extend(json.loads(path.read_text(encoding="utf-8")))
     executive_orders = load("executive_orders.json")
     proclamations = load("presidential_proclamations.json")
     presidential_documents = load("presidential_documents.json")

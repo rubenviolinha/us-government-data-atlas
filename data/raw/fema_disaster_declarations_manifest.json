@@ -1,7 +1,24 @@
 {
-  "retrieved_at": "2026-09-26T14:59:37.520430+00:00",
+  "retrieved_at": "2026-09-26T15:02:49.761881+00:00",
   "source": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries.csv",
   "records": 70422,
-  "file": "data/normalized/fema_disaster_declarations.json",
-  "note": "Nationwide FEMA disaster-declaration summary feed; public endpoint, no API key used."
+  "parts": [
+    {
+      "file": "data/normalized/fema_disaster_declarations_part1.json",
+      "records": 17605
+    },
+    {
+      "file": "data/normalized/fema_disaster_declarations_part2.json",
+      "records": 17606
+    },
+    {
+      "file": "data/normalized/fema_disaster_declarations_part3.json",
+      "records": 17605
+    },
+    {
+      "file": "data/normalized/fema_disaster_declarations_part4.json",
+      "records": 17606
+    }
+  ],
+  "note": "Nationwide FEMA disaster-declaration summary feed; public endpoint, no API key used. Split into four repository-safe release parts."
 }
