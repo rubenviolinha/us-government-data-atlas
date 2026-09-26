@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T14:41:26.110381+00:00",
+  "generated_at": "2026-09-26T14:44:35.772335+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2403,6 +2403,29 @@
       ]
     },
     {
+      "file": "data/normalized/acs_county_commuting_2024_5yr.json",
+      "format": "JSON",
+      "records": 3222,
+      "size_bytes": 1239443,
+      "fields_sample": [
+        "B08301_E001",
+        "B08301_E002",
+        "B08301_E003",
+        "B08301_E004",
+        "B08301_E005",
+        "B08301_M001",
+        "GEO_ID",
+        "county_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08301.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_county_education_2023.json",
       "format": "JSON",
       "records": 3222,
@@ -2675,6 +2698,29 @@
       ],
       "source_urls_sample": [
         "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_county_internet_2024_5yr.json",
+      "format": "JSON",
+      "records": 3222,
+      "size_bytes": 1236349,
+      "fields_sample": [
+        "B28002_E001",
+        "B28002_E002",
+        "B28002_E003",
+        "B28002_E004",
+        "B28002_E005",
+        "B28002_M001",
+        "GEO_ID",
+        "county_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat"
       ]
     },
     {
@@ -3128,6 +3174,29 @@
       ]
     },
     {
+      "file": "data/normalized/acs_county_rent_burden_2024_5yr.json",
+      "format": "JSON",
+      "records": 3222,
+      "size_bytes": 1222664,
+      "fields_sample": [
+        "B25070_E001",
+        "B25070_E002",
+        "B25070_E003",
+        "B25070_E004",
+        "B25070_E005",
+        "B25070_M001",
+        "GEO_ID",
+        "county_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_county_rooms_2024_5yr.json",
       "format": "JSON",
       "records": 3222,
@@ -3150,6 +3219,29 @@
       ],
       "source_urls_sample": [
         "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25041.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_county_vehicles_2024_5yr.json",
+      "format": "JSON",
+      "records": 3222,
+      "size_bytes": 1235936,
+      "fields_sample": [
+        "B25044_E001",
+        "B25044_E002",
+        "B25044_E003",
+        "B25044_E004",
+        "B25044_E005",
+        "B25044_M001",
+        "GEO_ID",
+        "county_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25044.dat"
       ]
     },
     {
@@ -5041,6 +5133,29 @@
       ]
     },
     {
+      "file": "data/normalized/acs_place_commuting_2024_5yr.json",
+      "format": "JSON",
+      "records": 32330,
+      "size_bytes": 12278721,
+      "fields_sample": [
+        "B08301_E001",
+        "B08301_E002",
+        "B08301_E003",
+        "B08301_E004",
+        "B08301_E005",
+        "B08301_M001",
+        "GEO_ID",
+        "place_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08301.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_place_education_2023.json",
       "format": "JSON",
       "records": 32325,
@@ -5313,6 +5428,29 @@
       ],
       "source_urls_sample": [
         "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_place_internet_2024_5yr.json",
+      "format": "JSON",
+      "records": 32330,
+      "size_bytes": 12277291,
+      "fields_sample": [
+        "B28002_E001",
+        "B28002_E002",
+        "B28002_E003",
+        "B28002_E004",
+        "B28002_E005",
+        "B28002_M001",
+        "GEO_ID",
+        "place_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat"
       ]
     },
     {
@@ -5632,6 +5770,29 @@
       ]
     },
     {
+      "file": "data/normalized/acs_place_rent_burden_2024_5yr.json",
+      "format": "JSON",
+      "records": 32330,
+      "size_bytes": 12121404,
+      "fields_sample": [
+        "B25070_E001",
+        "B25070_E002",
+        "B25070_E003",
+        "B25070_E004",
+        "B25070_E005",
+        "B25070_M001",
+        "GEO_ID",
+        "place_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_place_rooms_2024_5yr.json",
       "format": "JSON",
       "records": 32330,
@@ -5654,6 +5815,29 @@
       ],
       "source_urls_sample": [
         "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25041.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_place_vehicles_2024_5yr.json",
+      "format": "JSON",
+      "records": 32330,
+      "size_bytes": 12251722,
+      "fields_sample": [
+        "B25044_E001",
+        "B25044_E002",
+        "B25044_E003",
+        "B25044_E004",
+        "B25044_E005",
+        "B25044_M001",
+        "GEO_ID",
+        "place_geoid",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25044.dat"
       ]
     },
     {
