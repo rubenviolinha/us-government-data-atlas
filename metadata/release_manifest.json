@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T14:19:27.683107+00:00",
+  "generated_at": "2026-09-26T14:27:17.434831+00:00",
   "algorithm": "sha256",
-  "dataset_count": 536,
+  "dataset_count": 552,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -1635,6 +1635,66 @@
       "size_bytes": 31137209
     },
     {
+      "file": "data/normalized/acs_tract_income_distribution_2024_5yr_part1.json",
+      "sha256": "7b1679b939800162488cad8121947d30311c7f5293f394394d1bf974ea086102",
+      "size_bytes": 13063003
+    },
+    {
+      "file": "data/normalized/acs_tract_income_distribution_2024_5yr_part2.json",
+      "sha256": "dbbb5c93e4e80a346b6bf422430ba5d1787c9e8117cdcad47775652663142b7c",
+      "size_bytes": 13061838
+    },
+    {
+      "file": "data/normalized/acs_tract_income_distribution_2024_5yr_part3.json",
+      "sha256": "79647d09478b496753ce1eb0180ffbf39f5d9f26363bd3519f2a1a4529080fd7",
+      "size_bytes": 13063220
+    },
+    {
+      "file": "data/normalized/acs_tract_income_distribution_2024_5yr_part4.json",
+      "sha256": "07cadabb091ad65900b44769f3f534244c0c7b9318f486110b3a53e337eb357a",
+      "size_bytes": 13069324
+    },
+    {
+      "file": "data/normalized/acs_tract_median_age_2024_5yr_part1.json",
+      "sha256": "2176aa49048ec1d21f5be3924b2d6bc0f74561cd51ad4ae121a393a6b1db6353",
+      "size_bytes": 8179695
+    },
+    {
+      "file": "data/normalized/acs_tract_median_age_2024_5yr_part2.json",
+      "sha256": "19a2f6092f7733a0e81310f22a2c3bf1848cbc96e750b86394323096b69a42ab",
+      "size_bytes": 8181556
+    },
+    {
+      "file": "data/normalized/acs_tract_median_age_2024_5yr_part3.json",
+      "sha256": "7ce4c70dc5308dc9e0cb7777cf87eecdc51e8c751471ee52734132688121da36",
+      "size_bytes": 8180411
+    },
+    {
+      "file": "data/normalized/acs_tract_median_age_2024_5yr_part4.json",
+      "sha256": "94054c7797afef9b31b4be6343357f12ae11eeed3e06c4776d586111b4295718",
+      "size_bytes": 8180895
+    },
+    {
+      "file": "data/normalized/acs_tract_median_gross_rent_2024_5yr_part1.json",
+      "sha256": "b1a52b40e5fbb98c19e0dccfcc95fe20eb1fd5791b0d5313678eb109187930a7",
+      "size_bytes": 7210238
+    },
+    {
+      "file": "data/normalized/acs_tract_median_gross_rent_2024_5yr_part2.json",
+      "sha256": "e8c8903c94abdbaceec06d50163d3815d9d3285e6103b6f7357b2b7241bb3b42",
+      "size_bytes": 7204049
+    },
+    {
+      "file": "data/normalized/acs_tract_median_gross_rent_2024_5yr_part3.json",
+      "sha256": "d53278fc3617c543ba76e7310f61df2a1fa039097b8988e8a344e92d9bf5af30",
+      "size_bytes": 7201000
+    },
+    {
+      "file": "data/normalized/acs_tract_median_gross_rent_2024_5yr_part4.json",
+      "sha256": "1802a93b6bf9c23d2c501cf723196f94076ccb28423f34048f77a3dcc4af2592",
+      "size_bytes": 7201060
+    },
+    {
       "file": "data/normalized/acs_tract_poverty_2024_5yr.json",
       "sha256": "496c483759817cd885c23a148816f2b163ef011c4f2467d7b91e5caa8b8f4972",
       "size_bytes": 33909478
@@ -1643,6 +1703,26 @@
       "file": "data/normalized/acs_tract_race_2024_5yr.json",
       "sha256": "25e48265a2c7c65595170af0043d1aac9e106fb35ef86575c2fb5d56db8463a2",
       "size_bytes": 41225540
+    },
+    {
+      "file": "data/normalized/acs_tract_rooms_2024_5yr_part1.json",
+      "sha256": "c74cb20bd7c89d87413ee15a7c65ceda9a5aab174ebec1b7f4ee4bdc866c2679",
+      "size_bytes": 9426916
+    },
+    {
+      "file": "data/normalized/acs_tract_rooms_2024_5yr_part2.json",
+      "sha256": "8654eb905eaf53d05f04c6f1b8c1b2668069e331c8005ca13223c8e4cbbdc21c",
+      "size_bytes": 9426374
+    },
+    {
+      "file": "data/normalized/acs_tract_rooms_2024_5yr_part3.json",
+      "sha256": "4f01e9ce04b53952714195f4798f2c531cb6deccbcbaccc3c77d8a1d437227fd",
+      "size_bytes": 9427426
+    },
+    {
+      "file": "data/normalized/acs_tract_rooms_2024_5yr_part4.json",
+      "sha256": "fd4cab03654ac8d95bd60704fc6bcb1172fec6dc1e1bd16fb6edb477e806e047",
+      "size_bytes": 9430028
     },
     {
       "file": "data/normalized/acs_tribal_block_group_age_sex_2024_5yr.json",

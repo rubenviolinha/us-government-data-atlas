@@ -111,6 +111,12 @@ def main():
         for geo_type in ("subminor_civil_division", "tribal_subdivision_or_remainder", "american_indian_area_reservation_statistical", "off_reservation_trust_land_hawaiian_homeland", "tribal_census_tract", "tribal_block_group", "state_part", "county_part", "aiannh_part", "aiannh_reservation_part", "off_reservation_trust_land_part", "state_part_metro", "tribal_census_tract_part", "tribal_census_tract_part_alt", "tribal_block_group_part", "tribal_block_group_part_alt")
     }
     acs_tract_2024 = {label: load(f"acs_tract_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
+    acs_tract_detail_2024 = {}
+    for label in ("income_distribution", "median_age", "median_gross_rent", "rooms"):
+        rows = []
+        for path in sorted((ROOT / "data" / "normalized").glob(f"acs_tract_{label}_2024_5yr_part*.json")):
+            rows.extend(json.loads(path.read_text(encoding="utf-8")))
+        acs_tract_detail_2024[label] = rows
     acs_block_group_2024 = []
     for path in sorted((ROOT / "data" / "normalized").glob("acs_block_group_population_housing_2024_5yr_part*.json")):
         acs_block_group_2024.extend(json.loads(path.read_text(encoding="utf-8")))
@@ -407,6 +413,10 @@ def main():
             assert len(rows) == expected
             assert len({row.get(key) for row in rows}) == len(rows)
             assert all(row.get(key) and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
+    for rows in acs_tract_detail_2024.values():
+        assert len(rows) == 85382
+        assert len({row.get("tract_geoid") for row in rows}) == len(rows)
+        assert all(row.get("tract_geoid") and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
     assert len(current_cabinet) >= 15
     assert len({row.get("title") for row in current_cabinet}) == len(current_cabinet)
     assert all(row.get("name") and row.get("title") and row.get("source") and row.get("retrieved_at") for row in current_cabinet)
