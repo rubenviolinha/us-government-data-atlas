@@ -26,6 +26,12 @@ class DocsTests(unittest.TestCase):
         for route in ("/health", "/catalog", "/dataset-groups/{group}", "/sources", "/datasets/{filename}.json"):
             self.assertIn(route, spec["paths"])
 
+    def test_generated_docs_catalog_matches_catalog(self):
+        catalog = json.loads((ROOT / "metadata" / "catalog.json").read_text())
+        docs_catalog = json.loads((ROOT / "docs" / "catalog.json").read_text())
+        self.assertEqual(len(docs_catalog["entries"]), len(catalog["entries"]))
+        self.assertEqual(docs_catalog["entries"][0]["file"], catalog["entries"][0]["file"])
+
 
 if __name__ == "__main__":
     unittest.main()

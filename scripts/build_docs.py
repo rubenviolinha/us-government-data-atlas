@@ -42,6 +42,18 @@ def main() -> None:
     DOCS.mkdir(exist_ok=True)
     summary = build_summary()
     (DOCS / "catalog-summary.json").write_text(json.dumps(summary, indent=2) + "\n")
+    catalog = json.loads(CATALOG_PATH.read_text())
+    compact_entries = [
+        {
+            "file": entry["file"],
+            "format": entry.get("format"),
+            "records": entry.get("records", 0),
+            "fields_sample": entry.get("fields_sample", []),
+            "source_urls_sample": entry.get("source_urls_sample", []),
+        }
+        for entry in catalog.get("entries", [])
+    ]
+    (DOCS / "catalog.json").write_text(json.dumps({"generated_at": catalog.get("generated_at"), "entries": compact_entries}, indent=2) + "\n")
     print(
         f"Wrote docs/catalog-summary.json: {summary['dataset_file_count']} files, "
         f"{summary['logical_group_count']} logical groups"
