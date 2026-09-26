@@ -110,7 +110,7 @@ def main():
     for path in sorted((ROOT / "data" / "normalized").glob("acs_block_group_population_housing_2024_5yr_part*.json")):
         acs_block_group_2024.extend(json.loads(path.read_text(encoding="utf-8")))
     acs_block_group_demographics_2024 = {}
-    for label in ("education", "income", "race"):
+    for label in ("education", "income", "race", "households", "labor", "occupancy"):
         rows = []
         for path in sorted((ROOT / "data" / "normalized").glob(f"acs_block_group_{label}_2024_5yr_part*.json")):
             rows.extend(json.loads(path.read_text(encoding="utf-8")))

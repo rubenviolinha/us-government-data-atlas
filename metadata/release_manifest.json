@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T12:55:44.477787+00:00",
+  "generated_at": "2026-09-26T13:00:32.947027+00:00",
   "algorithm": "sha256",
-  "dataset_count": 462,
+  "dataset_count": 474,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -156,43 +156,103 @@
     },
     {
       "file": "data/normalized/acs_block_group_education_2024_5yr_part1.json",
-      "sha256": "ebc2484568516871f33222461a50cce032bb05c70037080a5f792e33d5577741",
+      "sha256": "a8e5c27e19dd492350faf9a191f96135951329d031cfe0cdc17c6698cba286f2",
       "size_bytes": 22845425
     },
     {
       "file": "data/normalized/acs_block_group_education_2024_5yr_part2.json",
-      "sha256": "a9f83c42a3323cdde68d8012a2d3c5c01d423e0d10e8d0a732ad93582ccccbb0",
+      "sha256": "bee87047a025c94a259cb591026bf1586912ab200910223a0f2034ac47b4bf60",
       "size_bytes": 22818908
     },
     {
       "file": "data/normalized/acs_block_group_education_2024_5yr_part3.json",
-      "sha256": "f1445c01c097ee0d7a1ca6ebaa16c6a46881329fffa09bd9e95ddcce64229999",
+      "sha256": "1bad305c26a3d8c134fcf7f7b31ea63347086d529e36c411cdc0b908272ea81c",
       "size_bytes": 22822991
     },
     {
       "file": "data/normalized/acs_block_group_education_2024_5yr_part4.json",
-      "sha256": "0df7a67d7e79c356e775811c1f4528db6c82dda5791e818550f6ee54e607290c",
+      "sha256": "788ec442ceeba06169a6f9d24eb9bfbb48e68958a251c7e10dc9e8d97f62d35e",
       "size_bytes": 22832274
     },
     {
+      "file": "data/normalized/acs_block_group_households_2024_5yr_part1.json",
+      "sha256": "adf42ecdb26dcf9a155a9940dcb39a795b8cd66ad279a64923bdeafcf1fccde9",
+      "size_bytes": 20826376
+    },
+    {
+      "file": "data/normalized/acs_block_group_households_2024_5yr_part2.json",
+      "sha256": "1005933df2b7f7af0012409d67b91c32c278f1666116181bfb5dfd99fdb993d6",
+      "size_bytes": 20815441
+    },
+    {
+      "file": "data/normalized/acs_block_group_households_2024_5yr_part3.json",
+      "sha256": "7c35cc63c764a8857dcd50882ebb2a3d2de40cc52ab7834d15f4632ea328ccb2",
+      "size_bytes": 20817401
+    },
+    {
+      "file": "data/normalized/acs_block_group_households_2024_5yr_part4.json",
+      "sha256": "32736019d785bd2b94cbaf78431d22a28254e6bc526f8261b6a9472c66a30da4",
+      "size_bytes": 20824211
+    },
+    {
       "file": "data/normalized/acs_block_group_income_2024_5yr_part1.json",
-      "sha256": "fd08c4ae530137a779e3e23713bc966557b90ae31de8ade4363f34f3b97fb72b",
+      "sha256": "6641cf4153027507cff96d218a9ef4c847fef53ea0a5d2917f1357fed2dfd537",
       "size_bytes": 20057207
     },
     {
       "file": "data/normalized/acs_block_group_income_2024_5yr_part2.json",
-      "sha256": "eb7890b45a10711ed026efff0f01b902362f393f7142131e818115354ba969de",
+      "sha256": "35fbbb2aee7f8767f887df0f448653b8f3ff68d6810e7113c05b896a534151cc",
       "size_bytes": 20052336
     },
     {
       "file": "data/normalized/acs_block_group_income_2024_5yr_part3.json",
-      "sha256": "2b6da96abafdbc3d0f5cc16c20c2cd5344c2bd1774169adb1d87cbd1ddc08fc5",
+      "sha256": "6e0061bb78e1d7789a1c8f7b9648b20d2b4d3fc39191ab9444e028ff616bbb84",
       "size_bytes": 20056467
     },
     {
       "file": "data/normalized/acs_block_group_income_2024_5yr_part4.json",
-      "sha256": "fe5cbbd235afc385fcf87f632630bbb2561cd6341283fb88f4fe0ccc7a300774",
+      "sha256": "485da19999a291cb4627a1857cf14521fb11c88adf38ff88195a38c0c3b6d602",
       "size_bytes": 20047275
+    },
+    {
+      "file": "data/normalized/acs_block_group_labor_2024_5yr_part1.json",
+      "sha256": "7925ab131fd35deddf285e432a94c8ecc6b460d2588db864e30197228c71e73b",
+      "size_bytes": 21905810
+    },
+    {
+      "file": "data/normalized/acs_block_group_labor_2024_5yr_part2.json",
+      "sha256": "22ecd5fd07ef5b92203906e67d2accf1a370f62c25951390417cdaf89b76ea2b",
+      "size_bytes": 21882434
+    },
+    {
+      "file": "data/normalized/acs_block_group_labor_2024_5yr_part3.json",
+      "sha256": "68c6a92ddc97b14ccf4df6a0a5d6963d2d732a1db4fbda8c7f97609e9fb192fa",
+      "size_bytes": 21884972
+    },
+    {
+      "file": "data/normalized/acs_block_group_labor_2024_5yr_part4.json",
+      "sha256": "431574131e589e2fd027e1e7471694dfc20cd75c083dcf2dd26ad56ec2cf4a04",
+      "size_bytes": 21894817
+    },
+    {
+      "file": "data/normalized/acs_block_group_occupancy_2024_5yr_part1.json",
+      "sha256": "0ed0608a35682e8ade718241dffb5dd6ba545da4226af601adcb20ae2db02f68",
+      "size_bytes": 21884555
+    },
+    {
+      "file": "data/normalized/acs_block_group_occupancy_2024_5yr_part2.json",
+      "sha256": "69e25fa40aa6313d5c134b007f5948f3f5af8478cb4336919b90229d6f0f23a7",
+      "size_bytes": 21866959
+    },
+    {
+      "file": "data/normalized/acs_block_group_occupancy_2024_5yr_part3.json",
+      "sha256": "657c2ff7926792c7ef49fc71593a6e500352bcc5a74aa474f9205d022df77422",
+      "size_bytes": 21870901
+    },
+    {
+      "file": "data/normalized/acs_block_group_occupancy_2024_5yr_part4.json",
+      "sha256": "91e3347bfc17e3d4aeb7a0b993abc0db1279d2617ad03b5c9ac8dbba79c891f4",
+      "size_bytes": 21880622
     },
     {
       "file": "data/normalized/acs_block_group_population_housing_2024_5yr_part1.json",
@@ -216,22 +276,22 @@
     },
     {
       "file": "data/normalized/acs_block_group_race_2024_5yr_part1.json",
-      "sha256": "57d117e61af65e5a3ac53843faa518bc8230c42ba5b10635cca3b190c8b63b43",
+      "sha256": "9ee7a0dc7fc044897241591c11913fb606d90974ed72fa67d3a0164b115c6d83",
       "size_bytes": 27016160
     },
     {
       "file": "data/normalized/acs_block_group_race_2024_5yr_part2.json",
-      "sha256": "6e591cdc9ebf6f672574fcba42fd3c7236308dda142f22a3497cc072e2a5c0e6",
+      "sha256": "a82dc2b1ad937e525e4d363d598a230cb4ca7d47635d4c17dd50d3a867969d90",
       "size_bytes": 26916949
     },
     {
       "file": "data/normalized/acs_block_group_race_2024_5yr_part3.json",
-      "sha256": "e9fe8a7983bb30ae93538f83fde32c22068d53ea2ae001537ff7c7867598b33d",
+      "sha256": "e3aec3eff7d864c746b6c0d2678ed98c1c2e69a20e13a0db0e20662d4898f0b5",
       "size_bytes": 26941173
     },
     {
       "file": "data/normalized/acs_block_group_race_2024_5yr_part4.json",
-      "sha256": "b4d26c4694fe39bfcceb053ab2b8bbe5177866664c4137e5a082abfe1a2c9e84",
+      "sha256": "2a4c021b00c59d05c0d5e56c9603888f9d333ab49ed4cffd2300a99b1340f789",
       "size_bytes": 26962813
     },
     {
