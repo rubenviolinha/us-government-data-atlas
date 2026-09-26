@@ -3,6 +3,7 @@
 
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import json
+import re
 from pathlib import Path
 from urllib.parse import parse_qs, unquote, urlparse
 
@@ -15,6 +16,21 @@ ACCESS_REQUIREMENTS = ROOT / "metadata" / "access_requirements.json"
 
 def read_json(path):
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def dataset_groups(catalog):
+    """Return logical datasets, combining repository-safe ``_partN`` shards."""
+    groups = {}
+    for entry in catalog.get("entries", []):
+        filename = entry["file"].removeprefix("data/normalized/")
+        stem = filename.removesuffix(".json")
+        match = re.match(r"^(.*)_part\d+$", stem)
+        name = match.group(1) if match else stem
+        group = groups.setdefault(name, {"name": name, "files": [], "records": 0, "shards": 0})
+        group["files"].append(filename)
+        group["records"] += entry.get("records", 0)
+        group["shards"] += 1 if match else 0
+    return sorted(groups.values(), key=lambda item: item["name"])
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -33,6 +49,13 @@ class Handler(BaseHTTPRequestHandler):
             return self.send_json({"status": "ok"})
         if path in {"/", "/catalog", "/datasets"}:
             return self.send_json(read_json(CATALOG))
+        if path == "/dataset-groups":
+            groups = dataset_groups(read_json(CATALOG))
+            query = parse_qs(urlparse(self.path).query)
+            requested = query.get("group", [""])[0]
+            if requested:
+                groups = [group for group in groups if group["name"] == requested]
+            return self.send_json({"groups": groups, "count": len(groups)})
         if path == "/sources":
             return self.send_json(read_json(SOURCES))
         if path in {"/access-requirements", "/access_requirements"}:

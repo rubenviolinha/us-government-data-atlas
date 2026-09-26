@@ -68,6 +68,13 @@ class ApiSmokeTests(unittest.TestCase):
         status, _payload = self.get("/datasets/states.json?limit=bad")
         self.assertEqual(status, 400)
 
+    def test_dataset_groups_combine_shards(self):
+        status, payload = self.get("/dataset-groups?group=cdc_places_zctas_2024")
+        self.assertEqual(status, 200)
+        self.assertEqual(payload["count"], 1)
+        self.assertEqual(payload["groups"][0]["shards"], 21)
+        self.assertEqual(payload["groups"][0]["records"], 1236338)
+
 
 if __name__ == "__main__":
     unittest.main()
