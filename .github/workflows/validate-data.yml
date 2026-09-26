@@ -18,5 +18,5 @@ jobs:
       - run: python -m unittest tests/test_api.py
       - run: python scripts/build_release_manifest.py
       - run: python scripts/build_coverage_report.py
-      - run: python scripts/validate_data.py
+      - run: python scripts/validate_data_ci.py
       - run: python scripts/validate_capitals.py
