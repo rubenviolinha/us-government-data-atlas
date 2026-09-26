@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-26T13:32:37.401047+00:00",
-  "catalog_datasets": 491,
+  "generated_at": "2026-09-26T13:39:44.390713+00:00",
+  "catalog_datasets": 492,
   "domain_counts": {
     "Census ACS demographics": 342,
     "Counties": 4,
     "Current officeholders": 8,
-    "FEC elections": 27,
+    "FEC elections": 28,
     "Federal government": 4,
     "Metropolitan areas": 6,
     "Other government reference data": 66,

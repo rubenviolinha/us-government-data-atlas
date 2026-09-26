@@ -152,6 +152,7 @@ def main():
     fec_candidates = load("fec_candidate_master_2024.json")
     fec_committees = load("fec_committee_master_2024.json")
     fec_results = load("fec_presidential_general_results_2024.json")
+    fec_congressional_results_2024 = load("fec_congressional_results_2024.json")
     fec_presidential_2004 = load("fec_presidential_general_2004.json")
     fec_presidential_2008 = load("fec_presidential_general_2008.json")
     fec_presidential_2012 = load("fec_presidential_general_2012.json")
@@ -631,6 +632,9 @@ def main():
     assert len({row["committee_id"] for row in fec_committees}) == len(fec_committees), "duplicate FEC committee IDs"
     assert len(fec_results) >= 50
     assert all(row.get("election_year") == 2024 and row.get("source") for row in fec_results)
+    assert len(fec_congressional_results_2024) >= 1100
+    assert {row.get("office") for row in fec_congressional_results_2024} >= {"representative", "delegate", "resident_commissioner"}
+    assert all(row.get("state") and row.get("candidate_name") and row.get("votes") is not None and row.get("election_year") == 2024 and row.get("source") for row in fec_congressional_results_2024)
     assert len(fec_presidential_2004) >= 400
     assert all(row.get("fec_id") and row.get("candidate_name") and row.get("state") and row.get("votes") is not None and row.get("election_year") == 2004 and row.get("source") for row in fec_presidential_2004)
     assert len(fec_presidential_2008) >= 450

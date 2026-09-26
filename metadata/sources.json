@@ -127,6 +127,14 @@
     "license": "U.S. government public data",
     "notes": "Keyless annual January-December county average temperature and precipitation series from 1895 through 2025, with both 2024 and 2025 vintages retained. Four release parts per parameter stay below repository file-size limits; county-equivalents without NOAA series are listed in the manifest."
   }, {
+    "id": "house-clerk-2024-congressional-election-results",
+    "name": "U.S. House Clerk 2024 Congressional Election Statistics",
+    "publisher": "Office of the Clerk, U.S. House of Representatives",
+    "url": "https://clerk.house.gov/member_info/electionInfo/2024/statistics2024.pdf",
+    "format": "Official PDF extracted to JSON",
+    "license": "U.S. government public data",
+    "notes": "Candidate-level vote totals for 2024 U.S. Senate, Representative, Resident Commissioner, and Delegate contests, with source-page provenance and ballot-status rows preserved."
+  }, {
     "id": "census-cbsa-vintage-relationship-2020-2023",
     "name": "Census CBSA Vintage Relationship, 2020 to 2023",
     "publisher": "U.S. Census Bureau",

@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T13:32:37.345270+00:00",
+  "generated_at": "2026-09-26T13:39:44.346246+00:00",
   "algorithm": "sha256",
-  "dataset_count": 491,
+  "dataset_count": 492,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -1908,6 +1908,11 @@
       "file": "data/normalized/fec_congressional_ballot_candidates_2024.json",
       "sha256": "712dd27e425eef4b7ea6e8bbda014e328f55b469552d066287a601830bb9c363",
       "size_bytes": 556914
+    },
+    {
+      "file": "data/normalized/fec_congressional_results_2024.json",
+      "sha256": "4d9864aef7b19fd21bc8ac4edf1e2c370f8b00a877cf13a458a8bec4bbbe65e1",
+      "size_bytes": 460475
     },
     {
       "file": "data/normalized/fec_federal_elections_2002.json",

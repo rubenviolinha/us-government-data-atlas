@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T13:32:35.600988+00:00",
+  "generated_at": "2026-09-26T13:39:42.606873+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -10091,6 +10091,28 @@
       ],
       "source_urls_sample": [
         "https://www.fec.gov/documents/5548/2024congressgecands.xlsx"
+      ]
+    },
+    {
+      "file": "data/normalized/fec_congressional_results_2024.json",
+      "format": "JSON",
+      "records": 1189,
+      "size_bytes": 460475,
+      "fields_sample": [
+        "candidate_name",
+        "district",
+        "election_year",
+        "office",
+        "party",
+        "record_id",
+        "record_type",
+        "source",
+        "source_page",
+        "state",
+        "votes"
+      ],
+      "source_urls_sample": [
+        "https://clerk.house.gov/member_info/electionInfo/2024/statistics2024.pdf"
       ]
     },
     {
