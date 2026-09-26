@@ -93,6 +93,7 @@ def main():
         geo: {label: load(f"acs_{geo}_{label}_2024_5yr.json") for label in ("income_distribution", "median_age", "median_gross_rent", "rooms")}
         for geo in ("county", "place")
     }
+    acs_cousub_detail_2024 = {label: load(f"acs_cousub_{label}_2024_5yr.json") for label in ("income_distribution", "median_age", "median_gross_rent", "rooms")}
     acs_cousub_2024 = {label: load(f"acs_cousub_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_school_2024 = {label: load(f"acs_school_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_school_elementary_2024 = {label: load(f"acs_school_elementary_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
@@ -417,6 +418,10 @@ def main():
         assert len(rows) == 85382
         assert len({row.get("tract_geoid") for row in rows}) == len(rows)
         assert all(row.get("tract_geoid") and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
+    for rows in acs_cousub_detail_2024.values():
+        assert len(rows) == 36421
+        assert len({row.get("county_subdivision_geoid") for row in rows}) == len(rows)
+        assert all(row.get("county_subdivision_geoid") and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
     assert len(current_cabinet) >= 15
     assert len({row.get("title") for row in current_cabinet}) == len(current_cabinet)
     assert all(row.get("name") and row.get("title") and row.get("source") and row.get("retrieved_at") for row in current_cabinet)
