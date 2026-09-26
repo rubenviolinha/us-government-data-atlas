@@ -8,6 +8,7 @@
       "status": "keyless_bulk_snapshot_available",
       "source": "https://api.census.gov/data/2023/acs/acs5/profile",
       "needed_from_user": "A Census API key only if broader variable/geography coverage beyond the checked-in bulk snapshots is required.",
+      "recommended_secret_name": "CENSUS_API_KEY",
       "why": "The Census API currently returns a missing-key response for data queries in this environment, but public table-based summary files support the checked-in state, county, place, and congressional-district extracts.",
       "keyless_fallback": "ACS table-based summary files from www2.census.gov"
     },
@@ -26,7 +27,17 @@
       "status": "license_or_authorized_feed_required",
       "source": "https://postalpro.usps.com/",
       "needed_from_user": "A USPS-authorized data agreement/feed if exact postal ZIP delivery data is required.",
+      "delivery_method": "licensed_file_or_authorized_feed",
       "why": "Census ZCTAs are available and already ingested, but USPS ZIP delivery geography is separately governed and is not a freely redistributable bulk dataset."
+    },
+    {
+      "id": "state-archival-office-histories",
+      "domain": "state_government",
+      "status": "source_by_source_research_required",
+      "source": "https://www.archives.gov/research/alic/reference/state-archives.html",
+      "needed_from_user": "No single API key; state-specific archive permissions, downloads, or source contacts may be required.",
+      "why": "Older state office histories do not have one consistent, freely downloadable national source. The existing roster coverage remains queryable while state-specific archival work is prioritized.",
+      "next_step": "Choose states and offices to prioritize, then record each archive's source and reuse terms."
     },
     {
       "id": "fec-election-data",
