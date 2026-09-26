@@ -1,0 +1,116 @@
+{
+  "retrieved_at": "2026-09-26T15:27:47.719944+00:00",
+  "dataset": "CDC PLACES: Local Data for Better Health, ZCTA Data 2024 release",
+  "source": "https://data.cdc.gov/resource/4r2x-hcfq.json",
+  "source_page": "https://data.cdc.gov/d/4r2x-hcfq",
+  "records": 1236338,
+  "zcta_locations": 32520,
+  "parts": {
+    "cdc_places_zctas_2024_part1.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part1.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part2.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part2.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part3.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part3.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part4.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part4.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part5.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part5.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part6.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part6.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part7.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part7.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part8.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part8.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part9.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part9.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part10.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part10.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part11.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part11.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part12.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part12.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part13.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part13.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part14.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part14.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part15.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part15.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part16.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part16.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part17.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part17.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part18.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part18.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part19.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part19.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part20.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part20.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    },
+    "cdc_places_zctas_2024_part21.json": {
+      "file": "data/normalized/cdc_places_zctas_2024_part21.json",
+      "records": 36338,
+      "source": "https://data.cdc.gov/resource/4r2x-hcfq.json"
+    }
+  },
+  "note": "Public CDC Socrata data; no API key used. Values are model-based local estimates and are preserved in long form with confidence limits."
+}

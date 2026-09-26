@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T15:23:13.242924+00:00",
+  "generated_at": "2026-09-26T15:30:27.342683+00:00",
   "algorithm": "sha256",
-  "dataset_count": 653,
+  "dataset_count": 674,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -2558,6 +2558,111 @@
       "file": "data/normalized/cdc_places_counties_2024_part5.json",
       "sha256": "d75295da5688fac3898505893951a470f5fb5c2b01b9be201425bfe35ea44957",
       "size_bytes": 544361
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part1.json",
+      "sha256": "9802a2a00a5f4b9211907ee9d8dbb2d9fb4cfd63a81d02203d26ba97fe65ab58",
+      "size_bytes": 37944756
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part10.json",
+      "sha256": "9097ad1b4b7a19c0021adf5ce86594761557b758b6364c8fe487b69f4226c26c",
+      "size_bytes": 37968576
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part11.json",
+      "sha256": "ed9d972b92dc621546dd1bdd6f3b8661abc9e410a4401f48c7a12533ca257aff",
+      "size_bytes": 37911066
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part12.json",
+      "sha256": "c62c6d1c32246fffb40b68c263fbc27bba588b1c2427cf4d9c593d13e20c402a",
+      "size_bytes": 37941103
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part13.json",
+      "sha256": "ef8c8018df3aa418c48da2ecff5f6d1dd1866c2792b264cd374db371927507cb",
+      "size_bytes": 37665719
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part14.json",
+      "sha256": "2e02db147fdb4d96c953e5c80c59adb245a259f5778b9ab4882a9e5588bb95fb",
+      "size_bytes": 37764381
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part15.json",
+      "sha256": "3e39d66133c98e8ac3566f7e0cd666d411ee144cc541260540463b1909f281ee",
+      "size_bytes": 37892878
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part16.json",
+      "sha256": "0721e82fe37196cf8d1a77c51adf8f42dac4aa40e179f3c99e36b6fc2210bbfb",
+      "size_bytes": 37749951
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part17.json",
+      "sha256": "96b254cbe9ff8b36b8a57e2a8bbda6eec7ee2e87529e1bbacf186e909ba33cfa",
+      "size_bytes": 37995397
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part18.json",
+      "sha256": "f6fc32001618bee5283da82f43621a633ad5c1cfe08283535e5f31876fb45451",
+      "size_bytes": 37838035
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part19.json",
+      "sha256": "55d56a36acad15b863b2ccfdd468e0c96b3c37df231bfe30e94072972dc57194",
+      "size_bytes": 37996516
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part2.json",
+      "sha256": "bd980fee33e634f9017c7a0ed2ed22e4ea71d8e7c3c5ea4a61fc56dd7f2b53a1",
+      "size_bytes": 37838441
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part20.json",
+      "sha256": "ab4b1265592a75db4b76de586c6cd7c228db5ab0a61d9bf9b7dac0c97917357b",
+      "size_bytes": 37907581
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part21.json",
+      "sha256": "39fbdea3d724c947508549b83dcbe8be242c88e93dbd7fb648f94ee4670a8b6e",
+      "size_bytes": 22954354
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part3.json",
+      "sha256": "91470a62726768a4619f7700fc69f2986249c54f5808a6f8ce8bb35df77f07fd",
+      "size_bytes": 37578357
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part4.json",
+      "sha256": "626a669145e2f7154df8b361bb1c54a713b6d7d74a0ec5e1ab10b23d4302ac0c",
+      "size_bytes": 37742596
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part5.json",
+      "sha256": "611e762dd1ffb9baa18b25128f9610ecb4b8cf3ed3a24f06afd700119849ddf4",
+      "size_bytes": 37800676
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part6.json",
+      "sha256": "07bcdf81fe91ef7845a1dd9c517d2dae7b7da72bcbd47d6b8b38d61851b53ab7",
+      "size_bytes": 37992836
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part7.json",
+      "sha256": "2d828540409f4f63a67e696383ae3a816dd5d26becc800a7b1c855c435693241",
+      "size_bytes": 37976117
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part8.json",
+      "sha256": "2a39a114a80497db95871eee917bbb4395980297d3f785fed90ac88fa9919c22",
+      "size_bytes": 37980288
+    },
+    {
+      "file": "data/normalized/cdc_places_zctas_2024_part9.json",
+      "sha256": "13f0f81a3a496ec3126220589709f5056f3f7cb1577292785c71d6114bb25986",
+      "size_bytes": 37957945
     },
     {
       "file": "data/normalized/congressional_districts_118th_2023.json",

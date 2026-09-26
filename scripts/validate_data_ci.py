@@ -64,7 +64,15 @@ def main():
     assert len({(row["locationid"], row["measureid"], row["data_value_type"]) for row in places}) == len(places)
     assert all(row.get("source") and row.get("vintage") for row in places)
 
-    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)}")
+    zcta_places = []
+    for path in sorted((ROOT / "data" / "normalized").glob("cdc_places_zctas_2024_part*.json")):
+        zcta_places.extend(read_json(path))
+    assert len(zcta_places) >= 1200000
+    assert len({row["locationid"] for row in zcta_places}) >= 30000
+    assert len({(row["locationid"], row["measureid"], row["data_value_type"]) for row in zcta_places}) == len(zcta_places)
+    assert all(row.get("source") and row.get("vintage") for row in zcta_places)
+
+    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)}")
 
 
 if __name__ == "__main__":

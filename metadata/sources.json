@@ -1223,5 +1223,14 @@
     "format": "Socrata JSON",
     "license": "U.S. government public data",
     "notes": "County-level model-based health outcome, prevention, risk-behavior, disability, health-status, and health-related social-needs estimates; normalized long-form release with confidence limits and no API key."
+  },
+  {
+    "id": "cdc-places-2024-zctas",
+    "name": "CDC PLACES ZCTA Data 2024 Release",
+    "publisher": "Centers for Disease Control and Prevention",
+    "url": "https://data.cdc.gov/d/4r2x-hcfq",
+    "format": "Socrata JSON",
+    "license": "U.S. government public data",
+    "notes": "ZCTA-level model-based health estimates for 32,520 ZIP Code Tabulation Areas; normalized long-form release with confidence limits and no API key."
   }
 ]
