@@ -1457,5 +1457,14 @@
     "format": "Official Census CSV normalized to JSON",
     "license": "U.S. government public data",
     "notes": "3,195 state and county records with annual resident population estimates, births, deaths, migration, group quarters, and change rates for April 1, 2020 through July 1, 2024. No API key used."
+  },
+  {
+    "id": "census-county-age-sex-estimates-2024",
+    "name": "Census County Age and Sex Estimates 2024",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www.census.gov/newsroom/press-kits/2025/2024-population-estimates-characteristics.html",
+    "format": "Official Census CSV normalized to JSON",
+    "license": "U.S. government public data",
+    "notes": "18,864 county-year records with total, male, and female population by selected age groups and median age for 2020-2024. No API key used."
   }
 ]

@@ -182,6 +182,8 @@ The NHTSA defect-investigation release is included as JSON shards covering safet
 
 The Census Population Estimates 2024 release is included with annual state and county population estimates from April 1, 2020 through July 1, 2024, plus births, deaths, natural change, domestic and international migration, group quarters, and component rates. It is a public Census bulk CSV and does not require an API key.
 
+The companion Census county age-and-sex release is included with 18,864 county-year records for 2020–2024, covering selected age groups, male/female totals, and median age. It is a public Census bulk CSV and does not require an API key.
+
 ## Local API
 
 The checked-in releases can be queried locally without an API key:
