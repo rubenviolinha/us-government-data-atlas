@@ -1412,5 +1412,14 @@
     "format": "Public CDE JSON normalized to long-form JSON",
     "license": "U.S. government public data",
     "notes": "National and 57 state/territory monthly violent- and property-crime summaries from 2000 through 2024, including offense counts, rates, clearances, clearance rates, population, and participated population. Current public CDE host queried without an API key."
+  },
+  {
+    "id": "fbi-cde-agencies-2026",
+    "name": "FBI Crime Data Explorer Agency Registry",
+    "publisher": "Federal Bureau of Investigation",
+    "url": "https://cde.ucr.cjis.gov/LATEST/webapp/",
+    "format": "Public CDE JSON normalized to JSON",
+    "license": "U.S. government public data",
+    "notes": "Public agency/ORI registry with agency names, types, county groups, coordinates, NIBRS participation, and NIBRS start dates for the states and territories represented in the catalog. No API key used."
   }
 ]

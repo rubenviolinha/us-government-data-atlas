@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T20:31:24.427913+00:00",
+  "generated_at": "2026-09-26T20:38:58.856366+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -21165,6 +21165,32 @@
         "https://www.federalregister.gov/api/v1/documents/X95-110125?publication_date=1995-01-25",
         "https://www.federalregister.gov/api/v1/documents/Z9-26408?publication_date=2009-11-05",
         "https://www.federalregister.gov/api/v1/documents/Z9-30020?publication_date=2009-12-18"
+      ]
+    },
+    {
+      "file": "data/normalized/fbi_cde_agencies_2026.json",
+      "format": "JSON",
+      "records": 19640,
+      "size_bytes": 9088545,
+      "fields_sample": [
+        "agency_name",
+        "agency_type_name",
+        "counties",
+        "county_group",
+        "is_nibrs",
+        "latitude",
+        "longitude",
+        "nibrs_start_date",
+        "ori",
+        "retrieved_at",
+        "source",
+        "state_abbr",
+        "state_name",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://cde.ucr.cjis.gov/LATEST/agency/byStateAbbr/AK",
+        "https://cde.ucr.cjis.gov/LATEST/agency/byStateAbbr/AL"
       ]
     },
     {

@@ -230,7 +230,15 @@ def main():
     assert {row["crime_group"] for row in crime} == {"violent_crime", "property_crime"}
     assert all(row.get("source") and row.get("vintage") == "FBI Crime Data Explorer summarized UCR 2000-2024" for row in crime)
 
-    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)} SVI counties={len(svi_counties)} tracts={len(svi_tracts)} ZCTAs={len(svi_zctas)} aviation={len(aviation)} earthquakes={len(earthquakes)} tide_stations={len(tide_stations)} nws_stations={nws_entry['records']} zcta_place={len(zcta_place_relationships)} zcta_tract={len(zcta_tract_relationships)} tract_puma={len(tract_puma_relationships)} usgs_stream_sites={len(water_sites)} storm_events={len(storm_events)} qcew={len(qcew)} qcew_industry={len(qcew_industry)} epa_frs={len(epa_facilities)} ghcn_stations={len(ghcn)} fbi_cde_crime={len(crime)}")
+    agencies = read_json(ROOT / "data/normalized/fbi_cde_agencies_2026.json")
+    assert len(agencies) >= 15000
+    assert len({row["ori"] for row in agencies}) == len(agencies)
+    assert len({row["state_abbr"] for row in agencies}) >= 50
+    assert all(row.get("ori") and row.get("agency_name") and row.get("state_abbr") for row in agencies)
+    assert all(row.get("source") and row.get("vintage") == "FBI Crime Data Explorer agency registry retrieved 2026-09-26" for row in agencies)
+    assert all(-90 <= row["latitude"] <= 90 and -180 <= row["longitude"] <= 180 for row in agencies if row.get("latitude") is not None and row.get("longitude") is not None)
+
+    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)} SVI counties={len(svi_counties)} tracts={len(svi_tracts)} ZCTAs={len(svi_zctas)} aviation={len(aviation)} earthquakes={len(earthquakes)} tide_stations={len(tide_stations)} nws_stations={nws_entry['records']} zcta_place={len(zcta_place_relationships)} zcta_tract={len(zcta_tract_relationships)} tract_puma={len(tract_puma_relationships)} usgs_stream_sites={len(water_sites)} storm_events={len(storm_events)} qcew={len(qcew)} qcew_industry={len(qcew_industry)} epa_frs={len(epa_facilities)} ghcn_stations={len(ghcn)} fbi_cde_crime={len(crime)} fbi_cde_agencies={len(agencies)}")
 
 
 if __name__ == "__main__":

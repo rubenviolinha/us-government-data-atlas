@@ -172,6 +172,8 @@ The NOAA/NCEI GHCN-Daily station inventory is included with 78,569 United States
 
 The FBI Crime Data Explorer summarized UCR release is included as a long-form national/state time series covering monthly violent- and property-crime counts, rates, clearances, and populations from 2000 through 2024 for the nation and all 57 state/territory jurisdictions. The current public CDE host was queried without an API key.
 
+The companion FBI Crime Data Explorer agency registry is included with public ORI records, agency names and types, county groups, coordinates, NIBRS participation, and NIBRS start dates. It was queried for all 57 state/territory jurisdictions without an API key.
+
 ## Local API
 
 The checked-in releases can be queried locally without an API key:
