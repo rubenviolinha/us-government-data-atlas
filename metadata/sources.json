@@ -1214,5 +1214,14 @@
     "format": "Delimited bulk summary files",
     "license": "U.S. government public data",
     "notes": "Keyless household, labor-force, commuting, vehicle availability, internet access, and rent-burden profiles for the nation, Census regions, divisions, and states."
+  },
+  {
+    "id": "cdc-places-2024-counties",
+    "name": "CDC PLACES County Data 2024 Release",
+    "publisher": "Centers for Disease Control and Prevention",
+    "url": "https://data.cdc.gov/d/fu4u-a9bh",
+    "format": "Socrata JSON",
+    "license": "U.S. government public data",
+    "notes": "County-level model-based health outcome, prevention, risk-behavior, disability, health-status, and health-related social-needs estimates; normalized long-form release with confidence limits and no API key."
   }
 ]

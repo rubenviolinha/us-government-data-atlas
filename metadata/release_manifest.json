@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T15:17:29.607112+00:00",
+  "generated_at": "2026-09-26T15:23:13.242924+00:00",
   "algorithm": "sha256",
-  "dataset_count": 648,
+  "dataset_count": 653,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -2533,6 +2533,31 @@
       "file": "data/normalized/cbsa_vintage_relationships_2020_2023.json",
       "sha256": "b92ce35957f9028f1e00788dad8c8bc23fb4a7ef2fdbae1301a6da2f64d1784a",
       "size_bytes": 615855
+    },
+    {
+      "file": "data/normalized/cdc_places_counties_2024_part1.json",
+      "sha256": "c49021784b84d0eb03177203569f65ac40de012baa4503ac7e54241f4d24fa6c",
+      "size_bytes": 36968673
+    },
+    {
+      "file": "data/normalized/cdc_places_counties_2024_part2.json",
+      "sha256": "bf2afe71121d194875b6ca2a99cc1eb446a7601d1a2e39fefbcecd81083bc927",
+      "size_bytes": 37032452
+    },
+    {
+      "file": "data/normalized/cdc_places_counties_2024_part3.json",
+      "sha256": "82e8d9eaf333f047e857724bdcd83c64911e3005b3e41d90f7ab5711f99bdc96",
+      "size_bytes": 37061626
+    },
+    {
+      "file": "data/normalized/cdc_places_counties_2024_part4.json",
+      "sha256": "23070d216ecf3e33df4e28bbcae7ce205df4351c3639b375b68b48a476d6cc8b",
+      "size_bytes": 36994769
+    },
+    {
+      "file": "data/normalized/cdc_places_counties_2024_part5.json",
+      "sha256": "d75295da5688fac3898505893951a470f5fb5c2b01b9be201425bfe35ea44957",
+      "size_bytes": 544361
     },
     {
       "file": "data/normalized/congressional_districts_118th_2023.json",

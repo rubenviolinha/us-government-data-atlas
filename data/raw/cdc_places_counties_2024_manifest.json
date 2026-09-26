@@ -1,0 +1,36 @@
+{
+  "retrieved_at": "2026-09-26T15:21:49.688496+00:00",
+  "dataset": "CDC PLACES: Local Data for Better Health, County Data 2024 release",
+  "source": "https://data.cdc.gov/resource/fu4u-a9bh.json",
+  "source_page": "https://data.cdc.gov/d/fu4u-a9bh",
+  "records": 240886,
+  "county_locations": 3145,
+  "parts": {
+    "cdc_places_counties_2024_part1.json": {
+      "file": "data/normalized/cdc_places_counties_2024_part1.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/fu4u-a9bh.json"
+    },
+    "cdc_places_counties_2024_part2.json": {
+      "file": "data/normalized/cdc_places_counties_2024_part2.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/fu4u-a9bh.json"
+    },
+    "cdc_places_counties_2024_part3.json": {
+      "file": "data/normalized/cdc_places_counties_2024_part3.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/fu4u-a9bh.json"
+    },
+    "cdc_places_counties_2024_part4.json": {
+      "file": "data/normalized/cdc_places_counties_2024_part4.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/fu4u-a9bh.json"
+    },
+    "cdc_places_counties_2024_part5.json": {
+      "file": "data/normalized/cdc_places_counties_2024_part5.json",
+      "records": 886,
+      "source": "https://data.cdc.gov/resource/fu4u-a9bh.json"
+    }
+  },
+  "note": "Public CDC Socrata data; no API key used. Values are model-based local estimates and are preserved in long form with confidence limits."
+}
