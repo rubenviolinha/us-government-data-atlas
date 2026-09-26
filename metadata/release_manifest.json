@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T14:57:38.686555+00:00",
+  "generated_at": "2026-09-26T15:01:16.017985+00:00",
   "algorithm": "sha256",
-  "dataset_count": 612,
+  "dataset_count": 613,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -2653,6 +2653,11 @@
       "file": "data/normalized/federal_register_agencies.json",
       "sha256": "0b6f1f47f8c55500e3d31b0354a51e7eb94b8bdc122d31de08c1f53fc2e5a3bb",
       "size_bytes": 777702
+    },
+    {
+      "file": "data/normalized/fema_disaster_declarations.json",
+      "sha256": "40f962cc53367fb90d5116bcb24a27719d2091db2a7bee0a29cb4cc5aa37e88e",
+      "size_bytes": 73309641
     },
     {
       "file": "data/normalized/gnis_government_units.json",

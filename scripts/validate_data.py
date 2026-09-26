@@ -71,6 +71,7 @@ def main():
     presidents = load("presidents.json")
     agencies = load("federal_register_agencies.json")
     agency_relationships = load("federal_agency_relationships.json")
+    fema_disasters = load("fema_disaster_declarations.json")
     executive_orders = load("executive_orders.json")
     proclamations = load("presidential_proclamations.json")
     presidential_documents = load("presidential_documents.json")
@@ -369,6 +370,9 @@ def main():
     assert all(row["start_date"] <= row["end_date"] if row.get("end_date") else True for row in presidents)
     assert len(agencies) >= 100
     assert all(row.get("name") and row.get("source") for row in agencies)
+    assert len(fema_disasters) >= 70000
+    assert len({row.get("id") for row in fema_disasters}) == len(fema_disasters)
+    assert all(row.get("disasterNumber") and row.get("state") and row.get("incidentType") and row.get("source") for row in fema_disasters)
     agency_slugs = [row.get("slug") for row in agencies if row.get("slug")]
     assert len(agency_slugs) == len(set(agency_slugs)), "duplicate Federal Register agency slugs"
     agency_ids = {row["id"] for row in agencies}

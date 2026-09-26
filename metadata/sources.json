@@ -1187,5 +1187,14 @@
     "format": "Delimited bulk summary files",
     "license": "U.S. government public data",
     "notes": "Keyless commuting, vehicle availability, internet access, and rent-burden profiles for 1,978 elementary, 501 secondary, and 10,901 unified ACS-covered school districts."
+  },
+  {
+    "id": "fema-disaster-declarations",
+    "name": "FEMA Disaster Declarations Summaries",
+    "publisher": "Federal Emergency Management Agency",
+    "url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries.csv",
+    "format": "CSV",
+    "license": "U.S. government public data",
+    "notes": "Nationwide disaster-declaration summaries with declaration type, incident type, dates, state, and program indicators; public endpoint, no API key used."
   }
 ]
