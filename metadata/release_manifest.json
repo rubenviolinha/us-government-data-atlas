@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T14:50:48.277111+00:00",
+  "generated_at": "2026-09-26T14:54:14.098735+00:00",
   "algorithm": "sha256",
-  "dataset_count": 596,
+  "dataset_count": 600,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -685,6 +685,11 @@
       "size_bytes": 14879183
     },
     {
+      "file": "data/normalized/acs_cousub_commuting_2024_5yr.json",
+      "sha256": "07a1e4e070f064ff6ba351935c91778cbd5576b14497bab8c844ca002a917080",
+      "size_bytes": 14545922
+    },
+    {
       "file": "data/normalized/acs_cousub_education_2023.json",
       "sha256": "42ab5f93b68a904df77fcdd6888d68079d9e0e7a094a3bcd3c671810361225c7",
       "size_bytes": 16424618
@@ -720,6 +725,11 @@
       "size_bytes": 22510139
     },
     {
+      "file": "data/normalized/acs_cousub_internet_2024_5yr.json",
+      "sha256": "490b82f3bb249b405e1d1a29222a6567d84c74ead39358b0c536b0d7eaa2bd9d",
+      "size_bytes": 14540258
+    },
+    {
       "file": "data/normalized/acs_cousub_median_age_2024_5yr.json",
       "sha256": "3f97550b8705473bf90334b6364f2851f1bc3a35eef7e983ba34054c652bd03d",
       "size_bytes": 14381277
@@ -750,9 +760,19 @@
       "size_bytes": 17858691
     },
     {
+      "file": "data/normalized/acs_cousub_rent_burden_2024_5yr.json",
+      "sha256": "9e2286a214ec1bd98beca055948a7a619e81539f99c11ba8911aa62c05c02387",
+      "size_bytes": 14348905
+    },
+    {
       "file": "data/normalized/acs_cousub_rooms_2024_5yr.json",
       "sha256": "94d20e7607a0c3c7c6d696c853864a59eccd49a73770a40d686bf93337c9b74d",
       "size_bytes": 16403538
+    },
+    {
+      "file": "data/normalized/acs_cousub_vehicles_2024_5yr.json",
+      "sha256": "1c0c76728f1813715b810673c46bbd0b68947054e3b3efbb68295f796528c09c",
+      "size_bytes": 14516250
     },
     {
       "file": "data/normalized/acs_csa_age_sex_2024_5yr.json",
