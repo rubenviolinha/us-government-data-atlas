@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T14:54:11.644794+00:00",
+  "generated_at": "2026-09-26T14:57:36.230921+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -6949,6 +6949,30 @@
       ]
     },
     {
+      "file": "data/normalized/acs_school_commuting_2024_5yr.json",
+      "format": "JSON",
+      "records": 10901,
+      "size_bytes": 4511815,
+      "fields_sample": [
+        "B08301_E001",
+        "B08301_E002",
+        "B08301_E003",
+        "B08301_E004",
+        "B08301_E005",
+        "B08301_M001",
+        "GEO_ID",
+        "district_geoid",
+        "district_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08301.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_school_education_2023.json",
       "format": "JSON",
       "records": 10904,
@@ -7066,6 +7090,30 @@
       ]
     },
     {
+      "file": "data/normalized/acs_school_elementary_commuting_2024_5yr.json",
+      "format": "JSON",
+      "records": 1978,
+      "size_bytes": 820402,
+      "fields_sample": [
+        "B08301_E001",
+        "B08301_E002",
+        "B08301_E003",
+        "B08301_E004",
+        "B08301_E005",
+        "B08301_M001",
+        "GEO_ID",
+        "district_geoid",
+        "district_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08301.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_school_elementary_education_2024_5yr.json",
       "format": "JSON",
       "records": 1978,
@@ -7172,6 +7220,30 @@
       ]
     },
     {
+      "file": "data/normalized/acs_school_elementary_internet_2024_5yr.json",
+      "format": "JSON",
+      "records": 1978,
+      "size_bytes": 819445,
+      "fields_sample": [
+        "B28002_E001",
+        "B28002_E002",
+        "B28002_E003",
+        "B28002_E004",
+        "B28002_E005",
+        "B28002_M001",
+        "GEO_ID",
+        "district_geoid",
+        "district_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_school_elementary_median_age_2024_5yr.json",
       "format": "JSON",
       "records": 1978,
@@ -7269,6 +7341,30 @@
       ]
     },
     {
+      "file": "data/normalized/acs_school_elementary_rent_burden_2024_5yr.json",
+      "format": "JSON",
+      "records": 1978,
+      "size_bytes": 808597,
+      "fields_sample": [
+        "B25070_E001",
+        "B25070_E002",
+        "B25070_E003",
+        "B25070_E004",
+        "B25070_E005",
+        "B25070_M001",
+        "GEO_ID",
+        "district_geoid",
+        "district_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_school_elementary_rooms_2024_5yr.json",
       "format": "JSON",
       "records": 1978,
@@ -7293,6 +7389,30 @@
       ],
       "source_urls_sample": [
         "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25041.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_school_elementary_vehicles_2024_5yr.json",
+      "format": "JSON",
+      "records": 1978,
+      "size_bytes": 818198,
+      "fields_sample": [
+        "B25044_E001",
+        "B25044_E002",
+        "B25044_E003",
+        "B25044_E004",
+        "B25044_E005",
+        "B25044_M001",
+        "GEO_ID",
+        "district_geoid",
+        "district_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25044.dat"
       ]
     },
     {
@@ -7414,6 +7534,30 @@
       ],
       "source_urls_sample": [
         "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_school_internet_2024_5yr.json",
+      "format": "JSON",
+      "records": 10901,
+      "size_bytes": 4503415,
+      "fields_sample": [
+        "B28002_E001",
+        "B28002_E002",
+        "B28002_E003",
+        "B28002_E004",
+        "B28002_E005",
+        "B28002_M001",
+        "GEO_ID",
+        "district_geoid",
+        "district_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat"
       ]
     },
     {
@@ -7688,6 +7832,30 @@
       ]
     },
     {
+      "file": "data/normalized/acs_school_rent_burden_2024_5yr.json",
+      "format": "JSON",
+      "records": 10901,
+      "size_bytes": 4449026,
+      "fields_sample": [
+        "B25070_E001",
+        "B25070_E002",
+        "B25070_E003",
+        "B25070_E004",
+        "B25070_E005",
+        "B25070_M001",
+        "GEO_ID",
+        "district_geoid",
+        "district_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_school_rooms_2024_5yr.json",
       "format": "JSON",
       "records": 10901,
@@ -7736,6 +7904,30 @@
       ],
       "source_urls_sample": [
         "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_school_secondary_commuting_2024_5yr.json",
+      "format": "JSON",
+      "records": 501,
+      "size_bytes": 209114,
+      "fields_sample": [
+        "B08301_E001",
+        "B08301_E002",
+        "B08301_E003",
+        "B08301_E004",
+        "B08301_E005",
+        "B08301_M001",
+        "GEO_ID",
+        "district_geoid",
+        "district_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08301.dat"
       ]
     },
     {
@@ -7845,6 +8037,30 @@
       ]
     },
     {
+      "file": "data/normalized/acs_school_secondary_internet_2024_5yr.json",
+      "format": "JSON",
+      "records": 501,
+      "size_bytes": 208639,
+      "fields_sample": [
+        "B28002_E001",
+        "B28002_E002",
+        "B28002_E003",
+        "B28002_E004",
+        "B28002_E005",
+        "B28002_M001",
+        "GEO_ID",
+        "district_geoid",
+        "district_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_school_secondary_median_age_2024_5yr.json",
       "format": "JSON",
       "records": 501,
@@ -7942,6 +8158,30 @@
       ]
     },
     {
+      "file": "data/normalized/acs_school_secondary_rent_burden_2024_5yr.json",
+      "format": "JSON",
+      "records": 501,
+      "size_bytes": 206306,
+      "fields_sample": [
+        "B25070_E001",
+        "B25070_E002",
+        "B25070_E003",
+        "B25070_E004",
+        "B25070_E005",
+        "B25070_M001",
+        "GEO_ID",
+        "district_geoid",
+        "district_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_school_secondary_rooms_2024_5yr.json",
       "format": "JSON",
       "records": 501,
@@ -7966,6 +8206,54 @@
       ],
       "source_urls_sample": [
         "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25041.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_school_secondary_vehicles_2024_5yr.json",
+      "format": "JSON",
+      "records": 501,
+      "size_bytes": 208473,
+      "fields_sample": [
+        "B25044_E001",
+        "B25044_E002",
+        "B25044_E003",
+        "B25044_E004",
+        "B25044_E005",
+        "B25044_M001",
+        "GEO_ID",
+        "district_geoid",
+        "district_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25044.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_school_vehicles_2024_5yr.json",
+      "format": "JSON",
+      "records": 10901,
+      "size_bytes": 4499937,
+      "fields_sample": [
+        "B25044_E001",
+        "B25044_E002",
+        "B25044_E003",
+        "B25044_E004",
+        "B25044_E005",
+        "B25044_M001",
+        "GEO_ID",
+        "district_geoid",
+        "district_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25044.dat"
       ]
     },
     {

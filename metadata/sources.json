@@ -1178,5 +1178,14 @@
     "format": "Delimited bulk summary files",
     "license": "U.S. government public data",
     "notes": "Keyless commuting, vehicle availability, internet access, and rent-burden profiles for all 36,421 ACS-covered county subdivisions."
+  },
+  {
+    "id": "census-acs-2024-school-access-profiles",
+    "name": "ACS 2024 5-Year School-District Access Profiles",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/",
+    "format": "Delimited bulk summary files",
+    "license": "U.S. government public data",
+    "notes": "Keyless commuting, vehicle availability, internet access, and rent-burden profiles for 1,978 elementary, 501 secondary, and 10,901 unified ACS-covered school districts."
   }
 ]
