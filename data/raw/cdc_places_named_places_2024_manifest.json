@@ -1,0 +1,201 @@
+{
+  "retrieved_at": "2026-09-26T15:39:05.210593+00:00",
+  "dataset": "CDC PLACES: Local Data for Better Health, Place Data 2024 release",
+  "source": "https://data.cdc.gov/resource/sd8v-uq83.json",
+  "source_page": "https://data.cdc.gov/d/sd8v-uq83",
+  "records": 2274860,
+  "place_locations": 29923,
+  "parts": {
+    "cdc_places_named_places_2024_part1.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part1.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part2.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part2.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part3.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part3.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part4.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part4.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part5.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part5.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part6.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part6.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part7.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part7.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part8.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part8.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part9.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part9.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part10.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part10.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part11.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part11.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part12.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part12.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part13.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part13.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part14.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part14.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part15.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part15.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part16.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part16.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part17.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part17.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part18.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part18.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part19.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part19.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part20.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part20.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part21.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part21.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part22.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part22.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part23.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part23.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part24.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part24.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part25.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part25.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part26.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part26.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part27.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part27.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part28.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part28.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part29.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part29.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part30.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part30.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part31.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part31.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part32.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part32.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part33.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part33.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part34.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part34.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part35.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part35.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part36.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part36.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part37.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part37.json",
+      "records": 60000,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    },
+    "cdc_places_named_places_2024_part38.json": {
+      "file": "data/normalized/cdc_places_named_places_2024_part38.json",
+      "records": 54860,
+      "source": "https://data.cdc.gov/resource/sd8v-uq83.json"
+    }
+  },
+  "note": "Public CDC Socrata data; no API key used. Values are model-based local estimates and are preserved in long form with confidence limits."
+}

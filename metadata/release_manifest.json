@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T15:30:27.342683+00:00",
+  "generated_at": "2026-09-26T15:46:04.896188+00:00",
   "algorithm": "sha256",
-  "dataset_count": 674,
+  "dataset_count": 712,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -2558,6 +2558,196 @@
       "file": "data/normalized/cdc_places_counties_2024_part5.json",
       "sha256": "d75295da5688fac3898505893951a470f5fb5c2b01b9be201425bfe35ea44957",
       "size_bytes": 544361
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part1.json",
+      "sha256": "3da42e9ee1703a0b6589d78a5501075876bac3a06057d18607d38f103fd9e52f",
+      "size_bytes": 40877059
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part10.json",
+      "sha256": "943450c5d881db26dd54b02271745d46b303ae68a292ffb0259fa559a9d438fe",
+      "size_bytes": 40793433
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part11.json",
+      "sha256": "df4700a2baf690c4926d0692a053d5da273f356dbdeaee306719814b62a4b212",
+      "size_bytes": 40690319
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part12.json",
+      "sha256": "3d34ae862ecb3f7f28d0ed6e175919f4286ca9b026d9096214a30ede97d53dc6",
+      "size_bytes": 40678543
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part13.json",
+      "sha256": "bc351a2f9c9886b412b9b127e23b44d4bf985f994b5d47465beba33c12d38627",
+      "size_bytes": 40903561
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part14.json",
+      "sha256": "b7b0b768d895fb34dc287b84ab632fcc6370cf26465281e29b1d368443470cee",
+      "size_bytes": 40794603
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part15.json",
+      "sha256": "4a8c469c0758e63aaafa3ae1a74ad73308f0f594bbd682ef64748f33c53b53ee",
+      "size_bytes": 41152342
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part16.json",
+      "sha256": "4021b35356faecf5e0969101d1c6c2a3281dc08d23f03e3d6e8dea550086d336",
+      "size_bytes": 40975867
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part17.json",
+      "sha256": "95b96876aea1a5f21d8137b2406416902fd5c7284c8b2a86a194916dada0560e",
+      "size_bytes": 40971137
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part18.json",
+      "sha256": "a836d9479798b979c5fbb3ef6983bae80bfa4bb7c504a0cfc4c065ff25e390c4",
+      "size_bytes": 41022470
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part19.json",
+      "sha256": "38f2415c1903664acc6bd4e2417b173099dd7d5a680120d0335b5e711b721b12",
+      "size_bytes": 40935088
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part2.json",
+      "sha256": "50fc73c882eb40175543a7b507c31340fdbd6856893e27b60990263bc14755cd",
+      "size_bytes": 40835575
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part20.json",
+      "sha256": "6e58ae136809e59af2544761de7e0fc0c14a190d549d903e6ebc0b639c6a6b2f",
+      "size_bytes": 40831158
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part21.json",
+      "sha256": "151a37bc69c2623e810bcc4159a13508c308704e9135c2553cec4539079ae863",
+      "size_bytes": 41184008
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part22.json",
+      "sha256": "4af91c7d5b14ecfee7c67676b7fe4148749ebdde949ba520c4a7debfcb724a88",
+      "size_bytes": 41034826
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part23.json",
+      "sha256": "c5148bddfe6b257a1d91cbd0e3cc9dbe1c6ca97ce0e07a4df0f6e8bd016270e6",
+      "size_bytes": 40707426
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part24.json",
+      "sha256": "aee4313fd26efeab6d20f6cd9fb4863e2770236fbe93c571ff601a9a1972f602",
+      "size_bytes": 41208237
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part25.json",
+      "sha256": "3c1062153e1ccaa8feef202dc42416432bded694e5890a86b3720f61296e6e02",
+      "size_bytes": 40878577
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part26.json",
+      "sha256": "5cb0f830f88f8b57cb01b1c8bd5a764be2fd3439e141b873c9edb300f30f0ae9",
+      "size_bytes": 40776946
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part27.json",
+      "sha256": "b91df6a4bc58c5719b8a70af6bd265743a8ed0316b0aeb85eaca877d637adda4",
+      "size_bytes": 40842505
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part28.json",
+      "sha256": "6504943b5228bafcb3212ae41379049adc21353b6b18c2bce8abcff421e24529",
+      "size_bytes": 40705194
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part29.json",
+      "sha256": "8737e13595544d4ff4f1c0f9a5a136e639be2bef050ea1a5f1ccdd6d86104fdf",
+      "size_bytes": 40887874
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part3.json",
+      "sha256": "76d9d2f8f8eaff390e4da3811caaa6ff8b33d92a1edb1c6b2fe01af1f15c81f5",
+      "size_bytes": 40964367
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part30.json",
+      "sha256": "793861c9ef4443a45d7d3deb4ad30daed905a096b1e432bc7e9168748c2e51c8",
+      "size_bytes": 41039151
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part31.json",
+      "sha256": "d3c726abc4b00a5171e66e67731e23d4a55e50ca80498b38de116fee619ab4ee",
+      "size_bytes": 41050541
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part32.json",
+      "sha256": "0e976fb7492b0fe1e90a33a1ba84131278aa0187da24e300dbfe4b984bff2354",
+      "size_bytes": 40925324
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part33.json",
+      "sha256": "2bf70538b0132f392fcb9629bbd59a97cca8474f18e52c7391e63a6596e24801",
+      "size_bytes": 40803344
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part34.json",
+      "sha256": "32c030a0506f66e6eacaff29fd09d2dc2f915e5778cd790a1cf9e4fc0fec68a0",
+      "size_bytes": 40795138
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part35.json",
+      "sha256": "8421b1b3f60555b54143d1d76f2ea6cd01e2e96073464c050e4a883b212fd90b",
+      "size_bytes": 40740661
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part36.json",
+      "sha256": "ae39185604623ef0456a7b61b9e00962e16bfb92e20dcc93e588ccda7ea7433c",
+      "size_bytes": 41033353
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part37.json",
+      "sha256": "5c45d6e0b03f788f4e0fe8f62b650128afcaa4b9b829de7cb64fc8efcefcafaa",
+      "size_bytes": 41130336
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part38.json",
+      "sha256": "bc47e4a9600619914eafc3c1bb4466ebd3a6bbf0e6386dd6af00c580769fbc74",
+      "size_bytes": 37450977
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part4.json",
+      "sha256": "8b08588fa14a9e7d482a2ed6ce52ce433527eb94f4c9e8b417715503b6d0b1ad",
+      "size_bytes": 41199074
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part5.json",
+      "sha256": "e937605bbe6a37a975233316f306bde376d653d758e6711cd12d71b557c81502",
+      "size_bytes": 40933071
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part6.json",
+      "sha256": "f3038f747d01b6c2c88ea606d9b43d6a77cc36f46ae233c8039fef7744b35426",
+      "size_bytes": 41074599
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part7.json",
+      "sha256": "1b26ef37da53c6e51099c1ff9c93372f979728f551b25fc9f8359c05ac951267",
+      "size_bytes": 40972376
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part8.json",
+      "sha256": "ccd851b55c1e53cddc5335775a72c880d87a91319f83018bde9f334d139da2fa",
+      "size_bytes": 40707701
+    },
+    {
+      "file": "data/normalized/cdc_places_named_places_2024_part9.json",
+      "sha256": "6f079e1fb0ea1c7b931b591f87edf4761f25144ffd723822969ba9290f37fe98",
+      "size_bytes": 40596622
     },
     {
       "file": "data/normalized/cdc_places_zctas_2024_part1.json",
