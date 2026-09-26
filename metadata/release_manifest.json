@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T13:18:29.305841+00:00",
+  "generated_at": "2026-09-26T13:32:37.345270+00:00",
   "algorithm": "sha256",
-  "dataset_count": 482,
+  "dataset_count": 491,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -2090,6 +2090,26 @@
       "size_bytes": 29607030
     },
     {
+      "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2025_part1.json",
+      "sha256": "a10fb08bea0c42f61e7bb4ec6517a5c90156a19d38bdb2a7be6468017bd5a553",
+      "size_bytes": 29841540
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2025_part2.json",
+      "sha256": "c0dc9ad2e350c5dc3aa37f902a47a33f3025c666ecfdda5c193fbaf2059d7b15",
+      "size_bytes": 29848041
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2025_part3.json",
+      "sha256": "e87e365260e56e7ebdd51f0a5df5db88679b311dae2523ead72878aeff01540e",
+      "size_bytes": 29834186
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2025_part4.json",
+      "sha256": "030ca1e7a9614a6f279c5d17ba9e10f30354dc00d00ba10810f08a5212bf009d",
+      "size_bytes": 29835486
+    },
+    {
       "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2024_part1.json",
       "sha256": "6cf454d765a0df51213f05e80042adf9f55dc0b8d1804a366e3fe6c275bfea3f",
       "size_bytes": 28199057
@@ -2110,9 +2130,34 @@
       "size_bytes": 28192821
     },
     {
+      "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2025_part1.json",
+      "sha256": "b8ab54c77ffc3647d9d3a0d89e3ebe6f7e134b4a01491b79d3d1c8a8a247bdf1",
+      "size_bytes": 28407690
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2025_part2.json",
+      "sha256": "96b4069df552dcf4a67b1f337b46193cc99b7df7601476bc5bd6fafc27bac9ff",
+      "size_bytes": 28415605
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2025_part3.json",
+      "sha256": "8b746aac3299e31d0280b47b7a9bba2ae11c74032426bba03006a5b2ba06cf8d",
+      "size_bytes": 28399075
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2025_part4.json",
+      "sha256": "11783d9f4f87e445062226b7f85fe38e9b198a46b7cde8198a6f69d4fa26890c",
+      "size_bytes": 28401036
+    },
+    {
       "file": "data/normalized/noaa_state_climate_1895_2024.json",
       "sha256": "61927dd2b7f55614587e5d03a0b32a3e17920c7eddc2e8448a8ee7e13299dc3c",
       "size_bytes": 3925854
+    },
+    {
+      "file": "data/normalized/noaa_state_climate_1895_2025.json",
+      "sha256": "a9f7a6441f27174e78c61454fcbf5c75fa4075d11a9590f2a874c04690ba8ffd",
+      "size_bytes": 3956649
     },
     {
       "file": "data/normalized/place_population_2020_2024.json",

@@ -186,12 +186,19 @@ def main():
     acs_puma_housing = load("acs_puma_housing_2023.json")
     acs_puma_race = load("acs_puma_race_2023.json")
     noaa_state_climate = load("noaa_state_climate_1895_2024.json")
+    noaa_state_climate_2025 = load("noaa_state_climate_1895_2025.json")
     noaa_county_climate = {}
     for label in ("annual_avg_temperature", "annual_precipitation"):
         rows = []
         for path in sorted((ROOT / "data" / "normalized").glob(f"noaa_county_climate_{label}_1895_2024_part*.json")):
             rows.extend(json.loads(path.read_text(encoding="utf-8")))
         noaa_county_climate[label] = rows
+    noaa_county_climate_2025 = {}
+    for label in ("annual_avg_temperature", "annual_precipitation"):
+        rows = []
+        for path in sorted((ROOT / "data" / "normalized").glob(f"noaa_county_climate_{label}_1895_2025_part*.json")):
+            rows.extend(json.loads(path.read_text(encoding="utf-8")))
+        noaa_county_climate_2025[label] = rows
     acs_school_age_sex = load("acs_school_age_sex_2023.json")
     acs_school_education = load("acs_school_education_2023.json")
     acs_school_poverty = load("acs_school_poverty_2023.json")
@@ -671,8 +678,16 @@ def main():
     assert {row.get("parameter") for row in noaa_state_climate} == {"annual_avg_temperature_f", "annual_precipitation_inches"}
     assert len({row.get("state_abbr") for row in noaa_state_climate}) == 50
     assert all(row.get("year") and row.get("value") is not None and row.get("source") for row in noaa_state_climate)
+    assert len(noaa_state_climate_2025) >= 12500
+    assert {row.get("parameter") for row in noaa_state_climate_2025} == {"annual_avg_temperature_f", "annual_precipitation_inches"}
+    assert len({row.get("state_abbr") for row in noaa_state_climate_2025}) == 50
+    assert all(row.get("year") and row.get("value") is not None and row.get("source") for row in noaa_state_climate_2025)
     for label, rows in noaa_county_climate.items():
         assert len(rows) >= 400000, f"too few NOAA county {label} rows"
+        assert len({row.get("county_geoid") for row in rows}) >= 3100
+        assert all(row.get("county_geoid") and row.get("county_name") and row.get("state_abbr") and row.get("year") and row.get("value") is not None and row.get("source") for row in rows)
+    for label, rows in noaa_county_climate_2025.items():
+        assert len(rows) >= 400000, f"too few NOAA county 2025 {label} rows"
         assert len({row.get("county_geoid") for row in rows}) >= 3100
         assert all(row.get("county_geoid") and row.get("county_name") and row.get("state_abbr") and row.get("year") and row.get("value") is not None and row.get("source") for row in rows)
     assert len(acs_variables_2024) == 580

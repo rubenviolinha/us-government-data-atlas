@@ -20,7 +20,7 @@ STATES = {
 
 
 def fetch(code, parameter):
-    url = f"https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/{code}/{parameter}/12/12/1895-2024.json"
+    url = f"https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/{code}/{parameter}/12/12/1895-2025.json"
     payload = json.load(urlopen(Request(url, headers={"User-Agent": "us-government-data-atlas/0.1"}), timeout=120))
     return url, payload
 
@@ -37,7 +37,7 @@ def main():
                 rows.append({"state_climate_code": str(code), "state_abbr": abbr, "year": year, "parameter": field, "value": value.get("value"), "units": payload["description"].get("units"), "source": url})
     rows.sort(key=lambda row: (row["state_abbr"], row["year"], row["parameter"]))
     NORMALIZED.mkdir(parents=True, exist_ok=True); RAW.mkdir(parents=True, exist_ok=True)
-    filename = "noaa_state_climate_1895_2024.json"
+    filename = "noaa_state_climate_1895_2025.json"
     (NORMALIZED / filename).write_text(json.dumps(rows, indent=2) + "\n", encoding="utf-8")
     manifest = {"retrieved_at": datetime.now(timezone.utc).isoformat(), "sources": sorted(sources), "format": "NOAA Climate at a Glance JSON", "records": len(rows), "states": len(STATES), "file": "data/normalized/" + filename, "note": "Annual January-December statewide average temperature and precipitation series; no API key used. NOAA agency state codes are preserved separately from FIPS codes."}
     (RAW / "noaa_state_climate_manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")

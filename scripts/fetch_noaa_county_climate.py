@@ -19,7 +19,7 @@ PARTS = 4
 def fetch_county(county, parameter, label):
     geoid = county["GEOID"]
     location = f"{county['USPS']}-{geoid[2:]}"
-    url = f"{BASE}/{location}/{parameter}/12/12/1895-2024.json"
+    url = f"{BASE}/{location}/{parameter}/12/12/1895-2025.json"
     try:
         payload = json.load(urlopen(Request(url, headers={"User-Agent": "us-government-data-atlas/0.1"}), timeout=60))
     except (HTTPError, URLError, TimeoutError) as exc:
@@ -62,7 +62,7 @@ def main():
         for index in range(PARTS):
             start = (len(rows) * index) // PARTS
             end = (len(rows) * (index + 1)) // PARTS
-            filename = f"noaa_county_climate_{label}_1895_2024_part{index + 1}.json"
+            filename = f"noaa_county_climate_{label}_1895_2025_part{index + 1}.json"
             part = rows[start:end]
             (NORMALIZED / filename).write_text(json.dumps(part, separators=(",", ":")) + "\n", encoding="utf-8")
             part_files.append({"file": "data/normalized/" + filename, "records": len(part), "counties": len({row["county_geoid"] for row in part})})
