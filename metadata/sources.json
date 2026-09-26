@@ -1475,5 +1475,14 @@
     "format": "Public FEMA ArcGIS FeatureServer JSON normalized to JSON",
     "license": "U.S. government public data",
     "notes": "County-level composite risk, expected annual loss, social vulnerability, community resilience, and 18 hazard risk scores from FEMA's public National Risk Index service. No API key used."
+  },
+  {
+    "id": "usda-sram-2025-tracts",
+    "name": "USDA ERS 2025 SNAP-authorized Retailer Access Map",
+    "publisher": "U.S. Department of Agriculture Economic Research Service",
+    "url": "https://ers.usda.gov/data-products/food-access-research-atlas/download-the-data",
+    "format": "Official USDA ERS CSV tables inside ZIP merged by tract and normalized to JSON",
+    "license": "U.S. government public data",
+    "notes": "84,119 2020 Census tract records with population and household characteristics plus SNAP-authorized retailer access and low-income/low-access measures using straight-line and driving distances. No API key used."
   }
 ]

@@ -288,7 +288,16 @@ def main():
     assert sum(row.get("resl_score") is not None for row in nri) >= 3000
     assert all(row.get("source") and row.get("vintage", "").startswith("FEMA National Risk Index") for row in nri)
 
-    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)} SVI counties={len(svi_counties)} tracts={len(svi_tracts)} ZCTAs={len(svi_zctas)} aviation={len(aviation)} earthquakes={len(earthquakes)} tide_stations={len(tide_stations)} nws_stations={nws_entry['records']} zcta_place={len(zcta_place_relationships)} zcta_tract={len(zcta_tract_relationships)} tract_puma={len(tract_puma_relationships)} usgs_stream_sites={len(water_sites)} storm_events={len(storm_events)} qcew={len(qcew)} qcew_industry={len(qcew_industry)} epa_frs={len(epa_facilities)} ghcn_stations={len(ghcn)} fbi_cde_crime={len(crime)} fbi_cde_agencies={len(agencies)} fbi_cde_arrests={len(arrests)} nhtsa_recalls={len(recalls)} nhtsa_investigations={len(investigations)} census_population={len(population)} census_age_sex={len(age_sex)} fema_nri={len(nri)}")
+    sram = []
+    for path in sorted((ROOT / "data/normalized").glob("usda_sram_2025_tracts_part*.json")):
+        sram.extend(read_json(path))
+    assert len(sram) == 84119
+    assert len({row.get("censustract20") for row in sram}) == len(sram)
+    assert len({row.get("state") for row in sram}) == 51
+    assert all(row.get("censustract20") and row.get("pop2020") is not None and row.get("source") for row in sram)
+    assert all(row.get("vintage") == "USDA ERS 2025 SNAP-authorized Retailer Access Map" for row in sram)
+
+    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)} SVI counties={len(svi_counties)} tracts={len(svi_tracts)} ZCTAs={len(svi_zctas)} aviation={len(aviation)} earthquakes={len(earthquakes)} tide_stations={len(tide_stations)} nws_stations={nws_entry['records']} zcta_place={len(zcta_place_relationships)} zcta_tract={len(zcta_tract_relationships)} tract_puma={len(tract_puma_relationships)} usgs_stream_sites={len(water_sites)} storm_events={len(storm_events)} qcew={len(qcew)} qcew_industry={len(qcew_industry)} epa_frs={len(epa_facilities)} ghcn_stations={len(ghcn)} fbi_cde_crime={len(crime)} fbi_cde_agencies={len(agencies)} fbi_cde_arrests={len(arrests)} nhtsa_recalls={len(recalls)} nhtsa_investigations={len(investigations)} census_population={len(population)} census_age_sex={len(age_sex)} fema_nri={len(nri)} usda_sram={len(sram)}")
 
 
 if __name__ == "__main__":

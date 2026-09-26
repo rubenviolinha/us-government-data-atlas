@@ -186,6 +186,8 @@ The companion Census county age-and-sex release is included with 18,864 county-y
 
 The FEMA National Risk Index county release is included with composite natural-hazard risk, expected annual loss, social vulnerability, community resilience, and individual hazard risk scores for U.S. counties. It is queried from FEMA's public ArcGIS service and does not require an API key.
 
+The USDA ERS 2025 SNAP-authorized Retailer Access Map release is included with 84,119 2020 Census tract records, combining tract characteristics with low-income/low-access flags and retailer-distance measures using both driving and straight-line distances. It is a public USDA bulk ZIP and does not require an API key.
+
 ## Local API
 
 The checked-in releases can be queried locally without an API key:

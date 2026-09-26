@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T21:46:31.000234+00:00",
+  "generated_at": "2026-09-26T22:04:25.460833+00:00",
   "algorithm": "sha256",
-  "dataset_count": 995,
+  "dataset_count": 1007,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -4883,6 +4883,66 @@
       "file": "data/normalized/urban_areas_2025.json",
       "sha256": "e20db81b197a3324e76ac0b565653ca2d0592d3ca95165b3a9fc84689c5e864b",
       "size_bytes": 705669
+    },
+    {
+      "file": "data/normalized/usda_sram_2025_tracts_part1.json",
+      "sha256": "e25963daddd28fbb7a7c714e8bd16c058e67115216748f1802375abfff801a18",
+      "size_bytes": 55349780
+    },
+    {
+      "file": "data/normalized/usda_sram_2025_tracts_part10.json",
+      "sha256": "2cb5d0b599519261e415958fda02fa78ff33f5cfef5d32c75b09de4d2409853f",
+      "size_bytes": 55493654
+    },
+    {
+      "file": "data/normalized/usda_sram_2025_tracts_part11.json",
+      "sha256": "60f16c068029160ed6f58e4a11dd36ed7b0571e8f7fa5d0803267fc25c5fa108",
+      "size_bytes": 55615073
+    },
+    {
+      "file": "data/normalized/usda_sram_2025_tracts_part12.json",
+      "sha256": "6c1fea0efa276e917b2446f6bfd5a7df6d0cb44f180b6b438b27b07bb39c3890",
+      "size_bytes": 11996597
+    },
+    {
+      "file": "data/normalized/usda_sram_2025_tracts_part2.json",
+      "sha256": "1eb059d8055a55eb99b19d85347cbe1ff1debfbff82d5f36ce0e04f6d5a4ce49",
+      "size_bytes": 55370031
+    },
+    {
+      "file": "data/normalized/usda_sram_2025_tracts_part3.json",
+      "sha256": "a37215f802ed272c0e45bfc8de050dc450cccece47e979c28c5ce36d9b5c96e2",
+      "size_bytes": 55512656
+    },
+    {
+      "file": "data/normalized/usda_sram_2025_tracts_part4.json",
+      "sha256": "6dba79253009c18499be2ddaea6a45980b76030ed774b15606001dd920b8b1de",
+      "size_bytes": 55381192
+    },
+    {
+      "file": "data/normalized/usda_sram_2025_tracts_part5.json",
+      "sha256": "cedb6f42d108b938ad45251eb94d6c55bbcd07dce10aa14aa94a07ead1476237",
+      "size_bytes": 55523528
+    },
+    {
+      "file": "data/normalized/usda_sram_2025_tracts_part6.json",
+      "sha256": "3a2b9aa2e7423db86e2b36810dcd134a973a0bcd2bfc4ea10783dc35b754a103",
+      "size_bytes": 55543528
+    },
+    {
+      "file": "data/normalized/usda_sram_2025_tracts_part7.json",
+      "sha256": "f3d85ce191e60a67e794d7bb44f58f04b54f40e945aac0bb819b0a3ccc5936e0",
+      "size_bytes": 55081010
+    },
+    {
+      "file": "data/normalized/usda_sram_2025_tracts_part8.json",
+      "sha256": "efa40c128effc4fafbaeb40f4d6d396dbe878fccfb0af54601cd03a5b9c38a82",
+      "size_bytes": 55406579
+    },
+    {
+      "file": "data/normalized/usda_sram_2025_tracts_part9.json",
+      "sha256": "d299831bfc6eb955d3ec774b7816d1e391b93fd8723fdc9f12c51889dc386728",
+      "size_bytes": 55460950
     },
     {
       "file": "data/normalized/usgs_active_stream_sites.json",

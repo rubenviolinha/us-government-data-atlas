@@ -1,0 +1,12 @@
+{
+  "source": "https://ers.usda.gov/media/29395/2025-snap-authorized-retailer-access-map-sram-data.zip?v=12504",
+  "source_catalog": "https://ers.usda.gov/data-products/food-access-research-atlas/download-the-data",
+  "format": "Official USDA ERS CSV tables inside ZIP merged by 2020 Census tract and normalized to JSON",
+  "license": "U.S. government public data",
+  "vintage": "USDA ERS 2025 SNAP-authorized Retailer Access Map",
+  "retrieved_at": "2026-09-26T22:02:57.128982+00:00",
+  "records": 84119,
+  "parts": 12,
+  "file_prefix": "data/normalized/usda_sram_2025_tracts_part",
+  "note": "2020 Census tract food-access characteristics and SNAP-authorized retailer access measures using straight-line and driving distance; no API key used."
+}
