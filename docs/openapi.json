@@ -1,0 +1,45 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "US Government Data Atlas API",
+    "version": "0.1.0",
+    "description": "Read-only access to the checked-in normalized US Government Data Atlas catalog. Run api/server.py locally or self-host it."
+  },
+  "servers": [{"url": "http://localhost:8000", "description": "Local API server"}],
+  "paths": {
+    "/health": {"get": {"summary": "Health check", "responses": {"200": {"description": "Service is ready"}}}},
+    "/": {"get": {"summary": "Catalog", "responses": {"200": {"$ref": "#/components/responses/Catalog"}}}},
+    "/catalog": {"get": {"summary": "Catalog", "responses": {"200": {"$ref": "#/components/responses/Catalog"}}}},
+    "/datasets": {"get": {"summary": "Catalog", "responses": {"200": {"$ref": "#/components/responses/Catalog"}}}},
+    "/dataset-groups": {"get": {"summary": "Logical dataset groups", "responses": {"200": {"description": "Logical groups and aggregate record counts"}}}},
+    "/dataset-groups/{group}": {
+      "get": {
+        "summary": "Query a logical dataset group",
+        "parameters": [{"$ref": "#/components/parameters/Group"}, {"$ref": "#/components/parameters/Limit"}, {"$ref": "#/components/parameters/Offset"}, {"$ref": "#/components/parameters/Contains"}],
+        "responses": {"200": {"$ref": "#/components/responses/Dataset"}, "404": {"description": "Group not found"}}
+      }
+    },
+    "/sources": {"get": {"summary": "Source registry", "responses": {"200": {"description": "Source registry"}}}},
+    "/access-requirements": {"get": {"summary": "Credential and licensing requirements", "responses": {"200": {"description": "Access requirements"}}}},
+    "/datasets/{filename}.json": {
+      "get": {
+        "summary": "Query one normalized dataset",
+        "parameters": [{"$ref": "#/components/parameters/Filename"}, {"$ref": "#/components/parameters/Limit"}, {"$ref": "#/components/parameters/Offset"}, {"$ref": "#/components/parameters/Contains"}],
+        "responses": {"200": {"$ref": "#/components/responses/Dataset"}, "404": {"description": "Dataset is not listed in the catalog"}}
+      }
+    }
+  },
+  "components": {
+    "parameters": {
+      "Group": {"name": "group", "in": "path", "required": true, "schema": {"type": "string"}},
+      "Filename": {"name": "filename", "in": "path", "required": true, "schema": {"type": "string"}},
+      "Limit": {"name": "limit", "in": "query", "schema": {"type": "integer", "minimum": 1, "maximum": 1000, "default": 1000}},
+      "Offset": {"name": "offset", "in": "query", "schema": {"type": "integer", "minimum": 0, "default": 0}},
+      "Contains": {"name": "field__contains", "in": "query", "description": "Text containment filter. Any exact-match field may also be supplied as a query parameter.", "schema": {"type": "string"}}
+    },
+    "responses": {
+      "Catalog": {"description": "Catalog metadata and entries", "content": {"application/json": {"schema": {"type": "object", "required": ["entries"], "properties": {"entries": {"type": "array", "items": {"type": "object"}}}}}}},
+      "Dataset": {"description": "Dataset records and pagination metadata", "content": {"application/json": {"schema": {"type": "object", "required": ["records", "count"], "properties": {"dataset": {"type": "string"}, "records": {"type": "array", "items": {"type": "object"}}, "count": {"type": "integer"}, "total": {"type": "integer"}, "limit": {"type": "integer"}, "offset": {"type": "integer"}}}}}}
+    }
+  }
+}
