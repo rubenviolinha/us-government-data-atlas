@@ -3,92 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>US Government Data Atlas API</title>
-  <meta name="description" content="Read-only API documentation for the US Government Data Atlas.">
+  <title>US Government Data Atlas · API reference</title>
+  <meta name="description" content="Reference documentation for the read-only US Government Data Atlas API.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="wrap">
-      <p class="eyebrow">Ruben Violinha · open government data</p>
-      <h1>US Government Data Atlas API</h1>
-      <p class="lede">A practical, read-only interface over normalized datasets covering geography, people, institutions, elections, climate, public safety, education, health, and more.</p>
-      <div class="actions">
-        <a class="button primary" href="https://github.com/rubenviolinha/us-government-data-atlas">View repository</a>
-        <a class="button" href="https://github.com/rubenviolinha/us-government-data-atlas/blob/main/README.md">Read the README</a>
-      </div>
-    </div>
-  </header>
-
-  <main class="wrap">
-    <section class="stats" aria-label="Atlas summary">
-      <div><strong id="dataset-count">—</strong><span>dataset files</span></div>
-      <div><strong id="group-count">—</strong><span>logical groups</span></div>
-      <div><strong id="record-count">—</strong><span>cataloged records</span></div>
-      <div><strong id="source-count">—</strong><span>source entries</span></div>
-    </section>
-
-    <section class="notice">
-      <strong>Documentation hosting:</strong> GitHub Pages hosts this reference site. The Python API is intentionally read-only and runs locally or on a host you control; Pages does not execute the API server.
-    </section>
-
-    <section>
-      <h2>Quick start</h2>
-      <p>Clone the repository, start the local server, and open the examples below against <code>http://localhost:8000</code>.</p>
-      <pre><code>python3 api/server.py
-# then visit http://localhost:8000/health</code></pre>
-      <p class="muted">No API key is required for the checked-in release files. Source refreshers that need credentials are documented in <a href="https://github.com/rubenviolinha/us-government-data-atlas/blob/main/metadata/access_requirements.json">access requirements</a>.</p>
-      <p class="muted">The same OpenAPI document is available locally at <code>http://localhost:8000/openapi.json</code>.</p>
-      <p class="muted">When self-hosted, the read-only API supports browser clients with permissive CORS and <code>OPTIONS</code> preflight responses.</p>
-      <p class="muted">Release integrity metadata is available at <code>GET /release-manifest</code>, including SHA-256 hashes for every normalized file.</p>
-      <p class="muted">Domain-level inventory and remaining gated inputs are available at <code>GET /coverage</code>.</p>
-    </section>
-
-    <section>
-      <h2>Endpoint reference</h2>
-      <div class="endpoint"><code>GET /health</code><p>Returns a small readiness response.</p><pre><code>{"status":"ok","service":"us-government-data-atlas"}</code></pre></div>
-      <div class="endpoint"><code>GET /</code> or <code>GET /catalog</code> or <code>GET /datasets</code><p>Returns the complete machine-readable catalog, including file paths, record counts, fields, and source URLs.</p></div>
-      <div class="endpoint"><code>GET /dataset-groups</code><p>Returns logical datasets. Repository-safe <code>_partN</code> shards are combined into one group with aggregate record counts.</p></div>
-      <div class="endpoint"><code>GET /dataset-groups/&lt;group&gt;</code><p>Combines all shards for a logical group, then applies filters and pagination.</p></div>
-      <div class="endpoint"><code>GET /sources</code><p>Returns the source registry and provenance notes.</p></div>
-      <div class="endpoint"><code>GET /access-requirements</code><p>Returns the refreshers that need an API key or other credentials.</p></div>
-      <div class="endpoint"><code>GET /datasets/&lt;filename&gt;.json</code><p>Streams one catalog-listed normalized file. The filename is relative to <code>data/normalized/</code>.</p></div>
-    </section>
-
-    <section>
-      <h2>Filtering and pagination</h2>
-      <p>Dataset endpoints support case-insensitive exact-match filters and text containment filters using the generic <code>field__contains</code> form. Use <code>limit</code> (maximum 1,000) and <code>offset</code> for stable paging.</p>
-      <div class="examples">
-        <pre><code>/datasets/states.json?abbr=CA
-/datasets/counties_2023.json?STATEFP=06&amp;limit=25
-/datasets/states.json?name__contains=land
-/datasets/federal_judges.json?limit=20&amp;offset=40</code></pre>
-      </div>
-      <p>Responses contain <code>dataset</code>, <code>records</code>, and <code>count</code>. Paginated responses also include <code>limit</code>, <code>offset</code>, and <code>total</code>.</p>
-    </section>
-
-    <section>
-      <h2>Repository resources</h2>
-      <div class="cards">
-        <a href="https://github.com/rubenviolinha/us-government-data-atlas/blob/main/metadata/catalog.json"><strong>Catalog</strong><span>Every checked-in dataset and its provenance.</span></a>
-        <a href="https://github.com/rubenviolinha/us-government-data-atlas/blob/main/metadata/sources.json"><strong>Source registry</strong><span>Authoritative government source notes.</span></a>
-        <a href="https://github.com/rubenviolinha/us-government-data-atlas/blob/main/metadata/access_requirements.json"><strong>Access requirements</strong><span>Credentials and refresh guidance.</span></a>
-        <a href="openapi.json"><strong>OpenAPI specification</strong><span>Import the API contract into developer tooling.</span></a>
-        <a href="https://github.com/rubenviolinha/us-government-data-atlas/blob/main/CONTRIBUTING.md"><strong>Contributing</strong><span>How to add a source or improve a normalizer.</span></a>
-      </div>
-    </section>
+  <header class="topbar"><div class="shell nav"><a class="wordmark" href="./">US Government Data Atlas</a><nav aria-label="Primary navigation"><a href="#quickstart">Quick start</a><a href="#endpoints">Endpoints</a><a href="#data">Data</a><a href="openapi.json">OpenAPI</a><a href="https://github.com/rubenviolinha/us-government-data-atlas">GitHub</a></nav></div></header>
+  <main class="shell">
+    <section class="intro"><p class="kicker">API reference · read-only · JSON</p><h1>Government data, with provenance attached.</h1><p class="intro-copy">The Atlas packages public U.S. government releases into normalized, versioned files that are easy to inspect, query, and verify.</p><div class="intro-links"><a class="button" href="#quickstart">Start locally</a><a href="https://github.com/rubenviolinha/us-government-data-atlas/blob/main/README.md">Repository README →</a></div></section>
+    <section class="metrics" aria-label="Current catalog summary"><div><span class="metric" id="dataset-count">—</span><span>dataset files</span></div><div><span class="metric" id="group-count">—</span><span>logical groups</span></div><div><span class="metric" id="record-count">—</span><span>cataloged records</span></div><div><span class="metric" id="source-count">—</span><span>source entries</span></div></section>
+    <div class="layout"><div class="content">
+      <section id="quickstart"><p class="section-label">01 · Quick start</p><h2>Run the API locally</h2><p>The checked-in release is keyless. From the repository root:</p><pre><code>python3 api/server.py
+curl http://localhost:8787/health</code></pre><p>The server is read-only and only serves files listed in <code>metadata/catalog.json</code>. It listens on <code>127.0.0.1:8787</code> by default; use <code>--host</code> and <code>--port</code> to change that.</p></section>
+      <section id="endpoints"><p class="section-label">02 · Endpoint reference</p><h2>Routes</h2><div class="route-table"><div class="route"><code>GET /health</code><span>Readiness check.</span></div><div class="route"><code>GET /</code>, <code>/catalog</code>, <code>/datasets</code><span>Complete catalog metadata.</span></div><div class="route"><code>GET /dataset-groups</code><span>Logical datasets with shard counts and provenance.</span></div><div class="route"><code>GET /dataset-groups/&lt;group&gt;</code><span>Query a sharded logical dataset as one collection.</span></div><div class="route"><code>GET /datasets/&lt;filename&gt;.json</code><span>Query one catalog-listed normalized file.</span></div><div class="route"><code>GET /sources</code><span>Source registry and provenance notes.</span></div><div class="route"><code>GET /access-requirements</code><span>Credential and licensing requirements.</span></div><div class="route"><code>GET /coverage</code><span>Domain counts and remaining gated inputs.</span></div><div class="route"><code>GET /release-manifest</code><span>SHA-256 and size metadata for each release file.</span></div><div class="route"><code>GET /openapi.json</code><span>Machine-readable API contract.</span></div></div></section>
+      <section id="queries"><p class="section-label">03 · Querying</p><h2>Filters and pagination</h2><p>Use case-insensitive exact-match query parameters for fields, or use the <code>field__contains</code> form for text search. Pagination accepts <code>limit</code> (1–1,000; default 100) and <code>offset</code> (default 0).</p><pre><code>GET /datasets/states.json?abbr=CA
+GET /datasets/states.json?name__contains=land
+GET /datasets/counties_2023.json?STATEFP=06&amp;limit=25
+GET /dataset-groups/nhtsa_recall_campaigns?limit=50&amp;offset=100</code></pre><p>List responses use <code>data</code>, <code>count</code>, <code>total</code>, and <code>offset</code>. Group responses also include <code>group</code> and <code>source_urls</code>.</p></section>
+      <section id="responses"><p class="section-label">04 · Response contract</p><h2>Predictable, inspectable JSON</h2><div class="contract-grid"><div><h3>Successful page</h3><pre><code>{
+  "data": [{"...": "..."}],
+  "count": 1,
+  "total": 52,
+  "offset": 0
+}</code></pre></div><div><h3>Error</h3><pre><code>{
+  "error": "dataset not found"
+}</code></pre></div></div><p>Invalid pagination returns <code>400</code>. Unknown datasets and groups return <code>404</code>. Responses include permissive CORS headers for browser-based self-hosted clients and support <code>OPTIONS</code> preflight.</p></section>
+      <section id="data"><p class="section-label">05 · Data and provenance</p><h2>What is included</h2><p>The catalog spans geography, population and demographics, elected officials, elections, agencies, courts, schools, health, crime, climate, transportation, environment, and economic indicators. Every release carries source URLs, retrieval metadata, and a generated catalog entry.</p><div class="link-list"><a href="https://github.com/rubenviolinha/us-government-data-atlas/blob/main/metadata/catalog.json"><strong>Catalog</strong><span>Files, record counts, fields, and source URLs.</span></a><a href="https://github.com/rubenviolinha/us-government-data-atlas/blob/main/metadata/sources.json"><strong>Source registry</strong><span>Authoritative source notes and provenance.</span></a><a href="https://github.com/rubenviolinha/us-government-data-atlas/blob/main/metadata/access_requirements.json"><strong>Access requirements</strong><span>What remains gated or license-restricted.</span></a><a href="openapi.json"><strong>OpenAPI specification</strong><span>Import the route contract into tooling.</span></a></div></section>
+    </div><aside class="sidebar"><div class="side-card"><strong>Documentation hosting</strong><p>GitHub Pages hosts this reference. The Python API runs locally or on infrastructure you control.</p></div><div class="side-card"><strong>Release integrity</strong><p>Use <code>/release-manifest</code> to verify SHA-256 hashes before consuming a file.</p></div><div class="side-card"><strong>Current catalog</strong><p>Generated <span id="generated-at">from the repository catalog</span>.</p></div></aside></div>
   </main>
-
-  <footer class="wrap footer">Built from the repository catalog. <a href="https://github.com/rubenviolinha/us-government-data-atlas">GitHub</a> · <a href="https://github.com/rubenviolinha/us-government-data-atlas/blob/main/LICENSE">License</a></footer>
-  <script>
-    fetch('catalog-summary.json').then(response => response.json()).then(summary => {
-      document.querySelector('#dataset-count').textContent = summary.dataset_file_count.toLocaleString();
-      document.querySelector('#group-count').textContent = summary.logical_group_count.toLocaleString();
-      document.querySelector('#record-count').textContent = summary.total_records.toLocaleString();
-      document.querySelector('#source-count').textContent = summary.source_count.toLocaleString();
-    }).catch(() => {
-      document.querySelector('#dataset-count').textContent = '—';
-    });
-  </script>
+  <footer class="shell footer"><span>US Government Data Atlas</span><span><a href="https://github.com/rubenviolinha/us-government-data-atlas/blob/main/LICENSE">License</a> · <a href="https://github.com/rubenviolinha/us-government-data-atlas/blob/main/CONTRIBUTING.md">Contributing</a></span></footer>
+  <script>fetch('catalog-summary.json').then(response => response.json()).then(summary => { document.querySelector('#dataset-count').textContent = summary.dataset_file_count.toLocaleString(); document.querySelector('#group-count').textContent = summary.logical_group_count.toLocaleString(); document.querySelector('#record-count').textContent = summary.total_records.toLocaleString(); document.querySelector('#source-count').textContent = summary.source_count.toLocaleString(); document.querySelector('#generated-at').textContent = summary.generated_at; });</script>
 </body>
 </html>
