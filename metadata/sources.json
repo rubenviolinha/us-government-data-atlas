@@ -1358,5 +1358,14 @@
     "format": "USGS RDB site service normalized to JSON",
     "license": "U.S. government public data",
     "notes": "11,645 active stream monitoring sites across states and territories with instantaneous-data availability, coordinates, station names, HUC8 codes, and elevations. Queried from the public USGS site service without an API key; no-data territory endpoints are recorded as zero-row queries."
+  },
+  {
+    "id": "noaa-ncei-storm-events-2024",
+    "name": "NOAA/NCEI Storm Events Details 2024",
+    "publisher": "National Oceanic and Atmospheric Administration / National Centers for Environmental Information",
+    "url": "https://www.ncei.noaa.gov/stormevents/",
+    "format": "Official GZIP CSV normalized to JSON shards",
+    "license": "U.S. government public data",
+    "notes": "69,801 event-level 2024 storm reports with event type, state/county geography, dates, casualties, NOAA damage codes and parsed dollar estimates, coordinates, and reporting metadata. No API key used."
   }
 ]

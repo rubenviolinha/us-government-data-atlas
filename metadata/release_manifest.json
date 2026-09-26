@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T19:17:11.169205+00:00",
+  "generated_at": "2026-09-26T19:30:49.070007+00:00",
   "algorithm": "sha256",
-  "dataset_count": 731,
+  "dataset_count": 734,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -3288,6 +3288,21 @@
       "file": "data/normalized/noaa_state_climate_1895_2025.json",
       "sha256": "a9f7a6441f27174e78c61454fcbf5c75fa4075d11a9590f2a874c04690ba8ffd",
       "size_bytes": 3956649
+    },
+    {
+      "file": "data/normalized/noaa_storm_events_2024_part1.json",
+      "sha256": "92741e6ac83f5c588879ba9949d4d76002fd660b853ff63dd2b60e76451d0a5f",
+      "size_bytes": 36467517
+    },
+    {
+      "file": "data/normalized/noaa_storm_events_2024_part2.json",
+      "sha256": "276c1ce3b2f48e621f3d688a37f295221b5602dd3054f826fa8103a62cb081f4",
+      "size_bytes": 36252914
+    },
+    {
+      "file": "data/normalized/noaa_storm_events_2024_part3.json",
+      "sha256": "ee2c15d7b3cd6558a70f9a9ba796917f9dae3c6d2e626a9bdd2b7aa08343495b",
+      "size_bytes": 11847321
     },
     {
       "file": "data/normalized/noaa_tide_stations.json",
