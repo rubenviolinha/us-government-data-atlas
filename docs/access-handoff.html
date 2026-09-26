@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Access handoff · US Government Data Atlas</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+  <header class="topbar"><div class="shell nav"><a class="wordmark" href="./">US Government Data Atlas</a><nav><a href="./">API reference</a><a href="datasets.html">Datasets</a><a href="openapi.json">OpenAPI</a></nav></div></header>
+  <main class="shell catalog-page">
+    <p class="kicker">Credential and licensing handoff</p><h1>What remains after the public releases</h1>
+    <p class="intro-copy">Everything below is intentionally deferred until access is available. The existing keyless snapshots remain usable; no secret belongs in the repository.</p>
+    <div class="handoff-list">
+      <article class="dataset-card"><h2>USPS exact ZIP and address reference</h2><p><strong>Access:</strong> USPS-authorized data agreement or licensed feed.</p><p><strong>Why:</strong> Census ZCTAs are already included, but delivery-point ZIP geography and address ranges are separately governed.</p><p><strong>When available:</strong> provide the licensed files or an authorized feed; we can add a restricted ingestion path without committing the raw data.</p></article>
+      <article class="dataset-card"><h2>Census API expansion</h2><p><strong>Access:</strong> Census API key for broad ad hoc variable and geography queries.</p><p><strong>Why:</strong> the repository already contains extensive keyless ACS bulk snapshots; a key would unlock arbitrary table combinations and future refresh automation.</p><p><strong>When available:</strong> supply it as a local environment secret (never in Git), then select the desired tables/geographies.</p></article>
+      <article class="dataset-card"><h2>Deeper state archival histories</h2><p><strong>Access:</strong> depends on the state archive or legislature; some sources may require manual downloads or agreements rather than an API key.</p><p><strong>Why:</strong> current and broad historical official rosters are included where stable public sources exist, but older state-specific office histories are uneven.</p><p><strong>When available:</strong> identify the states and office histories to prioritize; each source can be normalized with its own provenance rules.</p></article>
+    </div>
+    <p class="muted handoff-note">See the machine-readable <a href="https://github.com/rubenviolinha/us-government-data-atlas/blob/main/metadata/access_requirements.json">access requirements registry</a> for the canonical status. Do not send credentials in chat or commit them to GitHub.</p>
+  </main>
+  <footer class="shell footer"><span>US Government Data Atlas</span><a href="./">Back to API reference</a></footer>
+</body>
+</html>

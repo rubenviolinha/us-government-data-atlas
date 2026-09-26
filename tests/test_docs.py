@@ -32,6 +32,11 @@ class DocsTests(unittest.TestCase):
         self.assertEqual(len(docs_catalog["entries"]), len(catalog["entries"]))
         self.assertEqual(docs_catalog["entries"][0]["file"], catalog["entries"][0]["file"])
 
+    def test_access_handoff_page_names_gated_inputs(self):
+        handoff = (ROOT / "docs" / "access-handoff.html").read_text()
+        for phrase in ("USPS", "Census API", "state archival histories"):
+            self.assertIn(phrase, handoff)
+
 
 if __name__ == "__main__":
     unittest.main()
