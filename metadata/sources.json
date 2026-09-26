@@ -1484,5 +1484,14 @@
     "format": "Official USDA ERS CSV tables inside ZIP merged by tract and normalized to JSON",
     "license": "U.S. government public data",
     "notes": "84,119 2020 Census tract records with population and household characteristics plus SNAP-authorized retailer access and low-income/low-access measures using straight-line and driving distances. No API key used."
+  },
+  {
+    "id": "usda-food-environment-atlas-2025",
+    "name": "USDA ERS Food Environment Atlas 2025",
+    "publisher": "U.S. Department of Agriculture Economic Research Service",
+    "url": "https://www.ers.usda.gov/data-products/food-environment-atlas/data-access-and-documentation-downloads",
+    "format": "Official USDA ERS CSV tables inside ZIP normalized to JSON",
+    "license": "U.S. government public data",
+    "notes": "3,157 county and county-equivalent records with 304 food access, stores, restaurants, local food, nutrition assistance, socioeconomic, and community indicators, plus a machine-readable variable list. No API key used."
   }
 ]

@@ -188,6 +188,8 @@ The FEMA National Risk Index county release is included with composite natural-h
 
 The USDA ERS 2025 SNAP-authorized Retailer Access Map release is included with 84,119 2020 Census tract records, combining tract characteristics with low-income/low-access flags and retailer-distance measures using both driving and straight-line distances. It is a public USDA bulk ZIP and does not require an API key.
 
+The USDA ERS Food Environment Atlas 2025 release is included with 3,157 county and county-equivalent records across 304 indicators covering food access, stores, restaurants, local food, nutrition assistance, socioeconomic conditions, and community characteristics, plus a variable lookup file. It is a public USDA bulk ZIP and does not require an API key.
+
 ## Local API
 
 The checked-in releases can be queried locally without an API key:
