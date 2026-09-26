@@ -153,7 +153,14 @@ def main():
     assert len({row["place"] for row in zcta_place_relationships}) >= 20000
     assert all(row.get("source") and row.get("vintage") == "2020 Census ZCTA-to-place relationship file" for row in zcta_place_relationships)
 
-    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)} SVI counties={len(svi_counties)} tracts={len(svi_tracts)} ZCTAs={len(svi_zctas)} aviation={len(aviation)} earthquakes={len(earthquakes)} tide_stations={len(tide_stations)} nws_stations={nws_entry['records']} zcta_place={len(zcta_place_relationships)}")
+    zcta_tract_relationships = read_json(ROOT / "data/normalized/zcta_tract_relationships_2020.json")
+    assert len(zcta_tract_relationships) >= 160000
+    assert len({(row["zcta"], row["tract"]) for row in zcta_tract_relationships}) == len(zcta_tract_relationships)
+    assert len({row["zcta"] for row in zcta_tract_relationships}) >= 30000
+    assert len({row["tract"] for row in zcta_tract_relationships}) >= 80000
+    assert all(row.get("source") and row.get("vintage") == "2020 Census ZCTA-to-tract relationship file" for row in zcta_tract_relationships)
+
+    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)} SVI counties={len(svi_counties)} tracts={len(svi_tracts)} ZCTAs={len(svi_zctas)} aviation={len(aviation)} earthquakes={len(earthquakes)} tide_stations={len(tide_stations)} nws_stations={nws_entry['records']} zcta_place={len(zcta_place_relationships)} zcta_tract={len(zcta_tract_relationships)}")
 
 
 if __name__ == "__main__":

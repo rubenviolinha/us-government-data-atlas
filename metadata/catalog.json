@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T18:28:30.660146+00:00",
+  "generated_at": "2026-09-26T18:37:03.760465+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -19438,6 +19438,30 @@
         "zcta"
       ],
       "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/zcta_tract_relationships_2020.json",
+      "format": "JSON",
+      "records": 168212,
+      "size_bytes": 91710758,
+      "fields_sample": [
+        "land_area_part",
+        "retrieved_at",
+        "source",
+        "tract",
+        "tract_land_area",
+        "tract_name",
+        "tract_water_area",
+        "vintage",
+        "water_area_part",
+        "zcta",
+        "zcta_land_area",
+        "zcta_name",
+        "zcta_water_area"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_tract20_natl.txt"
+      ]
     },
     {
       "file": "data/normalized/zctas_2020.json",
