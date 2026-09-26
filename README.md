@@ -86,6 +86,7 @@ python3 scripts/fetch_zcta_tract_relationships.py
 python3 scripts/fetch_tract_puma_relationships.py
 python3 scripts/fetch_usgs_active_stream_sites.py
 python3 scripts/fetch_noaa_storm_events_2024.py
+python3 scripts/fetch_bls_qcew_2024_annual_aggregates.py
 python3 scripts/fetch_cdc_places_2024_counties.py
 python3 scripts/fetch_cdc_places_2024_zctas.py
 python3 scripts/fetch_cdc_places_2024_places.py
@@ -159,6 +160,8 @@ The 2020 Census tract-to-PUMA relationship file is included with 85,452 tract-to
 The USGS active stream-site registry is included with 11,645 monitoring sites that have instantaneous-data availability, including station identifiers, names, site types, coordinates, elevations, and HUC8 hydrologic-unit codes. It is queried from the public USGS site service without an API key.
 
 The NOAA/NCEI 2024 Storm Events release is included as three repository-safe JSON parts covering 69,801 event-level reports, with event types, dates, state/county geography, casualties, NOAA damage codes and parsed dollar estimates, coordinates, and reporting metadata. It is a public bulk release and does not require an API key.
+
+The BLS 2024 Quarterly Census of Employment and Wages annual aggregate release is included with 4,451 all-industry/all-ownership rows across the published geographic aggregation levels, including establishments, employment, annual wages, average weekly wage, average annual pay, and year-over-year changes. It is a public BLS bulk release and does not require an API key.
 
 ## Local API
 

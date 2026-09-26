@@ -187,7 +187,14 @@ def main():
     assert all(row.get("event_id") and row.get("event_type") and row.get("state") for row in storm_events)
     assert all(row.get("source") and row.get("vintage") == "NOAA/NCEI Storm Events details 2024" for row in storm_events)
 
-    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)} SVI counties={len(svi_counties)} tracts={len(svi_tracts)} ZCTAs={len(svi_zctas)} aviation={len(aviation)} earthquakes={len(earthquakes)} tide_stations={len(tide_stations)} nws_stations={nws_entry['records']} zcta_place={len(zcta_place_relationships)} zcta_tract={len(zcta_tract_relationships)} tract_puma={len(tract_puma_relationships)} usgs_stream_sites={len(water_sites)} storm_events={len(storm_events)}")
+    qcew = read_json(ROOT / "data/normalized/bls_qcew_2024_annual_aggregates.json")
+    assert len(qcew) >= 4400
+    assert len({(row["area_fips"], row["aggregation_level_code"]) for row in qcew}) == len(qcew)
+    assert len({row["aggregation_level_code"] for row in qcew}) >= 8
+    assert all(row.get("source") and row.get("vintage") == "BLS QCEW 2024 annual aggregate release" for row in qcew)
+    assert all(row.get("year") == 2024 and row.get("quarter") == "A" for row in qcew)
+
+    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)} SVI counties={len(svi_counties)} tracts={len(svi_tracts)} ZCTAs={len(svi_zctas)} aviation={len(aviation)} earthquakes={len(earthquakes)} tide_stations={len(tide_stations)} nws_stations={nws_entry['records']} zcta_place={len(zcta_place_relationships)} zcta_tract={len(zcta_tract_relationships)} tract_puma={len(tract_puma_relationships)} usgs_stream_sites={len(water_sites)} storm_events={len(storm_events)} qcew={len(qcew)}")
 
 
 if __name__ == "__main__":

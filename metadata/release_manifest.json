@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T19:30:49.070007+00:00",
+  "generated_at": "2026-09-26T19:41:57.559123+00:00",
   "algorithm": "sha256",
-  "dataset_count": 734,
+  "dataset_count": 735,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -2483,6 +2483,11 @@
       "file": "data/normalized/american_indian_alaska_native_reservations_2025.json",
       "sha256": "c53bb6b42bca3cf9ad09887469ba28ad2ee637eadd398bb2c4aea8800c862ef1",
       "size_bytes": 254041
+    },
+    {
+      "file": "data/normalized/bls_qcew_2024_annual_aggregates.json",
+      "sha256": "9d0e97682daf87e546487237b29628dbe352713e6c4e01e6f82114f05cce8004",
+      "size_bytes": 3532198
     },
     {
       "file": "data/normalized/bts_aviation_facilities.json",

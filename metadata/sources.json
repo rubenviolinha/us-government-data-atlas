@@ -1367,5 +1367,14 @@
     "format": "Official GZIP CSV normalized to JSON shards",
     "license": "U.S. government public data",
     "notes": "69,801 event-level 2024 storm reports with event type, state/county geography, dates, casualties, NOAA damage codes and parsed dollar estimates, coordinates, and reporting metadata. No API key used."
+  },
+  {
+    "id": "bls-qcew-2024-annual-aggregates",
+    "name": "BLS Quarterly Census of Employment and Wages 2024 Annual Aggregates",
+    "publisher": "Bureau of Labor Statistics",
+    "url": "https://www.bls.gov/cew/",
+    "format": "Official ZIP CSV normalized to JSON",
+    "license": "U.S. government public data",
+    "notes": "4,451 all-industry/all-ownership annual aggregate rows across QCEW geographic levels, with establishments, employment, annual wages, weekly wage, annual pay, and year-over-year changes. No API key used."
   }
 ]

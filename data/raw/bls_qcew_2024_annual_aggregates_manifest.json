@@ -1,0 +1,12 @@
+{
+  "source": "https://data.bls.gov/cew/data/files/2024/csv/2024_annual_singlefile.zip",
+  "source_catalog": "https://www.bls.gov/cew/",
+  "format": "ZIP CSV normalized to JSON",
+  "license": "U.S. government public data",
+  "vintage": "BLS QCEW 2024 annual aggregate release",
+  "retrieved_at": "2026-09-26T19:40:27.058011+00:00",
+  "records": 4451,
+  "aggregate_filter": "industry_code=10, own_code=0, qtr=A",
+  "file": "data/normalized/bls_qcew_2024_annual_aggregates.json",
+  "note": "All-industry/all-ownership annual aggregate rows across the published QCEW geographic aggregation levels; no API key used."
+}
