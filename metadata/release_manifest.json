@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T20:39:06.306387+00:00",
+  "generated_at": "2026-09-26T20:47:37.549916+00:00",
   "algorithm": "sha256",
-  "dataset_count": 960,
+  "dataset_count": 961,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -4098,6 +4098,11 @@
       "file": "data/normalized/fbi_cde_agencies_2026.json",
       "sha256": "b36515870f70c856571d5cbc9c9b70e74d013c2542b3f75d9ce73813048ef0fd",
       "size_bytes": 9088545
+    },
+    {
+      "file": "data/normalized/fbi_cde_arrests_2000_2024.json",
+      "sha256": "ef56ad9d0334e48dc1bde6f90731ca30c5dbece0904b0b05c50641b366b5eccd",
+      "size_bytes": 5358927
     },
     {
       "file": "data/normalized/fbi_cde_summarized_crime_2000_2024.json",

@@ -1421,5 +1421,14 @@
     "format": "Public CDE JSON normalized to JSON",
     "license": "U.S. government public data",
     "notes": "Public agency/ORI registry with agency names, types, county groups, coordinates, NIBRS participation, and NIBRS start dates for the states and territories represented in the catalog. No API key used."
+  },
+  {
+    "id": "fbi-cde-arrests-2000-2024",
+    "name": "FBI Crime Data Explorer UCR Arrest Counts",
+    "publisher": "Federal Bureau of Investigation",
+    "url": "https://cde.ucr.cjis.gov/LATEST/webapp/",
+    "format": "Public CDE JSON normalized to long-form JSON",
+    "license": "U.S. government public data",
+    "notes": "National and 57 state/territory monthly arrest counts and rates from 2000 through 2024. Current public CDE endpoint queried without an API key."
   }
 ]

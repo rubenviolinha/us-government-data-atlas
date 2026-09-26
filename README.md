@@ -174,6 +174,8 @@ The FBI Crime Data Explorer summarized UCR release is included as a long-form na
 
 The companion FBI Crime Data Explorer agency registry is included with public ORI records, agency names and types, county groups, coordinates, NIBRS participation, and NIBRS start dates. It was queried for all 57 state/territory jurisdictions without an API key.
 
+The FBI Crime Data Explorer arrest release is included as a national/state monthly series of UCR arrest counts and rates from 2000 through 2024. It uses the public CDE endpoint and does not require an API key.
+
 ## Local API
 
 The checked-in releases can be queried locally without an API key:

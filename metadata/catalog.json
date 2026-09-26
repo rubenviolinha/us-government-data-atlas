@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T20:38:58.856366+00:00",
+  "generated_at": "2026-09-26T20:47:30.183250+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -21191,6 +21191,25 @@
       "source_urls_sample": [
         "https://cde.ucr.cjis.gov/LATEST/agency/byStateAbbr/AK",
         "https://cde.ucr.cjis.gov/LATEST/agency/byStateAbbr/AL"
+      ]
+    },
+    {
+      "file": "data/normalized/fbi_cde_arrests_2000_2024.json",
+      "format": "JSON",
+      "records": 17400,
+      "size_bytes": 5358927,
+      "fields_sample": [
+        "arrest_rate_per_100k",
+        "arrests",
+        "level",
+        "period",
+        "retrieved_at",
+        "source",
+        "state",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://cde.ucr.cjis.gov/LATEST/arrest/national/all?from=01-2000&to=12-2024&type=counts"
       ]
     },
     {
