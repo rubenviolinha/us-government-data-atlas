@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T14:44:38.083566+00:00",
+  "generated_at": "2026-09-26T14:47:39.569033+00:00",
   "algorithm": "sha256",
-  "dataset_count": 576,
+  "dataset_count": 580,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -2115,9 +2115,19 @@
       "size_bytes": 496
     },
     {
+      "file": "data/normalized/acs_zcta_commuting_2024_5yr.json",
+      "sha256": "4695d9927126f7c65b001a5c87614618b9287a942219d3e4d8b3620c459bd853",
+      "size_bytes": 12525569
+    },
+    {
       "file": "data/normalized/acs_zcta_income_distribution_2024_5yr.json",
       "sha256": "828190c6ff45063be73145ec9cfac4c834e0659157a563b693dd4c857ccefcd6",
       "size_bytes": 19390479
+    },
+    {
+      "file": "data/normalized/acs_zcta_internet_2024_5yr.json",
+      "sha256": "cc4514258af5681bd5ddf16f4626f1a7e36d56ff9122dd8fe9b66cb5df3e8487",
+      "size_bytes": 12511874
     },
     {
       "file": "data/normalized/acs_zcta_median_age_2024_5yr.json",
@@ -2130,9 +2140,19 @@
       "size_bytes": 10214632
     },
     {
+      "file": "data/normalized/acs_zcta_rent_burden_2024_5yr.json",
+      "sha256": "8ebc9e5de167d9e7cbe7a7b1089147a87068c3f66cf3763e03072f72a7877c7c",
+      "size_bytes": 12341946
+    },
+    {
       "file": "data/normalized/acs_zcta_rooms_2024_5yr.json",
       "sha256": "9ff07d1594ccb78eca40df8823ec8e074679fe0826ba6c205aa92ee286265d9c",
       "size_bytes": 13654518
+    },
+    {
+      "file": "data/normalized/acs_zcta_vehicles_2024_5yr.json",
+      "sha256": "d5fd1cdfb6ec93060a58e333a3f61d91b559892fb24b6d03056f6178fd645ccb",
+      "size_bytes": 12491954
     },
     {
       "file": "data/normalized/american_indian_alaska_native_areas_2025.json",

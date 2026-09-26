@@ -1151,5 +1151,14 @@
     "format": "Delimited bulk summary files",
     "license": "U.S. government public data",
     "notes": "Keyless commuting, vehicle availability, internet access, and rent-burden profiles for 3,222 counties and 32,330 ACS-covered places."
+  },
+  {
+    "id": "census-acs-2024-zcta-access-profiles",
+    "name": "ACS 2024 5-Year ZCTA Access Profiles",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/",
+    "format": "Delimited bulk summary files",
+    "license": "U.S. government public data",
+    "notes": "Keyless commuting, vehicle availability, internet access, and rent-burden profiles for all 33,772 ACS-covered ZCTAs."
   }
 ]
