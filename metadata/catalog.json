@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T17:57:33.902919+00:00",
+  "generated_at": "2026-09-26T18:09:32.189872+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -17744,6 +17744,33 @@
       ],
       "source_urls_sample": [
         "https://www.nps.gov/subjects/nationalregister/database-research.htm"
+      ]
+    },
+    {
+      "file": "data/normalized/nws_stations.json",
+      "format": "JSON",
+      "records": 48934,
+      "size_bytes": 35130325,
+      "fields_sample": [
+        "county_zone_url",
+        "elevation_m",
+        "elevation_unit",
+        "fire_weather_zone_url",
+        "forecast_zone_url",
+        "latitude",
+        "longitude",
+        "name",
+        "provider",
+        "retrieved_at",
+        "source",
+        "station_id",
+        "station_url",
+        "sub_provider",
+        "time_zone",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://api.weather.gov/stations"
       ]
     },
     {

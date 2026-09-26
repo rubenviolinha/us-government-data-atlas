@@ -1313,5 +1313,14 @@
     "format": "JSON",
     "license": "U.S. government public data",
     "notes": "Public station metadata registry with NOAA station identifiers, locations, state, time zone, monitoring capabilities, and station links. No API key used."
+  },
+  {
+    "id": "nws-stations",
+    "name": "National Weather Service Observation Stations",
+    "publisher": "National Oceanic and Atmospheric Administration / National Weather Service",
+    "url": "https://api.weather.gov/stations",
+    "format": "GeoJSON API",
+    "license": "U.S. government public data",
+    "notes": "Public registry of NWS observation stations with identifiers, names, coordinates, elevation, provider, time zone, and linked forecast/county/fire-weather zones. The API requires a descriptive User-Agent but no API key."
   }
 ]

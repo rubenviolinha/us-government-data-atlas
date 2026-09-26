@@ -1,0 +1,8 @@
+{
+  "source": "https://api.weather.gov/stations",
+  "source_catalog": "https://www.weather.gov/documentation/services-web-api",
+  "vintage": "NWS public observation-station registry",
+  "retrieved_at": "2026-09-26T18:08:47.243029+00:00",
+  "records": 48934,
+  "pages": 100
+}
