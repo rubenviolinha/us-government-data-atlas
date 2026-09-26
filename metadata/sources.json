@@ -1286,5 +1286,14 @@
     "format": "ArcGIS FeatureServer JSON",
     "license": "U.S. government public data",
     "notes": "Keyless 2022 SVI releases for 3,144 counties, 84,120 census tracts, and 33,642 ZCTAs with population, housing, socioeconomic, household, minority-language, themes, and percentile fields."
+  },
+  {
+    "id": "bts-aviation-facilities",
+    "name": "USDOT/BTS Aviation Facilities",
+    "publisher": "Bureau of Transportation Statistics / Federal Aviation Administration",
+    "url": "https://data.bts.gov/",
+    "format": "ArcGIS FeatureServer JSON",
+    "license": "U.S. government public data",
+    "notes": "19,411 FAA-updated aviation facilities with airport identifiers, jurisdictions, ownership/use, coordinates, elevation, status, runway/airspace reference fields, and contact data. No API key used."
   }
 ]

@@ -77,6 +77,7 @@ python3 scripts/build_coverage_report.py
 python3 scripts/fetch_cdc_svi_2022_counties.py
 python3 scripts/fetch_cdc_svi_2022_tracts.py
 python3 scripts/fetch_cdc_svi_2022_zctas.py
+python3 scripts/fetch_bts_aviation_facilities.py
 python3 scripts/fetch_cdc_places_2024_counties.py
 python3 scripts/fetch_cdc_places_2024_zctas.py
 python3 scripts/fetch_cdc_places_2024_places.py
@@ -130,6 +131,8 @@ The NCES 2023-24 Private School Universe Survey public-use file is included with
 The National Park Service National Register of Historic Places listed-properties release is included as four JSON parts covering 100,866 records through 2026-05-22, with reference numbers, names, jurisdictions, addresses, dates, status, categories, significance, acreage, and archival links.
 
 CDC/ATSDR Social Vulnerability Index 2022 releases are included for counties, census tracts, and ZCTAs: 3,144 county records, 84,120 tract records, and 33,642 ZCTA records with socioeconomic, household, housing, health-access, theme, and percentile fields. These ArcGIS bulk queries are public and do not require an API key.
+
+The USDOT/Bureau of Transportation Statistics FAA-updated Aviation Facilities layer is included with 19,411 airport and aviation-facility records, identifiers, jurisdictions, ownership/use, coordinates, elevation, status, and contact fields. It is fetched from a public ArcGIS endpoint without an API key.
 
 ## Local API
 

@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-26T17:36:22.510827+00:00",
+  "source": "https://data.bts.gov/",
+  "endpoint": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_Aviation_Facilities/FeatureServer/0/query",
+  "records": 19411,
+  "file": "data/normalized/bts_aviation_facilities.json",
+  "note": "FAA-updated USDOT/BTS Aviation Facilities layer; no API key used."
+}

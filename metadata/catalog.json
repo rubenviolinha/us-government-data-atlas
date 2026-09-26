@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T17:26:55.529358+00:00",
+  "generated_at": "2026-09-26T17:37:37.110891+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -12676,6 +12676,50 @@
         "NAME"
       ],
       "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/bts_aviation_facilities.json",
+      "format": "JSON",
+      "records": 19411,
+      "size_bytes": 17369700,
+      "fields_sample": [
+        "acreage",
+        "activation_date",
+        "arpt_id",
+        "arpt_name",
+        "arpt_status",
+        "artcc_name",
+        "city",
+        "country_code",
+        "county_name",
+        "direction_code",
+        "dist_city_to_airport",
+        "eff_date",
+        "elev",
+        "facility_use_code",
+        "far_139_type_code",
+        "joint_use_flag",
+        "lat_decimal",
+        "lndg_rights_flag",
+        "long_decimal",
+        "notam_id",
+        "ownership_type_code",
+        "phone_no",
+        "region_code",
+        "retrieved_at",
+        "site_no",
+        "site_type_code",
+        "source",
+        "source_catalog",
+        "state_code",
+        "state_name",
+        "toll_free_no",
+        "tpa",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_Aviation_Facilities/FeatureServer/0/query"
+      ]
     },
     {
       "file": "data/normalized/capital_validation.json",

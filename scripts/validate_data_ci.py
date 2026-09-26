@@ -122,7 +122,13 @@ def main():
     assert len({row["GEOID"] for row in svi_zctas}) == len(svi_zctas)
     assert all(row.get("source") and row.get("comparison") == "national" for row in svi_zctas)
 
-    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)} SVI counties={len(svi_counties)} tracts={len(svi_tracts)} ZCTAs={len(svi_zctas)}")
+    aviation = read_json(ROOT / "data/normalized/bts_aviation_facilities.json")
+    assert len(aviation) >= 19000
+    assert len({(row["site_no"], row.get("arpt_id")) for row in aviation}) == len(aviation)
+    assert all(row.get("site_no") and row.get("arpt_name") and (row.get("state_name") or row.get("country_code")) for row in aviation)
+    assert all(row.get("source") and row.get("vintage") == "FAA-updated USDOT/BTS Aviation Facilities" for row in aviation)
+
+    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)} SVI counties={len(svi_counties)} tracts={len(svi_tracts)} ZCTAs={len(svi_zctas)} aviation={len(aviation)}")
 
 
 if __name__ == "__main__":
