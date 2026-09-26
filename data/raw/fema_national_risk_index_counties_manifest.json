@@ -1,0 +1,12 @@
+{
+  "source": "https://services.arcgis.com/HdtZMT2FmI4wPzTM/ArcGIS/rest/services/FEMA_National_Risk_Index/FeatureServer/0/query",
+  "source_catalog": "https://www.fema.gov/flood-maps/products-tools/national-risk-index",
+  "format": "Public FEMA ArcGIS FeatureServer JSON normalized to JSON",
+  "license": "U.S. government public data",
+  "vintage": "FEMA National Risk Index March 2023",
+  "retrieved_at": "2026-09-26T21:45:26.876319+00:00",
+  "records": 3231,
+  "fields": 39,
+  "file": "data/normalized/fema_national_risk_index_counties.json",
+  "note": "County-level composite risk, expected annual loss, social vulnerability, community resilience, and hazard risk scores; no API key used."
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T21:36:53.232631+00:00",
+  "generated_at": "2026-09-26T21:46:19.486131+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -22645,6 +22645,59 @@
       ],
       "source_urls_sample": [
         "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries.csv"
+      ]
+    },
+    {
+      "file": "data/normalized/fema_national_risk_index_counties.json",
+      "format": "JSON",
+      "records": 3231,
+      "size_bytes": 3958659,
+      "fields_sample": [
+        "area",
+        "avln_risks",
+        "cfld_risks",
+        "county",
+        "countyfips",
+        "countytype",
+        "cwav_risks",
+        "drgt_risks",
+        "eal_ratng",
+        "eal_score",
+        "eal_valt",
+        "erqk_risks",
+        "hail_risks",
+        "hrcn_risks",
+        "hwav_risks",
+        "istm_risks",
+        "lnds_risks",
+        "ltng_risks",
+        "nri_id",
+        "nri_ver",
+        "population",
+        "resl_ratng",
+        "resl_score",
+        "retrieved_at",
+        "rfld_risks",
+        "risk_ratng",
+        "risk_score",
+        "risk_value",
+        "source",
+        "sovi_ratng",
+        "sovi_score",
+        "state",
+        "stateabbrv",
+        "statefips",
+        "stcofips",
+        "swnd_risks",
+        "trnd_risks",
+        "tsun_risks",
+        "vintage",
+        "vlcn_risks",
+        "wfir_risks",
+        "wntw_risks"
+      ],
+      "source_urls_sample": [
+        "https://services.arcgis.com/HdtZMT2FmI4wPzTM/ArcGIS/rest/services/FEMA_National_Risk_Index/FeatureServer/0/query"
       ]
     },
     {

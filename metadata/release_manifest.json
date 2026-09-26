@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T21:37:18.029911+00:00",
+  "generated_at": "2026-09-26T21:46:31.000234+00:00",
   "algorithm": "sha256",
-  "dataset_count": 994,
+  "dataset_count": 995,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -4298,6 +4298,11 @@
       "file": "data/normalized/fema_disaster_declarations_part4.json",
       "sha256": "5a4de063cc4396c1f2f5ec3a713f569256d561ae9dcdea063d7ab4974718f329",
       "size_bytes": 18260423
+    },
+    {
+      "file": "data/normalized/fema_national_risk_index_counties.json",
+      "sha256": "c9978d735e1967e689f6c0421c7548be42abfc37f9a709868fb9136cd4c91dce",
+      "size_bytes": 3958659
     },
     {
       "file": "data/normalized/gnis_government_units.json",

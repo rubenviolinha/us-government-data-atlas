@@ -184,6 +184,8 @@ The Census Population Estimates 2024 release is included with annual state and c
 
 The companion Census county age-and-sex release is included with 18,864 county-year records for 2020–2024, covering selected age groups, male/female totals, and median age. It is a public Census bulk CSV and does not require an API key.
 
+The FEMA National Risk Index county release is included with composite natural-hazard risk, expected annual loss, social vulnerability, community resilience, and individual hazard risk scores for U.S. counties. It is queried from FEMA's public ArcGIS service and does not require an API key.
+
 ## Local API
 
 The checked-in releases can be queried locally without an API key:

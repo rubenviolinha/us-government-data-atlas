@@ -1466,5 +1466,14 @@
     "format": "Official Census CSV normalized to JSON",
     "license": "U.S. government public data",
     "notes": "18,864 county-year records with total, male, and female population by selected age groups and median age for 2020-2024. No API key used."
+  },
+  {
+    "id": "fema-national-risk-index-counties",
+    "name": "FEMA National Risk Index County Scores",
+    "publisher": "Federal Emergency Management Agency",
+    "url": "https://www.fema.gov/flood-maps/products-tools/national-risk-index",
+    "format": "Public FEMA ArcGIS FeatureServer JSON normalized to JSON",
+    "license": "U.S. government public data",
+    "notes": "County-level composite risk, expected annual loss, social vulnerability, community resilience, and 18 hazard risk scores from FEMA's public National Risk Index service. No API key used."
   }
 ]
