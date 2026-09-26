@@ -80,7 +80,15 @@ def main():
     assert len({(row["locationid"], row["measureid"], row["data_value_type"]) for row in named_places}) == len(named_places)
     assert all(row.get("source") and row.get("vintage") for row in named_places)
 
-    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)}")
+    schools = []
+    for path in sorted((ROOT / "data" / "normalized").glob("nces_public_schools_2024_25_part*.json")):
+        schools.extend(read_json(path))
+    assert len(schools) >= 100000
+    assert len({row["ncessch"] for row in schools}) == len(schools)
+    assert all(row.get("ncessch") and row.get("leaid") and row.get("sch_name") for row in schools)
+    assert all(row.get("source") and row.get("vintage") == "2024-25 CCD public school universe" for row in schools)
+
+    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)}")
 
 
 if __name__ == "__main__":

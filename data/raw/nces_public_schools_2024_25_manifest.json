@@ -1,0 +1,17 @@
+{
+  "retrieved_at": "2026-09-26T16:23:22.876690+00:00",
+  "source": "https://nces.ed.gov/ccd/psu_rev.asp",
+  "source_download": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_029_2425_w_0a_051425.zip",
+  "records": 101333,
+  "parts": [
+    {
+      "file": "data/normalized/nces_public_schools_2024_25_part1.json",
+      "records": 50666
+    },
+    {
+      "file": "data/normalized/nces_public_schools_2024_25_part2.json",
+      "records": 50667
+    }
+  ],
+  "note": "NCES Common Core of Data 2024-25 public-school universe; stable school/district IDs, names, addresses, contacts, status, type, charter flag, and grade range. No API key used."
+}

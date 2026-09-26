@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T15:46:04.896188+00:00",
+  "generated_at": "2026-09-26T16:25:52.096086+00:00",
   "algorithm": "sha256",
-  "dataset_count": 712,
+  "dataset_count": 714,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -3173,6 +3173,16 @@
       "file": "data/normalized/hawaiian_home_lands_2023.json",
       "sha256": "6fbe7f5e5a7fcb9f573f442025d7acfa30e16e3beebe5b3b3b6022c9b5670a13",
       "size_bytes": 19111
+    },
+    {
+      "file": "data/normalized/nces_public_schools_2024_25_part1.json",
+      "sha256": "57c1625281b22f8b3e910eeef5893dc38318eeffef092b047a2333ae4ad4cad3",
+      "size_bytes": 33451432
+    },
+    {
+      "file": "data/normalized/nces_public_schools_2024_25_part2.json",
+      "sha256": "76d370c46d01d8d29c9918b2f2b0d2a95b25b13b955a9bffe35f7db51ed3c0d8",
+      "size_bytes": 33357334
     },
     {
       "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2024_part1.json",

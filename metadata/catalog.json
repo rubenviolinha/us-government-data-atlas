@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T15:45:36.884011+00:00",
+  "generated_at": "2026-09-26T16:25:41.854872+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -16991,6 +16991,80 @@
         "NAME"
       ],
       "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/nces_public_schools_2024_25_part1.json",
+      "format": "JSON",
+      "records": 50666,
+      "size_bytes": 33451432,
+      "fields_sample": [
+        "charter_text",
+        "gshi",
+        "gslo",
+        "lcity",
+        "lea_name",
+        "leaid",
+        "level",
+        "lstate",
+        "lstreet1",
+        "lzip",
+        "mcity",
+        "mstate",
+        "mzip",
+        "ncessch",
+        "phone",
+        "retrieved_at",
+        "sch_name",
+        "sch_type_text",
+        "school_year",
+        "source",
+        "st",
+        "st_schid",
+        "statename",
+        "sy_status_text",
+        "vintage",
+        "website"
+      ],
+      "source_urls_sample": [
+        "https://nces.ed.gov/ccd/psu_rev.asp"
+      ]
+    },
+    {
+      "file": "data/normalized/nces_public_schools_2024_25_part2.json",
+      "format": "JSON",
+      "records": 50667,
+      "size_bytes": 33357334,
+      "fields_sample": [
+        "charter_text",
+        "gshi",
+        "gslo",
+        "lcity",
+        "lea_name",
+        "leaid",
+        "level",
+        "lstate",
+        "lstreet1",
+        "lzip",
+        "mcity",
+        "mstate",
+        "mzip",
+        "ncessch",
+        "phone",
+        "retrieved_at",
+        "sch_name",
+        "sch_type_text",
+        "school_year",
+        "source",
+        "st",
+        "st_schid",
+        "statename",
+        "sy_status_text",
+        "vintage",
+        "website"
+      ],
+      "source_urls_sample": [
+        "https://nces.ed.gov/ccd/psu_rev.asp"
+      ]
     },
     {
       "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2024_part1.json",

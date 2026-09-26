@@ -80,6 +80,7 @@ python3 scripts/fetch_cdc_svi_2022_zctas.py
 python3 scripts/fetch_cdc_places_2024_counties.py
 python3 scripts/fetch_cdc_places_2024_zctas.py
 python3 scripts/fetch_cdc_places_2024_places.py
+python3 scripts/fetch_nces_public_school_directory.py
 python3 scripts/fetch_zcta_acs_2024.py
 python3 scripts/fetch_current_cabinet.py
 python3 scripts/fetch_secretaries_of_state.py
@@ -113,6 +114,8 @@ The keyless summary-file fallback `data/normalized/acs_state_age_sex_2023.json` 
 Additional keyless ACS state profiles are available for B19013 income, B25001 housing units, and B02001 race in `data/normalized/`; the county files use the same public summary-file source and preserve estimates and margins of error.
 
 CDC PLACES 2024 county, ZCTA, and named-place releases are included as long-form, sharded datasets with model-based health estimates, confidence limits, measure metadata, and CDC provenance. They use public Socrata bulk access and do not require an API key.
+
+The NCES Common Core of Data 2024-25 public-school universe is included as two sharded JSON datasets with 101,333 school records, NCES and district identifiers, names, addresses, contacts, status, school type, charter flags, and grade ranges. It is a public downloadable ZIP release and does not require an API key.
 
 ## Local API
 

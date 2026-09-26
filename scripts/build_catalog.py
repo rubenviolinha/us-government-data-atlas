@@ -12,7 +12,8 @@ OUTPUT = ROOT / "metadata" / "catalog.json"
 
 def main():
     entries = []
-    for path in sorted(DATA.glob("*.json")):
+    paths = sorted(DATA.glob("*.json"))
+    for index, path in enumerate(paths, 1):
         payload = json.loads(path.read_text(encoding="utf-8"))
         rows = payload if isinstance(payload, list) else []
         fields = sorted({field for row in rows[:100] if isinstance(row, dict) for field in row})
@@ -25,6 +26,8 @@ def main():
             "fields_sample": fields,
             "source_urls_sample": sources,
         })
+        if index % 25 == 0:
+            print(f"catalogued {index}/{len(paths)} files", flush=True)
     catalog = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",

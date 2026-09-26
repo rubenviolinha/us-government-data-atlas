@@ -1241,5 +1241,14 @@
     "format": "Socrata JSON",
     "license": "U.S. government public data",
     "notes": "Named-place model-based health estimates for 29,923 places; normalized long-form release with confidence limits and no API key."
+  },
+  {
+    "id": "nces-ccd-public-schools-2024-25",
+    "name": "NCES Common Core of Data 2024-25 Public School Universe",
+    "publisher": "National Center for Education Statistics",
+    "url": "https://nces.ed.gov/ccd/psu_rev.asp",
+    "format": "Official CSV inside ZIP archive",
+    "license": "U.S. government public data",
+    "notes": "101,333 public-school records with NCES identifiers, district linkage, names, addresses, contacts, status, school type, charter flag, and grade range. No API key used; release is split into two JSON parts."
   }
 ]
