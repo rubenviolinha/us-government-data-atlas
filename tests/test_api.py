@@ -28,6 +28,15 @@ class ApiSmokeTests(unittest.TestCase):
         connection.close()
         return response.status, json.loads(body)
 
+    def options(self, path):
+        connection = HTTPConnection(self.host, self.port, timeout=10)
+        connection.request("OPTIONS", path)
+        response = connection.getresponse()
+        response.read()
+        headers = {key.lower(): value for key, value in response.getheaders()}
+        connection.close()
+        return response.status, headers
+
     def test_health(self):
         status, payload = self.get("/health")
         self.assertEqual(status, 200)
@@ -38,6 +47,14 @@ class ApiSmokeTests(unittest.TestCase):
         self.assertEqual(status, 200)
         self.assertEqual(payload["openapi"], "3.1.0")
         self.assertIn("/datasets/{filename}.json", payload["paths"])
+
+    def test_cors_and_preflight(self):
+        status, headers = self.options("/catalog")
+        self.assertEqual(status, 204)
+        self.assertEqual(headers["access-control-allow-origin"], "*")
+        status, headers = self.options("/datasets/states.json")
+        self.assertEqual(status, 204)
+        self.assertEqual(headers["access-control-allow-methods"], "GET, OPTIONS")
 
     def test_filter_and_pagination(self):
         status, payload = self.get("/datasets/states.json?abbr=CA&limit=1")
