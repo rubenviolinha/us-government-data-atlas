@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T14:47:37.222452+00:00",
+  "generated_at": "2026-09-26T14:50:45.838313+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -9253,6 +9253,102 @@
       ]
     },
     {
+      "file": "data/normalized/acs_tract_commuting_2024_5yr_part1.json",
+      "format": "JSON",
+      "records": 21345,
+      "size_bytes": 8733686,
+      "fields_sample": [
+        "B08301_E001",
+        "B08301_E002",
+        "B08301_E003",
+        "B08301_E004",
+        "B08301_E005",
+        "B08301_M001",
+        "GEO_ID",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "table",
+        "tract_geoid",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08301.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_tract_commuting_2024_5yr_part2.json",
+      "format": "JSON",
+      "records": 21346,
+      "size_bytes": 8728978,
+      "fields_sample": [
+        "B08301_E001",
+        "B08301_E002",
+        "B08301_E003",
+        "B08301_E004",
+        "B08301_E005",
+        "B08301_M001",
+        "GEO_ID",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "table",
+        "tract_geoid",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08301.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_tract_commuting_2024_5yr_part3.json",
+      "format": "JSON",
+      "records": 21345,
+      "size_bytes": 8724006,
+      "fields_sample": [
+        "B08301_E001",
+        "B08301_E002",
+        "B08301_E003",
+        "B08301_E004",
+        "B08301_E005",
+        "B08301_M001",
+        "GEO_ID",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "table",
+        "tract_geoid",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08301.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_tract_commuting_2024_5yr_part4.json",
+      "format": "JSON",
+      "records": 21346,
+      "size_bytes": 8734173,
+      "fields_sample": [
+        "B08301_E001",
+        "B08301_E002",
+        "B08301_E003",
+        "B08301_E004",
+        "B08301_E005",
+        "B08301_M001",
+        "GEO_ID",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "table",
+        "tract_geoid",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08301.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_tract_education_2024_5yr.json",
       "format": "JSON",
       "records": 85382,
@@ -9460,6 +9556,102 @@
       ],
       "source_urls_sample": [
         "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_tract_internet_2024_5yr_part1.json",
+      "format": "JSON",
+      "records": 21345,
+      "size_bytes": 8727010,
+      "fields_sample": [
+        "B28002_E001",
+        "B28002_E002",
+        "B28002_E003",
+        "B28002_E004",
+        "B28002_E005",
+        "B28002_M001",
+        "GEO_ID",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "table",
+        "tract_geoid",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_tract_internet_2024_5yr_part2.json",
+      "format": "JSON",
+      "records": 21346,
+      "size_bytes": 8722407,
+      "fields_sample": [
+        "B28002_E001",
+        "B28002_E002",
+        "B28002_E003",
+        "B28002_E004",
+        "B28002_E005",
+        "B28002_M001",
+        "GEO_ID",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "table",
+        "tract_geoid",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_tract_internet_2024_5yr_part3.json",
+      "format": "JSON",
+      "records": 21345,
+      "size_bytes": 8722323,
+      "fields_sample": [
+        "B28002_E001",
+        "B28002_E002",
+        "B28002_E003",
+        "B28002_E004",
+        "B28002_E005",
+        "B28002_M001",
+        "GEO_ID",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "table",
+        "tract_geoid",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_tract_internet_2024_5yr_part4.json",
+      "format": "JSON",
+      "records": 21346,
+      "size_bytes": 8726470,
+      "fields_sample": [
+        "B28002_E001",
+        "B28002_E002",
+        "B28002_E003",
+        "B28002_E004",
+        "B28002_E005",
+        "B28002_M001",
+        "GEO_ID",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "table",
+        "tract_geoid",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat"
       ]
     },
     {
@@ -9682,6 +9874,102 @@
       ]
     },
     {
+      "file": "data/normalized/acs_tract_rent_burden_2024_5yr_part1.json",
+      "format": "JSON",
+      "records": 21345,
+      "size_bytes": 8601598,
+      "fields_sample": [
+        "B25070_E001",
+        "B25070_E002",
+        "B25070_E003",
+        "B25070_E004",
+        "B25070_E005",
+        "B25070_M001",
+        "GEO_ID",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "table",
+        "tract_geoid",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_tract_rent_burden_2024_5yr_part2.json",
+      "format": "JSON",
+      "records": 21346,
+      "size_bytes": 8594809,
+      "fields_sample": [
+        "B25070_E001",
+        "B25070_E002",
+        "B25070_E003",
+        "B25070_E004",
+        "B25070_E005",
+        "B25070_M001",
+        "GEO_ID",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "table",
+        "tract_geoid",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_tract_rent_burden_2024_5yr_part3.json",
+      "format": "JSON",
+      "records": 21345,
+      "size_bytes": 8603755,
+      "fields_sample": [
+        "B25070_E001",
+        "B25070_E002",
+        "B25070_E003",
+        "B25070_E004",
+        "B25070_E005",
+        "B25070_M001",
+        "GEO_ID",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "table",
+        "tract_geoid",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_tract_rent_burden_2024_5yr_part4.json",
+      "format": "JSON",
+      "records": 21346,
+      "size_bytes": 8601484,
+      "fields_sample": [
+        "B25070_E001",
+        "B25070_E002",
+        "B25070_E003",
+        "B25070_E004",
+        "B25070_E005",
+        "B25070_M001",
+        "GEO_ID",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "table",
+        "tract_geoid",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_tract_rooms_2024_5yr_part1.json",
       "format": "JSON",
       "records": 21345,
@@ -9783,6 +10071,102 @@
       ],
       "source_urls_sample": [
         "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25041.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_tract_vehicles_2024_5yr_part1.json",
+      "format": "JSON",
+      "records": 21345,
+      "size_bytes": 8696161,
+      "fields_sample": [
+        "B25044_E001",
+        "B25044_E002",
+        "B25044_E003",
+        "B25044_E004",
+        "B25044_E005",
+        "B25044_M001",
+        "GEO_ID",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "table",
+        "tract_geoid",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25044.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_tract_vehicles_2024_5yr_part2.json",
+      "format": "JSON",
+      "records": 21346,
+      "size_bytes": 8699157,
+      "fields_sample": [
+        "B25044_E001",
+        "B25044_E002",
+        "B25044_E003",
+        "B25044_E004",
+        "B25044_E005",
+        "B25044_M001",
+        "GEO_ID",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "table",
+        "tract_geoid",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25044.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_tract_vehicles_2024_5yr_part3.json",
+      "format": "JSON",
+      "records": 21345,
+      "size_bytes": 8696042,
+      "fields_sample": [
+        "B25044_E001",
+        "B25044_E002",
+        "B25044_E003",
+        "B25044_E004",
+        "B25044_E005",
+        "B25044_M001",
+        "GEO_ID",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "table",
+        "tract_geoid",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25044.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_tract_vehicles_2024_5yr_part4.json",
+      "format": "JSON",
+      "records": 21346,
+      "size_bytes": 8699924,
+      "fields_sample": [
+        "B25044_E001",
+        "B25044_E002",
+        "B25044_E003",
+        "B25044_E004",
+        "B25044_E005",
+        "B25044_M001",
+        "GEO_ID",
+        "retrieved_at",
+        "source",
+        "state_fips",
+        "table",
+        "tract_geoid",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25044.dat"
       ]
     },
     {

@@ -127,6 +127,12 @@ def main():
         for path in sorted((ROOT / "data" / "normalized").glob(f"acs_tract_{label}_2024_5yr_part*.json")):
             rows.extend(json.loads(path.read_text(encoding="utf-8")))
         acs_tract_detail_2024[label] = rows
+    acs_tract_access_2024 = {}
+    for label in ("commuting", "vehicles", "internet", "rent_burden"):
+        rows = []
+        for path in sorted((ROOT / "data" / "normalized").glob(f"acs_tract_{label}_2024_5yr_part*.json")):
+            rows.extend(json.loads(path.read_text(encoding="utf-8")))
+        acs_tract_access_2024[label] = rows
     acs_block_group_2024 = []
     for path in sorted((ROOT / "data" / "normalized").glob("acs_block_group_population_housing_2024_5yr_part*.json")):
         acs_block_group_2024.extend(json.loads(path.read_text(encoding="utf-8")))
@@ -424,6 +430,10 @@ def main():
             assert len({row.get(key) for row in rows}) == len(rows)
             assert all(row.get(key) and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
     for rows in acs_tract_detail_2024.values():
+        assert len(rows) == 85382
+        assert len({row.get("tract_geoid") for row in rows}) == len(rows)
+        assert all(row.get("tract_geoid") and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
+    for rows in acs_tract_access_2024.values():
         assert len(rows) == 85382
         assert len({row.get("tract_geoid") for row in rows}) == len(rows)
         assert all(row.get("tract_geoid") and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
