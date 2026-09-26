@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T20:18:29.161891+00:00",
+  "generated_at": "2026-09-26T20:31:24.427913+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -21165,6 +21165,30 @@
         "https://www.federalregister.gov/api/v1/documents/X95-110125?publication_date=1995-01-25",
         "https://www.federalregister.gov/api/v1/documents/Z9-26408?publication_date=2009-11-05",
         "https://www.federalregister.gov/api/v1/documents/Z9-30020?publication_date=2009-12-18"
+      ]
+    },
+    {
+      "file": "data/normalized/fbi_cde_summarized_crime_2000_2024.json",
+      "format": "JSON",
+      "records": 34800,
+      "size_bytes": 15437159,
+      "fields_sample": [
+        "clearance_rate_per_100k",
+        "clearances",
+        "crime_group",
+        "level",
+        "offense_rate_per_100k",
+        "offenses",
+        "participated_population",
+        "period",
+        "population",
+        "retrieved_at",
+        "source",
+        "state",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://cde.ucr.cjis.gov/LATEST/summarized/national/P?from=01-2000&to=12-2024&type=counts"
       ]
     },
     {

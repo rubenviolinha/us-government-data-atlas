@@ -1,0 +1,12 @@
+{
+  "source": "https://cde.ucr.cjis.gov/LATEST/summarized",
+  "source_catalog": "https://cde.ucr.cjis.gov/LATEST/webapp/",
+  "format": "FBI CDE JSON normalized to long-form JSON",
+  "license": "U.S. government public data",
+  "vintage": "FBI Crime Data Explorer summarized UCR 2000-2024",
+  "retrieved_at": "2026-09-26T20:30:19.107884+00:00",
+  "records": 34800,
+  "file": "data/normalized/fbi_cde_summarized_crime_2000_2024.json",
+  "coverage": "National and 57 states/territories; monthly 2000-2024 violent and property crime summaries",
+  "note": "Public CDE host was queried without an API key; values reflect FBI summarized UCR series and participation populations."
+}

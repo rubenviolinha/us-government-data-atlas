@@ -170,6 +170,8 @@ The EPA Facility Registry Service national release is included as normalized JSO
 
 The NOAA/NCEI GHCN-Daily station inventory is included with 78,569 United States station metadata records, including station IDs, coordinates, elevation, state, names, network flags, and WMO IDs. It is a public fixed-width inventory; daily observations are intentionally not mirrored, and no API key is required.
 
+The FBI Crime Data Explorer summarized UCR release is included as a long-form national/state time series covering monthly violent- and property-crime counts, rates, clearances, and populations from 2000 through 2024 for the nation and all 57 state/territory jurisdictions. The current public CDE host was queried without an API key.
+
 ## Local API
 
 The checked-in releases can be queried locally without an API key:

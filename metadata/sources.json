@@ -1403,5 +1403,14 @@
     "format": "Official fixed-width station inventory normalized to JSON",
     "license": "U.S. government public data",
     "notes": "78,569 United States GHCN-Daily station metadata records with station IDs, coordinates, elevation, state, names, network flags, and WMO IDs. Daily observations are not mirrored. No API key used."
+  },
+  {
+    "id": "fbi-cde-summarized-crime-2000-2024",
+    "name": "FBI Crime Data Explorer Summarized UCR Crime Series",
+    "publisher": "Federal Bureau of Investigation",
+    "url": "https://cde.ucr.cjis.gov/LATEST/webapp/",
+    "format": "Public CDE JSON normalized to long-form JSON",
+    "license": "U.S. government public data",
+    "notes": "National and 57 state/territory monthly violent- and property-crime summaries from 2000 through 2024, including offense counts, rates, clearances, clearance rates, population, and participated population. Current public CDE host queried without an API key."
   }
 ]

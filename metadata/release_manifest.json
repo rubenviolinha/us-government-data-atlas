@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T20:18:36.549531+00:00",
+  "generated_at": "2026-09-26T20:31:31.834362+00:00",
   "algorithm": "sha256",
-  "dataset_count": 958,
+  "dataset_count": 959,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -4093,6 +4093,11 @@
       "file": "data/normalized/executive_orders.json",
       "sha256": "b6af23f6bdbfabf70b14045f242ff909945802c56b948dd0c2591535594eef4f",
       "size_bytes": 1135959
+    },
+    {
+      "file": "data/normalized/fbi_cde_summarized_crime_2000_2024.json",
+      "sha256": "a5f930d6ebd3c2c56695ef5724facbf1558ff5fe998122f468046eb4e254e3ff",
+      "size_bytes": 15437159
     },
     {
       "file": "data/normalized/fec_candidate_master_2024.json",
