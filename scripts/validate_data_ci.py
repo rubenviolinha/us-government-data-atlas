@@ -135,7 +135,14 @@ def main():
     assert all(row.get("source") and row.get("vintage") == "USGS all earthquakes past week rolling feed" for row in earthquakes)
     assert all(-180 <= row["longitude"] <= 180 and -90 <= row["latitude"] <= 90 for row in earthquakes if row.get("longitude") is not None and row.get("latitude") is not None)
 
-    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)} SVI counties={len(svi_counties)} tracts={len(svi_tracts)} ZCTAs={len(svi_zctas)} aviation={len(aviation)} earthquakes={len(earthquakes)}")
+    tide_stations = read_json(ROOT / "data/normalized/noaa_tide_stations.json")
+    assert len(tide_stations) >= 250
+    assert len({row["station_id"] for row in tide_stations}) == len(tide_stations)
+    assert all(row.get("station_id") and row.get("name") and row.get("source") for row in tide_stations)
+    assert all(row.get("vintage") == "NOAA tide and water-level station metadata registry" for row in tide_stations)
+    assert all(-180 <= row["longitude"] <= 180 and -90 <= row["latitude"] <= 90 for row in tide_stations)
+
+    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)} SVI counties={len(svi_counties)} tracts={len(svi_tracts)} ZCTAs={len(svi_zctas)} aviation={len(aviation)} earthquakes={len(earthquakes)} tide_stations={len(tide_stations)}")
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T17:49:36.218425+00:00",
+  "generated_at": "2026-09-26T17:57:33.902919+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -17557,6 +17557,41 @@
       "source_urls_sample": [
         "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/50/pcp/12/12/1895-2025.json",
         "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/50/tavg/12/12/1895-2025.json"
+      ]
+    },
+    {
+      "file": "data/normalized/noaa_tide_stations.json",
+      "format": "JSON",
+      "records": 302,
+      "size_bytes": 281598,
+      "fields_sample": [
+        "affiliations",
+        "details_url",
+        "forecast",
+        "great_lakes",
+        "inundation_database",
+        "latitude",
+        "longitude",
+        "name",
+        "non_navigational",
+        "observed_water_levels",
+        "outlook",
+        "port_code",
+        "retrieved_at",
+        "shef_code",
+        "source",
+        "state",
+        "station_id",
+        "station_url",
+        "storm_surge",
+        "tidal",
+        "tide_type",
+        "timezone",
+        "timezone_offset",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json"
       ]
     },
     {

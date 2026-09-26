@@ -1304,5 +1304,14 @@
     "format": "GeoJSON",
     "license": "U.S. government public data",
     "notes": "Rolling public feed of all earthquakes in the past seven days, with magnitudes, timestamps, tsunami flags, significance, coordinates, depth, and event links. No API key used."
+  },
+  {
+    "id": "noaa-tide-stations",
+    "name": "NOAA Tide and Water-Level Stations",
+    "publisher": "National Oceanic and Atmospheric Administration",
+    "url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json",
+    "format": "JSON",
+    "license": "U.S. government public data",
+    "notes": "Public station metadata registry with NOAA station identifiers, locations, state, time zone, monitoring capabilities, and station links. No API key used."
   }
 ]

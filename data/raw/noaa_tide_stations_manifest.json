@@ -1,0 +1,8 @@
+{
+  "source": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json",
+  "source_catalog": "https://tidesandcurrents.noaa.gov/",
+  "vintage": "NOAA tide and water-level station metadata registry",
+  "retrieved_at": "2026-09-26T17:57:00.171495+00:00",
+  "records": 302,
+  "count_reported": 302
+}

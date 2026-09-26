@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def domain(filename):
     stem = Path(filename).name
-    for prefix, label in (("acs_", "Census ACS demographics"), ("cdc_places_", "Public health"), ("svi_", "Public health"), ("bts_", "Transportation"), ("usgs_", "Public safety"), ("fec_", "FEC elections"), ("current_", "Current officeholders"), ("federal_", "Federal government"), ("state_", "States and population"), ("county", "Counties"), ("place", "Places"), ("zcta", "ZIP/ZCTA"), ("puma", "PUMAs"), ("cbsa", "Metropolitan areas"), ("school", "Schools"), ("nces_public_schools_", "Schools")):
+    for prefix, label in (("acs_", "Census ACS demographics"), ("cdc_places_", "Public health"), ("svi_", "Public health"), ("bts_", "Transportation"), ("usgs_", "Public safety"), ("noaa_", "Climate and environment"), ("fec_", "FEC elections"), ("current_", "Current officeholders"), ("federal_", "Federal government"), ("state_", "States and population"), ("county", "Counties"), ("place", "Places"), ("zcta", "ZIP/ZCTA"), ("puma", "PUMAs"), ("cbsa", "Metropolitan areas"), ("school", "Schools"), ("nces_public_schools_", "Schools")):
         if stem.startswith(prefix):
             return label
     return "Other government reference data"

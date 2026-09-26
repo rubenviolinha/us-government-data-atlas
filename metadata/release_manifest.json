@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T17:49:41.684832+00:00",
+  "generated_at": "2026-09-26T17:57:38.134736+00:00",
   "algorithm": "sha256",
-  "dataset_count": 722,
+  "dataset_count": 723,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -3288,6 +3288,11 @@
       "file": "data/normalized/noaa_state_climate_1895_2025.json",
       "sha256": "a9f7a6441f27174e78c61454fcbf5c75fa4075d11a9590f2a874c04690ba8ffd",
       "size_bytes": 3956649
+    },
+    {
+      "file": "data/normalized/noaa_tide_stations.json",
+      "sha256": "d4511b1f61bfb1d0e8007db276f9eac6f45ee55b5d529751992179c6d5d3edb9",
+      "size_bytes": 281598
     },
     {
       "file": "data/normalized/nps_national_register_listed_2026_part1.json",
