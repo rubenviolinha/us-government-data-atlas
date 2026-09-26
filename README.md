@@ -180,6 +180,8 @@ The NHTSA 2020–2024 recall campaign release is included as repository-safe JSO
 
 The NHTSA defect-investigation release is included as JSON shards covering safety-related investigations opened since 1972, with vehicle or equipment details, components, opened and closed dates, subjects, detailed summaries, and linked recall campaign numbers. It is fetched from NHTSA's public bulk ZIP and does not require an API key.
 
+The Census Population Estimates 2024 release is included with annual state and county population estimates from April 1, 2020 through July 1, 2024, plus births, deaths, natural change, domestic and international migration, group quarters, and component rates. It is a public Census bulk CSV and does not require an API key.
+
 ## Local API
 
 The checked-in releases can be queried locally without an API key:

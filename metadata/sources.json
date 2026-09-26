@@ -1448,5 +1448,14 @@
     "format": "Official tab-delimited text inside ZIP normalized to JSON shards",
     "license": "U.S. government public data",
     "notes": "154,383 public safety-related defect investigations opened since 1972, with investigation identifiers, vehicles/equipment, components, dates, subjects, detailed summaries, and linked recall campaigns. No API key used."
+  },
+  {
+    "id": "census-county-population-estimates-2024",
+    "name": "Census County Population Estimates 2024",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html",
+    "format": "Official Census CSV normalized to JSON",
+    "license": "U.S. government public data",
+    "notes": "3,195 state and county records with annual resident population estimates, births, deaths, migration, group quarters, and change rates for April 1, 2020 through July 1, 2024. No API key used."
   }
 ]

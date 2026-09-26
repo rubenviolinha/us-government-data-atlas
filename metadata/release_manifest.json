@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T21:08:06.524454+00:00",
+  "generated_at": "2026-09-26T21:26:53.099569+00:00",
   "algorithm": "sha256",
-  "dataset_count": 992,
+  "dataset_count": 993,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -2908,6 +2908,11 @@
       "file": "data/normalized/cdc_places_zctas_2024_part9.json",
       "sha256": "13f0f81a3a496ec3126220589709f5056f3f7cb1577292785c71d6114bb25986",
       "size_bytes": 37957945
+    },
+    {
+      "file": "data/normalized/census_county_population_estimates_2024.json",
+      "sha256": "544bfa112666608ba378adcb5bdaba262424e11a92640aefa2e830e401eccaee",
+      "size_bytes": 6717089
     },
     {
       "file": "data/normalized/congressional_districts_118th_2023.json",
