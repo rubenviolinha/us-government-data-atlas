@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-26T17:01:52.221298+00:00",
+  "source": "https://nces.ed.gov/surveys/pss/pssdata.asp",
+  "source_download": "https://nces.ed.gov/surveys/pss/zip/pss2324_pu_csv.zip",
+  "records": 22510,
+  "file": "data/normalized/nces_private_schools_2023_24.json",
+  "note": "NCES Private School Universe Survey 2023-24 public-use CSV; identifiers, addresses, geography, enrollment, staffing, school characteristics, and selected demographic percentages. No API key used."
+}

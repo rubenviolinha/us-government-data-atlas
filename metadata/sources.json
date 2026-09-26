@@ -1259,5 +1259,14 @@
     "format": "Official CSV inside ZIP archive",
     "license": "U.S. government public data",
     "notes": "19,484 public local education agency records with NCES district identifiers, names, addresses, contacts, administrative status, type, charter flag, grade range, and operational-school counts. No API key used."
+  },
+  {
+    "id": "nces-pss-private-schools-2023-24",
+    "name": "NCES Private School Universe Survey 2023-24 Public-Use File",
+    "publisher": "National Center for Education Statistics",
+    "url": "https://nces.ed.gov/surveys/pss/pssdata.asp",
+    "format": "Official CSV inside ZIP archive",
+    "license": "U.S. government public data",
+    "notes": "22,510 private-school records with identifiers, addresses, county and legislative geography, coordinates, enrollment, staffing, school characteristics, and selected demographic percentages. No API key used."
   }
 ]

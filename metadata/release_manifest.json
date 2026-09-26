@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T16:39:47.897727+00:00",
+  "generated_at": "2026-09-26T17:02:56.578564+00:00",
   "algorithm": "sha256",
-  "dataset_count": 715,
+  "dataset_count": 716,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -3173,6 +3173,11 @@
       "file": "data/normalized/hawaiian_home_lands_2023.json",
       "sha256": "6fbe7f5e5a7fcb9f573f442025d7acfa30e16e3beebe5b3b3b6022c9b5670a13",
       "size_bytes": 19111
+    },
+    {
+      "file": "data/normalized/nces_private_schools_2023_24.json",
+      "sha256": "fe33dca658ff91123e04cf3dc9eb6ddb226ebcf3eea05ce442a2a685f2a44848",
+      "size_bytes": 21868436
     },
     {
       "file": "data/normalized/nces_public_districts_2024_25.json",

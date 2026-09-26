@@ -82,6 +82,7 @@ python3 scripts/fetch_cdc_places_2024_zctas.py
 python3 scripts/fetch_cdc_places_2024_places.py
 python3 scripts/fetch_nces_public_school_directory.py
 python3 scripts/fetch_nces_public_district_directory.py
+python3 scripts/fetch_nces_private_school_universe.py
 python3 scripts/fetch_zcta_acs_2024.py
 python3 scripts/fetch_current_cabinet.py
 python3 scripts/fetch_secretaries_of_state.py
@@ -119,6 +120,8 @@ CDC PLACES 2024 county, ZCTA, and named-place releases are included as long-form
 The NCES Common Core of Data 2024-25 public-school universe is included as two sharded JSON datasets with 101,333 school records, NCES and district identifiers, names, addresses, contacts, status, school type, charter flags, and grade ranges. It is a public downloadable ZIP release and does not require an API key.
 
 The matching NCES 2024-25 public local education agency universe is also included, with 19,484 district records and district-level identifiers, contacts, administrative status, type, charter flag, grade range, and operational-school counts.
+
+The NCES 2023-24 Private School Universe Survey public-use file is included with 22,510 private-school records, identifiers, addresses, coordinates, county and legislative geography, enrollment, staffing, school characteristics, and selected demographic percentages.
 
 ## Local API
 
