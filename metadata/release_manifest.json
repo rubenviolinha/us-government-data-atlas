@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T13:00:32.947027+00:00",
+  "generated_at": "2026-09-26T13:18:29.305841+00:00",
   "algorithm": "sha256",
-  "dataset_count": 474,
+  "dataset_count": 482,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -2068,6 +2068,46 @@
       "file": "data/normalized/hawaiian_home_lands_2023.json",
       "sha256": "6fbe7f5e5a7fcb9f573f442025d7acfa30e16e3beebe5b3b3b6022c9b5670a13",
       "size_bytes": 19111
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2024_part1.json",
+      "sha256": "20cbf5ed98401fbfc4cf6a801059e6fb62742e040b324eb8d93faf46153ce2ef",
+      "size_bytes": 29613029
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2024_part2.json",
+      "sha256": "6a789691e541ab373d86d8f4cb99b0cf2c0b42a390fee183e3bc6f9cd42bdacb",
+      "size_bytes": 29619467
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2024_part3.json",
+      "sha256": "924d4e87782abe320bcf73fd63c6d03d2127c6bd85606f3f7bdfc72473156aeb",
+      "size_bytes": 29605493
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2024_part4.json",
+      "sha256": "e2452241a6a0442e26424d1da82eea56b4d0d1cba054bd5629354e7236aa7caa",
+      "size_bytes": 29607030
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2024_part1.json",
+      "sha256": "6cf454d765a0df51213f05e80042adf9f55dc0b8d1804a366e3fe6c275bfea3f",
+      "size_bytes": 28199057
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2024_part2.json",
+      "sha256": "eb2053e4aca2178062405c7e6cfcfb98b127cde9eabf6ebeffbc5a61fd9000a4",
+      "size_bytes": 28206946
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2024_part3.json",
+      "sha256": "483dc1b182d9c94021b61e33cb80f4fd92a301c4ec4edffb5b7cb6ac49bb92f4",
+      "size_bytes": 28190624
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2024_part4.json",
+      "sha256": "16dcfbe0cf7eaf2cddad2ab5b1581e015ad9a803a3d35bb6bb8e0379e0d5e402",
+      "size_bytes": 28192821
     },
     {
       "file": "data/normalized/noaa_state_climate_1895_2024.json",

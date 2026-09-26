@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26T13:00:32.993974+00:00",
-  "catalog_datasets": 474,
+  "generated_at": "2026-09-26T13:18:29.357671+00:00",
+  "catalog_datasets": 482,
   "domain_counts": {
     "Census ACS demographics": 342,
     "Counties": 4,
@@ -8,7 +8,7 @@
     "FEC elections": 27,
     "Federal government": 4,
     "Metropolitan areas": 6,
-    "Other government reference data": 49,
+    "Other government reference data": 57,
     "PUMAs": 4,
     "Places": 7,
     "Schools": 3,

@@ -1,0 +1,955 @@
+{
+  "retrieved_at": "2026-09-26T13:10:44.910992+00:00",
+  "sources": [
+    "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series"
+  ],
+  "format": "NOAA Climate at a Glance JSON",
+  "files": {
+    "annual_avg_temperature": {
+      "records": 405910,
+      "counties": 3133,
+      "parts": [
+        {
+          "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2024_part1.json",
+          "records": 101477,
+          "counties": 792
+        },
+        {
+          "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2024_part2.json",
+          "records": 101478,
+          "counties": 781
+        },
+        {
+          "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2024_part3.json",
+          "records": 101477,
+          "counties": 782
+        },
+        {
+          "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2024_part4.json",
+          "records": 101478,
+          "counties": 781
+        }
+      ]
+    },
+    "annual_precipitation": {
+      "records": 405910,
+      "counties": 3133,
+      "parts": [
+        {
+          "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2024_part1.json",
+          "records": 101477,
+          "counties": 792
+        },
+        {
+          "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2024_part2.json",
+          "records": 101478,
+          "counties": 781
+        },
+        {
+          "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2024_part3.json",
+          "records": 101477,
+          "counties": 782
+        },
+        {
+          "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2024_part4.json",
+          "records": 101478,
+          "counties": 781
+        }
+      ]
+    }
+  },
+  "requested_counties": 3222,
+  "missing_series": [
+    {
+      "geoid": "09110",
+      "location": "CT-110",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "09110",
+      "location": "CT-110",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "09120",
+      "location": "CT-120",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "09130",
+      "location": "CT-130",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "09120",
+      "location": "CT-120",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "09130",
+      "location": "CT-130",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "09140",
+      "location": "CT-140",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "09140",
+      "location": "CT-140",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "09150",
+      "location": "CT-150",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "09150",
+      "location": "CT-150",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "09160",
+      "location": "CT-160",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "09160",
+      "location": "CT-160",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "09180",
+      "location": "CT-180",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "09170",
+      "location": "CT-170",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "09180",
+      "location": "CT-180",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "09170",
+      "location": "CT-170",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "09190",
+      "location": "CT-190",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "09190",
+      "location": "CT-190",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "11001",
+      "location": "DC-001",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "11001",
+      "location": "DC-001",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "51678",
+      "location": "VA-678",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "51678",
+      "location": "VA-678",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72001",
+      "location": "PR-001",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72001",
+      "location": "PR-001",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72003",
+      "location": "PR-003",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72003",
+      "location": "PR-003",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72005",
+      "location": "PR-005",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72005",
+      "location": "PR-005",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72009",
+      "location": "PR-009",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72007",
+      "location": "PR-007",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72009",
+      "location": "PR-009",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72007",
+      "location": "PR-007",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72011",
+      "location": "PR-011",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72011",
+      "location": "PR-011",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72015",
+      "location": "PR-015",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72015",
+      "location": "PR-015",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72013",
+      "location": "PR-013",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72013",
+      "location": "PR-013",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72019",
+      "location": "PR-019",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72017",
+      "location": "PR-017",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72019",
+      "location": "PR-019",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72017",
+      "location": "PR-017",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72021",
+      "location": "PR-021",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72021",
+      "location": "PR-021",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72023",
+      "location": "PR-023",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72023",
+      "location": "PR-023",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72025",
+      "location": "PR-025",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72027",
+      "location": "PR-027",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72025",
+      "location": "PR-025",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72027",
+      "location": "PR-027",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72029",
+      "location": "PR-029",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72029",
+      "location": "PR-029",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72031",
+      "location": "PR-031",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72031",
+      "location": "PR-031",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72033",
+      "location": "PR-033",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72033",
+      "location": "PR-033",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72035",
+      "location": "PR-035",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72035",
+      "location": "PR-035",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72039",
+      "location": "PR-039",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72037",
+      "location": "PR-037",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72039",
+      "location": "PR-039",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72037",
+      "location": "PR-037",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72041",
+      "location": "PR-041",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72043",
+      "location": "PR-043",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72041",
+      "location": "PR-041",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72043",
+      "location": "PR-043",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72045",
+      "location": "PR-045",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72045",
+      "location": "PR-045",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72047",
+      "location": "PR-047",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72047",
+      "location": "PR-047",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72049",
+      "location": "PR-049",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72049",
+      "location": "PR-049",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72051",
+      "location": "PR-051",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72051",
+      "location": "PR-051",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72053",
+      "location": "PR-053",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72054",
+      "location": "PR-054",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72054",
+      "location": "PR-054",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72053",
+      "location": "PR-053",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72055",
+      "location": "PR-055",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72055",
+      "location": "PR-055",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72057",
+      "location": "PR-057",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72057",
+      "location": "PR-057",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72059",
+      "location": "PR-059",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72059",
+      "location": "PR-059",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72061",
+      "location": "PR-061",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72061",
+      "location": "PR-061",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72063",
+      "location": "PR-063",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72063",
+      "location": "PR-063",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72065",
+      "location": "PR-065",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72065",
+      "location": "PR-065",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72067",
+      "location": "PR-067",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72067",
+      "location": "PR-067",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72069",
+      "location": "PR-069",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72069",
+      "location": "PR-069",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72071",
+      "location": "PR-071",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72071",
+      "location": "PR-071",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72073",
+      "location": "PR-073",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72073",
+      "location": "PR-073",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72075",
+      "location": "PR-075",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72077",
+      "location": "PR-077",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72077",
+      "location": "PR-077",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72075",
+      "location": "PR-075",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72079",
+      "location": "PR-079",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72079",
+      "location": "PR-079",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72081",
+      "location": "PR-081",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72081",
+      "location": "PR-081",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72083",
+      "location": "PR-083",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72083",
+      "location": "PR-083",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72085",
+      "location": "PR-085",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72085",
+      "location": "PR-085",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72087",
+      "location": "PR-087",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72087",
+      "location": "PR-087",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72089",
+      "location": "PR-089",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72089",
+      "location": "PR-089",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72091",
+      "location": "PR-091",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72091",
+      "location": "PR-091",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72093",
+      "location": "PR-093",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72093",
+      "location": "PR-093",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72095",
+      "location": "PR-095",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72097",
+      "location": "PR-097",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72095",
+      "location": "PR-095",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72097",
+      "location": "PR-097",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72099",
+      "location": "PR-099",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72101",
+      "location": "PR-101",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72101",
+      "location": "PR-101",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72099",
+      "location": "PR-099",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72103",
+      "location": "PR-103",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72105",
+      "location": "PR-105",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72103",
+      "location": "PR-103",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72105",
+      "location": "PR-105",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72107",
+      "location": "PR-107",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72107",
+      "location": "PR-107",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72109",
+      "location": "PR-109",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72109",
+      "location": "PR-109",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72111",
+      "location": "PR-111",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72111",
+      "location": "PR-111",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72113",
+      "location": "PR-113",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72113",
+      "location": "PR-113",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72115",
+      "location": "PR-115",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72115",
+      "location": "PR-115",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72117",
+      "location": "PR-117",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72117",
+      "location": "PR-117",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72119",
+      "location": "PR-119",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72119",
+      "location": "PR-119",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72121",
+      "location": "PR-121",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72123",
+      "location": "PR-123",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72121",
+      "location": "PR-121",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72123",
+      "location": "PR-123",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72125",
+      "location": "PR-125",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72125",
+      "location": "PR-125",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72127",
+      "location": "PR-127",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72127",
+      "location": "PR-127",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72129",
+      "location": "PR-129",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72129",
+      "location": "PR-129",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72131",
+      "location": "PR-131",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72133",
+      "location": "PR-133",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72131",
+      "location": "PR-131",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72135",
+      "location": "PR-135",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72133",
+      "location": "PR-133",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72135",
+      "location": "PR-135",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72137",
+      "location": "PR-137",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72137",
+      "location": "PR-137",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72139",
+      "location": "PR-139",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72141",
+      "location": "PR-141",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72139",
+      "location": "PR-139",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72141",
+      "location": "PR-141",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72143",
+      "location": "PR-143",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72145",
+      "location": "PR-145",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72145",
+      "location": "PR-145",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72143",
+      "location": "PR-143",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72147",
+      "location": "PR-147",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72147",
+      "location": "PR-147",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72149",
+      "location": "PR-149",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72149",
+      "location": "PR-149",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72151",
+      "location": "PR-151",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72151",
+      "location": "PR-151",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72153",
+      "location": "PR-153",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "geoid": "72153",
+      "location": "PR-153",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "note": "Annual January-December county average temperature and precipitation series; no API key used. NOAA does not publish a series for every Census county-equivalent, so unavailable locations are preserved in missing_series."
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T13:00:31.353604+00:00",
+  "generated_at": "2026-09-26T13:18:27.412558+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -11105,6 +11105,162 @@
         "NAME"
       ],
       "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2024_part1.json",
+      "format": "JSON",
+      "records": 101477,
+      "size_bytes": 29613029,
+      "fields_sample": [
+        "county_geoid",
+        "county_name",
+        "parameter",
+        "source",
+        "state_abbr",
+        "units",
+        "value",
+        "year"
+      ],
+      "source_urls_sample": [
+        "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/AL-001/tavg/12/12/1895-2024.json"
+      ]
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2024_part2.json",
+      "format": "JSON",
+      "records": 101478,
+      "size_bytes": 29619467,
+      "fields_sample": [
+        "county_geoid",
+        "county_name",
+        "parameter",
+        "source",
+        "state_abbr",
+        "units",
+        "value",
+        "year"
+      ],
+      "source_urls_sample": [
+        "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/IA-021/tavg/12/12/1895-2024.json"
+      ]
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2024_part3.json",
+      "format": "JSON",
+      "records": 101477,
+      "size_bytes": 29605493,
+      "fields_sample": [
+        "county_geoid",
+        "county_name",
+        "parameter",
+        "source",
+        "state_abbr",
+        "units",
+        "value",
+        "year"
+      ],
+      "source_urls_sample": [
+        "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/MO-195/tavg/12/12/1895-2024.json",
+        "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/MO-197/tavg/12/12/1895-2024.json"
+      ]
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2024_part4.json",
+      "format": "JSON",
+      "records": 101478,
+      "size_bytes": 29607030,
+      "fields_sample": [
+        "county_geoid",
+        "county_name",
+        "parameter",
+        "source",
+        "state_abbr",
+        "units",
+        "value",
+        "year"
+      ],
+      "source_urls_sample": [
+        "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/SC-089/tavg/12/12/1895-2024.json",
+        "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/SC-091/tavg/12/12/1895-2024.json"
+      ]
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2024_part1.json",
+      "format": "JSON",
+      "records": 101477,
+      "size_bytes": 28199057,
+      "fields_sample": [
+        "county_geoid",
+        "county_name",
+        "parameter",
+        "source",
+        "state_abbr",
+        "units",
+        "value",
+        "year"
+      ],
+      "source_urls_sample": [
+        "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/AL-001/pcp/12/12/1895-2024.json"
+      ]
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2024_part2.json",
+      "format": "JSON",
+      "records": 101478,
+      "size_bytes": 28206946,
+      "fields_sample": [
+        "county_geoid",
+        "county_name",
+        "parameter",
+        "source",
+        "state_abbr",
+        "units",
+        "value",
+        "year"
+      ],
+      "source_urls_sample": [
+        "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/IA-021/pcp/12/12/1895-2024.json"
+      ]
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2024_part3.json",
+      "format": "JSON",
+      "records": 101477,
+      "size_bytes": 28190624,
+      "fields_sample": [
+        "county_geoid",
+        "county_name",
+        "parameter",
+        "source",
+        "state_abbr",
+        "units",
+        "value",
+        "year"
+      ],
+      "source_urls_sample": [
+        "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/MO-195/pcp/12/12/1895-2024.json",
+        "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/MO-197/pcp/12/12/1895-2024.json"
+      ]
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2024_part4.json",
+      "format": "JSON",
+      "records": 101478,
+      "size_bytes": 28192821,
+      "fields_sample": [
+        "county_geoid",
+        "county_name",
+        "parameter",
+        "source",
+        "state_abbr",
+        "units",
+        "value",
+        "year"
+      ],
+      "source_urls_sample": [
+        "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/SC-089/pcp/12/12/1895-2024.json",
+        "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/SC-091/pcp/12/12/1895-2024.json"
+      ]
     },
     {
       "file": "data/normalized/noaa_state_climate_1895_2024.json",

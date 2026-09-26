@@ -119,6 +119,14 @@
     "license": "U.S. government public data",
     "notes": "Keyless annual January-December statewide average temperature and precipitation series for the 50 states; NOAA agency climate codes are preserved. District of Columbia has no statewide series in this product."
   }, {
+    "id": "noaa-climate-at-a-glance-county",
+    "name": "NOAA Climate at a Glance County Annual Series",
+    "publisher": "National Centers for Environmental Information",
+    "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series",
+    "format": "JSON time series",
+    "license": "U.S. government public data",
+    "notes": "Keyless annual January-December county average temperature and precipitation series from 1895 through 2024. Four release parts per parameter stay below repository file-size limits; county-equivalents without NOAA series are listed in the manifest."
+  }, {
     "id": "census-cbsa-vintage-relationship-2020-2023",
     "name": "Census CBSA Vintage Relationship, 2020 to 2023",
     "publisher": "U.S. Census Bureau",
