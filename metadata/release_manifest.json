@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T15:04:28.638075+00:00",
+  "generated_at": "2026-09-26T15:07:58.400319+00:00",
   "algorithm": "sha256",
-  "dataset_count": 616,
+  "dataset_count": 624,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -460,6 +460,11 @@
       "size_bytes": 331863
     },
     {
+      "file": "data/normalized/acs_cbsa_commuting_2024_5yr.json",
+      "sha256": "d5d1d6d90cfffc7b6e6a88b3cd7fed14fd0ed120052077a74a062a5aa860db43",
+      "size_bytes": 355397
+    },
+    {
       "file": "data/normalized/acs_cbsa_education_2024_5yr.json",
       "sha256": "431d7555fe12ec0f3b49cc0e1a6a84cf1f4c98254d3188b9192c9cb8908c3b9e",
       "size_bytes": 340189
@@ -475,6 +480,11 @@
       "size_bytes": 287962
     },
     {
+      "file": "data/normalized/acs_cbsa_internet_2024_5yr.json",
+      "sha256": "90f7c883779a158a895ccb6267c8ba9725542e12196ebf0595f498f5d3f946cb",
+      "size_bytes": 354225
+    },
+    {
       "file": "data/normalized/acs_cbsa_poverty_2024_5yr.json",
       "sha256": "5097c35a8f8f20f0f52b8e767dafdfcfbb30c086fc758394290ee81ea3c74b6b",
       "size_bytes": 323793
@@ -483,6 +493,16 @@
       "file": "data/normalized/acs_cbsa_race_2024_5yr.json",
       "sha256": "b8beed01e5b7ddce147fa0938c62bd4a6fbf9f8b798cb913377b9dd0e3aa3ad5",
       "size_bytes": 417121
+    },
+    {
+      "file": "data/normalized/acs_cbsa_rent_burden_2024_5yr.json",
+      "sha256": "bc8a1f02cbda108020e60b27c3836149f157ec6f272e330befa55f386d019c1b",
+      "size_bytes": 350413
+    },
+    {
+      "file": "data/normalized/acs_cbsa_vehicles_2024_5yr.json",
+      "sha256": "fc2732b94e6de19908e451ce3d9ad4766f2db08b11c92fcf3923c06bbc1bdbf4",
+      "size_bytes": 353985
     },
     {
       "file": "data/normalized/acs_consolidated_city_age_sex_2024_5yr.json",
@@ -780,6 +800,11 @@
       "size_bytes": 64801
     },
     {
+      "file": "data/normalized/acs_csa_commuting_2024_5yr.json",
+      "sha256": "165e08dc9339ec64344a0f6ca905aa0b94175d3d3fae2f07942159e75674e644",
+      "size_bytes": 69769
+    },
+    {
       "file": "data/normalized/acs_csa_education_2024_5yr.json",
       "sha256": "ce59cbf262b7ec32d58f21123a90589c78d36f4140c37cf4f55437abdea72a82",
       "size_bytes": 66648
@@ -795,6 +820,11 @@
       "size_bytes": 55697
     },
     {
+      "file": "data/normalized/acs_csa_internet_2024_5yr.json",
+      "sha256": "97eebd3bd005c89e5a3750cfdd19efb3453f3825e979b6a37640fcffd197b8b5",
+      "size_bytes": 69510
+    },
+    {
       "file": "data/normalized/acs_csa_poverty_2024_5yr.json",
       "sha256": "388bd392294c8219316933d50e5852338434bc09132db071e9f41ad503363b1f",
       "size_bytes": 63317
@@ -803,6 +833,16 @@
       "file": "data/normalized/acs_csa_race_2024_5yr.json",
       "sha256": "b7c3a0360a8509cb991d62561748edccdc5cb873d0434f998f1e74a1a8bbd305",
       "size_bytes": 82387
+    },
+    {
+      "file": "data/normalized/acs_csa_rent_burden_2024_5yr.json",
+      "sha256": "2d5e73eadeed0d59ddde6661545c237162ef9f3ae7518137eefd9088d337778a",
+      "size_bytes": 68885
+    },
+    {
+      "file": "data/normalized/acs_csa_vehicles_2024_5yr.json",
+      "sha256": "e7d3a985d3007ada4eccd609d5b568cd85aa516e74f7a1a91b0aaf9db74a61f4",
+      "size_bytes": 69502
     },
     {
       "file": "data/normalized/acs_district_age_sex_2023.json",

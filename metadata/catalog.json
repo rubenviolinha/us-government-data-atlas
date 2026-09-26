@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T15:04:26.140250+00:00",
+  "generated_at": "2026-09-26T15:07:55.905947+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2000,6 +2000,29 @@
       ]
     },
     {
+      "file": "data/normalized/acs_cbsa_commuting_2024_5yr.json",
+      "format": "JSON",
+      "records": 935,
+      "size_bytes": 355397,
+      "fields_sample": [
+        "B08301_E001",
+        "B08301_E002",
+        "B08301_E003",
+        "B08301_E004",
+        "B08301_E005",
+        "B08301_M001",
+        "GEO_ID",
+        "cbsa",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08301.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_cbsa_education_2024_5yr.json",
       "format": "JSON",
       "records": 935,
@@ -2060,6 +2083,29 @@
       ]
     },
     {
+      "file": "data/normalized/acs_cbsa_internet_2024_5yr.json",
+      "format": "JSON",
+      "records": 935,
+      "size_bytes": 354225,
+      "fields_sample": [
+        "B28002_E001",
+        "B28002_E002",
+        "B28002_E003",
+        "B28002_E004",
+        "B28002_E005",
+        "B28002_M001",
+        "GEO_ID",
+        "cbsa",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_cbsa_poverty_2024_5yr.json",
       "format": "JSON",
       "records": 935,
@@ -2104,6 +2150,52 @@
       ],
       "source_urls_sample": [
         "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_cbsa_rent_burden_2024_5yr.json",
+      "format": "JSON",
+      "records": 935,
+      "size_bytes": 350413,
+      "fields_sample": [
+        "B25070_E001",
+        "B25070_E002",
+        "B25070_E003",
+        "B25070_E004",
+        "B25070_E005",
+        "B25070_M001",
+        "GEO_ID",
+        "cbsa",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_cbsa_vehicles_2024_5yr.json",
+      "format": "JSON",
+      "records": 935,
+      "size_bytes": 353985,
+      "fields_sample": [
+        "B25044_E001",
+        "B25044_E002",
+        "B25044_E003",
+        "B25044_E004",
+        "B25044_E005",
+        "B25044_M001",
+        "GEO_ID",
+        "cbsa",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25044.dat"
       ]
     },
     {
@@ -3736,6 +3828,29 @@
       ]
     },
     {
+      "file": "data/normalized/acs_csa_commuting_2024_5yr.json",
+      "format": "JSON",
+      "records": 184,
+      "size_bytes": 69769,
+      "fields_sample": [
+        "B08301_E001",
+        "B08301_E002",
+        "B08301_E003",
+        "B08301_E004",
+        "B08301_E005",
+        "B08301_M001",
+        "GEO_ID",
+        "csa",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08301.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_csa_education_2024_5yr.json",
       "format": "JSON",
       "records": 184,
@@ -3796,6 +3911,29 @@
       ]
     },
     {
+      "file": "data/normalized/acs_csa_internet_2024_5yr.json",
+      "format": "JSON",
+      "records": 184,
+      "size_bytes": 69510,
+      "fields_sample": [
+        "B28002_E001",
+        "B28002_E002",
+        "B28002_E003",
+        "B28002_E004",
+        "B28002_E005",
+        "B28002_M001",
+        "GEO_ID",
+        "csa",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_csa_poverty_2024_5yr.json",
       "format": "JSON",
       "records": 184,
@@ -3840,6 +3978,52 @@
       ],
       "source_urls_sample": [
         "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_csa_rent_burden_2024_5yr.json",
+      "format": "JSON",
+      "records": 184,
+      "size_bytes": 68885,
+      "fields_sample": [
+        "B25070_E001",
+        "B25070_E002",
+        "B25070_E003",
+        "B25070_E004",
+        "B25070_E005",
+        "B25070_M001",
+        "GEO_ID",
+        "csa",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_csa_vehicles_2024_5yr.json",
+      "format": "JSON",
+      "records": 184,
+      "size_bytes": 69502,
+      "fields_sample": [
+        "B25044_E001",
+        "B25044_E002",
+        "B25044_E003",
+        "B25044_E004",
+        "B25044_E005",
+        "B25044_M001",
+        "GEO_ID",
+        "csa",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25044.dat"
       ]
     },
     {

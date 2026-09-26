@@ -1,0 +1,55 @@
+{
+  "retrieved_at": "2026-09-26T15:06:17.371987+00:00",
+  "format": "Joined table-based ACS summary files",
+  "tables": {
+    "acs_cbsa_commuting_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08301.dat",
+      "table": "B08301",
+      "records": 935,
+      "file": "data/normalized/acs_cbsa_commuting_2024_5yr.json"
+    },
+    "acs_cbsa_vehicles_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25044.dat",
+      "table": "B25044",
+      "records": 935,
+      "file": "data/normalized/acs_cbsa_vehicles_2024_5yr.json"
+    },
+    "acs_cbsa_internet_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat",
+      "table": "B28002",
+      "records": 935,
+      "file": "data/normalized/acs_cbsa_internet_2024_5yr.json"
+    },
+    "acs_cbsa_rent_burden_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat",
+      "table": "B25070",
+      "records": 935,
+      "file": "data/normalized/acs_cbsa_rent_burden_2024_5yr.json"
+    },
+    "acs_csa_commuting_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08301.dat",
+      "table": "B08301",
+      "records": 184,
+      "file": "data/normalized/acs_csa_commuting_2024_5yr.json"
+    },
+    "acs_csa_vehicles_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25044.dat",
+      "table": "B25044",
+      "records": 184,
+      "file": "data/normalized/acs_csa_vehicles_2024_5yr.json"
+    },
+    "acs_csa_internet_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat",
+      "table": "B28002",
+      "records": 184,
+      "file": "data/normalized/acs_csa_internet_2024_5yr.json"
+    },
+    "acs_csa_rent_burden_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat",
+      "table": "B25070",
+      "records": 184,
+      "file": "data/normalized/acs_csa_rent_burden_2024_5yr.json"
+    }
+  },
+  "note": "Keyless ACS 2024 5-year commuting, vehicle availability, internet access, and rent-burden profiles for CBSAs and CSAs."
+}

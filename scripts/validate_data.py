@@ -111,6 +111,10 @@ def main():
         geo: {label: load(f"acs_school_{geo}_{label}_2024_5yr.json") if geo != "unified" else load(f"acs_school_{label}_2024_5yr.json") for label in ("commuting", "vehicles", "internet", "rent_burden")}
         for geo in ("elementary", "secondary", "unified")
     }
+    acs_cbsa_csa_access_2024 = {
+        geo: {label: load(f"acs_{geo}_{label}_2024_5yr.json") for label in ("commuting", "vehicles", "internet", "rent_burden")}
+        for geo in ("cbsa", "csa")
+    }
     acs_cousub_2024 = {label: load(f"acs_cousub_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_school_2024 = {label: load(f"acs_school_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_school_elementary_2024 = {label: load(f"acs_school_elementary_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
@@ -479,6 +483,13 @@ def main():
             assert len(rows) == expected
             assert len({row.get("district_geoid") for row in rows}) == len(rows)
             assert all(row.get("district_geoid") and row.get("district_type") == geo and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
+    for geo, tables in acs_cbsa_csa_access_2024.items():
+        expected = 935 if geo == "cbsa" else 184
+        key = geo
+        for rows in tables.values():
+            assert len(rows) == expected
+            assert len({row.get(key) for row in rows}) == len(rows)
+            assert all(row.get(key) and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
     assert len(current_cabinet) >= 15
     assert len({row.get("title") for row in current_cabinet}) == len(current_cabinet)
     assert all(row.get("name") and row.get("title") and row.get("source") and row.get("retrieved_at") for row in current_cabinet)

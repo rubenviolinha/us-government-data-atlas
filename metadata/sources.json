@@ -1196,5 +1196,14 @@
     "format": "CSV",
     "license": "U.S. government public data",
     "notes": "Nationwide disaster-declaration summaries with declaration type, incident type, dates, state, and program indicators; public endpoint, no API key used. Published as four repository-safe parts."
+  },
+  {
+    "id": "census-acs-2024-cbsa-csa-access-profiles",
+    "name": "ACS 2024 5-Year CBSA and CSA Access Profiles",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/",
+    "format": "Delimited bulk summary files",
+    "license": "U.S. government public data",
+    "notes": "Keyless commuting, vehicle availability, internet access, and rent-burden profiles for 935 CBSAs and 184 CSAs."
   }
 ]
