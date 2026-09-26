@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26T19:41:57.627856+00:00",
-  "catalog_datasets": 735,
+  "generated_at": "2026-09-26T19:50:25.661332+00:00",
+  "catalog_datasets": 744,
   "domain_counts": {
     "Census ACS demographics": 494,
     "Climate and environment": 23,
@@ -9,7 +9,7 @@
     "FEC elections": 28,
     "Federal government": 4,
     "Metropolitan areas": 6,
-    "Other government reference data": 54,
+    "Other government reference data": 63,
     "PUMAs": 4,
     "Places": 7,
     "Public health": 70,

@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T19:41:57.559123+00:00",
+  "generated_at": "2026-09-26T19:50:25.575188+00:00",
   "algorithm": "sha256",
-  "dataset_count": 735,
+  "dataset_count": 744,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -2488,6 +2488,51 @@
       "file": "data/normalized/bls_qcew_2024_annual_aggregates.json",
       "sha256": "9d0e97682daf87e546487237b29628dbe352713e6c4e01e6f82114f05cce8004",
       "size_bytes": 3532198
+    },
+    {
+      "file": "data/normalized/bls_qcew_2024_county_private_industry_part1.json",
+      "sha256": "ecdd0bd5cc41325d40bbed6d907c285c360df205ec34c6613028f1ad6fe8e3a9",
+      "size_bytes": 24301929
+    },
+    {
+      "file": "data/normalized/bls_qcew_2024_county_private_industry_part2.json",
+      "sha256": "a84770f6db92f96aedb6f6ed05da6ed2df2539c4fa77457494edc98a5b018fe5",
+      "size_bytes": 24188640
+    },
+    {
+      "file": "data/normalized/bls_qcew_2024_county_private_industry_part3.json",
+      "sha256": "2abc5b33007786a5454135a4233a73fd0c64c7944e5045c7784b271d18c43620",
+      "size_bytes": 24130432
+    },
+    {
+      "file": "data/normalized/bls_qcew_2024_county_private_industry_part4.json",
+      "sha256": "ed46b96a99446960c60e44be0e5211ebb12bbf45e53ac54b78b39986d2916785",
+      "size_bytes": 24289898
+    },
+    {
+      "file": "data/normalized/bls_qcew_2024_county_private_industry_part5.json",
+      "sha256": "cdbefe1f0f4d315af6ed565aeee16b2b22e302d53f609a890914e762cba05770",
+      "size_bytes": 24225222
+    },
+    {
+      "file": "data/normalized/bls_qcew_2024_county_private_industry_part6.json",
+      "sha256": "51940800b972209d8f9a90f0a7a4ab0bae8dd1cd403b090b9578dc9d9bc40e10",
+      "size_bytes": 24304947
+    },
+    {
+      "file": "data/normalized/bls_qcew_2024_county_private_industry_part7.json",
+      "sha256": "c8fe72140d79d61d05610a87f693ba17b424d2540d088d170ae233957151772b",
+      "size_bytes": 24328602
+    },
+    {
+      "file": "data/normalized/bls_qcew_2024_county_private_industry_part8.json",
+      "sha256": "30ad666aaf8d33561c83f512a47071464a3dc350a4caf63b1a8782551c49cc7e",
+      "size_bytes": 24147023
+    },
+    {
+      "file": "data/normalized/bls_qcew_2024_county_private_industry_part9.json",
+      "sha256": "a2659cfc093857830c7521c1c092e258f65f2befeacf48f5e4661f45d45309ba",
+      "size_bytes": 22128650
     },
     {
       "file": "data/normalized/bts_aviation_facilities.json",

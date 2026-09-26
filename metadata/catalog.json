@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T19:41:46.862895+00:00",
+  "generated_at": "2026-09-26T19:50:15.370128+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -12708,6 +12708,276 @@
       ],
       "source_urls_sample": [
         "https://data.bls.gov/cew/data/files/2024/csv/2024_annual_singlefile.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/bls_qcew_2024_county_private_industry_part1.json",
+      "format": "JSON",
+      "records": 30000,
+      "size_bytes": 24301929,
+      "fields_sample": [
+        "aggregation_level_code",
+        "aggregation_level_title",
+        "area_fips",
+        "area_title",
+        "average_annual_pay",
+        "average_employment",
+        "average_establishments",
+        "average_weekly_wage",
+        "employment_percent_change",
+        "industry_code",
+        "industry_title",
+        "ownership_code",
+        "ownership_title",
+        "retrieved_at",
+        "source",
+        "total_annual_wages",
+        "vintage",
+        "wages_percent_change",
+        "year"
+      ],
+      "source_urls_sample": [
+        "https://data.bls.gov/cew/data/files/2024/csv/2024_annual_by_area.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/bls_qcew_2024_county_private_industry_part2.json",
+      "format": "JSON",
+      "records": 30000,
+      "size_bytes": 24188640,
+      "fields_sample": [
+        "aggregation_level_code",
+        "aggregation_level_title",
+        "area_fips",
+        "area_title",
+        "average_annual_pay",
+        "average_employment",
+        "average_establishments",
+        "average_weekly_wage",
+        "employment_percent_change",
+        "industry_code",
+        "industry_title",
+        "ownership_code",
+        "ownership_title",
+        "retrieved_at",
+        "source",
+        "total_annual_wages",
+        "vintage",
+        "wages_percent_change",
+        "year"
+      ],
+      "source_urls_sample": [
+        "https://data.bls.gov/cew/data/files/2024/csv/2024_annual_by_area.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/bls_qcew_2024_county_private_industry_part3.json",
+      "format": "JSON",
+      "records": 30000,
+      "size_bytes": 24130432,
+      "fields_sample": [
+        "aggregation_level_code",
+        "aggregation_level_title",
+        "area_fips",
+        "area_title",
+        "average_annual_pay",
+        "average_employment",
+        "average_establishments",
+        "average_weekly_wage",
+        "employment_percent_change",
+        "industry_code",
+        "industry_title",
+        "ownership_code",
+        "ownership_title",
+        "retrieved_at",
+        "source",
+        "total_annual_wages",
+        "vintage",
+        "wages_percent_change",
+        "year"
+      ],
+      "source_urls_sample": [
+        "https://data.bls.gov/cew/data/files/2024/csv/2024_annual_by_area.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/bls_qcew_2024_county_private_industry_part4.json",
+      "format": "JSON",
+      "records": 30000,
+      "size_bytes": 24289898,
+      "fields_sample": [
+        "aggregation_level_code",
+        "aggregation_level_title",
+        "area_fips",
+        "area_title",
+        "average_annual_pay",
+        "average_employment",
+        "average_establishments",
+        "average_weekly_wage",
+        "employment_percent_change",
+        "industry_code",
+        "industry_title",
+        "ownership_code",
+        "ownership_title",
+        "retrieved_at",
+        "source",
+        "total_annual_wages",
+        "vintage",
+        "wages_percent_change",
+        "year"
+      ],
+      "source_urls_sample": [
+        "https://data.bls.gov/cew/data/files/2024/csv/2024_annual_by_area.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/bls_qcew_2024_county_private_industry_part5.json",
+      "format": "JSON",
+      "records": 30000,
+      "size_bytes": 24225222,
+      "fields_sample": [
+        "aggregation_level_code",
+        "aggregation_level_title",
+        "area_fips",
+        "area_title",
+        "average_annual_pay",
+        "average_employment",
+        "average_establishments",
+        "average_weekly_wage",
+        "employment_percent_change",
+        "industry_code",
+        "industry_title",
+        "ownership_code",
+        "ownership_title",
+        "retrieved_at",
+        "source",
+        "total_annual_wages",
+        "vintage",
+        "wages_percent_change",
+        "year"
+      ],
+      "source_urls_sample": [
+        "https://data.bls.gov/cew/data/files/2024/csv/2024_annual_by_area.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/bls_qcew_2024_county_private_industry_part6.json",
+      "format": "JSON",
+      "records": 30000,
+      "size_bytes": 24304947,
+      "fields_sample": [
+        "aggregation_level_code",
+        "aggregation_level_title",
+        "area_fips",
+        "area_title",
+        "average_annual_pay",
+        "average_employment",
+        "average_establishments",
+        "average_weekly_wage",
+        "employment_percent_change",
+        "industry_code",
+        "industry_title",
+        "ownership_code",
+        "ownership_title",
+        "retrieved_at",
+        "source",
+        "total_annual_wages",
+        "vintage",
+        "wages_percent_change",
+        "year"
+      ],
+      "source_urls_sample": [
+        "https://data.bls.gov/cew/data/files/2024/csv/2024_annual_by_area.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/bls_qcew_2024_county_private_industry_part7.json",
+      "format": "JSON",
+      "records": 30000,
+      "size_bytes": 24328602,
+      "fields_sample": [
+        "aggregation_level_code",
+        "aggregation_level_title",
+        "area_fips",
+        "area_title",
+        "average_annual_pay",
+        "average_employment",
+        "average_establishments",
+        "average_weekly_wage",
+        "employment_percent_change",
+        "industry_code",
+        "industry_title",
+        "ownership_code",
+        "ownership_title",
+        "retrieved_at",
+        "source",
+        "total_annual_wages",
+        "vintage",
+        "wages_percent_change",
+        "year"
+      ],
+      "source_urls_sample": [
+        "https://data.bls.gov/cew/data/files/2024/csv/2024_annual_by_area.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/bls_qcew_2024_county_private_industry_part8.json",
+      "format": "JSON",
+      "records": 30000,
+      "size_bytes": 24147023,
+      "fields_sample": [
+        "aggregation_level_code",
+        "aggregation_level_title",
+        "area_fips",
+        "area_title",
+        "average_annual_pay",
+        "average_employment",
+        "average_establishments",
+        "average_weekly_wage",
+        "employment_percent_change",
+        "industry_code",
+        "industry_title",
+        "ownership_code",
+        "ownership_title",
+        "retrieved_at",
+        "source",
+        "total_annual_wages",
+        "vintage",
+        "wages_percent_change",
+        "year"
+      ],
+      "source_urls_sample": [
+        "https://data.bls.gov/cew/data/files/2024/csv/2024_annual_by_area.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/bls_qcew_2024_county_private_industry_part9.json",
+      "format": "JSON",
+      "records": 27309,
+      "size_bytes": 22128650,
+      "fields_sample": [
+        "aggregation_level_code",
+        "aggregation_level_title",
+        "area_fips",
+        "area_title",
+        "average_annual_pay",
+        "average_employment",
+        "average_establishments",
+        "average_weekly_wage",
+        "employment_percent_change",
+        "industry_code",
+        "industry_title",
+        "ownership_code",
+        "ownership_title",
+        "retrieved_at",
+        "source",
+        "total_annual_wages",
+        "vintage",
+        "wages_percent_change",
+        "year"
+      ],
+      "source_urls_sample": [
+        "https://data.bls.gov/cew/data/files/2024/csv/2024_annual_by_area.zip"
       ]
     },
     {

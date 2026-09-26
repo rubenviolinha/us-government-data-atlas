@@ -1376,5 +1376,14 @@
     "format": "Official ZIP CSV normalized to JSON",
     "license": "U.S. government public data",
     "notes": "4,451 all-industry/all-ownership annual aggregate rows across QCEW geographic levels, with establishments, employment, annual wages, weekly wage, annual pay, and year-over-year changes. No API key used."
+  },
+  {
+    "id": "bls-qcew-2024-state-county-private-industry",
+    "name": "BLS QCEW 2024 State and County Private Industry Summaries",
+    "publisher": "Bureau of Labor Statistics",
+    "url": "https://www.bls.gov/cew/",
+    "format": "Official ZIP CSV normalized to JSON shards",
+    "license": "U.S. government public data",
+    "notes": "267,309 state/county private-sector industry rows at sector/subsector level with establishment, employment, wage, annual-pay, and year-over-year change metrics. No API key used."
   }
 ]
