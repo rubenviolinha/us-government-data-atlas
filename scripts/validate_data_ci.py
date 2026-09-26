@@ -34,6 +34,35 @@ def main():
     assert len(states) >= 50
     assert len({row["abbr"] for row in states}) == len(states)
 
+    # Core scope checks for the original atlas brief: states/capitals,
+    # current and historical governors, senators, and representatives.
+    capitals = read_json(ROOT / "data/normalized/capital_validation.json")
+    assert len(capitals) == len(states) == 57
+    assert len({row["abbr"] for row in capitals}) == len(capitals)
+    assert all(row.get("status") for row in capitals)
+    assert all(row.get("capital") for row in capitals if row["abbr"] != "UM")
+
+    current_governors = read_json(ROOT / "data/normalized/current_governors_nga.json")
+    governors = read_json(ROOT / "data/normalized/governors_nga.json")
+    assert len(current_governors) >= 55
+    assert len({row["state"] for row in current_governors}) == len(current_governors)
+    assert len(governors) >= 2400
+    assert all(row.get("name") and row.get("state") for row in governors)
+
+    current_senators = read_json(ROOT / "data/normalized/current_senators.json")
+    senators = read_json(ROOT / "data/normalized/senators.json")
+    assert len(current_senators) == 100
+    assert len({row["id"].get("bioguide") for row in current_senators}) == len(current_senators)
+    assert len(senators) >= 2000
+    assert len({row["id"].get("bioguide") for row in senators}) == len(senators)
+
+    current_representatives = read_json(ROOT / "data/normalized/current_representatives.json")
+    representatives = read_json(ROOT / "data/normalized/representatives.json")
+    assert len(current_representatives) >= 435
+    assert len({row["id"].get("bioguide") for row in current_representatives}) == len(current_representatives)
+    assert len(representatives) >= 11000
+    assert len({row["id"].get("bioguide") for row in representatives}) == len(representatives)
+
     # Deep-check the newest ACS access profiles added in the latest release.
     for geography, expected in (("cbsa", 935), ("csa", 184)):
         for label in ("commuting", "vehicles", "internet", "rent_burden"):
