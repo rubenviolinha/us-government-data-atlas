@@ -1,0 +1,25 @@
+{
+  "retrieved_at": "2026-09-26T17:08:59.813372+00:00",
+  "source": "https://www.nps.gov/subjects/nationalregister/database-research.htm",
+  "source_download": "https://www.nps.gov/common/uploads/sortable_dataset/nationalregister/53699964-0893-68AA-5273CB1C614B8BB3/nri-national-register-listed20260522.csv",
+  "records": 100866,
+  "parts": [
+    {
+      "file": "data/normalized/nps_national_register_listed_2026_part1.json",
+      "records": 25216
+    },
+    {
+      "file": "data/normalized/nps_national_register_listed_2026_part2.json",
+      "records": 25217
+    },
+    {
+      "file": "data/normalized/nps_national_register_listed_2026_part3.json",
+      "records": 25216
+    },
+    {
+      "file": "data/normalized/nps_national_register_listed_2026_part4.json",
+      "records": 25217
+    }
+  ],
+  "note": "NPS National Register of Historic Places listed-properties public CSV; split into four repository-safe JSON parts."
+}

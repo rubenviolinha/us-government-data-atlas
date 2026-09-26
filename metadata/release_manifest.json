@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T17:02:56.578564+00:00",
+  "generated_at": "2026-09-26T17:10:16.954848+00:00",
   "algorithm": "sha256",
-  "dataset_count": 716,
+  "dataset_count": 720,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -3283,6 +3283,26 @@
       "file": "data/normalized/noaa_state_climate_1895_2025.json",
       "sha256": "a9f7a6441f27174e78c61454fcbf5c75fa4075d11a9590f2a874c04690ba8ffd",
       "size_bytes": 3956649
+    },
+    {
+      "file": "data/normalized/nps_national_register_listed_2026_part1.json",
+      "sha256": "3d2371026ff54c814b36e7080a75a250440e2b86b64fab7c9b4cf28366486cf3",
+      "size_bytes": 24587782
+    },
+    {
+      "file": "data/normalized/nps_national_register_listed_2026_part2.json",
+      "sha256": "e6db260d6d79fd1f1880bb6d7dea4053f2c51d27f51d35a80b8809de837c01d9",
+      "size_bytes": 24485467
+    },
+    {
+      "file": "data/normalized/nps_national_register_listed_2026_part3.json",
+      "sha256": "dd073d0ce9f896cfd6db3336d4f7aa9dc7946d25d61aacaf8c434276823acf45",
+      "size_bytes": 24469332
+    },
+    {
+      "file": "data/normalized/nps_national_register_listed_2026_part4.json",
+      "sha256": "2cfb465d2d03a55f65ec6b89bbbb3cc3d1c1cf81587d623fc99772c0c77f41c4",
+      "size_bytes": 24529824
     },
     {
       "file": "data/normalized/place_population_2020_2024.json",

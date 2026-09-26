@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T17:02:49.216062+00:00",
+  "generated_at": "2026-09-26T17:10:05.626788+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -17513,6 +17513,158 @@
       "source_urls_sample": [
         "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/50/pcp/12/12/1895-2025.json",
         "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series/50/tavg/12/12/1895-2025.json"
+      ]
+    },
+    {
+      "file": "data/normalized/nps_national_register_listed_2026_part1.json",
+      "format": "JSON",
+      "records": 25216,
+      "size_bytes": 24587782,
+      "fields_sample": [
+        "acreage_of_property",
+        "area_of_significance",
+        "category_of_property",
+        "city",
+        "county",
+        "external_link",
+        "level_of_significance_-_international",
+        "level_of_significance_-_local",
+        "level_of_significance_-_national",
+        "level_of_significance_-_not_indicated",
+        "level_of_significance_-_state",
+        "listed_date",
+        "nhl_designated_date",
+        "other_names",
+        "park_name",
+        "prefix",
+        "property_id",
+        "property_name",
+        "ref_number",
+        "request_type",
+        "restricted_address",
+        "retrieved_at",
+        "source",
+        "state",
+        "status",
+        "street_&_number",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www.nps.gov/subjects/nationalregister/database-research.htm"
+      ]
+    },
+    {
+      "file": "data/normalized/nps_national_register_listed_2026_part2.json",
+      "format": "JSON",
+      "records": 25217,
+      "size_bytes": 24485467,
+      "fields_sample": [
+        "acreage_of_property",
+        "area_of_significance",
+        "category_of_property",
+        "city",
+        "county",
+        "external_link",
+        "level_of_significance_-_international",
+        "level_of_significance_-_local",
+        "level_of_significance_-_national",
+        "level_of_significance_-_not_indicated",
+        "level_of_significance_-_state",
+        "listed_date",
+        "nhl_designated_date",
+        "other_names",
+        "park_name",
+        "prefix",
+        "property_id",
+        "property_name",
+        "ref_number",
+        "request_type",
+        "restricted_address",
+        "retrieved_at",
+        "source",
+        "state",
+        "status",
+        "street_&_number",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www.nps.gov/subjects/nationalregister/database-research.htm"
+      ]
+    },
+    {
+      "file": "data/normalized/nps_national_register_listed_2026_part3.json",
+      "format": "JSON",
+      "records": 25216,
+      "size_bytes": 24469332,
+      "fields_sample": [
+        "acreage_of_property",
+        "area_of_significance",
+        "category_of_property",
+        "city",
+        "county",
+        "external_link",
+        "level_of_significance_-_international",
+        "level_of_significance_-_local",
+        "level_of_significance_-_national",
+        "level_of_significance_-_not_indicated",
+        "level_of_significance_-_state",
+        "listed_date",
+        "nhl_designated_date",
+        "other_names",
+        "park_name",
+        "prefix",
+        "property_id",
+        "property_name",
+        "ref_number",
+        "request_type",
+        "restricted_address",
+        "retrieved_at",
+        "source",
+        "state",
+        "status",
+        "street_&_number",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www.nps.gov/subjects/nationalregister/database-research.htm"
+      ]
+    },
+    {
+      "file": "data/normalized/nps_national_register_listed_2026_part4.json",
+      "format": "JSON",
+      "records": 25217,
+      "size_bytes": 24529824,
+      "fields_sample": [
+        "acreage_of_property",
+        "area_of_significance",
+        "category_of_property",
+        "city",
+        "county",
+        "external_link",
+        "level_of_significance_-_international",
+        "level_of_significance_-_local",
+        "level_of_significance_-_national",
+        "level_of_significance_-_not_indicated",
+        "level_of_significance_-_state",
+        "listed_date",
+        "nhl_designated_date",
+        "other_names",
+        "park_name",
+        "prefix",
+        "property_id",
+        "property_name",
+        "ref_number",
+        "request_type",
+        "restricted_address",
+        "retrieved_at",
+        "source",
+        "state",
+        "status",
+        "street_&_number",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www.nps.gov/subjects/nationalregister/database-research.htm"
       ]
     },
     {

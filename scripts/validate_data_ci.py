@@ -100,7 +100,15 @@ def main():
     assert all(row.get("ppin") and row.get("pinst") and row.get("source") for row in private_schools)
     assert all(row.get("vintage") == "2023-24 PSS public-use file" for row in private_schools)
 
-    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)}")
+    register = []
+    for path in sorted((ROOT / "data" / "normalized").glob("nps_national_register_listed_2026_part*.json")):
+        register.extend(read_json(path))
+    assert len(register) >= 100000
+    assert len({(row["ref_number"], row.get("property_name"), row.get("listed_date"), row.get("status"), row.get("request_type")) for row in register}) == len(register)
+    assert all(row.get("ref_number") and row.get("property_name") and row.get("state") for row in register)
+    assert all(row.get("source") and row.get("vintage") == "NPS National Register listed properties through 2026-05-22" for row in register)
+
+    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)}")
 
 
 if __name__ == "__main__":
