@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-09-25",
-  "purpose": "Track external access or licensing needed for remaining atlas domains.",
+  "purpose": "Track external access or licensing needed for remaining atlas domains after the no-key public-data releases.",
   "requirements": [
     {
       "id": "census-acs-profile-data",
@@ -10,6 +10,15 @@
       "needed_from_user": "A Census API key only if broader variable/geography coverage beyond the checked-in bulk snapshots is required.",
       "why": "The Census API currently returns a missing-key response for data queries in this environment, but public table-based summary files support the checked-in state, county, place, and congressional-district extracts.",
       "keyless_fallback": "ACS table-based summary files from www2.census.gov"
+    },
+    {
+      "id": "cdc-places-health-data",
+      "domain": "public_health",
+      "status": "keyless_bulk_snapshot_available",
+      "source": "https://data.cdc.gov/d/4r2x-hcfq",
+      "needed_from_user": "Nothing for the checked-in 2024 county and ZCTA releases; future refreshes can use the same public Socrata endpoint.",
+      "why": "CDC PLACES publishes public county, place, tract, and ZCTA health-indicator releases. The atlas currently includes the 2024 county and ZCTA layers without credentials.",
+      "keyless_fallback": "https://data.cdc.gov/resource/4r2x-hcfq.json"
     },
     {
       "id": "usps-zip-reference",

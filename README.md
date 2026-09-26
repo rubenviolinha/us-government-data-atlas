@@ -77,6 +77,8 @@ python3 scripts/build_coverage_report.py
 python3 scripts/fetch_cdc_svi_2022_counties.py
 python3 scripts/fetch_cdc_svi_2022_tracts.py
 python3 scripts/fetch_cdc_svi_2022_zctas.py
+python3 scripts/fetch_cdc_places_2024_counties.py
+python3 scripts/fetch_cdc_places_2024_zctas.py
 python3 scripts/fetch_zcta_acs_2024.py
 python3 scripts/fetch_current_cabinet.py
 python3 scripts/fetch_secretaries_of_state.py
@@ -108,6 +110,8 @@ The ACS profile variable catalog is available at `data/normalized/acs_profile_va
 The keyless summary-file fallback `data/normalized/acs_state_age_sex_2023.json` contains state-level 2023 ACS 5-year B01001 age/sex estimates, with matching county-level profiles, place-level B19013/B25001/B02001 profiles, and 2023 ACS 1-year congressional-district profiles now included.
 
 Additional keyless ACS state profiles are available for B19013 income, B25001 housing units, and B02001 race in `data/normalized/`; the county files use the same public summary-file source and preserve estimates and margins of error.
+
+CDC PLACES 2024 county and ZCTA releases are included as long-form, sharded datasets with model-based health estimates, confidence limits, measure metadata, and CDC provenance. They use public Socrata bulk access and do not require an API key.
 
 ## Local API
 
