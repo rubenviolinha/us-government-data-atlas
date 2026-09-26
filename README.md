@@ -109,6 +109,8 @@ python3 scripts/validate_capitals.py
 
 The scripts use public Census endpoints and write retrieval manifests alongside the downloaded data. State capitals are included as an explicitly marked initial reference while state-government validation is added.
 
+The `Refresh public feeds` GitHub Actions workflow can also be run manually and runs weekly. It refreshes the rolling USGS earthquake feed, NOAA tide-station metadata, NWS observation-station metadata, and USGS active stream sites, then rebuilds and validates the release metadata. It uses only public endpoints and commits only validated changes.
+
 The GNIS script downloads the compact Government Units and Populated Places extracts (states, counties, cities, and other named places) rather than the much larger all-names archive.
 
 The district script extracts compact attribute tables from the 2020 and current 2025 TIGER congressional-district archives; the source archives remain available for geometry consumers.
