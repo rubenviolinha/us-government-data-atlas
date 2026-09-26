@@ -36,13 +36,13 @@
     "parameters": {
       "Group": {"name": "group", "in": "path", "required": true, "schema": {"type": "string"}},
       "Filename": {"name": "filename", "in": "path", "required": true, "schema": {"type": "string"}},
-      "Limit": {"name": "limit", "in": "query", "schema": {"type": "integer", "minimum": 1, "maximum": 1000, "default": 1000}},
+      "Limit": {"name": "limit", "in": "query", "description": "Maximum number of records returned. The server defaults to 100 and caps this value at 1,000.", "schema": {"type": "integer", "minimum": 1, "maximum": 1000, "default": 100}},
       "Offset": {"name": "offset", "in": "query", "schema": {"type": "integer", "minimum": 0, "default": 0}},
       "Contains": {"name": "field__contains", "in": "query", "description": "Text containment filter. Any exact-match field may also be supplied as a query parameter.", "schema": {"type": "string"}}
     },
     "responses": {
       "Catalog": {"description": "Catalog metadata and entries", "content": {"application/json": {"schema": {"type": "object", "required": ["entries"], "properties": {"entries": {"type": "array", "items": {"type": "object"}}}}}}},
-      "Dataset": {"description": "Dataset records and pagination metadata", "content": {"application/json": {"schema": {"type": "object", "required": ["records", "count"], "properties": {"dataset": {"type": "string"}, "records": {"type": "array", "items": {"type": "object"}}, "count": {"type": "integer"}, "total": {"type": "integer"}, "limit": {"type": "integer"}, "offset": {"type": "integer"}}}}}}
+      "Dataset": {"description": "Dataset records and pagination metadata", "content": {"application/json": {"schema": {"type": "object", "required": ["data", "count", "total", "offset"], "properties": {"data": {"type": "array", "items": {"type": "object"}}, "count": {"type": "integer"}, "total": {"type": "integer"}, "offset": {"type": "integer"}, "group": {"type": "string"}, "source_urls": {"type": "array", "items": {"type": "string", "format": "uri"}}}}}}}
     }
   }
 }

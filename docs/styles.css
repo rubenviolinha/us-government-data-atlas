@@ -13,7 +13,7 @@ nav a:hover,.wordmark:hover { color:var(--link); }
 .intro { padding:72px 0 52px; max-width:780px; }
 .kicker,.section-label { color:var(--link); font-size:.75rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; }
 .kicker { margin:0 0 16px; }
-h1 { max-width:700px; margin:0; font-size:clamp(2.5rem,6vw,4.5rem); line-height:1.04; letter-spacing:-.055em; font-weight:750; }
+h1 { max-width:700px; margin:0; font-size:clamp(2.25rem,5vw,3.75rem); line-height:1.08; letter-spacing:-.045em; font-weight:720; }
 .intro-copy { max-width:650px; margin:22px 0 0; color:var(--muted); font-size:1.2rem; }
 .intro-links { display:flex; align-items:center; gap:18px; margin-top:28px; }
 .button { display:inline-block; padding:9px 15px; border:1px solid #b8c5d3; border-radius:6px; color:var(--ink); background:#fff; text-decoration:none; font-weight:650; }
@@ -43,6 +43,8 @@ pre code { padding:0; background:none; color:#263445; }
 .link-list a { display:block; padding:14px; border:1px solid var(--line); border-radius:6px; text-decoration:none; }
 .link-list strong,.link-list span { display:block; }
 .link-list span { color:var(--muted); font-size:.9rem; }
+.plain-list { margin:18px 0 0; padding-left:20px; color:var(--muted); }
+.plain-list li+li { margin-top:8px; }
 .sidebar { padding-top:28px; }
 .side-card { margin-bottom:16px; padding:16px; border:1px solid var(--line); border-radius:6px; background:var(--wash); }
 .side-card p { margin-bottom:0; font-size:.9rem; }
