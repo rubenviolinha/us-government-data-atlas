@@ -94,6 +94,7 @@ def main():
     acs_school_secondary_2024 = {label: load(f"acs_school_secondary_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_consolidated_city_2024 = {label: load(f"acs_consolidated_city_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_anrc_2024 = {label: load(f"acs_alaska_native_regional_corporation_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
+    acs_puma_2024_5yr = {label: load(f"acs_puma_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_principal_city_2024 = {label: load(f"acs_principal_city_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_metropolitan_division_2024 = {label: load(f"acs_metropolitan_division_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_other_special_2024 = {
@@ -475,6 +476,10 @@ def main():
         assert len(rows) >= 36000, f"ACS 2024 county subdivision {label} coverage too small"
         assert len({row["county_subdivision_geoid"] for row in rows}) == len(rows)
         assert all(row.get("GEO_ID", "").startswith("0600000US") and len(row.get("county_subdivision_geoid", "")) == 10 and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
+    for label, rows in acs_puma_2024_5yr.items():
+        assert len(rows) == 2486, f"ACS 2024 PUMA {label} coverage mismatch"
+        assert len({row["puma_geoid"] for row in rows}) == len(rows)
+        assert all(row.get("GEO_ID", "").startswith("795P200US") and len(row.get("puma_geoid", "")) == 7 and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
     for label, rows in acs_school_2024.items():
         assert len(rows) >= 10000, f"ACS 2024 school district {label} coverage too small"
         assert len({row["district_geoid"] for row in rows}) == len(rows)
