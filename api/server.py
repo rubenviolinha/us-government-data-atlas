@@ -26,10 +26,11 @@ def dataset_groups(catalog):
         stem = filename.removesuffix(".json")
         match = re.match(r"^(.*)_part\d+$", stem)
         name = match.group(1) if match else stem
-        group = groups.setdefault(name, {"name": name, "files": [], "records": 0, "shards": 0})
+        group = groups.setdefault(name, {"name": name, "files": [], "records": 0, "shards": 0, "source_urls": []})
         group["files"].append(filename)
         group["records"] += entry.get("records", 0)
         group["shards"] += 1 if match else 0
+        group["source_urls"] = sorted(set(group["source_urls"]) | set(entry.get("source_urls_sample", [])))
     return sorted(groups.values(), key=lambda item: item["name"])
 
 
@@ -93,7 +94,8 @@ class Handler(BaseHTTPRequestHandler):
             except ValueError:
                 return self.send_json({"error": "limit and offset must be integers"}, 400)
             page = filtered[offset:offset + limit]
-            return self.send_json({"data": page, "total": len(filtered), "count": len(page), "offset": offset, "group": group})
+            metadata = next(item for item in dataset_groups(catalog) if item["name"] == group)
+            return self.send_json({"data": page, "total": len(filtered), "count": len(page), "offset": offset, "group": group, "source_urls": metadata["source_urls"]})
         if path == "/sources":
             return self.send_json(read_json(SOURCES))
         if path in {"/access-requirements", "/access_requirements"}:

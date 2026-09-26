@@ -54,7 +54,6 @@ class ApiSmokeTests(unittest.TestCase):
         self.assertEqual(status, 200)
         self.assertEqual(payload["count"], 1)
         self.assertEqual(payload["data"][0]["name"], "California")
-
         status, payload = self.get("/datasets/states.json?name__contains=land")
         self.assertEqual(status, 200)
         self.assertGreaterEqual(payload["total"], 1)
@@ -80,6 +79,7 @@ class ApiSmokeTests(unittest.TestCase):
         self.assertEqual(status, 200)
         self.assertEqual(payload["count"], 1)
         self.assertEqual(payload["data"][0]["name"], "California")
+        self.assertIn("source_urls", payload)
 
 
 if __name__ == "__main__":
