@@ -88,7 +88,13 @@ def main():
     assert all(row.get("ncessch") and row.get("leaid") and row.get("sch_name") for row in schools)
     assert all(row.get("source") and row.get("vintage") == "2024-25 CCD public school universe" for row in schools)
 
-    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)}")
+    districts = read_json(ROOT / "data/normalized/nces_public_districts_2024_25.json")
+    assert len(districts) >= 19000
+    assert len({row["leaid"] for row in districts}) == len(districts)
+    assert all(row.get("leaid") and row.get("lea_name") and row.get("source") for row in districts)
+    assert all(row.get("vintage") == "2024-25 CCD public LEA universe" for row in districts)
+
+    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)}")
 
 
 if __name__ == "__main__":

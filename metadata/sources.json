@@ -1250,5 +1250,14 @@
     "format": "Official CSV inside ZIP archive",
     "license": "U.S. government public data",
     "notes": "101,333 public-school records with NCES identifiers, district linkage, names, addresses, contacts, status, school type, charter flag, and grade range. No API key used; release is split into two JSON parts."
+  },
+  {
+    "id": "nces-ccd-public-districts-2024-25",
+    "name": "NCES Common Core of Data 2024-25 Public LEA Universe",
+    "publisher": "National Center for Education Statistics",
+    "url": "https://nces.ed.gov/ccd/pau_rev.asp",
+    "format": "Official CSV inside ZIP archive",
+    "license": "U.S. government public data",
+    "notes": "19,484 public local education agency records with NCES district identifiers, names, addresses, contacts, administrative status, type, charter flag, grade range, and operational-school counts. No API key used."
   }
 ]

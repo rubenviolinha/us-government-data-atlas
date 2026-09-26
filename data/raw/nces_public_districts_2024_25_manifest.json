@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-09-26T16:32:00.561238+00:00",
+  "source": "https://nces.ed.gov/ccd/pau_rev.asp",
+  "source_download": "https://nces.ed.gov/ccd/Data/zip/ccd_lea_029_2425_w_0a_051425.zip",
+  "records": 19484,
+  "file": "data/normalized/nces_public_districts_2024_25.json",
+  "note": "NCES Common Core of Data 2024-25 public local education agency universe; no API key used."
+}
