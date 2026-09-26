@@ -14,6 +14,7 @@ SOURCES = ROOT / "metadata" / "sources.json"
 ACCESS_REQUIREMENTS = ROOT / "metadata" / "access_requirements.json"
 OPENAPI = ROOT / "docs" / "openapi.json"
 RELEASE_MANIFEST = ROOT / "metadata" / "release_manifest.json"
+COVERAGE_REPORT = ROOT / "metadata" / "coverage_report.json"
 
 
 def read_json(path):
@@ -77,6 +78,8 @@ class Handler(BaseHTTPRequestHandler):
             return self.send_json(read_json(OPENAPI))
         if path == "/release-manifest":
             return self.send_json(read_json(RELEASE_MANIFEST))
+        if path == "/coverage":
+            return self.send_json(read_json(COVERAGE_REPORT))
         if path in {"/", "/catalog", "/datasets"}:
             return self.send_json(read_json(CATALOG))
         if path == "/dataset-groups":

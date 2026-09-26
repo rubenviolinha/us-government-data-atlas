@@ -55,6 +55,12 @@ class ApiSmokeTests(unittest.TestCase):
         self.assertEqual(payload["dataset_count"], len(payload["datasets"]))
         self.assertTrue(all(len(item["sha256"]) == 64 for item in payload["datasets"]))
 
+    def test_coverage_report(self):
+        status, payload = self.get("/coverage")
+        self.assertEqual(status, 200)
+        self.assertEqual(payload["catalog_datasets"], 1022)
+        self.assertIn("domain_counts", payload)
+
     def test_cors_and_preflight(self):
         status, headers = self.options("/catalog")
         self.assertEqual(status, 204)
