@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-09-26T22:31:21.218720+00:00",
+  "dataset_file_count": 1022,
+  "logical_group_count": 593,
+  "total_records": 21118480,
+  "source_count": 170,
+  "largest_datasets": [
+    {
+      "file": "data/normalized/gnis_populated_places.json",
+      "records": 190923
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2025_part2.json",
+      "records": 102261
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2025_part3.json",
+      "records": 102261
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2025_part4.json",
+      "records": 102261
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2025_part1.json",
+      "records": 102260
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2025_part1.json",
+      "records": 102228
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2025_part2.json",
+      "records": 102228
+    },
+    {
+      "file": "data/normalized/noaa_county_climate_annual_precipitation_1895_2025_part3.json",
+      "records": 102228
+    }
+  ]
+}

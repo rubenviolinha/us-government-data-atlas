@@ -204,6 +204,8 @@ Then use `GET /health`, `GET /catalog`, `GET /dataset-groups`, `GET /dataset-gro
 
 Exact-match filters are case-insensitive, and text containment filters use the `field__contains=value` form (for example, `/datasets/states.json?name__contains=land`). The API smoke tests run in CI with `python -m unittest tests/test_api.py`.
 
+The hosted [API documentation](https://rubenviolinha.github.io/us-government-data-atlas/) explains the endpoint contract, filtering, pagination, provenance files, and local setup. GitHub Pages hosts the reference site; the Python API remains local or self-hosted.
+
 See [CONTRIBUTING.md](CONTRIBUTING.md) for provenance, licensing, and refresh requirements. The repository code is MIT-licensed; dataset terms remain source-specific.
 
 `metadata/release_manifest.json` fingerprints each normalized dataset with SHA-256 hashes for reproducible comparisons between releases.
