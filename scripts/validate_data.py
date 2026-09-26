@@ -89,6 +89,10 @@ def main():
     zcta_acs_2024 = load("zcta_profiles_acs_2024.json")
     zcta_population_acs_2024 = load("zcta_population_acs_2024.json")
     zcta_detail_2024 = {label: load(f"acs_zcta_{label}_2024_5yr.json") for label in ("income_distribution", "median_age", "median_gross_rent", "rooms")}
+    county_place_detail_2024 = {
+        geo: {label: load(f"acs_{geo}_{label}_2024_5yr.json") for label in ("income_distribution", "median_age", "median_gross_rent", "rooms")}
+        for geo in ("county", "place")
+    }
     acs_cousub_2024 = {label: load(f"acs_cousub_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_school_2024 = {label: load(f"acs_school_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_school_elementary_2024 = {label: load(f"acs_school_elementary_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
@@ -396,6 +400,13 @@ def main():
         assert len(rows) == len(zcta_acs_2024)
         assert len({row.get("zcta") for row in rows}) == len(rows)
         assert all(row.get("zcta") and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
+    for geo, tables in county_place_detail_2024.items():
+        expected = 3222 if geo == "county" else 32330
+        key = f"{geo}_geoid"
+        for rows in tables.values():
+            assert len(rows) == expected
+            assert len({row.get(key) for row in rows}) == len(rows)
+            assert all(row.get(key) and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
     assert len(current_cabinet) >= 15
     assert len({row.get("title") for row in current_cabinet}) == len(current_cabinet)
     assert all(row.get("name") and row.get("title") and row.get("source") and row.get("retrieved_at") for row in current_cabinet)

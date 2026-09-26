@@ -1,0 +1,55 @@
+{
+  "retrieved_at": "2026-09-26T14:18:01.264056+00:00",
+  "format": "Joined table-based ACS summary files",
+  "tables": {
+    "acs_county_income_distribution_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19001.dat",
+      "table": "B19001",
+      "records": 3222,
+      "file": "data/normalized/acs_county_income_distribution_2024_5yr.json"
+    },
+    "acs_county_median_age_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01002.dat",
+      "table": "B01002",
+      "records": 3222,
+      "file": "data/normalized/acs_county_median_age_2024_5yr.json"
+    },
+    "acs_county_median_gross_rent_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25064.dat",
+      "table": "B25064",
+      "records": 3222,
+      "file": "data/normalized/acs_county_median_gross_rent_2024_5yr.json"
+    },
+    "acs_county_rooms_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25041.dat",
+      "table": "B25041",
+      "records": 3222,
+      "file": "data/normalized/acs_county_rooms_2024_5yr.json"
+    },
+    "acs_place_income_distribution_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19001.dat",
+      "table": "B19001",
+      "records": 32330,
+      "file": "data/normalized/acs_place_income_distribution_2024_5yr.json"
+    },
+    "acs_place_median_age_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01002.dat",
+      "table": "B01002",
+      "records": 32330,
+      "file": "data/normalized/acs_place_median_age_2024_5yr.json"
+    },
+    "acs_place_median_gross_rent_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25064.dat",
+      "table": "B25064",
+      "records": 32330,
+      "file": "data/normalized/acs_place_median_gross_rent_2024_5yr.json"
+    },
+    "acs_place_rooms_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25041.dat",
+      "table": "B25041",
+      "records": 32330,
+      "file": "data/normalized/acs_place_rooms_2024_5yr.json"
+    }
+  },
+  "note": "Detailed income-distribution, median-age, median-gross-rent, and rooms profiles for ACS 2024 5-year counties and places; no API key used."
+}
