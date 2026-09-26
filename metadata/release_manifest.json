@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T19:50:25.575188+00:00",
+  "generated_at": "2026-09-26T20:06:29.967805+00:00",
   "algorithm": "sha256",
-  "dataset_count": 744,
+  "dataset_count": 957,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -3023,6 +3023,1071 @@
       "file": "data/normalized/elementary_school_districts_2025.json",
       "sha256": "febbabe29a4aef6e373974cf7975742b9aaf739b30134dfad41df45667b06087",
       "size_bytes": 673683
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part1.json",
+      "sha256": "3e83bd28a9190885bf03aca33de3dc5e9ba2328f4b763c5587c116bda44f7a59",
+      "size_bytes": 10325761
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part10.json",
+      "sha256": "b1f716081eb662a8b274df05f47817d0919098e3cf9e90a759dc1ec368ba6aad",
+      "size_bytes": 10275672
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part100.json",
+      "sha256": "b5d99ee40330249350b52563cf75de24d07697cf71e7989969ee35bee67d676b",
+      "size_bytes": 10320520
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part101.json",
+      "sha256": "51bfa8307810f15653b0e4aab26107faf3ecfa5781fe73a207f847ac785f56e1",
+      "size_bytes": 9940961
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part102.json",
+      "sha256": "fbf0478bf820201e51c72d9def688864b91208d8ae6f76b127ea2125f6e122de",
+      "size_bytes": 10245162
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part103.json",
+      "sha256": "9e946a9806e904765e1003d10858b0a69ced10c0eaefe4eb679ffa1cca34dac7",
+      "size_bytes": 10251276
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part104.json",
+      "sha256": "634d4b7f4795e92a14d3bc66e282d6095ddeb34536eea1ff8988081de5e032c5",
+      "size_bytes": 10027449
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part105.json",
+      "sha256": "bb1f57e825dfae95d05712d3885e19863f880c590e5b3ed3199273fd54199798",
+      "size_bytes": 10106622
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part106.json",
+      "sha256": "3e3da7b81ab95610de1a27d5d36b3a635a8a8425f984da898588d9fb4666286a",
+      "size_bytes": 10298879
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part107.json",
+      "sha256": "3f2b3ea933a099d1a83319b5eea43e12b1c20ac8e40bea342539696906579683",
+      "size_bytes": 10271804
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part108.json",
+      "sha256": "aa6e959e66526c803c0e5f85f98453863b00364075750eb9b16bdba1f59fd7fc",
+      "size_bytes": 10274417
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part109.json",
+      "sha256": "5f263de3a046211e7258baf2abdb2481fef44b1551df24e118b479ec60bb9014",
+      "size_bytes": 10301409
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part11.json",
+      "sha256": "0bf417c1943db254906c1078909473a667a836d890b9fad7540117293121bb43",
+      "size_bytes": 10309823
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part110.json",
+      "sha256": "fb4903d7b534b74f55ac95fdf2bdde1188582e1eb12b712db6abb8ab613b969a",
+      "size_bytes": 10315779
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part111.json",
+      "sha256": "a174b5157eb1f5156844c13a418b8dafa2a3ef38aee63f6ab42d04f8361092cf",
+      "size_bytes": 10285082
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part112.json",
+      "sha256": "04008a75a508caf8a0da65089625db9dd8746b0d4066a0b1e74a3032a10470ab",
+      "size_bytes": 10304506
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part113.json",
+      "sha256": "6e3a0c2e3957b1d1f32beabf506f2f7f102d8233726f3e7e33f1b6ad86e3f7f4",
+      "size_bytes": 10278065
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part114.json",
+      "sha256": "049029b70b7e850e9bfb2487a104937cc6ad50f29b5274765f9da73be40031d7",
+      "size_bytes": 9471688
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part115.json",
+      "sha256": "7b4647552e24715dd89c216c3628aa106299eb6232826b541dc73c2ce7fac6d8",
+      "size_bytes": 10118555
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part116.json",
+      "sha256": "96ba58e8d679559d02901e45b00559f16c307cfe331dbe8e8a4ac9804d9a3891",
+      "size_bytes": 10267118
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part117.json",
+      "sha256": "26e14bdb4bd463e9410ae5d3d3d0f0bbb0ea27654c4da51665cbbb7ec2e1dd2b",
+      "size_bytes": 10239332
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part118.json",
+      "sha256": "10ff1f970c5c364eacb78ae6c25c2788322ddb2fdba37bda01100d4ae7c7cc56",
+      "size_bytes": 10288094
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part119.json",
+      "sha256": "d2a06f7918f6a43878eeeb3e9853a583232a85cd1898ade832509d9b5062700b",
+      "size_bytes": 9889737
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part12.json",
+      "sha256": "edfbae50f6a2af06e5a80d50f39a499b2d9b66ac308e08b62a84aa31e48d9f2e",
+      "size_bytes": 10302897
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part120.json",
+      "sha256": "baa719592200be33840d427bad38e19d230b52231099e0dcd8af2d37c8727b30",
+      "size_bytes": 10305805
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part121.json",
+      "sha256": "96db3580e1d73649c478d34b76266d2756381d1d38a3f04a5c031bc2af572c00",
+      "size_bytes": 10274833
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part122.json",
+      "sha256": "8c7cf5ee66e8bfecf00ce0ed31885e79620202ac162ebdf698ce5f0e17d47d88",
+      "size_bytes": 10331540
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part123.json",
+      "sha256": "5740ee36d42f3a9450bd99e6fae139286e98a1869c98a3f81f9147f86333ca3f",
+      "size_bytes": 10204074
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part124.json",
+      "sha256": "7c221d531af566f4c3165f63640a8b2bc95a9701c80877ad79f719242322c714",
+      "size_bytes": 10305608
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part125.json",
+      "sha256": "44f07fcdcd468229214a558a5adf4082e2dd0c6106d2ffb6d37efa7f2750c89e",
+      "size_bytes": 10304950
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part126.json",
+      "sha256": "f3c6bd10a604bf0a8b5267fefedbe62b375769ee4028ce711cbb691fec12342e",
+      "size_bytes": 10316711
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part127.json",
+      "sha256": "403f1e23fff8ab7c9d48f25f29e987fcc009343e2fa18abf7560b2091f8a6798",
+      "size_bytes": 9327987
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part128.json",
+      "sha256": "01ed3abca463fbffd3bee22304c82ac2b7e20875177d7b91007e130c05b8cf63",
+      "size_bytes": 10166008
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part129.json",
+      "sha256": "0edd6794c413dd17b21bb5c4bd1017ea1816c74da50e831245b46e9fdb9f0a9e",
+      "size_bytes": 10149936
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part13.json",
+      "sha256": "ac4fbd52ba3e071e7ca1ecf5aa4ce4f50d561aa0a4ffe23533338d16460d6547",
+      "size_bytes": 10363057
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part130.json",
+      "sha256": "9196e9cfb5178fa29ede102589eeede18932d035b9011779444547a03484a4e9",
+      "size_bytes": 10060552
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part131.json",
+      "sha256": "c58248c7433f0039de6929eb8396da19c1464610d92a719ad45ca7d7b1694ae3",
+      "size_bytes": 10178084
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part132.json",
+      "sha256": "92a8e1ad0a8106266cb76a92055431b3ad4e28a4a5ea688d75abd88f047a5d21",
+      "size_bytes": 10092801
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part133.json",
+      "sha256": "401d2459dbf1cb81a10665ba9fba7a4815cc5d147fc907337df3950473a57bca",
+      "size_bytes": 10221328
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part134.json",
+      "sha256": "ad6e2bfde8c9cce3f42b9a2f3d014972f747766734556b2fe30df9a90bc95684",
+      "size_bytes": 10209478
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part135.json",
+      "sha256": "b09f506aff652b2b7dfd8663828d74b9305f33c5c93bac386b9a99dae16d85b3",
+      "size_bytes": 10228306
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part136.json",
+      "sha256": "90703394c172194ff80e928c9fa98486986487596f80cf253d9893fe74623e5b",
+      "size_bytes": 10211460
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part137.json",
+      "sha256": "d11f108e5d8d51c1f05c12f4353d4ea3c7f5b1a5a324b96cb5196edf419e6095",
+      "size_bytes": 10198449
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part138.json",
+      "sha256": "07a9b66813cf8cd705ad06a7881203bf063d59724a88a8030cdec1ac0d10d84c",
+      "size_bytes": 10202551
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part139.json",
+      "sha256": "c875a2ab2aceb7dd95c1e33ff340ba1ced9fe94d92466ac41a19af5f3dbe76db",
+      "size_bytes": 10234653
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part14.json",
+      "sha256": "1696a7b480f7bed09f2edb5797fd29c9ab76251340b95e85920c9c10636b2051",
+      "size_bytes": 10339429
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part140.json",
+      "sha256": "15af2aea40d40325ce9ba58ca661f569fb1b8fd26c936c577c85f328e77f098f",
+      "size_bytes": 10217697
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part141.json",
+      "sha256": "f9abadf3aa7f0a49e7fa017f45dd98ccc87db3d4775efcf99fdb4e97b0f2dbd1",
+      "size_bytes": 10247200
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part142.json",
+      "sha256": "5c7ef251138f5cbe37ac4b91041ba4121352c4414257812eb7038f60908c2b74",
+      "size_bytes": 10237045
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part143.json",
+      "sha256": "3c592b4805aa1986b024d7a4d841099588ac369d2dbeb112142d6405e31a1383",
+      "size_bytes": 10182282
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part144.json",
+      "sha256": "e5f8fd203731e0d73990598d43949113a4080262dd6a6945a45e378453e8518e",
+      "size_bytes": 10238505
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part145.json",
+      "sha256": "1b32faa4a1af37f6c451ba1bbe18ecc35203dd43ce4ce53b930f757c423d2b29",
+      "size_bytes": 9804604
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part146.json",
+      "sha256": "fadc133a6458d2d1d518bbc07103b4e147dcb7efc2dc5b695da1c348d7ed9215",
+      "size_bytes": 10361134
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part147.json",
+      "sha256": "e3445963ff1045357f3ba4b727b2baf60df240f997fa5e44a4c845d45f1c16f7",
+      "size_bytes": 10249103
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part148.json",
+      "sha256": "d0ed000647fa3fb6ca1b8dc56ae296b8d0f44a9c9da15358089e9116f01be27e",
+      "size_bytes": 10231642
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part149.json",
+      "sha256": "8a7e46da641d47de32e8cc8f566712e60d346851dd19e3ff9fa1ef5aa18f80bc",
+      "size_bytes": 10180589
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part15.json",
+      "sha256": "06cb2dd5f0a09f68c74cefeac3a18e16551ae0e0bf4d9d585b91e7e37bf60062",
+      "size_bytes": 10309737
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part150.json",
+      "sha256": "cd03de5c7e628c3bc46e70237f3329e44dff91047c137302760be0a35eba5fda",
+      "size_bytes": 10291947
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part151.json",
+      "sha256": "764d35926abb9f98ac3d8f28bf586e3eb588c38eabd615c2afee1373215dd0d2",
+      "size_bytes": 10306761
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part152.json",
+      "sha256": "a1956acccf623daf58a00f1ddfc6ef44796a5d922d7f8d44555d13e05d2b54ae",
+      "size_bytes": 10304449
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part153.json",
+      "sha256": "8bb774cff0082b6c4372d7b75ce80d9589e94d729a13dd13589626f7134055d9",
+      "size_bytes": 10307155
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part154.json",
+      "sha256": "8a83db9dc5fc0f25305c88bf246c3594cf3fb10a2313def6b0ea48b5f46820c5",
+      "size_bytes": 10261038
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part155.json",
+      "sha256": "a2737115b592687cc907048e9533215a262293a4dc6a5b6163155837b0bf5e42",
+      "size_bytes": 10405673
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part156.json",
+      "sha256": "f5b4dc812afc681895e12c1e8bab46a7c569e4ca5eb24899d246430583c679e6",
+      "size_bytes": 10311204
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part157.json",
+      "sha256": "3081e0c34e9cc49932a92096767bf0e3bea47aa52197ac6918e4e6b4659e5311",
+      "size_bytes": 10323329
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part158.json",
+      "sha256": "e174406c285eca744dbd41bb98c0899c3ee915d0403ee7379a379e60376e6770",
+      "size_bytes": 10340634
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part159.json",
+      "sha256": "a5b39802708532492d929894fa067c1297505d5c0220ff6d1a69a93838b87679",
+      "size_bytes": 9919950
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part16.json",
+      "sha256": "2ed9f7d68482f8336bad524bafb0255e995a64e8050e4427dcdb2e68ce9f72a6",
+      "size_bytes": 10291265
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part160.json",
+      "sha256": "ef5397d02aea29d2c813310ac74cab58c0ea1cc38926787a866e3e53cc260cf3",
+      "size_bytes": 10283829
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part161.json",
+      "sha256": "f406f989921e58813758b9f27e6413815cae6479d717d551884607cb23e8d0e9",
+      "size_bytes": 10257886
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part162.json",
+      "sha256": "cbb080ba2bdcf529aa98c256c46b312d7dabf14acd26e8f9f4644628c991e4f7",
+      "size_bytes": 10255715
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part163.json",
+      "sha256": "77109c390782c8c033da053c1ede002102c34c750bb54f5c522469e906716877",
+      "size_bytes": 10136067
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part164.json",
+      "sha256": "4e7375083fb73544cbd41cdc3223b812fee3668ddf67836c1ec4245b2ff582f2",
+      "size_bytes": 10092289
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part165.json",
+      "sha256": "1eaaeeeeff3be7fe8df5a628f14d73513caa74bbfb85fdc6bea045e8e1b5e0f9",
+      "size_bytes": 10550240
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part166.json",
+      "sha256": "2bacf6588f791cc4851f7dc6ef9f3d4c8d8d46a1e987d9d63b1e381b226b0afa",
+      "size_bytes": 10102590
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part167.json",
+      "sha256": "23efaa28d80afd03b31ffd9af1668400f08156d6580d1a62c31d7c7eb39834fb",
+      "size_bytes": 10272449
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part168.json",
+      "sha256": "77fa66ea49a09dfa41746351cb2412aa8d37d84ab5b3dc1259a4f0e5d458e447",
+      "size_bytes": 10235790
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part169.json",
+      "sha256": "1fbf0c09c7dc4c51f4e827a1ab615d402f0089c555288d18e85b6ad9f66b5e87",
+      "size_bytes": 10182795
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part17.json",
+      "sha256": "b46b5c0b4df169b0417f2feed240d2170085d5090c3b6cd7616712f53fff9718",
+      "size_bytes": 10348572
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part170.json",
+      "sha256": "4e4dbd865fe99db2b460c0dcbb6693bc82a24ad1d9cf8c56afc71c47ce766df7",
+      "size_bytes": 10346369
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part171.json",
+      "sha256": "a7dd18e771f3a29ff608e431a1e8927d3bc3ed06c47b85f6a748aec9a9d716d8",
+      "size_bytes": 10387811
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part172.json",
+      "sha256": "f4db1052a765b54c9a3c366547c0e766b229bcb91052b55a57da8cd87cd90d53",
+      "size_bytes": 10417211
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part173.json",
+      "sha256": "f10fffa163f72e6051e02668241d2dd2b521d3e307dafea1a64f3a7184d463b5",
+      "size_bytes": 9848480
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part174.json",
+      "sha256": "a3fc72a882df4ee011c2e465e813459653af99f281826f11bec66d9f7bdb21b8",
+      "size_bytes": 10104472
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part175.json",
+      "sha256": "b9504775533a518288f74107c0d41e7f005000e1c37add98719895835a22698a",
+      "size_bytes": 10277091
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part176.json",
+      "sha256": "a405ed1cc4e3f08a3853653445f7e6be718b185ac0a787f07b1f7c7cbf43028f",
+      "size_bytes": 10321963
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part177.json",
+      "sha256": "d2c40fc00c89513f517b0e5e8beef9bfab77e8a648114e74cce0d98d2cf2a33f",
+      "size_bytes": 10344237
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part178.json",
+      "sha256": "844bae679dd14c72dddbcaa11d21fc7c4eb2a5e481af2de41e2bb535d834820c",
+      "size_bytes": 9770821
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part179.json",
+      "sha256": "7c774ff99d988f78a155f9533508ba04c143ebfbf85b8010d6b96deb6e3a0759",
+      "size_bytes": 10236416
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part18.json",
+      "sha256": "ef554a4dc2ad24588ce51a43cd0be3aab3af9a81b81e1d0ce8849342ca45c3aa",
+      "size_bytes": 10267196
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part180.json",
+      "sha256": "44ffd7dc592e2190ffcf7774cc5cbf0c2ae98095b3cc7cdbbc8385dba41f86ab",
+      "size_bytes": 10185799
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part181.json",
+      "sha256": "6aa345abda886428bf570a9173726c6a3e8bf05c83a8061e8518a5d38de50644",
+      "size_bytes": 10194493
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part182.json",
+      "sha256": "42bd6369c482e7a0892232a065801c23107747b874b71183627dadc60b5e8b36",
+      "size_bytes": 10193447
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part183.json",
+      "sha256": "0e839494f7d3c7a2e4f4c5bb767693a64e3c1da46cc79993f4cb023d1b8ae1ed",
+      "size_bytes": 10500649
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part184.json",
+      "sha256": "e025cd908edb3505b02923c9db7f8ec77e913af0619ab19ecadd3c4b4287dfc4",
+      "size_bytes": 10600085
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part185.json",
+      "sha256": "e60fde0a48250a21cd170c0c9d5b80529f04d24ed051dc431424fe97098e25e7",
+      "size_bytes": 10437922
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part186.json",
+      "sha256": "e48950186f8ef2ab98fb9e9774d73c1d7a416dc7736bbcb35989b8370e860ab1",
+      "size_bytes": 10576972
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part187.json",
+      "sha256": "4cca5ab1f957e02b02472466c460c786f72c6da3a769e1cd5150e2062b701c33",
+      "size_bytes": 10500416
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part188.json",
+      "sha256": "3a9f37bb9cfef3b56435c2a0694da7f8c88082c659a68ea444637cab205ae4ac",
+      "size_bytes": 10421497
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part189.json",
+      "sha256": "4fed49439f2e498dba2f7fdb306397b83cfb937e4fdcee7aca42608ade16d3c0",
+      "size_bytes": 10532169
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part19.json",
+      "sha256": "8d7fa93a4d9d3d0bbf525dd216caa7f7ccc26549386829bf5cef0456bc4951f4",
+      "size_bytes": 10323560
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part190.json",
+      "sha256": "014ea6c4a3d6843031cf9aa523ca1696b72ad8b55e174463819542ffcd15f4c2",
+      "size_bytes": 10534951
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part191.json",
+      "sha256": "7d7188feaeb6de6d56d49beef1a25f4c91c57e22ebcb82a418da96bace1c3569",
+      "size_bytes": 10556238
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part192.json",
+      "sha256": "82c734da5a393715aae5b2e424a2f7031ae7d8784c22b0ce1aae547c7817bf8b",
+      "size_bytes": 10594287
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part193.json",
+      "sha256": "29687fd47a0b6d6a20078fd0bc9beb868ba6f17e42ff45506e52e8b777a4b577",
+      "size_bytes": 10589876
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part194.json",
+      "sha256": "c2cef9f39bf09b8d1ba60b5f49887cc9583a878ddda4915bbf4de2a12008cf10",
+      "size_bytes": 10474193
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part195.json",
+      "sha256": "1363ddd7381ebd345988fe8ca673bef7413629cc1aae2809c48df38cc4be4ff1",
+      "size_bytes": 9832018
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part196.json",
+      "sha256": "341530f9bbf8406bf27fa4547b7700ab7dfb1da89276cd0ed1ba32cdc82ac5df",
+      "size_bytes": 10267990
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part197.json",
+      "sha256": "6575a2a6c69a8329e78b6277a285f393d3e8a04d039cd2de3945df737e6b7338",
+      "size_bytes": 10381371
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part198.json",
+      "sha256": "a29d61650dfe3ebfb4388d16de2610f32e2dcc863d8deb4c19d5a9bdb2bc8e9b",
+      "size_bytes": 10323935
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part199.json",
+      "sha256": "ae640a2d7c7560bfb712c2c82735dae1311eda69db2ed9dfa70714460ea106f7",
+      "size_bytes": 10486510
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part2.json",
+      "sha256": "9f741e12cbeb5b078db77d07445839316020f564e2c75700a51ab33543735f82",
+      "size_bytes": 10401576
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part20.json",
+      "sha256": "3475a6173f99d1d5fc90f924672c2f3e20b0cd69fd95bf2b2b70eb9e9967412e",
+      "size_bytes": 10322801
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part200.json",
+      "sha256": "52d0619f7a93a7f6c578db7c03a4fbf71dd67f8e3b00cfdff9dd4a0d13ae91a0",
+      "size_bytes": 10085863
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part201.json",
+      "sha256": "c6a0c8950b79cec2e6a8f98aa50318a2ffa38018f84b30163510c9f8b2fec022",
+      "size_bytes": 10151250
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part202.json",
+      "sha256": "e1e76b96f2d1b9226f861124be27a695b3894c8a4914f15fd27e8e5c84290474",
+      "size_bytes": 10274086
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part203.json",
+      "sha256": "ab536a939980d20c55af8bf031c2850a70c800db006a6f7f459a3ee966cd640d",
+      "size_bytes": 10262866
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part204.json",
+      "sha256": "c4ad47e549aeb8cad892cd1c0562a0575b9478a76c021edb72de49610c64804c",
+      "size_bytes": 10268392
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part205.json",
+      "sha256": "7c63e1eec80c21c82c180338abac9c642428ebc0f65812bf4c9d75dcef3f86e3",
+      "size_bytes": 9933580
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part206.json",
+      "sha256": "79818dd2cf340e701133f3d3e3a1a99d6dedab5539540572e0afeafe368ab77c",
+      "size_bytes": 10282535
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part207.json",
+      "sha256": "e569ccac6380111d68ba9dce429c880e0a88db6a1ca833d3c5890d52780f7a8d",
+      "size_bytes": 10257403
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part208.json",
+      "sha256": "ebe6a3d983c8e8989a141a572bc5857f3ab9593025d49f717309ee3175bac112",
+      "size_bytes": 9559583
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part209.json",
+      "sha256": "49736d138df13cdeddd283d4a8bffb3e61acdf4ee031d637c165f5365f06df0a",
+      "size_bytes": 10272838
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part21.json",
+      "sha256": "58b5710156db169ab18c53668b6ac43026d1a2b58128d47d55701eba5a88c310",
+      "size_bytes": 10291544
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part210.json",
+      "sha256": "59a2f4f741183191e046a6d908b4ad786f434e674318e3474fc555009554a33d",
+      "size_bytes": 10031498
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part211.json",
+      "sha256": "d6845953f872282c5cd5150cfcdc0049851ba2f66798071c5ff85cf1ba99ab20",
+      "size_bytes": 10115418
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part212.json",
+      "sha256": "09d19a4948e05f68621e59f5eae39343e0611ab72fabccc9b49d7d02cb1715fb",
+      "size_bytes": 9563774
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part213.json",
+      "sha256": "e1e978f5933095b1f63ace802d6f64383225c1b0a92133444efd414ca657662c",
+      "size_bytes": 8428228
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part22.json",
+      "sha256": "4626a1789bd4d89820022a247592b3dbdfc025ea032aeb9bda19ee334703e93a",
+      "size_bytes": 10319584
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part23.json",
+      "sha256": "605bb2ce7f296f21f67f60eccfd95d40eee101ec91c72e1397225c3431beac6d",
+      "size_bytes": 10345609
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part24.json",
+      "sha256": "f6aa839088e64dab42c9edd7e32487715bfad6d5e4fb20e8182c3139ff67ada1",
+      "size_bytes": 10441444
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part25.json",
+      "sha256": "be14fe2b2aa85780dd3bb1e8c214275fb6b0aedcd4e9934fed3e00569031002e",
+      "size_bytes": 10377445
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part26.json",
+      "sha256": "801f320d141f7f9b9903ff92aba0652e97c67690ed217c9e40c1e2a40c2399c5",
+      "size_bytes": 10325213
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part27.json",
+      "sha256": "d9428b89a206e623906e2c41ede1e3675aabbf3e735b70db6ec4566a7cef45d7",
+      "size_bytes": 10377572
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part28.json",
+      "sha256": "f271d38acd41dcd17e1649110a863e4dff89bf787324168a96c7f8769038ba0e",
+      "size_bytes": 10307075
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part29.json",
+      "sha256": "6bbb9c2da619002ddc3220dd2276e9e810bb0cd9f7dea5bb76b70e156b8860d0",
+      "size_bytes": 10285384
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part3.json",
+      "sha256": "827902ed774f9b1fc8f3a9dc23a8ca4584e9fe13d83a42d41c557a469fec1cfe",
+      "size_bytes": 10411155
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part30.json",
+      "sha256": "f303fe4c6b8dfd460e0dc508cd686ff85e55dbe6c5548dfc9346f493aa28ae37",
+      "size_bytes": 10360631
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part31.json",
+      "sha256": "3970947c3263ef3d424fe503eae16d54859ca477729ec5f6955b75b6d22c104d",
+      "size_bytes": 10314236
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part32.json",
+      "sha256": "72f921f687a6e07d6c858016ed36b6039b16ee24861a0dc624d439ae3db33d04",
+      "size_bytes": 10436865
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part33.json",
+      "sha256": "99efd5a3e929587b4314c1d7677fe28a8ba3c3b4cf1e5313b4b457c0f1c16792",
+      "size_bytes": 10348925
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part34.json",
+      "sha256": "fdbd7d0e02589cdfaa6cbc6133a642c1c157d6f83050cc1b31b7caaf23f7a3b8",
+      "size_bytes": 10401881
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part35.json",
+      "sha256": "ee06097b08ecb0cce3a8af1a1dd1920db6a4172c92af58599d4ef7d2bf57edf6",
+      "size_bytes": 10359523
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part36.json",
+      "sha256": "c2135c348b6335584696c764f468370d39444d000ba9b02d0bbacd4717691a85",
+      "size_bytes": 10409044
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part37.json",
+      "sha256": "72601b85e1ee6f395edf53b3364692a7b4329aeb162e7111c06b2404a73e2711",
+      "size_bytes": 10396749
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part38.json",
+      "sha256": "955897893951e242511cd6caaff9ce1beb0893d69357503a24dca02225f1d2a1",
+      "size_bytes": 10371486
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part39.json",
+      "sha256": "39cb387ae2b62f1291754d0108cc981991f6f0a05f5ebd8fc6183b3684783431",
+      "size_bytes": 10359076
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part4.json",
+      "sha256": "cf99d11417ab24857998b5eb28b4a2e0b6790c00479dd82a4fba82bba0c336c2",
+      "size_bytes": 10267060
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part40.json",
+      "sha256": "9d7b8345704ef93833a420624a2a35fa08c5b519a8153b488614d6a9229c8137",
+      "size_bytes": 10406502
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part41.json",
+      "sha256": "8378ed5f6fed8d44c00162135e36b761c51d49bd33d93227e6b22933feeced18",
+      "size_bytes": 10381224
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part42.json",
+      "sha256": "3447088b95de617c84292a8255003481128308960125dda49c438125f8badd9c",
+      "size_bytes": 10371237
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part43.json",
+      "sha256": "c69d721ee26c553cef78abc70420120e9770969e6e7aa30c7e0c1a002fb71f37",
+      "size_bytes": 10315384
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part44.json",
+      "sha256": "9e434584ac2422867bccb54bd3e121c90d5057b14f8fef39d08616851b3a808c",
+      "size_bytes": 10328989
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part45.json",
+      "sha256": "8bb6ea7b76a8dbfcb66d7596b0bde3affd3445c5a8eda93222fb83837ad14773",
+      "size_bytes": 10375725
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part46.json",
+      "sha256": "2fae6ddf796a93b33a3699f2bcee8438a3de0fb5c55193111b6761b402070edf",
+      "size_bytes": 9816070
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part47.json",
+      "sha256": "e06ea878e73802591d40f9a701169cf406b86351858fccb01ffcbd27a647505b",
+      "size_bytes": 10240266
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part48.json",
+      "sha256": "9835a5b92791c7652d60304a39339d8e9fcc23ef8f2ff8bd4fd884d3d5a0a5ca",
+      "size_bytes": 10405679
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part49.json",
+      "sha256": "c38b1d121dbf760889f91a9368554eb0a56c358602b54e76d3a2c4c4da883b86",
+      "size_bytes": 10450267
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part5.json",
+      "sha256": "5bf52d0298ed7bb2e2e46b39f21287e8a65e8f99c4b31198f51c1a17576eb38b",
+      "size_bytes": 10195574
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part50.json",
+      "sha256": "3327948675f22191840055da93a534836df96506d985a000774778cef61b0594",
+      "size_bytes": 10436442
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part51.json",
+      "sha256": "de6b398ab284388b72c2633e8b563e4416d15a7827812ce73671a47f9dfa9eac",
+      "size_bytes": 10153065
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part52.json",
+      "sha256": "c0f10fb520f18126714f2265d220c44b07fc755f2e52f3a47b304e97eda36ea4",
+      "size_bytes": 10253851
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part53.json",
+      "sha256": "c6cea73b6c2e27e4ecf093a162a630e10300b3ed5a78cde914e9c0acf1b50ecc",
+      "size_bytes": 10036404
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part54.json",
+      "sha256": "6f88e62552fa8ecfce690b79d05ba25462cf676bf314ba19ab30dc277a0b4480",
+      "size_bytes": 10328594
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part55.json",
+      "sha256": "6cc7179c2b722b6adab09f9ce2c206146ad884982a849fcf961fa0c03dd0b2f1",
+      "size_bytes": 10362188
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part56.json",
+      "sha256": "b28e7ccd58b1be27324ed01bd66007e1253c6545a592075270b2b898885e52ac",
+      "size_bytes": 10363159
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part57.json",
+      "sha256": "802f94357a9ae83731b8fc32a835933ca456934a92b1dddb981096f2b120d3aa",
+      "size_bytes": 10307963
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part58.json",
+      "sha256": "5ad30e2450635e1ae9ac1f3f1ae4bbf318bf194d68ccddf925753b127a1ec6a2",
+      "size_bytes": 10331175
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part59.json",
+      "sha256": "104693c8591f8a79b99268629403330f90e6814605565a9d5559edd29fdbc834",
+      "size_bytes": 10392402
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part6.json",
+      "sha256": "de3129fc0ad4d5202ff57ee196f09fe9ef8f3cb9d0a817afba7a6d79ac3ef8e1",
+      "size_bytes": 10286315
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part60.json",
+      "sha256": "151ea4a98345f04ec8661debcf8e32703db59e4300b89c24ebbf928d4ce06622",
+      "size_bytes": 10309288
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part61.json",
+      "sha256": "6926bc7a243cce7e3b8490930f7e3fc004444952f8cb75f2d5782ca3a6be0370",
+      "size_bytes": 9765356
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part62.json",
+      "sha256": "d68b1461d3a90af33b2e9601c911888a1a34735c45db7ae83060ff6ecdc64e73",
+      "size_bytes": 10331644
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part63.json",
+      "sha256": "2d0ac63aba70fc0fce5660f45a82f9a7e3c7ed410bb836bc3d28019bac4a69e7",
+      "size_bytes": 10473413
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part64.json",
+      "sha256": "28bf003def00fa7e4cb73d860b671bcd5b2c8e193d4d39e0b6120c49baedd145",
+      "size_bytes": 10492354
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part65.json",
+      "sha256": "cda0b66c03234584109606762ad8500d3ed3d0c22366551908c07e19f606514a",
+      "size_bytes": 10554507
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part66.json",
+      "sha256": "c954f0adaa3eeb6275445ee24fea1e453f6a01917d7664d2711f3183e1afc49e",
+      "size_bytes": 10471570
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part67.json",
+      "sha256": "238dc60e7bc136f0b87543e0d69be943cb3238e394cebb41dc0365aa79cb5bda",
+      "size_bytes": 10448047
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part68.json",
+      "sha256": "22c439869c36e0de0de70ad45387d04a19e9dff556983596d64af8076e3dc180",
+      "size_bytes": 10444842
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part69.json",
+      "sha256": "f587272889ea7ed0171d1e952753b89f679df8ec09f4db049763bf722d1c5573",
+      "size_bytes": 10273976
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part7.json",
+      "sha256": "5718ee922d4d0e338e9972dd35fc99e422a1dd6a0e3c63141154267551fc3c1f",
+      "size_bytes": 10189507
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part70.json",
+      "sha256": "a0dfe27c726b8d2eeac773369506d8cabf2bad7792426ba23c71a20e1e37aed7",
+      "size_bytes": 10244668
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part71.json",
+      "sha256": "42e8d9f3805622e0bcabebdc29f295880952becdc0bf740d6654f47dc273dd32",
+      "size_bytes": 10152876
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part72.json",
+      "sha256": "8828565b3a7da5a49a8c5c45c15b803de8a9f7722da04df03664ac340addee07",
+      "size_bytes": 10131343
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part73.json",
+      "sha256": "66dd910361141eabc8254c24676b366fb9c042f2d7d1a7aeb118f57de9a96d58",
+      "size_bytes": 10079195
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part74.json",
+      "sha256": "6988e1f7891323e229f6cc097c5d2d815fbe42839d0ab0801af20a79ac9c6458",
+      "size_bytes": 10097239
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part75.json",
+      "sha256": "2bd69016f09c70cd367313e8165a367e96e963f2f450067d220459dce7d0c1a9",
+      "size_bytes": 10101082
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part76.json",
+      "sha256": "09927272224883387f7f8f26cffd3f4e27968e1945beea54f69c02d2cba13f6d",
+      "size_bytes": 10144223
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part77.json",
+      "sha256": "57fb8cdf4fcc9f0a338d05a5aef3917df38823c0106b96f2cf8d9d85aae528d7",
+      "size_bytes": 10134218
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part78.json",
+      "sha256": "445c2907dba3cd545eebbe54163fa48798488dcd8ef89645468a3c5768a3a855",
+      "size_bytes": 10132730
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part79.json",
+      "sha256": "ffb177af297be3adfd0e64f042395522ede7b48dfc81de6999562535fb68c0e7",
+      "size_bytes": 10142562
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part8.json",
+      "sha256": "75ad484ab7959285d6c623cbe3ce7dacf1f4b9b97fa9b12d5da9256d74ec04e9",
+      "size_bytes": 10348207
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part80.json",
+      "sha256": "ae6e35bf17146f9a0dd82c42e24c10f51c482e619e452b4e55582c3c3b954d92",
+      "size_bytes": 9969156
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part81.json",
+      "sha256": "1ec85ead9c71bf5e81a7bcf05fbb6143144ccc134ede789798e9d09f7f6c7efe",
+      "size_bytes": 9362985
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part82.json",
+      "sha256": "9e377f1d5381cc0277540a71b58b5d05e52731044e7945e69e8b1c41f47ce9fe",
+      "size_bytes": 10280552
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part83.json",
+      "sha256": "73da29fe9bd069872250886a1baa41a3559e9fe983fe52546606f3885c9404ba",
+      "size_bytes": 10262692
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part84.json",
+      "sha256": "a06b850864b6cb8fde0aa8abf9797d5345e36394b6a74c6fc0a4d572bf6b287a",
+      "size_bytes": 10269764
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part85.json",
+      "sha256": "4dd3190971752fdf58d2e0f545ddd0bf3b125290d17a4db0e71fe1f924567ea1",
+      "size_bytes": 10256045
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part86.json",
+      "sha256": "b129ece08c62b0a30f29cdbbd9d9079bf0e16ead8a31380bee904698e8467ff0",
+      "size_bytes": 9960094
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part87.json",
+      "sha256": "b53dc42a936a697a2ce5ecc7d3e8c68d5b34c30885a121705e4bbe1fc2a8797d",
+      "size_bytes": 10202731
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part88.json",
+      "sha256": "c6d65a0044c440adac3e5ca74ab556abc29ae6a780a869d8741a352546e24b49",
+      "size_bytes": 10152480
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part89.json",
+      "sha256": "e58b2cb6a1ec9cc2ad40adad5c1d401df0ff7ae4016ab93278e05accf42564ab",
+      "size_bytes": 9913309
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part9.json",
+      "sha256": "8e42243ba9249214fc9c1380c8f3bc4182d0bed443ffbbe07b322db0cb56c798",
+      "size_bytes": 10194661
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part90.json",
+      "sha256": "c6843a60a3407bcdf0f0d9bd8af092ffe57e645a9683ae1714f9f3a477780806",
+      "size_bytes": 10268100
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part91.json",
+      "sha256": "ccc9a215ba3885545ea4f43229a817d0ad17d294d8049b250ff669ea3b1778b5",
+      "size_bytes": 10132144
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part92.json",
+      "sha256": "fc4375bc37a4e8b4444cb114fae4579672ad7df0273b48119302ed790d6b826e",
+      "size_bytes": 10168972
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part93.json",
+      "sha256": "6aa4af9bc694cac1f263a189208574c32a3acdadb0def1d5b8067974afae24c8",
+      "size_bytes": 10482896
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part94.json",
+      "sha256": "e9d276419c42d6c6b565c148ccf34350254d011f2b1aee1826aebb7f9f62f08b",
+      "size_bytes": 10402610
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part95.json",
+      "sha256": "1c9963755a71dd5d8305d4480b960ddfc8d9c16932b2bd6e27ec9ea457b360b1",
+      "size_bytes": 10302276
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part96.json",
+      "sha256": "bbddd4728a4a20ef285f9fe9075834af11d77a2945493d8db891cd17f55d04df",
+      "size_bytes": 10193529
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part97.json",
+      "sha256": "0f3b826267c544272978e45e1e74305fdabdef56454ab1642deb9aa95486f945",
+      "size_bytes": 10257605
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part98.json",
+      "sha256": "22a899bcef76ea3b9255a282c6689abf88d764a18fdf1a82975155d14281a253",
+      "size_bytes": 10261393
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part99.json",
+      "sha256": "c2a7e336e88d6401f7c72ce7ccf68e0502a3e51db4074685ec57e93d05352b11",
+      "size_bytes": 10359492
     },
     {
       "file": "data/normalized/executive_orders.json",

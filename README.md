@@ -166,6 +166,8 @@ The BLS 2024 Quarterly Census of Employment and Wages annual aggregate release i
 
 The companion BLS QCEW state/county private-industry release is included as nine JSON parts covering 267,309 sector/subsector rows with establishments, employment, wages, annual pay, and year-over-year changes. It is a public BLS bulk release and does not require an API key.
 
+The EPA Facility Registry Service national release is included as normalized JSON shards with facility registry identifiers, names, addresses, state/county geography, EPA regions, and coordinates. It is sourced from EPA's public national single-file CSV archive (current as of 2026-09-01) and does not require an API key.
+
 ## Local API
 
 The checked-in releases can be queried locally without an API key:

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T19:50:15.370128+00:00",
+  "generated_at": "2026-09-26T20:06:22.607225+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -15934,6 +15934,5118 @@
         "USPS"
       ],
       "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part1.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10325761,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part10.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10275672,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part100.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10320520,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part101.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 9940961,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part102.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10245162,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part103.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10251276,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part104.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10027449,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part105.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10106622,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part106.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10298879,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part107.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10271804,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part108.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10274417,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part109.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10301409,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part11.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10309823,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part110.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10315779,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part111.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10285082,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part112.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10304506,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part113.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10278065,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part114.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 9471688,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part115.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10118555,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part116.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10267118,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part117.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10239332,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part118.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10288094,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part119.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 9889737,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part12.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10302897,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part120.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10305805,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part121.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10274833,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part122.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10331540,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part123.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10204074,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part124.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10305608,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part125.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10304950,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part126.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10316711,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part127.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 9327987,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part128.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10166008,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part129.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10149936,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part13.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10363057,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part130.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10060552,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part131.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10178084,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part132.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10092801,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part133.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10221328,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part134.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10209478,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part135.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10228306,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part136.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10211460,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part137.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10198449,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part138.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10202551,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part139.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10234653,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part14.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10339429,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part140.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10217697,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part141.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10247200,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part142.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10237045,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part143.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10182282,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part144.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10238505,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part145.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 9804604,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part146.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10361134,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part147.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10249103,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part148.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10231642,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part149.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10180589,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part15.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10309737,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part150.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10291947,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part151.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10306761,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part152.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10304449,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part153.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10307155,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part154.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10261038,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part155.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10405673,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part156.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10311204,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part157.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10323329,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part158.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10340634,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part159.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 9919950,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part16.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10291265,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part160.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10283829,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part161.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10257886,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part162.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10255715,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part163.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10136067,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part164.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10092289,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part165.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10550240,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part166.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10102590,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part167.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10272449,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part168.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10235790,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part169.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10182795,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part17.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10348572,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part170.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10346369,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part171.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10387811,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part172.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10417211,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part173.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 9848480,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part174.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10104472,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part175.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10277091,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part176.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10321963,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part177.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10344237,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part178.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 9770821,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part179.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10236416,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part18.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10267196,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part180.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10185799,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part181.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10194493,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part182.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10193447,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part183.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10500649,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part184.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10600085,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part185.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10437922,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part186.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10576972,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part187.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10500416,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part188.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10421497,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part189.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10532169,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part19.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10323560,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part190.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10534951,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part191.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10556238,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part192.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10594287,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part193.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10589876,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part194.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10474193,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part195.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 9832018,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part196.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10267990,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part197.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10381371,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part198.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10323935,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part199.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10486510,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part2.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10401576,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part20.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10322801,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part200.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10085863,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part201.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10151250,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part202.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10274086,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part203.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10262866,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part204.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10268392,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part205.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 9933580,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part206.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10282535,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part207.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10257403,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part208.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 9559583,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part209.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10272838,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part21.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10291544,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part210.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10031498,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part211.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10115418,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part212.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 9563774,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part213.json",
+      "format": "JSON",
+      "records": 22704,
+      "size_bytes": 8428228,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part22.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10319584,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part23.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10345609,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part24.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10441444,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part25.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10377445,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part26.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10325213,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part27.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10377572,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part28.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10307075,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part29.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10285384,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part3.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10411155,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part30.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10360631,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part31.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10314236,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part32.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10436865,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part33.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10348925,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part34.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10401881,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part35.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10359523,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part36.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10409044,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part37.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10396749,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part38.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10371486,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part39.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10359076,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part4.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10267060,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part40.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10406502,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part41.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10381224,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part42.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10371237,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part43.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10315384,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part44.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10328989,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part45.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10375725,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part46.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 9816070,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part47.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10240266,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part48.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10405679,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part49.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10450267,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part5.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10195574,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part50.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10436442,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part51.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10153065,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part52.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10253851,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part53.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10036404,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part54.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10328594,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part55.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10362188,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part56.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10363159,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part57.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10307963,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part58.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10331175,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part59.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10392402,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part6.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10286315,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part60.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10309288,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part61.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 9765356,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part62.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10331644,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part63.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10473413,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part64.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10492354,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part65.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10554507,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part66.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10471570,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part67.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10448047,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part68.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10444842,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part69.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10273976,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part7.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10189507,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part70.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10244668,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part71.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10152876,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part72.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10131343,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part73.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10079195,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part74.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10097239,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part75.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10101082,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part76.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10144223,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part77.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10134218,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part78.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10132730,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part79.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10142562,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part8.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10348207,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part80.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 9969156,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part81.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 9362985,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part82.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10280552,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part83.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10262692,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part84.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10269764,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part85.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10256045,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part86.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 9960094,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part87.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10202731,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part88.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10152480,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part89.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 9913309,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part9.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10194661,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part90.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10268100,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part91.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10132144,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part92.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10168972,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part93.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10482896,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part94.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10402610,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part95.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10302276,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part96.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10193529,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part97.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10257605,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part98.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10261393,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
+    },
+    {
+      "file": "data/normalized/epa_frs_facilities_2026_part99.json",
+      "format": "JSON",
+      "records": 25000,
+      "size_bytes": 10359492,
+      "fields_sample": [
+        "city",
+        "county",
+        "epa_region",
+        "facility_name",
+        "latitude",
+        "longitude",
+        "registry_id",
+        "retrieved_at",
+        "source",
+        "state",
+        "street",
+        "vintage",
+        "zip"
+      ],
+      "source_urls_sample": [
+        "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip"
+      ]
     },
     {
       "file": "data/normalized/executive_orders.json",

@@ -204,7 +204,18 @@ def main():
     assert all(row.get("source") and row.get("vintage") == "BLS QCEW 2024 county private industry release" for row in qcew_industry)
     assert all(row.get("year") == 2024 for row in qcew_industry)
 
-    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)} SVI counties={len(svi_counties)} tracts={len(svi_tracts)} ZCTAs={len(svi_zctas)} aviation={len(aviation)} earthquakes={len(earthquakes)} tide_stations={len(tide_stations)} nws_stations={nws_entry['records']} zcta_place={len(zcta_place_relationships)} zcta_tract={len(zcta_tract_relationships)} tract_puma={len(tract_puma_relationships)} usgs_stream_sites={len(water_sites)} storm_events={len(storm_events)} qcew={len(qcew)} qcew_industry={len(qcew_industry)}")
+    epa_facilities = []
+    for path in sorted((ROOT / "data/normalized").glob("epa_frs_facilities_2026_part*.json")):
+        epa_facilities.extend(read_json(path))
+    assert len(epa_facilities) >= 100000
+    assert len({row["registry_id"] for row in epa_facilities}) == len(epa_facilities)
+    assert len({row["state"] for row in epa_facilities if row.get("state")}) >= 50
+    assert all(row.get("registry_id") and row.get("facility_name") for row in epa_facilities)
+    assert all(row.get("source") and row.get("vintage") == "EPA FRS national facilities as of 2026-09-01" for row in epa_facilities)
+    assert all(-90 <= row["latitude"] <= 90 for row in epa_facilities if row.get("latitude") is not None)
+    assert all(-180 <= row["longitude"] <= 180 for row in epa_facilities if row.get("longitude") is not None)
+
+    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)} SVI counties={len(svi_counties)} tracts={len(svi_tracts)} ZCTAs={len(svi_zctas)} aviation={len(aviation)} earthquakes={len(earthquakes)} tide_stations={len(tide_stations)} nws_stations={nws_entry['records']} zcta_place={len(zcta_place_relationships)} zcta_tract={len(zcta_tract_relationships)} tract_puma={len(tract_puma_relationships)} usgs_stream_sites={len(water_sites)} storm_events={len(storm_events)} qcew={len(qcew)} qcew_industry={len(qcew_industry)} epa_frs={len(epa_facilities)}")
 
 
 if __name__ == "__main__":

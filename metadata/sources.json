@@ -1385,5 +1385,14 @@
     "format": "Official ZIP CSV normalized to JSON shards",
     "license": "U.S. government public data",
     "notes": "267,309 state/county private-sector industry rows at sector/subsector level with establishment, employment, wage, annual-pay, and year-over-year change metrics. No API key used."
+  },
+  {
+    "id": "epa-frs-facilities-2026",
+    "name": "EPA Facility Registry Service National Facilities",
+    "publisher": "U.S. Environmental Protection Agency",
+    "url": "https://www.epa.gov/frs/epa-frs-facilities-state-single-file-csv-download",
+    "format": "Official national CSV inside ZIP normalized to JSON shards",
+    "license": "U.S. government public data",
+    "notes": "National EPA facility registry records with stable registry identifiers, names, addresses, state/county geography, EPA region, and coordinates. The source archive is current as of 2026-09-01; only core identity/location fields are normalized for repository use. No API key used."
   }
 ]

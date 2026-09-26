@@ -1,0 +1,13 @@
+{
+  "source": "https://ordsext.epa.gov/FLA/www3/state_files/national_single.zip",
+  "source_catalog": "https://www.epa.gov/frs/epa-frs-facilities-state-single-file-csv-download",
+  "format": "EPA national CSV inside ZIP normalized to JSON shards",
+  "license": "U.S. government public data",
+  "vintage": "EPA FRS national facilities as of 2026-09-01",
+  "retrieved_at": "2026-09-26T20:04:11.346598+00:00",
+  "records": 5322704,
+  "parts": 213,
+  "file_prefix": "data/normalized/epa_frs_facilities_2026_part",
+  "fields": "registry_id, facility_name, street, city, state, zip, county, epa_region, latitude, longitude",
+  "note": "Core facility identity, address, geography, and coordinates; source archive includes additional EPA program columns."
+}
