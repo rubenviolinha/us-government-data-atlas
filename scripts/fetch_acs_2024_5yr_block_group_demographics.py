@@ -22,6 +22,10 @@ TABLES = {
     "b25044": ("vehicles", {"B25044_E001", "B25044_M001", "B25044_E002", "B25044_E003", "B25044_E004", "B25044_E005"}),
     "b28002": ("internet", {"B28002_E001", "B28002_M001", "B28002_E002", "B28002_E003", "B28002_E004", "B28002_E005"}),
     "b25070": ("rent_burden", {"B25070_E001", "B25070_M001", "B25070_E002", "B25070_E003", "B25070_E004", "B25070_E005"}),
+    "b19001": ("income_distribution", {"B19001_E001", "B19001_M001", "B19001_E002", "B19001_E003", "B19001_E004", "B19001_E005", "B19001_E006"}),
+    "b01002": ("median_age", {"B01002_E001", "B01002_M001", "B01002_E002", "B01002_E003"}),
+    "b25064": ("median_gross_rent", {"B25064_E001", "B25064_M001"}),
+    "b25041": ("rooms", {"B25041_E001", "B25041_M001", "B25041_E002", "B25041_E003", "B25041_E004"}),
 }
 PREFIX = "1500000US"
 EXPECTED = 242297
@@ -70,7 +74,7 @@ def main():
             (NORMALIZED / filename).write_text(json.dumps(output, separators=(",", ":")) + "\n", encoding="utf-8")
             files.append({"file": "data/normalized/" + filename, "records": len(output)})
         results[label] = {"source": source, "table": table.upper(), "records": len(rows), "files": files}
-    manifest = {"retrieved_at": retrieved_at, "format": "Joined table-based ACS summary files", "tables": results, "omitted_tables": {"b17001": "Census publishes no B17001 poverty rows for block groups in the 2024 5-year table-based summary files.", "c16001": "Census publishes no C16001 rows for block groups in the 2024 5-year table-based summary files."}, "note": "Compact 2024 ACS 5-year education, income, race, household, labor, occupancy, commuting, vehicles, internet, and rent-burden profiles for all Census block groups, split into four parts per table; no API key used."}
+    manifest = {"retrieved_at": retrieved_at, "format": "Joined table-based ACS summary files", "tables": results, "omitted_tables": {"b17001": "Census publishes no B17001 poverty rows for block groups in the 2024 5-year table-based summary files.", "c16001": "Census publishes no C16001 rows for block groups in the 2024 5-year table-based summary files."}, "note": "Compact 2024 ACS 5-year education, income, race, household, labor, occupancy, commuting, vehicles, internet, rent-burden, income-distribution, median-age, median-rent, and rooms profiles for all Census block groups, split into four parts per table; no API key used."}
     (RAW / "acs_block_group_demographics_2024_manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(manifest, indent=2))
 

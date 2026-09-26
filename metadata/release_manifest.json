@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T13:45:34.944444+00:00",
+  "generated_at": "2026-09-26T13:55:40.353908+00:00",
   "algorithm": "sha256",
-  "dataset_count": 508,
+  "dataset_count": 524,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -156,142 +156,202 @@
     },
     {
       "file": "data/normalized/acs_block_group_commuting_2024_5yr_part1.json",
-      "sha256": "83c67cfa89c78a07997f458548c6a0ba91b41f8a91eb1c6a26537293c0f4efce",
+      "sha256": "adbbd975119eec6845c940dc5b027c39aff5c9280e2ecf8bb9a1deac97cb8bec",
       "size_bytes": 23987447
     },
     {
       "file": "data/normalized/acs_block_group_commuting_2024_5yr_part2.json",
-      "sha256": "70aa686f9616405ebec310241843a59bd7fdbd3394872363c592312ce5b39c67",
+      "sha256": "e55bc0321293013179e6bdbcfcd74738179dcb2e2b92a3562631c045de5bc7a1",
       "size_bytes": 23965163
     },
     {
       "file": "data/normalized/acs_block_group_commuting_2024_5yr_part3.json",
-      "sha256": "e89037d2b135def7cdc6bf02509a0e10f168e80bc847966519502337a510e12d",
+      "sha256": "68f6c111439d9263d904c449b8b220f25d6988bfb279c5f0ed3e1bdebf081187",
       "size_bytes": 23954084
     },
     {
       "file": "data/normalized/acs_block_group_commuting_2024_5yr_part4.json",
-      "sha256": "8d85dbc6632148e461daa76535b42d118c7fd2a2b7e42dafb5bc2207d3dac00d",
+      "sha256": "3566bc012760aabae1b324637a1223e6d5f43b375127df2dfd4b3508f8bdc82d",
       "size_bytes": 23983159
     },
     {
       "file": "data/normalized/acs_block_group_education_2024_5yr_part1.json",
-      "sha256": "4f6087f38377ed1a6fd32ae116339dda53bc45eeef41ea2c7a111e7b7bb6c29d",
+      "sha256": "d10760bbc7dec2f840011a21d2c85743ed26723af7bc586fb3d99142507dc475",
       "size_bytes": 22845425
     },
     {
       "file": "data/normalized/acs_block_group_education_2024_5yr_part2.json",
-      "sha256": "68c23cce5c0e74a3a204be679c9e16f8c141c2dca241deb836f8961c5aa61fd4",
+      "sha256": "90183d269c627fb40a236d835c4b7e53c56fb8d79b2ce657a7abaeea872e3716",
       "size_bytes": 22818908
     },
     {
       "file": "data/normalized/acs_block_group_education_2024_5yr_part3.json",
-      "sha256": "56a716a806b8ff00c73f973a40f2b9da2b2f7d41a020affa67b5818d4f9bf260",
+      "sha256": "fd32e2dbbcf0e4cb434f65522af7e3947ef33b6f0ba8e15c29a057b649009d40",
       "size_bytes": 22822991
     },
     {
       "file": "data/normalized/acs_block_group_education_2024_5yr_part4.json",
-      "sha256": "fecc46b0c56036827c40dc707bfe47b448add0b47411a5037ba898a31b25e84c",
+      "sha256": "89891d89f3593458478c2ec26f943536a9d1fedfb4553f37e9a2e16658c25ed5",
       "size_bytes": 22832274
     },
     {
       "file": "data/normalized/acs_block_group_households_2024_5yr_part1.json",
-      "sha256": "6f41049552defe55b12ef061d5edf4f0712784d4459dfe10ac539170caa13a84",
+      "sha256": "55e1b73bae09d429b351451afad491ecd3b7d7ae6337707a73ba0ea236c2fd70",
       "size_bytes": 20826376
     },
     {
       "file": "data/normalized/acs_block_group_households_2024_5yr_part2.json",
-      "sha256": "42d2337dbf6de9b583066c325aa62320fb832994f142d70418fa1a5046194859",
+      "sha256": "f25003e4b9a887c644ae3e5a3b09645fd4bf1ebaf15a6cbc0564bf6f6489291f",
       "size_bytes": 20815441
     },
     {
       "file": "data/normalized/acs_block_group_households_2024_5yr_part3.json",
-      "sha256": "a54c10ccb051db94244e27acfc019a4ef8b5818dba7ace94f093c36d8bc459aa",
+      "sha256": "1c3fe18852554afaed2da5dd06875fc4728444e25bc5b74d7ba59d8e06ded133",
       "size_bytes": 20817401
     },
     {
       "file": "data/normalized/acs_block_group_households_2024_5yr_part4.json",
-      "sha256": "32b918869dbc1ff8fbb923541bd0a4fb6d3f41e9e7d44ad4e1db8165f44ed1d0",
+      "sha256": "156799037fd9c2577a300731b1929cea66b5dc49e69b9727f95a4079076a55a2",
       "size_bytes": 20824211
     },
     {
       "file": "data/normalized/acs_block_group_income_2024_5yr_part1.json",
-      "sha256": "d36c45c126496f64964b154fd1dea6eea53f078946882f0da47826d6c241c61b",
+      "sha256": "60cdb27e3fcd5f346410cf14bc9f3f305dfb28eb71e2c9a1df05af80883502c6",
       "size_bytes": 20057207
     },
     {
       "file": "data/normalized/acs_block_group_income_2024_5yr_part2.json",
-      "sha256": "9efbbaa11bc7ab830a576faeabf7b2f2a5976671f94f973c791bb03388d75335",
+      "sha256": "dff1c0fa2fbbbb179725f4b50cc7e610b8df172ddcf582a793c56bb3c213bb6b",
       "size_bytes": 20052336
     },
     {
       "file": "data/normalized/acs_block_group_income_2024_5yr_part3.json",
-      "sha256": "b46b7ab42897d133143c5ead6bc7d1f42daf7d8161343d585a7ce244383468a8",
+      "sha256": "0aa1593329a0d2d4348b85df3aaa37be6e6b14e3dff28aef3a622c576b081e13",
       "size_bytes": 20056467
     },
     {
       "file": "data/normalized/acs_block_group_income_2024_5yr_part4.json",
-      "sha256": "17ea4d944ba4da9f35ba3ba5da8f6fd1c569d0b98cdd18e2b95432d778ce7e43",
+      "sha256": "2316d9fa3b549e6b78f2e73622c3fe0d7c1ea39c17d57219c1c385e9b537c43c",
       "size_bytes": 20047275
     },
     {
+      "file": "data/normalized/acs_block_group_income_distribution_2024_5yr_part1.json",
+      "sha256": "4efc4a639170c0229f717f58e2d7e6437f2d0fafcc70cd021479e70314250c29",
+      "size_bytes": 24735376
+    },
+    {
+      "file": "data/normalized/acs_block_group_income_distribution_2024_5yr_part2.json",
+      "sha256": "25cc05e597c63e355ddef5e126a2a2a7074d63071f91dde5e92b8eb4107157dd",
+      "size_bytes": 24728606
+    },
+    {
+      "file": "data/normalized/acs_block_group_income_distribution_2024_5yr_part3.json",
+      "sha256": "e96cb7df1b0ef67ac022170c37f8c33cc5ad9b17b8c2ea94b48477409a9be221",
+      "size_bytes": 24733883
+    },
+    {
+      "file": "data/normalized/acs_block_group_income_distribution_2024_5yr_part4.json",
+      "sha256": "61c126dcc4e0b02abde528900f98f0d1bd0a2ad17fe04169c02df03b0999f36e",
+      "size_bytes": 24745794
+    },
+    {
       "file": "data/normalized/acs_block_group_internet_2024_5yr_part1.json",
-      "sha256": "66df2abef233842341f14b77565439b52f32fd1ca479ded5030f2bc9525f4f6d",
+      "sha256": "2f32cd0e83184bdf34d949b72386772db6482deb38208c83aafda12514b035d5",
       "size_bytes": 23984731
     },
     {
       "file": "data/normalized/acs_block_group_internet_2024_5yr_part2.json",
-      "sha256": "e2bc1768a426fe114417b0d5d0816a7659ed36f9520b71879b345e03608c697a",
+      "sha256": "6536a3354350fc6703f883d23446b2e81b6d9488ad949e4b2677b9217cbff906",
       "size_bytes": 23969339
     },
     {
       "file": "data/normalized/acs_block_group_internet_2024_5yr_part3.json",
-      "sha256": "0cacdd2f2c91244fed3af49c2e2ea065b72b0e5e0b9bde0cfe0af1160a9e1d84",
+      "sha256": "34c67a6ecd46ecc74c6e05e2ef65fbf68e64b5a09f6b441174e8f4c33a5dbe9f",
       "size_bytes": 23971366
     },
     {
       "file": "data/normalized/acs_block_group_internet_2024_5yr_part4.json",
-      "sha256": "d847275085d77034100db8ddb634f94b099cdad54f26e646116944fda13b1298",
+      "sha256": "46c1f3e600ad4aaed443eb56234d98fc3aa0ba41d16802d762b4e35944a4cd2a",
       "size_bytes": 23981987
     },
     {
       "file": "data/normalized/acs_block_group_labor_2024_5yr_part1.json",
-      "sha256": "24776d50c867f6c1447057bfa1d118833f04e3879fdb8c8d244fc91f0de2a255",
+      "sha256": "e3117f3d8c97c0cdfa3708e8ab3bf671c49db43de1c01fc5a7f89481221f2430",
       "size_bytes": 21905810
     },
     {
       "file": "data/normalized/acs_block_group_labor_2024_5yr_part2.json",
-      "sha256": "917334e14ffef83b029be5cb97627816d63e8b86c81eaca30d2cee6d749766a3",
+      "sha256": "92229c3f5adbc89f41b42973537bb8fbf0ec0d79246e782160b0e3834051ac1b",
       "size_bytes": 21882434
     },
     {
       "file": "data/normalized/acs_block_group_labor_2024_5yr_part3.json",
-      "sha256": "c9c15f235090cfb5be5250b34148dc73a2c9d951b9edb4e47d67f1a827ff3d52",
+      "sha256": "8a89c6d66b4383c75d05a56114622d1e807679f87c8056cc3cf8fc02eea37b76",
       "size_bytes": 21884972
     },
     {
       "file": "data/normalized/acs_block_group_labor_2024_5yr_part4.json",
-      "sha256": "441fe1a1eda9849c33f77338f6a307e3b8dd20829b3fb5ea8e99f2c0eb708285",
+      "sha256": "cc4c9714da0522321e1c2b13694bac59842ccc4cd0fcfe5e2f219a14323df389",
       "size_bytes": 21894817
     },
     {
+      "file": "data/normalized/acs_block_group_median_age_2024_5yr_part1.json",
+      "sha256": "7721dac464d1568bc659e5074c9f1fe62045c2802c408a5e729135ad86796851",
+      "size_bytes": 22621516
+    },
+    {
+      "file": "data/normalized/acs_block_group_median_age_2024_5yr_part2.json",
+      "sha256": "fc8449b7bcbb4dffa83aae095b298cf2f737e88be37389a7ed97d322ff6d8b76",
+      "size_bytes": 22630052
+    },
+    {
+      "file": "data/normalized/acs_block_group_median_age_2024_5yr_part3.json",
+      "sha256": "10b60696dc64524ab3b5663bd6ee991ee120aaab57c455507fa41fa26255a4ba",
+      "size_bytes": 22632577
+    },
+    {
+      "file": "data/normalized/acs_block_group_median_age_2024_5yr_part4.json",
+      "sha256": "7790a306ddc820478f0e17ae65a55dff059f40c077a5bf8f4a866a829b3af3e6",
+      "size_bytes": 22627376
+    },
+    {
+      "file": "data/normalized/acs_block_group_median_gross_rent_2024_5yr_part1.json",
+      "sha256": "20f05915b79ee53540b763635495441f9845f35a3af6f928682a86c96a88c625",
+      "size_bytes": 20024843
+    },
+    {
+      "file": "data/normalized/acs_block_group_median_gross_rent_2024_5yr_part2.json",
+      "sha256": "0ec38e73a194732b1a140049cb7e03fa3f176e96818ae3e72ebf8d0acc47a097",
+      "size_bytes": 20054239
+    },
+    {
+      "file": "data/normalized/acs_block_group_median_gross_rent_2024_5yr_part3.json",
+      "sha256": "7db5aa7d94235b55813cbeb48b5a1993ffe1f6b8529e21e9e73acecd3c022183",
+      "size_bytes": 20022219
+    },
+    {
+      "file": "data/normalized/acs_block_group_median_gross_rent_2024_5yr_part4.json",
+      "sha256": "ea24a2c1c354ce591933c7bb7471a8584a4cada3dd76f29d6a963b3b790709f4",
+      "size_bytes": 20026886
+    },
+    {
       "file": "data/normalized/acs_block_group_occupancy_2024_5yr_part1.json",
-      "sha256": "17b0f20574318393155bf3cc5f17568db1c5b201990f6d299116c27548ad886b",
+      "sha256": "dbfabfb35ec43e730cf454b98f25b8864c61aad45f835ee5f328d31512890693",
       "size_bytes": 21884555
     },
     {
       "file": "data/normalized/acs_block_group_occupancy_2024_5yr_part2.json",
-      "sha256": "dddd4c80e36f46f399e3bdcab96a982c091af485304f99136ecb3a3df17a601c",
+      "sha256": "c73e8b9c68bf2ff58e1903bcf94780544b035bcdd595351256c64053cb853f65",
       "size_bytes": 21866959
     },
     {
       "file": "data/normalized/acs_block_group_occupancy_2024_5yr_part3.json",
-      "sha256": "9c4ad50e51e4b4b28d44fafe85f4f7f356880bf0646b6dee0c22a2ae4171b426",
+      "sha256": "8793cd058c49fecfcb01ff084c888d8fd3f081e7e3ede66da502769eaa18cbb6",
       "size_bytes": 21870901
     },
     {
       "file": "data/normalized/acs_block_group_occupancy_2024_5yr_part4.json",
-      "sha256": "e1f25eb87986adcf95705950b85c3ea26a0226b0eb98f3643f09e0e86e9482b1",
+      "sha256": "f82a4a8787a0a2976424fe8977c70c86b48d73305964a1b3ea56c8f30671c7c3",
       "size_bytes": 21880622
     },
     {
@@ -316,62 +376,82 @@
     },
     {
       "file": "data/normalized/acs_block_group_race_2024_5yr_part1.json",
-      "sha256": "33035c6df43ebdb06c2ada5d94fdfaad244c54037155bf433dfb1df0b36650c1",
+      "sha256": "f656410f9d4efc9d1a1a08d1c90ae8465677087a6b6b7034fafb7a9302de6f4c",
       "size_bytes": 27016160
     },
     {
       "file": "data/normalized/acs_block_group_race_2024_5yr_part2.json",
-      "sha256": "bbf04141abd0452e1a53f12f5d2c17555b3d2de2c60afbb35d07a5b4ef70bce8",
+      "sha256": "a5e26173d45a3ee4be32b7cd91d24f14c4b56af1e0e3f9b5cac184a57533ba4e",
       "size_bytes": 26916949
     },
     {
       "file": "data/normalized/acs_block_group_race_2024_5yr_part3.json",
-      "sha256": "1f5fc8081dfe5b471724ea3269c6078dad6e767c73e6e51cdd116a8ea3bac067",
+      "sha256": "66be23ab9439315b633ed80dcb040bb07ebe9a56e950129d7bfe3546753de224",
       "size_bytes": 26941173
     },
     {
       "file": "data/normalized/acs_block_group_race_2024_5yr_part4.json",
-      "sha256": "014939c64bae09cfa733adf878bd9800625f875038378e06631426400a190472",
+      "sha256": "afa218165d54b19ee0d9880a856cf415377a038c0958304dac899d7693029aaf",
       "size_bytes": 26962813
     },
     {
       "file": "data/normalized/acs_block_group_rent_burden_2024_5yr_part1.json",
-      "sha256": "b60627cd3bd3f7a3f477c163aa05197c6cbdca3bbb245d350d32f0a5ec24946f",
+      "sha256": "93980b4ec7929b28ab2d29bfe7e49421898ce924f288f763e75a968266ee184d",
       "size_bytes": 23659649
     },
     {
       "file": "data/normalized/acs_block_group_rent_burden_2024_5yr_part2.json",
-      "sha256": "06024d517105e8bcbd91f767ce646f3f4b85122cab2c08329e71e5cb933062ca",
+      "sha256": "c6478bb7c124272937635d088dcb66d011091c55ac66350df88e8951fb238d54",
       "size_bytes": 23632244
     },
     {
       "file": "data/normalized/acs_block_group_rent_burden_2024_5yr_part3.json",
-      "sha256": "4fad1f96768900473f02be676fba7464aa79ba1c801ebe8f1526475febe3183d",
+      "sha256": "2bd10938cb0b33444532a58ca84c8c86eb27c2fef59cdef517557b09b4dac46a",
       "size_bytes": 23655203
     },
     {
       "file": "data/normalized/acs_block_group_rent_burden_2024_5yr_part4.json",
-      "sha256": "1601fc282e96cd1cbc9f35db31e30515c7e669f4bc2df5794a998f390c20ee72",
+      "sha256": "6d37f970d1ca98fdc844a9d9d62483fa9a16e2e6e0ff8595a1a387776ca85af6",
       "size_bytes": 23652756
     },
     {
+      "file": "data/normalized/acs_block_group_rooms_2024_5yr_part1.json",
+      "sha256": "38302fb338e9ae12610aea2907f2b81b0a296b06abe2134d718638002c1ab495",
+      "size_bytes": 22817056
+    },
+    {
+      "file": "data/normalized/acs_block_group_rooms_2024_5yr_part2.json",
+      "sha256": "60d6b618d5a0e7044255cfef3d3e2d58df95357fff017eaceef4a48ad86ee1f1",
+      "size_bytes": 22794493
+    },
+    {
+      "file": "data/normalized/acs_block_group_rooms_2024_5yr_part3.json",
+      "sha256": "9097edefaf9ba644121531bf1ed4062da96311a774e27810b55d941cb1aad3d5",
+      "size_bytes": 22808037
+    },
+    {
+      "file": "data/normalized/acs_block_group_rooms_2024_5yr_part4.json",
+      "sha256": "0c24e7cf041e4c766f5bbc2b7c6e855864df21f652a4a63446fefd4f052af8eb",
+      "size_bytes": 22806643
+    },
+    {
       "file": "data/normalized/acs_block_group_vehicles_2024_5yr_part1.json",
-      "sha256": "3c3ca86141f85eb6fac73f21dee475327d7a70771beef22471b18f376cf52627",
+      "sha256": "61f99df5a0f96954100790ccd7f8150220211783ce790558152c5aa792679fae",
       "size_bytes": 23913742
     },
     {
       "file": "data/normalized/acs_block_group_vehicles_2024_5yr_part2.json",
-      "sha256": "caf54a4d586510cae2ddcc7a3ebe7ab8889ef977cef606b384d2c347ca210898",
+      "sha256": "f5a7604b7e2fccc34ebaf49b26cafb2459f28454510a318cf1333b313386e695",
       "size_bytes": 23911998
     },
     {
       "file": "data/normalized/acs_block_group_vehicles_2024_5yr_part3.json",
-      "sha256": "c0364a02038459219060b965bd8441217ebaa846761c6918dcec789e2c640336",
+      "sha256": "28ce98d1362613a849e076fa5d7d6e2e1f9d24570fdba81ca7b6584f385ab63c",
       "size_bytes": 23903992
     },
     {
       "file": "data/normalized/acs_block_group_vehicles_2024_5yr_part4.json",
-      "sha256": "409a2a69750cd24b8e37c4d220c4ed1e07e97932ba25c10850652bb94f28a6bf",
+      "sha256": "8660e6cfd85304d338e9cb5f877806313e4d7bd8eb2dcf4552ba1d54b122bbd7",
       "size_bytes": 23919940
     },
     {
