@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T18:40:37.898118+00:00",
+  "generated_at": "2026-09-26T18:49:49.203662+00:00",
   "algorithm": "sha256",
-  "dataset_count": 729,
+  "dataset_count": 730,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -3523,6 +3523,11 @@
       "file": "data/normalized/svi_zctas_2022.json",
       "sha256": "e72b16a1e869767d8d7b1d3b9fcd164bee37874dc9a11d65c75221071cb245c1",
       "size_bytes": 31638735
+    },
+    {
+      "file": "data/normalized/tract_puma_relationships_2020.json",
+      "sha256": "b0e6274fc7888087be3bb120b7b4c868b725107336ff1a91339f66285996e6c2",
+      "size_bytes": 32386311
     },
     {
       "file": "data/normalized/tracts_2023.json",

@@ -1,0 +1,11 @@
+{
+  "source": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/2020_Census_Tract_to_2020_PUMA.txt",
+  "source_catalog": "https://www.census.gov/geographies/reference-files/2020/geo/relationship-files.html",
+  "format": "Census relationship CSV",
+  "vintage": "2020 Census tract-to-PUMA relationship file",
+  "retrieved_at": "2026-09-26T18:48:02.112344+00:00",
+  "records": 85452,
+  "raw_rows": 85452,
+  "file": "data/normalized/tract_puma_relationships_2020.json",
+  "note": "Keyless tract-to-PUMA relationship keyed by 2020 Census GEOIDs."
+}

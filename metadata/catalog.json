@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T18:40:32.405943+00:00",
+  "generated_at": "2026-09-26T18:49:36.867914+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -19098,6 +19098,26 @@
       ],
       "source_urls_sample": [
         "https://onemap.cdc.gov/OneMapServices/rest/services/SVI/SVI_consolidated_data/FeatureServer/0/query"
+      ]
+    },
+    {
+      "file": "data/normalized/tract_puma_relationships_2020.json",
+      "format": "JSON",
+      "records": 85452,
+      "size_bytes": 32386311,
+      "fields_sample": [
+        "county",
+        "puma",
+        "puma_code",
+        "retrieved_at",
+        "source",
+        "state",
+        "tract",
+        "tract_code",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/geo/docs/maps-data/data/rel2020/2020_Census_Tract_to_2020_PUMA.txt"
       ]
     },
     {

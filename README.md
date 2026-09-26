@@ -83,6 +83,7 @@ python3 scripts/fetch_noaa_tide_stations.py
 python3 scripts/fetch_nws_stations.py
 python3 scripts/fetch_zcta_place_relationships.py
 python3 scripts/fetch_zcta_tract_relationships.py
+python3 scripts/fetch_tract_puma_relationships.py
 python3 scripts/fetch_cdc_places_2024_counties.py
 python3 scripts/fetch_cdc_places_2024_zctas.py
 python3 scripts/fetch_cdc_places_2024_places.py
@@ -148,6 +149,8 @@ The National Weather Service station registry is included with observation-stati
 The 2020 Census ZCTA-to-place relationship file is included with 2020 ZCTA and place identifiers, names, and land/water area-overlap fields. It is a public Census bulk file and does not require an API key.
 
 The 2020 Census ZCTA-to-tract relationship file is included with 2020 ZCTA and tract identifiers, names, and land/water area-overlap fields. It is a public Census bulk file and does not require an API key.
+
+The 2020 Census tract-to-PUMA relationship file is included with 85,452 tract-to-PUMA mappings keyed by 2020 Census GEOIDs. It is a public Census bulk file and does not require an API key.
 
 ## Local API
 

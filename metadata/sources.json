@@ -1340,5 +1340,14 @@
     "format": "Pipe-delimited text normalized to JSON",
     "license": "U.S. government public data",
     "notes": "Official national relationship file connecting 2020 ZIP Code Tabulation Areas to 2020 census tracts, with land/water overlap fields. No API key used."
+  },
+  {
+    "id": "census-2020-tract-puma-relationships",
+    "name": "2020 Census Tract-to-PUMA Relationships",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/2020_Census_Tract_to_2020_PUMA.txt",
+    "format": "Comma-delimited text normalized to JSON",
+    "license": "U.S. government public data",
+    "notes": "Official national relationship file connecting 2020 census tracts to 2020 Public Use Microdata Areas (PUMAs), keyed by Census GEOIDs. No API key used."
   }
 ]
