@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T14:37:56.407559+00:00",
+  "generated_at": "2026-09-26T14:41:28.399814+00:00",
   "algorithm": "sha256",
-  "dataset_count": 556,
+  "dataset_count": 568,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -1315,6 +1315,21 @@
       "size_bytes": 769862
     },
     {
+      "file": "data/normalized/acs_school_elementary_income_distribution_2024_5yr.json",
+      "sha256": "8529d633af830494b06ce8c781f2a40d4e2a9b7ddad415f189722923c83082da",
+      "size_bytes": 1259812
+    },
+    {
+      "file": "data/normalized/acs_school_elementary_median_age_2024_5yr.json",
+      "sha256": "700b6db44a6a4f926ce8ec19ff20fdaf063d349f99c8d445dcef53bdadd9cab5",
+      "size_bytes": 805363
+    },
+    {
+      "file": "data/normalized/acs_school_elementary_median_gross_rent_2024_5yr.json",
+      "sha256": "ef1f5ea501b72020124c5a555116e00217c24dfd9be1fcf430189ab73c190c6a",
+      "size_bytes": 716000
+    },
+    {
       "file": "data/normalized/acs_school_elementary_poverty_2024_5yr.json",
       "sha256": "11845fa58e975521ced3876b6bd33b8cfc452d6d621a5b0e97aeae437934ac0c",
       "size_bytes": 834275
@@ -1323,6 +1338,11 @@
       "file": "data/normalized/acs_school_elementary_race_2024_5yr.json",
       "sha256": "b94a1677d4968e0bc336653b05dad7c15080d5427e60ee18bd031caab075e73f",
       "size_bytes": 1004370
+    },
+    {
+      "file": "data/normalized/acs_school_elementary_rooms_2024_5yr.json",
+      "sha256": "999d2c1141a1d9fcab85466e920a1470002b93cf4d6fbbf31412f17555f36d90",
+      "size_bytes": 922445
     },
     {
       "file": "data/normalized/acs_school_housing_2023.json",
@@ -1345,6 +1365,21 @@
       "size_bytes": 4192132
     },
     {
+      "file": "data/normalized/acs_school_income_distribution_2024_5yr.json",
+      "sha256": "fc90a7d92b42e5a6e28304828beb7e51f94b54a850ff1a79bafa7a144e7b259c",
+      "size_bytes": 6991910
+    },
+    {
+      "file": "data/normalized/acs_school_median_age_2024_5yr.json",
+      "sha256": "868d958c1d8d60119d924ab05b2b19cac4d7776c75bec3f580465e6a434fb8ce",
+      "size_bytes": 4404670
+    },
+    {
+      "file": "data/normalized/acs_school_median_gross_rent_2024_5yr.json",
+      "sha256": "cc16131a77e35705d7619b202806b4cf837f633f96342e55b7d2f5f8a7062ecf",
+      "size_bytes": 3895089
+    },
+    {
       "file": "data/normalized/acs_school_poverty_2023.json",
       "sha256": "bc77f6afd0767ca13ca180444177adda5fe9cf8e0a9e31eaea3173bbf68ef111",
       "size_bytes": 33577235
@@ -1363,6 +1398,11 @@
       "file": "data/normalized/acs_school_race_2024_5yr.json",
       "sha256": "1939a402af4257d29ea3b559e215601cf43418573cb4713a5690a0b6860936be",
       "size_bytes": 5518242
+    },
+    {
+      "file": "data/normalized/acs_school_rooms_2024_5yr.json",
+      "sha256": "98c8caea513f8fa12af409cc7265bd95570d76cd871e5683eee08d85608ce531",
+      "size_bytes": 5081704
     },
     {
       "file": "data/normalized/acs_school_secondary_age_sex_2024_5yr.json",
@@ -1385,6 +1425,21 @@
       "size_bytes": 194187
     },
     {
+      "file": "data/normalized/acs_school_secondary_income_distribution_2024_5yr.json",
+      "sha256": "943c7f54ff926f9ba1db202f8e17e901af270df7103aca6ed2d66f6e550bb4c7",
+      "size_bytes": 324446
+    },
+    {
+      "file": "data/normalized/acs_school_secondary_median_age_2024_5yr.json",
+      "sha256": "f79784280968e47e98ba1dbef3d9c289591d144db826ed5c4fe4be96bb890ff2",
+      "size_bytes": 203460
+    },
+    {
+      "file": "data/normalized/acs_school_secondary_median_gross_rent_2024_5yr.json",
+      "sha256": "f91aa5246f17a09d5187a32ccbbb0970260fc5c94069620a1fdfb97821f8f72e",
+      "size_bytes": 180216
+    },
+    {
       "file": "data/normalized/acs_school_secondary_poverty_2024_5yr.json",
       "sha256": "7d9df0cf1c1826f1b1533985a52177450de7f07061da0acd86f3fcdffe96de0e",
       "size_bytes": 211827
@@ -1393,6 +1448,11 @@
       "file": "data/normalized/acs_school_secondary_race_2024_5yr.json",
       "sha256": "08b180b6851bdcdfa40b324044fe3171430d6b19b399b9eb275c45d20f6cf0e6",
       "size_bytes": 256396
+    },
+    {
+      "file": "data/normalized/acs_school_secondary_rooms_2024_5yr.json",
+      "sha256": "d92c53c172fa949b6a05a7a3e6144bd22542f4fc1dfdba55e6093d1c20eeb4bd",
+      "size_bytes": 235618
     },
     {
       "file": "data/normalized/acs_state_age_sex_2023.json",
