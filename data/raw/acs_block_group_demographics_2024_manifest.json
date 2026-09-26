@@ -1,5 +1,5 @@
 {
-  "retrieved_at": "2026-09-26T12:59:50.093294+00:00",
+  "retrieved_at": "2026-09-26T13:44:31.458916+00:00",
   "format": "Joined table-based ACS summary files",
   "tables": {
     "education": {
@@ -139,10 +139,103 @@
           "records": 60575
         }
       ]
+    },
+    "commuting": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08301.dat",
+      "table": "B08301",
+      "records": 242297,
+      "files": [
+        {
+          "file": "data/normalized/acs_block_group_commuting_2024_5yr_part1.json",
+          "records": 60574
+        },
+        {
+          "file": "data/normalized/acs_block_group_commuting_2024_5yr_part2.json",
+          "records": 60574
+        },
+        {
+          "file": "data/normalized/acs_block_group_commuting_2024_5yr_part3.json",
+          "records": 60574
+        },
+        {
+          "file": "data/normalized/acs_block_group_commuting_2024_5yr_part4.json",
+          "records": 60575
+        }
+      ]
+    },
+    "vehicles": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25044.dat",
+      "table": "B25044",
+      "records": 242297,
+      "files": [
+        {
+          "file": "data/normalized/acs_block_group_vehicles_2024_5yr_part1.json",
+          "records": 60574
+        },
+        {
+          "file": "data/normalized/acs_block_group_vehicles_2024_5yr_part2.json",
+          "records": 60574
+        },
+        {
+          "file": "data/normalized/acs_block_group_vehicles_2024_5yr_part3.json",
+          "records": 60574
+        },
+        {
+          "file": "data/normalized/acs_block_group_vehicles_2024_5yr_part4.json",
+          "records": 60575
+        }
+      ]
+    },
+    "internet": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat",
+      "table": "B28002",
+      "records": 242297,
+      "files": [
+        {
+          "file": "data/normalized/acs_block_group_internet_2024_5yr_part1.json",
+          "records": 60574
+        },
+        {
+          "file": "data/normalized/acs_block_group_internet_2024_5yr_part2.json",
+          "records": 60574
+        },
+        {
+          "file": "data/normalized/acs_block_group_internet_2024_5yr_part3.json",
+          "records": 60574
+        },
+        {
+          "file": "data/normalized/acs_block_group_internet_2024_5yr_part4.json",
+          "records": 60575
+        }
+      ]
+    },
+    "rent_burden": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat",
+      "table": "B25070",
+      "records": 242297,
+      "files": [
+        {
+          "file": "data/normalized/acs_block_group_rent_burden_2024_5yr_part1.json",
+          "records": 60574
+        },
+        {
+          "file": "data/normalized/acs_block_group_rent_burden_2024_5yr_part2.json",
+          "records": 60574
+        },
+        {
+          "file": "data/normalized/acs_block_group_rent_burden_2024_5yr_part3.json",
+          "records": 60574
+        },
+        {
+          "file": "data/normalized/acs_block_group_rent_burden_2024_5yr_part4.json",
+          "records": 60575
+        }
+      ]
     }
   },
   "omitted_tables": {
-    "b17001": "Census publishes no B17001 poverty rows for block groups in the 2024 5-year table-based summary files."
+    "b17001": "Census publishes no B17001 poverty rows for block groups in the 2024 5-year table-based summary files.",
+    "c16001": "Census publishes no C16001 rows for block groups in the 2024 5-year table-based summary files."
   },
-  "note": "Compact 2024 ACS 5-year education, income, race, household, labor, and occupancy profiles for all Census block groups, split into four parts per table; no API key used."
+  "note": "Compact 2024 ACS 5-year education, income, race, household, labor, occupancy, commuting, vehicles, internet, and rent-burden profiles for all Census block groups, split into four parts per table; no API key used."
 }
