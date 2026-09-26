@@ -88,6 +88,7 @@ def main():
     svi_zctas = load("svi_zctas_2022.json")
     zcta_acs_2024 = load("zcta_profiles_acs_2024.json")
     zcta_population_acs_2024 = load("zcta_population_acs_2024.json")
+    zcta_detail_2024 = {label: load(f"acs_zcta_{label}_2024_5yr.json") for label in ("income_distribution", "median_age", "median_gross_rent", "rooms")}
     acs_cousub_2024 = {label: load(f"acs_cousub_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_school_2024 = {label: load(f"acs_school_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
     acs_school_elementary_2024 = {label: load(f"acs_school_elementary_{label}_2024_5yr.json") for label in ("age_sex", "education", "poverty", "income", "housing", "race")}
@@ -391,6 +392,10 @@ def main():
     assert len(zcta_acs_2024) >= 33000 and len({row.get("zcta") for row in zcta_acs_2024}) == len(zcta_acs_2024)
     assert all(row.get("source_vintage") == "ACS 2024 5-year" for row in zcta_acs_2024)
     assert len(zcta_population_acs_2024) == len(zcta_acs_2024) and all(row.get("population") is not None and row.get("source") for row in zcta_population_acs_2024)
+    for rows in zcta_detail_2024.values():
+        assert len(rows) == len(zcta_acs_2024)
+        assert len({row.get("zcta") for row in rows}) == len(rows)
+        assert all(row.get("zcta") and row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
     assert len(current_cabinet) >= 15
     assert len({row.get("title") for row in current_cabinet}) == len(current_cabinet)
     assert all(row.get("name") and row.get("title") and row.get("source") and row.get("retrieved_at") for row in current_cabinet)
