@@ -33,6 +33,18 @@ def dataset_groups(catalog):
     return sorted(groups.values(), key=lambda item: item["name"])
 
 
+def group_rows(group, catalog):
+    files = next((item["files"] for item in dataset_groups(catalog) if item["name"] == group), None)
+    if files is None:
+        return None
+    rows = []
+    for filename in files:
+        payload = read_json(DATA / filename)
+        if isinstance(payload, list):
+            rows.extend(payload)
+    return rows
+
+
 class Handler(BaseHTTPRequestHandler):
     def send_json(self, payload, status=200):
         body = json.dumps(payload, separators=(",", ":")).encode("utf-8")
@@ -56,6 +68,32 @@ class Handler(BaseHTTPRequestHandler):
             if requested:
                 groups = [group for group in groups if group["name"] == requested]
             return self.send_json({"groups": groups, "count": len(groups)})
+        if path.startswith("/dataset-groups/"):
+            group = unquote(path.removeprefix("/dataset-groups/"))
+            if not group or "/" in group:
+                return self.send_json({"error": "dataset group not found"}, 404)
+            catalog = read_json(CATALOG)
+            rows = group_rows(group, catalog)
+            if rows is None:
+                return self.send_json({"error": "dataset group not found"}, 404)
+            query = parse_qs(urlparse(self.path).query)
+            filters = {key: values[0] for key, values in query.items() if key not in {"limit", "offset"} and values}
+            def matches(row):
+                for key, value in filters.items():
+                    if key.endswith("__contains"):
+                        if value.lower() not in str(row.get(key.removesuffix("__contains"), "")).lower():
+                            return False
+                    elif str(row.get(key, "")).lower() != value.lower():
+                        return False
+                return True
+            filtered = [row for row in rows if matches(row)]
+            try:
+                offset = max(0, int(query.get("offset", ["0"])[0]))
+                limit = min(1000, max(1, int(query.get("limit", ["100"])[0])))
+            except ValueError:
+                return self.send_json({"error": "limit and offset must be integers"}, 400)
+            page = filtered[offset:offset + limit]
+            return self.send_json({"data": page, "total": len(filtered), "count": len(page), "offset": offset, "group": group})
         if path == "/sources":
             return self.send_json(read_json(SOURCES))
         if path in {"/access-requirements", "/access_requirements"}:

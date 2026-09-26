@@ -75,6 +75,12 @@ class ApiSmokeTests(unittest.TestCase):
         self.assertEqual(payload["groups"][0]["shards"], 21)
         self.assertEqual(payload["groups"][0]["records"], 1236338)
 
+    def test_dataset_group_query(self):
+        status, payload = self.get("/dataset-groups/states?abbr=ca&limit=1")
+        self.assertEqual(status, 200)
+        self.assertEqual(payload["count"], 1)
+        self.assertEqual(payload["data"][0]["name"], "California")
+
 
 if __name__ == "__main__":
     unittest.main()

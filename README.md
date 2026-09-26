@@ -122,7 +122,7 @@ The checked-in releases can be queried locally without an API key:
 python3 api/server.py
 ```
 
-Then use `GET /health`, `GET /catalog`, `GET /dataset-groups`, `GET /sources`, `GET /access-requirements`, or `GET /datasets/<filename>.json`, for example `/datasets/states.json`. Dataset endpoints also accept exact-match filters and pagination, such as `/datasets/states.json?abbr=CA`, `/datasets/counties_2023.json?STATEFP=06&limit=25`, or `/datasets/federal_judges.json?limit=20&offset=40`. `/dataset-groups` combines repository-safe `_partN` shards into logical datasets and reports their aggregate record counts. The server is read-only and only serves files listed in `metadata/catalog.json`.
+Then use `GET /health`, `GET /catalog`, `GET /dataset-groups`, `GET /dataset-groups/<group>`, `GET /sources`, `GET /access-requirements`, or `GET /datasets/<filename>.json`, for example `/datasets/states.json`. Dataset endpoints also accept exact-match filters and pagination, such as `/datasets/states.json?abbr=CA`, `/datasets/counties_2023.json?STATEFP=06&limit=25`, or `/datasets/federal_judges.json?limit=20&offset=40`. `/dataset-groups` combines repository-safe `_partN` shards into logical datasets and reports their aggregate record counts; `/dataset-groups/<group>` applies the same filters and pagination across all shards. The server is read-only and only serves files listed in `metadata/catalog.json`.
 
 Exact-match filters are case-insensitive, and text containment filters use the `field__contains=value` form (for example, `/datasets/states.json?name__contains=land`). The API smoke tests run in CI with `python -m unittest tests/test_api.py`.
 
