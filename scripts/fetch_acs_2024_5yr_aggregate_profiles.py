@@ -18,6 +18,12 @@ TABLES = {
     "b19013": ("income", "B19013", {"B19013_E001", "B19013_M001"}),
     "b25001": ("housing", "B25001", {"B25001_E001", "B25001_M001"}),
     "b02001": ("race", "B02001", {"B02001_E001", "B02001_M001", "B02001_E002", "B02001_E003", "B02001_E004", "B02001_E005", "B02001_E006", "B02001_E007", "B02001_E008"}),
+    "b11001": ("households", "B11001", {"B11001_E001", "B11001_M001", "B11001_E002"}),
+    "b23025": ("labor", "B23025", {"B23025_E001", "B23025_M001", "B23025_E002", "B23025_E005"}),
+    "b08301": ("commuting", "B08301", {"B08301_E001", "B08301_M001", "B08301_E002", "B08301_E003", "B08301_E004", "B08301_E005"}),
+    "b25044": ("vehicles", "B25044", {"B25044_E001", "B25044_M001", "B25044_E002", "B25044_E003", "B25044_E004", "B25044_E005"}),
+    "b28002": ("internet", "B28002", {"B28002_E001", "B28002_M001", "B28002_E002", "B28002_E003", "B28002_E004", "B28002_E005"}),
+    "b25070": ("rent_burden", "B25070", {"B25070_E001", "B25070_M001", "B25070_E002", "B25070_E003", "B25070_E004", "B25070_E005"}),
 }
 GEOGRAPHIES = {
     "us": ("0100000US", 1),
@@ -65,7 +71,7 @@ def main():
             filename = f"acs_{kind}_{label}_2024_5yr.json"
             (NORMALIZED / filename).write_text(json.dumps(rows, separators=(",", ":")) + "\n", encoding="utf-8")
             results[filename] = {"source": source, "file": "data/normalized/" + filename, "records": len(rows)}
-    manifest = {"retrieved_at": retrieved_at, "tables": results, "note": "Public table-based ACS 2024 5-year aggregate profiles for the nation, regions, divisions, and states; no API key used."}
+    manifest = {"retrieved_at": retrieved_at, "tables": results, "note": "Public table-based ACS 2024 5-year aggregate demographic, household, labor, commuting, vehicle, internet, and rent-burden profiles for the nation, regions, divisions, and states; no API key used."}
     (RAW / "acs_aggregate_2024_5yr_profiles_manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(manifest, indent=2))
 

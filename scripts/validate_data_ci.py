@@ -42,6 +42,13 @@ def main():
             assert len({row[geography] for row in rows}) == expected
             assert all(row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
 
+    for geography, expected in (("us", 1), ("region", 4), ("division", 9), ("state", 52)):
+        for label in ("households", "labor", "commuting", "vehicles", "internet", "rent_burden"):
+            rows = read_json(ROOT / f"data/normalized/acs_{geography}_{label}_2024_5yr.json")
+            assert len(rows) == expected, f"unexpected {geography} {label} row count"
+            assert len({row["geography_geoid"] for row in rows}) == expected
+            assert all(row.get("source") and row.get("vintage") == "2024 ACS 5-year" for row in rows)
+
     disasters = []
     for path in sorted((ROOT / "data/normalized").glob("fema_disaster_declarations_part*.json")):
         disasters.extend(read_json(path))

@@ -1205,5 +1205,14 @@
     "format": "Delimited bulk summary files",
     "license": "U.S. government public data",
     "notes": "Keyless commuting, vehicle availability, internet access, and rent-burden profiles for 935 CBSAs and 184 CSAs."
+  },
+  {
+    "id": "census-acs-2024-aggregate-access-profiles",
+    "name": "ACS 2024 5-Year Aggregate Access and Labor Profiles",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/",
+    "format": "Delimited bulk summary files",
+    "license": "U.S. government public data",
+    "notes": "Keyless household, labor-force, commuting, vehicle availability, internet access, and rent-burden profiles for the nation, Census regions, divisions, and states."
   }
 ]

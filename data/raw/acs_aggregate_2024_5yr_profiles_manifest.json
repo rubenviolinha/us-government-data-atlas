@@ -1,5 +1,5 @@
 {
-  "retrieved_at": "2026-09-26T12:38:26.554114+00:00",
+  "retrieved_at": "2026-09-26T15:16:28.008256+00:00",
   "tables": {
     "acs_us_age_sex_2024_5yr.json": {
       "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
@@ -120,7 +120,127 @@
       "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat",
       "file": "data/normalized/acs_state_race_2024_5yr.json",
       "records": 52
+    },
+    "acs_us_households_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b11001.dat",
+      "file": "data/normalized/acs_us_households_2024_5yr.json",
+      "records": 1
+    },
+    "acs_region_households_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b11001.dat",
+      "file": "data/normalized/acs_region_households_2024_5yr.json",
+      "records": 4
+    },
+    "acs_division_households_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b11001.dat",
+      "file": "data/normalized/acs_division_households_2024_5yr.json",
+      "records": 9
+    },
+    "acs_state_households_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b11001.dat",
+      "file": "data/normalized/acs_state_households_2024_5yr.json",
+      "records": 52
+    },
+    "acs_us_labor_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b23025.dat",
+      "file": "data/normalized/acs_us_labor_2024_5yr.json",
+      "records": 1
+    },
+    "acs_region_labor_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b23025.dat",
+      "file": "data/normalized/acs_region_labor_2024_5yr.json",
+      "records": 4
+    },
+    "acs_division_labor_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b23025.dat",
+      "file": "data/normalized/acs_division_labor_2024_5yr.json",
+      "records": 9
+    },
+    "acs_state_labor_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b23025.dat",
+      "file": "data/normalized/acs_state_labor_2024_5yr.json",
+      "records": 52
+    },
+    "acs_us_commuting_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08301.dat",
+      "file": "data/normalized/acs_us_commuting_2024_5yr.json",
+      "records": 1
+    },
+    "acs_region_commuting_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08301.dat",
+      "file": "data/normalized/acs_region_commuting_2024_5yr.json",
+      "records": 4
+    },
+    "acs_division_commuting_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08301.dat",
+      "file": "data/normalized/acs_division_commuting_2024_5yr.json",
+      "records": 9
+    },
+    "acs_state_commuting_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08301.dat",
+      "file": "data/normalized/acs_state_commuting_2024_5yr.json",
+      "records": 52
+    },
+    "acs_us_vehicles_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25044.dat",
+      "file": "data/normalized/acs_us_vehicles_2024_5yr.json",
+      "records": 1
+    },
+    "acs_region_vehicles_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25044.dat",
+      "file": "data/normalized/acs_region_vehicles_2024_5yr.json",
+      "records": 4
+    },
+    "acs_division_vehicles_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25044.dat",
+      "file": "data/normalized/acs_division_vehicles_2024_5yr.json",
+      "records": 9
+    },
+    "acs_state_vehicles_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25044.dat",
+      "file": "data/normalized/acs_state_vehicles_2024_5yr.json",
+      "records": 52
+    },
+    "acs_us_internet_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat",
+      "file": "data/normalized/acs_us_internet_2024_5yr.json",
+      "records": 1
+    },
+    "acs_region_internet_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat",
+      "file": "data/normalized/acs_region_internet_2024_5yr.json",
+      "records": 4
+    },
+    "acs_division_internet_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat",
+      "file": "data/normalized/acs_division_internet_2024_5yr.json",
+      "records": 9
+    },
+    "acs_state_internet_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat",
+      "file": "data/normalized/acs_state_internet_2024_5yr.json",
+      "records": 52
+    },
+    "acs_us_rent_burden_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat",
+      "file": "data/normalized/acs_us_rent_burden_2024_5yr.json",
+      "records": 1
+    },
+    "acs_region_rent_burden_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat",
+      "file": "data/normalized/acs_region_rent_burden_2024_5yr.json",
+      "records": 4
+    },
+    "acs_division_rent_burden_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat",
+      "file": "data/normalized/acs_division_rent_burden_2024_5yr.json",
+      "records": 9
+    },
+    "acs_state_rent_burden_2024_5yr.json": {
+      "source": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat",
+      "file": "data/normalized/acs_state_rent_burden_2024_5yr.json",
+      "records": 52
     }
   },
-  "note": "Public table-based ACS 2024 5-year aggregate profiles for the nation, regions, divisions, and states; no API key used."
+  "note": "Public table-based ACS 2024 5-year aggregate demographic, household, labor, commuting, vehicle, internet, and rent-burden profiles for the nation, regions, divisions, and states; no API key used."
 }
