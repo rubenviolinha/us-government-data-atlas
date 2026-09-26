@@ -8,6 +8,8 @@
   "servers": [{"url": "http://localhost:8000", "description": "Local API server"}],
   "paths": {
     "/health": {"get": {"summary": "Health check", "responses": {"200": {"description": "Service is ready"}}}},
+    "/openapi.json": {"get": {"summary": "OpenAPI contract", "responses": {"200": {"description": "This API specification"}}}},
+    "/release-manifest": {"get": {"summary": "Content-addressed release manifest", "responses": {"200": {"description": "SHA-256 and size metadata for every normalized file"}}}},
     "/": {"get": {"summary": "Catalog", "responses": {"200": {"$ref": "#/components/responses/Catalog"}}}},
     "/catalog": {"get": {"summary": "Catalog", "responses": {"200": {"$ref": "#/components/responses/Catalog"}}}},
     "/datasets": {"get": {"summary": "Catalog", "responses": {"200": {"$ref": "#/components/responses/Catalog"}}}},

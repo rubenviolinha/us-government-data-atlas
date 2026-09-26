@@ -48,6 +48,13 @@ class ApiSmokeTests(unittest.TestCase):
         self.assertEqual(payload["openapi"], "3.1.0")
         self.assertIn("/datasets/{filename}.json", payload["paths"])
 
+    def test_release_manifest(self):
+        status, payload = self.get("/release-manifest")
+        self.assertEqual(status, 200)
+        self.assertEqual(payload["algorithm"], "sha256")
+        self.assertEqual(payload["dataset_count"], len(payload["datasets"]))
+        self.assertTrue(all(len(item["sha256"]) == 64 for item in payload["datasets"]))
+
     def test_cors_and_preflight(self):
         status, headers = self.options("/catalog")
         self.assertEqual(status, 204)
