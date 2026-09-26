@@ -1430,5 +1430,14 @@
     "format": "Public CDE JSON normalized to long-form JSON",
     "license": "U.S. government public data",
     "notes": "National and 57 state/territory monthly arrest counts and rates from 2000 through 2024. Current public CDE endpoint queried without an API key."
+  },
+  {
+    "id": "nhtsa-recalls-2020-2024",
+    "name": "NHTSA Recall Campaigns 2020-2024",
+    "publisher": "National Highway Traffic Safety Administration",
+    "url": "https://www.nhtsa.gov/nhtsa-datasets-and-apis",
+    "format": "Official CSV inside ZIP normalized to JSON shards",
+    "license": "U.S. government public data",
+    "notes": "216,208 public recall-campaign rows with NHTSA IDs, document names, makes, models, model years, and safety summaries for 2020-2024. No API key used."
   }
 ]

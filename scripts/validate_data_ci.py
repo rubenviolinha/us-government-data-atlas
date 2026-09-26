@@ -244,7 +244,16 @@ def main():
     assert len({row["state"] for row in arrests if row.get("state")}) >= 57
     assert all(row.get("source") and row.get("vintage") == "FBI Crime Data Explorer UCR arrest counts 2000-2024" for row in arrests)
 
-    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)} SVI counties={len(svi_counties)} tracts={len(svi_tracts)} ZCTAs={len(svi_zctas)} aviation={len(aviation)} earthquakes={len(earthquakes)} tide_stations={len(tide_stations)} nws_stations={nws_entry['records']} zcta_place={len(zcta_place_relationships)} zcta_tract={len(zcta_tract_relationships)} tract_puma={len(tract_puma_relationships)} usgs_stream_sites={len(water_sites)} storm_events={len(storm_events)} qcew={len(qcew)} qcew_industry={len(qcew_industry)} epa_frs={len(epa_facilities)} ghcn_stations={len(ghcn)} fbi_cde_crime={len(crime)} fbi_cde_agencies={len(agencies)} fbi_cde_arrests={len(arrests)}")
+    recalls = []
+    for path in sorted((ROOT / "data/normalized").glob("nhtsa_recalls_2020_2024_part*.json")):
+        recalls.extend(read_json(path))
+    assert len(recalls) >= 210000
+    assert len({json.dumps(row, sort_keys=True) for row in recalls}) >= 200000
+    assert len({row["nhtsa_id"] for row in recalls}) >= 3000
+    assert all(row.get("nhtsa_id") and row.get("summary") and row.get("source") for row in recalls)
+    assert all(row.get("vintage") == "NHTSA recall campaigns 2020-2024" for row in recalls)
+
+    print(f"CI validation passed: catalog={len(entries)} states={len(states)} FEMA declarations={len(disasters)} PLACES county rows={len(places)} ZCTA rows={len(zcta_places)} place rows={len(named_places)} NCES schools={len(schools)} NCES districts={len(districts)} NCES private schools={len(private_schools)} NPS register={len(register)} SVI counties={len(svi_counties)} tracts={len(svi_tracts)} ZCTAs={len(svi_zctas)} aviation={len(aviation)} earthquakes={len(earthquakes)} tide_stations={len(tide_stations)} nws_stations={nws_entry['records']} zcta_place={len(zcta_place_relationships)} zcta_tract={len(zcta_tract_relationships)} tract_puma={len(tract_puma_relationships)} usgs_stream_sites={len(water_sites)} storm_events={len(storm_events)} qcew={len(qcew)} qcew_industry={len(qcew_industry)} epa_frs={len(epa_facilities)} ghcn_stations={len(ghcn)} fbi_cde_crime={len(crime)} fbi_cde_agencies={len(agencies)} fbi_cde_arrests={len(arrests)} nhtsa_recalls={len(recalls)}")
 
 
 if __name__ == "__main__":

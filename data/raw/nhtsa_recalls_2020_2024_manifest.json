@@ -1,0 +1,12 @@
+{
+  "source": "https://static.nhtsa.gov/odi/ffdd/rcl/RCL_FROM_2020_2024.zip",
+  "source_catalog": "https://www.nhtsa.gov/nhtsa-datasets-and-apis",
+  "format": "Official NHTSA CSV inside ZIP normalized to JSON shards",
+  "license": "U.S. government public data",
+  "vintage": "NHTSA recall campaigns 2020-2024",
+  "retrieved_at": "2026-09-26T20:54:40.380947+00:00",
+  "records": 216208,
+  "parts": 15,
+  "file_prefix": "data/normalized/nhtsa_recalls_2020_2024_part",
+  "note": "Recall campaign document metadata and safety summaries for vehicles and equipment; no API key used."
+}

@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T20:47:37.549916+00:00",
+  "generated_at": "2026-09-26T20:55:43.173062+00:00",
   "algorithm": "sha256",
-  "dataset_count": 961,
+  "dataset_count": 976,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -4328,6 +4328,81 @@
       "file": "data/normalized/nces_public_schools_2024_25_part2.json",
       "sha256": "76d370c46d01d8d29c9918b2f2b0d2a95b25b13b955a9bffe35f7db51ed3c0d8",
       "size_bytes": 33357334
+    },
+    {
+      "file": "data/normalized/nhtsa_recalls_2020_2024_part1.json",
+      "sha256": "be98d17587022ef30625984e98edb56b125d36a30e2a5448f7e6e9e324b01526",
+      "size_bytes": 12477733
+    },
+    {
+      "file": "data/normalized/nhtsa_recalls_2020_2024_part10.json",
+      "sha256": "9a275cd1c223ebc1404cda9fb9ab92658b4dd5aaf1a95b7a1be65460bc8adf9e",
+      "size_bytes": 7856539
+    },
+    {
+      "file": "data/normalized/nhtsa_recalls_2020_2024_part11.json",
+      "sha256": "e8129ff0f9189399c6e9c407fd340fd52c5d8a209ccf7007df2e376fbf641495",
+      "size_bytes": 7926045
+    },
+    {
+      "file": "data/normalized/nhtsa_recalls_2020_2024_part12.json",
+      "sha256": "c048266376f2fe1ffab7521759505acbd14cd9e50182dc6c019b04e1cc7d378a",
+      "size_bytes": 10081501
+    },
+    {
+      "file": "data/normalized/nhtsa_recalls_2020_2024_part13.json",
+      "sha256": "90a0430f5017a0eab7a1db4f015b5a6cb6cbf2f259666210c519cffdf67a9b0b",
+      "size_bytes": 7717511
+    },
+    {
+      "file": "data/normalized/nhtsa_recalls_2020_2024_part14.json",
+      "sha256": "9fe89d65d9cff2b0b9d328b77db14c8b34bc8cfc0279160443469e850211f70b",
+      "size_bytes": 7247790
+    },
+    {
+      "file": "data/normalized/nhtsa_recalls_2020_2024_part15.json",
+      "sha256": "bacec005bfe6ad9f6ff6f63c6cc5bc4fa70daae9b40f139a60794ed1212c7f47",
+      "size_bytes": 3383840
+    },
+    {
+      "file": "data/normalized/nhtsa_recalls_2020_2024_part2.json",
+      "sha256": "5ef594f182a06b2a2e60e9e5949d603f2c80935867363481ab4afe7a428b86d9",
+      "size_bytes": 7714447
+    },
+    {
+      "file": "data/normalized/nhtsa_recalls_2020_2024_part3.json",
+      "sha256": "d9b452da67a8f2126850eb482b1ddb7d1a8bb69edf0c265962caf00c9c271adf",
+      "size_bytes": 7458926
+    },
+    {
+      "file": "data/normalized/nhtsa_recalls_2020_2024_part4.json",
+      "sha256": "e9fa06a36bb5c5d37f5a706dabcd9919cdf1339d30b2912815eb8f04632565b3",
+      "size_bytes": 8145225
+    },
+    {
+      "file": "data/normalized/nhtsa_recalls_2020_2024_part5.json",
+      "sha256": "846f72808400457ed0062d7d03b1ed3d48bd9f2c0fca688299fca817bc911bfd",
+      "size_bytes": 7326779
+    },
+    {
+      "file": "data/normalized/nhtsa_recalls_2020_2024_part6.json",
+      "sha256": "a2208aa93bf0d1b0ad35213860437a29b7533d842e7bd4c388cc79359a2a750e",
+      "size_bytes": 7874531
+    },
+    {
+      "file": "data/normalized/nhtsa_recalls_2020_2024_part7.json",
+      "sha256": "c421de48f2b948b428b7d5fd0007f8b849af00af82ecab3ca7bb36f587c58fb1",
+      "size_bytes": 7628154
+    },
+    {
+      "file": "data/normalized/nhtsa_recalls_2020_2024_part8.json",
+      "sha256": "f04de0062c054824f10098d071ac04cb4c4f189cf7a0c10c939a2292d02cefd7",
+      "size_bytes": 7264840
+    },
+    {
+      "file": "data/normalized/nhtsa_recalls_2020_2024_part9.json",
+      "sha256": "811554af6da8218c6e01a0f914300d912939a54b40fb1c4e0e6d9dd0c746f9c6",
+      "size_bytes": 7301375
     },
     {
       "file": "data/normalized/noaa_county_climate_annual_avg_temperature_1895_2024_part1.json",

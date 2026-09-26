@@ -176,6 +176,8 @@ The companion FBI Crime Data Explorer agency registry is included with public OR
 
 The FBI Crime Data Explorer arrest release is included as a national/state monthly series of UCR arrest counts and rates from 2000 through 2024. It uses the public CDE endpoint and does not require an API key.
 
+The NHTSA 2020–2024 recall campaign release is included as repository-safe JSON shards with NHTSA campaign IDs, document names, makes, models, model years, and safety summaries. It is fetched from NHTSA's public bulk ZIP and does not require an API key.
+
 ## Local API
 
 The checked-in releases can be queried locally without an API key:
