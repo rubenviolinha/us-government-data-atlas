@@ -1,0 +1,8 @@
+{
+  "source": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_place20_natl.txt",
+  "source_catalog": "https://www.census.gov/geographies/reference-files/2020/geo/relationship-files.html",
+  "vintage": "2020 Census ZCTA-to-place relationship file",
+  "retrieved_at": "2026-09-26T18:27:49.219795+00:00",
+  "records": 53319,
+  "raw_rows": 82880
+}

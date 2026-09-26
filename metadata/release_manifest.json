@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T18:09:37.629733+00:00",
+  "generated_at": "2026-09-26T18:28:36.123205+00:00",
   "algorithm": "sha256",
-  "dataset_count": 724,
+  "dataset_count": 725,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -3583,6 +3583,11 @@
       "file": "data/normalized/zcta_county_relationships_2020.json",
       "sha256": "b83f039f706523e4173c8510a0a159713cefad28f2751f438f56cd020f70e6b3",
       "size_bytes": 6348500
+    },
+    {
+      "file": "data/normalized/zcta_place_relationships_2020.json",
+      "sha256": "f0592cc1627f9cbac284b56fdf2e0e774986326db647168a3d2af882b5d1f8c9",
+      "size_bytes": 28607898
     },
     {
       "file": "data/normalized/zcta_population_acs_2023.json",

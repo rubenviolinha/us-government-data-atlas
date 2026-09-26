@@ -1322,5 +1322,14 @@
     "format": "GeoJSON API",
     "license": "U.S. government public data",
     "notes": "Public registry of NWS observation stations with identifiers, names, coordinates, elevation, provider, time zone, and linked forecast/county/fire-weather zones. The API requires a descriptive User-Agent but no API key."
+  },
+  {
+    "id": "census-2020-zcta-place-relationships",
+    "name": "2020 Census ZCTA-to-Place Relationships",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_place20_natl.txt",
+    "format": "Pipe-delimited text normalized to JSON",
+    "license": "U.S. government public data",
+    "notes": "Official national relationship file connecting 2020 ZIP Code Tabulation Areas to incorporated places and census-designated places, with area-overlap fields. No API key used."
   }
 ]

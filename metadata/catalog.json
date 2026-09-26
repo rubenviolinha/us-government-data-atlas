@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T18:09:32.189872+00:00",
+  "generated_at": "2026-09-26T18:28:30.660146+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -19348,6 +19348,30 @@
         "GEOID_ZCTA5_20"
       ],
       "source_urls_sample": []
+    },
+    {
+      "file": "data/normalized/zcta_place_relationships_2020.json",
+      "format": "JSON",
+      "records": 53319,
+      "size_bytes": 28607898,
+      "fields_sample": [
+        "land_area_part",
+        "place",
+        "place_land_area",
+        "place_name",
+        "place_water_area",
+        "retrieved_at",
+        "source",
+        "vintage",
+        "water_area_part",
+        "zcta",
+        "zcta_land_area",
+        "zcta_name",
+        "zcta_water_area"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_place20_natl.txt"
+      ]
     },
     {
       "file": "data/normalized/zcta_population_acs_2023.json",
