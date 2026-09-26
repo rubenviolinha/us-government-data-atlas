@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T20:55:43.173062+00:00",
+  "generated_at": "2026-09-26T21:08:06.524454+00:00",
   "algorithm": "sha256",
-  "dataset_count": 976,
+  "dataset_count": 992,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -4328,6 +4328,86 @@
       "file": "data/normalized/nces_public_schools_2024_25_part2.json",
       "sha256": "76d370c46d01d8d29c9918b2f2b0d2a95b25b13b955a9bffe35f7db51ed3c0d8",
       "size_bytes": 33357334
+    },
+    {
+      "file": "data/normalized/nhtsa_investigations_part1.json",
+      "sha256": "eda237a0d5b87ca82d8b0a4b987e791780cd7f54829affdf84594d7a1c4f16aa",
+      "size_bytes": 25854663
+    },
+    {
+      "file": "data/normalized/nhtsa_investigations_part10.json",
+      "sha256": "6a4357a045609db5914ab38c9cb2378252c0ca0e88acd66bc2015452f4943d58",
+      "size_bytes": 37718866
+    },
+    {
+      "file": "data/normalized/nhtsa_investigations_part11.json",
+      "sha256": "b02dc0590c2114dce2b5b6d8f3d05d6981e2eb8f4f0ad0bf81baec27698183cb",
+      "size_bytes": 15229137
+    },
+    {
+      "file": "data/normalized/nhtsa_investigations_part12.json",
+      "sha256": "57fb11cf7b5f3f56328864ac788334ee524f5b8d2cf67d699ef54d47170f6285",
+      "size_bytes": 17150125
+    },
+    {
+      "file": "data/normalized/nhtsa_investigations_part13.json",
+      "sha256": "f16c0ac9d15e8c05fa89860bc95f72b828dc100427303cc9537581a5b3295d39",
+      "size_bytes": 28207677
+    },
+    {
+      "file": "data/normalized/nhtsa_investigations_part14.json",
+      "sha256": "f7e9edce3c4a58a8df9f26b45cacaf70e931c8f06df7f7e187a527a0c86aa673",
+      "size_bytes": 22296121
+    },
+    {
+      "file": "data/normalized/nhtsa_investigations_part15.json",
+      "sha256": "ecbdce8a3255e1be9b2e63fb14423f387621f716e75b3807daa023e9ee5c466f",
+      "size_bytes": 16103215
+    },
+    {
+      "file": "data/normalized/nhtsa_investigations_part16.json",
+      "sha256": "56116a1772c9c30eddcba4dc9c52ba7f71870aa7eae9491df81586e2c8392dc3",
+      "size_bytes": 10427211
+    },
+    {
+      "file": "data/normalized/nhtsa_investigations_part2.json",
+      "sha256": "8ff0212c99aa98bd9d464ee0dbe1895dd85f5667b65a8a3bff623b85180d61aa",
+      "size_bytes": 19707878
+    },
+    {
+      "file": "data/normalized/nhtsa_investigations_part3.json",
+      "sha256": "b886820d4cda0f20eccb644daf57f9416e0f364e4a6366d70e25e165aa6ad0c5",
+      "size_bytes": 33492586
+    },
+    {
+      "file": "data/normalized/nhtsa_investigations_part4.json",
+      "sha256": "ff764b0edee1b1c6acd723c12fdc311d6c0b5faf04988a66ad50d4cc0282446b",
+      "size_bytes": 36199552
+    },
+    {
+      "file": "data/normalized/nhtsa_investigations_part5.json",
+      "sha256": "0dae75fc25862c090139573b7597015ede32ce260dc07bdd3e90a2d91c364e11",
+      "size_bytes": 36210602
+    },
+    {
+      "file": "data/normalized/nhtsa_investigations_part6.json",
+      "sha256": "ec4662d0b48678c014817f1a7e185007ba5525a5de17e5cd7cc451532bff8749",
+      "size_bytes": 36260300
+    },
+    {
+      "file": "data/normalized/nhtsa_investigations_part7.json",
+      "sha256": "cd76a9ab3251ec7e134df8e38c1972c4d593a1ffa4fde5094c15a36d04de4523",
+      "size_bytes": 36290202
+    },
+    {
+      "file": "data/normalized/nhtsa_investigations_part8.json",
+      "sha256": "79cf314213b5a9146d673d94a1f10fd528cd2d648871ed4b4468284cd51c7db8",
+      "size_bytes": 36180982
+    },
+    {
+      "file": "data/normalized/nhtsa_investigations_part9.json",
+      "sha256": "225aa31e8369a89e3be40f220550c4e536f211bd5a96b2d83d61b9efa620d44d",
+      "size_bytes": 36252146
     },
     {
       "file": "data/normalized/nhtsa_recalls_2020_2024_part1.json",

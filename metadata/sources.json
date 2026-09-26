@@ -1439,5 +1439,14 @@
     "format": "Official CSV inside ZIP normalized to JSON shards",
     "license": "U.S. government public data",
     "notes": "216,208 public recall-campaign rows with NHTSA IDs, document names, makes, models, model years, and safety summaries for 2020-2024. No API key used."
+  },
+  {
+    "id": "nhtsa-investigations",
+    "name": "NHTSA Defect Investigations",
+    "publisher": "National Highway Traffic Safety Administration",
+    "url": "https://www.nhtsa.gov/nhtsa-datasets-and-apis",
+    "format": "Official tab-delimited text inside ZIP normalized to JSON shards",
+    "license": "U.S. government public data",
+    "notes": "154,383 public safety-related defect investigations opened since 1972, with investigation identifiers, vehicles/equipment, components, dates, subjects, detailed summaries, and linked recall campaigns. No API key used."
   }
 ]
