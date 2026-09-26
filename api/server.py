@@ -12,6 +12,7 @@ DATA = ROOT / "data" / "normalized"
 CATALOG = ROOT / "metadata" / "catalog.json"
 SOURCES = ROOT / "metadata" / "sources.json"
 ACCESS_REQUIREMENTS = ROOT / "metadata" / "access_requirements.json"
+OPENAPI = ROOT / "docs" / "openapi.json"
 
 
 def read_json(path):
@@ -60,6 +61,8 @@ class Handler(BaseHTTPRequestHandler):
         path = urlparse(self.path).path.rstrip("/") or "/"
         if path == "/health":
             return self.send_json({"status": "ok"})
+        if path == "/openapi.json":
+            return self.send_json(read_json(OPENAPI))
         if path in {"/", "/catalog", "/datasets"}:
             return self.send_json(read_json(CATALOG))
         if path == "/dataset-groups":

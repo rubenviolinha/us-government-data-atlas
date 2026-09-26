@@ -33,6 +33,12 @@ class ApiSmokeTests(unittest.TestCase):
         self.assertEqual(status, 200)
         self.assertEqual(payload["status"], "ok")
 
+    def test_openapi_document(self):
+        status, payload = self.get("/openapi.json")
+        self.assertEqual(status, 200)
+        self.assertEqual(payload["openapi"], "3.1.0")
+        self.assertIn("/datasets/{filename}.json", payload["paths"])
+
     def test_filter_and_pagination(self):
         status, payload = self.get("/datasets/states.json?abbr=CA&limit=1")
         self.assertEqual(status, 200)
