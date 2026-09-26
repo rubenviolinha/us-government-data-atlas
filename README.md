@@ -84,6 +84,7 @@ python3 scripts/fetch_nws_stations.py
 python3 scripts/fetch_zcta_place_relationships.py
 python3 scripts/fetch_zcta_tract_relationships.py
 python3 scripts/fetch_tract_puma_relationships.py
+python3 scripts/fetch_usgs_active_stream_sites.py
 python3 scripts/fetch_cdc_places_2024_counties.py
 python3 scripts/fetch_cdc_places_2024_zctas.py
 python3 scripts/fetch_cdc_places_2024_places.py
@@ -151,6 +152,8 @@ The 2020 Census ZCTA-to-place relationship file is included with 2020 ZCTA and p
 The 2020 Census ZCTA-to-tract relationship file is included with 2020 ZCTA and tract identifiers, names, and land/water area-overlap fields. It is a public Census bulk file and does not require an API key.
 
 The 2020 Census tract-to-PUMA relationship file is included with 85,452 tract-to-PUMA mappings keyed by 2020 Census GEOIDs. It is a public Census bulk file and does not require an API key.
+
+The USGS active stream-site registry is included with 11,645 monitoring sites that have instantaneous-data availability, including station identifiers, names, site types, coordinates, elevations, and HUC8 hydrologic-unit codes. It is queried from the public USGS site service without an API key.
 
 ## Local API
 

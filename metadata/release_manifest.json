@@ -1,8 +1,8 @@
 {
   "release_id": "20260926",
-  "generated_at": "2026-09-26T18:49:49.203662+00:00",
+  "generated_at": "2026-09-26T19:17:11.169205+00:00",
   "algorithm": "sha256",
-  "dataset_count": 730,
+  "dataset_count": 731,
   "datasets": [
     {
       "file": "data/normalized/acs_aiannh_age_sex_2024_5yr.json",
@@ -3563,6 +3563,11 @@
       "file": "data/normalized/urban_areas_2025.json",
       "sha256": "e20db81b197a3324e76ac0b565653ca2d0592d3ca95165b3a9fc84689c5e864b",
       "size_bytes": 705669
+    },
+    {
+      "file": "data/normalized/usgs_active_stream_sites.json",
+      "sha256": "2f78041e668aea4c8f85055462132ef8dc31efd309457e2479c0b0fb141b7571",
+      "size_bytes": 5331089
     },
     {
       "file": "data/normalized/usgs_earthquakes_past_week.json",

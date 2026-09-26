@@ -1349,5 +1349,14 @@
     "format": "Comma-delimited text normalized to JSON",
     "license": "U.S. government public data",
     "notes": "Official national relationship file connecting 2020 census tracts to 2020 Public Use Microdata Areas (PUMAs), keyed by Census GEOIDs. No API key used."
+  },
+  {
+    "id": "usgs-active-stream-sites",
+    "name": "USGS Active Stream Sites with Instantaneous Data",
+    "publisher": "U.S. Geological Survey",
+    "url": "https://waterservices.usgs.gov/rest/Site-Service.html",
+    "format": "USGS RDB site service normalized to JSON",
+    "license": "U.S. government public data",
+    "notes": "11,645 active stream monitoring sites across states and territories with instantaneous-data availability, coordinates, station names, HUC8 codes, and elevations. Queried from the public USGS site service without an API key; no-data territory endpoints are recorded as zero-row queries."
   }
 ]
