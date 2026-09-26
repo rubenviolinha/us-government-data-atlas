@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T12:35:59.485002+00:00",
+  "generated_at": "2026-09-26T12:39:44.270016+00:00",
   "description": "Machine-readable inventory of normalized US Government Data Atlas releases.",
   "entries": [
     {
@@ -2827,6 +2827,140 @@
       ]
     },
     {
+      "file": "data/normalized/acs_division_age_sex_2024_5yr.json",
+      "format": "JSON",
+      "records": 9,
+      "size_bytes": 3491,
+      "fields_sample": [
+        "B01001_E001",
+        "B01001_E002",
+        "B01001_E026",
+        "B01001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_division_education_2024_5yr.json",
+      "format": "JSON",
+      "records": 9,
+      "size_bytes": 3604,
+      "fields_sample": [
+        "B15003_E001",
+        "B15003_E002",
+        "B15003_E017",
+        "B15003_E025",
+        "B15003_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_division_housing_2024_5yr.json",
+      "format": "JSON",
+      "records": 9,
+      "size_bytes": 3021,
+      "fields_sample": [
+        "B25001_E001",
+        "B25001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_division_income_2024_5yr.json",
+      "format": "JSON",
+      "records": 9,
+      "size_bytes": 2990,
+      "fields_sample": [
+        "B19013_E001",
+        "B19013_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_division_poverty_2024_5yr.json",
+      "format": "JSON",
+      "records": 9,
+      "size_bytes": 3421,
+      "fields_sample": [
+        "B17001_E001",
+        "B17001_E002",
+        "B17001_E017",
+        "B17001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_division_race_2024_5yr.json",
+      "format": "JSON",
+      "records": 9,
+      "size_bytes": 4438,
+      "fields_sample": [
+        "B02001_E001",
+        "B02001_E002",
+        "B02001_E003",
+        "B02001_E004",
+        "B02001_E005",
+        "B02001_E006",
+        "B02001_E007",
+        "B02001_E008",
+        "B02001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_metropolitan_division_age_sex_2024_5yr.json",
       "format": "JSON",
       "records": 37,
@@ -4627,6 +4761,140 @@
       ]
     },
     {
+      "file": "data/normalized/acs_region_age_sex_2024_5yr.json",
+      "format": "JSON",
+      "records": 4,
+      "size_bytes": 1547,
+      "fields_sample": [
+        "B01001_E001",
+        "B01001_E002",
+        "B01001_E026",
+        "B01001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_region_education_2024_5yr.json",
+      "format": "JSON",
+      "records": 4,
+      "size_bytes": 1600,
+      "fields_sample": [
+        "B15003_E001",
+        "B15003_E002",
+        "B15003_E017",
+        "B15003_E025",
+        "B15003_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_region_housing_2024_5yr.json",
+      "format": "JSON",
+      "records": 4,
+      "size_bytes": 1338,
+      "fields_sample": [
+        "B25001_E001",
+        "B25001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_region_income_2024_5yr.json",
+      "format": "JSON",
+      "records": 4,
+      "size_bytes": 1322,
+      "fields_sample": [
+        "B19013_E001",
+        "B19013_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_region_poverty_2024_5yr.json",
+      "format": "JSON",
+      "records": 4,
+      "size_bytes": 1516,
+      "fields_sample": [
+        "B17001_E001",
+        "B17001_E002",
+        "B17001_E017",
+        "B17001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_region_race_2024_5yr.json",
+      "format": "JSON",
+      "records": 4,
+      "size_bytes": 1978,
+      "fields_sample": [
+        "B02001_E001",
+        "B02001_E002",
+        "B02001_E003",
+        "B02001_E004",
+        "B02001_E005",
+        "B02001_E006",
+        "B02001_E007",
+        "B02001_E008",
+        "B02001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_school_age_sex_2023.json",
       "format": "JSON",
       "records": 10904,
@@ -5599,6 +5867,28 @@
       ]
     },
     {
+      "file": "data/normalized/acs_state_age_sex_2024_5yr.json",
+      "format": "JSON",
+      "records": 52,
+      "size_bytes": 19951,
+      "fields_sample": [
+        "B01001_E001",
+        "B01001_E002",
+        "B01001_E026",
+        "B01001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_state_education_2023.json",
       "format": "JSON",
       "records": 52,
@@ -5689,6 +5979,29 @@
       ]
     },
     {
+      "file": "data/normalized/acs_state_education_2024_5yr.json",
+      "format": "JSON",
+      "records": 52,
+      "size_bytes": 20528,
+      "fields_sample": [
+        "B15003_E001",
+        "B15003_E002",
+        "B15003_E017",
+        "B15003_E025",
+        "B15003_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_state_housing_2023.json",
       "format": "JSON",
       "records": 52,
@@ -5728,6 +6041,26 @@
       ]
     },
     {
+      "file": "data/normalized/acs_state_housing_2024_5yr.json",
+      "format": "JSON",
+      "records": 52,
+      "size_bytes": 17313,
+      "fields_sample": [
+        "B25001_E001",
+        "B25001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_state_income_2023.json",
       "format": "JSON",
       "records": 52,
@@ -5764,6 +6097,26 @@
       ],
       "source_urls_sample": [
         "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b19013.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_state_income_2024_5yr.json",
+      "format": "JSON",
+      "records": 52,
+      "size_bytes": 17228,
+      "fields_sample": [
+        "B19013_E001",
+        "B19013_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat"
       ]
     },
     {
@@ -6484,6 +6837,28 @@
       ]
     },
     {
+      "file": "data/normalized/acs_state_poverty_2024_5yr.json",
+      "format": "JSON",
+      "records": 52,
+      "size_bytes": 19537,
+      "fields_sample": [
+        "B17001_E001",
+        "B17001_E002",
+        "B17001_E017",
+        "B17001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat"
+      ]
+    },
+    {
       "file": "data/normalized/acs_state_race_2023.json",
       "format": "JSON",
       "records": 52,
@@ -6545,6 +6920,33 @@
       ],
       "source_urls_sample": [
         "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b02001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_state_race_2024_5yr.json",
+      "format": "JSON",
+      "records": 52,
+      "size_bytes": 25170,
+      "fields_sample": [
+        "B02001_E001",
+        "B02001_E002",
+        "B02001_E003",
+        "B02001_E004",
+        "B02001_E005",
+        "B02001_E006",
+        "B02001_E007",
+        "B02001_E008",
+        "B02001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat"
       ]
     },
     {
@@ -7839,6 +8241,140 @@
         "source",
         "table",
         "urban_area_geoid",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b02001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_us_age_sex_2024_5yr.json",
+      "format": "JSON",
+      "records": 1,
+      "size_bytes": 385,
+      "fields_sample": [
+        "B01001_E001",
+        "B01001_E002",
+        "B01001_E026",
+        "B01001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_us_education_2024_5yr.json",
+      "format": "JSON",
+      "records": 1,
+      "size_bytes": 398,
+      "fields_sample": [
+        "B15003_E001",
+        "B15003_E002",
+        "B15003_E017",
+        "B15003_E025",
+        "B15003_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_us_housing_2024_5yr.json",
+      "format": "JSON",
+      "records": 1,
+      "size_bytes": 332,
+      "fields_sample": [
+        "B25001_E001",
+        "B25001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_us_income_2024_5yr.json",
+      "format": "JSON",
+      "records": 1,
+      "size_bytes": 326,
+      "fields_sample": [
+        "B19013_E001",
+        "B19013_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_us_poverty_2024_5yr.json",
+      "format": "JSON",
+      "records": 1,
+      "size_bytes": 378,
+      "fields_sample": [
+        "B17001_E001",
+        "B17001_E002",
+        "B17001_E017",
+        "B17001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
+        "vintage"
+      ],
+      "source_urls_sample": [
+        "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat"
+      ]
+    },
+    {
+      "file": "data/normalized/acs_us_race_2024_5yr.json",
+      "format": "JSON",
+      "records": 1,
+      "size_bytes": 496,
+      "fields_sample": [
+        "B02001_E001",
+        "B02001_E002",
+        "B02001_E003",
+        "B02001_E004",
+        "B02001_E005",
+        "B02001_E006",
+        "B02001_E007",
+        "B02001_E008",
+        "B02001_M001",
+        "GEO_ID",
+        "geography_geoid",
+        "geography_type",
+        "retrieved_at",
+        "source",
+        "table",
         "vintage"
       ],
       "source_urls_sample": [
